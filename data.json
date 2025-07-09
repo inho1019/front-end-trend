@@ -1,0 +1,32 @@
+[
+    {
+        "url": "www.naver.com",
+        "name": "Naver",
+        "description": "Naver is a South Korean online platform operated by the Naver Corporation, known for its search engine, news, and various digital services.",
+        "type": {
+            "title": "title",
+            "content": "content",
+            "thumbnail": "picture"
+        }
+    },
+    {
+        "url": "www.daum.net",
+        "name": "Daum",
+        "description": "Daum is a South Korean web portal operated by Kakao, offering services such as email, news, and search.",
+        "type": {
+            "title": "title",
+            "content": "content",
+            "thumbnail": "picture"
+        }
+    },
+    {
+        "url": "www.google.com",
+        "name": "Google",
+        "description": "Google is a multinational technology company specializing in Internet-related services and products, including search engines, online advertising, and cloud computing.",
+        "type": {
+            "title": "title",
+            "content": "content",
+            "thumbnail": "picture"
+        }
+    }
+]
