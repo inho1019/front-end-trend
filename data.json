@@ -28,5 +28,15 @@
       "content": "content",
       "thumbnail": "pic"
     }
+  },
+  {
+    "url": "https://www.naver.com",
+    "name": "Noogle",
+    "description": "naver",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "thumbnail": "pic"
+    }
   }
 ]
