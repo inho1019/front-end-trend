@@ -18,5 +18,15 @@
       "content": "content",
       "thumbnail": "pic"
     }
+  },
+  {
+    "url": "https://www.google.com",
+    "name": "Google",
+    "description": "google",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "thumbnail": "pic"
+    }
   }
 ]
