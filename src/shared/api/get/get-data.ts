@@ -1,0 +1,28 @@
+import { Base64 } from "js-base64";
+import { client } from "../octokit-client"
+import type { Site } from "../../model/site";
+
+export const getData = async () =>  {
+    try {
+        const response = await client().repos.getContent({
+            owner: import.meta.env.VITE_GITHUB_OWNER,
+            repo: import.meta.env.VITE_TARGET_REPO,
+            path: import.meta.env.VITE_TARGET_PATH,
+            ref: import.meta.env.VITE_TARGET_BRANCH,
+        })
+        
+        let contentBase64: string | undefined;
+        if ('content' in response.data && typeof response.data.content === 'string') {
+            contentBase64 = response.data.content;
+        } else {
+            throw new Error("Content is not available or not in the expected format.");
+        }
+        const decodedContent = Base64.decode(contentBase64);
+        const data = JSON.parse(decodedContent) as Site[];
+
+        return { data, sha: response.data.sha };
+    } catch (error) {
+        console.error("Error get data:", error);
+        return { data: undefined, sha: undefined };
+    }
+}
