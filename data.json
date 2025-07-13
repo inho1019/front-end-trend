@@ -1,15 +1,15 @@
 [
   {
-    id: "asdf;
-    url: "https://fenews.substack.com/feed";
-    name: "FEnews";
-    description: "fenews site";
+    id: "asdf,
+    url: "https://fenews.substack.com/feed",
+    name: "FEnews",
+    description: "fenews site",
     type: {
-      title: "title";
-      content: "content:encoded";
-      createdAt: "pubDate:";
-      link: "link";
-      owner: "creator";
-    };
-  };
+      title: "title",
+      content: "content:encoded",
+      createdAt: "pubDate:",
+      link: "link",
+      owner: "creator"
+    }
+  }
 ]
