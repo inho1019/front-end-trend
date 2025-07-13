@@ -14,7 +14,8 @@ function App() {
     type: {
       title: '',
       content: '',
-      thumbnail: ''
+      thumbnail: '',
+      createdAt: ""
     }
   })
 

@@ -6,6 +6,7 @@ export type Site = {
   type: {
     title: string;
     content: string;
+    createdAt: string;
     link?: string;
     owner?: string;
     thumbnail?: string;

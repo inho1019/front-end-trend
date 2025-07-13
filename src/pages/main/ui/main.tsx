@@ -1,4 +1,4 @@
-import { MainContainer } from "../../../shared/ui";
+import { MainContainer } from "../../../shared/ui/layout";
 
 const Main = () => {
     return (
