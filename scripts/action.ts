@@ -1,34 +1,31 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
 import dotenv from 'dotenv';
-import puppeteer from 'puppeteer';
-import type { Site } from "../src/shared/model/site"
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import type { Site } from "../src/shared/model/site";
 import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
+
 dotenv.config();
+
+puppeteer.use(StealthPlugin());
 
 const parser = new RSSParser();
 
-async function fetchWithPuppeteer(url: string): Promise<string> {
+async function fetchRssWithPuppeteer(url: string): Promise<string> {
   const browser = await puppeteer.launch({
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
     headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
   try {
     const page = await browser.newPage();
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36');
     await page.goto(url, { waitUntil: 'networkidle2' });
-    const html = await page.content();
+    const rssContent = await page.evaluate(() => document.documentElement.outerHTML);
 
-    const rssMatch = html.match(/<rss[\s\S]*?<\/rss>/i);
-    const atomMatch = html.match(/<feed[\s\S]*?<\/feed>/i);
-
-    let xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
-    xml = xml.replace(/^\uFEFF/, '').trim();
-
-    console.log(xml);
-
-    return xml;
+    return rssContent;
   } finally {
     await browser.close();
   }
@@ -39,8 +36,8 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const xml = await fetchWithPuppeteer(site.url);
-            const feed = await parser.parseString(xml);
+            const rssXml = await fetchRssWithPuppeteer(site.url);
+            const feed = await parser.parseString(rssXml);
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
