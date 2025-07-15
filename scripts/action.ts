@@ -6,7 +6,13 @@ import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
 dotenv.config();
 
-const parser = new RSSParser();
+const parser = new RSSParser({
+  requestOptions: {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    }
+  }
+});
 
 (async () => {
     try {
