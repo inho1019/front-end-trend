@@ -20,6 +20,7 @@
     "i18next-browser-languagedetector": "^8.2.0",
     "js-base64": "^3.7.7",
     "luxon": "^3.7.1",
+    "puppeteer": "^24.12.1",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "react": "^19.1.0",
