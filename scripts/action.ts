@@ -33,7 +33,7 @@ const parser = new RSSParser();
                     content: item[site.type.content] ?? "",
                     createdAt,
                     link: site.type.link && (item[site.type.link] ?? ""),
-                    owner: site.type.owner && (item[site.type.owner] ?? ""),
+                    author: site.type.author && (item[site.type.author] ?? ""),
                     thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
                     site: {
                         id: site.id,

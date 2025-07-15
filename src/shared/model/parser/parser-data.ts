@@ -5,7 +5,7 @@ export type ParserData = {
     content: string;
     createdAt: DateTime;
     link?: string;
-    owner?: string;
+    author?: string;
     thumbnail?: string;
     site: {
         id: string;

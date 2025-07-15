@@ -4,7 +4,7 @@
     "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
     "createdAt": "2025-07-16T00:57:34.000+09:00",
     "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -16,7 +16,7 @@
     "content": "",
     "createdAt": "2025-07-16T00:55:26.000+09:00",
     "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -28,7 +28,7 @@
     "content": "<p>이 글이 10년전 글이라는게 신기할 정도로 지금 봐도 통렬하게 아프네요. 한국어로 번역된 것이 마침 무료 길래 다시 읽는데 팩폭으로 몸살 난 기분입니다.</p>\r\n<p>Startup Playbook 원문 보기 : https://playbook.samaltman.com/</p>",
     "createdAt": "2025-07-15T20:21:13.000+09:00",
     "link": "https://news.hada.io/topic?id=22000",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -40,7 +40,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>MLX</strong>는 <strong>Apple Silicon</strong> 기반 기계학습 연구자를 위한 <strong>배열 프레임워크</strong>임</li>\r\n<li>Python 및 <strong>C++/C/Swift API</strong> 제공, NumPy 및 PyTorch와 유사한 사용성 제공</li>\r\n<li>\r\n<strong>자동 미분</strong>, <strong>자동 벡터화</strong>, <stron...</p>",
     "createdAt": "2025-07-15T17:33:47.000+09:00",
     "link": "https://news.hada.io/topic?id=21999",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -52,7 +52,7 @@
     "content": "<p>카카오가 자사의 개발자 포털 <a href=\"https://developers.kakao.com/\">Kakao Developers</a>의 메인 페이지와 앱 관리 화면을 전면 리디자인했다.<br />\r\n이번 개편은 <strong>2020년 4월 이후 약 5년 3개월 만의 UI 업데이트</strong>로, 사용성과 접근성을 전반적으로 개선한 것이 특징이다.</p>\r\n<h3>주요 개편 내",
     "createdAt": "2025-07-15T13:30:31.000+09:00",
     "link": "https://news.hada.io/topic?id=21998",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -64,7 +64,7 @@
     "content": "<ul>\r\n<li>최근 연구에 따르면 <strong>오픈소스 개발자가 자신이 잘 아는 코드베이스에서 AI 도구를 사용할 때</strong> 오히려 작업 시간이 <strong>19% 늘어남</strong>\r\n</li>\r\n<li>개발자들은 <strong>AI가 자신을 더 빠르게 만들었다고 믿지만</strong>, 실제로는 더 느려진다는 <strong>인지와 현실 간의 괴리</stro...</p>",
     "createdAt": "2025-07-15T11:11:16.000+09:00",
     "link": "https://news.hada.io/topic?id=21996",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -76,7 +76,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>완벽함</strong>과 <strong>속도</strong>의 균형은 쉽지 않지만, 상황에 맞는 <strong>적정 품질</strong>과 <strong>기한 준수</strong>가 중요함</li>\r\n<li>초안(러프 드래프트) 개발을 먼저 진행하고, 이후에 코드 품질을 개선하는 방식이 효과적임</li>\r\n<li>\r\n<strong>요구사항을 완화</strong>하거...</p>",
     "createdAt": "2025-07-15T11:08:14.000+09:00",
     "link": "https://news.hada.io/topic?id=21995",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -88,7 +88,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>Cognition(Devin AI)</strong> 가 <strong>Windsurf</strong>를 인수하기로 결정함</li>\r\n<li>이번 인수로 Windsurf의 <strong>지적 재산권, 제품, 상표</strong>와 <strong>우수한 인재들</strong>이 Cognition에 합류함</li>\r\n<li>Windsurf 팀은 당분간 기존대로 <strong>독립 운영</strong>을 유지하...</p>",
     "createdAt": "2025-07-15T11:05:13.000+09:00",
     "link": "https://news.hada.io/topic?id=21994",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -100,7 +100,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>자바스크립트 함수 선언</strong>은 <code>function</code> 키워드를 사용한 선언, <strong>함수 표현식</strong>, <strong>화살표 함수</strong> 등 다양한 방식이 존재함</li>\r\n<li>\r\n<strong>함수 선언</strong>은 <strong>호이스팅</strong>이 적용되어 코드의 어느 위치에서든 참조 가능함</li>\r\n<l...</p>",
     "createdAt": "2025-07-15T11:04:02.000+09:00",
     "link": "https://news.hada.io/topic?id=21993",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -112,7 +112,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>Refine</strong>은 <strong>Grammarly</strong>와 유사한 기능을 제공하는 <strong>로컬 기반</strong> 문법 검사 도구임</li>\r\n<li>\r\n<strong>구독료 없이 한 번 구매로</strong> 추가 비용이나 숨겨진 수수료 없이 Refine 전체 기능을 평생 사용 가능함</li>\r\n<li>\r\n<strong>클라우드 기반 서비스</stro...</p>",
     "createdAt": "2025-07-15T11:02:11.000+09:00",
     "link": "https://news.hada.io/topic?id=21992",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -124,7 +124,7 @@
     "content": "<ul>\r\n<li>\r\n<strong>데이터 브로커</strong>들이 <strong>개인의 항공편 관련 정보</strong>를 미국 세관(CBP)과 이민세관단속국(ICE)에 판매함</li>\r\n<li>Airlines Reporting Corporation(ARC)이 <strong>여행자 기록</strong>을 모아 <strong>정부 기관과 공유</strong>함이 최근 폭로됨</li>\r\n<li>\r\n<strong>이용자 동의 ...</p>",
     "createdAt": "2025-07-15T10:59:09.000+09:00",
     "link": "https://news.hada.io/topic?id=21991",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -136,7 +136,7 @@
     "content": "<p>광선검 시뮬레이터 입니다. three.js로 웹에서 간편하게 돌릴 수 있도록 개발되었고요. 경량화와 인터렉션이 초점을 두어 만들었습니다.</p>\r\n<p>웹에서 bloom 효과가 필요하시면 이 코드를 참고해도 좋을 듯 합니다. 그 외에도 게임적인 인터렉션이나 UI 통합에서 영감을 얻으실 수 있을 것 같고요.</p>",
     "createdAt": "2025-07-15T10:58:50.000+09:00",
     "link": "https://news.hada.io/topic?id=21990",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "2",
       "url": "https://feeds.feedburner.com/geeknews-feed",
@@ -148,7 +148,7 @@
     "content": "",
     "createdAt": "2025-07-02T11:26:26.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-07",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -160,7 +160,7 @@
     "content": "",
     "createdAt": "2025-06-09T14:43:08.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-state-of-fejs-korea-2025-9d1",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -172,7 +172,7 @@
     "content": "",
     "createdAt": "2025-06-04T14:06:17.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-06",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -184,7 +184,7 @@
     "content": "",
     "createdAt": "2025-05-08T10:25:12.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-05",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -196,7 +196,7 @@
     "content": "",
     "createdAt": "2025-04-07T14:20:00.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-state-of-fejs-korea-2025",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -208,7 +208,7 @@
     "content": "",
     "createdAt": "2025-04-02T11:17:28.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-04",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -220,7 +220,7 @@
     "content": "",
     "createdAt": "2025-03-05T15:59:49.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-03",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -232,7 +232,7 @@
     "content": "",
     "createdAt": "2025-02-05T10:54:58.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-02",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -244,7 +244,7 @@
     "content": "",
     "createdAt": "2025-01-08T10:54:36.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2025-01",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -256,7 +256,7 @@
     "content": "",
     "createdAt": "2024-12-04T10:12:11.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-12",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -268,7 +268,7 @@
     "content": "",
     "createdAt": "2024-11-06T16:55:36.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-11",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -280,7 +280,7 @@
     "content": "",
     "createdAt": "2024-10-28T19:41:48.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-dan-24",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -292,7 +292,7 @@
     "content": "",
     "createdAt": "2024-10-02T11:25:47.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-10",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -304,7 +304,7 @@
     "content": "",
     "createdAt": "2024-09-04T10:40:22.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-09",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -316,7 +316,7 @@
     "content": "",
     "createdAt": "2024-08-07T13:57:08.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-08",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -328,7 +328,7 @@
     "content": "",
     "createdAt": "2024-07-03T12:32:06.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-07",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -340,7 +340,7 @@
     "content": "",
     "createdAt": "2024-06-05T14:07:30.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-06",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -352,7 +352,7 @@
     "content": "",
     "createdAt": "2024-05-08T16:19:19.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-05",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -364,7 +364,7 @@
     "content": "",
     "createdAt": "2024-04-03T14:07:56.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-04",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
@@ -376,7 +376,7 @@
     "content": "",
     "createdAt": "2024-03-06T13:51:12.000+09:00",
     "link": "https://fenews.substack.com/p/fe-news-2024-03",
-    "owner": "",
+    "author": "",
     "site": {
       "id": "1",
       "url": "https://fenews.substack.com/feed",
