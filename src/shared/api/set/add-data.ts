@@ -15,7 +15,7 @@ export const addData = async (token: string, data: Site, message?: string) => {
         await client(token).repos.createOrUpdateFileContents({
             owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
-            path: import.meta.env.VITE_TARGET_PATH,
+            path: import.meta.env.VITE_TARGET_PATH_SITE,
             branch: import.meta.env.VITE_TARGET_BRANCH,
             message: message ?? "Update site data",
             content: Base64.encode(JSON.stringify(newData, null, 2)),

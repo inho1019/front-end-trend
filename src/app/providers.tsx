@@ -1,11 +1,11 @@
 import type { PropsWithChildren } from "react";
-import { ParserProvider } from "../shared/ui/parser";
+import { DataProvider } from "../shared/ui/data";
 
 const Providers = ({ children }: PropsWithChildren) => {
     return (
-        <ParserProvider>
+        <DataProvider>
             {children}
-        </ParserProvider>
+        </DataProvider>
     );
 }
 
