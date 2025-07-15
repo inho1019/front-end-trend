@@ -1,5 +1,6 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
+import { decode } from 'entities';
 import dotenv from 'dotenv';
 import type { Site } from "../src/shared/model/site";
 import type { ParserData } from "../src/shared/model/parser";
@@ -18,6 +19,7 @@ const parser = new RSSParser();
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
+                const content = item[site.type.content];
                 let createdAt: DateTime = DateTime.invalid("Invalid date");
                 if (createdRaw) {
                     createdAt = DateTime.fromISO(createdRaw);
@@ -30,7 +32,7 @@ const parser = new RSSParser();
                 }
                 return {
                     title: item[site.type.title] ?? "",
-                    content: item[site.type.content] ?? "",
+                    content: content ? decode(decode(content)) : "",
                     createdAt,
                     link: site.type.link && (item[site.type.link] ?? ""),
                     author: site.type.author && (item[site.type.author] ?? ""),

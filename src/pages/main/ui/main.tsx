@@ -13,7 +13,7 @@ const MainPage = () => {
                             <h2 className="text-xl font-bold">{item.title}</h2>
                             <div 
                                 dangerouslySetInnerHTML={{ __html: item.content }}
-                                className="text-gray-700" 
+                                className="text-gray-700 whitespace-pre-wrap" 
                             />
                             <p className="text-sm text-gray-500">Created at: {item.createdAt.toLocaleString()}</p> 
                             {item.link && <a href={item.link} className="text-blue-500 hover:underline">Read more</a>}

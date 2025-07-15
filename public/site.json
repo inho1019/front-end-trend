@@ -9,7 +9,7 @@
       "content": "content",
       "createdAt": "isoDate",
       "link": "link",
-      "author": "creator"
+      "author": "author"
     }
   },
   {
@@ -20,7 +20,7 @@
     "type": {
       "title": "title",
       "content": "content",
-      "createdAt": "pubDate",
+      "createdAt": "isoDate",
       "link": "link",
       "author": "author"
     }
