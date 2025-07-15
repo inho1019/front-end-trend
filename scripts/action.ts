@@ -44,6 +44,8 @@ async function fetchRssWithPuppeteer(url: string): Promise<string | null> {
         return null;
     });
 
+    console.log(rssContent)
+
     return rssContent;
   } finally {
     await browser.close();

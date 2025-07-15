@@ -1,5 +1,18 @@
 [
   {
+    "id": "1",
+    "url": "https://fenews.substack.com/feed",
+    "name": "FEnews",
+    "description": "fenews site",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "createdAt": "isoDate",
+      "link": "link",
+      "owner": "creator"
+    }
+  },
+  {
     "id": "2",
     "url": "https://feeds.feedburner.com/geeknews-feed",
     "name": "GeekNews",
