@@ -1,0 +1,37 @@
+name: Update Readme
+
+on:
+# 푸시 이벤트가 발생할 때마다 아래 스크립트를 실행한다.
+  push:
+# 3시간에 한번씩 아래 스크립트를 실행한다.
+  schedule:
+    - cron: "0 */3 * * *"
+# 권한부여
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Install dependencies
+        run: yarn install
+      - name: Run RSS Parser
+        run: node scripts/action.ts
+      - name: Commit Data
+        run: |
+          git config --local user.email "inho1019@naver.com"
+          git config --local user.name "inho1019"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update data.json"
+            git push
+          else
+            echo "No changes to commit"
+          fi

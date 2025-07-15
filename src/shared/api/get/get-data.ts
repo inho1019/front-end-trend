@@ -7,7 +7,7 @@ export const getData = async () =>  {
         const response = await client().repos.getContent({
             owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
-            path: import.meta.env.VITE_TARGET_PATH,
+            path: import.meta.env.VITE_TARGET_PATH_SITE,
             ref: import.meta.env.VITE_TARGET_BRANCH,
         })
         
