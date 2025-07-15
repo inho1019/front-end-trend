@@ -26,6 +26,8 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
     let xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
     xml = xml.replace(/^\uFEFF/, '').trim();
 
+    console.log(`Fetched XML from ${url}`);
+
     return xml;
   } finally {
     await browser.close();
