@@ -18,14 +18,9 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
   try {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
+    const xml = await page.evaluate(() => document.documentElement.innerText);
 
-    const html = await page.content();
-
-    const cleaned = html
-      .replace(/^<html[^>]*><head>.*?<\/head><body[^>]*>/s, '')
-      .replace(/<\/body><\/html>$/s, '');
-
-    return cleaned;
+    return xml;
   } finally {
     await browser.close();
   }
@@ -36,8 +31,8 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const rss = await fetchWithPuppeteer(site.url);
-            const feed = await parser.parseString(rss);
+            const xml = await fetchWithPuppeteer(site.url);
+            const feed = await parser.parseString(xml);
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
