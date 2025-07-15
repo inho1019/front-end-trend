@@ -1,6 +1,7 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
 import dotenv from 'dotenv';
+import puppeteer from 'puppeteer';
 import type { Site } from "../src/shared/model/site"
 import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
@@ -8,12 +9,35 @@ dotenv.config();
 
 const parser = new RSSParser();
 
+async function fetchWithPuppeteer(url: string): Promise<string> {
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    headless: true,
+  });
+
+  try {
+    const page = await browser.newPage();
+    await page.goto(url, { waitUntil: 'networkidle2' });
+
+    const rssContent = await page.evaluate(async (feedUrl) => {
+      const response = await fetch(feedUrl);
+      if (!response.ok) throw new Error(`Fetch error: ${response.status}`);
+      return await response.text();
+    }, url);
+
+    return rssContent;
+  } finally {
+    await browser.close();
+  }
+}
+
 (async () => {
     try {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const feed = await parser.parseURL(site.url);
+            const rss = await fetchWithPuppeteer(site.url);
+            const feed = await parser.parseString(rss);
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
