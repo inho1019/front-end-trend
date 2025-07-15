@@ -17,13 +17,16 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
 
   try {
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2' });
+    let rssContent = '';
 
-    const rssContent = await page.evaluate(async (feedUrl) => {
-      const response = await fetch(feedUrl);
-      if (!response.ok) throw new Error(`Fetch error: ${response.status}`);
-      return await response.text();
-    }, url);
+    page.on('response', async (response) => {
+      const requestUrl = response.url();
+      if (requestUrl === url) {
+        rssContent = await response.text();
+      }
+    });
+
+    await page.goto(url, { waitUntil: 'networkidle2' });
 
     return rssContent;
   } finally {
