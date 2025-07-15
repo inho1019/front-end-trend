@@ -25,6 +25,8 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
 
     const xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
 
+    console.log(xml)
+
     return xml;
   } finally {
     await browser.close();
