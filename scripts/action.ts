@@ -18,7 +18,12 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
   try {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
-    const xml = await page.evaluate(() => document.documentElement.innerText);
+    const html = await page.content();
+
+    const rssMatch = html.match(/<rss[\s\S]*?<\/rss>/i);
+    const atomMatch = html.match(/<feed[\s\S]*?<\/feed>/i);
+
+    const xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
 
     return xml;
   } finally {
