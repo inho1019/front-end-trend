@@ -23,7 +23,20 @@ async function fetchRssWithPuppeteer(url: string): Promise<string> {
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36');
     await page.goto(url, { waitUntil: 'networkidle2' });
-    const rssContent = await page.evaluate(() => document.documentElement.outerHTML);
+
+    const rssContent = await page.evaluate(() => {
+        // Atom feed 기준
+        const feedElement = document.querySelector('feed');
+        if (feedElement) {
+            return feedElement.outerHTML;
+        }
+        // RSS feed 등 <rss> 태그 기준으로도 추가 가능
+        const rssElement = document.querySelector('rss');
+        if (rssElement) {
+            return rssElement.outerHTML;
+        }
+        return '';
+    });
 
     return rssContent;
   } finally {
