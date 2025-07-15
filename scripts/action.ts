@@ -23,9 +23,8 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
     const rssMatch = html.match(/<rss[\s\S]*?<\/rss>/i);
     const atomMatch = html.match(/<feed[\s\S]*?<\/feed>/i);
 
-    const xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
-
-    console.log(xml)
+    let xml = (rssMatch?.[0] || atomMatch?.[0]) ?? '';
+    xml = xml.replace(/^\uFEFF/, '').trim();
 
     return xml;
   } finally {
