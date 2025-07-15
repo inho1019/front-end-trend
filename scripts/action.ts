@@ -1,59 +1,30 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
 import dotenv from 'dotenv';
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer';
 import type { Site } from "../src/shared/model/site";
 import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
 
 dotenv.config();
 
-puppeteer.use(StealthPlugin());
-
-const parser = new RSSParser();
-
-async function fetchRssWithPuppeteer(url: string): Promise<string> {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  });
-
-  try {
-    const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36');
-    await page.goto(url, { waitUntil: 'networkidle2' });
-
-    const rssContent = await page.evaluate(() => {
-        // Atom feed 기준
-        const feedElement = document.querySelector('feed');
-        if (feedElement) {
-            return feedElement.outerHTML;
-        }
-        // RSS feed 등 <rss> 태그 기준으로도 추가 가능
-        const rssElement = document.querySelector('rss');
-        if (rssElement) {
-            return rssElement.outerHTML;
-        }
-        return '';
-    });
-
-    console.log(rssContent)
-    const cleanedXml = rssContent.replace(/xmlns="[^"]*"/g, '');
-
-    return cleanedXml;
-  } finally {
-    await browser.close();
-  }
-}
+const parser = new RSSParser({
+  requestOptions: {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.5',
+      'Referer': 'https://www.google.com',
+    },
+  },
+});
 
 (async () => {
     try {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const rssXml = await fetchRssWithPuppeteer(site.url);
-            const feed = await parser.parseString(rssXml);
+            const feed = await parser.parseURL(site.url);
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
