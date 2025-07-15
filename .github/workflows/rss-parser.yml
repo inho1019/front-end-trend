@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+env:
+  VITE_TARGET_PATH_SITE: ${{ vars.site_file_path }}
+  VITE_TARGET_PATH_DATA: ${{ data_file_path }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
