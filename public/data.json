@@ -2,7 +2,19 @@
   {
     "title": "SERVICE ANNOUNCEMENT: About this feed",
     "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
-    "createdAt": "2025-07-15T16:24:52.000+00:00",
+    "createdAt": "2025-07-15T18:40:10.000+00:00",
+    "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SERVICE ANNOUNCEMENT: About this feed",
+    "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
+    "createdAt": "2025-07-15T18:40:09.000+00:00",
     "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
     "author": "",
     "site": {
@@ -12,10 +24,10 @@
     }
   },
   {
-    "title": "SERVICE ANNOUNCEMENT: About this feed",
-    "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
-    "createdAt": "2025-07-15T16:24:52.000+00:00",
-    "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
+    "title": "Show GN: 타입 안전성과 네임스페이스를 지원하는 웹 스토리지 유틸리티 store-easy",
+    "content": "<p>안녕하세요! 저는 엔지니어를 꿈꾸는 고등학생이에요 :)</p>\r\n<p><code>localStorage</code>와 <code>sessionStorage</code>를 더 안전하고 편하게 다루기 위해, <code>store-easy</code>라는 유틸리티 라이브러리를 만들어 봤어요.</p>\r\n<p>🔸 주요 기능</p>\r\n<ul>\r\n<li>타입(type) 지정 및 자동 검증 → 런타임 오류 방",
+    "createdAt": "2025-07-15T16:24:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=22002",
     "author": "",
     "site": {
       "id": "2",
@@ -124,18 +136,6 @@
     "content": "<ul>\r\n<li>\r\n<strong>데이터 브로커</strong>들이 <strong>개인의 항공편 관련 정보</strong>를 미국 세관(CBP)과 이민세관단속국(ICE)에 판매함</li>\r\n<li>Airlines Reporting Corporation(ARC)이 <strong>여행자 기록</strong>을 모아 <strong>정부 기관과 공유</strong>함이 최근 폭로됨</li>\r\n<li>\r\n<strong>이용자 동의 ...</p>",
     "createdAt": "2025-07-15T01:59:09.000+00:00",
     "link": "https://news.hada.io/topic?id=21991",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Three.js 기반 광선검 시뮬레이터",
-    "content": "<p>광선검 시뮬레이터 입니다. three.js로 웹에서 간편하게 돌릴 수 있도록 개발되었고요. 경량화와 인터렉션이 초점을 두어 만들었습니다.</p>\r\n<p>웹에서 bloom 효과가 필요하시면 이 코드를 참고해도 좋을 듯 합니다. 그 외에도 게임적인 인터렉션이나 UI 통합에서 영감을 얻으실 수 있을 것 같고요.</p>",
-    "createdAt": "2025-07-15T01:58:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=21990",
     "author": "",
     "site": {
       "id": "2",
