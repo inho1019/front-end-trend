@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Run RSS Parser
-        run: node scripts/action.ts
+        run: npx tsx scripts/action.ts
       - name: Commit Data
         run: |
           git config --local user.email "inho1019@naver.com"
