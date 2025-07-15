@@ -17,18 +17,15 @@ async function fetchWithPuppeteer(url: string): Promise<string> {
 
   try {
     const page = await browser.newPage();
-    let rssContent = '';
-
-    page.on('response', async (response) => {
-      const requestUrl = response.url();
-      if (requestUrl === url) {
-        rssContent = await response.text();
-      }
-    });
-
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    return rssContent;
+    const html = await page.content();
+
+    const cleaned = html
+      .replace(/^<html[^>]*><head>.*?<\/head><body[^>]*>/s, '')
+      .replace(/<\/body><\/html>$/s, '');
+
+    return cleaned;
   } finally {
     await browser.close();
   }
