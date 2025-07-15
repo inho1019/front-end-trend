@@ -1,4 +1,4 @@
-name: Update Readme
+name: RSS Parser
 
 on:
 # 푸시 이벤트가 발생할 때마다 아래 스크립트를 실행한다.
