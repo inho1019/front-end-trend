@@ -8,7 +8,7 @@ export type Site = {
     content: string;
     createdAt: string;
     link?: string;
-    owner?: string;
+    author?: string;
     thumbnail?: string;
   };
 };

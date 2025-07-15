@@ -6,10 +6,10 @@
     "description": "fenews",
     "type": {
       "title": "title",
-      "content": "content:encoded",
+      "content": "content",
       "createdAt": "isoDate",
       "link": "link",
-      "owner": "creator"
+      "author": "author"
     }
   },
   {
@@ -20,9 +20,9 @@
     "type": {
       "title": "title",
       "content": "content",
-      "createdAt": "pubDate",
+      "createdAt": "isoDate",
       "link": "link",
-      "owner": "author"
+      "author": "author"
     }
   }
 ]

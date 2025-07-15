@@ -13,7 +13,7 @@ export const addData = async (token: string, data: Site, message?: string) => {
         newData.push(data);
 
         await client(token).repos.createOrUpdateFileContents({
-            owner: import.meta.env.VITE_GITHUB_OWNER,
+            author: import.meta.env.VITE_GITHUB_author,
             repo: import.meta.env.VITE_TARGET_REPO,
             path: import.meta.env.VITE_TARGET_PATH_SITE,
             branch: import.meta.env.VITE_TARGET_BRANCH,

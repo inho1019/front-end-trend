@@ -1,9 +1,11 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
+import { decode } from 'entities';
 import dotenv from 'dotenv';
-import type { Site } from "../src/shared/model/site"
+import type { Site } from "../src/shared/model/site";
 import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
+
 dotenv.config();
 
 const parser = new RSSParser();
@@ -13,10 +15,11 @@ const parser = new RSSParser();
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const feed = await parser.parseURL(site.url);
+            const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
             const items = feed.items || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
+                const content = item[site.type.content];
                 let createdAt: DateTime = DateTime.invalid("Invalid date");
                 if (createdRaw) {
                     createdAt = DateTime.fromISO(createdRaw);
@@ -29,10 +32,10 @@ const parser = new RSSParser();
                 }
                 return {
                     title: item[site.type.title] ?? "",
-                    content: item[site.type.content] ?? "",
+                    content: content ? decode(decode(content)) : "",
                     createdAt,
                     link: site.type.link && (item[site.type.link] ?? ""),
-                    owner: site.type.owner && (item[site.type.owner] ?? ""),
+                    author: site.type.author && (item[site.type.author] ?? ""),
                     thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
                     site: {
                         id: site.id,
