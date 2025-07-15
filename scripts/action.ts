@@ -38,7 +38,10 @@ async function fetchRssWithPuppeteer(url: string): Promise<string> {
         return '';
     });
 
-    return rssContent;
+    console.log(rssContent)
+    const cleanedXml = rssContent.replace(/xmlns="[^"]*"/g, '');
+
+    return cleanedXml;
   } finally {
     await browser.close();
   }
