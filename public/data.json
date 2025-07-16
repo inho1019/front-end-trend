@@ -1,117 +1,117 @@
 [
   {
+    "title": "RFC: PHP 라이선스 업데이트",
+    "content": "<ul>\r\n<li>\r\n<strong>PHP 프로젝트</strong>가 라이선스 모델을 단순화하기 위해 <strong>Modified BSD License(3-clause BSD)</strong> 채택을 제안함</li>\r\n<li>기존 <strong>PHP License와 Zend Engine License</strong>는 GPL과 완전 호환되지 않고 OSI(오픈 소스 이니셔티브)에서 부분적으로만 승인을 받았음</li>\r\n<li...</p>",
+    "createdAt": "2025-07-16T01:23:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=22011",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Shoggoth Mini – GPT-4o와 RL로 구동되는 소프트 촉수 로봇",
+    "content": "<ul>\r\n<li>\r\n<strong>Shoggoth Mini</strong>는 <strong>GPT-4o</strong>와 <strong>강화학습</strong>을 활용하여 자연스럽고 표현력 있는 동작을 구현한 소프트 촉수 로봇임</li>\r\n<li>기존 <strong>가정용 로봇</strong>과 달리 인간과 상호작용 시 <strong>내부 상태나 의도</strong>를 표현할 수 있도록 설계됨</li>\r\n...</p>",
+    "createdAt": "2025-07-16T01:07:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=22010",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DogWalk - 무료 오픈소스 캐주얼 인터랙티브 스토리 게임",
+    "content": "<ul>\r\n<li>\r\n<strong>Blender Studio</strong>가 공식적으로 선보인 <strong>오픈 프로젝트</strong> 게임으로, Windows, macOS, Linux에서 플레이 가능함</li>\r\n<li>플레이어는 <strong>겨울 숲을 누비는 큰 강아지</strong>가 되어 겨울 캠핑장, 숲길, 시냇물, 얼어붙은 연못 등 미니 오픈월드 공간을 자유롭게 돌아다닐 ...</p>",
+    "createdAt": "2025-07-16T01:07:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=22009",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "무작위 선발은 안정적인 능력주의 제도를 만들기 위해 필요함",
+    "content": "<ul>\r\n<li>\r\n<strong>Campbell의 법칙</strong>에 따르면 사회적 의사결정에서 지표가 지나치게 사용될수록 <strong>부패와 왜곡</strong>이 심화됨</li>\r\n<li>대표적 예시로 <strong>공직 선발</strong>에서 제도의 투명성이 높아질수록 기준이 쉽게 조작의 대상이 되어 능력보다 “시스템을 잘 다루는 사람”이 자리에 오...</p>",
+    "createdAt": "2025-07-16T01:04:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=22008",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사상 최대 질량의 블랙홀 합병, LIGO를 통해 관측됨",
+    "content": "<ul>\r\n<li>\r\n<strong>LIGO-Virgo-KAGRA 협력단</strong>이 중력파로 관측된 사상 최대 질량의 <strong>블랙홀 합병</strong>을 탐지함</li>\r\n<li>이번 합병으로 태양 질량의 약 <strong>225배에 해당하는 블랙홀</strong>이 형성됨</li>\r\n<li>이 합병은 기존 <strong>표준 별 진화 이론으로 설명할 수 없는 고질량</strong>으...</p>",
+    "createdAt": "2025-07-16T01:01:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=22007",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Comcast가 싫어서 직접 동네 광통신 인터넷 회사(ISP)를 차린 두 사람",
+    "content": "<ul>\r\n<li>\r\n<strong>Prime-One의 창업자 두 명</strong>은 Comcast의 불만족스러운 서비스에 지쳐, 직접 <strong>광섬유 ISP 회사를 설립</strong>해 미시간 주 Saline 지역에서 Comcast와 경쟁 중임</li>\r\n<li>전 구간 지하 광섬유 구축, 장비 무료 제공, <strong>대칭 기가비트</strong> 속도와 <strong>무제한 데이터, ...</p>",
+    "createdAt": "2025-07-16T00:58:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=22006",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "HN을 AI/LLM과 기타 주제로 포크할 때가 되었는가?",
+    "content": "<ul>\r\n<li>최근 Hacker News(이하 HN)에서는 AI 및 LLM 기술에 관한 이슈, 논문, 프로젝트, 뉴스가 <strong>메인 피드 대부분을 차지하는 경향</strong>이 강해짐</li>\r\n<li>그 결과, 프로그래밍/스타트업/기타 기술 중심의 전통적인 다양한 주제가 뒷전으로 밀리는 <strong>콘텐츠 다양성 저하 현상</strong>이 관찰됨</l...</p>",
+    "createdAt": "2025-07-16T00:55:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=22005",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLM Inevitabilism (필연성주의/불가피론)",
+    "content": "<ul>\r\n<li>\r\n<strong>필연성주의(Inevitabilism)</strong> 는 특정 미래가 반드시 올 것이라는 식으로 <strong>담론의 방향을 결정</strong>하는 강력한 프레이밍</li>\r\n<li>\r\n<strong>AI 및 LLM의 미래</strong>에 대해 주류 인사들이 “이런 미래가 불가피하다”고 주장하며, 이에 맞춰 <strong>적응하라는 압박</strong>을...</p>",
+    "createdAt": "2025-07-16T00:52:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=22004",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "F2 - 파일 이름 일괄 변경 CLI 도구",
+    "content": "<ul>\r\n<li>빠르고 안전한 <strong>커맨드라인 기반 파일/디렉토리 Batch Rename 도구</strong>. Go로 개발되어 <strong>크로스 플랫폼 지원</strong>\r\n</li>\r\n<li>\r\n<strong>Dry-Run이 기본</strong>으로 실제 변경 전 항상 미리보기 실행하여 변경 내역을 안전하게 검토할 수 있음</li>\r\n<li>파일명·확장자·EXIF/ID3 등 속성...</p>",
+    "createdAt": "2025-07-16T00:31:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=22003",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: 타입 안전성과 네임스페이스를 지원하는 웹 스토리지 유틸리티 store-easy",
     "content": "<p>안녕하세요! 저는 엔지니어를 꿈꾸는 고등학생이에요 :)</p>\r\n<p><code>localStorage</code>와 <code>sessionStorage</code>를 더 안전하고 편하게 다루기 위해, <code>store-easy</code>라는 유틸리티 라이브러리를 만들어 봤어요.</p>\r\n<p>🔸 주요 기능</p>\r\n<ul>\r\n<li>타입(type) 지정 및 자동 검증 → 런타임 오류 방",
     "createdAt": "2025-07-15T16:24:34.000+00:00",
     "link": "https://news.hada.io/topic?id=22002",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "샘 알트만의 스타트업 플레이북 한국어 번역",
-    "content": "<p>이 글이 10년전 글이라는게 신기할 정도로 지금 봐도 통렬하게 아프네요. 한국어로 번역된 것이 마침 무료 길래 다시 읽는데 팩폭으로 몸살 난 기분입니다.</p>\r\n<p>Startup Playbook 원문 보기 : https://playbook.samaltman.com/</p>",
-    "createdAt": "2025-07-15T11:21:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=22000",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "애플의 MLX, CUDA 지원 추가",
-    "content": "<ul>\r\n<li>\r\n<strong>MLX</strong>는 <strong>Apple Silicon</strong> 기반 기계학습 연구자를 위한 <strong>배열 프레임워크</strong>임</li>\r\n<li>Python 및 <strong>C++/C/Swift API</strong> 제공, NumPy 및 PyTorch와 유사한 사용성 제공</li>\r\n<li>\r\n<strong>자동 미분</strong>, <strong>자동 벡터화</strong>, <stron...</p>",
-    "createdAt": "2025-07-15T08:33:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=21999",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "카카오 디벨로퍼스, 5년 만에 UI 전면 개편",
-    "content": "<p>카카오가 자사의 개발자 포털 <a href=\"https://developers.kakao.com/\">Kakao Developers</a>의 메인 페이지와 앱 관리 화면을 전면 리디자인했다.<br />\r\n이번 개편은 <strong>2020년 4월 이후 약 5년 3개월 만의 UI 업데이트</strong>로, 사용성과 접근성을 전반적으로 개선한 것이 특징이다.</p>\r\n<h3>주요 개편 내",
-    "createdAt": "2025-07-15T04:30:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=21998",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI가 오픈소스 개발자를 느리게 만든다. Peter Naur가 그 이유를 알려줄 수 있다",
-    "content": "<ul>\r\n<li>최근 연구에 따르면 <strong>오픈소스 개발자가 자신이 잘 아는 코드베이스에서 AI 도구를 사용할 때</strong> 오히려 작업 시간이 <strong>19% 늘어남</strong>\r\n</li>\r\n<li>개발자들은 <strong>AI가 자신을 더 빠르게 만들었다고 믿지만</strong>, 실제로는 더 느려진다는 <strong>인지와 현실 간의 괴리</stro...</p>",
-    "createdAt": "2025-07-15T02:11:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=21996",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "소프트웨어를 빠르게 개발하는 나만의 방법",
-    "content": "<ul>\r\n<li>\r\n<strong>완벽함</strong>과 <strong>속도</strong>의 균형은 쉽지 않지만, 상황에 맞는 <strong>적정 품질</strong>과 <strong>기한 준수</strong>가 중요함</li>\r\n<li>초안(러프 드래프트) 개발을 먼저 진행하고, 이후에 코드 품질을 개선하는 방식이 효과적임</li>\r\n<li>\r\n<strong>요구사항을 완화</strong>하거...</p>",
-    "createdAt": "2025-07-15T02:08:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=21995",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cognition(Devin AI), Windsurf 인수 발표",
-    "content": "<ul>\r\n<li>\r\n<strong>Cognition(Devin AI)</strong> 가 <strong>Windsurf</strong>를 인수하기로 결정함</li>\r\n<li>이번 인수로 Windsurf의 <strong>지적 재산권, 제품, 상표</strong>와 <strong>우수한 인재들</strong>이 Cognition에 합류함</li>\r\n<li>Windsurf 팀은 당분간 기존대로 <strong>독립 운영</strong>을 유지하...</p>",
-    "createdAt": "2025-07-15T02:05:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=21994",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "자바스크립트에서 일반 함수와 Arrow 함수의 차이점, 언제 어떤 문법을 써야 하는가",
-    "content": "<ul>\r\n<li>\r\n<strong>자바스크립트 함수 선언</strong>은 <code>function</code> 키워드를 사용한 선언, <strong>함수 표현식</strong>, <strong>화살표 함수</strong> 등 다양한 방식이 존재함</li>\r\n<li>\r\n<strong>함수 선언</strong>은 <strong>호이스팅</strong>이 적용되어 코드의 어느 위치에서든 참조 가능함</li>\r\n<l...</p>",
-    "createdAt": "2025-07-15T02:04:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=21993",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Refine - Grammarly의 로컬 대체제",
-    "content": "<ul>\r\n<li>\r\n<strong>Refine</strong>은 <strong>Grammarly</strong>와 유사한 기능을 제공하는 <strong>로컬 기반</strong> 문법 검사 도구임</li>\r\n<li>\r\n<strong>구독료 없이 한 번 구매로</strong> 추가 비용이나 숨겨진 수수료 없이 Refine 전체 기능을 평생 사용 가능함</li>\r\n<li>\r\n<strong>클라우드 기반 서비스</stro...</p>",
-    "createdAt": "2025-07-15T02:02:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=21992",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국 세관과 이민세관단속국에 항공편 정보 판매하는 데이터 브로커",
-    "content": "<ul>\r\n<li>\r\n<strong>데이터 브로커</strong>들이 <strong>개인의 항공편 관련 정보</strong>를 미국 세관(CBP)과 이민세관단속국(ICE)에 판매함</li>\r\n<li>Airlines Reporting Corporation(ARC)이 <strong>여행자 기록</strong>을 모아 <strong>정부 기관과 공유</strong>함이 최근 폭로됨</li>\r\n<li>\r\n<strong>이용자 동의 ...</p>",
-    "createdAt": "2025-07-15T01:59:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=21991",
     "author": "",
     "site": {
       "id": "2",
