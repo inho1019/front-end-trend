@@ -1,5 +1,17 @@
 [
   {
+    "title": "Ask GN: 여러분들은 혹시 AI브라우저를 사용하시나요?",
+    "content": "<p>AI답변 링크는 아래와 같습니다.</p>\r\n<ul>\r\n<li>https://getliner.com/ko/search/s/22200968/t/86424143?msg-entry-type=main</li>\r\n</ul>\r\n<p>위 링크의 내용을 요약해서 브라우저 이름과 장단점으로 만들어 표로 만들어 달라고 AI에게 요청했더니 아래 링크와 같이,,,</p>\r\n<ul>\r\n<li>https://getliner.com/ko/search/s/",
+    "createdAt": "2025-07-16T05:55:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=22014",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "컨텍스트 변질: 입력 토큰이 많아질수록 LLM 성능이 어떻게 변하는가",
     "content": "<ul>\r\n<li>최신 LLM의 <strong>입력 토큰 한도(컨텍스트 윈도우)</strong> 가 수백만 단위까지 확장되었으나, 단순 검색 벤치마크(Needle in a Haystack, NIAH)에서 높은 점수를 받아도 <strong>실제 긴 입력에서의 성능 저하는 명확히 존재함</strong>\r\n</li>\r\n<li>연구진은 <strong>18개 모델</strong>을 대상으로 다양한...</p>",
     "createdAt": "2025-07-16T01:58:06.000+00:00",
@@ -100,18 +112,6 @@
     "content": "<ul>\r\n<li>최근 Hacker News(이하 HN)에서는 AI 및 LLM 기술에 관한 이슈, 논문, 프로젝트, 뉴스가 <strong>메인 피드 대부분을 차지하는 경향</strong>이 강해짐</li>\r\n<li>그 결과, 프로그래밍/스타트업/기타 기술 중심의 전통적인 다양한 주제가 뒷전으로 밀리는 <strong>콘텐츠 다양성 저하 현상</strong>이 관찰됨</l...</p>",
     "createdAt": "2025-07-16T00:55:41.000+00:00",
     "link": "https://news.hada.io/topic?id=22005",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LLM Inevitabilism (필연성주의/불가피론)",
-    "content": "<ul>\r\n<li>\r\n<strong>필연성주의(Inevitabilism)</strong> 는 특정 미래가 반드시 올 것이라는 식으로 <strong>담론의 방향을 결정</strong>하는 강력한 프레이밍</li>\r\n<li>\r\n<strong>AI 및 LLM의 미래</strong>에 대해 주류 인사들이 “이런 미래가 불가피하다”고 주장하며, 이에 맞춰 <strong>적응하라는 압박</strong>을...</p>",
-    "createdAt": "2025-07-16T00:52:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=22004",
     "author": "",
     "site": {
       "id": "2",
