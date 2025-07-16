@@ -1,5 +1,17 @@
 [
   {
+    "title": "Show GN: Userband: 유저 피드백 플랫폼",
+    "content": "<p>이메일 클라이언트 타우린 만들다가 피벗했습니다.<br />\r\n저희가 더 잘 만들 수 있는걸로 만들어보기로 했어요.</p>\r\n<p>피드백 수집부터 체인지로그, 로드맵, docs, 블로그까지<br />\r\n하나의 흐름으로 이어지는 유저 피드백 플랫폼을 만들고 있습니다.<br />\r\n이 과정은 팀이 고객과 함께 제품을 발전시키며<br />\r\nPMF",
+    "createdAt": "2025-07-16T12:24:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22017",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "머릿속에서 작은 증명을 하며 더 나은 프로그래머가 되는 방법",
     "content": "<ul>\r\n<li>더 좋은 프로그래머가 되기 위해선 코드 작성 시 <strong>작은 증명을 머릿속으로 그리는 습관</strong>이 중요함</li>\r\n<li>\r\n<strong>단조성, 불변성, 전제·결과 조건</strong>, 불변조건 등은 이런 미니 증명을 할 때 핵심적인 개념임</li>\r\n<li>코드 변경이 시스템 전체에 미치는 영향 범위(<strong>격리, 파이...</p>",
     "createdAt": "2025-07-16T11:34:15.000+00:00",
@@ -100,18 +112,6 @@
     "content": "<ul>\r\n<li>\r\n<strong>LIGO-Virgo-KAGRA 협력단</strong>이 중력파로 관측된 사상 최대 질량의 <strong>블랙홀 합병</strong>을 탐지함</li>\r\n<li>이번 합병으로 태양 질량의 약 <strong>225배에 해당하는 블랙홀</strong>이 형성됨</li>\r\n<li>이 합병은 기존 <strong>표준 별 진화 이론으로 설명할 수 없는 고질량</strong>으...</p>",
     "createdAt": "2025-07-16T01:01:45.000+00:00",
     "link": "https://news.hada.io/topic?id=22007",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Comcast가 싫어서 직접 동네 광통신 인터넷 회사(ISP)를 차린 두 사람",
-    "content": "<ul>\r\n<li>\r\n<strong>Prime-One의 창업자 두 명</strong>은 Comcast의 불만족스러운 서비스에 지쳐, 직접 <strong>광섬유 ISP 회사를 설립</strong>해 미시간 주 Saline 지역에서 Comcast와 경쟁 중임</li>\r\n<li>전 구간 지하 광섬유 구축, 장비 무료 제공, <strong>대칭 기가비트</strong> 속도와 <strong>무제한 데이터, ...</p>",
-    "createdAt": "2025-07-16T00:58:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=22006",
     "author": "",
     "site": {
       "id": "2",
