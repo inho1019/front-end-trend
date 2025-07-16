@@ -1,29 +1,5 @@
 [
   {
-    "title": "SERVICE ANNOUNCEMENT: About this feed",
-    "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
-    "createdAt": "2025-07-15T21:26:24.000+00:00",
-    "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
-    "author": "",
-    "site": {
-      "id": "1",
-      "url": "https://fenews.substack.com/feed",
-      "name": "FEnews"
-    }
-  },
-  {
-    "title": "SERVICE ANNOUNCEMENT: About this feed",
-    "content": "Dear user, this standalone feed URL is generated per request and <a href=\"https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls\">comes with some limitations</a> like fetch frequency and others.",
-    "createdAt": "2025-07-15T21:26:24.000+00:00",
-    "link": "https://github.com/damoeb/feedless/wiki/Messages-in-your-Feed#standalone-feed-urls",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Show GN: 타입 안전성과 네임스페이스를 지원하는 웹 스토리지 유틸리티 store-easy",
     "content": "<p>안녕하세요! 저는 엔지니어를 꿈꾸는 고등학생이에요 :)</p>\r\n<p><code>localStorage</code>와 <code>sessionStorage</code>를 더 안전하고 편하게 다루기 위해, <code>store-easy</code>라는 유틸리티 라이브러리를 만들어 봤어요.</p>\r\n<p>🔸 주요 기능</p>\r\n<ul>\r\n<li>타입(type) 지정 및 자동 검증 → 런타임 오류 방",
     "createdAt": "2025-07-15T16:24:34.000+00:00",
