@@ -1,7 +1,31 @@
 [
   {
-    "title": "RFC: PHP 라이선스 업데이트",
-    "content": "<ul>\r\n<li>\r\n<strong>PHP 프로젝트</strong>가 라이선스 모델을 단순화하기 위해 <strong>Modified BSD License(3-clause BSD)</strong> 채택을 제안함</li>\r\n<li>기존 <strong>PHP License와 Zend Engine License</strong>는 GPL과 완전 호환되지 않고 OSI(오픈 소스 이니셔티브)에서 부분적으로만 승인을 받았음</li>\r\n<li...</p>",
+    "title": "컨텍스트 변질: 입력 토큰이 많아질수록 LLM 성능이 어떻게 변하는가",
+    "content": "<ul>\r\n<li>최신 LLM의 <strong>입력 토큰 한도(컨텍스트 윈도우)</strong> 가 수백만 단위까지 확장되었으나, 단순 검색 벤치마크(Needle in a Haystack, NIAH)에서 높은 점수를 받아도 <strong>실제 긴 입력에서의 성능 저하는 명확히 존재함</strong>\r\n</li>\r\n<li>연구진은 <strong>18개 모델</strong>을 대상으로 다양한...</p>",
+    "createdAt": "2025-07-16T01:58:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=22013",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI에 대한 회고",
+    "content": "<ul>\r\n<li>저자는 2024년 5월 입사 후 1년 남짓 OpenAI에서 일하고 퇴사, <strong>사내 문화와 실제 일하는 분위기</strong>에 대해 솔직하게 서술함</li>\r\n<li>\r\n<strong>초고속 성장(1,000명→3,000명)</strong> 속에서 내부 프로세스·조직·문화·일 방식이 빠르게 변하고 있음</li>\r\n<li>\r\n<strong>바텀업/실력주의 문화...</p>",
+    "createdAt": "2025-07-16T01:35:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=22012",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PHP, 라이선스를 BSD 3-Clause로 변경 제안중",
+    "content": "<ul>\r\n<li>PHP 프로젝트는 기존 <strong>복잡하고 비호환적인 PHP 고유 라이선스와 Zend Engine 라이선스</strong>를 <strong>BSD 3-Clause(수정 BSD 라이선스)</strong> 로 일원화하는 RFC를 논의 중임</li>\r\n<li>\r\n<strong>새 라이선스 적용 시점은 PHP 9.0</strong>으로, 소스 코드·헤더·문서 전반에 BSD 3-Clause가 반영...</p>",
     "createdAt": "2025-07-16T01:23:59.000+00:00",
     "link": "https://news.hada.io/topic?id=22011",
     "author": "",
@@ -88,30 +112,6 @@
     "content": "<ul>\r\n<li>\r\n<strong>필연성주의(Inevitabilism)</strong> 는 특정 미래가 반드시 올 것이라는 식으로 <strong>담론의 방향을 결정</strong>하는 강력한 프레이밍</li>\r\n<li>\r\n<strong>AI 및 LLM의 미래</strong>에 대해 주류 인사들이 “이런 미래가 불가피하다”고 주장하며, 이에 맞춰 <strong>적응하라는 압박</strong>을...</p>",
     "createdAt": "2025-07-16T00:52:40.000+00:00",
     "link": "https://news.hada.io/topic?id=22004",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "F2 - 파일 이름 일괄 변경 CLI 도구",
-    "content": "<ul>\r\n<li>빠르고 안전한 <strong>커맨드라인 기반 파일/디렉토리 Batch Rename 도구</strong>. Go로 개발되어 <strong>크로스 플랫폼 지원</strong>\r\n</li>\r\n<li>\r\n<strong>Dry-Run이 기본</strong>으로 실제 변경 전 항상 미리보기 실행하여 변경 내역을 안전하게 검토할 수 있음</li>\r\n<li>파일명·확장자·EXIF/ID3 등 속성...</p>",
-    "createdAt": "2025-07-16T00:31:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=22003",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 타입 안전성과 네임스페이스를 지원하는 웹 스토리지 유틸리티 store-easy",
-    "content": "<p>안녕하세요! 저는 엔지니어를 꿈꾸는 고등학생이에요 :)</p>\r\n<p><code>localStorage</code>와 <code>sessionStorage</code>를 더 안전하고 편하게 다루기 위해, <code>store-easy</code>라는 유틸리티 라이브러리를 만들어 봤어요.</p>\r\n<p>🔸 주요 기능</p>\r\n<ul>\r\n<li>타입(type) 지정 및 자동 검증 → 런타임 오류 방",
-    "createdAt": "2025-07-15T16:24:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=22002",
     "author": "",
     "site": {
       "id": "2",
