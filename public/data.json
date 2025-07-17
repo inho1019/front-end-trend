@@ -1,8 +1,8 @@
 [
   {
     "title": "ALERT: Potential Issue with Feed",
-    "content": "<p>Dear User,</p>\r\n<p>an error occurred while fetching your feed: 'Could not open JPA EntityManager for transaction'. This may require your attention. Please note, this error will only be reported once per month.</p>\r\n\r\n<p>If you believe this is a bug, maybe related with the new release, here is the stack trace so you can report it.<p>\r\n\r\n<p>---</p>\r\n<p>Feed URL: http://rssproxy.migor.org/api/tf?url=https://fenews.substack.com/feed</p>\r\n<p>corrId: b9Sp</p>\r\n<p>\r\n<pre>\r\norg.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction\r\n\tat org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:531)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)\r\n\tat org.springframework.transaction.interc\r\n</pre>\r\n</p>",
-    "createdAt": "2025-07-17T04:00:56.000+00:00",
+    "content": "<p>Dear User,</p>\r\n<p>an error occurred while fetching your feed: 'Could not open JPA EntityManager for transaction'. This may require your attention. Please note, this error will only be reported once per month.</p>\r\n\r\n<p>If you believe this is a bug, maybe related with the new release, here is the stack trace so you can report it.<p>\r\n\r\n<p>---</p>\r\n<p>Feed URL: http://rssproxy.migor.org/api/tf?url=https://fenews.substack.com/feed</p>\r\n<p>corrId: mXTH</p>\r\n<p>\r\n<pre>\r\norg.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction\r\n\tat org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:531)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)\r\n\tat org.springframework.transaction.interc\r\n</pre>\r\n</p>",
+    "createdAt": "2025-07-17T09:32:19.000+00:00",
     "link": "https://github.com/damoeb/feedless/wiki/Errors#error-potential-issue-with-feed",
     "author": "",
     "site": {
@@ -12,10 +12,118 @@
     }
   },
   {
-    "title": "ALERT: Potential Issue with Feed",
-    "content": "<p>Dear User,</p>\r\n<p>an error occurred while fetching your feed: 'Could not open JPA EntityManager for transaction'. This may require your attention. Please note, this error will only be reported once per month.</p>\r\n\r\n<p>If you believe this is a bug, maybe related with the new release, here is the stack trace so you can report it.<p>\r\n\r\n<p>---</p>\r\n<p>Feed URL: http://rssproxy.migor.org/api/tf?url=https://feeds.feedburner.com/geeknews-feed</p>\r\n<p>corrId: mQWa</p>\r\n<p>\r\n<pre>\r\norg.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction\r\n\tat org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:531)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)\r\n\tat org.springframework.transaction.interc\r\n</pre>\r\n</p>",
-    "createdAt": "2025-07-17T04:00:55.000+00:00",
-    "link": "https://github.com/damoeb/feedless/wiki/Errors#error-potential-issue-with-feed",
+    "title": "전 Waymo 엔지니어들, 건설 자동화를 위해 Bedrock Robotics 설립",
+    "content": "<ul>\r\n<li>전 <strong>Waymo</strong> 출신 엔지니어들이 <strong>Bedrock Robotics</strong>를 설립해 건설 현장 자동화에 주력함</li>\r\n<li>이 스타트업은 <strong>기존 건설 차량</strong>에 자율주행 키트 장착을 목표로 하며, <strong>80백만 달러</strong>의 투자 유치 소식을 발표함</li>\r\n<li>Bedrock Robotics는 ...</p>",
+    "createdAt": "2025-07-17T08:35:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=22035",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Builder.io 개발자가 Claude Code를 사용하는 방법 (+ best tips)",
+    "content": "<p>예전에는 Cursor 파워 유저였고 <a href=\"https://www.builder.io/blog/cursor-tips\">How I use Cursor (+ my best tips)</a>라는 글로 인기를 끌었던 <a href=\"https://www.builder.io/\">Builder.io</a>의 Steve Swell이 이번에는 좋은 클로드 코드 팁 글을 올려줬길래 번역 + 요약해서 공유드립니다. (블로그 글에는...</p>",
+    "createdAt": "2025-07-17T01:59:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=22034",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Uzu - 애플 실리콘용 고성능 AI 추론 엔진",
+    "content": "<ul>\r\n<li>Apple Silicon 환경에서 <strong>AI 모델을 빠르게 실행</strong>하기 위한 <strong>Rust 기반 추론 엔진</strong>\r\n</li>\r\n<li>GPU 커널 또는 <strong>CoreML 하단의 MPSGraph</strong>를 선택적으로 활용하는 <strong>하이브리드 구조</strong>\r\n</li>\r\n<li>자체 포맷 모델을 사용하며, <strong>lalamo 도구를 통...</p>",
+    "createdAt": "2025-07-17T01:51:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22033",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RAG는 죽지 않았다",
+    "content": "<blockquote>\r\n<p>RAG의 미래는 \"<strong>더 큰 컨텍스트 창</strong>이 아니라, <strong>더 나은 검색</strong>에 있다\"</p>\r\n</blockquote>\r\n<ul>\r\n<li>\"RAG Is Dead\"라는 말은 <strong>2023년식 단순 RAG 구현 방식</strong>에만 해당되며, 진짜 문제는 정보 손실이 큰 <strong>단일 벡터 기반 검색...</p>",
+    "createdAt": "2025-07-17T01:31:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=22032",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "거의 한 세기만에 발견된 첫 번째 새로운 종류의 자석: Altermagnets",
+    "content": "<ul>\r\n<li>\r\n<strong>Libor Šmejkal</strong>은 M. C. Escher의 예술 작품에서 영감을 받아, <strong>완전히 새로운 자성</strong>의 존재를 예측함</li>\r\n<li>인류는 <strong>오랜 세월 동안 자석</strong>을 알고 있었으며, 현대 기술의 핵심 역할을 담당함</li>\r\n<li>100년 동안 <strong>자석의 종류가 두 가지뿐</strong...</p>",
+    "createdAt": "2025-07-17T01:28:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=22031",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Firefox는 앞으로 어디로 갈 것인가?",
+    "content": "<ul>\r\n<li>\r\n<strong>Mozilla</strong>는 사용자 의견을 바탕으로 <strong>새로운 기능 개발</strong>을 이어감</li>\r\n<li>\r\n<strong>프로필, 탭 그룹, 세로 탭 등 주요 기능들</strong>이 모두 사용자 요청에 의해 도입됨</li>\r\n<li>Firefox 개발팀은 사용자의 <strong>직접적인 의견 수렴 방식</strong>을 새롭게 시도함</l...</p>",
+    "createdAt": "2025-07-17T01:25:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=22030",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Helix Editor 25.07",
+    "content": "<ul>\r\n<li>Helix 25.07은 <strong>핵심 컴포넌트의 대체</strong>와 다수의 신규 기능 추가를 포함함</li>\r\n<li>\r\n<strong>파일 탐색기, LSP 문서 색상 표시, 커맨드 모드 개선</strong> 등 사용성과 워크플로우가 크게 향상됨</li>\r\n<li>문법 하이라이트와 쿼리 최적화를 위해 신규 crate인 <strong>Tree-house</strong>가 ...</p>",
+    "createdAt": "2025-07-17T01:22:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=22029",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "파이썬으로 전향하고 실제로 즐기게 된 경험",
+    "content": "<ul>\r\n<li>최근 <strong>AI 개발</strong>의 트렌드로 인해 본격적으로 파이썬 학습 및 사용을 시작함</li>\r\n<li>데이터 처리, <strong>생태계 발전</strong>, 성능 향상 등 파이썬 언어와 도구 체계의 급격한 발전을 체감함</li>\r\n<li>uv, ruff, pytest, Pydantic 등 <strong>최신 개발 도구와 라이브러리</strong>를 본인...</p>",
+    "createdAt": "2025-07-17T01:19:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=22028",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Blender 4.5 LTS",
+    "content": "<ul>\r\n<li>\r\n<strong>Blender 4.5 LTS</strong>는 장기 지원 버전으로, 오랜 기간 <strong>안정성</strong>과 업데이트를 제공함</li>\r\n<li>이번 릴리스에서는 <strong>강화된 실시간 렌더링 기능</strong>과 UI 개선이 강조됨</li>\r\n<li>\r\n<strong>개발자 및 아티스트</strong>를 위한 다양한 워크플로우 최적화와 성능 향상...</p>",
+    "createdAt": "2025-07-17T01:16:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=22027",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Firefox 141에서 Windows용 WebGPU 출시",
+    "content": "<ul>\r\n<li>Firefox 141에서 <strong>Windows 플랫폼</strong> 대상으로 <strong>WebGPU 정식 출시</strong> 소식 발표</li>\r\n<li>WebGPU는 <strong>웹 콘텐츠와 사용자의 그래픽 프로세서</strong>를 연결해 고성능 렌더링과 계산 지원</li>\r\n<li>WebGPU는 이미 <strong>Chrome에서 도입</strong>, 앞으로 Safari와 다른 플...</p>",
+    "createdAt": "2025-07-17T01:13:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=22026",
     "author": "",
     "site": {
       "id": "2",
