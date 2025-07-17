@@ -1,6 +1,6 @@
+import { DataContext } from "@shared/lib/data";
+import type { ParserData } from "@shared/model/parser";
 import { useEffect, useState, useTransition, type PropsWithChildren } from "react"
-import { DataContext } from "../../lib/data";
-import type { ParserData } from "../../model/parser";
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
     const [data, setData] = useState<ParserData[] | null>(null);

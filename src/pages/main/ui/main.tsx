@@ -1,5 +1,6 @@
-import { useDataContext } from "../../../shared/lib/data";
-import { MainContainer } from "../../../shared/ui/layout";
+import { useDataContext } from "@shared/lib/data";
+import { MainContainer } from "@shared/ui/layout";
+
 
 const MainPage = () => {
     const data = useDataContext();
