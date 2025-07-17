@@ -1,11 +1,11 @@
 import { Base64 } from "js-base64";
 import { client } from "../octokit-client"
-import type { Site } from "../../model/site";
+import type { Site } from "@shared/model/site";
 
 export const getData = async () =>  {
     try {
         const response = await client().repos.getContent({
-            author: import.meta.env.VITE_GITHUB_author,
+            owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
             path: import.meta.env.VITE_TARGET_PATH_SITE,
             ref: import.meta.env.VITE_TARGET_BRANCH,

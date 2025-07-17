@@ -1,0 +1,1 @@
+export { MagazineItem } from './ui/magazine-item';

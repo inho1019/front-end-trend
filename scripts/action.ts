@@ -16,7 +16,10 @@ const parser = new RSSParser();
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
             const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
-            const items = feed.items.filter(item => (item[site.type.title] || item.title) !== "SERVICE ANNOUNCEMENT: About this feed") || [];
+            const items = feed.items.filter(item => 
+                (item[site.type.title] || item.title) !== "SERVICE ANNOUNCEMENT: About this feed" || 
+                (item[site.type.title] || item.title) !== "ALERT: Potential Issue with Feed"
+            ) || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
                 const content = item[site.type.content];
@@ -33,7 +36,7 @@ const parser = new RSSParser();
                 return {
                     title: item[site.type.title] ?? "",
                     content: content ? decode(decode(content)) : "",
-                    createdAt,
+                    createdAt: createdAt.toISO() || "",
                     link: site.type.link && (item[site.type.link] ?? ""),
                     author: site.type.author && (item[site.type.author] ?? ""),
                     thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
@@ -48,7 +51,7 @@ const parser = new RSSParser();
         }));
         const data: ParserData[] = parsing.flat();
         data.sort((a, b) => {
-            return b.createdAt.toMillis() - a.createdAt.toMillis();
+            return DateTime.fromISO(b.createdAt).toMillis() - DateTime.fromISO(a.createdAt).toMillis();
         });
 
         const targetData = process.env.VITE_TARGET_PATH_DATA ?? 'public/data.json';

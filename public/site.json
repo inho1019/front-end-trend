@@ -3,7 +3,7 @@
     "id": "1",
     "url": "https://fenews.substack.com/feed",
     "name": "FEnews",
-    "description": "fenews",
+    "description": "FEnews",
     "type": {
       "title": "title",
       "content": "content",
@@ -16,7 +16,46 @@
     "id": "2",
     "url": "https://feeds.feedburner.com/geeknews-feed",
     "name": "GeekNews",
-    "description": "geeknews",
+    "description": "GeekNews",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "3",
+    "url": "https://kofearticle.substack.com/feed",
+    "name": "kofearticle",
+    "description": "kofearticle",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "4",
+    "url": "https://css-tricks.com/category/articles/feed",
+    "name": "cssTrick",
+    "description": "cssTrick",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "5",
+    "url": "https://css-tricks.com/category/articles/feed",
+    "name": "cssTrick",
+    "description": "cssTrick",
     "type": {
       "title": "title",
       "content": "content",

@@ -1,5 +1,5 @@
+import type { Site } from "@shared/model/site";
 import { Base64 } from "js-base64";
-import type { Site } from "../../model/site";
 import { getData } from "../get/get-data";
 import { client } from "../octokit-client";
 
@@ -13,7 +13,7 @@ export const addData = async (token: string, data: Site, message?: string) => {
         newData.push(data);
 
         await client(token).repos.createOrUpdateFileContents({
-            author: import.meta.env.VITE_GITHUB_author,
+            owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
             path: import.meta.env.VITE_TARGET_PATH_SITE,
             branch: import.meta.env.VITE_TARGET_BRANCH,

@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 
-const useTrans = () => {
+export const useTrans = () => {
     const { t } = useTranslation();
     const trans = useCallback(
         (key: string, defaultValue: string) => {
@@ -11,5 +11,3 @@ const useTrans = () => {
     );
     return { trans }
 };
-
-export default useTrans;
