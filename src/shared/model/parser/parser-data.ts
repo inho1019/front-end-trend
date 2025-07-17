@@ -1,9 +1,7 @@
-import type { DateTime } from "luxon";
-
 export type ParserData = {
     title: string;
     content: string;
-    createdAt: DateTime;
+    createdAt: string; //ISO date string
     link?: string;
     author?: string;
     thumbnail?: string;

@@ -1,0 +1,1 @@
+export { useTrans } from './use-trans';

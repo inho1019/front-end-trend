@@ -33,7 +33,7 @@ const parser = new RSSParser();
                 return {
                     title: item[site.type.title] ?? "",
                     content: content ? decode(decode(content)) : "",
-                    createdAt,
+                    createdAt: createdAt.toISO() || "",
                     link: site.type.link && (item[site.type.link] ?? ""),
                     author: site.type.author && (item[site.type.author] ?? ""),
                     thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
@@ -48,7 +48,7 @@ const parser = new RSSParser();
         }));
         const data: ParserData[] = parsing.flat();
         data.sort((a, b) => {
-            return b.createdAt.toMillis() - a.createdAt.toMillis();
+            return DateTime.fromISO(b.createdAt).toMillis() - DateTime.fromISO(a.createdAt).toMillis();
         });
 
         const targetData = process.env.VITE_TARGET_PATH_DATA ?? 'public/data.json';

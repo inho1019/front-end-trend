@@ -27,7 +27,9 @@
     "rss-parser": "^3.13.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11",
+    "tailwindcss-animated": "^2.0.0",
     "tsx": "^4.20.3",
+    "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "devDependencies": {
