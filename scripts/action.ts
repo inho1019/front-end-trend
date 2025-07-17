@@ -16,7 +16,10 @@ const parser = new RSSParser();
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(sites.map(async (site: Site) => {
             const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
-            const items = feed.items.filter(item => (item[site.type.title] || item.title) !== "SERVICE ANNOUNCEMENT: About this feed") || [];
+            const items = feed.items.filter(item => 
+                (item[site.type.title] || item.title) !== "SERVICE ANNOUNCEMENT: About this feed" || 
+                (item[site.type.title] || item.title) !== "ALERT: Potential Issue with Feed"
+            ) || [];
             const parsedData: ParserData[] = items.map(item => {
                 const createdRaw = item[site.type.createdAt];
                 const content = item[site.type.content];

@@ -1,2 +1,4 @@
 import XIcon from './xIcon.svg';
-export { XIcon };
+import TranslateIcon from './translateIcon.svg';
+
+export { XIcon, TranslateIcon };

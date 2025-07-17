@@ -5,9 +5,7 @@ import { MagazineList } from "./initial/magazine-list";
 const MagazinePage = () => {
     return (
         <MainContainer>
-            <section>
-                <MagazineList />
-            </section>
+            <MagazineList />
         </MainContainer>
     );
 }

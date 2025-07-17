@@ -8,17 +8,14 @@ import { useCallback, useState } from "react";
 export const MagazineList = () => {
     const data = useDataContext();
 
-    const [isOpenMagazinePanel, setIsOpenMagazinePanel] = useState(false);
-    const [targetData, setTargetData] = useState<ParserData | null>(null);
+    const [selectedData, setSelectedData] = useState<ParserData | null>(null);
 
     const handleClickItem = useCallback((data: ParserData) => {
-        setTargetData(data);
-        setIsOpenMagazinePanel(true);
+        setSelectedData(data);
     }, []);
 
     const handleClosePanel = useCallback(() => {
-        setIsOpenMagazinePanel(false);
-        setTargetData(null);
+        setSelectedData(null);
     }, []);
     
     return (
@@ -35,7 +32,7 @@ export const MagazineList = () => {
                     ))
                 }
             </div>
-            <MagazinePanel isOpen={isOpenMagazinePanel} data={targetData} onClose={handleClosePanel} />
+            <MagazinePanel isOpen={!!selectedData} data={selectedData} onClose={handleClosePanel} />
         </>
     );
 }
