@@ -1,7 +1,19 @@
 [
   {
-    "title": "Tiny Linux 호환 커널 Tilck",
-    "content": "<ul>\r\n<li>\r\n<strong>Tilck</strong>은 매우 작은 <strong>Linux 호환 커널</strong>로, 리눅스 환경을 가볍게 구현함</li>\r\n<li>이 커널은 <strong>리소스 사용 최소화</strong>를 목표로 하여 임베디드 장치나 제한된 환경에서 유용함</li>\r\n<li>Tilck은 <strong>표준 Linux 소프트웨어 바이너리의 일부 실행</strong>을 지...</p>",
+    "title": "Show GN: 16비트 DOS 시절에 쓰던 구닥다리 조합 글꼴(8x4x4)을 트루타입등으로 변환",
+    "content": "<p>현재는:</p>\r\n<ul>\r\n<li>Hanme 한메한글(DOS용) +  영어 (sans|serif) + (Nerd Font)</li>\r\n<li>Iyagi 이야기(DOS용) + 영어 (sans|serif) + (Nerd Font)</li>\r\n<li>Dkby 도깨비한글 +  영어 (sans|serif) + (Nerd Font)</li>\r\n<li>Sans (그시절 흔한 고딕) + 영어 sans + (Nerd Font)</li>\r\n<li>Serif (그시절 흔한 명조)",
+    "createdAt": "2025-07-18T03:04:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=22048",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tilck - 리눅스 호환 미니멀 커널",
+    "content": "<ul>\r\n<li>\r\n<strong>Tilck</strong>는 리눅스와 바이너리 호환되는 <strong>모놀리식 커널</strong>로, <strong>교육 목적</strong>과 <strong>내장 시스템용</strong>으로 설계됨</li>\r\n<li>*리소스 사용 최소화**를 목표로 하여 임베디드 장치나 제한된 환경에서 유용함</li>\r\n<li>BusyBox 등 <strong>기존 리눅스 사용자...</p>",
     "createdAt": "2025-07-18T01:15:48.000+00:00",
     "link": "https://news.hada.io/topic?id=22047",
     "author": "",
@@ -24,8 +36,8 @@
     }
   },
   {
-    "title": "오픈소스 로봇 손: Hand",
-    "content": "<ul>\r\n<li>\r\n<strong>Amazing Hand</strong> 프로젝트는 저비용으로 <strong>휴머노이드 로봇 손</strong>을 만들고 제어할 수 있는 오픈소스 솔루션임</li>\r\n<li>8개의 자유도를 가진 <strong>4손가락 구조</strong>, 모든 액추에이터가 내부에 배치되어 외부 케이블 없이 작동함</li>\r\n<li>\r\n<strong>3D 프린트 부품</stron...</p>",
+    "title": "AmazingHand - 오픈소스 로봇 손 프로젝트",
+    "content": "<ul>\r\n<li>\r\n<strong>Amazing Hand</strong> 프로젝트는 <strong>200달러 이하</strong>의 저비용으로 <strong>휴머노이드 로봇 손</strong>을 만들고 제어할 수 있는 오픈소스 솔루션</li>\r\n<li>8개의 자유도를 가진 <strong>4손가락 구조</strong>, 모든 액추에이터가 내부에 배치되어 외부 케이블 없이 작동함</li>\r\n<li>...</p>",
     "createdAt": "2025-07-18T01:09:31.000+00:00",
     "link": "https://news.hada.io/topic?id=22045",
     "author": "",
@@ -48,8 +60,8 @@
     }
   },
   {
-    "title": "뉴욕 증권거래소 2025년 7월 주요 IPO 일정",
-    "content": "<ul>\r\n<li>\r\n<strong>2025년 7월</strong>, 뉴욕 증권거래소에서는 <strong>NIQ Global Intelligence plc, Accelerant Holdings, McGraw Hill, Inc.</strong> 등 다양한 분야의 주요 기업이 <strong>상장</strong> 예정임</li>\r\n<li>\r\n<strong>Figma</strong>와 같은 <strong>디자인 소프트웨어 기업</strong>은 2025년 하반...</p>",
+    "title": "Mistral AI, Le Chat에 Deep Research, Voice, Project등을 추가",
+    "content": "<ul>\r\n<li>Mistral AI는 <strong>Le Chat에 새로운 기능 5가지</strong>를 추가해 사용자의 탐색, 표현, 정리를 더욱 자연스럽고 강력하게 만들었음</li>\r\n<li>\r\n<strong>Deep Research 모드</strong>는 복잡한 질문을 구조화된 리서치 리포트로 빠르게 정리해주는 기능을 제공함</li>\r\n<li>\r\n<strong>음성 모드</strong>는 새...</p>",
     "createdAt": "2025-07-18T01:03:28.000+00:00",
     "link": "https://news.hada.io/topic?id=22043",
     "author": "",
@@ -100,18 +112,6 @@
     "content": "<p>요약: CharGPT</p>\r\n<p>🧨 핵심 요지<br />\r\n•\t웹이 무겁고 불안정해졌다<br />\r\n자바스크립트 프레임워크들이 무분별하게 도입되면서 웹사이트는 느려지고, 렌더링 지연이 발생하며, 유지보수성도 악화됨에도 이를 ‘진보’라고 포장한다  ￼.<br />\r\n•\t개발자 경험(DX)이 사용자 경험(UX)을 압도<br />\r\n도구와 프레임",
     "createdAt": "2025-07-18T00:02:16.000+00:00",
     "link": "https://news.hada.io/topic?id=22039",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "pgactive - Postgres 액티브-액티브 복제 확장",
-    "content": "<ul>\r\n<li>AWS가 만들어서 공개한 PostgreSQL을 위한 <strong>active-active 복제</strong> 확장</li>\r\n<li>여러 PostgreSQL 인스턴스에서 데이터 쓰기·수정이 필요할 때, 특정 인스턴스가 단독으로 변경을 수용하는 기존의 액티브-스탠바이 모델 대신, <strong>여러 인스턴스에서 동시 변경</strong>과 복제가 가능한 구조...</p>",
-    "createdAt": "2025-07-17T16:33:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=22038",
     "author": "",
     "site": {
       "id": "2",
