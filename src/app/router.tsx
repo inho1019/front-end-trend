@@ -5,7 +5,7 @@ import { MagazinePage } from "@pages/magazine/ui";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
   const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children), {
-    basename: import.meta.env.PROD ? import.meta.env.PUBLIC_URL : undefined,
+    basename: import.meta.env.PROD ? "/front-end-magazine" : undefined,
   }), [children]);
 
   return <RouterProvider router={router} />;
