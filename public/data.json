@@ -1,5 +1,17 @@
 [
   {
+    "title": "스스로 배운 엔지니어가 종종 더 뛰어남 (2024)",
+    "content": "<ul>\r\n<li>\r\n<strong>정규 교육</strong>은 효율적인 숙련도 전달에는 유용하지만, 예기치 못한 문제 해결을 위한 <strong>직관</strong>을 개발하는 데는 한계가 있음</li>\r\n<li>\r\n<strong>목적 있는 반복적 시행착오(알고리듬)</strong> 는 실전에서의 실패와 수정 과정을 통해 숙련도를 가장 크게 높이는 요소임</li>\r\n<li...</p>",
+    "createdAt": "2025-07-18T13:35:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=22052",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "AtCoder World Tour Final 2025 Heuristic 부문, OpenAI가 2등을 기록",
     "content": "<p>해당 대회의 기록은 로그인을 하신 뒤 아래의 링크로 접속하셔서 볼 수 있습니다.</p>\r\n<ul>\r\n<li>https://atcoder.jp/contests/awtf2025heuristic/standings/exhibition</li>\r\n</ul>\r\n<p>1등은 슬로베니아 프로그래머인 Psyho가 되었고, 2등은 OpenAI의 AHC AI가 2등을 달성하였습니다.</p>\r\n<p>1등을 달성한 프로그래머의",
     "createdAt": "2025-07-18T06:40:30.000+00:00",
@@ -100,18 +112,6 @@
     "content": "<ul>\r\n<li>Mistral AI는 <strong>Le Chat에 새로운 기능 5가지</strong>를 추가해 사용자의 탐색, 표현, 정리를 더욱 자연스럽고 강력하게 만들었음</li>\r\n<li>\r\n<strong>Deep Research 모드</strong>는 복잡한 질문을 구조화된 리서치 리포트로 빠르게 정리해주는 기능을 제공함</li>\r\n<li>\r\n<strong>음성 모드</strong>는 새...</p>",
     "createdAt": "2025-07-18T01:03:28.000+00:00",
     "link": "https://news.hada.io/topic?id=22043",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ChatGPT 에이전트, 리서치와 액션을 연결합니다",
-    "content": "<ul>\r\n<li>\r\n<strong>ChatGPT 에이전트</strong>는 자체 가상 컴퓨터를 활용해 유저의 복잡한 작업을 처음부터 끝까지 처리함</li>\r\n<li>\r\n<strong>Operator</strong>의 웹사이트 상호작용력과 <strong>심층 리서치</strong>의 정보 분석 성능이 결합된 새로운 에이전틱 시스템을 구성하여 클릭·입력·코드 실행까지 유연하게...</p>",
-    "createdAt": "2025-07-18T01:00:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=22042",
     "author": "",
     "site": {
       "id": "2",
