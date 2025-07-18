@@ -15,7 +15,7 @@ export const Panel = ({ isOpen, position, children, className }: PanelProps) => 
         createPortal(
             <div className={
                 twMerge(
-                    "fixed z-10",
+                    "fixed z-10 animate-duration-500",
                     position === "left" && "left-0 top-0 animate-fade-right",
                     position === "right" && "right-0 top-0 animate-fade-left",
                     position === "top" && "top-0 left-0 animate-fade-down",

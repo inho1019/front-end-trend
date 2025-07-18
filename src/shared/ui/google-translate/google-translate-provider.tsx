@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { GoogleTranslateContext } from "@shared/lib/google-translate";
 import { useCallback, useEffect, useMemo, useState, type PropsWithChildren } from "react"
 import i18next from "i18next";
@@ -10,6 +11,7 @@ declare global {
                 TranslateElement: new (options: object, elementId: string) => any;
             };
         };
+        googleTranslator?: any;
     }
 }
 
@@ -23,35 +25,21 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
         if (!isEnabled) return;
         const langCode = i18next.language.split("-")[0];
 
-        window.googleTranslateElementInit = () => {
-            if (window.google?.translate) {
-                new window.google.translate.TranslateElement(
-                    {
-                        autoDisplay: true 
-                    },
-                    "google_translate_element"
-                );
-            }
-        };
-
-        const script = document.createElement("script");
-        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        script.async = true;
-        document.body.appendChild(script);
-
-        const handleChangeLanguage = (language = "") => {
-            const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
-            if (select) {
-                select.value = language;
-                select.dispatchEvent(new Event('change'));
-            }
+        const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
+        if (select) {
+            select.value = langCode;
+            select.dispatchEvent(new Event('change'));
         }
-        
-        setTimeout(() => {
-            handleChangeLanguage(langCode);
-        }, 1000)
+
         return () => {
-           window.location.reload();
+            if (window.googleTranslator) {
+                Object.keys(window.googleTranslator).forEach((k) => {
+                    if (typeof window.googleTranslator[k]?.restore === 'function') {
+                        window.googleTranslator[k].restore();
+                    }
+                });
+            }
+            document.cookie = "googtrans=";
         };
     }, [isEnabled]);
 

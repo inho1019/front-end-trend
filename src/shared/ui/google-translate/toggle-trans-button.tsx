@@ -11,11 +11,12 @@ export const ToggleTransButton = ({ className }: ToggleTransButtonProps) => {
 
     return (
         <button
-            aria-checked={isEnabled}
-            className={twMerge("p-5 bg-white shadow-xl cursor-pointer rounded-full aria-checked:animate-pulse", className)}
+            className={twMerge("p-5 bg-white shadow-xl cursor-pointer rounded-full", className)}
             onClick={toggleTranslate}
         >
-            <TranslateIcon />
+            <div aria-checked={isEnabled} className="aria-checked:animate-spin duration-500">
+                <TranslateIcon />
+            </div>
         </button>
     );
 }
