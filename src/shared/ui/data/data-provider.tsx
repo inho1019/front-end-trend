@@ -10,7 +10,7 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
         const fetchData = async () => {
             startTransition(async () => {
                 try {
-                    const response = await fetch("/data.json");
+                    const response = await fetch('./data.json');
                     const jsonData: ParserData[] = await response.json();
                     setData(jsonData);
                 } catch (error) {
