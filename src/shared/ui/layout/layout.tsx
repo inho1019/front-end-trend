@@ -5,7 +5,7 @@ const Layout = () => {
     return (
         <>
             <Outlet />
-            <ToggleTransButton className="fixed top-10 left-10 z-50" />
+            <ToggleTransButton className="fixed bottom-20 left-20 z-50 opacity-80" />
         </>
     );
 }
