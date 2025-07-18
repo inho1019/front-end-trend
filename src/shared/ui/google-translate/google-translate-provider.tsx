@@ -22,16 +22,15 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
     const toggleTranslate = useCallback(() => setIsEnabled(prev => !prev), []);
 
     useEffect(() => {
-        if (!isEnabled) return;
-        const langCode = i18next.language.split("-")[0];
-
-        const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
-        if (select) {
-            select.value = langCode;
-            select.dispatchEvent(new Event('change'));
-        }
-
-        return () => {
+        if (isEnabled) {
+            const langCode = i18next.language.split("-")[0];
+    
+            const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
+        } else {
             if (window.googleTranslator) {
                 Object.keys(window.googleTranslator).forEach((k) => {
                     if (typeof window.googleTranslator[k]?.restore === 'function') {
