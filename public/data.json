@@ -1,5 +1,17 @@
 [
   {
+    "title": "AI 자본지출이 경제 통계까지 뒤흔드는 수준임",
+    "content": "<ul>\r\n<li>\r\n<strong>AI 데이터센터 지출</strong>이 미국 경제 통계에 의미 있는 영향을 미치는 수준임</li>\r\n<li>2025년 미국 <strong>GDP의 약 2%</strong> 가 AI 관련 자본지출로 추산됨</li>\r\n<li>이 거대한 <strong>자본 이동</strong>은 다른 산업의 투자 감소와 인프라 예산 부족 현상으로 연결됨</li>\r\n<li>AI 중심 ...</p>",
+    "createdAt": "2025-07-19T09:35:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=22064",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "신용카드 회사들이 밸브에 특정 성인 게임을 스팀에서 내리도록 압박한 사실 확인",
     "content": "<ul>\r\n<li>\r\n<strong>밸브(Valve)</strong> 는 최근 <strong>신용카드 결제사</strong>들의 압력으로 인해 일부 성인 게임들을 스팀에서 삭제했음</li>\r\n<li>결제사 규정 위반 게임들이 판매 중단 대상이 되었으며, <strong>개발자</strong>들에게는 향후 스팀에 다른 게임을 등록할 기회가 제공됨</li>\r\n<li>밸브는 결제 수...</p>",
     "createdAt": "2025-07-19T04:35:21.000+00:00",
@@ -100,18 +112,6 @@
     "content": "<ul>\r\n<li>\r\n<strong>완전동형암호(FHE)</strong> 는 데이터를 복호화하지 않고도 암호문 상태로 연산을 수행할 수 있는 기술</li>\r\n<li>현재 FHE는 여전히 <strong>저조한 실용성</strong>과 <strong>1,000배~10,000배</strong>의 연산 속도 저하, <strong>40배~1,000배</strong>의 저장공간 증가 등 한계를 지님</li>\r\n<li...</p>",
     "createdAt": "2025-07-19T00:45:36.000+00:00",
     "link": "https://news.hada.io/topic?id=22055",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Kingfisher - 초고속 실시간 시크릿 탐지·검증 도구",
-    "content": "<ul>\r\n<li>Rust 기반으로 개발된 <strong>초고속 시크릿(비밀정보) 스캐닝 및 검증 도구</strong>\r\n</li>\r\n<li>멀티스레드와 Intel Hyperscan 정규표현식 엔진 기반으로 대규모 코드베이스 초고속 탐색 가능</li>\r\n<li>Tree-Sitter로 20개 이상 언어의 AST 파싱 지원, 단순 정규식 오탐 최소화</li>\r\n<li>수백 개의 <strong>내...</p>",
-    "createdAt": "2025-07-19T00:31:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=22054",
     "author": "",
     "site": {
       "id": "2",
