@@ -1,4 +1,3 @@
-import React from "react";
-
-export const Layout = React.lazy(() => import("./layout"));
-export const MainContainer = React.lazy(() => import("./main-container"));
+export { Header } from './header';
+export { MainContainer } from './main-container';
+export { Layout } from './layout';
