@@ -12,18 +12,6 @@
     }
   },
   {
-    "title": "AI 발전을 따라잡는 방법",
-    "content": "<ul>\r\n<li>생성형 AI는 <strong>급속도로 발전하는 기술</strong>로, 많은 오해와 잘못된 정보가 존재함</li>\r\n<li>기업과 정부가 <strong>위험하거나 비효율적인 AI 제품</strong>을 출시하며, 제대로 이해하지 못한 채 AI를 잘못 적용하는 사례가 발생함</li>\r\n<li>AI 발전을 올바르게 이해하려면 <strong>공식 소스와 신...</p>",
-    "createdAt": "2025-07-20T01:08:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=22075",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "비동기(asynchrony)는 동시성(concurrency)이 아님",
     "content": "<ul>\r\n<li>\r\n<strong>비동기</strong>와 <strong>동시성</strong>은 자주 혼동되는 개념이지만, 서로 다른 의미를 가짐</li>\r\n<li>\r\n<strong>비동기</strong>는 작업들이 순서에 상관없이 실행될 수 있는 가능성을 뜻함</li>\r\n<li>\r\n<strong>동시성</strong>은 시스템이 여러 작업을 동시에 진행할 수 있는 능력을 의미함</li>...</p>",
     "createdAt": "2025-07-20T01:05:03.000+00:00",
@@ -36,8 +24,8 @@
     }
   },
   {
-    "title": "진단 몇 년 전에도 혈액에서 암 DNA 탐지 가능성",
-    "content": "<ul>\r\n<li>\r\n<strong>암 DNA</strong>가 실제 암 진단 수년 전에 <strong>혈액</strong>에서 탐지 가능함</li>\r\n<li>이 발견은 <strong>조기 진단</strong>과 치료 기회 확대에 큰 영향을 미침</li>\r\n<li>연구에 따르면 <strong>혈액 검사</strong>를 통한 질병 추적이 효과적임</li>\r\n<li>다양한 암 유형에 대해 <strong>잠재...</p>",
+    "title": "암 DNA, 진단 몇 년 전부터 혈액에서 탐지 가능",
+    "content": "<ul>\r\n<li>\r\n<strong>암의 유전적 흔적</strong>이 질병 진단 수년 전 이미 혈액 속에서 탐지될 수 있음</li>\r\n<li>연구자들은 <strong>고감도·정확한 기술</strong>로 극미량의 <strong>종양 DNA</strong>를 확인, 조기 암 선별 도구로서 가능성이 있다는 걸 제시</li>\r\n<li>과거 채취된 <strong>혈액 샘플 분석</strong>에...</p>",
     "createdAt": "2025-07-20T01:02:02.000+00:00",
     "link": "https://news.hada.io/topic?id=22073",
     "author": "",
@@ -49,7 +37,7 @@
   },
   {
     "title": "fstrings.wtf",
-    "content": "<ul>\r\n<li>\r\n<strong>Python f-string</strong>을 주제로 한 <strong>온라인 퀴즈</strong> 소개</li>\r\n<li>Python 3.13 버전에서 <strong>f-string의 동작 방식</strong>을 중심으로 질문 제공임</li>\r\n<li>\r\n<strong>프로그래머의 f-string 활용 능력</strong>을 점검하고 학습할 수 있는 기회임</li>\r\n<li>간단한 인터페이스...</p>",
+    "content": "<ul>\r\n<li>fstrings.wtf는 <strong>Python의 f-string 기능</strong>에 대한 이해도를 점검하기 위한 온라인 퀴즈</li>\r\n<li>최신 Python 3.13 버전에서 적용되는 <strong>f-string의 다양한 동작</strong>과 예외 사항을 테스트하는 질문으로 구성됨</li>\r\n<li>사용자는 별도의 과정 없이 <strong>즉시 퀴즈를 진행</stron...</p>",
     "createdAt": "2025-07-20T00:59:00.000+00:00",
     "link": "https://news.hada.io/topic?id=22072",
     "author": "",
@@ -60,8 +48,8 @@
     }
   },
   {
-    "title": "OpenAI, IMO 2025에서 금메달 성과 주장",
-    "content": "<ul>\r\n<li>\r\n<strong>OpenAI</strong>가 <strong>IMO 2025</strong>에서 인공지능이 금메달 수준의 성과를 달성했다고 발표함</li>\r\n<li>이 성과는 <strong>수학 올림피아드</strong> 같은 고난도 문제를 푸는 인공지능의 <strong>능력 향상</strong>을 보여줌</li>\r\n<li>OpenAI의 <strong>알고리듬 개발</strong>과 문제 접...</p>",
+    "title": "OpenAI, 2025 국제수학올림피아드(IMO)에서 금메달급 성과 달성 발표",
+    "content": "<ul>\r\n<li>\r\n<strong>OpenAI가 개발한 실험용 추론 LLM</strong>이 2025년 국제수학올림피아드(IMO)에서 <strong>금메달 수준의 성적</strong>을 기록함</li>\r\n<li>\r\n<strong>공식 IMO 규정</strong>과 동일하게 문제 풀이 및 자연어 증명 작성, 인간 채점자 3인의 만장일치 채점으로 42점 만점 중 <strong>35점(6문제 중 5문...</p>",
     "createdAt": "2025-07-20T00:55:59.000+00:00",
     "link": "https://news.hada.io/topic?id=22071",
     "author": "",
@@ -84,8 +72,8 @@
     }
   },
   {
-    "title": "셀프 호스팅 환경 구축기",
-    "content": "<ul>\r\n<li>작성자는 수년간 다양한 <strong>셀프 호스팅 접근법</strong>을 시도한 끝에, 커스텀 환경을 성공적으로 구축했음</li>\r\n<li>주요 목표는 <strong>개인 데이터 통제</strong>와 신뢰할 수 있는 인프라 유지였으며, 이를 위해 NixOS, ZFS, Tailscale, Authelia 등 여러 핵심 기술을 조합했음</li>\r\n<li>\r\n<strong>...</p>",
+    "title": "궁극의 셀프호스팅 환경 구축기",
+    "content": "<ul>\r\n<li>수년간 다양한 <strong>셀프 호스팅 접근법</strong>을 시도한 끝에, 커스텀 환경을 성공적으로 구축한 경험 공유</li>\r\n<li>주요 목표는 <strong>개인 데이터 통제</strong>와 신뢰할 수 있는 인프라 유지였으며, 이를 위해 NixOS, ZFS, Tailscale, Authelia 등 여러 핵심 기술을 조합했음</li>\r\n<li>\r\n<strong>가...</p>",
     "createdAt": "2025-07-20T00:49:56.000+00:00",
     "link": "https://news.hada.io/topic?id=22069",
     "author": "",
@@ -112,6 +100,18 @@
     "content": "<ul>\r\n<li>Apple 공식 <strong>Figma/Sketch용 UI 키트</strong>로, iPhone 및 iPad 인터페이스를 매우 정밀하게 재현</li>\r\n<li>모든 <strong>기본 컨트롤과 뷰, 텍스트/컬러 스타일, 머티리얼, 레이아웃 가이드</strong>가 포함되어 빠른 프로토타입 제작과 사용자 흐름 설계에 최적화</li>\r\n<li>\r\n<strong>iOS 및 iPadOS ...</p>",
     "createdAt": "2025-07-20T00:31:02.000+00:00",
     "link": "https://news.hada.io/topic?id=22067",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "메타, 유럽 AI 협정 서명 거부…성장 저해하는 `과도한 규제`라고 비판",
+    "content": "<ul>\r\n<li>\r\n<strong>Meta Platforms</strong>가 유럽연합(EU)의 <strong>인공지능 실천 강령</strong>에 서명하지 않겠다고 공식 발표함</li>\r\n<li>메타 글로벌 정책 책임자인 <strong>Joel Kaplan</strong>은 이 강령이 <strong>과도한 규제</strong>로, 혁신과 성장을 저해한다고 강조함</li>\r\n<li>해당 강령은 <strong>A...</p>",
+    "createdAt": "2025-07-19T18:35:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=22066",
     "author": "",
     "site": {
       "id": "2",
