@@ -2,8 +2,10 @@
 name: Deployment
 
 on:
-  commit:
-    # 특정 파일에 대한 변경 사항이 있을 때만 실행
+  # 기본 브랜치에 대한 푸시 이벤트 발생 시 실행
+  push:
+    branches:
+      - main
     paths:
       - 'public/**'
 
