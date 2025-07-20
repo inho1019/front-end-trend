@@ -1,9 +1,9 @@
 [
   {
-    "title": "Meta, 유럽 AI 협정을 과도한 규제로 보고 서명 거부",
-    "content": "<ul>\r\n<li>\r\n<strong>Meta</strong>가 유럽 연합(EU)의 <strong>AI 관련 자율규제 협정</strong>에 서명하지 않기로 결정함</li>\r\n<li>Meta는 해당 협정이 기업에 대한 <strong>관할권과 규제 범위의 과도한 확장</strong>이라고 주장함</li>\r\n<li>이 결정은 EU 내 AI 산업의 <strong>자율성</strong>과 기업의 <strong>혁신...</p>",
-    "createdAt": "2025-07-19T18:35:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=22066",
+    "title": "AI 출력물을 사람에게 보여주는 것은 무례함",
+    "content": "<ul>\r\n<li>\r\n<strong>AI가 생성한 텍스트</strong>를 다른 사람에게 무분별하게 전달하는 것은 <strong>상대방을 혼란스럽게 하는 행동</strong>임</li>\r\n<li>예전에는 작성된 텍스트가 <strong>인간의 사고의 증거</strong>였으나, AI의 발전으로 이러한 신뢰가 무너짐</li>\r\n<li>\r\n<strong>AI가 생성한 콘텐츠</strong>의 전...</p>",
+    "createdAt": "2025-07-20T01:33:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=22076",
     "author": "",
     "site": {
       "id": "2",
@@ -12,10 +12,10 @@
     }
   },
   {
-    "title": "Show GN: 프론트엔드 JS 없이 구현하는 깃허브 블로그 댓글 기능",
-    "content": "<p>프론트엔드에서 어떠한 JS 코드도 서빙하지 않는 블로그를 목표로 시작했습니다.</p>\r\n<p>기존 블로그에 giscus를 사용한 댓글 기능이 있어,<br />\r\nJS 없이 댓글 기능을 구현하는 것이 큰 걸림돌이었는데요.</p>\r\n<p>Cloudflare Workers와 GitHub Actions를 사용하여 댓글 기능을 구현했습니다.</p>\r\n<p>아래의 흐름에 따",
-    "createdAt": "2025-07-19T16:03:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=22065",
+    "title": "AI 발전을 따라잡는 방법",
+    "content": "<ul>\r\n<li>생성형 AI는 <strong>급속도로 발전하는 기술</strong>로, 많은 오해와 잘못된 정보가 존재함</li>\r\n<li>기업과 정부가 <strong>위험하거나 비효율적인 AI 제품</strong>을 출시하며, 제대로 이해하지 못한 채 AI를 잘못 적용하는 사례가 발생함</li>\r\n<li>AI 발전을 올바르게 이해하려면 <strong>공식 소스와 신...</p>",
+    "createdAt": "2025-07-20T01:08:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=22075",
     "author": "",
     "site": {
       "id": "2",
@@ -24,10 +24,10 @@
     }
   },
   {
-    "title": "AI 자본지출이 너무 커서 경제 통계까지 뒤흔들고 있음",
-    "content": "<ul>\r\n<li>\r\n<strong>AI 데이터센터 자본지출</strong>이 미국 및 글로벌 경제에서 전례 없이 큰 비중을 차지하게 되었음</li>\r\n<li>\r\n<strong>미국 2025년 AI 관련 데이터센터 투자</strong>가 GDP의 <strong>약 2%</strong> 에 달하며, 이는 <strong>0.7%의 GDP 성장 기여</strong>로 추정됨</li>\r\n<li>이 거대한 투자금은 ...</p>",
-    "createdAt": "2025-07-19T09:35:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=22064",
+    "title": "비동기(asynchrony)는 동시성(concurrency)이 아님",
+    "content": "<ul>\r\n<li>\r\n<strong>비동기</strong>와 <strong>동시성</strong>은 자주 혼동되는 개념이지만, 서로 다른 의미를 가짐</li>\r\n<li>\r\n<strong>비동기</strong>는 작업들이 순서에 상관없이 실행될 수 있는 가능성을 뜻함</li>\r\n<li>\r\n<strong>동시성</strong>은 시스템이 여러 작업을 동시에 진행할 수 있는 능력을 의미함</li>...</p>",
+    "createdAt": "2025-07-20T01:05:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=22074",
     "author": "",
     "site": {
       "id": "2",
@@ -36,10 +36,10 @@
     }
   },
   {
-    "title": "신용카드 회사들이 밸브에 특정 성인 게임을 스팀에서 내리도록 압박한 사실 확인",
-    "content": "<ul>\r\n<li>\r\n<strong>밸브(Valve)</strong> 는 최근 <strong>신용카드 결제사</strong>들의 압력으로 인해 일부 성인 게임들을 스팀에서 삭제했음</li>\r\n<li>결제사 규정 위반 게임들이 판매 중단 대상이 되었으며, <strong>개발자</strong>들에게는 향후 스팀에 다른 게임을 등록할 기회가 제공됨</li>\r\n<li>밸브는 결제 수...</p>",
-    "createdAt": "2025-07-19T04:35:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=22063",
+    "title": "진단 몇 년 전에도 혈액에서 암 DNA 탐지 가능성",
+    "content": "<ul>\r\n<li>\r\n<strong>암 DNA</strong>가 실제 암 진단 수년 전에 <strong>혈액</strong>에서 탐지 가능함</li>\r\n<li>이 발견은 <strong>조기 진단</strong>과 치료 기회 확대에 큰 영향을 미침</li>\r\n<li>연구에 따르면 <strong>혈액 검사</strong>를 통한 질병 추적이 효과적임</li>\r\n<li>다양한 암 유형에 대해 <strong>잠재...</p>",
+    "createdAt": "2025-07-20T01:02:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22073",
     "author": "",
     "site": {
       "id": "2",
@@ -48,10 +48,10 @@
     }
   },
   {
-    "title": "NYPD, 얼굴인식 금지 우회해 친팔레스타인 학생 시위대 신원 확인",
-    "content": "<ul>\r\n<li>\r\n<strong>NYPD</strong>가 내부 정책상 금지된 <strong>얼굴인식 기술</strong>을 사용하지 않고, <strong>FDNY</strong>의 Clearview AI 접근 권한을 통해 <strong>학생 시위자의 신원</strong>을 확인함</li>\r\n<li>해당 사건은 <strong>법원의 결정</strong>과 법적 소송으로 드러났으며, FDNY가 NYPD를 대신해...</p>",
-    "createdAt": "2025-07-19T03:34:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=22062",
+    "title": "fstrings.wtf",
+    "content": "<ul>\r\n<li>\r\n<strong>Python f-string</strong>을 주제로 한 <strong>온라인 퀴즈</strong> 소개</li>\r\n<li>Python 3.13 버전에서 <strong>f-string의 동작 방식</strong>을 중심으로 질문 제공임</li>\r\n<li>\r\n<strong>프로그래머의 f-string 활용 능력</strong>을 점검하고 학습할 수 있는 기회임</li>\r\n<li>간단한 인터페이스...</p>",
+    "createdAt": "2025-07-20T00:59:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=22072",
     "author": "",
     "site": {
       "id": "2",
@@ -60,10 +60,10 @@
     }
   },
   {
-    "title": "내가 Kagi를 활용하는 방법",
-    "content": "<ul>\r\n<li>\r\n<strong>Kagi</strong>는 광고 기술에 의존하지 않는 <strong>유료 검색 엔진</strong>으로, Duo Family 요금제(월 $14)로 <strong>만족스러운 검색 환경</strong>을 이용 중임</li>\r\n<li>핵심 기능은 <strong>Lenses(렌즈)</strong> 와 <strong>Personal Results(개인화 결과)</strong> 로, 원하는 웹사이트만...</p>",
-    "createdAt": "2025-07-19T01:03:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=22061",
+    "title": "OpenAI, IMO 2025에서 금메달 성과 주장",
+    "content": "<ul>\r\n<li>\r\n<strong>OpenAI</strong>가 <strong>IMO 2025</strong>에서 인공지능이 금메달 수준의 성과를 달성했다고 발표함</li>\r\n<li>이 성과는 <strong>수학 올림피아드</strong> 같은 고난도 문제를 푸는 인공지능의 <strong>능력 향상</strong>을 보여줌</li>\r\n<li>OpenAI의 <strong>알고리듬 개발</strong>과 문제 접...</p>",
+    "createdAt": "2025-07-20T00:55:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=22071",
     "author": "",
     "site": {
       "id": "2",
@@ -72,10 +72,10 @@
     }
   },
   {
-    "title": "NIH(Not Invented Here)가 잘못된 의존성보다 훨씬 저렴함",
-    "content": "<ul>\r\n<li>\r\n<strong>의존성</strong>은 무료 기능처럼 보이지만, 실제로는 다양한 <strong>비용</strong>과 복잡성을 동반함</li>\r\n<li>잘못된 의존성은 <strong>러닝커브, 갑작스런 인터페이스 변경, 배포·설치 문제</strong> 등 다양한 리스크를 초래함</li>\r\n<li>대표 사례로 <strong>TigerBeetle</strong>은 보안·성능�...</p>",
-    "createdAt": "2025-07-19T01:00:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=22060",
+    "title": "15kB 페이지보다 14kB 페이지가 훨씬 더 빠르게 로드될 수 있음 (2022)",
+    "content": "<ul>\r\n<li>\r\n<strong>웹사이트</strong> 크기를 14kB 이하로 유지하면 15kB일 때보다 <strong>로딩 속도를 크게 단축</strong>할 수 있음</li>\r\n<li>이 현상은 <strong>TCP 슬로우 스타트 알고리듬</strong>에 의해 발생하며, 첫 데이터 전송량 한계로 인해 체감 속도 차이가 나타남</li>\r\n<li>14kB는 대부분의 서버가 처음에...</p>",
+    "createdAt": "2025-07-20T00:52:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=22070",
     "author": "",
     "site": {
       "id": "2",
@@ -84,10 +84,10 @@
     }
   },
   {
-    "title": "모든 AI 모델이 동일할 수 있음",
-    "content": "<ul>\r\n<li>\r\n<strong>Platonic Representation Hypothesis(이데아 표현 가설)</strong> 은 AI 모델들이 점점 커지고 똑똑해질수록 내부적으로 <strong>유사한 표현 공간</strong>으로 수렴함을 주장함</li>\r\n<li>언어 모델의 <strong>압축(compression)</strong> 개념을 통해, 지능을 데이터 압축력으로 해석하고, 모델이 일...</p>",
-    "createdAt": "2025-07-19T00:57:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=22059",
+    "title": "셀프 호스팅 환경 구축기",
+    "content": "<ul>\r\n<li>작성자는 수년간 다양한 <strong>셀프 호스팅 접근법</strong>을 시도한 끝에, 커스텀 환경을 성공적으로 구축했음</li>\r\n<li>주요 목표는 <strong>개인 데이터 통제</strong>와 신뢰할 수 있는 인프라 유지였으며, 이를 위해 NixOS, ZFS, Tailscale, Authelia 등 여러 핵심 기술을 조합했음</li>\r\n<li>\r\n<strong>...</p>",
+    "createdAt": "2025-07-20T00:49:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=22069",
     "author": "",
     "site": {
       "id": "2",
@@ -96,10 +96,10 @@
     }
   },
   {
-    "title": "lsr - io_uring 기반의 초고속 ls",
-    "content": "<ul>\r\n<li>\r\n<strong>lsr</strong>은 io_uring 기반 IO 라이브러리 ourio를 활용해 개발된 새로운 ls(1) 대체 프로그램</li>\r\n<li>기존 ls 및 대안 도구(eza, lsd, uutils ls)에 비해 <strong>명령 실행 속도가 매우 빠르며</strong>, <strong>시스템 콜 수도 10배 이상 적음</strong>\r\n</li>\r\n<li>디렉토리 오픈, stat, lsta...</p>",
-    "createdAt": "2025-07-19T00:54:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=22058",
+    "title": "하얏트 호텔, 알고리듬 기반 ‘흡연 감지기’ 도입",
+    "content": "<ul>\r\n<li>\r\n<strong>하얏트 호텔</strong>이 최근 <strong>알고리듬 감지 기술</strong>을 활용한 비흡연 정책 강화 움직임 전개</li>\r\n<li>\r\n<strong>Rest 감지기</strong>가 실내 공기와 환경 <strong>데이터 분석</strong>으로 흡연 가능성 판단 방식 채택</li>\r\n<li>숙박객이 <strong>흡연 의심 알림</strong>을 받았다는...</p>",
+    "createdAt": "2025-07-20T00:46:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=22068",
     "author": "",
     "site": {
       "id": "2",
@@ -108,10 +108,10 @@
     }
   },
   {
-    "title": "향수 리뷰",
-    "content": "<ul>\r\n<li>\r\n<strong>향수</strong>를 예술로 바라보는 시각에 대한 소개와 독특한 개인블로그로 유명한 저자 <a href=\"https://gwern.net/\">Gwern Branwen</a>의 개인적 체험을 다룸</li>\r\n<li>\r\n<strong>아방가르드</strong>하고 독특한 향수 세계가 존재하며, 샘플러로 저렴하게 경험할 수 있음</li>\r\n<li>\r\n<strong>초현실...</p>",
-    "createdAt": "2025-07-19T00:51:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=22057",
+    "title": "애플, Figma/Sketch용 iOS/iPadOS 26 Design Kit 공개",
+    "content": "<ul>\r\n<li>Apple 공식 <strong>Figma/Sketch용 UI 키트</strong>로, iPhone 및 iPad 인터페이스를 매우 정밀하게 재현</li>\r\n<li>모든 <strong>기본 컨트롤과 뷰, 텍스트/컬러 스타일, 머티리얼, 레이아웃 가이드</strong>가 포함되어 빠른 프로토타입 제작과 사용자 흐름 설계에 최적화</li>\r\n<li>\r\n<strong>iOS 및 iPadOS ...</p>",
+    "createdAt": "2025-07-20T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22067",
     "author": "",
     "site": {
       "id": "2",
