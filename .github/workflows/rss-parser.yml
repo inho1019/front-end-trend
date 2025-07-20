@@ -3,9 +3,13 @@ name: RSS Parser
 on:
 # 푸시 이벤트가 발생할 때마다 아래 스크립트를 실행한다.
   push:
-# 3시간에 한번씩 아래 스크립트를 실행한다.
+    branches: ['main']
+# 12시간에 한번씩 아래 스크립트를 실행한다.
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */12 * * *"
+  # Actions 탭에서 수동으로 워크플로우를 실행할 수 있도록 구성
+  workflow_dispatch:
+
 # 권한부여
 permissions:
   contents: write
