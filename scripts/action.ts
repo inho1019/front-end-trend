@@ -50,6 +50,13 @@ const parser = new RSSParser();
             return parsedData;
         }));
         const data: ParserData[] = parsing.flat();
+
+        // 빈 데이터일 경우 보호용
+        if (data.length <= 0) {
+            console.error("No data found in the RSS feeds.");
+            return;
+        }
+
         data.sort((a, b) => {
             return DateTime.fromISO(b.createdAt).toMillis() - DateTime.fromISO(a.createdAt).toMillis();
         });

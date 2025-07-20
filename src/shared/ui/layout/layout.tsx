@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { ToggleTransButton } from "../google-translate";
 
-const Layout = () => {
+export const Layout = () => {
     return (
         <>
             <Outlet />
@@ -9,5 +9,3 @@ const Layout = () => {
         </>
     );
 }
-
-export default Layout;
