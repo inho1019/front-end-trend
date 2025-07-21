@@ -1,5 +1,17 @@
 [
   {
+    "title": "FFmpeg 개발자들, 직접 작성한 어셈블리 코드 덕분에 100배 속도 향상 자랑",
+    "content": "<ul>\r\n<li>\r\n<strong>FFmpeg 개발진</strong>이 <strong>직접 작성한 어셈블리 코드</strong>를 통해 최대 100배의 성능 향상 발표</li>\r\n<li>이번 패치는 전체 프로그램이 아닌 <strong>특정 함수</strong>에서만 속도 개선 효과 발생</li>\r\n<li>\r\n<strong>최신 CPU의 AVX512 지원</strong> 시 100배, AVX2 지원에서는 64% 성...</p>",
+    "createdAt": "2025-07-21T10:35:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=22098",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "Geek News"
+    }
+  },
+  {
     "title": "로컬 LLM과 오프라인 위키피디아 비교",
     "content": "<ul>\r\n<li>MIT Technology Review에서 최근 <strong>로컬 LLM 활용</strong>에 관한 기사가 소개됨</li>\r\n<li>오프라인 환경에서 <strong>로컬 LLM과 위키피디아 데이터 다운로드 크기</strong>를 비교함</li>\r\n<li>크기 순으로 정리한 결과, <strong>일부 오프라인 위키피디아 번들은 작은 LLM 모델보다 더 작거나 큼</str...</p>",
     "createdAt": "2025-07-21T06:33:54.000+00:00",
@@ -100,18 +112,6 @@
     "content": "<ul>\r\n<li>전 세계적으로 <strong>제품과 서비스의 품질 저하 현상</strong>이 확산되고 있음</li>\r\n<li>이 현상은 <strong>경제적 불평등과 자본주의 약속의 불이행</strong>, 그리고 <strong>효율성 문화</strong>의 확대와 밀접한 관련성이 있음</li>\r\n<li>\r\n<strong>소비자들의 인식 변화</strong>, 특히 지속성과 내구성...</p>",
     "createdAt": "2025-07-21T00:51:37.000+00:00",
     "link": "https://news.hada.io/topic?id=22089",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "자율 에이전트에 대한 \"과대광고\"와 실제 프로덕션에서 작동하는 AI 에이전트의 차이점",
-    "content": "<ul>\r\n<li>\r\n<strong>AI 에이전트 붐</strong>이 2025년에 크게 다가올 것이라는 기대와 달리, 실제 프로덕션 환경에서는 현실적인 한계가 존재함</li>\r\n<li>\r\n<strong>에러 누적</strong>과 <strong>토큰 비용 문제</strong>로 인해, 다단계 워크플로우를 완전 자동화하는 것은 현재 불가능함</li>\r\n<li>대부분의 성공적인 에...</p>",
-    "createdAt": "2025-07-21T00:48:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=22088",
     "author": "",
     "site": {
       "id": "2",
