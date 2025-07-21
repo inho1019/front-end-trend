@@ -1,122 +1,14 @@
 [
   {
-    "title": "FFmpeg 개발자들, 직접 작성한 어셈블리 코드 덕분에 100배 속도 향상 자랑",
-    "content": "<ul>\r\n<li>\r\n<strong>FFmpeg 개발진</strong>이 <strong>직접 작성한 어셈블리 코드</strong>를 통해 최대 100배의 성능 향상 발표</li>\r\n<li>이번 패치는 전체 프로그램이 아닌 <strong>특정 함수</strong>에서만 속도 개선 효과 발생</li>\r\n<li>\r\n<strong>최신 CPU의 AVX512 지원</strong> 시 100배, AVX2 지원에서는 64% 성...</p>",
-    "createdAt": "2025-07-21T10:35:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=22098",
+    "title": "A Primer on Focus Trapping",
+    "content": "<p>Focus trapping is a term that refers to managing focus within an element, such that focus always stays within it:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>If a user tries to tab out from the last element, we return focus to the first one.</li>\r\n\r\n\r\n\r\n<li>If the user tries to <kbd>Shift</kbd> + <kbd>Tab</kbd> out of the first element, we return focus back to the last one.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>This whole focus trap thing is used to create accessible modal dialogs since it’s a whole ‘nother trouble to <code>inert</code> everything else — but <a href=\"LINK\">you don’t need it anymore</a> if you’re building modals with the <code>dialog</code> API (assuming you do it right).</p>\r\n\r\n\r\n\r\n<p>Anyway, back to focus trapping.</p>\r\n\r\n\r\n\r\n<p>The whole process sounds simple in theory, but it can quite difficult to build in practice, mostly because of the numerous parts to you got to manage.</p>\r\n\r\n\r\n\r\n<span id=\"more-387082\"></span>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"simple-and-easy-focus-trapping-with-splendid-labz\">Simple and easy focus trapping with Splendid Labz</h3>\r\n\r\n\r\n<p>If you are not averse to using code built by others, you might want to consider this snippet with the code I’ve created in <a href=\"https://splendidlabz.com/\" rel=\"noopener\">Splendid Labz</a>.</p>\r\n\r\n\r\n\r\n<p>The basic idea is:</p>\r\n\r\n\r\n\r\n<ol class=\"wp-block-list\">\r\n<li>We detect all focusable elements within an element.</li>\r\n\r\n\r\n\r\n<li>We manage focus with a keydown event listener.</li>\r\n</ol>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">import { getFocusableElements, trapFocus } from '@splendidlabz/utils/dom'\r\n\r\nconst dialog = document.querySelector('dialog')\r\n\r\n// Get all focusable content\r\nconst focusables = getFocusableElements(node)\r\n\r\n// Traps focus within the dialog\r\ndialog.addEventListener('keydown', event => {\r\n  trapFocus({ event, focusables })\r\n})</code></pre>\r\n\r\n\r\n\r\n<p>The above code snippet makes focus trapping extremely easy.</p>\r\n\r\n\r\n\r\n<p>But, since you’re reading this, I’m sure you wanna know the details that go within each of these functions. Perhaps you wanna build your own, or learn what’s going on. Either way, both are cool — so let’s dive into it.</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"selecting-all-focusable-elements\">Selecting all focusable elements</h3>\r\n\r\n\r\n<p>I did research when I wrote about this <a href=\"https://zellwk.com/blog/keyboard-focusable-elements/\" rel=\"noopener\">some time ago</a>. It seems like you could only focus an a handful of elements:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li><code>a</code></li>\r\n\r\n\r\n\r\n<li><code>button</code></li>\r\n\r\n\r\n\r\n<li><code>input</code></li>\r\n\r\n\r\n\r\n<li><code>textarea</code></li>\r\n\r\n\r\n\r\n<li><code>select</code></li>\r\n\r\n\r\n\r\n<li><code>details</code></li>\r\n\r\n\r\n\r\n<li><code>iframe</code></li>\r\n\r\n\r\n\r\n<li><code>embed</code></li>\r\n\r\n\r\n\r\n<li><code>object</code></li>\r\n\r\n\r\n\r\n<li><code>summary</code></li>\r\n\r\n\r\n\r\n<li><code>dialog</code></li>\r\n\r\n\r\n\r\n<li><code>audio[controls]</code></li>\r\n\r\n\r\n\r\n<li><code>video[controls]</code></li>\r\n\r\n\r\n\r\n<li><code>[contenteditable]</code></li>\r\n\r\n\r\n\r\n<li><code>[tabindex]</code></li>\r\n</ul>\r\n\r\n\r\n\r\n<p>So, the first step in <code>getFocusableElements</code> is to search for all focusable elements within a container:</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">export function getFocusableElements(container = document.body ) {\r\n\r\n  return {\r\n    get all () {\r\n      const elements = Array.from(\r\n        container.querySelectorAll(\r\n          `a,\r\n            button,\r\n            input,\r\n            textarea,\r\n            select,\r\n            details,\r\n            iframe,\r\n            embed,\r\n            object,\r\n            summary,\r\n            dialog,\r\n            audio[controls],\r\n            video[controls],\r\n            [contenteditable],\r\n            [tabindex]\r\n          `,\r\n        ),\r\n      )\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>Next, we want to filter away elements that are <code>disabled</code>, <code>hidden</code> or set with <code>display: none</code>, since they cannot be focused on. We can do this with a simple <code>filter</code> function.</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">export function getFocusableElements(container = document.body ) {\r\n\r\n  return {\r\n    get all () {\r\n      // ...\r\n      return elements.filter(el => {\r\n        if (el.hasAttribute('disabled')) return false\r\n        if (el.hasAttribute('hidden')) return false\r\n        if (window.getComputedStyle(el).display === 'none') return false\r\n        return true\r\n      })\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>Next, since we want to trap keyboard focus, it’s only natural to retrieve a list of keyboard-only focusable elements. We can do that easily too. We only need to remove all <code>tabindex</code> values that are less than <code>0</code>.</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">export function getFocusableElements(container = document.body ) {\r\n  return {\r\n    get all () { /* ... */ },\r\n    get keyboardOnly() {\r\n      return this.all.filter(el => el.tabIndex > -1)\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>Now, remember that there are two things we need to do for focus trapping:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>If a user tries to tab out from the last element, we return focus to the first one.</li>\r\n\r\n\r\n\r\n<li>If the user tries to <kbd>Shift</kbd> + <kbd>Tab</kbd> out of the first element, we return focus back to the last one.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>This means we need to be able to find the first focusable item and the last focusable item. Luckily, we can add <code>first</code> and <code>last</code> getters to retrieve these elements easily inside <code>getFocusableElements</code>.</p>\r\n\r\n\r\n\r\n<p>In this case, since we’re dealing with keyboard elements, we can grab the first and last items from <code>keyboardOnly</code>:</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">export function getFocusableElements(container = document.body ) {\r\n  return {\r\n    // ...\r\n    get first() { return this.keyboardOnly[0] },\r\n    get last() { return this.keyboardOnly[0] },\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>We have everything we need — next is to implement the focus trapping functionality.</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"how-to-trap-focus\">How to trap focus</h3>\r\n\r\n\r\n<p>First, we need to detect a keyboard event. We can do this easily with <code>addEventListener</code>:</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">const container = document.querySelector('.some-element')\r\ncontainer.addEventListener('keydown', event => {/* ... */})</code></pre>\r\n\r\n\r\n\r\n<p>We need to check if the user is:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>Pressing tab (without <kbd>Shift</kbd>)</li>\r\n\r\n\r\n\r\n<li>Pressing tab (with <kbd>Shift</kbd>)</li>\r\n</ul>\r\n\r\n\r\n\r\n<p><a href=\"https://splendidlabz.com/\" rel=\"noopener\">Splendid Labz</a> has convenient functions to detect these as well:</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">import { isTab, isShiftTab } from '@splendidlabz/utils/dom'\r\n\r\n// ...\r\ncontainer.addEventListener('keydown', event => {\r\n  if (isTab(event)) // Handle Tab\r\n  if (isShiftTab(event)) // Handle Shift Tab\r\n  /* ... */\r\n})</code></pre>\r\n\r\n\r\n\r\n<p>Of course, in the spirit of learning, let’s figure out how to write the code from scratch:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>You can use <code>event.key</code> to detect whether the <kbd>Tab</kbd> key is being pressed.</li>\r\n\r\n\r\n\r\n<li>You can use <code>event.shiftKey</code> to detect if the <kbd>Shift</kbd> key is being pressed</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Combine these two, you will be able to write your own <code>isTab</code> and <code>isShiftTab</code> functions:</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">export function isTab(event) {\r\n  return !event.shiftKey && event.key === 'Tab'\r\n}\r\n\r\nexport function isShiftTab(event) {\r\n  return event.shiftKey && event.key === 'Tab'\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>Since we’re only handling the <kbd>Tab</kbd> key, we can use an early return statement to skip the handling of other keys.</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"2\"><code markup=\"tt\">container.addEventListener('keydown', event => {\r\n  if (event.key !== 'Tab') return\r\n\r\n  if (isTab(event)) // Handle Tab\r\n  if (isShiftTab(event)) // Handle Shift Tab\r\n  /* ... */\r\n})</code></pre>\r\n\r\n\r\n\r\n<p>We have almost everything we need now. The only thing is to know where the current focused element is at — so we can decide whether to trap focus or allow the default focus action to proceed.</p>\r\n\r\n\r\n\r\n<p>We can do this with <code>document.activeElement</code>.</p>\r\n\r\n\r\n\r\n<p>Going back to the steps:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>Shift focus if user <kbd>Tab</kbd> on the <em>last item</em></li>\r\n\r\n\r\n\r\n<li>Shift focus if the user <kbd>Shift</kbd> + <kbd>Tab</kbd> on the <em>first</em> item</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Naturally, you can tell that we need to check whether <code>document.activeElement</code> is the first or last focusable item.</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">container.addEventListener('keydown', event => {\r\n  // ...\r\n  const focusables = getFocusableElements(container)\r\n  const first = focusables.first\r\n  const last = focusables.last\r\n\r\n  if (document.activeElement === last && isTab(event)) {\r\n    // Shift focus to the first item\r\n  }\r\n\r\n  if (document.activeElement === first && isShiftTab(event)) {\r\n    // Shift focus to the last item\r\n  }\r\n})</code></pre>\r\n\r\n\r\n\r\n<p>The final step is to use <code>focus</code> to bring focus to the item.</p>\r\n\r\n\r\n\r\n<pre rel=\"JavaScript\" class=\"wp-block-csstricks-code-block language-javascript\" data-line=\"\"><code markup=\"tt\">container.addEventListener('keydown', event => {\r\n  // ...\r\n\r\n  if (document.activeElement === last && isTab(event)) {\r\n    first.focus()\r\n  }\r\n\r\n  if (document.activeElement === first && isShiftTab(event)) {\r\n    last.focus()\r\n  }\r\n})</code></pre>\r\n\r\n\r\n\r\n<p>That’s it! Pretty simple if you go through the sequence step-by-step, isn’t it?</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"final-callout-to-splendid-labz\">Final callout to Splendid Labz</h3>\r\n\r\n\r\n<p>As I resolve myself to stop teaching (so much) and begin building applications, I find myself needing many common <a href=\"https://splendidlabz/docs/astro/\">components</a>, <a href=\"https://splendidlabz/docs/utils/\">utilities</a>, even <a href=\"https://splendidlabz.com/docs/styles/\" rel=\"noopener\">styles</a>.</p>\r\n\r\n\r\n\r\n<p>Since I have the capability to build things for myself, (plus the fact that I’m super particular when it comes to good DX), I’ve decided to gather these things I find or build into a couple of easy-to-use libraries.</p>\r\n\r\n\r\n\r\n<p>Just sharing these with you in hopes that they will help speed up your development workflow.</p>\r\n\r\n\r\n\r\n<p>Thanks for reading my shameless plug. All the best for whatever you decide to code!</p>\r\n<hr />\r\n<p><small><a rel=\"nofollow\" href=\"https://css-tricks.com/a-primer-on-focus-trapping/\">A Primer on Focus Trapping</a> originally published on <a rel=\"nofollow\" href=\"https://css-tricks.com\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&utm_source=css-tricks.com&utm_campaign=family_&utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "createdAt": "2025-07-21T13:14:17.000+00:00",
+    "link": "https://css-tricks.com/a-primer-on-focus-trapping/",
     "author": "",
     "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "로컬 LLM과 오프라인 위키피디아 비교",
-    "content": "<ul>\r\n<li>MIT Technology Review에서 최근 <strong>로컬 LLM 활용</strong>에 관한 기사가 소개됨</li>\r\n<li>오프라인 환경에서 <strong>로컬 LLM과 위키피디아 데이터 다운로드 크기</strong>를 비교함</li>\r\n<li>크기 순으로 정리한 결과, <strong>일부 오프라인 위키피디아 번들은 작은 LLM 모델보다 더 작거나 큼</str...</p>",
-    "createdAt": "2025-07-21T06:33:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=22097",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "Ask GN: 해외 CP 입장에서 한국 망사용료(트랜짓 비용 등)이 해외 대비 10배 넘게 비싼건 트랜짓만 팔지 않고 전...",
-    "content": "<p>클라우드플레어, 트위치 등 해외 CP는 한국 네트워크 비용이 10배 비싸다고 말했습니다. 이들은 CSP를 사용하거나 ISP AS에 서버를 내장하여 ISP 내지 CSP 한테 대역폭 비용을 내는 대다수의 국내 CP와 다르게 자체적인 AS를 굴리고 ISP의 트랜짓을 사거나 피어링을 하는 회사입니다. 한국 통신3사는 무정산 피어링에...</p>",
-    "createdAt": "2025-07-21T06:30:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=22096",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "Element와 Matrix.org를 포기합니다",
-    "content": "<ul>\r\n<li>\r\n<strong>Matrix.org</strong>와 <strong>Element</strong>를 5년간 주요 커뮤니케이션 플랫폼으로 사용하며 여러 문제와 실망을 겪은 끝에 더 이상 사용하지 않기로 결정함</li>\r\n<li>\r\n<strong>느린 성능</strong>, <strong>불안정한 서비스</strong>, <strong>혼란스러운 UX</strong> 등으로 인해 일상적인 사...</p>",
-    "createdAt": "2025-07-21T02:47:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=22095",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "SaaS 2.0 - Software-as-a-Service 에서 Specialist-and-a-Spreadsheet 로",
-    "content": "<ul>\r\n<li>\r\n<strong>Salesforce</strong> 등 전통적인 SaaS 제품은 결국 여러 개의 <strong>목록(리스트) 관리</strong>와, 내장된 <strong>업무 노하우(Playbook)</strong> 를 결합한 형태임</li>\r\n<li>SaaS는 대부분 사용자에게 <strong>실용적 도구</strong>(리스트, 노트, 작업 관리 등)와 <strong>전문가의 관점</str...</p>",
-    "createdAt": "2025-07-21T02:11:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=22094",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "AI 발전을 따라잡는 나만의 방법 (그리고 당신도 꼭 해야 하는 이유)",
-    "content": "<ul>\r\n<li>\r\n<strong>생성형 AI는 가장 빠르게 진화하는 기술</strong>로, 과소평가와 과대평가 모두 위험함</li>\r\n<li>\r\n<strong>공신력 있는 출처와 신뢰할 수 있는 전문가</strong>를 꾸준히 팔로우하는 것이 필수적임</li>\r\n<li>\r\n<strong>Simon Willison’s Blog, Andrej Karpathy, Every’s Chain of Thought</strong> 등...</p>",
-    "createdAt": "2025-07-21T01:51:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=22093",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "NVIDIA, OpenReasoning-Nemotron 32B/14B/7B/1.5B 모델 공개",
-    "content": "<ul>\r\n<li>Qwen2.5-32B-Instruct(추론 모델)의 파생 모델로 <strong>수학, 코드, 과학 문제 해결 추론에 특화</strong>됨</li>\r\n<li>상업적/비상업적 연구 용도로 사용할 수 있음</li>\r\n<li>64,000 토큰의 컨텍스트 길이를 지원하며 1.5B, 7B, 14B, 32B 크기로 제공됨</li>\r\n<li>LiveCodeBench, GPQA, MMLU-PRO 등 다양한 벤...</p>",
-    "createdAt": "2025-07-21T01:21:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=22092",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "AWS, Amazon S3 Vectors 프리뷰 공개",
-    "content": "<ul>\r\n<li>클라우드 최초로 <strong>네이티브 벡터를 지원</strong>하는 대규모 오브젝트 스토리지</li>\r\n<li>벡터 데이터 저장, 업로드, 쿼리 비용을 <strong>최대 90%까지 절감</strong>할 수 있으며, <strong>서브초(subsecond) 쿼리 성능</strong> 제공</li>\r\n<li>\r\n<strong>벡터 버킷</strong> 및 <strong>벡터 인덱스...</p>",
-    "createdAt": "2025-07-21T01:04:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=22091",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "빅 LLM들의 아키텍처 비교",
-    "content": "<ul>\r\n<li>\r\n<strong>최근 7년간 LLM 아키텍처</strong>는 GPT-2(2019)부터 DeepSeek-V3, Llama 4(2024-2025)까지 구조적으로 <strong>큰 변화 없이 진화</strong>하여 놀랄 만큼 <strong>유사성</strong>을 유지함</li>\r\n<li>\r\n<strong>DeepSeek V3/R1, Llama 4</strong> 등 최신 모델은 <strong>Mixture-of-Experts(MoE), ...</p>",
-    "createdAt": "2025-07-21T00:54:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=22090",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
-    }
-  },
-  {
-    "title": "당황스러운 품질 저하 현상",
-    "content": "<ul>\r\n<li>전 세계적으로 <strong>제품과 서비스의 품질 저하 현상</strong>이 확산되고 있음</li>\r\n<li>이 현상은 <strong>경제적 불평등과 자본주의 약속의 불이행</strong>, 그리고 <strong>효율성 문화</strong>의 확대와 밀접한 관련성이 있음</li>\r\n<li>\r\n<strong>소비자들의 인식 변화</strong>, 특히 지속성과 내구성...</p>",
-    "createdAt": "2025-07-21T00:51:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=22089",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "Geek News"
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
+      "url": "https://css-tricks.com/category/articles/feed",
+      "name": "Css Tricks"
     }
   },
   {
@@ -126,7 +18,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-useoptimistic",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -138,7 +30,7 @@
     "link": "https://css-tricks.com/getting-creative-with-versal-letters/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -150,7 +42,7 @@
     "link": "https://javascriptweekly.com/issues/745",
     "author": "",
     "site": {
-      "id": "5",
+      "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
       "name": "Javascript Weekly"
     }
@@ -162,7 +54,7 @@
     "link": "https://css-tricks.com/what-i-took-from-the-state-of-dev-2025-survey/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -174,7 +66,7 @@
     "link": "https://thisweekinreact.com/newsletter/243",
     "author": "",
     "site": {
-      "id": "6",
+      "id": "be177052-1309-48c8-83e8-a40eefc026eb",
       "url": "https://thisweekinreact.com/newsletter/rss.xml",
       "name": "This Week In React"
     }
@@ -186,7 +78,7 @@
     "link": "https://kofearticle.substack.com/p/12d",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -198,7 +90,7 @@
     "link": "https://css-tricks.com/setting-line-length-in-css-and-fitting-text-to-a-container/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -210,7 +102,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-h1",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -222,7 +114,7 @@
     "link": "https://css-tricks.com/scroll-driven-sticky-heading/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -234,7 +126,7 @@
     "link": "https://javascriptweekly.com/issues/744",
     "author": "",
     "site": {
-      "id": "5",
+      "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
       "name": "Javascript Weekly"
     }
@@ -246,7 +138,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-000",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -258,7 +150,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-tanstack-form-vs",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -270,7 +162,7 @@
     "link": "https://thisweekinreact.com/newsletter/242",
     "author": "",
     "site": {
-      "id": "6",
+      "id": "be177052-1309-48c8-83e8-a40eefc026eb",
       "url": "https://thisweekinreact.com/newsletter/rss.xml",
       "name": "This Week In React"
     }
@@ -282,7 +174,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-ecma-international",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -294,7 +186,7 @@
     "link": "https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -306,7 +198,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-agent2agent-a2a",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -318,7 +210,7 @@
     "link": "https://javascriptweekly.com/issues/743",
     "author": "",
     "site": {
-      "id": "5",
+      "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
       "name": "Javascript Weekly"
     }
@@ -330,7 +222,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-records-and-tuples",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -342,7 +234,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-ee1",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -354,7 +246,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-07",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -366,7 +258,7 @@
     "link": "https://thisweekinreact.com/newsletter/241",
     "author": "",
     "site": {
-      "id": "6",
+      "id": "be177052-1309-48c8-83e8-a40eefc026eb",
       "url": "https://thisweekinreact.com/newsletter/rss.xml",
       "name": "This Week In React"
     }
@@ -378,7 +270,7 @@
     "link": "https://css-tricks.com/the-gap-strikes-back-now-stylable/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -390,19 +282,19 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-c8a",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
   },
   {
     "title": "Using CSS Cascade Layers With Tailwind Utilities",
-    "content": "<p>Adam Wathan has (very cleverly) built Tailwind with <a href=\"https://css-tricks.com/css-cascade-layers/\">CSS Cascade Layers</a>, making it extremely powerful for organizing styles by priority.</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">@layer theme, base, components, utilities;\r\n@import 'tailwindcss/theme.css' layer(theme);\r\n@import 'tailwindcss/utilities.css' layer(utilities);</code></pre>\r\n\r\n\r\n\r\n<p>The core of Tailwind are its utilities. This means you have two choices:</p>\r\n\r\n\r\n\r\n<ol class=\"wp-block-list\">\r\n<li>The default choice</li>\r\n\r\n\r\n\r\n<li>The unorthodox choice</li>\r\n</ol>\r\n\r\n\r\n\r\n<span id=\"more-386907\"></span>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"the-default-choice\">The default choice</h3>\r\n\r\n\r\n<p>The default choice is to follow Tailwind’s recommended layer order: place components first, and Tailwind utilities last.</p>\r\n\r\n\r\n\r\n<p>So, if you’re building components, you need to manually wrap your components with a <code>@layer</code> directive. Then, overwrite your component styles with Tailwind, putting Tailwind as the “most important layer”.</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Write your components */\r\n@layer components {\r\n  .component {\r\n    /* Your CSS here */\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<pre rel=\"HTML\" class=\"wp-block-csstricks-code-block language-markup\" data-line=\"\"><code markup=\"tt\"><!-- Override with Tailwind utilities --> \r\n<div class=\"component p-4\"> ... </div></code></pre>\r\n\r\n\r\n\r\n<p>That’s a decent way of doing things.</p>\r\n\r\n\r\n\r\n<p>But, being the bad boy I am, I don’t take the default approach as the “best” one. Over a year of (major) experimentation with Tailwind and vanilla CSS, I’ve come across what I believe is a better solution.</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"the-unorthodox-choice\">The Unorthodox Choice</h3>\r\n\r\n\r\n<p>Before we go on, I have to tell you that I’m writing a course called <a href=\"https://magicaldevschool.com/courses/unorthodox-tailwind/\" rel=\"noopener\">Unorthodox Tailwind</a> — this shows you everything I know about using Tailwind and CSS in synergistic ways, leveraging the strengths of each.</p>\r\n\r\n\r\n\r\n<p>Shameless plug aside, let’s dive into the Unorthodox Choice now.</p>\r\n\r\n\r\n\r\n<p>In this case, the Unorthodox Choice is to write your styles in an unnamed layer — or any layer after utilities, really — so that your CSS naturally overwrites Tailwind utilities.</p>\r\n\r\n\r\n\r\n<p>Of these two, I prefer the unnamed layer option:</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Unnamed layer option */\r\n@layer theme, base, components, utilities; \r\n\r\n/* Write your CSS normally here */ \r\n.component { /* ... */ }</code></pre>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Named layer option */\r\n/* Use whatever layer name you come up with. I simply used css here because it made most sense for explaining things */\r\n@layer theme, base, components, utilities, css; \r\n\r\n@layer css {\r\n  .component { /* ... */ }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>I have many reasons why I do this:</p>\r\n\r\n\r\n\r\n<ol class=\"wp-block-list\">\r\n<li>I don’t like to add unnecessary CSS layers because it makes code harder to write — more keystrokes, having to remember the specific layer I used it in, etc.</li>\r\n\r\n\r\n\r\n<li>I’m pretty skilled with <a href=\"https://itcss.io\" rel=\"noopener\">ITCSS</a>, selector specificity, and all the good-old-stuff you’d expect from a seasoned front-end developer, so writing CSS in a single layer doesn’t scare me at all.</li>\r\n\r\n\r\n\r\n<li>I can do complex stuff that are hard or impossible to do in Tailwind (like theming and animations) in CSS.</li>\r\n</ol>\r\n\r\n\r\n\r\n<p>Your mileage may vary, of course.</p>\r\n\r\n\r\n\r\n<p>Now, if you have followed my reasoning so far, you would have noticed that I use Tailwind <em>very</em> differently:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>Tailwind utilities are not the “most important” layer.</li>\r\n\r\n\r\n\r\n<li>My unnamed CSS layer is the most important one.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>I do this so I can:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li><strong>Build prototypes with Tailwind</strong> (quickly, easily, especially with the <a href=\"https://splendidlabz/docs/layouts/\">tools</a> I’ve created).</li>\r\n\r\n\r\n\r\n<li><strong>Shift these properties to CSS</strong> when they get more complex — so I don’t have to read messy utility-littered HTML that makes my heart sink. Not because utility HTML is bad, but because it takes lots of brain processing power to figure out what’s happening.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Finally, here’s the nice thing about Tailwind being in a utility layer: I can always <code>!important</code> a utility to give it strength.</p>\r\n\r\n\r\n\r\n<pre rel=\"HTML\" class=\"wp-block-csstricks-code-block language-markup\" data-line=\"\"><code markup=\"tt\"><!-- !important the padding utility -->\r\n<div class=\"component !p-4\"> ... </div></code></pre>\r\n\r\n\r\n\r\n<p>Whoa, hold on, wait a minute! Isn’t this wrong, you might ask?</p>\r\n\r\n\r\n\r\n<p>Nope. The <code>!important</code> keyword has traditionally been used to override classes. In this case, we’re leveraging on the <a href=\"https://css-tricks.com/css-cascade-layers/#important-origins-context-and-layers-are-reversed\"><code>!important</code> feature in CSS Layers</a> to say the Tailwind utility is more important than any CSS in the unnamed layer.</p>\r\n\r\n\r\n\r\n<p>This is perfectly valid and is a built-in feature for CSS Layers.</p>\r\n\r\n\r\n\r\n<p>Besides, the <code>!important</code> is so explicit (and used so little) that it makes sense for one-off quick-and-dirty adjustments (without creating a brand new selector for it).</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"tailwind-utilities-are-more-powerful-than-they-seem\">Tailwind utilities are more powerful than they seem</h3>\r\n\r\n\r\n<p>Tailwind utilities are not a 1:1 map between a class and a CSS property. Built-in Tailwind utilities mostly look like this so it can give people a wrong impression.</p>\r\n\r\n\r\n\r\n<p>Tailwind utilities are more like <a href=\"https://css-tricks.com/tailwinds-apply-feature-is-better-than-it-sounds/\">convenient Sass mixins</a>, which means we can build effective tools for <a href=\"https://splendidlabz/docs/layouts/\">layouts</a>, theming, typography, and more, through them.</p>\r\n\r\n\r\n\r\n<p>You can find out about these thoughts inside <a href=\"https://magicaldevschool.com/courses/unorthodox-tailwind/\" rel=\"noopener\">Unorthodox Tailwind</a>.</p>\r\n\r\n\r\n\r\n<p>Thanks for reading and I hope you’re enjoying a new way of looking at (or using) Tailwind!</p>\r\n<hr />\r\n<p><small><a rel=\"nofollow\" href=\"https://css-tricks.com/using-css-cascade-layers-with-tailwind-utilities/\">Using CSS Cascade Layers With Tailwind Utilities</a> originally published on <a rel=\"nofollow\" href=\"https://css-tricks.com\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&utm_source=css-tricks.com&utm_campaign=family_&utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "content": "<p>Adam Wathan has (very cleverly) built Tailwind with <a href=\"https://css-tricks.com/css-cascade-layers/\">CSS Cascade Layers</a>, making it extremely powerful for organizing styles by priority.</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">@layer theme, base, components, utilities;\r\n@import 'tailwindcss/theme.css' layer(theme);\r\n@import 'tailwindcss/utilities.css' layer(utilities);</code></pre>\r\n\r\n\r\n\r\n<p>The core of Tailwind are its utilities. This means you have two choices:</p>\r\n\r\n\r\n\r\n<ol class=\"wp-block-list\">\r\n<li>The default choice</li>\r\n\r\n\r\n\r\n<li>The unorthodox choice</li>\r\n</ol>\r\n\r\n\r\n\r\n<span id=\"more-386907\"></span>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"the-default-choice\">The default choice</h3>\r\n\r\n\r\n<p>The default choice is to follow Tailwind’s recommended layer order: place components first, and Tailwind utilities last.</p>\r\n\r\n\r\n\r\n<p>So, if you’re building components, you need to manually wrap your components with a <code>@layer</code> directive. Then, overwrite your component styles with Tailwind, putting Tailwind as the “most important layer”.</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Write your components */\r\n@layer components {\r\n  .component {\r\n    /* Your CSS here */\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<pre rel=\"HTML\" class=\"wp-block-csstricks-code-block language-markup\" data-line=\"\"><code markup=\"tt\"><!-- Override with Tailwind utilities --> \r\n<div class=\"component p-4\"> ... </div></code></pre>\r\n\r\n\r\n\r\n<p>That’s a decent way of doing things.</p>\r\n\r\n\r\n\r\n<p>But, being the bad boy I am, I don’t take the default approach as the “best” one. Over a year of (major) experimentation with Tailwind and vanilla CSS, I’ve come across what I believe is a better solution.</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"the-unorthodox-choice\">The Unorthodox Choice</h3>\r\n\r\n\r\n<p>Before we go on, I have to tell you that I’m writing a course called <a href=\"https://magicaldevschool.com/courses/unorthodox-tailwind/\" rel=\"noopener\">Unorthodox Tailwind</a> — this shows you everything I know about using Tailwind and CSS in synergistic ways, leveraging the strengths of each.</p>\r\n\r\n\r\n\r\n<p>Shameless plug aside, let’s dive into the Unorthodox Choice now.</p>\r\n\r\n\r\n\r\n<p>In this case, the Unorthodox Choice is to write your styles in an unnamed layer — or any layer after utilities, really — so that your CSS naturally overwrites Tailwind utilities.</p>\r\n\r\n\r\n\r\n<p>Of these two, I prefer the unnamed layer option:</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Unnamed layer option */\r\n@layer theme, base, components, utilities; \r\n\r\n/* Write your CSS normally here */ \r\n.component { /* ... */ }</code></pre>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">/* Named layer option */\r\n/* Use whatever layer name you come up with. I simply used css here because it made most sense for explaining things */\r\n@layer theme, base, components, utilities, css; \r\n\r\n@layer css {\r\n  .component { /* ... */ }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>I have many reasons why I do this:</p>\r\n\r\n\r\n\r\n<ol class=\"wp-block-list\">\r\n<li>I don’t like to add unnecessary CSS layers because it makes code harder to write — more keystrokes, having to remember the specific layer I used it in, etc.</li>\r\n\r\n\r\n\r\n<li>I’m pretty skilled with <a href=\"https://itcss.io\" rel=\"noopener\">ITCSS</a>, selector specificity, and all the good-old-stuff you’d expect from a seasoned front-end developer, so writing CSS in a single layer doesn’t scare me at all.</li>\r\n\r\n\r\n\r\n<li>I can do complex stuff that are hard or impossible to do in Tailwind (like theming and animations) in CSS.</li>\r\n</ol>\r\n\r\n\r\n\r\n<p>Your mileage may vary, of course.</p>\r\n\r\n\r\n\r\n<p>Now, if you have followed my reasoning so far, you would have noticed that I use Tailwind <em>very</em> differently:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>Tailwind utilities are not the “most important” layer.</li>\r\n\r\n\r\n\r\n<li>My unnamed CSS layer is the most important one.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>I do this so I can:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li><strong>Build prototypes with Tailwind</strong> (quickly, easily, especially with the <a href=\"https://splendidlabz/docs/layouts/\">tools</a> I’ve created).</li>\r\n\r\n\r\n\r\n<li><strong>Shift these properties to CSS</strong> when they get more complex — so I don’t have to read messy utility-littered HTML that makes my heart sink. Not because utility HTML is bad, but because it takes lots of brain processing power to figure out what’s happening.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Finally, here’s the nice thing about Tailwind being in a utility layer: I can always <code>!important</code> a utility to give it strength.</p>\r\n\r\n\r\n\r\n<pre rel=\"HTML\" class=\"wp-block-csstricks-code-block language-markup\" data-line=\"\"><code markup=\"tt\"><!-- !important the padding utility -->\r\n<div class=\"component !p-4\"> ... </div></code></pre>\r\n\r\n\r\n\r\n<p>Whoa, hold on, wait a minute! Isn’t this wrong, you might ask?</p>\r\n\r\n\r\n\r\n<p>Nope. The <code>!important</code> keyword has traditionally been used to override classes. In this case, we’re leveraging on the <a href=\"https://css-tricks.com/css-cascade-layers/#important-origins-context-and-layers-are-reversed\"><code>!important</code> feature in CSS Layers</a> to say the Tailwind utility is more important than any CSS in the unnamed layer.</p>\r\n\r\n\r\n\r\n<p>This is perfectly valid and is a built-in feature for CSS Layers.</p>\r\n\r\n\r\n\r\n<p>Besides, the <code>!important</code> is so explicit (and used so little) that it makes sense for one-off quick-and-dirty adjustments (without creating a brand new selector for it).</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"tailwind-utilities-are-more-powerful-than-they-seem\">Tailwind utilities are more powerful than they seem</h3>\r\n\r\n\r\n<p>Tailwind utilities are not a 1:1 map between a class and a CSS property. Built-in Tailwind utilities mostly look like this so it can give people a wrong impression.</p>\r\n\r\n\r\n\r\n<p>Tailwind utilities are more like <a href=\"https://css-tricks.com/tailwinds-apply-feature-is-better-than-it-sounds/\">convenient Sass mixins</a>, which means we can build effective tools for <a href=\"https://splendidlabz.com/docs/layouts/\" rel=\"noopener\">layouts</a>, theming, typography, and more, through them.</p>\r\n\r\n\r\n\r\n<p>You can find out about these thoughts inside <a href=\"https://magicaldevschool.com/courses/unorthodox-tailwind/\" rel=\"noopener\">Unorthodox Tailwind</a>.</p>\r\n\r\n\r\n\r\n<p>Thanks for reading and I hope you’re enjoying a new way of looking at (or using) Tailwind!</p>\r\n<hr />\r\n<p><small><a rel=\"nofollow\" href=\"https://css-tricks.com/using-css-cascade-layers-with-tailwind-utilities/\">Using CSS Cascade Layers With Tailwind Utilities</a> originally published on <a rel=\"nofollow\" href=\"https://css-tricks.com\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&utm_source=css-tricks.com&utm_campaign=family_&utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
     "createdAt": "2025-06-30T13:16:43.000+00:00",
     "link": "https://css-tricks.com/using-css-cascade-layers-with-tailwind-utilities/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -414,7 +306,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-tailwind-css-v40",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -426,7 +318,7 @@
     "link": "https://css-tricks.com/css-blob-recipes/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -438,7 +330,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-7d0",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -450,7 +342,7 @@
     "link": "https://javascriptweekly.com/issues/742",
     "author": "",
     "site": {
-      "id": "5",
+      "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
       "name": "Javascript Weekly"
     }
@@ -462,7 +354,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-c4",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -474,7 +366,7 @@
     "link": "https://css-tricks.com/poking-at-the-css-if-function-a-little-more-conditional-color-theming/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -486,7 +378,7 @@
     "link": "https://thisweekinreact.com/newsletter/240",
     "author": "",
     "site": {
-      "id": "6",
+      "id": "be177052-1309-48c8-83e8-a40eefc026eb",
       "url": "https://thisweekinreact.com/newsletter/rss.xml",
       "name": "This Week In React"
     }
@@ -498,7 +390,7 @@
     "link": "https://css-tricks.com/lightly-poking-at-the-css-if-function-in-chrome-137/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -510,7 +402,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-aa9",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -522,7 +414,7 @@
     "link": "https://css-tricks.com/a-better-api-for-the-intersection-and-mutation-observers/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -534,7 +426,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-go",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -546,7 +438,7 @@
     "link": "https://css-tricks.com/color-everything-in-css/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -558,7 +450,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-393",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -570,7 +462,7 @@
     "link": "https://thisweekinreact.com/newsletter/239",
     "author": "",
     "site": {
-      "id": "6",
+      "id": "be177052-1309-48c8-83e8-a40eefc026eb",
       "url": "https://thisweekinreact.com/newsletter/rss.xml",
       "name": "This Week In React"
     }
@@ -582,7 +474,7 @@
     "link": "https://css-tricks.com/how-to-keep-up-with-new-css-features/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -594,7 +486,7 @@
     "link": "https://css-tricks.com/a-better-api-for-the-resize-observer/",
     "author": "",
     "site": {
-      "id": "4",
+      "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
       "url": "https://css-tricks.com/category/articles/feed",
       "name": "Css Tricks"
     }
@@ -606,21 +498,9 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-json",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "Breaking Boundaries: Building a Tangram Puzzle With (S)CSS",
-    "content": "<p>For years, I believed that drag-and-drop games — especially those involving rotation, spatial logic, and puzzle solving — were the exclusive domain of JavaScript. Until one day, I asked AI:</p>\r\n\r\n\r\n\r\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\r\n<p><em>“Is it possible to build a fully interactive Tangram puzzle game using only CSS?”</em></p>\r\n</blockquote>\r\n\r\n\r\n\r\n<p>The answer: <em>“No — not really. You’ll need JavaScript.”</em> That was all the motivation I needed to prove otherwise.</p>\r\n\r\n\r\n\r\n<span id=\"more-386648\"></span>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_gbOBMqm\" src=\"//codepen.io/anon/embed/preview/gbOBMqm?height=450&theme-id=1&slug-hash=gbOBMqm&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed gbOBMqm\" title=\"CodePen Embed gbOBMqm\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>But first, let’s ask the obvious question: <em>Why would anyone do this?</em></p>\r\n\r\n\r\n\r\n<p>Well…</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>To know how far CSS can be pushed in creating interactive UIs.</li>\r\n\r\n\r\n\r\n<li>To get better at my CSS skills.</li>\r\n\r\n\r\n\r\n<li>And it’s fun!</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Fair enough?</p>\r\n\r\n\r\n\r\n<p>Now, here’s the unsurprising truth: CSS isn’t exactly made for this. It’s not a logic language, and let’s be honest, it’s not particularly dynamic either. (Sure, we have CSS variables and some handy built-in functions now, hooray!)</p>\r\n\r\n\r\n\r\n<p>In JavaScript, we naturally think in terms of functions, loops, conditions, objects, comparisons. We write logic, abstract things into methods, and eventually ship a bundle that the browser understands. And once it’s shipped? We rarely look at that final JavaScript bundle — we just focus on keeping it lean.</p>\r\n\r\n\r\n\r\n<p>Now ask yourself: isn’t that exactly what Sass does for CSS?</p>\r\n\r\n\r\n\r\n<p>Why should we hand-write endless lines of repetitive CSS when we can use mixins and functions to generate it — cleanly, efficiently, and without caring how many lines it takes, as long as the output is optimized?</p>\r\n\r\n\r\n\r\n<p>So, we put it to the test and it turns out Sass can replace JavaScript, at least when it comes to low-level logic and puzzle behavior. With nothing but maps, mixins, functions, and a whole lot of math, we managed to bring our Tangram puzzle to life, no JavaScript required.</p>\r\n\r\n\r\n\r\n<p>Let the (CSS-only) games begin! 🎉</p>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"the-game\">The game</h3>\r\n\r\n\r\n<p>The game consists of seven pieces: the classic Tangram set. Naturally, these pieces can be arranged into a perfect square (and many other shapes, too). But we need a bit more than just static pieces.</p>\r\n\r\n\r\n\r\n<p>So here’s what I am building:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>A puzzle goal, which is the target shape the player has to recreate.</li>\r\n\r\n\r\n\r\n<li>A start button that shuffles all the pieces into a staging area.</li>\r\n\r\n\r\n\r\n<li>Each piece is clickable and interactive.</li>\r\n\r\n\r\n\r\n<li>The puzzle should let the user know when they get a piece wrong and also celebrate when they finish the puzzle.</li>\r\n</ul>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"step-1-html-structure\">The HTML structure</h3>\r\n\r\n\r\n<p>I started by setting up the HTML structure, which is no small task, considering the number of elements involved.</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>Each shape was given seven radio buttons. I chose radios over checkboxes to take advantage of their built-in exclusivity. Only one can be selected within the same group. This made it much easier to track which shape and state were currently active.</li>\r\n\r\n\r\n\r\n<li>The start button? Also a radio input. A checkbox could’ve worked too, but for the sake of consistency, I stuck with radios across the board.</li>\r\n\r\n\r\n\r\n<li>The puzzle map itself is just a plain old <code><div></code>, simple and effective.</li>\r\n\r\n\r\n\r\n<li>For rotation, we added eight radio buttons, each representing a 45-degree increment: 45°, 90°, 135°, all the way to 360°. These simulate rotation controls entirely in CSS.</li>\r\n\r\n\r\n\r\n<li>Every potential shadow position got its own radio button too. (Yes, it’s a lot, I know.)</li>\r\n\r\n\r\n\r\n<li>And to wrap it all up, I included a classic reset button inside a <code><form></code> using <code><button type=\"reset\"></code>, so players can easily start over at any point.</li>\r\n</ul>\r\n\r\n\r\n\r\n<p>Given the sheer number of elements required, I used Pug to generate the HTML more efficiently. It was purely a convenience choice. It doesn’t affect the logic or behavior of the puzzle in any way.</p>\r\n\r\n\r\n\r\n<p>Below is a sample of the compiled HTML. It might look overwhelming at first glance (and this is just a portion of it!), but it illustrates the structural complexity involved. This section is collapsed to not nuke your screen, but it can be expanded if you’d like to explore it.</p>\r\n\r\n\r\n\r\n<details >\r\n  <summary>\r\n          Open HTML Code      </summary>\r\n  \r\n\r\n<pre rel=\"HTML\" class=\"wp-block-csstricks-code-block language-markup\" data-line=\"\"><code markup=\"tt\"><div class=\"wrapper\">\r\n  <div class=\"tanagram-box\"></div>\r\n  <div class=\"tanagram-box\"></div>\r\n  <form class=\"container\">\r\n    <input class=\"hide_input start\" type=\"checkbox\" id=\"start\" autofocus />\r\n    <button class=\"start-button\" type=\"reset\" id=\"restart\">Restart</button>\r\n    <label class=\"start-button\" for=\"start\">Start </label>\r\n    <div class=\"shadow\">\r\n      <input class=\"hide_input\" type=\"radio\" id=\"blueTriangle-tan\" name=\"tan-active\" />\r\n      <input class=\"hide_input\" type=\"radio\" id=\"yellowTriangle-tan\" name=\"tan-active\" />\r\n      <!-- Inputs for others tans -->\r\n      <input class=\"hide_input\" type=\"radio\" id=\"rotation-reset\" name=\"tan-active\" />\r\n      <input class=\"hide_input\" type=\"radio\" id=\"rotation-45\" name=\"tan-rotation\" />\r\n      <input class=\"hide_input\" type=\"radio\" id=\"rotation-90\" name=\"tan-rotation\" />\r\n      <!--radios for 90, 225, 315, 360 -->\r\n\r\n      <input class=\"hide_input\" type=\"checkbox\" id=\"yellowTriangle-tan-1-135\" name=\"tan-rotation\" />\r\n      <input class=\"hide_input\" type=\"checkbox\" id=\"yellowTriangle-tan-1-225\" name=\"tan-rotation\" />\r\n      <!-- radio for every possible shape shadows-->\r\n\r\n      <label class=\"rotation rot\" for=\"rotation-45\" id=\"rot45\">⟲</label>\r\n      <label class=\"rotation rot\" for=\"rotation-90\" id=\"rot90\">⟲</label>\r\n      <!--radios for 90, 225, 315, 360 -->\r\n      <label class=\"rotation\" for=\"rotation-reset\" id=\"rotReset\">✘</label>\r\n\r\n      <label class=\"blueTriangle tans\" for=\"blueTriangle-tan\" id=\"tanblueTrianglelab\"></label>\r\n      <div class=\"tans tan_blocked\" id=\"tanblueTrianglelabRes\"></div>\r\n      <!-- labels for every tan and disabled div -->\r\n\r\n      <label class=\"blueTriangle tans\" for=\"blueTriangle-tan-1-90\" id=\"tanblueTrianglelab-1-90\"></label>\r\n      <label class=\"blueTriangle tans\" for=\"blueTriangle-tan-1-225\" id=\"tanblueTrianglelab-1-225\"></label>\r\n      <!-- labels radio for every possible shape shadows-->\r\n      <div class=\"shape\"></div>\r\n    </div>\r\n  </form>\r\n  <div class=\"tanagram-box\"></div>\r\n  <div class=\"tanagram-box\"></div>\r\n  <div class=\"tanagram-box\"></div>\r\n  <div class=\"tanagram-box\"></div>\r\n  <div class=\"tanagram-box\"></div>\r\n</div></code></pre>\r\n\r\n\r\n</details>\r\n\r\n<h3 class=\"wp-block-heading\" id=\"step-2-creating-maps-for-shape-data\">Creating maps for shape data</h3>\r\n\r\n\r\n<p>Now that HTML skeleton is ready, it’s time to inject it with some real power. That’s where our <strong>Sass maps</strong> come in, and here’s where the puzzle logic starts to shine.</p>\r\n\r\n\r\n\r\n<p class=\"is-style-explanation\"><strong>Note:</strong> Maps in Sass hold pairs of keys and values, and make it easy to look up a value by its corresponding key. Like objects in JavaScript, dictionaries in Python and, well, maps in C++.</p>\r\n\r\n\r\n\r\n<p>I’m mapping out all the core data needed to control each tangram piece (tan): its color, shape, position, and even interaction logic. These maps contain:</p>\r\n\r\n\r\n\r\n<ul class=\"wp-block-list\">\r\n<li>the <code>background-color</code> for each tan,</li>\r\n\r\n\r\n\r\n<li>the <code>clip-path</code> coordinates that define their shapes,</li>\r\n\r\n\r\n\r\n<li>the initial position for each tan,</li>\r\n\r\n\r\n\r\n<li>the position of the blocking <code>div</code> (which disables interaction when a tan is selected),</li>\r\n\r\n\r\n\r\n<li>the shadow positions (coordinates for the tan’s silhouette displayed on the task board),</li>\r\n\r\n\r\n\r\n<li>the grid information, and</li>\r\n\r\n\r\n\r\n<li>the winning combinations — the exact target coordinates for each tan, marking the correct solution.</li>\r\n</ul>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">$colors: ( blue-color: #53a0e0, yellow-color: #f7db4f, /* Colors for each tan */ );\r\n$nth-child-grid: ( 1: (2, 3, 1, 2, ), 2: ( 3, 4, 1, 2, ), 4: ( 1, 2, 2, 3, ), /* More entries to be added */);\r\n$bluePosiblePositions: ( 45: none, 90: ( (6.7, 11.2), ), 135: none, 180: none, /* Positions defined up to 360 degrees */);\r\n/* Other tans */\r\n\r\n/* Data defined for each tan */\r\n$tansShapes: (\r\n  blueTriangle: (\r\n    color: map.get($colors, blue-color),\r\n    clip-path: ( 0 0, 50 50, 0 100, ),\r\n    rot-btn-position: ( -20, -25, ),\r\n    exit-mode-btn-position: ( -20, -33, ),\r\n    tan-position: ( -6, -37, ),\r\n    diable-lab-position: ( -12, -38, ),\r\n    poss-positions: $bluePosiblePositions,\r\n    correct-position: ((4.7, 13.5), (18.8, 13.3), ),\r\n    transform-origin: ( 4.17, 12.5,),\r\n  ),\r\n);\r\n\r\n/* Remaining 7 combinations */\r\n$winningCombinations: (\r\n  combo1: (\r\n    (blueTriangle, 1, 360),\r\n    (yellowTriangle, 1, 225),\r\n    (pinkTriangle, 1, 180),\r\n    (redTriangle, 4, 360),\r\n    (purpleTriangle, 2, 225),\r\n    (square, 1, 90),\r\n    (polygon, 4, 90),\r\n  ),\r\n);</code></pre>\r\n\r\n\r\n\r\n<p>You can see this in action on CodePen, where these maps drive the actual look and behavior of each puzzle piece. At this point, there’s no visible change in the preview. We’ve simply prepared and stored the data for later use.</p>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_YPPjowr\" src=\"//codepen.io/anon/embed/preview/YPPjowr?height=450&theme-id=1&slug-hash=YPPjowr&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed YPPjowr\" title=\"CodePen Embed YPPjowr\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"step-3-using-mixins-to-read-from-maps\">Using mixins to read from maps</h3>\r\n\r\n\r\n<p>The main idea is to create reusable mixins that will read data from the maps and apply it to the corresponding CSS rules when needed.</p>\r\n\r\n\r\n\r\n<p>But before that, we’ve elevated things to a higher level by making one key decision: We never hard-coded units directly inside the maps. Instead, we built a reusable utility function that dynamically adds the desired unit (e.g., <code>vmin</code>, <code>px</code>, etc.) to any numeric value when it’s being used. This way, when can use our maps however we please.</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@function get-coordinates($data, $key, $separator, $unit) {\r\n  $coordinates: null;\r\n\r\n  // Check if the first argument is a map\r\n  @if meta.type-of($data) == \"map\" {\r\n    // If the map contains the specified key\r\n    @if map.has-key($data, $key) {\r\n      // Get the value associated with the key (expected to be a list of coordinates)\r\n      $coordinates: map.get($data, $key);\r\n    }\r\n\r\n  //  If the first argument is a list\r\n  } @else if meta.type-of($data) == \"list\" {\r\n    // Ensure the key is a valid index (1-based) within the list\r\n    @if meta.type-of($key) == \"number\" and $key > 0 and $key <= list.length($data) {\r\n      // Retrieve the item at the specified index\r\n      $coordinates: list.nth($data, $key);\r\n    }\r\n\r\n  //  If neither map nor list, throw an error\r\n  } @else {\r\n    @error \"Invalid input: First argument must be a map or a list.\";\r\n  }\r\n\r\n  // If no valid coordinates were found, return null\r\n  @if $coordinates == null {\r\n    @return null;\r\n  }\r\n\r\n  //  Extract x and y values from the list\r\n  $x: list.nth($coordinates, 1);\r\n  $y: list.nth($coordinates, -1); // -1 gets the last item (y)\r\n\r\n  //  Return the combined x and y values with units and separator\r\n  @return #{$x}#{$unit}#{$separator}#{$y}#{$unit};\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>Sure, nothing’s showing up in the preview yet, but the real magic starts now.</p>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_ByyPgMg\" src=\"//codepen.io/anon/embed/preview/ByyPgMg?height=450&theme-id=1&slug-hash=ByyPgMg&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed ByyPgMg\" title=\"CodePen Embed ByyPgMg\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>Now we move on to writing mixins. I’ll explain the approach in detail for the first mixin, and the rest will be described through comments.</p>\r\n\r\n\r\n\r\n<p>The first mixin dynamically applies <code>grid-column</code> and <code>grid-row</code> placement rules to child elements based on values stored in a map. Each entry in the map corresponds to an element index (1 through 8) and contains a list of four values: <code>[start-col, end-col, start-row, end-row]</code>.</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin tanagram-grid-positioning($nth-child-grid) {\r\n  // Loop through numbers 1 to 8, corresponding to the tanam pieces\r\n  @for $i from 1 through 8 {\r\n\r\n    // Check if the map contains a key for the current piece (1-8)\r\n    @if map.has-key($nth-child-grid, $i) {\r\n\r\n      // Get the grid values for this piece: [start-column, end-column, start-row, end-row]\r\n      $values: map.get($nth-child-grid, $i);\r\n\r\n      // Target the nth child (piece) and set its grid positions\r\n      &:nth-child(#{$i}) {\r\n        // Set grid-column: start and end values based on the first two items in the list\r\n        grid-column: #{list.nth($values, 1)} / #{list.nth($values, 2)};\r\n\r\n        // Set grid-row: start and end values based on the last two items in the list\r\n        grid-row: #{list.nth($values, 3)} / #{list.nth($values, 4)};\r\n      }\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>We can expect the following CSS to be generated:</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">.tanagram-box:nth-child(1) {\r\n  grid-column: 2 / 3;\r\n  grid-row: 1 / 2;\r\n}\r\n\r\n.tanagram-box:nth-child(2) {\r\n  grid-column: 3 / 4;\r\n  grid-row: 1 / 2;\r\n}</code></pre>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_xbbJoLq\" src=\"//codepen.io/anon/embed/preview/xbbJoLq?height=450&theme-id=1&slug-hash=xbbJoLq&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed xbbJoLq\" title=\"CodePen Embed xbbJoLq\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>In this mixin, my goal was actually to create all the shapes (tans). I am using <code>clip-path</code>. There were ideas to use fancy SVG images, but this test project is more about testing the logic rather than focusing on beautiful design. For this reason, the simplest solution was to cut the elements according to dimensions while they are still in the square (the initial position of all the tans).</p>\r\n\r\n\r\n\r\n<p>So, in this case, through a static calculation, the <code>$tansShapes</code> map was updated with the <code>clip-path</code> property:</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">clip-path: (0 0, 50 50, 0 100);</code></pre>\r\n\r\n\r\n\r\n<p>This contains the clip points for all the tans. In essence, this mixin shapes and colors each tan accordingly.</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin set-tan-clip-path($tanName, $values) {\r\n  //  Initialize an empty list to hold the final clip-path points\r\n  $clip-path-points: ();\r\n\r\n  // Extract the 'clip-path' data from the map, which contains coordinate pairs\r\n  $clip-path-key: map.get($values, clip-path);\r\n\r\n  // Get the number of coordinate pairs to loop through\r\n  $count: list.length($clip-path-key);\r\n\r\n  //  Loop through each coordinate point\r\n  @for $i from 1 through $count {\r\n    //  Convert each pair of numbers into a formatted coordinate string with units\r\n    $current-point: get-coordinates($clip-path-key, $i, \" \", \"%\");\r\n\r\n    //  Add the formatted coordinate to the list, separating each point with a comma\r\n    $clip-path-points: list.append($clip-path-points, #{$current-point}, comma);\r\n  }\r\n\r\n  //  Style for the preview element (lab version), using the configured background color\r\n  #tan#{$tanName}lab {\r\n    background: map.get($values, color);\r\n    clip-path: polygon(#{$clip-path-points}); // Apply the full list of clip-path points\r\n  }\r\n\r\n  //  Apply the same clip-path to the actual tan element\r\n  .#{$tanName} {\r\n    clip-path: polygon(#{$clip-path-points});\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>and output in CSS should be:</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">.blueTriangle {\r\n  clip-path: polygon(0% 0%, 50% 50%, 0% 100%);\r\n}\r\n/* other tans */</code></pre>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_bNNxbbW\" src=\"//codepen.io/anon/embed/preview/bNNxbbW?height=450&theme-id=1&slug-hash=bNNxbbW&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed bNNxbbW\" title=\"CodePen Embed bNNxbbW\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n<h3 class=\"wp-block-heading\" id=\"start-logic\">Start logic</h3>\r\n\r\n\r\n<p>Alright, now I’d like to clarify what should happen first when the game loads.</p>\r\n\r\n\r\n\r\n<p>First, with a click on the Start button, all the tans “go to their positions.” In reality, we assign them a <code>transform: translate()</code> with specific coordinates and a rotation.</p>\r\n\r\n\r\n\r\n<pre rel=\"CSS\" class=\"wp-block-csstricks-code-block language-css\" data-line=\"\"><code markup=\"tt\">.start:checked ~ .shadow #tanblueTrianglelab {\r\n  transform-origin: 4.17vmin 12.5vmin;\r\n  transform: translate(-6vmin,-37vmin) rotate(360deg);\r\n  cursor: pointer;\r\n}</code></pre>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_LEEJYEx\" src=\"//codepen.io/anon/embed/preview/LEEJYEx?height=450&theme-id=1&slug-hash=LEEJYEx&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed LEEJYEx\" title=\"CodePen Embed LEEJYEx\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>So, we still maintain this pattern. We use transform and simply change the positions or angles (in the maps) of both the tans and their shadows on the task board.</p>\r\n\r\n\r\n\r\n<p>When any tan is clicked, the rotation button appears. By clicking on it, the tan should rotate around its center, and this continues with each subsequent click. There are actually eight radio buttons, and with each click, one disappears and the next one appears. When we reach the last one, clicking it makes it disappear and the first one reappears. This way, we get the impression of clicking the same button (they are, of course, styled the same) and being able to click (rotate the tan) infinitely. This is exactly what the following mixin enables.</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin set-tan-rotation-states($tanName, $values, $angles, $color) {\r\n  // This mixin dynamically applies rotation UI styles based on a tan's configuration.\r\n  // It controls the positioning and appearance of rotation buttons and visual feedback when a rotation state is active.\r\n  @each $angle in $angles{\r\n    & ~ #rot#{$angle}{ transform: translate(get-coordinates($values,rot-btn-position,',',vmin )); background: $color;}\r\n    & ~ #rotation-#{$angle}:checked{\r\n      @each $key in map.keys($tansShapes){\r\n        & ~ #tan#{$key}labRes{ visibility: visible; background:rgba(0,0,0,0.4); }\r\n        & ~ #tan#{$key}lab{ opacity:.3; }\r\n        & ~ #rotReset{ visibility: visible; }\r\n      } \r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>And the generated CSS should be:</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">#blueTriangle-tan:checked ~ #rotation-45:checked ~ #tanblueTrianglelab {\r\n  transform: translate(-6vmin,-37vmin) rotate(45deg);\r\n}\r\n\r\n#blueTriangle-tan:checked ~ #rotation-45:checked ~ #tanblueTrianglelabRes {\r\n  visibility: hidden;\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>OK, the following mixins use the <code>set-clip-path</code> and <code>set-rotation</code> mixins. They contain all the information about the tans and their behavior in relation to which tan is clicked and which rotation is selected, as well as their positions (as defined in the second mixin).</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin generate-tan-shapes-and-interactions($tansShapes) {\r\n// Applies styling logic and UI interactions for each individual tan shape from the $tansShapes map.\r\n  @each $tanName, $values in $tansShapes{\r\n    $color: color.scale(map.get($values, color), $lightness: 10%); \r\n    $angles: (45, 90, 135, 180, 225, 270, 315, 360); \r\n    @include set-tan-clip-path($tanName, $values);\r\n\r\n    ##{$tanName}-tan:checked{\r\n      & ~ #tan#{$tanName}Res{ visibility:hidden; }\r\n      & ~ #tan#{$tanName}lab{opacity: 1 !important;background: #{$color};cursor:auto;}\r\n      @each $key in map.keys($tansShapes){\r\n          & ~ #tan#{$tanName}Res:checked ~ #tan#{$key}labRes{visibility: visible;}\r\n      }\r\n      & ~  #rot45{display: flex;visibility: visible;}\r\n      & ~ #rotReset{ transform: translate(get-coordinates($values, exit-mode-btn-position,',', vmin)); }\r\n      @include set-tan-rotation-states($tanName, $values, $angles, $color);\r\n    }  \r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin set-initial-tan-position($tansShapes) {\r\n// This mixin sets the initial position and transformation for both the interactive (`lab`) and shadow (`labRes`) versions\r\n// of each tan shape, based on coordinates provided in the $tansShapes map.\r\n @each $tanName, $values in $tansShapes{\r\n    & ~ .shadow #tan#{$tanName}lab{\r\n      transform-origin: get-coordinates($values, transform-origin,' ' ,vmin);\r\n      transform: translate( get-coordinates($values,tan-position,',', vmin)) rotate(360deg) ;\r\n      cursor: pointer;\r\n    }\r\n    & ~ .shadow #tan#{$tanName}labRes{\r\n      visibility:hidden;\r\n      transform: translate(get-coordinates($values,diable-lab-position,',',vmin)); \r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_NPPLqKg\" src=\"//codepen.io/anon/embed/preview/NPPLqKg?height=450&theme-id=1&slug-hash=NPPLqKg&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed NPPLqKg\" title=\"CodePen Embed NPPLqKg\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>As mentioned earlier, when a tan is clicked, one of the things that becomes visible is its shadow — a silhouette that appears on the task board.</p>\r\n\r\n\r\n\r\n<p>These shadow positions (coordinates) are currently defined statically. Each shadow has a specific place on the map, and a mixin reads this data and applies it to the shadow using <code>transform: translate()</code>.</p>\r\n\r\n\r\n\r\n<p>When the clicked tan is rotated, the number of visible shadows on the task board can change, as well as their angles, which is expected.</p>\r\n\r\n\r\n\r\n<p>Of course, special care was taken with naming conventions. Each shadow element gets a unique ID, made from the name (inherited from its parent tan) and a number that represents its sequence position for the given angle.</p>\r\n\r\n\r\n\r\n<p>Pretty cool, right? That way, we avoid complicated naming patterns entirely!</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin render-possible-tan-positions( $name, $angle, $possiblePositions, $visibility, $color, $id, $transformOrigin ) {\r\n    // This mixin generates styles for possible positions of a tan shape based on its name, rotation angle, and configuration map.\r\n    // It handles both squares and polygons, normalizing their rotation angles accordingly and applying transform styles if positions exist.}\r\n  @if $name == 'square' {\r\n    $angle: normalize-angle($angle); // Normalizujemo ugao ako je u pitanju square\r\n  } @else if $name == 'polygon'{\r\n    $angle: normalize-polygon-angle($angle);\r\n  }\r\n  @if map.has-key($possiblePositions, $angle) {\r\n    $values: map.get($possiblePositions, $angle);\r\n\r\n    @if $values != none {\r\n      $count: list.length($values);\r\n\r\n      @for $i from 1 through $count {\r\n        $position: get-coordinates($values, $i, ',', vmin);\r\n        & ~ #tan#{$name}lab-#{$i}-#{$angle} { \r\n          @if $visibility == visible {\r\n            visibility: visible;\r\n            background-color: $color;\r\n            opacity: .2;\r\n            z-index: 2;\r\n            transform-origin: #{$transformOrigin};\r\n            transform: translate(#{$position}) rotate(#{$angle}deg);\r\n          } @else if $visibility == hidden { visibility: hidden; }\r\n          &:hover{ opacity: 0.5; cursor: pointer; }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>The generated CSS:</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">#blueTriangle-tan:checked ~ #tanblueTrianglelab-1-360 {\r\n  visibility: visible;\r\n  background-color: #53a0e0;\r\n  opacity: 0.2;\r\n  z-index: 2;\r\n  transform-origin: 4.17vmin 12.5vmin;\r\n  transform: translate(4.7vmin,13.5vmin) rotate(360deg);\r\n}</code></pre>\r\n\r\n\r\n\r\n<p>This next mixin is tied to the previous one and manages when and how the tan shadows appear while their parent tan is being rotated using the button. It listens for the current rotation angle and checks whether there are any shadow positions defined for that specific angle. If there are, it displays them; if not — no shadows!</p>\r\n\r\n\r\n\r\n<pre rel=\"SCSS\" class=\"wp-block-csstricks-code-block language-scss\" data-line=\"\"><code markup=\"tt\">@mixin render-possible-positions-by-rotation {\r\n   // This mixin applies rotation to each tan shape. It loops through each tan, calculates its possible positions for each angle, and handles visibility and transformation.\r\n   // It ensures that rotation is applied correctly, including handling the transitions between various tan positions and visibility states.\r\n @each $tanName, $values in $tansShapes{\r\n    $possiblePositions: map.get($values, poss-positions);\r\n    $possibleTansColor: map.get($values, color);\r\n    $validPosition: get-coordinates($values, correct-position,',' ,vmin);\r\n    $transformOrigin: get-coordinates($values,transform-origin,' ' ,vmin); \r\n    $rotResPosition: get-coordinates($values,exit-mode-btn-position ,',' ,vmin );\r\n    $angle: 0;\r\n    @for $i from 1 through 8{\r\n      $angle: $i * 45;\r\n      $nextAngle: if($angle + 45 > 360, 45, $angle + 45);\r\n      @include render-position-feedback-on-task($tanName,$angle, $possiblePositions,$possibleTansColor, #{$tanName}-tan, $validPosition,$transformOrigin, $rotResPosition);   \r\n        ##{$tanName}-tan{\r\n        @include render-possible-tan-positions($tanName,$angle, $possiblePositions,hidden, $possibleTansColor, #{$tanName}-tan,$transformOrigin)\r\n      }\r\n        ##{$tanName}-tan:checked{\r\n          @include render-possible-tan-positions($tanName,360, $possiblePositions,visible, $possibleTansColor, #{$tanName}-tan,$transformOrigin);\r\n          & ~ #rotation-#{$angle}:checked {\r\n            @include render-possible-tan-positions($tanName,360, $possiblePositions,hidden, $possibleTansColor, #{$tanName}-tan,$transformOrigin);\r\n            & ~ #tan#{$tanName}lab{transform:translate( get-coordinates($values,tan-position,',', vmin))  rotate(#{$angle}deg) ;}\r\n            & ~ #tan#{$tanName}labRes{ visibility: hidden; }\r\n            & ~ #rot#{$angle}{ visibility: hidden; }\r\n            & ~ #rot#{$nextAngle}{ visibility: visible } \r\n            @include render-possible-tan-positions($tanName,$angle, $possiblePositions,visible, $possibleTansColor, #{$tanName}-tan,$transformOrigin);\r\n        }\r\n      }\r\n    }\r\n  }\r\n}</code></pre>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_KwwxVOy\" src=\"//codepen.io/anon/embed/preview/KwwxVOy?height=450&theme-id=1&slug-hash=KwwxVOy&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed KwwxVOy\" title=\"CodePen Embed KwwxVOy\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>When a tan’s shadow is clicked, the corresponding tan should move to that shadow’s position. The next mixin then checks whether this new position is the correct one for solving the puzzle. If it is correct, the tan gets a brief blinking effect and becomes unclickable, signaling it’s been placed correctly. If it’s not correct, the tan simply stays at the shadow’s location. There’s no effect and it remains draggable/clickable.</p>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_QwwVbqr\" src=\"//codepen.io/anon/embed/preview/QwwVbqr?height=450&theme-id=1&slug-hash=QwwVbqr&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed QwwVbqr\" title=\"CodePen Embed QwwVbqr\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>Of course, there’s a list of all the correct positions for each tan. Since some tans share the same size — and some can even combine to form larger, existing shapes — we have multiple valid combinations. For this Camel task, all of them were taken into account. A dedicated map with these combinations was created, along with a mixin that reads and applies them.</p>\r\n\r\n\r\n\r\n<div class=\"wp-block-cp-codepen-gutenberg-embed-block cp_embed_wrapper\"><iframe id=\"cp_embed_gbOBMqm\" src=\"//codepen.io/anon/embed/preview/gbOBMqm?height=450&theme-id=1&slug-hash=gbOBMqm&default-tab=result\" height=\"450\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allowpaymentrequest name=\"CodePen Embed gbOBMqm\" title=\"CodePen Embed gbOBMqm\" class=\"cp_embed_iframe\" style=\"width:100%;overflow:hidden\">CodePen Embed Fallback</iframe></div>\r\n\r\n\r\n\r\n<p>At the end of the game, when all tans are placed in their correct positions, we trigger a “merging” effect — and the silhouette of the camel turns yellow. At that point, the only remaining action is to click the Restart button.</p>\r\n\r\n\r\n\r\n<p>Well, that was long, but that’s what you get when you pick the fun (albeit hard and lengthy) path. All as an ode to CSS-only magic!</p>\r\n<hr />\r\n<p><small><a rel=\"nofollow\" href=\"https://css-tricks.com/breaking-boundaries-building-a-tangram-puzzle-with-scss/\">Breaking Boundaries: Building a Tangram Puzzle With (S)CSS</a> originally published on <a rel=\"nofollow\" href=\"https://css-tricks.com\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&utm_source=css-tricks.com&utm_campaign=family_&utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
-    "createdAt": "2025-06-12T13:58:38.000+00:00",
-    "link": "https://css-tricks.com/breaking-boundaries-building-a-tangram-puzzle-with-scss/",
-    "author": "",
-    "site": {
-      "id": "4",
-      "url": "https://css-tricks.com/category/articles/feed",
-      "name": "Css Tricks"
     }
   },
   {
@@ -630,7 +510,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-react-nextjs-cursor",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -642,7 +522,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-d5d",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -654,7 +534,7 @@
     "link": "https://fenews.substack.com/p/fe-news-state-of-fejs-korea-2025-9d1",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -666,7 +546,7 @@
     "link": "https://kofearticle.substack.com/p/korean-fe-article-mcp-f52",
     "author": "",
     "site": {
-      "id": "3",
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "url": "https://kofearticle.substack.com/feed",
       "name": "Korean FE article"
     }
@@ -678,7 +558,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-06",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -690,7 +570,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-05",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -702,7 +582,7 @@
     "link": "https://fenews.substack.com/p/fe-news-state-of-fejs-korea-2025",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -714,7 +594,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-04",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -726,7 +606,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-03",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -738,7 +618,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-02",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -750,7 +630,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2025-01",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -762,7 +642,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-12",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -774,7 +654,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-11",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -786,7 +666,7 @@
     "link": "https://fenews.substack.com/p/fe-news-dan-24",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -798,7 +678,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-10",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -810,7 +690,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-09",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -822,7 +702,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-08",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -834,7 +714,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-07",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -846,7 +726,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-06",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -858,7 +738,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-05",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -870,7 +750,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-04",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
@@ -882,7 +762,7 @@
     "link": "https://fenews.substack.com/p/fe-news-2024-03",
     "author": "",
     "site": {
-      "id": "1",
+      "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "url": "https://fenews.substack.com/feed",
       "name": "FE News"
     }
