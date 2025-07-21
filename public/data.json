@@ -1,5 +1,29 @@
 [
   {
+    "title": "로컬 LLM과 오프라인 위키피디아 비교",
+    "content": "<ul>\r\n<li>MIT Technology Review에서 최근 <strong>로컬 LLM 활용</strong>에 관한 기사가 소개됨</li>\r\n<li>오프라인 환경에서 <strong>로컬 LLM과 위키피디아 데이터 다운로드 크기</strong>를 비교함</li>\r\n<li>크기 순으로 정리한 결과, <strong>일부 오프라인 위키피디아 번들은 작은 LLM 모델보다 더 작거나 큼</str...</p>",
+    "createdAt": "2025-07-21T06:33:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=22097",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ask GN: 해외 CP 입장에서 한국 망사용료(트랜짓 비용 등)이 해외 대비 10배 넘게 비싼건 트랜짓만 팔지 않고 전...",
+    "content": "<p>클라우드플레어, 트위치 등 해외 CP는 한국 네트워크 비용이 10배 비싸다고 말했습니다. 이들은 CSP를 사용하거나 ISP AS에 서버를 내장하여 ISP 내지 CSP 한테 대역폭 비용을 내는 대다수의 국내 CP와 다르게 자체적인 AS를 굴리고 ISP의 트랜짓을 사거나 피어링을 하는 회사입니다. 한국 통신3사는 무정산 피어링에...</p>",
+    "createdAt": "2025-07-21T06:30:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=22096",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Element와 Matrix.org를 포기합니다",
     "content": "<ul>\r\n<li>\r\n<strong>Matrix.org</strong>와 <strong>Element</strong>를 5년간 주요 커뮤니케이션 플랫폼으로 사용하며 여러 문제와 실망을 겪은 끝에 더 이상 사용하지 않기로 결정함</li>\r\n<li>\r\n<strong>느린 성능</strong>, <strong>불안정한 서비스</strong>, <strong>혼란스러운 UX</strong> 등으로 인해 일상적인 사...</p>",
     "createdAt": "2025-07-21T02:47:10.000+00:00",
@@ -88,30 +112,6 @@
     "content": "<ul>\r\n<li>\r\n<strong>AI 에이전트 붐</strong>이 2025년에 크게 다가올 것이라는 기대와 달리, 실제 프로덕션 환경에서는 현실적인 한계가 존재함</li>\r\n<li>\r\n<strong>에러 누적</strong>과 <strong>토큰 비용 문제</strong>로 인해, 다단계 워크플로우를 완전 자동화하는 것은 현재 불가능함</li>\r\n<li>대부분의 성공적인 에...</p>",
     "createdAt": "2025-07-21T00:48:35.000+00:00",
     "link": "https://news.hada.io/topic?id=22088",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GDD - \"가스라이팅 드리븐 개발\"의 시대",
-    "content": "<ul>\r\n<li>최근 컴퓨터 사용자는 본인의 의지와 무관한 수많은 <strong>의미 없는 작업</strong>을 반복 수행하며, 컴퓨터가 시키는 대로 따르고 있음</li>\r\n<li>\r\n<strong>LLM</strong>이 개발자의 <strong>API 설계 방식에 영향</strong>을 주고, 실제로 AI가 제안한 기능을 개발자들이 수용하며 곧 대부분의 코드를 AI가...</p>",
-    "createdAt": "2025-07-21T00:46:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=22087",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "varlock - 차세대 .env 관리 도구",
-    "content": "<ul>\r\n<li>기존 .env/.env.example 방식의 한계를 극복해, 협업/AI/보안/타입 안정성을 한 번에 해결하는 <strong>차세대 환경 변수 관리 툴</strong>\r\n<ul>\r\n<li>\r\n<code>.env.schema</code>로 환경 변수 스키마를 한 곳에서 관리, .env.example와 달리 실제와 예시의 불일치 걱정 없음</li>\r\n</ul>\r\n</li>\r\n<li>\r\n<strong>@env...</p>",
-    "createdAt": "2025-07-21T00:46:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=22086",
     "author": "",
     "site": {
       "id": "2",
