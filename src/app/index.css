@@ -31,6 +31,26 @@
   .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
     display: none !important;
   }
+
+  /* Custom grayscale scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #bdbdbd transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 4px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: #9e9e9e;
+  }
 }
 
 @utility viewer {

@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'public/**'
 
   # Actions 탭에서 수동으로 워크플로우를 실행할 수 있도록 구성
   workflow_dispatch:

@@ -1,0 +1,1 @@
+export { LoadingComponent } from './ui/loading-component';
