@@ -1,4 +1,4 @@
-import { twMerge } from "@shared/lib/utils/tw-merge";
+import { twMerge } from "@shared/lib/utils";
 
 interface MainContainerProps extends React.PropsWithChildren {
     className?: string;

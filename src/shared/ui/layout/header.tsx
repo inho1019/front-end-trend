@@ -1,5 +1,5 @@
 import { MenuIcon } from "@shared/assets";
-import { twMerge } from "@shared/lib/utils/tw-merge";
+import { twMerge } from "@shared/lib/utils";
 import { useState } from "react";
 import { SettingsPanel } from "../common";
 

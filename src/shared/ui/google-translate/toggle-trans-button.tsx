@@ -1,6 +1,6 @@
 import { TranslateIcon } from "@shared/assets";
 import { useGoogleTranslate } from "@shared/lib/google-translate";
-import { twMerge } from "@shared/lib/utils/tw-merge";
+import { twMerge } from "@shared/lib/utils";
 
 interface ToggleTransButtonProps {
     className?: string;

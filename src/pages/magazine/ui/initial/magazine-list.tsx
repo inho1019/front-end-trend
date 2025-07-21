@@ -1,4 +1,5 @@
-import { LoadingComponent } from "@features/common";
+import { LoadingContainer } from "@features/common";
+import { EmptyContainer } from "@features/common/ui/empty-container";
 import { MagazineItem, MagazinePanel } from "@features/magazine";
 import { useData } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
@@ -22,20 +23,24 @@ export const MagazineList = () => {
         <>
             {
                 loading ? (
-                    <LoadingComponent className="pb-40" /> 
+                    <LoadingContainer className="pb-40" /> 
                 ) : (
-                    <section className="flex flex-col divide-y-1 divide-gray-200">
-                        {
-                            data?.map((item, index) => (
-                                <MagazineItem 
-                                    key={index} 
-                                    data={item}
-                                    onClick={() => handleClickItem(item)}
-                                    className="cursor-pointer py-15 px-10" 
-                                />
-                            ))
-                        }
-                    </section>
+                    !data || data.length <= 0 ? (
+                        <EmptyContainer className="pb-40" />
+                    ) : (
+                        <section className="flex flex-col divide-y-1 divide-gray-200">
+                            {
+                                data?.map((item, index) => (
+                                    <MagazineItem 
+                                        key={index} 
+                                        data={item}
+                                        onClick={() => handleClickItem(item)}
+                                        className="cursor-pointer py-15 px-10" 
+                                    />
+                                ))
+                            }
+                        </section>
+                    )
                 )
             }
             <MagazinePanel isOpen={!!selectedData} data={selectedData} onClose={handleClosePanel} />
