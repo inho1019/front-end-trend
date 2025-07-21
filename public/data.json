@@ -1,9 +1,117 @@
 [
   {
-    "title": "XMLUI",
-    "content": "<ul>\r\n<li>\r\n<strong>XMLUI</strong>는 Visual Basic의 컴포넌트 개발 모델을 현대 웹에 적용하여, <strong>React와 CSS 지식 없이도 웹 앱</strong>을 간단하게 개발할 수 있음</li>\r\n<li>XMLUI는 다양한 <strong>컴포넌트</strong>를 XML 마크업으로 손쉽게 조합할 수 있으며, <strong>리액티브 데이터 바인딩</strong>, ...</p>",
-    "createdAt": "2025-07-21T00:42:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=22084",
+    "title": "Element와 Matrix.org를 포기합니다",
+    "content": "<ul>\r\n<li>\r\n<strong>Matrix.org</strong>와 <strong>Element</strong>를 5년간 주요 커뮤니케이션 플랫폼으로 사용하며 여러 문제와 실망을 겪은 끝에 더 이상 사용하지 않기로 결정함</li>\r\n<li>\r\n<strong>느린 성능</strong>, <strong>불안정한 서비스</strong>, <strong>혼란스러운 UX</strong> 등으로 인해 일상적인 사...</p>",
+    "createdAt": "2025-07-21T02:47:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=22095",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SaaS 2.0 - Software-as-a-Service 에서 Specialist-and-a-Spreadsheet 로",
+    "content": "<ul>\r\n<li>\r\n<strong>Salesforce</strong> 등 전통적인 SaaS 제품은 결국 여러 개의 <strong>목록(리스트) 관리</strong>와, 내장된 <strong>업무 노하우(Playbook)</strong> 를 결합한 형태임</li>\r\n<li>SaaS는 대부분 사용자에게 <strong>실용적 도구</strong>(리스트, 노트, 작업 관리 등)와 <strong>전문가의 관점</str...</p>",
+    "createdAt": "2025-07-21T02:11:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=22094",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 발전을 따라잡는 나만의 방법 (그리고 당신도 꼭 해야 하는 이유)",
+    "content": "<ul>\r\n<li>\r\n<strong>생성형 AI는 가장 빠르게 진화하는 기술</strong>로, 과소평가와 과대평가 모두 위험함</li>\r\n<li>\r\n<strong>공신력 있는 출처와 신뢰할 수 있는 전문가</strong>를 꾸준히 팔로우하는 것이 필수적임</li>\r\n<li>\r\n<strong>Simon Willison’s Blog, Andrej Karpathy, Every’s Chain of Thought</strong> 등...</p>",
+    "createdAt": "2025-07-21T01:51:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=22093",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "NVIDIA, OpenReasoning-Nemotron 32B/14B/7B/1.5B 모델 공개",
+    "content": "<ul>\r\n<li>Qwen2.5-32B-Instruct(추론 모델)의 파생 모델로 <strong>수학, 코드, 과학 문제 해결 추론에 특화</strong>됨</li>\r\n<li>상업적/비상업적 연구 용도로 사용할 수 있음</li>\r\n<li>64,000 토큰의 컨텍스트 길이를 지원하며 1.5B, 7B, 14B, 32B 크기로 제공됨</li>\r\n<li>LiveCodeBench, GPQA, MMLU-PRO 등 다양한 벤...</p>",
+    "createdAt": "2025-07-21T01:21:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22092",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AWS, Amazon S3 Vectors 프리뷰 공개",
+    "content": "<ul>\r\n<li>클라우드 최초로 <strong>네이티브 벡터를 지원</strong>하는 대규모 오브젝트 스토리지</li>\r\n<li>벡터 데이터 저장, 업로드, 쿼리 비용을 <strong>최대 90%까지 절감</strong>할 수 있으며, <strong>서브초(subsecond) 쿼리 성능</strong> 제공</li>\r\n<li>\r\n<strong>벡터 버킷</strong> 및 <strong>벡터 인덱스...</p>",
+    "createdAt": "2025-07-21T01:04:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22091",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "빅 LLM들의 아키텍처 비교",
+    "content": "<ul>\r\n<li>\r\n<strong>최근 7년간 LLM 아키텍처</strong>는 GPT-2(2019)부터 DeepSeek-V3, Llama 4(2024-2025)까지 구조적으로 <strong>큰 변화 없이 진화</strong>하여 놀랄 만큼 <strong>유사성</strong>을 유지함</li>\r\n<li>\r\n<strong>DeepSeek V3/R1, Llama 4</strong> 등 최신 모델은 <strong>Mixture-of-Experts(MoE), ...</p>",
+    "createdAt": "2025-07-21T00:54:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=22090",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "당황스러운 품질 저하 현상",
+    "content": "<ul>\r\n<li>전 세계적으로 <strong>제품과 서비스의 품질 저하 현상</strong>이 확산되고 있음</li>\r\n<li>이 현상은 <strong>경제적 불평등과 자본주의 약속의 불이행</strong>, 그리고 <strong>효율성 문화</strong>의 확대와 밀접한 관련성이 있음</li>\r\n<li>\r\n<strong>소비자들의 인식 변화</strong>, 특히 지속성과 내구성...</p>",
+    "createdAt": "2025-07-21T00:51:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=22089",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "자율 에이전트에 대한 \"과대광고\"와 실제 프로덕션에서 작동하는 AI 에이전트의 차이점",
+    "content": "<ul>\r\n<li>\r\n<strong>AI 에이전트 붐</strong>이 2025년에 크게 다가올 것이라는 기대와 달리, 실제 프로덕션 환경에서는 현실적인 한계가 존재함</li>\r\n<li>\r\n<strong>에러 누적</strong>과 <strong>토큰 비용 문제</strong>로 인해, 다단계 워크플로우를 완전 자동화하는 것은 현재 불가능함</li>\r\n<li>대부분의 성공적인 에...</p>",
+    "createdAt": "2025-07-21T00:48:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=22088",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GDD - \"가스라이팅 드리븐 개발\"의 시대",
+    "content": "<ul>\r\n<li>최근 컴퓨터 사용자는 본인의 의지와 무관한 수많은 <strong>의미 없는 작업</strong>을 반복 수행하며, 컴퓨터가 시키는 대로 따르고 있음</li>\r\n<li>\r\n<strong>LLM</strong>이 개발자의 <strong>API 설계 방식에 영향</strong>을 주고, 실제로 AI가 제안한 기능을 개발자들이 수용하며 곧 대부분의 코드를 AI가...</p>",
+    "createdAt": "2025-07-21T00:46:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=22087",
+    "author": "",
+    "site": {
+      "id": "2",
+      "url": "https://feeds.feedburner.com/geeknews-feed",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "varlock - 차세대 .env 관리 도구",
+    "content": "<ul>\r\n<li>기존 .env/.env.example 방식의 한계를 극복해, 협업/AI/보안/타입 안정성을 한 번에 해결하는 <strong>차세대 환경 변수 관리 툴</strong>\r\n<ul>\r\n<li>\r\n<code>.env.schema</code>로 환경 변수 스키마를 한 곳에서 관리, .env.example와 달리 실제와 예시의 불일치 걱정 없음</li>\r\n</ul>\r\n</li>\r\n<li>\r\n<strong>@env...</p>",
+    "createdAt": "2025-07-21T00:46:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=22086",
     "author": "",
     "site": {
       "id": "2",
@@ -21,114 +129,6 @@
       "id": "3",
       "url": "https://kofearticle.substack.com/feed",
       "name": "kofearticle"
-    }
-  },
-  {
-    "title": "나만의 백업 시스템 만들기 – 1부: 스크립트 이전의 전략",
-    "content": "<ul>\r\n<li>\r\n<strong>백업</strong>의 중요성이 종종 과소평가되는 현상이 많음</li>\r\n<li>많은 이들이 <strong>클라우드 의존</strong>에 안주하며 데이터 보호의 책임을 인식하지 못함</li>\r\n<li>\r\n<strong>백업 계획</strong>을 세우지 않고 단순 복사에 의존하면 높은 위험을 초래함</li>\r\n<li>디스크 전체 또는 <strong>개...</p>",
-    "createdAt": "2025-07-20T15:35:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=22083",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "차세대 프로그래머를 환영합니다",
-    "content": "<h2>요약: “Welcoming The Next Generation of Programmers” (Armin Ronacher, 2025-07-20)</h2>\r\n<h3>1. 글의 배경</h3>\r\n<p>저자는 파이썬 커뮤니티에 대한 감사와 회상을 바탕으로, 최근 유로파이썬(EuroPython)에서 느낀 감정과 과거 커뮤니티가 자신에게 준 영향력을 다시 성찰한다.</p>\r\n<h3>2. 회상을 불러온 계기",
-    "createdAt": "2025-07-20T13:59:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=22081",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "경찰이 실시간으로 Ring 카메라에 접근할 수 있는 새로운 기능 도입",
-    "content": "<ul>\r\n<li>\r\n<strong>Ring</strong>이 경찰이 가정용 보안 카메라를 실시간으로 <strong>라이브 스트림</strong> 할 수 있는 기능을 도입함</li>\r\n<li>이 변화는 Ring이 과거에 진행했던 <strong>개혁 조치</strong>를 되돌리는 것으로, 미국 시민의 <strong>시민 자유</strong>에 심각한 위협을 가함</li>\r\n<li>경찰이 Ring...</p>",
-    "createdAt": "2025-07-20T13:33:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=22080",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI로 인한 사망",
-    "content": "<ul>\r\n<li>\r\n<strong>Google AI Overview</strong>에서 'Dave Barry'가 사망했다는 부정확한 정보가 표시됨</li>\r\n<li>실제로는 <strong>Dave Barry</strong>가 생존 중임에도, AI가 잘못된 정보를 여러 번 반복적으로 반영함</li>\r\n<li>사용자가 <strong>피드백을 여러 차례</strong> 제출했지만, AI와의 채팅 및 문제 수정...</p>",
-    "createdAt": "2025-07-20T08:34:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=22079",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Meta 새로 구성한 Superintelligence 팀 명단 유출",
-    "content": "<h4>사실 연봉이나 국적으로 사람들이 어그로가 끌린 거 같은데 본질은 이들이 지금 무엇을 하고자 하는지를 분석 하는 겁니다.</h4>\r\n<p>Meta가 이번에 새로 구성한 팀의 명단이 유출 되었는데 어마어마 합니다. 국내에서도 인공지능 파운데이션 모델 독자적으로 만드는 목적이 있다면 팀 구성에 참고해보세요.</p>\r\n<p>M",
-    "createdAt": "2025-07-20T06:36:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=22078",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아직 아무도 AI로 어떻게 구축해야 할지 모름",
-    "content": "<ul>\r\n<li>최근 4일 만에 <strong>Protocollie 개발</strong>을 완료했으나, 같은 방식으로 반복할 수 있을지 확신 없음</li>\r\n<li>\r\n<strong>AI 개발 환경</strong>에서는 기존의 전문성이나 방법론이 계속 뒤바뀌기 때문에 모두가 <strong>영구적인 초보자</strong>에 해당함</li>\r\n<li>\r\n<strong>작업 문서 네 개</strong>...</p>",
-    "createdAt": "2025-07-20T06:33:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=22077",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 출력물을 사람에게 보여주는 것은 무례함",
-    "content": "<ul>\r\n<li>\r\n<strong>AI가 생성한 텍스트</strong>를 다른 사람에게 무분별하게 전달하는 것은 <strong>상대방을 혼란스럽게 하는 행동</strong>임</li>\r\n<li>예전에는 작성된 텍스트가 <strong>인간의 사고의 증거</strong>였으나, AI의 발전으로 이러한 신뢰가 무너짐</li>\r\n<li>\r\n<strong>AI가 생성한 콘텐츠</strong>의 전...</p>",
-    "createdAt": "2025-07-20T01:33:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=22076",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "비동기(asynchrony)는 동시성(concurrency)이 아님",
-    "content": "<ul>\r\n<li>\r\n<strong>비동기</strong>와 <strong>동시성</strong>은 자주 혼동되는 개념이지만, 서로 다른 의미를 가짐</li>\r\n<li>\r\n<strong>비동기</strong>는 작업들이 순서에 상관없이 실행될 수 있는 가능성을 뜻함</li>\r\n<li>\r\n<strong>동시성</strong>은 시스템이 여러 작업을 동시에 진행할 수 있는 능력을 의미함</li>...</p>",
-    "createdAt": "2025-07-20T01:05:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=22074",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "암 DNA, 진단 몇 년 전부터 혈액에서 탐지 가능",
-    "content": "<ul>\r\n<li>\r\n<strong>암의 유전적 흔적</strong>이 질병 진단 수년 전 이미 혈액 속에서 탐지될 수 있음</li>\r\n<li>연구자들은 <strong>고감도·정확한 기술</strong>로 극미량의 <strong>종양 DNA</strong>를 확인, 조기 암 선별 도구로서 가능성이 있다는 걸 제시</li>\r\n<li>과거 채취된 <strong>혈액 샘플 분석</strong>에...</p>",
-    "createdAt": "2025-07-20T01:02:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=22073",
-    "author": "",
-    "site": {
-      "id": "2",
-      "url": "https://feeds.feedburner.com/geeknews-feed",
-      "name": "GeekNews"
     }
   },
   {
