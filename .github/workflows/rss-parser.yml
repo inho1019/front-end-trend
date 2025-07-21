@@ -14,6 +14,8 @@ on:
 # 권한부여
 permissions:
   contents: write
+  actions: write
+  id-token: write
 
 env:
   VITE_TARGET_PATH_SITE: ${{ vars.SITE_FILE_PATH }}
