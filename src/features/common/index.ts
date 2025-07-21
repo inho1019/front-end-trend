@@ -1,1 +1,1 @@
-export { LoadingComponent } from './ui/loading-component';
+export { LoadingContainer } from './ui/loading-container';

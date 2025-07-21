@@ -1,1 +1,6 @@
-[]
+{
+    "magazine": {
+        "createdAt": "createdAt",
+        "empty": "Not Found Data"
+    }
+}

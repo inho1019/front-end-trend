@@ -30,7 +30,8 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
             if (data) {
                 const filteredData = originalData?.filter(item =>
                     item.title.toLowerCase().includes(searchValue.toLowerCase()) ||
-                    item.content.toLowerCase().includes(searchValue.toLowerCase())
+                    item.content.toLowerCase().includes(searchValue.toLowerCase()) ||
+                    item.site.name.toLowerCase().includes(searchValue.toLowerCase())
                 );
                 setData(filteredData ?? []);
             }

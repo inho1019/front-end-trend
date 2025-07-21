@@ -1,6 +1,6 @@
 import { CircleXIcon, SearchIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
-import { twMerge } from "@shared/lib/utils/tw-merge";
+import { twMerge } from "@shared/lib/utils";
 import { useCallback, useState } from "react";
 
 interface MagazineSearchProps {

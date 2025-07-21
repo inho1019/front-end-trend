@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "4016fc9a-4c0e-434d-951d-f64479332217",
     "url": "https://fenews.substack.com/feed",
     "name": "FE News",
     "description": "FE News",
@@ -13,20 +13,7 @@
     }
   },
   {
-    "id": "2",
-    "url": "https://feeds.feedburner.com/geeknews-feed",
-    "name": "Geek News",
-    "description": "Geek News",
-    "type": {
-      "title": "title",
-      "content": "content",
-      "createdAt": "isoDate",
-      "link": "link",
-      "author": "author"
-    }
-  },
-  {
-    "id": "3",
+    "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
     "url": "https://kofearticle.substack.com/feed",
     "name": "Korean FE article",
     "description": "Korean FE article",
@@ -39,7 +26,7 @@
     }
   },
   {
-    "id": "4",
+    "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
     "url": "https://css-tricks.com/category/articles/feed",
     "name": "Css Tricks",
     "description": "Css Tricks",
@@ -52,7 +39,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
     "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
     "name": "Javascript Weekly",
     "description": "Javascript Weekly",
@@ -65,7 +52,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "be177052-1309-48c8-83e8-a40eefc026eb",
     "url": "https://thisweekinreact.com/newsletter/rss.xml",
     "name": "This Week In React",
     "description": "This Week In React",

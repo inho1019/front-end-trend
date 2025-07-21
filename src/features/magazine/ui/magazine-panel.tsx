@@ -1,6 +1,8 @@
-import { LinkIcon, XIcon } from "@shared/assets";
+import { XIcon } from "@shared/assets";
+import { sanitizeHtml } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Panel } from "@shared/ui/panel"
+import { DateTime } from "luxon";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router";
 
@@ -32,29 +34,35 @@ export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => 
             position="right"
             className="w-full h-[calc(100%-45px)] max-w-640 p-10 top-45"
         >
-            <div className="rounded-xl shadow-xl flex flex-col bg-white p-15 h-full">
+            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 h-full">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
-                        <div className="text-xl font-semibold">{data?.title}</div>
+                        <details open className="group">
+                           <summary className="text-xl font-semibold group-open:line-clamp-2">{data?.title}</summary>
+                        </details>
                         <button className="cursor-pointer self-start" onClick={onClose}>
                             <XIcon />
                         </button>
                     </div>
-                    <Link
-                        to={data?.link ?? "#"}
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="flex flex-row items-center gap-2 cursor-pointer text-sm text-blue-500 underline hover:text-blue-700 transition-colors"
-                    >
-                        <LinkIcon />
-                        {data?.link}
-                    </Link>
+                    <div className="flex flex-row items-center gap-5">
+                        <p className="text-sm text-gray-700 font-medium">{data.site.name}</p>
+                        <div className="w-1 bg-gray-200 h-12" />
+                        <Link
+                            to={data?.link ?? "#"}
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="flex flex-row items-center gap-2 cursor-pointer text-sm text-blue-500 underline hover:text-blue-700 transition-colors line-clamp-1"
+                        >
+                            {data?.link}
+                        </Link>
+                    </div>
                 </div>
                 <div
                     ref={viewerRef}
-                    className="overflow-y-auto whitespace-pre-wrap viewer pt-15"
-                    dangerouslySetInnerHTML={ { __html: data?.content ?? "" } }
+                    className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15"
+                    dangerouslySetInnerHTML={ { __html: sanitizeHtml(data?.content) ?? "" } }
                 />
+                <p className="absolute bottom-15 left-15 opacity-50 text-md text-gray-700 max-sm:left-auto max-sm:right-15">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd")}</p>
             </div>
         </Panel>
     )
