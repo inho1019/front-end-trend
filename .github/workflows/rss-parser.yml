@@ -3,7 +3,8 @@ name: RSS Parser
 on:
 # 푸시 이벤트가 발생할 때마다 아래 스크립트를 실행한다.
   push:
-    branches: ['main']
+    branches:
+      - main
 # 12시간에 한번씩 아래 스크립트를 실행한다.
   schedule:
     - cron: "0 */12 * * *"
@@ -41,6 +42,14 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update data.json"
             git push
+            echo "changes_detected=true" >> $GITHUB_ENV
           else
             echo "No changes to commit"
-          fi
+            echo "changes_detected=false" >> $GITHUB_ENV
+      # 커밋 발생시 배포 워크플로우를 트리거
+      - name: Trigger Deployment
+        if: env.changes_detected == 'true'
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Deployment
+          token: ${{ secrets.GITHUB_TOKEN }}

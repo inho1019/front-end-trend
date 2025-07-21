@@ -24,12 +24,12 @@ export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => 
         <Panel
             isOpen={isOpen}
             position="right"
-            className="w-full h-full max-w-640 p-10"
+            className="w-full h-full max-w-640 p-10 pr-0"
         >
-            <div className="rounded-xl shadow-xl flex flex-col gap-20 bg-white p-15 h-full">
-                <div className="flex flex-row justify-between">
+            <div className="rounded-tl-xl rounded-bl-xl shadow-xl flex flex-col gap-20 bg-white p-15 h-full">
+                <div className="flex flex-row justify-between gap-5">
                     <div className="text-xl">{data?.title}</div>
-                    <button className="cursor-pointer" onClick={onClose}>
+                    <button className="cursor-pointer self-start" onClick={onClose}>
                         <XIcon />
                     </button>
                 </div>

@@ -7,7 +7,7 @@ interface MainContainerProps extends React.PropsWithChildren {
 export const MainContainer = ({ className, children } : MainContainerProps) => {
 
     return (
-        <main className={twMerge("relative flex flex-col w-full max-w-940 mx-auto p-15 max-sm:p-10", className)}>
+        <main className={twMerge("relative flex flex-col w-full h-screen max-w-940 mx-auto p-15 max-sm:p-10", className)}>
             {children}
         </main>
     )
