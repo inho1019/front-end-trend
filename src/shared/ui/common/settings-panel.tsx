@@ -18,7 +18,7 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 <div className="flex flex-row justify-between items-center">
                     <div className="flex flex-row items-center gap-10 text-2xl font-semibold">
                         <LogoIcon />
-                        FE Magazine
+                        FE Trend
                     </div>
                     <button className="cursor-pointer self-start" onClick={onClose}>
                         <XIcon />

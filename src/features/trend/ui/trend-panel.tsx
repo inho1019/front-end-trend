@@ -6,13 +6,13 @@ import { DateTime } from "luxon";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router";
 
-export interface MagazinePanelProps {
+export interface TrendPanelProps {
     data: ParserData | null;
     isOpen: boolean;
     onClose: () => void;
 }
 
-export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => { 
+export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => { 
     const viewerRef = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
@@ -38,7 +38,7 @@ export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => 
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
-                           <summary className="text-xl font-semibold group-open:line-clamp-2">{data?.title}</summary>
+                           <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1">{data?.title}</summary>
                         </details>
                         <button className="cursor-pointer self-start" onClick={onClose}>
                             <XIcon />
