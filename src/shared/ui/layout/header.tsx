@@ -34,7 +34,7 @@ export const Header = ({
             const params = new URLSearchParams(prev);
             params.delete("setting-panel");
             return params;
-        });
+        }, { replace: true });
     }, [setSearchParams]);
 
     return (

@@ -31,7 +31,7 @@ export const TrendList = () => {
             const params = new URLSearchParams(prev);
             params.delete("trend-panel");
             return params;
-        });
+        }, { replace: true });
     }, [setSearchParams]);
     
     return (

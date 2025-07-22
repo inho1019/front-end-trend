@@ -34,7 +34,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             position="right"
             className="w-full h-[calc(100%-45px)] max-w-640 p-10 top-45"
         >
-            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 h-full">
+            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
