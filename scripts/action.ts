@@ -5,8 +5,21 @@ import dotenv from 'dotenv';
 import type { Site } from "../src/shared/model/site";
 import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
+import { JSDOM } from 'jsdom';
+import createDOMPurify from 'dompurify';
 
 dotenv.config();
+
+const window = new JSDOM('').window;
+const DOMPurify = createDOMPurify(window);
+
+function sanitizeRSSContent(rawHTML: string): string {
+  return DOMPurify.sanitize(rawHTML, {
+    FORBID_TAGS: ['script', 'style', 'link', 'form'],
+    FORBID_ATTR: ['style', 'onerror', 'onclick', 'onload'],
+    ALLOWED_URI_REGEXP: /^https?:/
+  });
+}
 
 const parser = new RSSParser();
 
@@ -35,7 +48,7 @@ const parser = new RSSParser();
                 }
                 return {
                     title: item[site.type.title] ?? "",
-                    content: content ? decode(decode(content)) : "",
+                    content: content ? sanitizeRSSContent(decode(decode(content))) : "",
                     createdAt: createdAt.toISO() || "",
                     link: site.type.link && (item[site.type.link] ?? ""),
                     author: site.type.author && (item[site.type.author] ?? ""),

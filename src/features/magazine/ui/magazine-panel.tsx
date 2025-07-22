@@ -51,7 +51,7 @@ export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => 
                             to={data?.link ?? "#"}
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="flex flex-row items-center gap-2 cursor-pointer text-sm text-blue-500 underline hover:text-blue-700 transition-colors line-clamp-1"
+                            className="flex-1 cursor-pointer text-sm text-blue-500 underline hover:text-blue-700 transition-colors line-clamp-1 break-all"
                         >
                             {data?.link}
                         </Link>
@@ -62,7 +62,7 @@ export const MagazinePanel = ({ data, isOpen, onClose }: MagazinePanelProps) => 
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15"
                     dangerouslySetInnerHTML={ { __html: sanitizeHtml(data?.content) ?? "" } }
                 />
-                <p className="absolute bottom-15 left-15 opacity-50 text-md text-gray-700 max-sm:left-auto max-sm:right-15">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd")}</p>
+                <p className="absolute bottom-15 left-15 opacity-50 text-sm font-medium text-gray-700 max-sm:left-auto max-sm:right-15">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd")}</p>
             </div>
         </Panel>
     )
