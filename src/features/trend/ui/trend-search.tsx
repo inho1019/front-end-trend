@@ -3,11 +3,11 @@ import { useData } from "@shared/lib/data";
 import { twMerge } from "@shared/lib/utils";
 import { useCallback, useState } from "react";
 
-interface MagazineSearchProps {
+interface TrendSearchProps {
     className?: string;
 }
 
-export const MagazineSearch = ({ className }: MagazineSearchProps) => {
+export const TrendSearch = ({ className }: TrendSearchProps) => {
     const { handleSearch } = useData();
     const [search, setSearch] = useState("");
 

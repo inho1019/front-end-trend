@@ -9,7 +9,7 @@ dotenv.config()
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.PROD ? '/front-end-magazine/' : '/',
+  base: process.env.PROD ? '/front-end-trend/' : '/',
   plugins: [
     react(),
     tailwindcss(),

@@ -9,7 +9,7 @@ export const EmptyContainer = ({ className }: EmptyContainerProps) => {
 
     return (
         <div className={twMerge("flex items-center justify-center text-2xl text-gray-300 font-medium h-full", className)}>
-            {trans("magazine.empty", "데이터를 찾을 수 없습니다")}
+            {trans("trend.empty", "데이터를 찾을 수 없습니다")}
         </div>
     );
 }
