@@ -26,6 +26,18 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
         if (!isEnabled) return;
         setLoading(true);
         const langCode = i18next.language.split("-")[0];
+        const googleTranslateScript = document.getElementById('google-translate-script');
+        const googleTranslateElement = document.getElementById('google_translate_element');
+
+        const handleChangeLanguage = () => {
+            const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
+            setLoading(false);
+        }
+
         if (!window.googleTranslateElementInit) {
             window.googleTranslateElementInit = () => {
                 window.googleTranslator = new window.google!.translate.TranslateElement(
@@ -36,20 +48,10 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
                 );
             };
         }
-        if (!document.getElementById('google_translate_element')) {
+        if (!googleTranslateElement) {
             const translateElement = document.createElement('div');
             translateElement.id = 'google_translate_element';
             document.body.appendChild(translateElement);
-        }
-        const googleTranslateScript = document.getElementById('google-translate-script');
-
-        const handleChangeLanguage = () => {
-            const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
-            if (select) {
-                select.value = langCode;
-                select.dispatchEvent(new Event('change'));
-            }
-            setLoading(false);
         }
 
         if (!googleTranslateScript) {
@@ -67,15 +69,24 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
             handleChangeLanguage();
         }
 
-        return () => {            
-            if (window.googleTranslator) {
-                Object.keys(window.googleTranslator).forEach((k) => {
-                    if (typeof window.googleTranslator[k]?.restore === 'function') {
-                        window.googleTranslator[k].restore();
-                    }
-                });
+        return () => {         
+            try {                
+                if (window.googleTranslator) {
+                    Object.keys(window.googleTranslator).forEach((k) => {
+                        if (typeof window.googleTranslator[k]?.restore === 'function') {
+                            window.googleTranslator[k].restore();
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error("Error restoring Google Translate:", error);
+                googleTranslateScript?.remove();
+                googleTranslateElement?.remove();
+                window.googleTranslateElementInit = undefined;
+                window.googleTranslator = undefined;
+            }  finally {
+                document.cookie = "googtrans=";
             }
-            document.cookie = "googtrans=";
         }
     }, [isEnabled]);
 
