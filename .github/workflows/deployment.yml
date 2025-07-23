@@ -40,6 +40,20 @@ jobs:
         run: yarn install
       - name: Build
         run: PROD=true yarn build
+            //환경변수 설정.env파일을 만들고,GithubSecrets의 변수를 등록하고
+      - name: Set Environment Variables
+        env:
+          VITE_GITHUB_OWNER: ${{ vars.VITE_GITHUB_OWNER }}
+          VITE_TARGET_REPO: ${{ vars.VITE_TARGET_REPO }}
+          VITE_TARGET_PATH_SITE: ${{ vars.VITE_TARGET_PATH_SITE }}
+          VITE_TARGET_PATH_DATA: ${{ vars.VITE_TARGET_PATH_DATA }}
+          VITE_TARGET_BRANCH: ${{ vars.VITE_TARGET_BRANCH }}
+        run: |
+          echo "VITE_GITHUB_OWNER=${VITE_GITHUB_OWNER}" >> .env
+          echo "VITE_TARGET_REPO=${VITE_TARGET_REPO}" >> .env
+          echo "VITE_TARGET_PATH_SITE=${VITE_TARGET_PATH_SITE}" >> .env
+          echo "VITE_TARGET_PATH_DATA=${VITE_TARGET_PATH_DATA}" >> .env
+          echo "VITE_TARGET_BRANCH=${VITE_TARGET_BRANCH}" >> .env
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
