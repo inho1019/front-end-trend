@@ -40,7 +40,6 @@ jobs:
         run: yarn install
       - name: Build
         run: PROD=true yarn build
-            //환경변수 설정.env파일을 만들고,GithubSecrets의 변수를 등록하고
       - name: Set Environment Variables
         env:
           VITE_GITHUB_OWNER: ${{ vars.VITE_GITHUB_OWNER }}
