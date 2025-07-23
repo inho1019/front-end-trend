@@ -1,10 +1,13 @@
 import { DataContext } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
-import { useCallback, useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
+import { useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
     const [originalData, setOriginalData] = useState<ParserData[] | null>(null);
     const [data, setData] = useState<ParserData[] | null>(null);
+    const [search, setSearch] = useState<string>("");
+    const [siteIds, setSiteIds] = useState<string[]>([]);
+
     const [loading, startTransition] = useTransition();
 
     useEffect(() => {
@@ -25,25 +28,33 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
         fetchData();
     }, []);
 
-    const handleSearch = useCallback((searchValue: string) => {
+    useEffect(() => {
         startTransition(() => {
-            if (data) {
+            if (originalData) {
                 const filteredData = originalData?.filter(item =>
-                    item.title.toLowerCase().includes(searchValue.toLowerCase()) ||
-                    item.content.toLowerCase().includes(searchValue.toLowerCase()) ||
-                    item.site.name.toLowerCase().includes(searchValue.toLowerCase())
+                    (                        
+                        item.title.toLowerCase().includes(search.toLowerCase()) ||
+                        item.content.toLowerCase().includes(search.toLowerCase()) ||
+                        item.site.name.toLowerCase().includes(search.toLowerCase())
+                    ) && (
+                        siteIds.length === 0 || siteIds.includes(item.site.id)
+                    )
                 );
                 setData(filteredData ?? []);
             }
         });
-    }, [data, originalData]);
+    }, [originalData, search, siteIds])
+
 
     return (
         <DataContext.Provider value={useMemo(() => ({
             data,
-            handleSearch,
+            search,
+            setSearch,
+            siteIds,
+            setSiteIds,
             loading   
-        }), [data, handleSearch, loading])}>
+        }), [data, search, siteIds, loading])}>
             {children}    
         </DataContext.Provider>
     )

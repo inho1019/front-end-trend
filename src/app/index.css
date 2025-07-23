@@ -12,12 +12,14 @@
     "Segoe UI Symbol", sans-serif;
   
   --spacing: 0.0625rem; /* 1px */
+
+  --color-dark: #121212;
 }
 
 @layer base {
   body {
-    @apply bg-white dark:bg-gray-900;
-    @apply text-gray-900 dark:text-gray-100;
+    @apply bg-white dark:bg-dark;
+    @apply text-dark dark:text-white  ;
     @apply font-sans;
     @apply text-base;
     top: 0 !important;
@@ -41,7 +43,13 @@
   details summary {
     @apply list-none cursor-default;
   }
-  /* Custom grayscale scrollbar */
+
+  select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+  }
+
   * {
     scrollbar-width: thin;
     scrollbar-color: #bdbdbd transparent;
@@ -112,7 +120,7 @@
 
   /* Links */
   a {
-    @apply text-blue-600 dark:text-blue-400 underline hover:opacity-80 transition;
+    @apply text-blue-500 underline hover:text-blue-700 transition-colors;
   }
 
   /* Blockquote */

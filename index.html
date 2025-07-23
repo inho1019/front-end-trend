@@ -9,23 +9,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <div id="google_translate_element"></div>
-    <script>
-      function googleTranslateElementInit() {
-        window.googleTranslator = new google.translate.TranslateElement(
-          {
-              autoDisplay: true 
-          },
-          'google_translate_element'
-        );
-        Object.keys(window.googleTranslator).forEach((k) => {
-            if (typeof window.googleTranslator[k]?.restore === 'function') {
-                window.googleTranslator[k].restore();
-            }
-        });
-      }
-    </script>
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
     <script type="module" src="/src/app/main.tsx"></script>
   </body>
 </html>

@@ -9,5 +9,5 @@ export const useTrans = () => {
         },
         [t]
     );
-    return { trans }
+    return trans;
 };

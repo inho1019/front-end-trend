@@ -1,6 +1,10 @@
 {
     "trend": {
-        "createdAt": "createdAt",
+        "createdAt": "Date",
         "empty": "Not Found Data"
+    },
+    "settings": {
+        "filter": "Filter",
+        "reset": "Reset"
     }
 }
