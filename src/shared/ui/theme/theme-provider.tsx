@@ -5,8 +5,7 @@ import { useEffect, useMemo, useState, type PropsWithChildren } from "react"
 export const ThemeProvider = ({ children }: PropsWithChildren) => {
     const getInitialTheme = () => {
         const localTheme = window.localStorage.getItem("theme");
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        return (localTheme ?? (prefersDark ? "dark" : "light")) as Theme;
+        return (localTheme ?? "system") as Theme;
     }
 
     const [theme, setTheme] = useState<Theme>(getInitialTheme);

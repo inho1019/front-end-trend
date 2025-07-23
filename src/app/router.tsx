@@ -17,6 +17,7 @@ const Router = () => {
     <BrowserRouter>
       <Route element={<Layout />}>
           <Route path="/" element={<TrendPage />} />
+          <Route path="/sites" element={<TrendPage />} />
       </Route>
     </BrowserRouter>
   );
