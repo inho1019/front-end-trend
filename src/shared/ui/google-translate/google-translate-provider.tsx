@@ -18,19 +18,56 @@ declare global {
 
 export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
     const [isEnabled, setIsEnabled] = useState(false);
+    const [loading, setLoading] = useState(false);
 
-    const toggleTranslate = useCallback(() => setIsEnabled(prev => !prev), []);
+    const toggleTranslate = useCallback(() => !loading && setIsEnabled(prev => !prev), [loading]);
 
     useEffect(() => {
-        if (isEnabled) {
-            const langCode = i18next.language.split("-")[0];
-    
+        if (!isEnabled) return;
+        setLoading(true);
+        const langCode = i18next.language.split("-")[0];
+        if (!window.googleTranslateElementInit) {
+            window.googleTranslateElementInit = () => {
+                window.googleTranslator = new window.google!.translate.TranslateElement(
+                    {
+                        autoDisplay: true 
+                    },
+                    'google_translate_element'
+                );
+            };
+        }
+        if (!document.getElementById('google_translate_element')) {
+            const translateElement = document.createElement('div');
+            translateElement.id = 'google_translate_element';
+            document.body.appendChild(translateElement);
+        }
+        const googleTranslateScript = document.getElementById('google-translate-script');
+
+        const handleChangeLanguage = () => {
             const select = document.querySelector('select.goog-te-combo') as HTMLSelectElement | null;
             if (select) {
                 select.value = langCode;
                 select.dispatchEvent(new Event('change'));
             }
+            setLoading(false);
+        }
+
+        if (!googleTranslateScript) {
+            const script = document.createElement('script');
+            script.src = `https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit`;
+            script.id = 'google-translate-script';
+            script.async = true;
+            document.body.appendChild(script);
+            script.onload = () => {
+                setTimeout(() => {
+                    handleChangeLanguage()
+                }, 1000);
+            };
         } else {
+            handleChangeLanguage();
+        }
+
+        return () => {            
             if (window.googleTranslator) {
                 Object.keys(window.googleTranslator).forEach((k) => {
                     if (typeof window.googleTranslator[k]?.restore === 'function') {
@@ -39,7 +76,7 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
                 });
             }
             document.cookie = "googtrans=";
-        };
+        }
     }, [isEnabled]);
 
     return (

@@ -63,5 +63,57 @@
       "link": "link",
       "author": "author"
     }
+  },
+  {
+    "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
+    "url": "https://cprss.s3.amazonaws.com/react.statuscode.com.xml",
+    "name": "React Status",
+    "description": "React Status",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "88cbc739-b79c-4d78-a39c-2018dcfab842",
+    "url": "https://techblog.woowahan.com/feed",
+    "name": "우아한형제들 기술블로그",
+    "description": "우아한형제들 기술블로그",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "d2d85d79-38e6-4cb6-8e39-b49b3cd4f51b",
+    "url": "https://cprss.s3.amazonaws.com/frontendfoc.us.xml",
+    "name": "Frontend Focus",
+    "description": "Frontend Focus",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "22b3d18f-c64e-4b2c-99dc-c0fcb8efb21e",
+    "url": "https://medium.com/feed/musinsa-tech",
+    "name": "무신사 기술블로그",
+    "description": "무신사 기술블로그",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
   }
 ]

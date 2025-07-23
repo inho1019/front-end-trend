@@ -16,7 +16,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const viewerRef = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
-        if (viewerRef.current) {
+        if (viewerRef.current && data) {
             viewerRef.current.scrollTop = 0;
             const links = viewerRef.current.querySelectorAll('a');
             links.forEach(link => {
@@ -34,7 +34,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             position="right"
             className="w-full h-[calc(100%-45px)] max-w-640 p-10 top-45"
         >
-            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full">
+            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:border dark:border-gray-200">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
@@ -44,8 +44,8 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                             <XIcon />
                         </button>
                     </div>
-                    <div className="flex flex-row items-center gap-5">
-                        <p className="text-sm text-gray-700 font-medium">{data.site.name}</p>
+                    <div className="flex flex-row items-center gap-4">
+                        <p className="text-xs text-gray-700 font-medium dark:text-gray-300">{data.site.name}</p>
                         <div className="w-1 bg-gray-200 h-12" />
                         <Link
                             to={data?.link ?? "#"}
@@ -62,7 +62,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15"
                     dangerouslySetInnerHTML={ { __html: sanitizeHtml(data?.content) ?? "" } }
                 />
-                <p className="absolute bottom-15 left-15 opacity-50 text-sm font-medium text-gray-700 max-sm:left-auto max-sm:right-15">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd")}</p>
+                <p className="absolute bottom-5 left-15 opacity-50 text-sm font-medium text-gray-700 max-sm:left-auto max-sm:right-15 dark:text-gray-300">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}</p>
             </div>
         </Panel>
     )

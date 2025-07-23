@@ -1,13 +1,12 @@
 import { Base64 } from "js-base64";
 import { client } from "../octokit-client"
-import type { Site } from "@shared/model/site";
 
-export const getData = async () =>  {
+export const getData = async <T>(path: string) =>  {
     try {
         const response = await client().repos.getContent({
             owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
-            path: import.meta.env.VITE_TARGET_PATH_SITE,
+            path,
             ref: import.meta.env.VITE_TARGET_BRANCH,
         })
         
@@ -18,7 +17,7 @@ export const getData = async () =>  {
             throw new Error("Content is not available or not in the expected format.");
         }
         const decodedContent = Base64.decode(contentBase64);
-        const data = JSON.parse(decodedContent) as Site[];
+        const data = JSON.parse(decodedContent) as T[];
 
         return { data, sha: response.data.sha };
     } catch (error) {

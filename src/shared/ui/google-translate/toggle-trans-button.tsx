@@ -14,7 +14,7 @@ export const ToggleTransButton = ({ className }: ToggleTransButtonProps) => {
             className={twMerge("p-5 bg-white shadow-xl cursor-pointer rounded-full", className)}
             onClick={toggleTranslate}
         >
-            <div aria-checked={isEnabled} className="aria-checked:animate-spin duration-500">
+            <div aria-checked={isEnabled} className="text-black aria-checked:animate-spin duration-500">
                 <TranslateIcon />
             </div>
         </button>

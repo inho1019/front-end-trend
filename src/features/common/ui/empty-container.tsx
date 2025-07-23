@@ -5,7 +5,7 @@ interface EmptyContainerProps {
 };
 
 export const EmptyContainer = ({ className }: EmptyContainerProps) => {
-    const { trans } = useTrans();
+    const trans = useTrans();
 
     return (
         <div className={twMerge("flex items-center justify-center text-2xl text-gray-300 font-medium h-full", className)}>

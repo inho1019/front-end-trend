@@ -3,7 +3,10 @@ import { createContext, useContext } from "react";
 
 type DataContextType = {
   data: ParserData[] | null;
-  handleSearch: (search: string) => void;
+  search: string;
+  setSearch: (search: string) => void;
+  siteIds: string[];
+  setSiteIds: (siteIds: string[]) => void;
   loading: boolean;
 } | null;
 
