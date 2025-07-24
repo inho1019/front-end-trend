@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import { useMemo } from "react";
 import { Layout } from "@shared/ui/layout";
 import { TrendPage } from "@pages/trend/ui";
+import ConsolePage from "@pages/console/ui/initial-page";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
   const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children), {
@@ -17,7 +18,7 @@ const Router = () => {
     <BrowserRouter>
       <Route element={<Layout />}>
           <Route path="/" element={<TrendPage />} />
-          <Route path="/sites" element={<TrendPage />} />
+          <Route path="/console" element={<ConsolePage />} />
       </Route>
     </BrowserRouter>
   );

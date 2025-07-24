@@ -13,7 +13,7 @@ export const Header = ({
     right, 
 }: HeaderProps) => {
     return (
-        <header className={twMerge("z-5 w-full fixed flex top-0 items-center justify-between p-10 bg-white shadow-md dark:bg-dark dark:border-b dark:border-gray-200", className)}>
+        <header className={twMerge("h-50 z-5 w-full fixed flex top-0 items-center justify-between p-10 bg-white shadow-md dark:bg-dark dark:border-b dark:border-gray-200", className)}>
             {left}
             {center}
             {right}

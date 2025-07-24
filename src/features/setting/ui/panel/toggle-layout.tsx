@@ -18,7 +18,7 @@ export const ToggleLayout = <T extends ElementType = "div">({
         <Component
             {...props}
             className={twMerge(
-                "flex-1 rounded-md border border-gray-200 flex items-center justify-center cursor-pointer hover:border-gray-400 transition-colors active:opacity-70",
+                "flex-1 rounded-md border-1 border-gray-700 flex items-center justify-center cursor-pointer hover:border-gray-400 transition-colors active:opacity-70 dark:border-gray-200",
                 className
             )}
         >

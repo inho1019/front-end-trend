@@ -5,6 +5,7 @@
     },
     "settings": {
         "filter": "Filter",
-        "reset": "Reset"
+        "reset": "Reset",
+        "comment": "Comments & Suggestions"
     }
 }

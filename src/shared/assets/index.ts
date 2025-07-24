@@ -7,5 +7,7 @@ import LogoIcon from './logo-icon.svg';
 import LogoCircleIcon from './logo-circle-icon.svg';
 import CircleXIcon from './circle-x-icon.svg';
 import ResetIcon from './reset-icon.svg';
+import ArrowIcon from './arrow-icon.svg';
+import ConsoleIcon from './console-icon.svg';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, ConsoleIcon };

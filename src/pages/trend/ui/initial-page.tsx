@@ -32,13 +32,11 @@ const TrendPage = () => {
         <>
             <Header
                 left={
-                    <div className="flex flex-row items-center gap-5">
-                        <button onClick={handleOpenPanel} className="cursor-pointer">
-                            <MenuIcon />
-                        </button>
+                    <button onClick={handleOpenPanel} className="flex flex-row items-center gap-5 cursor-pointer active:opacity-70 transition-opacity">
+                        <MenuIcon />
                         <div className="text-lg font-bold">FE Trend</div>
-                    </div>
-                } 
+                    </button>
+                }
                 center={<TrendSearch className="min-2xl:max-w-480" />} 
                 right={<div className="w-107 max-2xl:hidden"/>}  
                 className="gap-10"

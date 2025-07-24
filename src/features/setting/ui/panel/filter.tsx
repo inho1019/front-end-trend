@@ -38,12 +38,12 @@ export const Filter = () => {
     }, [setSiteIds]);
 
     return (
-        <div className="space-y-5">
+        <div className="space-y-10">
             <div className="flex flex-row items-end justify-between">                
                 <h2 className="text-lg font-bold">
                     {trans("settings.filter", "필터")}
                 </h2>
-                <button onClick={handleReset} className="cursor-pointer flex flex-row gap-2 items-center text-sm text-gray-800 dark:text-gray-200">
+                <button onClick={handleReset} className="cursor-pointer flex flex-row gap-2 items-center text-sm text-gray-800 dark:text-gray-200 active:opacity-70 transition-opacity">
                     <ResetIcon />
                     {trans("settings.reset", "초기화")}
                 </button>
