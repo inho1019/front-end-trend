@@ -6,10 +6,10 @@
     "description": "FE News",
     "type": {
       "title": "title",
-      "content": "content",
+      "content": "content:encoded",
       "createdAt": "isoDate",
       "link": "link",
-      "author": "author"
+      "author": "creator"
     }
   },
   {
@@ -19,7 +19,7 @@
     "description": "Korean FE article",
     "type": {
       "title": "title",
-      "content": "content",
+      "content": "content:encoded",
       "createdAt": "isoDate",
       "link": "link",
       "author": "author"
@@ -32,10 +32,10 @@
     "description": "Css Tricks",
     "type": {
       "title": "title",
-      "content": "content",
+      "content": "content:encoded",
       "createdAt": "isoDate",
       "link": "link",
-      "author": "author"
+      "author": "creator"
     }
   },
   {
@@ -58,7 +58,7 @@
     "description": "This Week In React",
     "type": {
       "title": "title",
-      "content": "content",
+      "content": "content:encoded",
       "createdAt": "isoDate",
       "link": "link",
       "author": "author"
@@ -79,9 +79,9 @@
   },
   {
     "id": "88cbc739-b79c-4d78-a39c-2018dcfab842",
-    "url": "https://techblog.woowahan.com/feed",
-    "name": "우아한형제들 기술블로그",
-    "description": "우아한형제들 기술블로그",
+    "url": "https://d2.naver.com/d2.atom",
+    "name": "네이버 D2 기술블로그",
+    "description": "네이버 D2 기술블로그",
     "type": {
       "title": "title",
       "content": "content",
@@ -95,19 +95,6 @@
     "url": "https://cprss.s3.amazonaws.com/frontendfoc.us.xml",
     "name": "Frontend Focus",
     "description": "Frontend Focus",
-    "type": {
-      "title": "title",
-      "content": "content",
-      "createdAt": "isoDate",
-      "link": "link",
-      "author": "author"
-    }
-  },
-  {
-    "id": "22b3d18f-c64e-4b2c-99dc-c0fcb8efb21e",
-    "url": "https://medium.com/feed/musinsa-tech",
-    "name": "무신사 기술블로그",
-    "description": "무신사 기술블로그",
     "type": {
       "title": "title",
       "content": "content",
