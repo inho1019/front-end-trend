@@ -3,7 +3,8 @@
     "id": "4016fc9a-4c0e-434d-951d-f64479332217",
     "url": "https://fenews.substack.com/feed",
     "name": "FE News",
-    "description": "FE News",
+    "link": "https://fenews.substack.com",
+    "description": "FE News는 네이버 FE 엔지니어들이 엄선한 양질의 FE 및 주요한 기술 소식들을 큐레이션 해 공유하는 것을 목표로 합니다. 이를 통해 국내 개발자들에게 지식 공유에 대한 가치 인식과 성장에 도움을 주고자 합니다. 📆 매월 첫째 주 수요일, 월 1회 발행 됩니다.",
     "type": {
       "title": "title",
       "content": "content:encoded",
@@ -16,7 +17,8 @@
     "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
     "url": "https://kofearticle.substack.com/feed",
     "name": "Korean FE article",
-    "description": "Korean FE article",
+    "link": "https://kofearticle.substack.com",
+    "description": "매주 한국어로 번역 혹은 작성된 프론트엔드 글을 전달합니다.",
     "type": {
       "title": "title",
       "content": "content:encoded",
@@ -29,7 +31,8 @@
     "id": "979e235f-2b3a-4327-a7df-bc56894b0171",
     "url": "https://css-tricks.com/category/articles/feed",
     "name": "Css Tricks",
-    "description": "Css Tricks",
+    "link": "https://css-tricks.com",
+    "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets.",
     "type": {
       "title": "title",
       "content": "content:encoded",
@@ -42,7 +45,8 @@
     "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
     "url": "https://cprss.s3.amazonaws.com/javascriptweekly.com.xml",
     "name": "Javascript Weekly",
-    "description": "Javascript Weekly",
+    "link": "https://javascriptweekly.com",
+    "description": "A newsletter of JavaScript articles, news and cool projects",
     "type": {
       "title": "title",
       "content": "content",
@@ -55,7 +59,8 @@
     "id": "be177052-1309-48c8-83e8-a40eefc026eb",
     "url": "https://thisweekinreact.com/newsletter/rss.xml",
     "name": "This Week In React",
-    "description": "This Week In React",
+    "link": "https://thisweekinreact.com/newsletter",
+    "description": "Weekly issues of the This Week In React curation newsletter",
     "type": {
       "title": "title",
       "content": "content:encoded",
@@ -68,7 +73,8 @@
     "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
     "url": "https://cprss.s3.amazonaws.com/react.statuscode.com.xml",
     "name": "React Status",
-    "description": "React Status",
+    "link": "https://react.statuscode.com",
+    "description": "A weekly roundup of the latest React and React Native links and tutorials.",
     "type": {
       "title": "title",
       "content": "content",
@@ -81,7 +87,8 @@
     "id": "88cbc739-b79c-4d78-a39c-2018dcfab842",
     "url": "https://d2.naver.com/d2.atom",
     "name": "네이버 D2 기술블로그",
-    "description": "네이버 D2 기술블로그",
+    "link": "https://d2.naver.com",
+    "description": "개발자를 위한 탁월한 지식과 경험을 공유하며 함께 성장합니다.",
     "type": {
       "title": "title",
       "content": "content",
@@ -94,10 +101,39 @@
     "id": "d2d85d79-38e6-4cb6-8e39-b49b3cd4f51b",
     "url": "https://cprss.s3.amazonaws.com/frontendfoc.us.xml",
     "name": "Frontend Focus",
-    "description": "Frontend Focus",
+    "link": "https://frontendfoc.us",
+    "description": "A once–weekly roundup of the best front-end news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser tech, and more",
     "type": {
       "title": "title",
       "content": "content",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "author"
+    }
+  },
+  {
+    "id": "a933b0ae-f074-4e64-9e38-4db09676a703",
+    "url": "https://csstriggers.com/feed",
+    "name": "CSS Triggers",
+    "link": "https://csstriggers.com",
+    "description": "CSS Triggers List – What Kind of Changes You Can Make",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "createdAt": "isoDate",
+      "link": "link",
+      "author": "creator"
+    }
+  },
+  {
+    "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
+    "url": "https://feeds2.feedburner.com/rss_outsider_dev",
+    "name": "Outsider's Dev Story",
+    "link": "https://blog.outsider.ne.kr",
+    "description": "Stay Hungry. Stay Foolish. Don't Be Satisfied.",
+    "type": {
+      "title": "title",
+      "content": "summary",
       "createdAt": "isoDate",
       "link": "link",
       "author": "author"

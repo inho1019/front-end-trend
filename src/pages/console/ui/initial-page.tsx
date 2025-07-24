@@ -1,6 +1,7 @@
 import { Header, MainContainer } from "@shared/ui/layout";
 import { ArrowIcon } from "@shared/assets";
 import { useNavigate } from "react-router";
+import { SiteList } from "./initial/site-list";
 
 
 const ConsolePage = () => {
@@ -16,6 +17,7 @@ const ConsolePage = () => {
                 } 
             />
             <MainContainer className="pt-50 max-sm:pt-50">
+                <SiteList />
             </MainContainer>
         </>
     );

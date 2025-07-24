@@ -55,7 +55,7 @@ const parser = new RSSParser();
                     thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
                     site: {
                         id: site.id,
-                        url: site.url,
+                        link: site.link,
                         name: site.name,
                     },
                 }

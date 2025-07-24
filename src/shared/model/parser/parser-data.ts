@@ -7,7 +7,7 @@ export type ParserData = {
     thumbnail?: string;
     site: {
         id: string;
-        url: string;
         name: string;
+        link?: string;
     }
 }

@@ -1,4 +1,4 @@
-import { ConsoleIcon, LogoIcon, XIcon } from "@shared/assets";
+import { LogoIcon, XIcon } from "@shared/assets";
 import { Panel } from "@shared/ui/panel"
 import { Filter } from "./panel/filter";
 import { LocaleToggle } from "./panel/locale-toggle";
@@ -6,6 +6,7 @@ import { ThemeToggle } from "./panel/theme-toggle";
 import { TransToggle } from "./panel/trans-toggle";
 import { Comment } from "./panel/comment";
 import { useTrans } from "@shared/lib/utils";
+import { useNavigate } from "react-router";
 
 export interface SettingsPanelProps {
     isOpen: boolean;
@@ -13,6 +14,7 @@ export interface SettingsPanelProps {
 }
 
 export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
+    const navigate = useNavigate();
     const trans = useTrans();
 
     return (
@@ -39,9 +41,8 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 </div>
                 <div className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide">
                     <Filter />
-                    <button className="text-lg font-bold flex flex-row items-center">
+                    <button className="cursor-pointer text-lg font-bold flex flex-row items-center active:opacity-70 transition-opacity" onClick={() => navigate("/console")}>
                         {trans("settings.console", "콘솔")}
-                        <ConsoleIcon/>
                     </button>
                     <Comment />
                 </div>

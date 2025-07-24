@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import { useMemo } from "react";
 import { Layout } from "@shared/ui/layout";
 import { TrendPage } from "@pages/trend/ui";
-import ConsolePage from "@pages/console/ui/initial-page";
+import { ConsolePage } from "@pages/console/ui";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
   const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children), {

@@ -2,6 +2,7 @@ export type Site = {
   id: string;
   url: string;
   name: string;
+  link?: string;
   description?: string;
   type: {
     title: string;
