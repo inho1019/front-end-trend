@@ -8,6 +8,5 @@ import LogoCircleIcon from './logo-circle-icon.svg';
 import CircleXIcon from './circle-x-icon.svg';
 import ResetIcon from './reset-icon.svg';
 import ArrowIcon from './arrow-icon.svg';
-import ConsoleIcon from './console-icon.svg';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, ConsoleIcon };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon };

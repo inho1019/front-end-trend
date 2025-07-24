@@ -6,6 +6,10 @@
     "settings": {
         "filter": "Filter",
         "reset": "Reset",
-        "comment": "Comments & Suggestions"
+        "comment": "Comments & Suggestions",
+        "console": "Console"
+    },
+    "console": {
+        "feedCount": "{{count}} feeds"
     }
 }

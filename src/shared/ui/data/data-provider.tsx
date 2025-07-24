@@ -49,12 +49,13 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
     return (
         <DataContext.Provider value={useMemo(() => ({
             data,
+            originalData,
             search,
             setSearch,
             siteIds,
             setSiteIds,
             loading   
-        }), [data, search, siteIds, loading])}>
+        }), [data, originalData, search, siteIds, loading])}>
             {children}    
         </DataContext.Provider>
     )

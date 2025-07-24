@@ -1,3 +1,3 @@
 import React from "react";
 
-export const TrendPage = React.lazy(() => import("./initial-page"));
+export const ConsolePage = React.lazy(() => import("./initial-page"));
