@@ -8,7 +8,7 @@ interface LoadingContainerProps {
 export const LoadingContainer = ({ className }: LoadingContainerProps) => {
   return (
     <div className={twMerge("flex items-center justify-center h-full", className)}>
-      <Spinner className="size-64 border-8" />
+      <Spinner className="size-64 border-8 max-sm:size-48 max-sm:border-6" />
     </div>
   );
 }

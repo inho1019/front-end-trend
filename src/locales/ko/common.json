@@ -5,6 +5,7 @@
     },
     "settings": {
         "filter": "필터",
-        "reset": "초기화"
+        "reset": "초기화",
+        "comment": "의견 및 건의사항"
     }
 }

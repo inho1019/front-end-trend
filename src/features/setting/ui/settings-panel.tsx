@@ -1,9 +1,11 @@
-import { LogoIcon, XIcon } from "@shared/assets";
+import { ConsoleIcon, LogoIcon, XIcon } from "@shared/assets";
 import { Panel } from "@shared/ui/panel"
 import { Filter } from "./panel/filter";
 import { LocaleToggle } from "./panel/locale-toggle";
 import { ThemeToggle } from "./panel/theme-toggle";
 import { TransToggle } from "./panel/trans-toggle";
+import { Comment } from "./panel/comment";
+import { useTrans } from "@shared/lib/utils";
 
 export interface SettingsPanelProps {
     isOpen: boolean;
@@ -11,6 +13,7 @@ export interface SettingsPanelProps {
 }
 
 export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
+    const trans = useTrans();
 
     return (
         <>
@@ -29,13 +32,18 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                         <XIcon />
                     </button>
                 </div>
-                <div className="flex-1 flex flex-col gap-15 overflow-y-auto">
-                    <div className="flex flex-row gap-15 h-40">
-                        <LocaleToggle />
-                        <ThemeToggle />
-                        <TransToggle />
-                    </div>
+                <div className="flex flex-row gap-15 h-40">
+                    <LocaleToggle />
+                    <ThemeToggle />
+                    <TransToggle />
+                </div>
+                <div className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide">
                     <Filter />
+                    <button className="text-lg font-bold flex flex-row items-center">
+                        {trans("settings.console", "콘솔")}
+                        <ConsoleIcon/>
+                    </button>
+                    <Comment />
                 </div>
             </Panel>
         </>

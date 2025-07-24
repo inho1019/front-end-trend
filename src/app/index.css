@@ -25,6 +25,7 @@
     top: 0 !important;
   }
 
+  /* 구글 번역 관련 element 숨기기 */
   #google_translate_element,
   .goog-te-banner-frame,
   .goog-te-gadget,
@@ -34,6 +35,7 @@
     display: none !important;
   }
 
+  /* details 마커 숨기기 */
   details summary::-webkit-details-marker,
   details summary::marker {
     display: none !important;
@@ -44,27 +46,35 @@
     @apply list-none cursor-default;
   }
 
+  /* select 마커 숨기기 */
   select {
     appearance: none; 
     -webkit-appearance: none; 
     -moz-appearance: none;
   }
 
+  /* 스크롤바 숨기기 */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* 커스텀 스크롤바 */
   * {
     scrollbar-width: thin;
     scrollbar-color: #bdbdbd transparent;
   }
-
   *::-webkit-scrollbar {
     width: 8px;
     background: transparent;
   }
-
   *::-webkit-scrollbar-thumb {
     background: #bdbdbd;
     border-radius: 4px;
   }
-
   *::-webkit-scrollbar-thumb:hover {
     background: #9e9e9e;
   }
