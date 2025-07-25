@@ -10,7 +10,7 @@
     "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
     "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", sans-serif;
-  
+
   --spacing: 0.0625rem; /* 1px */
 
   --color-dark: #121212;
@@ -23,6 +23,18 @@
     @apply font-sans;
     @apply text-base;
     top: 0 !important;
+  }
+  .required-label {
+    position: relative;
+  }
+  .required-label::after {
+    content: "*";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-size: 15px;
+    line-height: 1;
+    color: #d90000;
   }
 
   /* 구글 번역 관련 element 숨기기 */

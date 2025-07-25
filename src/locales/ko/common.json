@@ -7,9 +7,10 @@
         "filter": "필터",
         "reset": "초기화",
         "comment": "의견 및 건의사항",
-        "console": "콘솔"
+        "site": "사이트"
     },
-    "console": {
-        "feedCount": "피드 {{count}}개"
+    "site": {
+        "feedCount": "피드 {{count}}개",
+        "add": "사이트 등록"
     }
 }

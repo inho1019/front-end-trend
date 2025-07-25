@@ -27,12 +27,12 @@ export const SiteList = () => {
         <>
             {
                 loading ? (
-                    <LoadingContainer className="pb-40" /> 
+                    <LoadingContainer /> 
                 ) : (
                     !sites || sites.length <= 0 ? (
-                        <EmptyContainer className="pb-40" />
+                        <EmptyContainer />
                     ) : (
-                        <section className="flex flex-col divide-y-1 divide-gray-200">
+                        <section className="flex flex-col divide-y-1 divide-gray-200 max-xl:pb-50">
                             {
                                 sites?.map(item => (
                                     <SiteItem
@@ -40,7 +40,7 @@ export const SiteList = () => {
                                         data={item}
                                         to={item.link ?? item.url}
                                         target="_blank"
-                                        className="px-5 py-10"
+                                        className="px-5 py-15"
                                     />
                                 ))
                             }

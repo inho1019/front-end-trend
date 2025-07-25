@@ -5,8 +5,10 @@ import { LocaleToggle } from "./panel/locale-toggle";
 import { ThemeToggle } from "./panel/theme-toggle";
 import { TransToggle } from "./panel/trans-toggle";
 import { Comment } from "./panel/comment";
-import { useTrans } from "@shared/lib/utils";
+import { draggableScroll, useTrans } from "@shared/lib/utils";
 import { useNavigate } from "react-router";
+import { Button } from "@shared/ui/common";
+import { useRef } from "react";
 
 export interface SettingsPanelProps {
     isOpen: boolean;
@@ -17,6 +19,10 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
     const navigate = useNavigate();
     const trans = useTrans();
 
+    const divRef = useRef<HTMLDivElement>(null);
+
+    const { onMouseDown } = draggableScroll(divRef, { direction: "vertical" });
+
     return (
         <>
             { isOpen && <div role="button" className="fixed bg-black opacity-10 size-full z-100 dark:opacity-30" onClick={onClose} />}
@@ -26,24 +32,24 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 className="flex flex-col gap-20 rounded-md z-100 h-full w-full max-w-320 bg-white rounded-tr-2xl rounded-br-2xl p-15 dark:bg-dark"
             >
                 <div className="flex flex-row justify-between items-center">
-                    <div className="flex flex-row items-center gap-10 text-2xl font-semibold tracking-tight">
+                    <div className="flex flex-row items-center gap-7 text-xl font-semibold">
                         <LogoIcon />
                         FE Trend
                     </div>
-                    <button className="cursor-pointer self-start" onClick={onClose}>
+                    <Button className="self-start" onClick={onClose}>
                         <XIcon />
-                    </button>
+                    </Button>
                 </div>
                 <div className="flex flex-row gap-15 h-40">
                     <LocaleToggle />
                     <ThemeToggle />
                     <TransToggle />
                 </div>
-                <div className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide">
+                <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50">
                     <Filter />
-                    <button className="cursor-pointer text-lg font-bold flex flex-row items-center active:opacity-70 transition-opacity" onClick={() => navigate("/console")}>
-                        {trans("settings.console", "콘솔")}
-                    </button>
+                    <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/site")}>
+                        {trans("settings.site", "사이트")}
+                    </Button>
                     <Comment />
                 </div>
             </Panel>

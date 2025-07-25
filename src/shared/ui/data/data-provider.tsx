@@ -14,7 +14,12 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
         const fetchData = async () => {
             startTransition(async () => {
                 try {
-                    const response = await fetch('./data.json');
+                    const response = await fetch('./data.json',{
+                        headers: {
+                            'Content-Type': 'application/json',
+                            "Cache-Control": "public, max-age=10800",
+                        },
+                    });
                     const jsonData: ParserData[] = await response.json();
                     setData(jsonData);
                     setOriginalData(jsonData);

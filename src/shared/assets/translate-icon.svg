@@ -19,6 +19,6 @@
   <!-- 오른쪽 화살촉 (좌하향) -->
   <path d="M8 26l-3-5 5.5-0" />
   
-  <text x="1" y="18" font-size="10" font-weight="200" fill="black">가</text>
-  <text x="20" y="18.5" font-size="12" font-weight="200" fill="black">A</text>
+  <text x="1" y="18" font-size="10" font-weight="200" fill="currentColor">가</text>
+  <text x="20" y="18.5" font-size="12" font-weight="200" fill="currentColor">A</text>
 </svg>
