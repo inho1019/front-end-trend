@@ -30,14 +30,20 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                     </div>
                     <div className="flex flex-col gap-10 px-10">
                         <div className="flex flex-col gap-4">
-                            <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
-                                {trans("site.name", "이름")}
+                            <label className="w-fit pl-4 text-xs font-medium text-gray-700 dark:text-gray-300 required-label">
+                                {trans("site.name", "사이트명")}
                             </label>
                             <Input />
                         </div>
                         <div className="flex flex-col gap-4">
-                            <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                            <label className="w-fit pl-4 text-xs font-medium text-gray-700 dark:text-gray-300 required-label">
                                 {trans("site.url", "RSS 주소")}
+                            </label>
+                            <Input />
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <label className="w-fit pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                {trans("site.url", "사이트 주소")}
                             </label>
                             <Input />
                         </div>
@@ -47,6 +53,39 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                             </label>
                             <Input />
                         </div>
+                          <fieldset className="border border-gray-200 dark:border-gray-600 rounded-md p-15 flex flex-col gap-10">
+                            <legend className="text-sm text-gray-700 dark:text-gray-300">{trans("site.type", "타입")}</legend>
+                            <div className="flex flex-col gap-4">
+                                <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                    {trans("site.description", "설명")}
+                                </label>
+                                <Input />
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                    {trans("site.description", "설명")}
+                                </label>
+                                <Input />
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                    {trans("site.description", "설명")}
+                                </label>
+                                <Input />
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                    {trans("site.description", "설명")}
+                                </label>
+                                <Input />
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                    {trans("site.description", "설명")}
+                                </label>
+                                <Input />
+                            </div>
+                        </fieldset>
                     </div>
                 </div>
             </div>
