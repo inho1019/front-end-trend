@@ -1,6 +1,7 @@
 import { XIcon } from "@shared/assets";
 import { sanitizeHtml } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
+import { Button } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
 import { useEffect, useRef } from "react";
@@ -32,7 +33,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         <Panel
             isOpen={isOpen}
             position="right"
-            className="w-full h-[calc(100%-45px)] max-w-640 p-10 top-45"
+            className="w-full h-[calc(100%-50px)] max-w-640 top-50 p-10 max-sm:p-5"
         >
             <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:border dark:border-gray-200">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
@@ -40,9 +41,9 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                         <details open className="group">
                            <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1">{data?.title}</summary>
                         </details>
-                        <button className="cursor-pointer self-start" onClick={onClose}>
+                        <Button className="self-start" onClick={onClose}>
                             <XIcon />
-                        </button>
+                        </Button>
                     </div>
                     <div className="flex flex-row items-center gap-4">
                         <p className="text-xs text-gray-700 font-medium dark:text-gray-300">{data.site.name}</p>
@@ -59,10 +60,13 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 </div>
                 <div
                     ref={viewerRef}
-                    className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15"
+                    className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
                     dangerouslySetInnerHTML={ { __html: sanitizeHtml(data?.content) ?? "" } }
                 />
-                <p className="absolute bottom-5 left-15 opacity-50 text-sm font-medium text-gray-700 max-sm:left-auto max-sm:right-15 dark:text-gray-300">{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}</p>
+                <p className="absolute bottom-6 left-15 text-sm text-gray-400 max-sm:left-auto max-sm:right-15 dark:text-gray-500">
+                    {data?.author ? data.author : "Unknown"}&nbsp;|&nbsp;
+                    {DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
+                </p>
             </div>
         </Panel>
     )

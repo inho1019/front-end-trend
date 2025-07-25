@@ -1,6 +1,7 @@
 import { useData } from "@shared/lib/data";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
+import { Button } from "@shared/ui/common";
 import { useCallback, useMemo } from "react";
 import { Link, useNavigate, type LinkProps } from "react-router";
 
@@ -22,15 +23,15 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     }, [data.id, setSiteIds, navigate]);
 
     return (
-        <Link {...props} className={twMerge("hover:bg-gray-100 hover:dark:bg-[#222] transition-colors active:bg-gray-50 hover:active:dark:bg-[#212121]", props.className)}>
+        <Link {...props} draggable={false} className={twMerge("transition-colors active:bg-gray-50 active:dark:bg-[#222]", props.className)}>
             <h3 className="text-xl font-bold">{data.name}</h3>
-            <button
+            <Button
                 onClick={handleClickFeedCount}
-                className="text-sm/tight cursor-pointer font-medium underline active:opacity-70 transition-opacity"
+                className="text-sm/tight font-medium underline active:opacity-50"
             >
-                {trans("console.feedCount",`피드 ${feedCount}개`, feedCount)}
-            </button>
-            <p className="text-md text-gray-700 p-5 pb-0 dark:text-gray-300">{data.description}</p>
+                {trans("site.feedCount",`피드 ${feedCount}개`, feedCount)}
+            </Button>
+            <p className="text-[0.9375rem] leading-19 text-gray-700 p-2 pb-0 dark:text-gray-300">{data.description}</p>
         </Link>
     );
 }

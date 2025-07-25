@@ -3,46 +3,28 @@ import { TrendList } from "./initial/trend-list";
 import { TrendSearch } from "@features/trend";
 import { MenuIcon } from "@shared/assets";
 import { SettingsPanel } from "@features/setting";
-import { useSearchParams } from "react-router";
-import { useCallback, useMemo } from "react";
+import { Button } from "@shared/ui/common";
+import { usePanelController } from "@shared/lib/panel";
 
 
 const TrendPage = () => {
-    const [searchParams, setSearchParams] = useSearchParams();
-
-    const isPanelOpen = useMemo(() => searchParams.get("setting-panel") === "true", [searchParams]);
-
-    const handleOpenPanel = useCallback(() => {
-        setSearchParams((prev) => {
-            const params = new URLSearchParams(prev);
-            params.set("setting-panel", "true");
-            return params;
-        });
-    }, [setSearchParams]);
-
-    const handleClosePanel = useCallback(() => {
-        setSearchParams((prev) => {
-            const params = new URLSearchParams(prev);
-            params.delete("setting-panel");
-            return params;
-        }, { replace: true });
-    }, [setSearchParams]);
+    const { isOpen, openPanel, closePanel } = usePanelController("setting-panel");
 
     return (
         <>
             <Header
                 left={
-                    <button onClick={handleOpenPanel} className="flex flex-row items-center gap-5 cursor-pointer active:opacity-70 transition-opacity">
+                    <Button onClick={openPanel} className="flex flex-row items-center gap-5">
                         <MenuIcon />
                         <div className="text-lg font-bold">FE Trend</div>
-                    </button>
+                    </Button>
                 }
                 center={<TrendSearch className="min-2xl:max-w-480" />} 
                 right={<div className="w-107 max-2xl:hidden"/>}  
                 className="gap-10"
             />
-            <SettingsPanel isOpen={isPanelOpen} onClose={handleClosePanel} />
-            <MainContainer className="pt-50 max-sm:pt-50">
+            <SettingsPanel isOpen={isOpen} onClose={closePanel} />
+            <MainContainer className="pt-5 max-sm:pt-5">
                 <TrendList />
             </MainContainer>
         </>

@@ -3,15 +3,17 @@ import { ResetIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
-import { useCallback, useEffect, useState } from "react";
+import { Button, Spinner } from "@shared/ui/common";
+import { useCallback, useEffect, useState, useTransition } from "react";
 
 export const Filter = () => {
     const trans = useTrans();
     const { siteIds, setSiteIds } = useData();
+    const [loading, startTransition] = useTransition();
     const [sites, setSites] = useState<Site[] | null>(null);
 
     useEffect(() => {
-        const fetchSites = async () => {
+        startTransition(async () => {
             try {
                 const { data } = await getData<Site>(import.meta.env.VITE_TARGET_PATH_SITE);
                 if (data) {
@@ -21,8 +23,7 @@ export const Filter = () => {
                 console.error("Error fetching sites:", error);
                 setSites(null);
             }
-        };
-        fetchSites();
+        });
     }, []);
 
     const handleCheckboxChange = useCallback((siteId: string) => {
@@ -43,23 +44,31 @@ export const Filter = () => {
                 <h2 className="text-lg font-bold">
                     {trans("settings.filter", "필터")}
                 </h2>
-                <button onClick={handleReset} className="cursor-pointer flex flex-row gap-2 items-center text-sm text-gray-800 dark:text-gray-200 active:opacity-70 transition-opacity">
+                <Button onClick={handleReset} className="flex flex-row gap-2 items-center text-sm text-gray-800 dark:text-gray-200">
                     <ResetIcon />
                     {trans("settings.reset", "초기화")}
-                </button>
+                </Button>
             </div>
-            <div className="space-y-2">
-                {sites?.map(site => (
-                    <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
-                        <input
-                            type="checkbox"
-                            value={site.id}
-                            checked={siteIds.includes(site.id)}
-                            onChange={() => handleCheckboxChange(site.id)}
-                        />
-                        {site.name}
-                    </label>
-                ))}
+            <div className="space-y-2 pb-5">
+                {
+                    loading ? (
+                        <div className="flex items-center justify-center h-100">
+                            <Spinner className="size-32 border-4" />
+                        </div>
+                    ) : (
+                        sites?.map(site => (
+                            <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
+                                <input
+                                    type="checkbox"
+                                    value={site.id}
+                                    checked={siteIds.includes(site.id)}
+                                    onChange={() => handleCheckboxChange(site.id)}
+                                />
+                                {site.name}
+                            </label>
+                        ))
+                    )
+                }
             </div>
         </div>
     )

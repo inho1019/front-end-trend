@@ -28,10 +28,10 @@ export  const Comment = () => {
             </h2>
             <Giscus
                 id="comments"
-                repo="inho1019/front-end-trend"
+                repo={`${import.meta.env.VITE_GITHUB_OWNER}/${import.meta.env.VITE_TARGET_REPO}`}
                 repoId=""
                 mapping="number"
-                term="19"
+                term={import.meta.env.VITE_COMMENT_MAPPING}
                 emitMetadata="0"
                 reactionsEnabled="0"
                 inputPosition="top"

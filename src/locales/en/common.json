@@ -7,9 +7,10 @@
         "filter": "Filter",
         "reset": "Reset",
         "comment": "Comments & Suggestions",
-        "console": "Console"
+        "site": "Site"
     },
-    "console": {
-        "feedCount": "{{count}} feeds"
+    "site": {
+        "feedCount": "{{count}} feeds",
+        "add": "Add Site"
     }
 }
