@@ -138,5 +138,19 @@
       "link": "link",
       "author": "author"
     }
+  },
+  {
+    "id": "3f543698-d4df-4f87-a794-d95235163ad3",
+    "name": "토스 기술블로",
+    "url": "https://toss.tech/rss.xml",
+    "link": "https://toss.tech",
+    "description": "토스의 개발과 디자인에 대한 이야기를 다룹니다.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": ""
+    }
   }
 ]
