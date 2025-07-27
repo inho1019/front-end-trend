@@ -138,5 +138,19 @@
       "link": "link",
       "author": "author"
     }
+  },
+  {
+    "id": "«ra»",
+    "name": "당근 기술블로그",
+    "url": "http://medium.com/feed/daangn",
+    "link": "https://medium.com/daangn",
+    "description": "당근은 동네 이웃 간의 연결을 도와 따뜻하고 활발한 교류가 있는 지역 사회를 꿈꾸고 있어요.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": "dc:creator"
+    }
   }
 ]
