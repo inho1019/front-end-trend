@@ -112,20 +112,6 @@
     }
   },
   {
-    "id": "a933b0ae-f074-4e64-9e38-4db09676a703",
-    "url": "https://csstriggers.com/feed",
-    "name": "CSS Triggers",
-    "link": "https://csstriggers.com",
-    "description": "CSS Triggers List – What Kind of Changes You Can Make",
-    "type": {
-      "title": "title",
-      "content": "content:encoded",
-      "createdAt": "isoDate",
-      "link": "link",
-      "author": "creator"
-    }
-  },
-  {
     "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
     "url": "https://feeds2.feedburner.com/rss_outsider_dev",
     "name": "Outsider's Dev Story",
@@ -141,7 +127,7 @@
   },
   {
     "id": "3f543698-d4df-4f87-a794-d95235163ad3",
-    "name": "토스 기술블로",
+    "name": "토스 기술블로그",
     "url": "https://toss.tech/rss.xml",
     "link": "https://toss.tech",
     "description": "토스의 개발과 디자인에 대한 이야기를 다룹니다.",

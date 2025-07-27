@@ -1,4 +1,9 @@
 {
+    "common": {
+        "submit": "Submit",
+        "error": "Error",
+        "complete": "Complete"
+    },
     "trend": {
         "createdAt": "Date",
         "empty": "Not Found Data"
@@ -7,10 +12,33 @@
         "filter": "Filter",
         "reset": "Reset",
         "comment": "Comments & Suggestions",
-        "site": "Site"
+        "site": "Site List"
     },
     "site": {
         "feedCount": "{{count}} feeds",
-        "add": "Add Site"
+        "add": "Add Site",
+        "helper": "*If there is no token, the data will be copied in JSON format. Please leave a comments & suggestions.",
+        "name": "Site Name",
+        "namePlaceholder": "Enter the site name",
+        "url": "RSS Address",
+        "urlPlaceholder": "Enter the RSS address of the site",
+        "link": "Site Address",
+        "linkPlaceholder": "Enter the address of the site",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter a description of the site",
+        "type": "Type",
+        "typeTitle": "Title",
+        "typeTitlePlaceholder": "Usually title is used",
+        "typeContent": "Content",
+        "typeContentPlaceholder": "Usually content, content:encoded is used",
+        "typeCreatedAt": "Date",
+        "typeCreatedAtPlaceholder": "Usually isoDate, pubDate is used",
+        "typeAuthor": "Author",
+        "typeAuthorPlaceholder": "Usually author, creator is used",
+        "typeLink": "Post Link",
+        "typeLinkPlaceholder": "Usually link is used",
+        "token": "Token",
+        "tokenPlaceholder": "Enter your GitHub token",
+        "copy": "Copy"
     }
 }

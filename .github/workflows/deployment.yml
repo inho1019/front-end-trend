@@ -45,6 +45,7 @@ jobs:
           echo "VITE_TARGET_PATH_SITE=${{ vars.VITE_TARGET_PATH_SITE }}" >> $GITHUB_ENV
           echo "VITE_TARGET_PATH_DATA=${{ vars.VITE_TARGET_PATH_DATA }}" >> $GITHUB_ENV
           echo "VITE_TARGET_BRANCH=${{ vars.VITE_TARGET_BRANCH }}" >> $GITHUB_ENV
+          echo "VITE_COMMENT_MAPPING=${{ vars.VITE_COMMENT_MAPPING }}" >> $GITHUB_ENV
       - name: Build
         run: PROD=true yarn build
       - name: Setup Pages
