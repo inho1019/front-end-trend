@@ -9,5 +9,6 @@ import CircleXIcon from './circle-x-icon.svg';
 import ResetIcon from './reset-icon.svg';
 import ArrowIcon from './arrow-icon.svg';
 import PlusIcon from './plus-icon.svg';
+import CheckIcon from './check-icon.svg';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon, CheckIcon };

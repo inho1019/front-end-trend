@@ -27,41 +27,43 @@ const parser = new RSSParser();
     try {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
-        const parsing = await Promise.all(sites.map(async (site: Site) => {
-            const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
-            const items = feed.items.filter(item =>
-                (item[site.type.title] || item.title) !== "SERVICE ANNOUNCEMENT: About this feed" &&
-                (item[site.type.title] || item.title) !== "ALERT: Potential Issue with Feed"
-            ) || [];
-            const parsedData: ParserData[] = items.map(item => {
-                const createdRaw = item[site.type.createdAt];
-                const content = item[site.type.content];
-                let createdAt: DateTime = DateTime.invalid("Invalid date");
-                if (createdRaw) {
-                    createdAt = DateTime.fromISO(createdRaw);
-                    if (!createdAt.isValid) {
-                        createdAt = DateTime.fromHTTP(createdRaw);
-                    }
-                    if (!createdAt.isValid) {
-                        createdAt = DateTime.fromRFC2822(createdRaw);
-                    }
+        const parsing = await Promise.all(
+            sites.map(async (site: Site) => {
+                try {
+                    const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
+                    const parsedData: ParserData[] = feed.items.map(item => {
+                        const createdRaw = item[site.type.createdAt];
+                        const content = item[site.type.content];
+                        let createdAt: DateTime = DateTime.invalid("Invalid date");
+                        if (createdRaw) {
+                            createdAt = DateTime.fromISO(createdRaw);
+                            if (!createdAt.isValid) {
+                                createdAt = DateTime.fromHTTP(createdRaw);
+                            }
+                            if (!createdAt.isValid) {
+                                createdAt = DateTime.fromRFC2822(createdRaw);
+                            }
+                        }
+                        return {
+                            title: item[site.type.title] ?? "",
+                            content: content ? sanitizeRSSContent(decode(decode(content))) : "",
+                            createdAt: createdAt.toISO() || "",
+                            link: site.type.link && (item[site.type.link] ?? ""),
+                            author: site.type.author && (item[site.type.author] ?? ""),
+                            site: {
+                                id: site.id,
+                                link: site.link,
+                                name: site.name,
+                            },
+                        }
+                    })
+                    return parsedData;
+                } catch (error) {
+                    console.error("Error parsing RSS feed:", error);
+                    return [];
                 }
-                return {
-                    title: item[site.type.title] ?? "",
-                    content: content ? sanitizeRSSContent(decode(decode(content))) : "",
-                    createdAt: createdAt.toISO() || "",
-                    link: site.type.link && (item[site.type.link] ?? ""),
-                    author: site.type.author && (item[site.type.author] ?? ""),
-                    thumbnail: site.type.thumbnail && (item[site.type.thumbnail] ?? ""),
-                    site: {
-                        id: site.id,
-                        link: site.link,
-                        name: site.name,
-                    },
-                }
-            })
-            return parsedData;
-        }));
+            }
+        ));
         const data: ParserData[] = parsing.flat();
 
         // 빈 데이터일 경우 보호용

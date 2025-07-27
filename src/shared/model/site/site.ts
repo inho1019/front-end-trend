@@ -10,6 +10,5 @@ export type Site = {
     createdAt: string;
     link?: string;
     author?: string;
-    thumbnail?: string;
   };
 };
