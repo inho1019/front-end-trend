@@ -12,7 +12,8 @@
         "filter": "필터",
         "reset": "초기화",
         "comment": "의견 및 건의사항",
-        "site": "사이트 목록"
+        "site": "사이트 목록",
+        "reload": "캐시 초기화 및 새로고침"
     },
     "site": {
         "feedCount": "피드 {{count}}개",

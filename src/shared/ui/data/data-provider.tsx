@@ -9,12 +9,16 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
     const [siteIds, setSiteIds] = useState<string[]>([]);
 
     const [loading, startTransition] = useTransition();
-
+    
     useEffect(() => {
         const fetchData = async () => {
             startTransition(async () => {
+                const params = new URLSearchParams(window.location.search);
+                const cache = params.get("cache");
+
                 try {
                     const response = await fetch('./data.json',{
+                        cache: cache === "no" ? "no-store" : "default",
                         headers: {
                             'Content-Type': 'application/json',
                             "Cache-Control": "public, max-age=10800",

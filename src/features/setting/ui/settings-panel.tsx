@@ -8,7 +8,7 @@ import { Comment } from "./panel/comment";
 import { draggableScroll, useTrans } from "@shared/lib/utils";
 import { useNavigate } from "react-router";
 import { Button } from "@shared/ui/common";
-import { useRef } from "react";
+import { useCallback, useRef } from "react";
 
 export interface SettingsPanelProps {
     isOpen: boolean;
@@ -22,6 +22,10 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
     const divRef = useRef<HTMLDivElement>(null);
 
     const { onMouseDown } = draggableScroll(divRef, { direction: "vertical" });
+
+    const noCacheReload = useCallback(() => {
+        window.location.href = window.location.pathname + "?cache=no";
+    }, []);
 
     return (
         <>
@@ -49,6 +53,9 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                     <Filter />
                     <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/site")}>
                         {trans("settings.site", "사이트")}
+                    </Button>
+                    <Button className="text-lg font-bold flex flex-row items-center" onClick={noCacheReload}>
+                        {trans("settings.reload", "캐시 초기화 및 새로고침")}
                     </Button>
                     <Comment />
                 </div>

@@ -61,7 +61,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div
                     ref={viewerRef}
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
-                    dangerouslySetInnerHTML={ { __html: sanitizeHtml(data?.content) ?? "" } }
+                    dangerouslySetInnerHTML={ { __html: `<div>${sanitizeHtml(data?.content) ?? ""}</div>` } }
                 />
                 <p className="absolute bottom-6 left-15 text-sm text-gray-400 max-sm:left-auto max-sm:right-15 dark:text-gray-500">
                     {data?.author ? data.author : "Unknown"}&nbsp;|&nbsp;

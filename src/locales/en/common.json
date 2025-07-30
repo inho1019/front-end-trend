@@ -12,7 +12,8 @@
         "filter": "Filter",
         "reset": "Reset",
         "comment": "Comments & Suggestions",
-        "site": "Site List"
+        "site": "Site List",
+        "reload": "Cache Clear & Reload"
     },
     "site": {
         "feedCount": "{{count}} feeds",
