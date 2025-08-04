@@ -35,7 +35,7 @@ export const TrendList = () => {
                     !data || data.length <= 0 ? (
                         <EmptyContainer />
                     ) : (
-                        <section className="flex flex-col divide-y-1 divide-gray-200 max-xl:pb-50">
+                        <section className="flex flex-col max-xl:pb-50">
                             {
                                 data?.map((item, index) => (
                                     <TrendItem 
