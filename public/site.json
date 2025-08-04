@@ -236,5 +236,19 @@
       "createdAt": "isoDate",
       "author": ""
     }
+  },
+  {
+    "id": "2923f82e-f3a2-4f43-948a-3a5788ba63ea",
+    "name": "Devsisters 기술 블로그",
+    "url": "https://tech.devsisters.com/rss.xml",
+    "link": "https://tech.devsisters.com",
+    "description": "데브시스터즈의 서비스를 만드는 개발자들이 경험한 실제 개발 사례를 중심으로 기술과 노하우를 생생하게 전달합니다.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
