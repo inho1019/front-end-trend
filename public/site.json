@@ -231,7 +231,7 @@
     "description": "다나와 기술블로그",
     "type": {
       "title": "title",
-      "content": "content:encoded",
+      "content": "content",
       "link": "link",
       "createdAt": "isoDate",
       "author": ""
