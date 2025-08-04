@@ -147,7 +147,7 @@
     "description": "🤖 AI·개발·생산성 🌟 새로운 가능성을 탐구하는 소프트웨어 개발자 🚀 트렌드와 실용 팁 공유 😊 소통은 언제나 환영!",
     "type": {
       "title": "title",
-      "content": "description",
+      "content": "content",
       "link": "link",
       "createdAt": "pubDate",
       "author": "author"

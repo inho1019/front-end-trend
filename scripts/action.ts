@@ -52,7 +52,7 @@ const parser = new RSSParser();
                         }
                         return {
                             title: item[site.type.title] ?? "",
-                            content: content ? sanitizeRSSContent(decode(decode(content)) ?? content) : "",
+                            content: content ? sanitizeRSSContent(decode(decode(content))) : "",
                             createdAt: createdAt.toISO() || "",
                             link: site.type.link && (item[site.type.link] ?? ""),
                             author: site.type.author && (item[site.type.author] ?? ""),
