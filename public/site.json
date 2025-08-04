@@ -208,5 +208,19 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "f9658a19-baf6-4c33-87c0-cf1c813e3ed2",
+    "name": "AWS Front-End Web & Mobile",
+    "url": "https://aws.amazon.com/ko/blogs/mobile/feed/",
+    "link": "https://aws.amazon.com/blogs/mobile/",
+    "description": "AWS Mobile Blog is the official AWS developer hub for front‑end web and mobile engineering—offering deep technical guides, architecture patterns, and new feature updates to empower scalable, serverless, and AI‑powered app development.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
