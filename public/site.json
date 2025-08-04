@@ -222,5 +222,19 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "12de6713-ac88-42f2-a41d-f4c7a809a7e7",
+    "name": "G마켓 기술블로그",
+    "url": "https://dev.gmarket.com/rss",
+    "link": "https://dev.gmarket.com/",
+    "description": "G마켓의 기술과 경험을 공유합니다.",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
