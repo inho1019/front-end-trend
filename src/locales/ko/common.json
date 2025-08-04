@@ -27,6 +27,8 @@
         "linkPlaceholder": "사이트의 주소를 입력하세요",
         "description": "설명",
         "descriptionPlaceholder": "사이트에 대한 설명을 입력하세요",
+        "image": "이미지",
+        "imagePlaceholder": "사이트의 썸네일 주소를 입력하세요",
         "type": "타입",
         "typeTitle": "제목",
         "typeTitlePlaceholder": "일반적으로 title이 사용됩니다",
@@ -40,6 +42,7 @@
         "typeLinkPlaceholder": "일반적으로 link가 사용됩니다",
         "token": "토큰",
         "tokenPlaceholder": "깃허브 토큰을 입력하세요",
-        "copy": "복사"
+        "copy": "복사",
+        "duplication": "중복"
     }
 }

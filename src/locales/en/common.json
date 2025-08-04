@@ -27,6 +27,8 @@
         "linkPlaceholder": "Enter the address of the site",
         "description": "Description",
         "descriptionPlaceholder": "Enter a description of the site",
+        "image": "Image",
+        "imagePlaceholder": "Enter the thumbnail address of the site",
         "type": "Type",
         "typeTitle": "Title",
         "typeTitlePlaceholder": "Usually title is used",
@@ -40,6 +42,7 @@
         "typeLinkPlaceholder": "Usually link is used",
         "token": "Token",
         "tokenPlaceholder": "Enter your GitHub token",
-        "copy": "Copy"
+        "copy": "Copy",
+        "duplication": "Duplication"
     }
 }

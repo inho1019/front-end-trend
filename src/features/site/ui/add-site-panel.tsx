@@ -17,13 +17,13 @@ export interface AddSitePanelProps {
 export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => { 
     const trans = useTrans();
     const { data: siteData } = useSite();
-    const [formState, setFormState] = useState<"idle" | "loading" | "error" | "duplicate" | "copy" | "submit">("idle");
+    const [formState, setFormState] = useState<"idle" | "loading" | "error" | "duplication" | "copy" | "submit">("idle");
 
     const handleSubmit = useCallback(async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
         if (siteData?.find(site => site.url === formData.get("siteUrl"))) {
-            setFormState("duplicate")
+            setFormState("duplication")
             return;
         }
         const data: Site = {
@@ -55,7 +55,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
             navigator.clipboard.writeText(JSON.stringify(data, null, 2));
             setFormState("copy");
         }
-    }, []);
+    }, [siteData]);
 
     return (
         <Panel
@@ -199,7 +199,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                             disabled={formState !== "idle"} 
                             className={twMerge(
                                 "text-white text-sm font-medium bg-gray-900 dark:text-black dark:bg-gray-100 rounded-sm px-16 py-8 flex flex-row gap-2 items-center justify-center self-end disabled:bg-gray-500",
-                                (formState === "error" || formState === "duplicate") && "disabled:bg-red-500 dark:disabled:text-white",
+                                (formState === "error" || formState === "duplication") && "disabled:bg-red-500 dark:disabled:text-white",
                             )} 
                             type="submit">
                             {(() => {
@@ -208,8 +208,8 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                                         return <Spinner className="size-20 border-3" />;
                                     case "error":
                                         return trans("common.error", "오류");
-                                    case "duplicate":
-                                        return trans("common.duplicate", "중복");
+                                    case "duplication":
+                                        return trans("site.duplication", "중복");
                                     case "copy":
                                         return (
                                             <>

@@ -3,6 +3,7 @@ import { twMerge, useTrans } from "@shared/lib/utils";
 import { DateTime } from "luxon";
 import { useSite } from "@shared/lib/site";
 import { useMemo } from "react";
+import { Logo } from "@shared/assets";
 
 interface TrendItemProps extends React.HTMLAttributes<HTMLDivElement> {
     data: ParserData;
@@ -16,11 +17,9 @@ export const TrendItem = ({ data, ...props }: TrendItemProps) => {
 
     return (
         <div {...props} draggable={false} className={twMerge("space-y-5", props.className)}>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-5">
                 <div className="flex justify-center items-center text-xs size-16 rounded-xs overflow-hidden bg-gray-100 dark:bg-[#222] empty:after:content-['👀']">
-                    {
-                        image && <img src={image} className="size-full object-cover"/>
-                    }
+                    <img src={image ?? Logo} className="size-full object-cover"/>
                 </div>
                 <p className="text-xs text-gray-500 font-medium">{data.site.name}</p> 
             </div>
