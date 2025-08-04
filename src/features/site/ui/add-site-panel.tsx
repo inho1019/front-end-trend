@@ -1,6 +1,7 @@
 
 import { addData } from "@shared/api";
 import { CheckIcon, XIcon } from "@shared/assets";
+import { useSite } from "@shared/lib/site";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
 import { Button, Input, Spinner } from "@shared/ui/common";
@@ -15,17 +16,23 @@ export interface AddSitePanelProps {
 
 export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => { 
     const trans = useTrans();
-    const [formState, setFormState] = useState<"idle" | "loading" | "error" | "copy" | "submit">("idle");
+    const { data: siteData } = useSite();
+    const [formState, setFormState] = useState<"idle" | "loading" | "error" | "duplicate" | "copy" | "submit">("idle");
 
     const handleSubmit = useCallback(async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
+        if (siteData?.find(site => site.url === formData.get("siteUrl"))) {
+            setFormState("duplicate")
+            return;
+        }
         const data: Site = {
             id: uuidv4(),
             name: formData.get("siteName") as string,
             url: formData.get("siteUrl") as string,
             link: formData.get("siteLink") as string,
             description: formData.get("siteDescription") as string,
+            image: formData.get("siteImage") as string,
             type: {
                 title: formData.get("typeTitle") as string,
                 content: formData.get("typeContent") as string,
@@ -109,6 +116,16 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                                 placeholder={trans("site.descriptionPlaceholder", "사이트에 대한 설명을 입력하세요")}
                             />
                         </div>
+                        <div className="flex flex-col gap-4">
+                            <label className="pl-4 text-xs font-medium text-gray-700 dark:text-gray-300">
+                                {trans("site.image", "이미지")}
+                            </label>
+                            <Input 
+                                disabled={formState === "loading"} 
+                                name="siteImage"
+                                placeholder={trans("site.imagePlaceholder", "사이트의 썸네일 주소를 입력하세요")}
+                            />
+                        </div>
                         <fieldset className="border border-gray-300 rounded-md p-15 flex flex-col gap-10">
                             <legend className="text-sm text-gray-700 dark:text-gray-300">{trans("site.type", "타입")}</legend>
                             <div className="flex flex-col gap-4">
@@ -182,7 +199,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                             disabled={formState !== "idle"} 
                             className={twMerge(
                                 "text-white text-sm font-medium bg-gray-900 dark:text-black dark:bg-gray-100 rounded-sm px-16 py-8 flex flex-row gap-2 items-center justify-center self-end disabled:bg-gray-500",
-                                formState === "error" && "disabled:bg-red-500 dark:disabled:text-white",
+                                (formState === "error" || formState === "duplicate") && "disabled:bg-red-500 dark:disabled:text-white",
                             )} 
                             type="submit">
                             {(() => {
@@ -191,6 +208,8 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                                         return <Spinner className="size-20 border-3" />;
                                     case "error":
                                         return trans("common.error", "오류");
+                                    case "duplicate":
+                                        return trans("common.duplicate", "중복");
                                     case "copy":
                                         return (
                                             <>

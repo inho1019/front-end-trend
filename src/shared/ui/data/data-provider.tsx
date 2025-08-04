@@ -18,17 +18,23 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
                 const cache = params.get("cache");
 
                 try {
-                    const response = await fetch('./data.json.gz',{
+                    const response = await fetch(import.meta.env.PROD ? './data.json.gz' : './data.json',{
                         cache: cache === "no" ? "no-store" : "default",
                         headers: {
                             "Cache-Control": "public, max-age=10800",
                         },
                     });
 
-                    const compressed = await response.arrayBuffer();
-                    const decompressed = decompressSync(new Uint8Array(compressed));
-                    const jsonText = strFromU8(decompressed);
-                    const jsonData: ParserData[] = JSON.parse(jsonText);
+                    let jsonData: ParserData[] = []
+
+                    if (import.meta.env.PROD) {
+                        const compressed = await response.arrayBuffer();
+                        const decompressed = decompressSync(new Uint8Array(compressed));
+                        const jsonText = strFromU8(decompressed);
+                        jsonData = JSON.parse(jsonText);
+                    } else {
+                        jsonData = await response.json()
+                    }
                     setData(jsonData);
                     setOriginalData(jsonData);
                 } catch (error) {

@@ -8,6 +8,5 @@ export type ParserData = {
     site: {
         id: string;
         name: string;
-        link?: string;
     }
 }

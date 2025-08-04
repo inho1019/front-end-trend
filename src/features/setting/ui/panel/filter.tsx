@@ -1,30 +1,14 @@
-import { getData } from "@shared/api";
 import { ResetIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
+import { useSite } from "@shared/lib/site";
 import { useTrans } from "@shared/lib/utils";
-import type { Site } from "@shared/model/site";
 import { Button, Spinner } from "@shared/ui/common";
-import { useCallback, useEffect, useState, useTransition } from "react";
+import { useCallback } from "react";
 
 export const Filter = () => {
     const trans = useTrans();
     const { siteIds, setSiteIds } = useData();
-    const [loading, startTransition] = useTransition();
-    const [sites, setSites] = useState<Site[] | null>(null);
-
-    useEffect(() => {
-        startTransition(async () => {
-            try {
-                const { data } = await getData<Site>(import.meta.env.VITE_TARGET_PATH_SITE);
-                if (data) {
-                    setSites(data);
-                }
-            } catch (error) {
-                console.error("Error fetching sites:", error);
-                setSites(null);
-            }
-        });
-    }, []);
+    const { data, loading } = useSite();
 
     const handleCheckboxChange = useCallback((siteId: string) => {
         if (siteIds.includes(siteId)) {
@@ -56,7 +40,7 @@ export const Filter = () => {
                             <Spinner className="size-32 border-4" />
                         </div>
                     ) : (
-                        sites?.map(site => (
+                        data?.map(site => (
                             <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
                                 <input
                                     type="checkbox"

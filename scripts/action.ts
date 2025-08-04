@@ -7,7 +7,7 @@ import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
 import { JSDOM } from 'jsdom';
 import createDOMPurify from 'dompurify';
-import { gzipSync } from "fflate";
+import { gzipSync } from "zlib";
 
 dotenv.config();
 
@@ -60,7 +60,6 @@ const parser = new RSSParser();
                             author: site.type.author && (item[site.type.author] ?? ""),
                             site: {
                                 id: site.id,
-                                link: site.link,
                                 name: site.name,
                             },
                         }
