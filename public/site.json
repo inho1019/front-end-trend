@@ -138,5 +138,19 @@
       "createdAt": "pubDate",
       "author": ""
     }
+  },
+  {
+    "id": "28e36666-0179-437d-84da-3bddcca2d27e",
+    "name": "개발자스럽다",
+    "url": "https://feeds.feedburner.com/gaeraeblog",
+    "link": "https://blog.gaerae.com/",
+    "description": "🤖 AI·개발·생산성 🌟 새로운 가능성을 탐구하는 소프트웨어 개발자 🚀 트렌드와 실용 팁 공유 😊 소통은 언제나 환영!",
+    "type": {
+      "title": "title",
+      "content": "description",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": "author"
+    }
   }
 ]

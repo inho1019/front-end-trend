@@ -14,11 +14,17 @@ const window = new JSDOM('').window;
 const DOMPurify = createDOMPurify(window);
 
 function sanitizeRSSContent(rawHTML: string): string {
-  return DOMPurify.sanitize(rawHTML, {
-    FORBID_TAGS: ['script', 'style', 'link', 'form'],
-    FORBID_ATTR: ['style', 'onerror', 'onclick', 'onload'],
-    ALLOWED_URI_REGEXP: /^https?:/
-  });
+    DOMPurify.addHook('afterSanitizeAttributes', function (node) {
+        if (node.tagName === 'A') {
+            node.setAttribute('target', '_blank');
+            node.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+    return DOMPurify.sanitize(rawHTML, {
+        FORBID_TAGS: ['script', 'style', 'link', 'form'],
+        FORBID_ATTR: ['style', 'onerror', 'onclick', 'onload'],
+        ALLOWED_URI_REGEXP: /^https?:/
+    });
 }
 
 const parser = new RSSParser();

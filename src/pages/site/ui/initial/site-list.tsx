@@ -40,7 +40,7 @@ export const SiteList = () => {
                                         data={item}
                                         to={item.link ?? item.url}
                                         target="_blank"
-                                        className="px-5 py-15"
+                                        className="px-5 py-15 max-sm:py-10"
                                     />
                                 ))
                             }

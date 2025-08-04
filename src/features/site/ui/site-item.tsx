@@ -24,7 +24,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
 
     return (
         <Link {...props} draggable={false} className={twMerge("transition-colors active:bg-gray-50 active:dark:bg-[#222]", props.className)}>
-            <h3 className="text-xl font-bold">{data.name}</h3>
+            <h3 className="text-xl font-bold max-sm:text-lg">{data.name}</h3>
             <Button
                 onClick={handleClickFeedCount}
                 className="text-sm/tight font-medium underline active:opacity-50"

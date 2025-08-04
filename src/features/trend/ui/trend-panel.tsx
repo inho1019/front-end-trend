@@ -19,12 +19,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     useEffect(() => {
         if (viewerRef.current && data) {
             viewerRef.current.scrollTop = 0;
-            const links = viewerRef.current.querySelectorAll('a');
-            links.forEach(link => {
-                link.setAttribute('target', '_blank');
-                link.setAttribute('rel', 'noopener noreferrer');
-            });
-}
+        }
     }, [data]);
 
     if (!data) return null;
@@ -39,7 +34,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
-                           <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1">{data?.title}</summary>
+                           <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1 break-all">{data?.title}</summary>
                         </details>
                         <Button className="self-start" onClick={onClose}>
                             <XIcon />

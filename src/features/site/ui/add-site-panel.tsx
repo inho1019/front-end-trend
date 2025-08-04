@@ -48,7 +48,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
             navigator.clipboard.writeText(JSON.stringify(data, null, 2));
             setFormState("copy");
         }
-    }, [addData]);
+    }, []);
 
     return (
         <Panel
