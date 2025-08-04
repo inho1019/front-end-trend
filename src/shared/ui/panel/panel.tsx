@@ -1,19 +1,20 @@
-import { type PropsWithChildren } from "react";
+import { type PropsWithChildren, type RefObject } from "react";
 import { createPortal } from "react-dom";
 import { twMerge } from "tailwind-merge";
 
 interface PanelProps extends PropsWithChildren{
     isOpen: boolean;
     position: "left" | "right" | "top" | "bottom";
+    ref?: RefObject<HTMLDivElement | null>;
     className?: string;
 }
 
-export const Panel = ({ isOpen, position, children, className }: PanelProps) => {
+export const Panel = ({ isOpen, position, children, ref, className }: PanelProps) => {
     if (!isOpen) return null;
 
     return (
         createPortal(
-            <div className={
+            <div ref={ref} className={
                 twMerge(
                     "fixed z-10 animate-duration-400",
                     position === "left" && "left-0 top-0 animate-fade-right",

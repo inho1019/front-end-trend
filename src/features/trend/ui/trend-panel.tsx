@@ -4,7 +4,7 @@ import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { Link } from "react-router";
 
 export interface TrendPanelProps {
@@ -15,6 +15,7 @@ export interface TrendPanelProps {
 
 export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => { 
     const viewerRef = useRef<HTMLDivElement>(null);
+    const panelRef = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
         if (viewerRef.current && data) {
@@ -22,15 +23,39 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         }
     }, [data]);
 
+    const handleResize = useCallback((e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        e.preventDefault();
+        const panel = panelRef.current;
+        if (!panel) return;
+        const startX = e.clientX;
+        const startWidth = panel.offsetWidth;
+
+        const onMouseMove = (moveEvent: MouseEvent) => {
+            const delta = moveEvent.clientX - startX;
+            let newWidth = startWidth - delta;
+            newWidth = Math.max(640, Math.min(newWidth, window.innerWidth));
+            panel.style.width = `${newWidth}px`;
+        };
+
+        const onMouseUp = () => {
+            window.removeEventListener("mousemove", onMouseMove);
+            window.removeEventListener("mouseup", onMouseUp);
+        };
+
+        window.addEventListener("mousemove", onMouseMove);
+        window.addEventListener("mouseup", onMouseUp);
+    }, []);
+
     if (!data) return null;
 
     return (
         <Panel
+            ref={panelRef}
             isOpen={isOpen}
             position="right"
-            className="w-full h-[calc(100%-50px)] max-w-640 top-50 p-10 max-sm:p-5"
+            className="h-[calc(100%-50px)] w-640 top-50 p-10 max-sm:p-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
         >
-            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:border dark:border-gray-200">
+            <div className="relative resize-x rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:border dark:border-gray-200">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
@@ -56,11 +81,19 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div
                     ref={viewerRef}
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
-                    dangerouslySetInnerHTML={ { __html: `<div>${sanitizeHtml(data?.content) ?? ""}</div>` } }
+                    dangerouslySetInnerHTML={{ __html: `<div>${sanitizeHtml(data?.content) ?? ""}</div>` }}
                 />
-                <p className="absolute bottom-6 left-15 text-sm text-gray-400 max-sm:left-auto max-sm:right-15 dark:text-gray-500">
-                    {data?.author ? data.author : "Unknown"}&nbsp;|&nbsp;
-                    {DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
+                <Button
+                    className="transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-700/100 dark:to-gray-700/0 active:opacity-100"
+                    onMouseDown={handleResize}
+                />
+                <p className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-sm text-30 text-gray-400 max-sm:justify-end dark:text-gray-500">
+                    <div className="truncate">
+                        {data?.author ? data.author : "Unknown"}
+                    </div>
+                    <div className="shrink-0">
+                        &nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
+                    </div>
                 </p>
             </div>
         </Panel>

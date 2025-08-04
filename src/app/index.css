@@ -177,7 +177,7 @@
 
   /* Images */
   img {
-    @apply max-w-full h-auto rounded-md mb-6;
+    @apply w-full max-w-590 h-auto rounded-md mb-6;
   }
 
   /* Strong & emphasis */
