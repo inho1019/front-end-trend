@@ -222,5 +222,19 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "50107496-1314-4103-b648-43a36524e7b9",
+    "name": "다나와 기술블로그",
+    "url": "https://danawalab.github.io/feed",
+    "link": "https://danawalab.github.io/",
+    "description": "다나와 기술블로그",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
