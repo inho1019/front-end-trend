@@ -3,6 +3,7 @@
     "id": "4016fc9a-4c0e-434d-951d-f64479332217",
     "url": "https://fenews.substack.com/feed",
     "name": "FE News",
+    "image": "https://substackcdn.com/image/fetch/$s_!R7cO!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a361db4-9ede-4d1a-baf0-c7357acd4e4c_479x479.png",
     "link": "https://fenews.substack.com",
     "description": "FE News는 네이버 FE 엔지니어들이 엄선한 양질의 FE 및 주요한 기술 소식들을 큐레이션 해 공유하는 것을 목표로 합니다. 이를 통해 국내 개발자들에게 지식 공유에 대한 가치 인식과 성장에 도움을 주고자 합니다. 📆 매월 첫째 주 수요일, 월 1회 발행 됩니다.",
     "type": {
@@ -136,6 +137,118 @@
       "content": "content:encoded",
       "link": "link",
       "createdAt": "pubDate",
+      "author": ""
+    }
+  },
+  {
+    "id": "28e36666-0179-437d-84da-3bddcca2d27e",
+    "name": "개발자스럽다",
+    "url": "https://feeds.feedburner.com/gaeraeblog",
+    "link": "https://blog.gaerae.com/",
+    "description": "🤖 AI·개발·생산성 🌟 새로운 가능성을 탐구하는 소프트웨어 개발자 🚀 트렌드와 실용 팁 공유 😊 소통은 언제나 환영!",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": "author"
+    }
+  },
+  {
+    "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
+    "name": "Articles on Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/feed",
+    "link": "https://www.smashingmagazine.com/",
+    "description": "Recent content in Articles on Smashing Magazine — For Web Designers And Developers",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": "author"
+    }
+  },
+  {
+    "id": "aff4977f-47d7-4c4d-a40c-f9fb4a88eca1",
+    "name": "CSS In Real Life",
+    "url": "https://css-irl.info/rss.xml",
+    "link": "https://css-irl.info/",
+    "description": "Tips, tricks and tutorials on the web’s most beautiful language",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
+  },
+  {
+    "id": "980e06c3-cdbe-4fb0-9756-60ba6fab618d",
+    "name": "React Native Blog",
+    "url": "https://reactnative.dev/blog/rss.xml",
+    "link": "https://reactnative.dev/blog",
+    "description": "React Native Blog",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
+  },
+  {
+    "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+    "name": "Frontend Masters Boost RSS Feed",
+    "url": "https://frontendmasters.com/blog/feed/",
+    "link": "https://frontendmasters.com/blog",
+    "description": "Helping Your Journey to Senior Developer",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
+  },
+  {
+    "id": "f9658a19-baf6-4c33-87c0-cf1c813e3ed2",
+    "name": "AWS Front-End Web & Mobile",
+    "url": "https://aws.amazon.com/ko/blogs/mobile/feed/",
+    "link": "https://aws.amazon.com/blogs/mobile/",
+    "description": "AWS Mobile Blog is the official AWS developer hub for front‑end web and mobile engineering—offering deep technical guides, architecture patterns, and new feature updates to empower scalable, serverless, and AI‑powered app development.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
+  },
+  {
+    "id": "50107496-1314-4103-b648-43a36524e7b9",
+    "name": "다나와 기술블로그",
+    "url": "https://danawalab.github.io/feed",
+    "link": "https://danawalab.github.io/",
+    "description": "다나와 기술블로그",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
+  },
+  {
+    "id": "2923f82e-f3a2-4f43-948a-3a5788ba63ea",
+    "name": "Devsisters 기술 블로그",
+    "url": "https://tech.devsisters.com/rss.xml",
+    "link": "https://tech.devsisters.com",
+    "description": "데브시스터즈의 서비스를 만드는 개발자들이 경험한 실제 개발 사례를 중심으로 기술과 노하우를 생생하게 전달합니다.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
       "author": ""
     }
   }
