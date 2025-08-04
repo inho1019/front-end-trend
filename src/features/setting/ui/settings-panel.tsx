@@ -36,10 +36,12 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 className="flex flex-col gap-20 rounded-md z-100 h-full w-full max-w-320 bg-white rounded-tr-2xl rounded-br-2xl p-15 dark:bg-dark"
             >
                 <div className="flex flex-row justify-between items-center">
-                    <div className="flex flex-row items-center gap-7 text-xl font-semibold">
+                    <Button
+                        onClick={() => navigate("/")}
+                        className="flex flex-row items-center gap-7 text-xl font-semibold">
                         <LogoIcon />
                         FE Trend
-                    </div>
+                    </Button>
                     <Button className="self-start" onClick={onClose}>
                         <XIcon />
                     </Button>
