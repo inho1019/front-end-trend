@@ -180,5 +180,19 @@
       "createdAt": "isoDate",
       "author": ""
     }
+  },
+  {
+    "id": "980e06c3-cdbe-4fb0-9756-60ba6fab618d",
+    "name": "React Native Blog",
+    "url": "https://reactnative.dev/blog/rss.xml",
+    "link": "https://reactnative.dev/blog",
+    "description": "React Native Blog",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
