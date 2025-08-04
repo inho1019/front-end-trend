@@ -1,6 +1,7 @@
 import { DataContext } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
 import { useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
+import { decompressSync, strFromU8 } from 'fflate';
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
     const [originalData, setOriginalData] = useState<ParserData[] | null>(null);
@@ -17,14 +18,17 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
                 const cache = params.get("cache");
 
                 try {
-                    const response = await fetch('./data.json',{
+                    const response = await fetch('./data.json.gz',{
                         cache: cache === "no" ? "no-store" : "default",
                         headers: {
-                            'Content-Type': 'application/json',
                             "Cache-Control": "public, max-age=10800",
                         },
                     });
-                    const jsonData: ParserData[] = await response.json();
+
+                    const compressed = await response.arrayBuffer();
+                    const decompressed = decompressSync(new Uint8Array(compressed));
+                    const jsonText = strFromU8(decompressed);
+                    const jsonData: ParserData[] = JSON.parse(jsonText);
                     setData(jsonData);
                     setOriginalData(jsonData);
                 } catch (error) {

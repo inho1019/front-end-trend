@@ -7,6 +7,7 @@ import type { ParserData } from "../src/shared/model/parser";
 import { DateTime } from 'luxon';
 import { JSDOM } from 'jsdom';
 import createDOMPurify from 'dompurify';
+import { gzipSync } from "fflate";
 
 dotenv.config();
 
@@ -91,6 +92,10 @@ const parser = new RSSParser();
         const targetData = process.env.VITE_TARGET_PATH_DATA ?? 'public/data.json';
 
         writeFileSync(targetData, JSON.stringify(data, null, 2), 'utf8');
+
+        const readData = readFileSync(targetData);
+        const compressed = gzipSync(readData);
+        writeFileSync(`${targetData}.gz`, compressed);
     } catch (error) {
         console.error("process error:", error);
     }
