@@ -194,5 +194,19 @@
       "createdAt": "isoDate",
       "author": ""
     }
+  },
+  {
+    "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+    "name": "Frontend Masters Boost RSS Feed",
+    "url": "https://frontendmasters.com/blog/feed/",
+    "link": "https://frontendmasters.com/blog",
+    "description": "Helping Your Journey to Senior Developer",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
