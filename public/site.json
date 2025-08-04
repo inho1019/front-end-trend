@@ -152,5 +152,19 @@
       "createdAt": "pubDate",
       "author": "author"
     }
+  },
+  {
+    "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
+    "name": "Articles on Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/feed",
+    "link": "https://www.smashingmagazine.com/",
+    "description": "Recent content in Articles on Smashing Magazine — For Web Designers And Developers",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "pubDate",
+      "author": "author"
+    }
   }
 ]
