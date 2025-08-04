@@ -3,6 +3,7 @@
     "id": "4016fc9a-4c0e-434d-951d-f64479332217",
     "url": "https://fenews.substack.com/feed",
     "name": "FE News",
+    "image": "https://substackcdn.com/image/fetch/$s_!R7cO!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a361db4-9ede-4d1a-baf0-c7357acd4e4c_479x479.png",
     "link": "https://fenews.substack.com",
     "description": "FE News는 네이버 FE 엔지니어들이 엄선한 양질의 FE 및 주요한 기술 소식들을 큐레이션 해 공유하는 것을 목표로 합니다. 이를 통해 국내 개발자들에게 지식 공유에 대한 가치 인식과 성장에 도움을 주고자 합니다. 📆 매월 첫째 주 수요일, 월 1회 발행 됩니다.",
     "type": {
