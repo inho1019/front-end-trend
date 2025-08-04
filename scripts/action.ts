@@ -32,6 +32,7 @@ const parser = new RSSParser();
 (async () => {
     try {
         const targetSite = process.env.VITE_TARGET_PATH_SITE ?? 'public/site.json';
+        const now = DateTime.now()
         const sites = JSON.parse(readFileSync(targetSite, 'utf8')) as Site[];
         const parsing = await Promise.all(
             sites.map(async (site: Site) => {
@@ -63,7 +64,12 @@ const parser = new RSSParser();
                             },
                         }
                     })
-                    return parsedData;
+                    const filteredData = parsedData.filter(item => {
+                        const created = DateTime.fromISO(item.createdAt)
+                        return created.isValid && created >= now.minus({ months: 6 }) && created <= now
+                    })
+
+                    return filteredData;
                 } catch (error) {
                     console.error("Error parsing RSS feed:", error);
                     return [];
