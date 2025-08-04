@@ -236,5 +236,19 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "0ab333e0-3f7b-4045-bc25-575e667b550f",
+    "name": "올리브영 기술블로그",
+    "url": "https://oliveyoung.tech/rss.xml",
+    "link": "https://oliveyoung.tech",
+    "description": "올리브영 테크블로그입니다. 올리브영 엔지니어들의 활동과 디지털 사업본부의 다양한 경험과 문화를 공유합니다.",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
