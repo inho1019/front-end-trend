@@ -166,5 +166,19 @@
       "createdAt": "pubDate",
       "author": "author"
     }
+  },
+  {
+    "id": "aff4977f-47d7-4c4d-a40c-f9fb4a88eca1",
+    "name": "CSS In Real Life",
+    "url": "https://css-irl.info/rss.xml",
+    "link": "https://css-irl.info/",
+    "description": "Tips, tricks and tutorials on the web’s most beautiful language",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
