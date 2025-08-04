@@ -66,7 +66,7 @@ const parser = new RSSParser();
                     })
                     const filteredData = parsedData.filter(item => {
                         const created = DateTime.fromISO(item.createdAt)
-                        return created.isValid && created >= now.minus({ months: 6 }) && created <= now
+                        return created.isValid && created >= now.minus({ year: 1 }) && created <= now
                     })
 
                     return filteredData;
