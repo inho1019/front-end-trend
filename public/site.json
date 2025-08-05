@@ -291,5 +291,20 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "c053e3c7-ef2f-403f-b5b1-ce855e52a428",
+    "name": "쿠팡 기술 블로그",
+    "url": "https://medium.com/feed/coupang-engineering",
+    "link": "https://medium.com/coupang-engineering",
+    "description": "Read about our engineers and how they are changing the face of e-commerce and beyond.",
+    "image": "https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
