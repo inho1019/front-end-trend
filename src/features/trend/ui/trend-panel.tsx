@@ -53,7 +53,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             ref={panelRef}
             isOpen={isOpen}
             position="right"
-            className="h-[calc(100%-50px)] w-640 top-50 p-10 max-sm:p-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
+            className="h-[calc(100%-50px)] w-640 top-50 py-5 px-10 max-sm:px-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
         >
             <div className="relative resize-x rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:border dark:border-gray-200">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
@@ -84,7 +84,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     dangerouslySetInnerHTML={{ __html: `<div>${sanitizeHtml(data?.content) ?? ""}</div>` }}
                 />
                 <Button
-                    className="transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-700/100 dark:to-gray-700/0 active:opacity-100"
+                    className="cursor-ew-resize transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-800/100 dark:to-gray-800/0 active:opacity-100"
                     onMouseDown={handleResize}
                 />
                 <p className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-sm text-30 text-gray-400 max-sm:justify-end dark:text-gray-500">

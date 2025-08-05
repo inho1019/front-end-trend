@@ -47,7 +47,9 @@ jobs:
           echo "VITE_TARGET_BRANCH=${{ vars.VITE_TARGET_BRANCH }}" >> $GITHUB_ENV
           echo "VITE_COMMENT_MAPPING=${{ vars.VITE_COMMENT_MAPPING }}" >> $GITHUB_ENV
       - name: Build
-        run: PROD=true yarn build
+        run: | 
+          PROD=true yarn build
+          cp dist/index.html dist/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

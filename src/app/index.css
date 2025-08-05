@@ -5,6 +5,13 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @theme {
   --font-sans:
     "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
@@ -128,7 +135,7 @@
 
   /* Inline code */
   code {
-    @apply bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded text-sm font-mono;
+    @apply bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono;
   }
 
   /* Code block */
@@ -142,7 +149,7 @@
 
   /* Links */
   a {
-    @apply text-blue-500 underline hover:text-blue-700 transition-colors;
+    @apply text-blue-500 underline hover:text-blue-700 transition-colors break-all;
   }
 
   /* Blockquote */
@@ -190,7 +197,7 @@
 
   /* Tables */
   table {
-    @apply w-full mb-6 text-left text-sm;
+    @apply w-full mb-6 text-left text-sm overflow-x-auto;
   }
   th, td {
     @apply px-3 py-2;
