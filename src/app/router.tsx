@@ -5,9 +5,7 @@ import { TrendPage } from "@pages/trend/ui";
 import { SitePage } from "@pages/site/ui";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
-  const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children), {
-    basename: import.meta.env.PROD ? "/front-end-trend" : undefined,
-  }), [children]);
+  const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children)), [children]);
 
   return <RouterProvider router={router} />;
 };
