@@ -1,5 +1,6 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import RSSParser from "rss-parser";
+import { marked } from "marked";
 import { decode } from 'entities';
 import dotenv from 'dotenv';
 import type { Site } from "../src/shared/model/site";
@@ -39,9 +40,9 @@ const parser = new RSSParser();
             sites.map(async (site: Site) => {
                 try {
                     const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
-                    const parsedData: ParserData[] = feed.items.map(item => {
+                    const parsedData: ParserData[] = await Promise.all(feed.items.map(async item => {
                         const createdRaw = item[site.type.createdAt];
-                        const content = item[site.type.content];
+                        const content = await marked(item[site.type.content]);
                         let createdAt: DateTime = DateTime.invalid("Invalid date");
                         if (createdRaw) {
                             createdAt = DateTime.fromISO(createdRaw);
@@ -63,7 +64,7 @@ const parser = new RSSParser();
                                 name: site.name,
                             },
                         }
-                    })
+                    }))
                     const filteredData = parsedData.filter(item => {
                         const created = DateTime.fromISO(item.createdAt)
                         return created.isValid && created >= now.minus({ year: 1 }) && created <= now
