@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export const Header = ({ 
     className, 
-    left = <div className="text-lg font-['yg-jalnan']">FE Trend</div>,
+    left = <div className="text-lg font-['TheJamsil5Bold']">FE Trend</div>,
     center,
     right, 
 }: HeaderProps) => {
