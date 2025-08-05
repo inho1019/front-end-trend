@@ -175,20 +175,6 @@
     }
   },
   {
-    "id": "aff4977f-47d7-4c4d-a40c-f9fb4a88eca1",
-    "name": "CSS In Real Life",
-    "url": "https://css-irl.info/rss.xml",
-    "link": "https://css-irl.info/",
-    "description": "Tips, tricks and tutorials on the web’s most beautiful language",
-    "type": {
-      "title": "title",
-      "content": "content",
-      "link": "link",
-      "createdAt": "isoDate",
-      "author": ""
-    }
-  },
-  {
     "id": "980e06c3-cdbe-4fb0-9756-60ba6fab618d",
     "name": "React Native Blog",
     "image": "https://reactnative.dev/img/header_logo.svg",
@@ -207,6 +193,7 @@
     "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
     "name": "Frontend Masters Boost",
     "url": "https://frontendmasters.com/blog/feed/",
+    "image": "https://icons.feedercdn.com/frontendmasters.com",
     "link": "https://frontendmasters.com/blog",
     "description": "Helping Your Journey to Senior Developer",
     "type": {
@@ -235,6 +222,7 @@
     "id": "50107496-1314-4103-b648-43a36524e7b9",
     "name": "다나와 기술블로그",
     "url": "https://danawalab.github.io/feed",
+    "image": "https://avatars.githubusercontent.com/u/58767993?s=200&v=4",
     "link": "https://danawalab.github.io/",
     "description": "다나와 기술블로그",
     "type": {
