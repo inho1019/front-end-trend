@@ -42,7 +42,7 @@ export const TrendList = () => {
                                         key={index} 
                                         data={item}
                                         onClick={() => handleClickItem(item)}
-                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-80" 
+                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
                                     />
                                 ))
                             }

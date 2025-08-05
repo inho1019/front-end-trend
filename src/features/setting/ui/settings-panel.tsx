@@ -38,9 +38,11 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 <div className="flex flex-row justify-between items-center">
                     <Button
                         onClick={() => navigate("/")}
-                        className="flex flex-row items-center gap-7 text-xl font-semibold">
+                        className="flex flex-row items-center gap-7 text-xl font-['yg-jalnan']">
                         <LogoIcon />
-                        FE Trend
+                        <p className="pt-3">
+                            FE Trend
+                        </p>
                     </Button>
                     <Button className="self-start" onClick={onClose}>
                         <XIcon />
