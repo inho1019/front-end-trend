@@ -46,9 +46,25 @@ front-end-trend/
 └── ...
 ```
 
+## 오픈소스 라이선스 고지
+
+본 프로젝트는 다음 오픈소스 소프트웨어 및 폰트를 사용합니다. 각 라이선스 및 정책을 준수합니다.
+
+- [React](https://react.dev/) (MIT License)
+- [Vite](https://vitejs.dev/) (MIT License)
+- [TypeScript](https://www.typescriptlang.org/) (Apache 2.0 License)
+- [Tailwind CSS](https://tailwindcss.com/) (MIT License)
+- [Octokit (GitHub API)](https://github.com/octokit/octokit.js) (MIT License)
+- [Luxon](https://moment.github.io/luxon/) (MIT License)
+- [Giscus](https://giscus.app/) (MIT License)
+- [Utterances](https://utteranc.es/) (MIT License)
+- [Pretendard](https://github.com/orioncactus/pretendard) (OFL 1.1 License)
+- 기타 프로젝트 내 명시된 외부 라이브러리 및 폰트
+
+각 라이브러리/폰트의 상세 라이선스는 공식 사이트 및 배포처를 참고하세요.
+
 ## 기여 및 라이선스
 
-- PR, 이슈 환영합니다!
 - MIT License
 
 ---
