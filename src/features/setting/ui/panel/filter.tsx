@@ -40,7 +40,7 @@ export const Filter = () => {
                             <Spinner className="size-32 border-4" />
                         </div>
                     ) : (
-                        data?.sort((a, b) => a.name.localeCompare(b.name)).map(site => (
+                        data && [...data].sort((a, b) => a.name.localeCompare(b.name)).map(site => (
                             <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
                                 <input
                                     type="checkbox"
