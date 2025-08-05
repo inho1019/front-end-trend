@@ -1,4 +1,4 @@
-import { Header, MainContainer } from "@shared/ui/layout";
+import { Header, Footer, MainContainer } from "@shared/ui/layout";
 import { TrendList } from "./initial/trend-list";
 import { TrendSearch } from "@features/trend";
 import { MenuIcon } from "@shared/assets";
@@ -27,6 +27,7 @@ const TrendPage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <TrendList />
             </MainContainer>
+            </Footer>
         </>
     );
 }
