@@ -276,5 +276,20 @@
       "createdAt": "isoDate",
       "author": ""
     }
+  },
+  {
+    "id": "9782ca4d-3990-4de5-ace7-a73b0ec3c8a9",
+    "name": "쏘카 기술블로그",
+    "url": "https://tech.socarcorp.kr/feed.xml",
+    "link": "https://tech.socarcorp.kr/",
+    "description": "쏘카 기술블로그",
+    "image": "https://brand.socar.kr/assets/img_logo-symbol-white-BLCggmCd.jpg",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "author"
+    }
   }
 ]
