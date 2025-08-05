@@ -27,7 +27,7 @@ const TrendPage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <TrendList />
             </MainContainer>
-            </Footer>
+            <Footer />
         </>
     );
 }
