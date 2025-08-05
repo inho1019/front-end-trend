@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+# Front-End Trend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+프론트엔드 개발자를 위한 최신 트렌드, 뉴스, 아티클, 오픈소스 등을 한 곳에서 모아보고 관리할 수 있는 RSS 기반 웹 애플리케이션입니다.
 
-Currently, two official plugins are available:
+## 주소
+- [https://inho1019.github.io/front-end-trend](https://inho1019.github.io/front-end-trend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 주요 기능
 
-## Expanding the ESLint configuration
+- 다양한 프론트엔드 관련 RSS 피드 파싱 및 통합
+- 트렌드/뉴스/아티클 리스트 및 상세 보기
+- 키워드/사이트별 검색 및 필터링
+- 다크/라이트/시스템 테마 지원
+- 다국어 지원 및 Google 번역 연동
+- GitHub Discussions/Issues 기반 댓글(변경 로그 등)
+- 사이트/트렌드 추가 및 관리
+- 반응형 UI 및 모던 디자인
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 기술 스택
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React** (with Vite)
+- **TypeScript**
+- **Tailwind CSS**
+- **RSS Parser**
+- **Octokit (GitHub API)**
+- **Luxon** (날짜 처리)
+- **Giscus/Utterances** (댓글)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 폴더 구조
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+FSD 구조
+
+```
+front-end-trend/
+├── public/           # 정적 데이터 및 리소스
+├── scripts/          # 데이터 수집/가공 스크립트
+├── src/
+│   ├── app/          # 앱 엔트리, 글로벌 스타일
+│   ├── features/     # 주요 도메인별 기능(트렌드, 사이트, 설정 등)
+│   ├── shared/       # 공통 라이브러리, API, UI, 모델 등
+│   └── pages/        # 라우트별 페이지
+├── index.html
+├── index.js          # RSS 파싱 등 서버 스크립트
+├── package.json
+├── README.md
+└── ...
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 기여 및 라이선스
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- PR, 이슈 환영합니다!
+- MIT License
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+**본 프로젝트는 프론트엔드 개발자 커뮤니티의 정보 접근성을 높이기 위해 만들어졌습니다.**
