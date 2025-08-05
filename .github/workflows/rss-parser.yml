@@ -49,10 +49,3 @@ jobs:
             echo "No changes to commit"
             echo "changes_detected=false" >> $
           fi
-      # 커밋 발생시 배포 워크플로우를 트리거
-      - name: Trigger Deployment
-        if: env.changes_detected == 'true'
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: Deployment
-          token: ${{ secrets.GITHUB_TOKEN }}
