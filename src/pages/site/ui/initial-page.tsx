@@ -32,7 +32,7 @@ const SitePage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <SiteList />
             </MainContainer>
-            </Footer>
+            <Footer />
             <AddSitePanel isOpen={isOpen} onClose={closePanel} />
         </>
     );
