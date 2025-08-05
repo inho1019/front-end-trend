@@ -276,5 +276,20 @@
       "createdAt": "isoDate",
       "author": ""
     }
+  },
+  {
+    "id": "967c5d37-313b-45b8-a38f-c4f7caf782dd",
+    "name": "직방 기술 블로그",
+    "url": "https://medium.com/feed/zigbang",
+    "link": "https://medium.com/zigbang",
+    "description": "사람들이 공간을 경험하는 방식을 바꾸고자 합니다.",
+    "image": "https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
