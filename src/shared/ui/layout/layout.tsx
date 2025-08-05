@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router";
 import { ToggleTransButton } from "../google-translate";
 import { useEffect, useRef } from "react";
+import { Footer } from "./footer";
 
 export const Layout = () => {
     const { pathname } = useLocation();
@@ -14,6 +15,7 @@ export const Layout = () => {
     return (
         <div ref={layoutRef} className="overflow-y-auto flex flex-col h-screen">
             <Outlet />
+            <Footer />
             <ToggleTransButton className="fixed bottom-20 left-20 z-50 opacity-80 active:opacity-60 transition-opacity" />
         </div>
     );

@@ -10,6 +10,9 @@ import ResetIcon from './reset-icon.svg';
 import ArrowIcon from './arrow-icon.svg';
 import PlusIcon from './plus-icon.svg';
 import CheckIcon from './check-icon.svg';
+import GithubIcon from './github-icon.svg';
+import TistoryIcon from './tistory-icon.svg';
+import MailIcon from './mail-icon.svg';
 import Logo from './logo.png';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon, CheckIcon, Logo };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon };
