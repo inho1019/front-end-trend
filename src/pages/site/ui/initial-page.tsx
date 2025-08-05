@@ -1,4 +1,4 @@
-import { Header, MainContainer } from "@shared/ui/layout";
+import { Header, Footer, MainContainer } from "@shared/ui/layout";
 import { ArrowIcon, PlusIcon } from "@shared/assets";
 import { useNavigate } from "react-router";
 import { SiteList } from "./initial/site-list";
@@ -32,6 +32,7 @@ const SitePage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <SiteList />
             </MainContainer>
+            </Footer>
             <AddSitePanel isOpen={isOpen} onClose={closePanel} />
         </>
     );
