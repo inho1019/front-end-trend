@@ -273,5 +273,20 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "dc93c268-0c5f-4cd9-ac44-831e10f22da9",
+    "name": "NHN Cloud Meetup",
+    "url": "https://meetup.nhncloud.com/rss",
+    "link": "https://meetup.nhncloud.com",
+    "description": "기술을 공유하고 함께 성장해가는 개발 문화, 우리가 추구하는 가치입니다.",
+    "image": "https://avatars.githubusercontent.com/u/7907400?s=200&v=4",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": ""
+    }
   }
 ]
