@@ -14,9 +14,9 @@ const TrendPage = () => {
         <>
             <Header
                 left={
-                    <Button onClick={openPanel} className="flex flex-row items-center gap-5">
+                    <Button onClick={openPanel} className="flex flex-row gap-5">
                         <MenuIcon />
-                        <div className="text-md font-['yg-jalnan'] pt-4">FE Trend</div>
+                        <div className="text-md font-['yg-jalnan'] leading-18">FE Trend</div>
                     </Button>
                 }
                 center={<TrendSearch className="min-2xl:max-w-480" />} 

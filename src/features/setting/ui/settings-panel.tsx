@@ -38,9 +38,9 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 <div className="flex flex-row justify-between items-center">
                     <Button
                         onClick={() => navigate("/")}
-                        className="flex flex-row items-center gap-7 text-xl font-['yg-jalnan']">
+                        className="flex flex-row gap-7">
                         <LogoIcon />
-                        <p className="pt-3">
+                        <p className="text-xl font-['yg-jalnan'] leading-24">
                             FE Trend
                         </p>
                     </Button>
