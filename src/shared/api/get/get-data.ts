@@ -2,12 +2,19 @@ import { Base64 } from "js-base64";
 import { client } from "../octokit-client"
 
 export const getData = async <T>(path: string) =>  {
+    const params = new URLSearchParams(window.location.search);
+    const cache = params.get("cache");
+
     try {
         const response = await client().repos.getContent({
             owner: import.meta.env.VITE_GITHUB_OWNER,
             repo: import.meta.env.VITE_TARGET_REPO,
             path,
             ref: import.meta.env.VITE_TARGET_BRANCH,
+            headers: cache === "no" ? 
+                {
+                    'If-None-Match': ''
+                } : {},
         })
         
         let contentBase64: string | undefined;

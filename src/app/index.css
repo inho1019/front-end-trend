@@ -21,6 +21,26 @@
   --spacing: 0.0625rem; /* 1px */
 
   --color-dark: #121212;
+
+  --animate-message: message 3s ease-in-out;
+  @keyframes message {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    15% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    85% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+  }
 }
 
 @layer base {
@@ -65,11 +85,16 @@
     @apply list-none cursor-default;
   }
 
-  /* select 마커 숨기기 */
+  /* select 마커 숨기기 및 텍스트 가운데로 */
   select {
     appearance: none; 
     -webkit-appearance: none; 
     -moz-appearance: none;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    margin: 0 auto;
+    text-align-last:center;
+    -moz-text-align-last: center;
   }
 
   /* 스크롤바 숨기기 */
@@ -135,21 +160,30 @@
 
   /* Inline code */
   code {
-    @apply bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono;
+    @apply cursor-copy transition-colors bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-300 min-sm:active:bg-gray-400 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-300 max-sm:active:dark:bg-gray-900;
   }
 
   /* Code block */
   pre {
-    @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-4 rounded mb-6 overflow-x-auto text-sm font-mono;
+    @apply cursor-copy transition-colors bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-10 rounded mb-6 overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-200 min-sm:active:bg-gray-300 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-200 max-sm:active:dark:bg-gray-900;
   }
 
+  pre *:not(code):not(table *) {
+    @apply all-initial text-gray-900 dark:text-gray-100;
+  }
+
+
   pre code {
-    @apply bg-transparent text-inherit p-0;
+    @apply bg-transparent p-0 hover:bg-inherit active:bg-inherit text-gray-900 dark:text-gray-100
   }
 
   /* Links */
   a {
     @apply text-blue-500 underline hover:text-blue-700 transition-colors break-all;
+  }
+
+  a code {
+    @apply bg-transparent text-inherit p-0;
   }
 
   /* Blockquote */

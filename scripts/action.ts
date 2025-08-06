@@ -21,10 +21,22 @@ function sanitizeRSSContent(rawHTML: string): string {
             node.setAttribute('target', '_blank');
             node.setAttribute('rel', 'noopener noreferrer');
         }
+        if (node.tagName === 'PRE') {
+            node.setAttribute('onclick', `
+                navigator.clipboard.writeText(this.innerText);
+                window.dispatchEvent(new CustomEvent('copy-message'));
+            `);
+        }
+        if (node.tagName === 'CODE' && node.parentElement?.tagName !== 'PRE') {
+            node.setAttribute('onclick', `
+                navigator.clipboard.writeText(this.innerText);
+                window.dispatchEvent(new CustomEvent('copy-message'));
+            `);
+        }
     });
     return DOMPurify.sanitize(rawHTML, {
         FORBID_TAGS: ['script', 'style', 'link', 'form'],
-        FORBID_ATTR: ['style', 'onerror', 'onclick', 'onload'],
+        FORBID_ATTR: ['style', 'onerror', 'onclick', 'onload', "class"],
         ALLOWED_URI_REGEXP: /^https?:/
     });
 }

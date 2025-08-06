@@ -1,5 +1,6 @@
 import { XIcon } from "@shared/assets";
-import { sanitizeHtml } from "@shared/lib/utils";
+import { useMessage } from "@shared/lib/message";
+import { sanitizeHtml, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
@@ -16,6 +17,10 @@ export interface TrendPanelProps {
 export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => { 
     const viewerRef = useRef<HTMLDivElement>(null);
     const panelRef = useRef<HTMLDivElement>(null);
+
+    const trans = useTrans();
+
+    const { addMessage } = useMessage();
     
     useEffect(() => {
         if (viewerRef.current && data) {
@@ -45,6 +50,12 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         window.addEventListener("mousemove", onMouseMove);
         window.addEventListener("mouseup", onMouseUp);
     }, []);
+
+    useEffect(() => {
+        const copyMessage = () => addMessage(trans("trend.copyCode", "코드 복사 완료"));
+        window.addEventListener("copy-message", copyMessage);
+        return () => window.removeEventListener("copy-message", copyMessage);
+    }, [addMessage]);
 
     if (!data) return null;
 
@@ -81,13 +92,13 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div
                     ref={viewerRef}
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
-                    dangerouslySetInnerHTML={{ __html: `<div>${sanitizeHtml(data?.content) ?? ""}</div>` }}
+                    dangerouslySetInnerHTML={{ __html: `${sanitizeHtml(data?.content) ?? ""}` }}
                 />
                 <Button
                     className="cursor-ew-resize transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-800/100 dark:to-gray-800/0 active:opacity-100"
                     onMouseDown={handleResize}
                 />
-                <p className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-sm text-30 text-gray-400 max-sm:justify-end dark:text-gray-500">
+                <p className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs text-gray-400 max-sm:justify-end">
                     <div className="truncate">
                         {data?.author ? data.author : "Unknown"}
                     </div>
