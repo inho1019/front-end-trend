@@ -13,13 +13,13 @@ export const LocaleToggle = () => {
             i18n.changeLanguage(localeCode);
             setIsEnabled(false);
         },
-        [i18n],
+        [i18n, setIsEnabled],
     );
 
     return (
-        <ToggleLayout as="select" value={i18n.language.substring(0, 2)} onChange={(e) => handleChangeLocale(e.target.value)} className="outline-none text-center">
-            <option value="ko">&nbsp;&nbsp;🇰🇷&nbsp;&nbsp;</option>
-            <option value="en">&nbsp;&nbsp;🇺🇸&nbsp;&nbsp;</option>
+        <ToggleLayout as="select" value={i18n.language.substring(0, 2)} onChange={(e) => handleChangeLocale(e.target.value)} className="outline-none">
+            <option value="ko">🇰🇷</option>
+            <option value="en">🇺🇸</option>
         </ToggleLayout>
     )
 }

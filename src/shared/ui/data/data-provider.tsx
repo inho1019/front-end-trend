@@ -64,6 +64,9 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
         });
     }, [originalData, search, siteIds])
 
+    useEffect(() => {
+        setSearch("");
+    }, [siteIds])
 
     return (
         <DataContext.Provider value={useMemo(() => ({

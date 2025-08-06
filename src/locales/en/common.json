@@ -6,7 +6,8 @@
     },
     "trend": {
         "createdAt": "Date",
-        "empty": "Not Found Data"
+        "empty": "Not Found Data",
+        "copyCode": "Code Copied"
     },
     "settings": {
         "filter": "Filter",
