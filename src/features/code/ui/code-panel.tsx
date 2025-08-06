@@ -88,7 +88,7 @@ export const  CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelPro
                             </Button>
                         </div>
                     </div>
-                    <div className="overflow-y-auto pb-30 max-sm:pb-70" >
+                    <div className="overflow-y-auto pb-30 max-sm:pb-50" >
                         <CodeEditor key={resetTrigger.toString()} />
                     </div>
                 </div>
