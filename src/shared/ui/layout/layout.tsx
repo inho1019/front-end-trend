@@ -14,7 +14,7 @@ export const Layout = () => {
     return (
         <div ref={layoutRef} className="overflow-y-auto flex flex-col h-dvh">
             <Outlet />
-            <ToggleTransButton className="fixed bottom-20 left-20 z-50 opacity-80 active:opacity-60 transition-opacity" />
+            <ToggleTransButton className="fixed bottom-20 left-20 z-50 active:opacity-70 transition-opacity" />
         </div>
     );
 }

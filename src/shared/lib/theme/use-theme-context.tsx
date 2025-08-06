@@ -3,6 +3,7 @@ import { createContext, useContext } from "react";
 
 type ThemeContextType = {
   theme: Theme;
+  currentTheme: Exclude<Theme, "system">;
   setTheme: (theme: Theme) => void;
 } | null;
 
