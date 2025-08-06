@@ -55,7 +55,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         const copyMessage = () => addMessage(trans("trend.copyCode", "코드 복사 완료"));
         window.addEventListener("copy-message", copyMessage);
         return () => window.removeEventListener("copy-message", copyMessage);
-    }, [addMessage]);
+    }, [addMessage, trans]);
 
     if (!data) return null;
 
@@ -66,7 +66,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             position="right"
             className="h-[calc(100%-50px)] w-640 top-50 py-5 px-10 max-sm:px-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
         >
-            <div className="relative resize-x rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:shadow-[0_4px_8px_0_rgba(0,0,0,0.95)]">
+            <div className="relative rounded-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark panel-shadow">
                 <div className="space-y-10 pb-15 border-b border-b-gray-200">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">

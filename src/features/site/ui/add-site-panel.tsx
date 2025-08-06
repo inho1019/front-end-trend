@@ -63,7 +63,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
             position="right"
             className="w-full h-[calc(100%-50px)] max-w-640 top-50 py-5 px-10 max-sm:px-5"
         >
-            <div className="relative rounded-xl shadow-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark dark:shadow-[0_4px_8px_0_rgba(0,0,0,0.95)]">
+            <div className="relative rounded-xl flex flex-col bg-white p-15 pb-30 h-full panel-shadow">
                 <div className="flex flex-col gap-20 h-full">
                     <div className="flex flex-row justify-between gap-5 pb-10 border-b border-b-gray-200">
                         <h1 className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1">

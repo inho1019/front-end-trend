@@ -2,7 +2,10 @@
     "common": {
         "submit": "등록",
         "error": "오류",
-        "complete": "완료"
+        "complete": "완료",
+        "codeEditor": {
+            "fileExplorer": "파일 탐색기"
+        }
     },
     "trend": {
         "createdAt": "작성일",

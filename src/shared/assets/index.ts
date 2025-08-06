@@ -13,6 +13,7 @@ import CheckIcon from './check-icon.svg';
 import GithubIcon from './github-icon.svg';
 import TistoryIcon from './tistory-icon.svg';
 import MailIcon from './mail-icon.svg';
+import FileIcon from './file-icon.svg';
 import Logo from './logo.png';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon, FileIcon };

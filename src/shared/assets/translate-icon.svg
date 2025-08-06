@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="28"
-  height="28"
-  viewBox="0 0 28 28"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
   fill="none"
   stroke="currentColor"
   stroke-width="2"
@@ -10,15 +10,16 @@
   stroke-linejoin="round"
 >
   <!-- 왼쪽 반원 (시계 방향) -->
-  <path d="M6 7a10 10 0 0 1 16 0" />
+  <path d="M10.29 12a17.14 17.14 0 0 1 27.42 0" />
   <!-- 왼쪽 화살촉 (우상향) -->
-  <path d="M20 2l3 5-5.5 0" />
+  <path d="M34.29 3.43l5.14 8.57h-9.43" />
 
   <!-- 오른쪽 반원 (반시계 방향) -->
-  <path d="M22 21a10 10 0 0 1 -16 0" />
+  <path d="M37.71 36a17.14 17.14 0 0 1 -27.42 0" />
   <!-- 오른쪽 화살촉 (좌하향) -->
-  <path d="M8 26l-3-5 5.5-0" />
+  <path d="M13.71 44.57l-5.14-8.57h9.43" />
   
-  <text x="1" y="18" font-size="10" font-weight="200" fill="currentColor">가</text>
-  <text x="20" y="18.5" font-size="12" font-weight="200" fill="currentColor">A</text>
+  <!-- 텍스트 -->
+  <text x="1.7" y="30.5" font-size="17" font-weight="200" fill="currentColor">가</text>
+  <text x="34" y="32.5" font-size="22" font-weight="200" fill="currentColor">A</text>
 </svg>

@@ -2,7 +2,10 @@
     "common": {
         "submit": "Submit",
         "error": "Error",
-        "complete": "Complete"
+        "complete": "Complete",
+        "codeEditor": {
+            "fileExplorer": "File Explorer"
+        }
     },
     "trend": {
         "createdAt": "Date",

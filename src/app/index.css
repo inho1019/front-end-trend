@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css");
 @import "tailwindcss";
 @import "tailwindcss-animated";
 
@@ -12,11 +13,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @theme {
   --font-sans:
     "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
     "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", sans-serif;
+    "Segoe UI Symbol", sans-serif, "SUIT";
+  --font-suit: "SUIT";
 
   --spacing: 0.0625rem; /* 1px */
 
@@ -92,7 +101,7 @@
     -moz-appearance: none;
     text-align: -webkit-center;
     text-align: -moz-center;
-    margin: 0 auto;
+    margin: 0;
     text-align-last:center;
     -moz-text-align-last: center;
   }
@@ -121,6 +130,11 @@
   }
   *::-webkit-scrollbar-thumb:hover {
     background: #9e9e9e;
+  }
+
+  /* Panel Shadow */
+  .panel-shadow {
+    @apply shadow-[0_2px_16px_0_rgba(0,0,0,0.1)] dark:shadow-[0_2px_16px_0_rgba(0,0,0,0.95)];
   }
 }
 
