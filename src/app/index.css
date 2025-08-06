@@ -83,7 +83,7 @@
     @apply relative;
   }
   .dot::after {
-    @apply absolute -top-2 -right-2 size-10 rounded-full bg-[#d90000] content-empty;
+    @apply absolute -top-0 -right-0 size-10 rounded-full bg-[#d90000] content-empty;
   }
 
   /* 구글 번역 관련 element 숨기기 */
