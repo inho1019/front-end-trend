@@ -21,5 +21,5 @@
   
   <!-- 텍스트 -->
   <text x="1.7" y="30.5" font-size="17" font-weight="300" fill="currentColor">가</text>
-  <text x="34" y="32.5" font-size="22" font-weight="300" fill="currentColor">A</text>
+  <text x="34" y="32.5" font-size="21" font-weight="300" fill="currentColor">A</text>
 </svg>
