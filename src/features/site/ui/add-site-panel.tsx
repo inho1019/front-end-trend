@@ -1,6 +1,7 @@
 
 import { addData } from "@shared/api";
 import { CheckIcon, XIcon } from "@shared/assets";
+import { useMessage } from "@shared/lib/message";
 import { useSite } from "@shared/lib/site";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
@@ -16,6 +17,7 @@ export interface AddSitePanelProps {
 
 export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => { 
     const trans = useTrans();
+    const { addMessage } = useMessage();
     const { data: siteData } = useSite();
     const [formState, setFormState] = useState<"idle" | "loading" | "error" | "duplication" | "copy" | "submit">("idle");
 
@@ -23,6 +25,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
         if (siteData?.find(site => site.url === formData.get("siteUrl"))) {
+            addMessage(trans("site.submitDuplicate", "중복 존재"));
             setFormState("duplication")
             return;
         }
@@ -46,16 +49,19 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
             setFormState("loading");
             try {
                 await addData<Site>(import.meta.env.VITE_TARGET_PATH_SITE, token, data);
+                addMessage(trans("site.submitSuccess", "등록 완료"));
                 setFormState("submit");
             } catch (error) {
                 console.error("Error adding site:", error);
+                addMessage(trans("site.submitError", "등록 실패"));
                 setFormState("error");
             }
         } else {
             navigator.clipboard.writeText(JSON.stringify(data, null, 2));
+            addMessage(trans("site.copySuccess", "복사 완료"));
             setFormState("copy");
         }
-    }, [siteData]);
+    }, [addMessage, siteData, trans]);
 
     return (
         <Panel
@@ -63,10 +69,10 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
             position="right"
             className="w-full h-[calc(100%-50px)] max-w-640 top-50 py-5 px-10 max-sm:px-5"
         >
-            <div className="relative rounded-xl flex flex-col bg-white p-15 pb-30 h-full panel-shadow">
+            <div className="relative rounded-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark panel-shadow">
                 <div className="flex flex-col gap-20 h-full">
                     <div className="flex flex-row justify-between gap-5 pb-10 border-b border-b-gray-200">
-                        <h1 className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1">
+                        <h1 className="text-lg font-jamsil group-open:line-clamp-2 group-open:max-sm:line-clamp-1">
                             {trans("site.add", "사이트 등록")}
                         </h1>
                         <Button className="self-start" onClick={onClose}>
@@ -198,7 +204,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                         <Button 
                             disabled={formState !== "idle"} 
                             className={twMerge(
-                                "text-white text-sm font-medium bg-gray-900 dark:text-black dark:bg-gray-100 rounded-sm px-16 py-8 flex flex-row gap-2 items-center justify-center self-end disabled:bg-gray-500",
+                                "text-white text-sm font-medium bg-gray-900 dark:text-black dark:bg-gray-100 rounded-sm px-16 py-8 flex flex-row gap-2 items-center justify-center self-end disabled:bg-gray-300 dark:disabled:bg-gray-700",
                                 (formState === "error" || formState === "duplication") && "disabled:bg-red-500 dark:disabled:text-white",
                             )} 
                             type="submit">

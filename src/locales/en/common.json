@@ -47,6 +47,10 @@
         "token": "Token",
         "tokenPlaceholder": "Enter your GitHub token",
         "copy": "Copy",
-        "duplication": "Duplication"
+        "duplication": "Duplication",
+        "submitSuccess": "Submit Successful",
+        "submitError": "Submit Failed",
+        "submitDuplicate": "Duplicate Exists",
+        "copySuccess": "Copy Successful"
     }
 }

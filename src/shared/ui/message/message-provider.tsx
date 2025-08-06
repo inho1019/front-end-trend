@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 
 export const MessageProvider = ({ children }: PropsWithChildren) => {
     const [message, setMessage] = useState<string>("");
-    const [id, setId] = useState<number>(0);
+    const [trigger, setTrigger] = useState(false);
 
     useEffect(() => {
         if (!message) return;
@@ -14,10 +14,10 @@ export const MessageProvider = ({ children }: PropsWithChildren) => {
         }, 3000);
 
         return () => clearTimeout(timeout);
-    }, [message, id]);
+    }, [message, trigger]);
 
     const addMessage = useCallback((msg: string) => {
-        setId(prevId => prevId + 1);
+        setTrigger(prev => !prev);
         setMessage(msg);
     }, []);
 
@@ -30,7 +30,7 @@ export const MessageProvider = ({ children }: PropsWithChildren) => {
                 createPortal(
                     <div className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-9999">
                         {message && (
-                            <div key={id} className="bg-gray-100 text-sm font-medium px-16 py-12 rounded-md animate-message dark:bg-[#222]">
+                            <div key={trigger.toString()} className="bg-gray-100 text-sm font-medium px-16 py-12 rounded-md animate-message dark:bg-[#222]">
                                 {message}
                             </div>
                         )}
