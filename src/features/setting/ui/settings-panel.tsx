@@ -40,7 +40,7 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                         onClick={() => navigate("/")}
                         className="items-center flex flex-row gap-7">
                         <LogoIcon />
-                        <p className="text-xl font-['TheJamsil5Bold']">
+                        <p className="text-xl font-jamsil">
                             FE Trend
                         </p>
                     </Button>

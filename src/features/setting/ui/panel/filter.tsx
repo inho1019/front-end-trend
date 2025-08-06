@@ -1,4 +1,4 @@
-import { ResetIcon } from "@shared/assets";
+import { ResetIconSmall } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useSite } from "@shared/lib/site";
 import { useTrans } from "@shared/lib/utils";
@@ -29,7 +29,7 @@ export const Filter = () => {
                     {trans("settings.filter", "필터")}
                 </h2>
                 <Button onClick={handleReset} className="flex flex-row gap-2 items-center text-sm text-gray-800 dark:text-gray-200">
-                    <ResetIcon />
+                    <ResetIconSmall />
                     {trans("settings.reset", "초기화")}
                 </Button>
             </div>

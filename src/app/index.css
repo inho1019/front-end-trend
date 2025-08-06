@@ -13,25 +13,21 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'SUIT-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @theme {
   --font-sans:
     "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
     "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", sans-serif, "SUIT";
   --font-suit: "SUIT";
+  --font-jamsil: "TheJamsil5Bold";
 
   --spacing: 0.0625rem; /* 1px */
 
   --color-dark: #121212;
 
   --animate-message: message 3s ease-in-out;
+  --animate-scale-in: scale-in 0.3s ease-out;
+  --animate-scale-out: scale-out 0.3s ease-in;
   @keyframes message {
     0% {
       opacity: 0;
@@ -50,27 +46,44 @@
       transform: translateY(30px);
     }
   }
+  @keyframes scale-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.05);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes scale-out {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.05);
+    }
+  }
 }
 
 @layer base {
   body {
-    @apply bg-white dark:bg-dark;
-    @apply text-dark dark:text-white  ;
-    @apply font-sans;
-    @apply text-base;
+    @apply bg-white dark:bg-dark text-dark dark:text-white font-sans text-base;
     top: 0 !important;
   }
   .required-label {
-    position: relative;
+    @apply relative;
   }
   .required-label::after {
-    content: "*";
-    position: absolute;
-    top: 0;
-    right: -10px;
-    font-size: 15px;
-    line-height: 1;
-    color: #d90000;
+    @apply absolute top-0 -right-10 text-[#d90000] text-[15px] leading-none content-["*"];
+  }
+  .dot {
+    @apply relative;
+  }
+  .dot::after {
+    @apply absolute top-2 right-2 size-10 rounded-full bg-[#d90000] content-empty;
   }
 
   /* 구글 번역 관련 element 숨기기 */
@@ -144,6 +157,14 @@
 
 @utility all-inherit {
   all: inherit;
+}
+
+@utility fill-mode-forwards {
+  animation-fill-mode: forwards;
+}
+
+@utility content-empty {
+  content: "";
 }
 
 @utility viewer {
