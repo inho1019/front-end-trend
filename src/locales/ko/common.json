@@ -47,6 +47,10 @@
         "token": "토큰",
         "tokenPlaceholder": "깃허브 토큰을 입력하세요",
         "copy": "복사",
-        "duplication": "중복"
+        "duplication": "중복",
+        "submitSuccess": "등록 완료",
+        "submitError": "등록 실패",
+        "submitDuplicate": "중복 존재",
+        "copySuccess": "복사 완료"
     }
 }
