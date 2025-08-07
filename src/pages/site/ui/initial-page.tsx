@@ -8,10 +8,10 @@ import { AddSitePanel } from "@features/site/ui/add-site-panel";
 import { usePanelController } from "@shared/lib/panel";
 import { GoogleTranslateButton } from "@features/google-translate";
 import { twMerge } from "tailwind-merge";
-import { useScrolling } from "@shared/lib/scrolling";
+import { useScreen } from "@shared/lib/screen";
 
 const SitePage = () => {
-    const { scrolling } = useScrolling();
+    const { activating } = useScreen();
 
     const trans = useTrans();
     const navigate = useNavigate();
@@ -36,7 +36,7 @@ const SitePage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <SiteList />
             </MainContainer>
-            <GoogleTranslateButton aria-hidden={scrolling} className={twMerge("transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 aria-hidden:opacity-0")} />
+            <GoogleTranslateButton aria-hidden={activating} className={twMerge("transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 aria-hidden:opacity-0")} />
             <Footer />
             <AddSitePanel isOpen={isOpen} onClose={closePanel} />
         </>

@@ -1,6 +1,6 @@
 import { XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
-import { useScrollingObserver } from "@shared/lib/scrolling/use-scrolling-observer";
+import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
 import { sanitizeHtml, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
@@ -19,7 +19,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const viewerRef = useRef<HTMLDivElement>(null);
     const panelRef = useRef<HTMLDivElement>(null);
 
-    useScrollingObserver(viewerRef, [data]);
+    useActivatingObserver(viewerRef, [data]);
 
     const trans = useTrans();
 

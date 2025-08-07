@@ -1,7 +1,7 @@
 import { GoogleTranslateProvider } from "@features/google-translate";
 import { DataProvider } from "@shared/ui/data";
 import { MessageProvider } from "@shared/ui/message";
-import { ScrollingProvider } from "@shared/ui/scrolling";
+import { ScreenProvider } from "@shared/ui/screen";
 import { SiteProvider } from "@shared/ui/site";
 import { ThemeProvider } from "@shared/ui/theme";
 import type { PropsWithChildren } from "react";
@@ -13,9 +13,9 @@ const Providers = ({ children }: PropsWithChildren) => {
                 <SiteProvider>
                     <ThemeProvider>
                         <MessageProvider>
-                            <ScrollingProvider>
+                            <ScreenProvider>
                                 {children}
-                            </ScrollingProvider>
+                            </ScreenProvider>
                         </MessageProvider>
                     </ThemeProvider>
                 </SiteProvider>

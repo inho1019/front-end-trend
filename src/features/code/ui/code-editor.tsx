@@ -41,7 +41,9 @@ export const CodeEditor = () => {
                             </summary>
                         </details>
                         <div className="absolute top-36 left-0 hidden peer-open:block z-1 w-full border border-[#EFEFEF] rounded dark:text-[#EFEFEF] dark:border-[#252525] dark:bg-[#151515]">
-                            <SandpackFileExplorer onChange={(e) => {console.log(e)}} />
+                            <code className="font-sans tracking-wide">
+                                <SandpackFileExplorer />
+                            </code>
                         </div>
                     </div>
                     <code>

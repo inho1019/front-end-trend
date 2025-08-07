@@ -9,13 +9,13 @@ import { useCallback } from "react";
 import { twMerge } from "@shared/lib/utils";
 import { GoogleTranslateButton } from "@features/google-translate";
 import { useCodePanel } from "@features/code";
-import { useScrolling } from "@shared/lib/scrolling";
+import { useScreen } from "@shared/lib/screen";
 
 
 const TrendPage = () => {
     const { isOpen: isSettingOpen, openPanel: openSettingPanel, closePanel: closeSettingPanel } = usePanelController("setting-panel");
     const { isOpen: isCodeOpen, isHidden, setIsOpen: setIsCodeOpen, showPanel: showCode } = useCodePanel();
-    const { scrolling } = useScrolling();
+    const { activating } = useScreen();
 
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
@@ -47,11 +47,11 @@ const TrendPage = () => {
             </MainContainer>
             <Footer />
             <GoogleTranslateButton
-                aria-hidden={scrolling}
+                aria-hidden={activating}
                 className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
             />
             <Button
-                aria-hidden={scrolling}
+                aria-hidden={activating}
                 aria-expanded={isCodeOpen && !isHidden}
                 onClick={handleClickCodeButton} 
                 className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full bg-white border border-black aria-expanded:hidden aria-hidden:opacity-0">
