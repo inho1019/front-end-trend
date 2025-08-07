@@ -83,7 +83,7 @@
     @apply relative;
   }
   .dot::after {
-    @apply absolute top-2 right-2 size-10 rounded-full bg-[#d90000] content-empty;
+    @apply absolute top-1 right-1 size-10 rounded-full bg-[#d90000] content-empty animate-bounce;
   }
 
   /* 구글 번역 관련 element 숨기기 */

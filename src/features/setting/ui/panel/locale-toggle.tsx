@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useCallback } from "react";
 import { ToggleLayout } from "./toggle-layout";
-import { useGoogleTranslate } from "@shared/lib/google-translate";
+import { useGoogleTranslate } from "@features/google-translate";
 
 export const LocaleToggle = () => {
     const { i18n } = useTranslation();

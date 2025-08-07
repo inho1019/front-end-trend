@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import { Layout } from "@shared/ui/layout";
 import { TrendPage } from "@pages/trend/ui";
 import { SitePage } from "@pages/site/ui";
+import { CodePanelProvider } from "@features/code";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
   const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children)), [children]);
@@ -14,7 +15,11 @@ const Router = () => {
     
   return (
     <BrowserRouter>
-      <Route element={<Layout />}>
+      <Route element={
+        <CodePanelProvider>
+          <Layout />
+        </CodePanelProvider>
+        }>
           <Route path="/" element={<TrendPage />} />
           <Route path="/site" element={<SitePage />} />
       </Route>

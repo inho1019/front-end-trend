@@ -6,9 +6,13 @@ import { useTrans } from "@shared/lib/utils";
 import { Button } from "@shared/ui/common";
 import { AddSitePanel } from "@features/site/ui/add-site-panel";
 import { usePanelController } from "@shared/lib/panel";
-
+import { GoogleTranslateButton } from "@features/google-translate";
+import { twMerge } from "tailwind-merge";
+import { useScrolling } from "@shared/lib/scrolling";
 
 const SitePage = () => {
+    const { scrolling } = useScrolling();
+
     const trans = useTrans();
     const navigate = useNavigate();
 
@@ -23,7 +27,7 @@ const SitePage = () => {
                     </Button>
                 }
                 right={
-                    <Button onClick={openPanel} className="flex flex-row gap-5 px-5 items-center text-sm font-medium">
+                    <Button onClick={() => openPanel()} className="flex flex-row gap-5 px-5 items-center text-sm font-medium">
                         <PlusIcon />
                         {trans("site.add", "사이트 등록")}
                     </Button>
@@ -32,6 +36,7 @@ const SitePage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <SiteList />
             </MainContainer>
+            <GoogleTranslateButton aria-hidden={scrolling} className={twMerge("transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 aria-hidden:opacity-0")} />
             <Footer />
             <AddSitePanel isOpen={isOpen} onClose={closePanel} />
         </>

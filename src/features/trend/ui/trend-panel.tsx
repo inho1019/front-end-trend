@@ -1,5 +1,6 @@
 import { XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
+import { useScrollingObserver } from "@shared/lib/scrolling/use-scrolling-observer";
 import { sanitizeHtml, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
@@ -17,6 +18,8 @@ export interface TrendPanelProps {
 export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => { 
     const viewerRef = useRef<HTMLDivElement>(null);
     const panelRef = useRef<HTMLDivElement>(null);
+
+    useScrollingObserver(viewerRef, [data]);
 
     const trans = useTrans();
 
@@ -98,14 +101,14 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     className="cursor-ew-resize transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-800/100 dark:to-gray-800/0 active:opacity-100"
                     onMouseDown={handleResize}
                 />
-                <p className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs text-gray-400 max-sm:justify-end">
+                <div className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs text-gray-400 max-sm:justify-end">
                     <div className="truncate">
                         {data?.author ? data.author : "Unknown"}
                     </div>
                     <div className="shrink-0">
                         &nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
                     </div>
-                </p>
+                </div>
             </div>
         </Panel>
     )

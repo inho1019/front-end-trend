@@ -4,6 +4,7 @@ import { CodeEditor } from "./code-editor";
 import { Button } from "@shared/ui/common";
 import { LineIcon, ResetIcon, XIcon } from "@shared/assets";
 import { twMerge } from "@shared/lib/utils";
+import { useLocation } from "react-router";
 
 export interface CodePanelProps {
     isOpen: boolean;
@@ -12,7 +13,9 @@ export interface CodePanelProps {
     onHidden?: () => void;
 }
 
-export const  CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProps) => { 
+export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProps) => {
+    const { pathname } = useLocation();
+
     const [isFirst, setIsFirst] = useState(true);
     const [hidden, setHidden] = useState(false);
     const [resetTrigger, setResetTrigger] = useState(false);
@@ -20,26 +23,40 @@ export const  CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelPro
     const panelRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        if (isHidden !== undefined) {
-            if (isHidden) {
-                if (isFirst) {
-                    setIsFirst(false);
-                }
-                setTimeout(() => {
-                    setHidden(true);
-                }, 290);
-            } else {
-                setHidden(false);
-            }
-        }
-    }, [isFirst, isHidden]);
-
-    useEffect(() => {
         if (!isOpen) {
            setIsFirst(true);
            setHidden(false);
+           setOpacity(100);
+           return;
         }
-    }, [isOpen])
+        if (isHidden && !isFirst) {
+            setTimeout(() => {
+                setHidden(true);
+            }, 290);
+        } else {
+            setHidden(false);
+        }
+    }, [hidden, isFirst, isHidden, isOpen]);
+
+    useEffect(() => {
+        if (pathname !== "/") {
+            onHidden?.();
+        }
+    }, [onHidden, pathname])
+
+    useEffect(() => {
+        let firstTimeout: NodeJS.Timeout;
+        if (isFirst && isOpen) {
+            firstTimeout = setTimeout(() => {
+                setIsFirst(false);
+            }, 1000);
+        } else {
+            return;
+        }
+        return () => {
+            clearTimeout(firstTimeout);
+        }
+    }, [isFirst, isOpen])
 
     return (
         <Panel
@@ -57,33 +74,30 @@ export const  CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelPro
                 <div
                     className={twMerge(
                         "origin-bottom-left rounded-t-xl panel-shadow flex flex-col gap-15 bg-white p-15 h-fit dark:bg-dark max-sm:h-full",
-                        isHidden !== undefined  && 
-                            (isHidden ?
-                                "animate-scale-out fill-mode-forwards" : 
-                                !isFirst && "animate-scale-in"
-                            )
+                        isHidden ? "animate-scale-out fill-mode-forwards" : "animate-scale-in",
+                        isFirst  &&  "animate-duration-none"
                     )}>
                     <div className="flex flex-row justify-between gap-15">
-                        <h2 className="shrink-0 text-lg font-jamsil max-sm:text-base">Code Editor</h2>
+                        <code className="shrink-0 text-lg font-jamsil max-sm:text-base">Code Editor</code>
                         <div className="flex flex-row items-center gap-10">
                             <input
                                 type="range"
                                 step={5}
-                                min={50}
+                                min={30}
                                 max={100}
                                 value={opacity}
                                 onChange={(e) => setOpacity(parseInt(e.target.value))}
                                 className="w-full cursor-grab accent-black dark:accent-white h-4 max-w-100 active:cursor-grabbing"
-                            />
-                            <Button className="-mx-1" onClick={() => setResetTrigger(prev => !prev)}>
+                            />|
+                            <Button disabled={isFirst} className="-mx-1" onClick={() => setResetTrigger(prev => !prev)}>
                                 <ResetIcon />
                             </Button>
                             {onHidden &&
-                                <Button onClick={onHidden}>
+                                <Button disabled={isFirst} onClick={onHidden}>
                                     <LineIcon />
                                 </Button>
                             }
-                            <Button onClick={onClose}>
+                            <Button disabled={isFirst} onClick={onClose}>
                                 <XIcon />
                             </Button>
                         </div>

@@ -1,6 +1,6 @@
 import { TranslateSmallIcon } from "@shared/assets";
-import { useGoogleTranslate } from "@shared/lib/google-translate";
 import { ToggleLayout } from "./toggle-layout";
+import { useGoogleTranslate } from "@features/google-translate";
 
 export const TransToggle = () => {
     const { isEnabled, toggleTranslate } = useGoogleTranslate();
