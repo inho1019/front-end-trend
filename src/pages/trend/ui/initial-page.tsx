@@ -20,7 +20,7 @@ const TrendPage = () => {
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
             if (isHidden) {
-                showCode({ replace: true });
+                showCode();
             }
         } else {
             showCode();
