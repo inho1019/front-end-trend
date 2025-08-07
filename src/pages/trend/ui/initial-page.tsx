@@ -5,38 +5,36 @@ import { MenuIcon } from "@shared/assets";
 import { SettingsPanel } from "@features/setting";
 import { Button } from "@shared/ui/common";
 import { usePanelController } from "@shared/lib/panel";
-import { CodePanel } from "@features/code";
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 import { twMerge } from "@shared/lib/utils";
+import { GoogleTranslateButton } from "@features/google-translate";
+import { useCodePanel } from "@features/code";
+import { useScrolling } from "@shared/lib/scrolling";
 
 
 const TrendPage = () => {
     const { isOpen: isSettingOpen, openPanel: openSettingPanel, closePanel: closeSettingPanel } = usePanelController("setting-panel");
-    const { isOpen: isCodeOpen, openPanel: openCodePanel, closePanel: closeCodePanel } = usePanelController("code-panel");
-    const [panelHidden, setPanelHidden] = useState(false);
+    const { isOpen: isCodeOpen, isHidden, setIsOpen: setIsCodeOpen, showPanel: showCode } = useCodePanel();
+    const { scrolling } = useScrolling();
 
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
-            if (panelHidden) {
-                setPanelHidden(false);
+            if (isHidden) {
+                showCode({ replace: true });
             }
         } else {
-            openCodePanel();
+            showCode();
+            setIsCodeOpen(true);
         }
-    }, [isCodeOpen, panelHidden, openCodePanel]);
-
-    const handleCloseCodePanel = useCallback(() => {
-        setPanelHidden(false);
-        closeCodePanel();
-    }, [closeCodePanel]);
+    }, [isCodeOpen, isHidden, setIsCodeOpen, showCode]);
 
     return (
         <>
             <Header
                 left={
-                    <Button onClick={openSettingPanel} className="flex flex-row items-center gap-5">
+                    <Button onClick={() => openSettingPanel()} className="flex flex-row items-center gap-5">
                         <MenuIcon />
-                        <div className="font-jamsil">FE Trend</div>
+                        <code className="font-jamsil">FE Trend</code>
                     </Button>
                 }
                 center={<TrendSearch className="min-2xl:max-w-480" />} 
@@ -48,14 +46,18 @@ const TrendPage = () => {
                 <TrendList />
             </MainContainer>
             <Footer />
-            <CodePanel isOpen={isCodeOpen} isHidden={panelHidden} onClose={handleCloseCodePanel} onHidden={() => setPanelHidden(true)} />
-            <Button 
-                aria-expanded={isCodeOpen && !panelHidden}
+            <GoogleTranslateButton
+                aria-hidden={scrolling}
+                className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
+            />
+            <Button
+                aria-hidden={scrolling}
+                aria-expanded={isCodeOpen && !isHidden}
                 onClick={handleClickCodeButton} 
-                className="fixed size-38 bottom-70 left-20 z-15 rounded-full bg-white border border-black aria-expanded:hidden">
+                className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full bg-white border border-black aria-expanded:hidden aria-hidden:opacity-0">
                 <div className={twMerge(
                     "size-full text-black text-[15px] font-suit flex items-center justify-center",
-                    isCodeOpen && panelHidden && "dot"
+                    isCodeOpen && isHidden && "dot"
                 )}>
                     {"< >"}
                 </div>

@@ -20,7 +20,7 @@ export const Footer = () => {
                     <MailIcon />
                 </Button>
             </div>
-            <p className="text-xs max-sm:text-[0.625rem]">© 2025 inho_m | inho1019@gmail.com</p>
+            <code className="text-xs max-sm:text-[0.625rem] font-sans">© 2025 inho_m | inho1019@gmail.com</code>
         </footer>
     )
 };

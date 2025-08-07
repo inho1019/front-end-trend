@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { GoogleTranslateContext } from "@shared/lib/google-translate";
 import { useCallback, useEffect, useMemo, useState, type PropsWithChildren } from "react"
 import i18next from "i18next";
+import { GoogleTranslateContext } from "../lib/use-google-translate-context";
 
 declare global {
     interface Window {
@@ -42,8 +42,8 @@ export const GoogleTranslateProvider = ({ children }: PropsWithChildren) => {
 
     return (
         <GoogleTranslateContext.Provider value={
-            useMemo(() => 
-                ({toggleTranslate, setIsEnabled, isEnabled})
+            useMemo(() =>
+                ({ toggleTranslate, setIsEnabled, isEnabled })
                 , [toggleTranslate, setIsEnabled, isEnabled]
             )}>
             {children}    

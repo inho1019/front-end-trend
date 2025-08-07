@@ -1,10 +1,12 @@
 import { Outlet, useLocation } from "react-router";
-import { ToggleTransButton } from "../google-translate";
 import { useEffect, useRef } from "react";
+import { useScrollingObserver } from "@shared/lib/scrolling/use-scrolling-observer";
 
 export const Layout = () => {
     const { pathname } = useLocation();
     const layoutRef = useRef<HTMLDivElement>(null);
+    useScrollingObserver(layoutRef);
+
     useEffect(() => {
         if (layoutRef.current) {
             layoutRef.current.scrollTo(0, 0);
@@ -14,7 +16,6 @@ export const Layout = () => {
     return (
         <div ref={layoutRef} className="overflow-y-auto flex flex-col h-dvh">
             <Outlet />
-            <ToggleTransButton className="fixed bottom-20 left-20 z-50 active:opacity-70 transition-opacity" />
         </div>
     );
 }

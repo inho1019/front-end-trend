@@ -41,20 +41,22 @@ export const CodeEditor = () => {
                             </summary>
                         </details>
                         <div className="absolute top-36 left-0 hidden peer-open:block z-1 w-full border border-[#EFEFEF] rounded dark:text-[#EFEFEF] dark:border-[#252525] dark:bg-[#151515]">
-                            <SandpackFileExplorer />
+                            <SandpackFileExplorer onChange={(e) => {console.log(e)}} />
                         </div>
                     </div>
-                    <select
-                        value={template}
-                        onChange={(e) => setTemplate(e.target.value as SandpackPredefinedTemplate)}
-                        className="mb-auto cursor-pointer py-8 px-16 text-xs border border-[#EFEFEF] rounded outline-none dark:text-[#EFEFEF] dark:border-[#252525] dark:bg-[#151515]"
-                    >
-                        {TEMPLATE_OPTIONS.map((option) => (
-                            <option key={option.value} value={option.value}>
-                                {option.label}
-                            </option>
-                        ))}
-                    </select>
+                    <code>
+                        <select
+                            value={template}
+                            onChange={(e) => setTemplate(e.target.value as SandpackPredefinedTemplate)}
+                            className="mb-auto cursor-pointer py-8 px-16 text-xs border border-[#EFEFEF] rounded outline-none dark:text-[#EFEFEF] dark:border-[#252525] dark:bg-[#151515]"
+                        >
+                            {TEMPLATE_OPTIONS.map((option) => (
+                                <option key={option.value} value={option.value}>
+                                    {option.label}
+                                </option>
+                            ))}
+                        </select>
+                    </code>
                 </div>
                 <div>
                 <SandpackLayout>
