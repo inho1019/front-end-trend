@@ -51,14 +51,30 @@ front-end-trend/
 본 프로젝트는 다음 오픈소스 소프트웨어 및 폰트를 사용합니다. 각 라이선스 및 정책을 준수합니다.
 
 - [React](https://react.dev/) (MIT License)
+- [React DOM](https://react.dev/) (MIT License)
 - [Vite](https://vitejs.dev/) (MIT License)
 - [TypeScript](https://www.typescriptlang.org/) (Apache 2.0 License)
 - [Tailwind CSS](https://tailwindcss.com/) (MIT License)
+- [Tailwind Merge](https://github.com/dcastil/tailwind-merge) (MIT License)
+- [Tailwind Animated](https://github.com/benadamstyles/tailwindcss-animated) (MIT License)
 - [Octokit (GitHub API)](https://github.com/octokit/octokit.js) (MIT License)
 - [Luxon](https://moment.github.io/luxon/) (MIT License)
 - [Giscus](https://giscus.app/) (MIT License)
 - [Utterances](https://utteranc.es/) (MIT License)
 - [Pretendard](https://github.com/orioncactus/pretendard) (OFL 1.1 License)
+- [S-CoreDream](https://noonnu.cc/font_page/45) (무료/상업적 사용 가능)
+- [printingboxBold](https://noonnu.cc/font_page/2507) (무료/상업적 사용 가능)
+- [Sandpack](https://github.com/codesandbox/sandpack) (MIT License)
+- [RSS Parser](https://github.com/bobby-brennan/rss-parser) (MIT License)
+- [Marked](https://github.com/markedjs/marked) (MIT License)
+- [DOMPurify](https://github.com/cure53/DOMPurify) (Apache 2.0 License)
+- [JSDOM](https://github.com/jsdom/jsdom) (MIT License)
+- [uuid](https://github.com/uuidjs/uuid) (MIT License)
+- [fflate](https://github.com/101arrowz/fflate) (MIT License)
+- [entities](https://github.com/fb55/entities) (BSD License)
+- [dotenv](https://github.com/motdotla/dotenv) (MIT License)
+- [vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr) (MIT License)
+- [vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) (MIT License)
 - 기타 프로젝트 내 명시된 외부 라이브러리 및 폰트
 
 각 라이브러리/폰트의 상세 라이선스는 공식 사이트 및 배포처를 참고하세요.
