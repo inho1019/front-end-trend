@@ -45,10 +45,10 @@ front-end-trend/
 ├── src/
 │   ├── app/          # 앱 엔트리, 글로벌 스타일
 │   ├── features/     # 주요 도메인별 기능(트렌드, 사이트, 설정 등)
+│   ├── locales/      # i18n 설정 및 언어팩
 │   ├── shared/       # 공통 라이브러리, API, UI, 모델 등
 │   └── pages/        # 라우트별 페이지
 ├── index.html
-├── index.js          # RSS 파싱 등 서버 스크립트
 ├── package.json
 ├── README.md
 └── ...
