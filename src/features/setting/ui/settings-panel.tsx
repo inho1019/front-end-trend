@@ -22,7 +22,7 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
 
     const divRef = useRef<HTMLDivElement>(null);
 
-    const { isFavorite, toggleFavorite } = useData();
+    const { isFavorite, setIsFavorite } = useData();
 
     const { onMouseDown } = draggableScroll(divRef, { direction: "vertical" });
 
@@ -59,7 +59,7 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50 pt-10">
                     <ToggleSwitch
                         checked={isFavorite}
-                        onChange={toggleFavorite}
+                        onChange={() => setIsFavorite(!isFavorite)}
                         className="text-lg font-bold gap-10"
                         label={trans("settings.favorite", "즐겨찾기")}
                     />

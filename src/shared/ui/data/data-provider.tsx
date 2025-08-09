@@ -1,6 +1,6 @@
 import { DataContext } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
-import { useCallback, useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
+import { useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
 import { decompressSync, strFromU8 } from 'fflate';
 import { useSite } from "@shared/lib/site";
 
@@ -14,10 +14,6 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
     const [isFavorite, setIsFavorite] = useState<boolean>(false);
 
     const [loading, startTransition] = useTransition();
-
-    const handleToggleFavorite= useCallback(() => {
-        setIsFavorite(prev => !prev);
-    } ,[]);
     
     useEffect(() => {
         const fetchData = async () => {
@@ -86,9 +82,9 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
             siteIds,
             setSiteIds,
             isFavorite,
-            toggleFavorite: handleToggleFavorite,
+            setIsFavorite,
             loading   
-        }), [data, originalData, search, siteIds, isFavorite, handleToggleFavorite, loading])}>
+        }), [data, originalData, search, siteIds, isFavorite, setIsFavorite, loading])}>
             {children}    
         </DataContext.Provider>
     )

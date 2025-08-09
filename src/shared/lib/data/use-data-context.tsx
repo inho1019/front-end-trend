@@ -9,7 +9,7 @@ type DataContextType = {
   siteIds: string[];
   setSiteIds: (siteIds: string[]) => void;
   isFavorite: boolean;
-  toggleFavorite: () => void;
+  setIsFavorite: (isFavorite: boolean) => void;
   loading: boolean;
 } | null;
 

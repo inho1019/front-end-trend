@@ -16,7 +16,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const trans = useTrans();
     const navigate = useNavigate();
     const { addMessage } = useMessage();
-    const { originalData, setSiteIds } = useData();
+    const { originalData, setSiteIds, setIsFavorite } = useData();
     const { favoriteSiteIds, toggleFavoriteSite } = useSite();
 
     const isFavorite = useMemo(() => favoriteSiteIds.includes(data.id), [data.id, favoriteSiteIds])
@@ -32,8 +32,9 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const handleClickFeedCount = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
         setSiteIds([data.id]);
+        setIsFavorite(false);
         navigate("/");
-    }, [data.id, setSiteIds, navigate]);
+    }, [setSiteIds, data.id, setIsFavorite, navigate]);
 
     return (
         <Link {...props} draggable={false} className={twMerge("flex flex-row gap-10", props.className)}>
@@ -47,7 +48,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
             <div className="flex-1">
                 <div className="flex flex-row justify-between gap-10">
                     <h3 className="text-xl font-bold max-sm:text-lg">{data.name}</h3>
-                    <Button onClick={handleToggleFavorite} className="self-start p-2">
+                    <Button onClick={handleToggleFavorite} className="self-start hover:animate-wiggle hover:animate-infinite active:animate-none">
                         {
                             isFavorite ? (
                                 <FavoriteFillIcon />
