@@ -3,13 +3,13 @@
         "submit": "Submit",
         "error": "Error",
         "complete": "Complete",
+        "noData": "Not Found Data",
         "codeEditor": {
             "fileExplorer": "File Explorer"
         }
     },
     "trend": {
         "createdAt": "Date",
-        "empty": "Not Found Data",
         "copyCode": "Code Copied"
     },
     "settings": {
@@ -22,6 +22,8 @@
     },
     "site": {
         "feedCount": "{{count}} feeds",
+        "addFavorites": " {{name}} add to Favorites",
+        "removeFavorites": "{{name}} remove from Favorites",
         "add": "Add Site",
         "helper": "*If there is no token, the data will be copied in JSON format. Please leave a comments & suggestions.",
         "name": "Site Name",

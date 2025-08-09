@@ -1,5 +1,6 @@
 import { FavoriteEmptyIcon, FavoriteFillIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
+import { useMessage } from "@shared/lib/message";
 import { useSite } from "@shared/lib/site";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
@@ -14,6 +15,7 @@ interface SiteItemProps extends LinkProps {
 export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const trans = useTrans();
     const navigate = useNavigate();
+    const { addMessage } = useMessage();
     const { originalData, setSiteIds } = useData();
     const { favoriteSiteIds, toggleFavoriteSite } = useSite();
 
@@ -22,8 +24,9 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
 
     const handleToggleFavorite = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
+        addMessage(trans(isFavorite ? "site.removeFavorites" : "site.addFavorites",`즐겨찾기 추가/해제`, undefined, { name: data.name }));
         toggleFavoriteSite(data.id)
-    }, [data.id, toggleFavoriteSite]);
+    }, [addMessage, data.id, data.name, isFavorite, toggleFavoriteSite, trans]);
 
 
     const handleClickFeedCount = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
@@ -56,7 +59,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
                 </div>
                 <Button
                     onClick={handleClickFeedCount}
-                    className="text-sm/tight font-medium underline active:opacity-50"
+                    className="text-sm/tight font-medium underline"
                 >
                     {trans("site.feedCount",`피드 ${feedCount}개`, feedCount)}
                 </Button>

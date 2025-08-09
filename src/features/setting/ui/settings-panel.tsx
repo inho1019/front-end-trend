@@ -7,7 +7,7 @@ import { TransToggle } from "./panel/trans-toggle";
 import { Comment } from "./panel/comment";
 import { draggableScroll, useTrans } from "@shared/lib/utils";
 import { useNavigate } from "react-router";
-import { Button } from "@shared/ui/common";
+import { Button, ToggleSwitch } from "@shared/ui/common";
 import { useCallback, useRef } from "react";
 import { useData } from "@shared/lib/data";
 
@@ -57,12 +57,12 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                     <TransToggle />
                 </div>
                 <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50 pt-10">
-                    <Button 
-                        aria-checked={isFavorite} 
-                        className="text-lg font-bold flex flex-row items-center not-aria-checked:opacity-20 not-aria-checked:active:opacity-10 aria-checked:animate-pulse" 
-                        onClick={toggleFavorite}>
-                        {trans("settings.favorite", "즐겨찾기")}
-                    </Button>
+                    <ToggleSwitch
+                        checked={isFavorite}
+                        onChange={toggleFavorite}
+                        className="text-lg font-bold gap-10"
+                        label={trans("settings.favorite", "즐겨찾기")}
+                    />
                     <Filter />
                     <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/site")}>
                         {trans("settings.site", "사이트")}

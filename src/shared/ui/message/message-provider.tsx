@@ -28,7 +28,7 @@ export const MessageProvider = ({ children }: PropsWithChildren) => {
             {children}
             {
                 createPortal(
-                    <div className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-9999">
+                    <div className="fixed w-full flex justify-center bottom-60 z-9999 pointer-events-none">
                         {message && (
                             <div key={trigger.toString()} className="bg-gray-100 text-sm font-medium px-16 py-12 rounded-md animate-message dark:bg-[#222]">
                                 {message}

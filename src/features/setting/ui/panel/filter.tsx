@@ -3,12 +3,14 @@ import { useData } from "@shared/lib/data";
 import { useSite } from "@shared/lib/site";
 import { useTrans } from "@shared/lib/utils";
 import { Button, Spinner } from "@shared/ui/common";
-import { useCallback } from "react";
+import { useCallback, useMemo } from "react";
 
 export const Filter = () => {
     const trans = useTrans();
     const { siteIds, setSiteIds, isFavorite } = useData();
     const { data, loading, favoriteSiteIds } = useSite();
+
+    const filteredData = useMemo(() => data?.filter(site => isFavorite ? favoriteSiteIds.includes(site.id) : true) || [], [data, isFavorite, favoriteSiteIds]);
 
     const handleCheckboxChange = useCallback((siteId: string) => {
         if (siteIds.includes(siteId)) {
@@ -40,20 +42,27 @@ export const Filter = () => {
                             <Spinner className="size-32 border-4" />
                         </div>
                     ) : (
-                        data && [...data]
-                            .filter(site => isFavorite ? favoriteSiteIds.includes(site.id) : true)
-                            .sort((a, b) => a.name.localeCompare(b.name))
-                            .map(site => (
-                                <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
-                                    <input
-                                        type="checkbox"
-                                        value={site.id}
-                                        checked={siteIds.includes(site.id)}
-                                        onChange={() => handleCheckboxChange(site.id)}
-                                    />
-                                    {site.name}
-                                </label>
-                            ))
+                        data && (
+                            filteredData.length > 0 ? (
+                                filteredData
+                                    .sort((a, b) => a.name.localeCompare(b.name))
+                                    .map(site => (
+                                        <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
+                                            <input
+                                                type="checkbox"
+                                                value={site.id}
+                                                checked={siteIds.includes(site.id)}
+                                                onChange={() => handleCheckboxChange(site.id)}
+                                            />
+                                            {site.name}
+                                        </label>
+                                    ))
+                            ) : (
+                                <div className="px-5 text-sm text-gray-400 font-medium">
+                                    {trans("common.noData", "데이터를 찾을 수 없습니다")}
+                                </div>
+                            )
+                        )
                     )
                 }
             </div>

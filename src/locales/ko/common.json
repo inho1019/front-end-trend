@@ -3,13 +3,13 @@
         "submit": "등록",
         "error": "오류",
         "complete": "완료",
+        "noData": "데이터를 찾을 수 없습니다",
         "codeEditor": {
             "fileExplorer": "파일 탐색기"
         }
     },
     "trend": {
         "createdAt": "작성일",
-        "empty": "데이터를 찾을 수 없습니다",
         "copyCode": "코드 복사 완료"
     },
     "settings": {
@@ -22,6 +22,8 @@
     },
     "site": {
         "feedCount": "피드 {{count}}개",
+        "addFavorites": "{{name}} 즐겨찾기 추가",
+        "removeFavorites": "{{name}} 즐겨찾기 해제",
         "add": "사이트 등록",
         "helper": "*토큰이 없을시 데이터가 JSON 형태로 복사됩니다. 의견 및 건의사항에 남겨주세요.",
         "name": "사이트명",
