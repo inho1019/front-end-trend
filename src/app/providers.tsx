@@ -9,8 +9,8 @@ import type { PropsWithChildren } from "react";
 const Providers = ({ children }: PropsWithChildren) => {
     return (
         <GoogleTranslateProvider>
-            <DataProvider>
-                <SiteProvider>
+            <SiteProvider>
+                <DataProvider>
                     <ThemeProvider>
                         <MessageProvider>
                             <ScreenProvider>
@@ -18,8 +18,8 @@ const Providers = ({ children }: PropsWithChildren) => {
                             </ScreenProvider>
                         </MessageProvider>
                     </ThemeProvider>
-                </SiteProvider>
-            </DataProvider>
+                </DataProvider>
+            </SiteProvider>
         </GoogleTranslateProvider>
     );
 }

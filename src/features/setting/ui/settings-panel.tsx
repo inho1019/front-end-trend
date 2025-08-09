@@ -9,6 +9,7 @@ import { draggableScroll, useTrans } from "@shared/lib/utils";
 import { useNavigate } from "react-router";
 import { Button } from "@shared/ui/common";
 import { useCallback, useRef } from "react";
+import { useData } from "@shared/lib/data";
 
 export interface SettingsPanelProps {
     isOpen: boolean;
@@ -20,6 +21,8 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
     const trans = useTrans();
 
     const divRef = useRef<HTMLDivElement>(null);
+
+    const { isFavorite, toggleFavorite } = useData();
 
     const { onMouseDown } = draggableScroll(divRef, { direction: "vertical" });
 
@@ -53,7 +56,13 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                     <ThemeToggle />
                     <TransToggle />
                 </div>
-                <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50">
+                <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50 pt-10">
+                    <Button 
+                        aria-checked={isFavorite} 
+                        className="text-lg font-bold flex flex-row items-center not-aria-checked:opacity-20 not-aria-checked:active:opacity-10 aria-checked:animate-pulse" 
+                        onClick={toggleFavorite}>
+                        {trans("settings.favorite", "즐겨찾기")}
+                    </Button>
                     <Filter />
                     <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/site")}>
                         {trans("settings.site", "사이트")}

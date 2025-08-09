@@ -16,6 +16,8 @@ import GithubIcon from './github-icon.svg';
 import TistoryIcon from './tistory-icon.svg';
 import MailIcon from './mail-icon.svg';
 import FileIcon from './file-icon.svg';
+import FavoriteFillIcon from './favorite-fill.svg';
+import FavoriteEmptyIcon from './favorite-empty.svg';
 import Logo from './logo.png';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ResetIconSmall, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon, FileIcon, LineIcon };
+export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ResetIconSmall, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon, FileIcon, LineIcon, FavoriteFillIcon, FavoriteEmptyIcon };

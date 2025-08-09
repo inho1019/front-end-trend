@@ -4,8 +4,6 @@ import { useTheme } from "@shared/lib/theme";
 import { useClickAway, useTrans } from "@shared/lib/utils";
 import { useRef, useState } from "react";
 
-
-
 const TEMPLATE_OPTIONS = Object.keys(SANDBOX_TEMPLATES).map((key) => {
     const keys = key.split('-');
     const label = key.length > 0 ? keys.map(k => k === "ts" ? "TypeScript" : k.charAt(0).toUpperCase() + k.slice(1)).join(' + ') : keys[0].charAt(0).toUpperCase() + keys[0].slice(1);

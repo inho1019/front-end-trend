@@ -3,6 +3,8 @@ import { createContext, useContext } from "react";
 
 type SiteContextType = {
   data: Site[] | null;
+  favoriteSiteIds: string[];
+  toggleFavoriteSite: (siteId: string) => void;
   loading: boolean;
 } | null;
 
