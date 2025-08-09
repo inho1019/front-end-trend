@@ -14,6 +14,7 @@
     },
     "settings": {
         "filter": "필터",
+        "favorite": "즐겨찾기",
         "reset": "초기화",
         "comment": "의견 및 건의사항",
         "site": "사이트 목록",

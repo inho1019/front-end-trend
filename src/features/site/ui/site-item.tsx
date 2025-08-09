@@ -1,4 +1,6 @@
+import { FavoriteEmptyIcon, FavoriteFillIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
+import { useSite } from "@shared/lib/site";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
 import { Button } from "@shared/ui/common";
@@ -13,7 +15,15 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const trans = useTrans();
     const navigate = useNavigate();
     const { originalData, setSiteIds } = useData();
+    const { favoriteSiteIds, toggleFavoriteSite } = useSite();
+
+    const isFavorite = useMemo(() => favoriteSiteIds.includes(data.id), [data.id, favoriteSiteIds])
     const feedCount = useMemo(() => originalData?.filter(item => item.site.id === data.id).length ?? 0, [originalData, data.id]);
+
+    const handleToggleFavorite = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        toggleFavoriteSite(data.id)
+    }, [data.id, toggleFavoriteSite]);
 
 
     const handleClickFeedCount = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
@@ -32,7 +42,18 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
                 }
             </div>
             <div className="flex-1">
-                <h3 className="text-xl font-bold max-sm:text-lg">{data.name}</h3>
+                <div className="flex flex-row justify-between gap-10">
+                    <h3 className="text-xl font-bold max-sm:text-lg">{data.name}</h3>
+                    <Button onClick={handleToggleFavorite} className="self-start p-2">
+                        {
+                            isFavorite ? (
+                                <FavoriteFillIcon />
+                            ) : (
+                                <FavoriteEmptyIcon />
+                            )
+                        }
+                    </Button>
+                </div>
                 <Button
                     onClick={handleClickFeedCount}
                     className="text-sm/tight font-medium underline active:opacity-50"

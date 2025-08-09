@@ -8,6 +8,8 @@ type DataContextType = {
   setSearch: (search: string) => void;
   siteIds: string[];
   setSiteIds: (siteIds: string[]) => void;
+  isFavorite: boolean;
+  toggleFavorite: () => void;
   loading: boolean;
 } | null;
 

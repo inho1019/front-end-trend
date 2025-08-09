@@ -1,15 +1,23 @@
 import { DataContext } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
-import { useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
+import { useCallback, useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
 import { decompressSync, strFromU8 } from 'fflate';
+import { useSite } from "@shared/lib/site";
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
+    const { favoriteSiteIds } = useSite();
+
     const [originalData, setOriginalData] = useState<ParserData[] | null>(null);
     const [data, setData] = useState<ParserData[] | null>(null);
     const [search, setSearch] = useState<string>("");
     const [siteIds, setSiteIds] = useState<string[]>([]);
+    const [isFavorite, setIsFavorite] = useState<boolean>(false);
 
     const [loading, startTransition] = useTransition();
+
+    const handleToggleFavorite= useCallback(() => {
+        setIsFavorite(prev => !prev);
+    } ,[]);
     
     useEffect(() => {
         const fetchData = async () => {
@@ -50,19 +58,20 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
     useEffect(() => {
         startTransition(() => {
             if (originalData) {
-                const filteredData = originalData?.filter(item =>
-                    (                        
-                        item.title.toLowerCase().includes(search.toLowerCase()) ||
-                        item.content.toLowerCase().includes(search.toLowerCase()) ||
-                        item.site.name.toLowerCase().includes(search.toLowerCase())
-                    ) && (
-                        siteIds.length === 0 || siteIds.includes(item.site.id)
-                    )
-                );
+                const filteredData = originalData?.
+                    filter(item =>
+                        (isFavorite ? favoriteSiteIds.includes(item.site.id) : true) && (
+                            item.title.toLowerCase().includes(search.toLowerCase()) ||
+                            item.content.toLowerCase().includes(search.toLowerCase()) ||
+                            item.site.name.toLowerCase().includes(search.toLowerCase())
+                        ) && (
+                            siteIds.length === 0 || siteIds.includes(item.site.id)
+                        )
+                    );
                 setData(filteredData ?? []);
             }
         });
-    }, [originalData, search, siteIds])
+    }, [originalData, search, siteIds, isFavorite, favoriteSiteIds])
 
     useEffect(() => {
         setSearch("");
@@ -76,8 +85,10 @@ export const DataProvider = ({ children }: PropsWithChildren) => {
             setSearch,
             siteIds,
             setSiteIds,
+            isFavorite,
+            toggleFavorite: handleToggleFavorite,
             loading   
-        }), [data, originalData, search, siteIds, loading])}>
+        }), [data, originalData, search, siteIds, isFavorite, handleToggleFavorite, loading])}>
             {children}    
         </DataContext.Provider>
     )

@@ -7,8 +7,8 @@ import { useCallback } from "react";
 
 export const Filter = () => {
     const trans = useTrans();
-    const { siteIds, setSiteIds } = useData();
-    const { data, loading } = useSite();
+    const { siteIds, setSiteIds, isFavorite } = useData();
+    const { data, loading, favoriteSiteIds } = useSite();
 
     const handleCheckboxChange = useCallback((siteId: string) => {
         if (siteIds.includes(siteId)) {
@@ -40,17 +40,20 @@ export const Filter = () => {
                             <Spinner className="size-32 border-4" />
                         </div>
                     ) : (
-                        data && [...data].sort((a, b) => a.name.localeCompare(b.name)).map(site => (
-                            <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
-                                <input
-                                    type="checkbox"
-                                    value={site.id}
-                                    checked={siteIds.includes(site.id)}
-                                    onChange={() => handleCheckboxChange(site.id)}
-                                />
-                                {site.name}
-                            </label>
-                        ))
+                        data && [...data]
+                            .filter(site => isFavorite ? favoriteSiteIds.includes(site.id) : true)
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .map(site => (
+                                <label key={site.id} className="flex text-sm text-gray-700 font-medium gap-5 items-center break-all line-clamp-1 dark:text-gray-300">
+                                    <input
+                                        type="checkbox"
+                                        value={site.id}
+                                        checked={siteIds.includes(site.id)}
+                                        onChange={() => handleCheckboxChange(site.id)}
+                                    />
+                                    {site.name}
+                                </label>
+                            ))
                     )
                 }
             </div>
