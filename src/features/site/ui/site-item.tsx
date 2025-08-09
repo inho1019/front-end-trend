@@ -31,8 +31,10 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
 
     const handleClickFeedCount = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
-        setSiteIds([data.id]);
-        setIsFavorite(false);
+        if (!isFavorite) {
+            setIsFavorite(false);
+        }
+        setSiteIds([data.id]):
         navigate("/");
     }, [setSiteIds, data.id, setIsFavorite, navigate]);
 
