@@ -1,3 +1,4 @@
+import { useFavoriteStore } from "@/store";
 import { ResetIconSmall } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useSite } from "@shared/lib/site";
@@ -8,7 +9,8 @@ import { useCallback, useMemo } from "react";
 export const Filter = () => {
     const trans = useTrans();
     const { siteIds, setSiteIds, isFavorite } = useData();
-    const { data, loading, favoriteSiteIds } = useSite();
+    const { data, loading } = useSite();
+    const { favoriteSiteIds } = useFavoriteStore();
 
     const filteredData = useMemo(() => data?.filter(site => isFavorite ? favoriteSiteIds.includes(site.id) : true) || [], [data, isFavorite, favoriteSiteIds]);
 

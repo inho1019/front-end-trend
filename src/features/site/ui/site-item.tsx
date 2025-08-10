@@ -1,7 +1,7 @@
+import { useFavoriteStore } from "@/store";
 import { FavoriteEmptyIcon, FavoriteFillIcon } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useMessage } from "@shared/lib/message";
-import { useSite } from "@shared/lib/site";
 import { twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
 import { Button } from "@shared/ui/common";
@@ -17,7 +17,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const navigate = useNavigate();
     const { addMessage } = useMessage();
     const { originalData, setSiteIds, setIsFavorite } = useData();
-    const { favoriteSiteIds, toggleFavoriteSite } = useSite();
+    const { favoriteSiteIds, toggleFavoriteSite } = useFavoriteStore();
 
     const isFavorite = useMemo(() => favoriteSiteIds.includes(data.id), [data.id, favoriteSiteIds])
     const feedCount = useMemo(() => originalData?.filter(item => item.site.id === data.id).length ?? 0, [originalData, data.id]);

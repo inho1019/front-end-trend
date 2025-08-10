@@ -15,7 +15,7 @@ import { useScreen } from "@shared/lib/screen";
 const TrendPage = () => {
     const { isOpen: isSettingOpen, openPanel: openSettingPanel, closePanel: closeSettingPanel } = usePanelController("setting-panel");
     const { isOpen: isCodeOpen, isHidden, setIsOpen: setIsCodeOpen, showPanel: showCode } = useCodePanel();
-    const { activating } = useScreen();
+    const { activatingRef } = useScreen();
 
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
@@ -46,22 +46,22 @@ const TrendPage = () => {
                 <TrendList />
             </MainContainer>
             <Footer />
-            <GoogleTranslateButton
-                aria-hidden={activating}
-                className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
-            />
-            <Button
-                aria-hidden={activating}
-                aria-expanded={isCodeOpen && !isHidden}
-                onClick={handleClickCodeButton} 
-                className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full bg-white border border-black aria-expanded:hidden aria-hidden:opacity-0">
-                <div className={twMerge(
-                    "size-full text-black text-[15px] font-suit flex items-center justify-center",
-                    isCodeOpen && isHidden && "dot"
-                )}>
-                    {"< >"}
-                </div>
-            </Button>
+            <div ref={activatingRef} className="group" aria-hidden={false}>
+                <GoogleTranslateButton
+                    className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
+                />
+                <Button
+                    aria-expanded={isCodeOpen && !isHidden}
+                    onClick={handleClickCodeButton} 
+                    className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full bg-white border border-black aria-expanded:hidden group-aria-hidden:opacity-0">
+                    <div className={twMerge(
+                        "size-full text-black text-[15px] font-suit flex items-center justify-center",
+                        isCodeOpen && isHidden && "dot"
+                    )}>
+                        {"< >"}
+                    </div>
+                </Button>
+            </div>
         </>
     );
 }

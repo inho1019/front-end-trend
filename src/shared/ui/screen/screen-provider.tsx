@@ -1,14 +1,13 @@
 import { ScreenContext } from "@shared/lib/screen";
-import { useMemo, useState, type PropsWithChildren } from "react"
+import { useMemo, useRef, type PropsWithChildren } from "react"
 
 export const ScreenProvider = ({ children }: PropsWithChildren) => {
-    const [activating, setActivating] = useState<boolean>(false);
+    const activatingRef = useRef<HTMLDivElement>(null!);
 
     return (
         <ScreenContext.Provider value={useMemo(() => ({
-            activating,
-            setActivating,
-        }), [activating])}>
+            activatingRef
+        }), [])}>
             {children}
         </ScreenContext.Provider>
     )

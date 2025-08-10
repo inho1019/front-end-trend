@@ -2,10 +2,10 @@ import { DataContext } from "@shared/lib/data";
 import type { ParserData } from "@shared/model/parser";
 import { useEffect, useMemo, useState, useTransition, type PropsWithChildren } from "react"
 import { decompressSync, strFromU8 } from 'fflate';
-import { useSite } from "@shared/lib/site";
+import { useFavoriteStore } from "@/store";
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
-    const { favoriteSiteIds } = useSite();
+    const { favoriteSiteIds } = useFavoriteStore();
 
     const [originalData, setOriginalData] = useState<ParserData[] | null>(null);
     const [data, setData] = useState<ParserData[] | null>(null);

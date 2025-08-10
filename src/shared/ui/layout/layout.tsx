@@ -5,7 +5,7 @@ import { useActivatingObserver } from "@shared/lib/screen/use-activating-observe
 export const Layout = () => {
     const { pathname } = useLocation();
     const layoutRef = useRef<HTMLDivElement>(null);
-    useActivatingObserver(layoutRef);
+    useActivatingObserver(layoutRef, [pathname]);
 
     useEffect(() => {
         if (layoutRef.current) {

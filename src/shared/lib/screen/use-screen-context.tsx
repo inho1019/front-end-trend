@@ -1,9 +1,8 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, type RefObject } from "react";
 
 type ScreenContextType = {
-  activating: boolean;
-  setActivating: (value: boolean) => void;
-} | null;
+  activatingRef: RefObject<HTMLDivElement> | null;
+};
 
 export const ScreenContext = createContext<ScreenContextType | null>(null);
 
