@@ -11,13 +11,14 @@ interface TrendSearchProps {
 
 export const TrendSearch = ({ className }: TrendSearchProps) => {
     const navigate = useNavigate();
-    const { search, setSearch, setSiteIds } = useData();
+    const { search, setSearch, setSiteIds, setIsFavorite } = useData();
 
     const handleResetAll = useCallback(() => {
         setSearch("");
         setSiteIds([]);
+        setIsFavorite(false);
         navigate("/");
-    }, [navigate, setSearch, setSiteIds]);
+    }, [navigate, setIsFavorite, setSearch, setSiteIds]);
 
     return (
         <div className={twMerge("relative text-black flex flex-1 flex-row gap-5 items-center max-w-250 rounded-full bg-gray-100 p-4 pr-12 dark:bg-[#222] dark:text-white", className)}>

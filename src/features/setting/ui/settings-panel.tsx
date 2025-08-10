@@ -22,9 +22,14 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
 
     const divRef = useRef<HTMLDivElement>(null);
 
-    const { isFavorite, setIsFavorite } = useData();
+    const { isFavorite, setIsFavorite, setSiteIds } = useData();
 
     const { onMouseDown } = draggableScroll(divRef, { direction: "vertical" });
+
+    const handleToggleFavorite = useCallback(() => {
+        setSiteIds([])
+        setIsFavorite(!isFavorite)
+    }, [isFavorite, setIsFavorite, setSiteIds])
 
     const noCacheReload = useCallback(() => {
         window.location.href = window.location.pathname + "?cache=no";
@@ -59,7 +64,7 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                 <div ref={divRef} onMouseDown={onMouseDown} className="flex-1 flex flex-col gap-20 overflow-y-auto scrollbar-hide pb-50 pt-10">
                     <ToggleSwitch
                         checked={isFavorite}
-                        onChange={() => setIsFavorite(!isFavorite)}
+                        onChange={handleToggleFavorite}
                         className="text-lg font-bold gap-10"
                         label={trans("settings.favorite", "즐겨찾기")}
                     />
