@@ -31,12 +31,12 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
 
     const handleClickFeedCount = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
-        if (!isFavorite) {
+        if(!isFavorite) {
             setIsFavorite(false);
         }
         setSiteIds([data.id]):
         navigate("/");
-    }, [setSiteIds, data.id, setIsFavorite, navigate]);
+    }, [setSiteIds, data.id, isFavorite, setIsFavorite, navigate]);
 
     return (
         <Link {...props} draggable={false} className={twMerge("flex flex-row gap-10", props.className)}>
