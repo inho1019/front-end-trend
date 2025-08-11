@@ -1,13 +1,17 @@
-import { DragIcon, XIcon } from "@shared/assets";
+import { ArrowIcon, DragIcon, XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
 import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
 import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
-import { Button } from "@shared/ui/common";
+import { Button, Spinner } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
+import { GoogleGenAI } from "@google/genai";
 import { DateTime } from "luxon";
-import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
+import i18next from "i18next";
+
+const ai = new GoogleGenAI({ apiKey: import.meta.env.PROD ? "" : import.meta.env.VITE_GEMINI_API_KEY });
 export interface TrendPanelProps {
     data: ParserData | null;
     isOpen: boolean;
@@ -17,8 +21,12 @@ export interface TrendPanelProps {
 export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => { 
     const viewerRef = useRef<HTMLDivElement>(null);
     const panelRef = useRef<HTMLDivElement>(null);
+    const detailsRef = useRef<HTMLDetailsElement>(null);
 
     useActivatingObserver(viewerRef, [data]);
+
+    const [aiSummaryContent, setAiSummaryContent] = useState("")
+    const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete">("pending")
 
     const trans = useTrans();
 
@@ -26,30 +34,53 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
 
     const htmlContent = useMemo(() => ({ __html: data ? sanitizeHtml(data.content) : ""}), [data]);
 
-    // const plainTextContent = useMemo(async () => {
-    //     if (!data?.content) return "";
+    const handleAiSummary = useCallback(async () => {
+        if (!data?.content) return "";
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = data.content;
+        try {
+            setAiSummaryStep("loading")
+            const response = await ai.models.generateContent({
+                model: "gemini-2.5-flash-lite",
+                contents: `
+                    ${tempDiv.textContent || tempDiv.innerText}
 
-    //     const tempDiv = document.createElement("div");
-    //     tempDiv.innerHTML = data.content;
-    //     const contents = `${tempDiv.textContent || tempDiv.innerText} 요약해줘`;
-
-    //     const res = await fetch("/.netlify/functions/summary", {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/json" },
-    //         body: contents,
-    //     });
-
-    //     const { summary } = await res.json();
-    //     console.log("요약 결과:", summary);
-
-    //     return summary;
-    // }, [data]);
-
-    useEffect(() => {
-        if (viewerRef.current && data) {
-            viewerRef.current.scrollTop = 0;
+                    - 아래 조건을 꼭 지켜서 요약해줘:
+                    - 마크다운 문법 없이, 순수 텍스트로만 작성할 것
+                    - 문단 구분을 위해 줄바꿈은 유지할 것
+                    - 구분을 위한 기호는 사용가능
+                    - 텍스트 외에 다른 형식(코드블럭, 굵은 글씨 등) 절대 사용 금지
+                    - 반드시 ${i18next.language} 언어로 번역해서 작성할 것
+                `,
+            });
+            setAiSummaryContent(response?.text ?? "")
+            setAiSummaryStep("complete")
+        } catch (error) {
+            console.log(error)
         }
     }, [data]);
+
+    const reset = useCallback(() => {
+        setAiSummaryContent("");
+        setAiSummaryStep("pending");
+        if (detailsRef.current) {
+            detailsRef.current.open = false
+        }
+    }, [])
+
+    const handleClose = useCallback(() => {
+        reset();
+        onClose();
+    }, [onClose, reset]);
+
+    useEffect(() => {
+        if (data) {
+            reset();
+            if (viewerRef.current) {
+                viewerRef.current.scrollTop = 0;
+            }
+        }
+    }, [data, reset]);
 
     const handleResize = useCallback((e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault();
@@ -95,7 +126,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                         <details open className="group">
                            <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1 break-all">{data?.title}</summary>
                         </details>
-                        <Button className="self-start" onClick={onClose}>
+                        <Button className="self-start" onClick={handleClose}>
                             <XIcon />
                         </Button>
                     </div>
@@ -112,12 +143,35 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                         </Link>
                     </div>
                 </div>
-                <div
-                    ref={viewerRef}
-                    className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
-                    dangerouslySetInnerHTML={htmlContent}
-                >
-                    {/* {plainTextContent} */}
+                <div ref={viewerRef} className="flex-1 overflow-y-auto pt-15 space-y-20 max-sm:pb-40">
+                    <details ref={detailsRef} open={false} className="p-15 bg-gray-100 rounded-lg dark:bg-[#222] group">
+                        <summary onClick={() => aiSummaryStep === "pending" && (import.meta.env.PROD ? addMessage("준비중입니다") : handleAiSummary())}  className="flex flex-row justify-between items-center cursor-pointer font-medium text-lg px-5">
+                            {trans("trend.aiSummary", "AI 요약")}
+                            <div className="size-fit transition-transform duration-300 rotate-270 group-open:rotate-90">
+                                <ArrowIcon />
+                            </div>
+                        </summary>
+                        <div className="mt-30">
+                            {(() => {
+                                switch (aiSummaryStep) {
+                                    case "loading":
+                                        return <Spinner className="size-48 border-7 mx-auto my-30" />;
+                                    case "complete":
+                                        return (
+                                            <p className="whitespace-pre-wrap animate-fade">
+                                                {aiSummaryContent}
+                                            </p>
+                                        )
+                                    default :
+                                        return;
+                                }
+                            })()}
+                        </div>
+                    </details>
+                    <div
+                        className="viewer whitespace-pre-wrap"
+                        dangerouslySetInnerHTML={htmlContent}
+                    />
                 </div>
                 <Button
                     className={twMerge(

@@ -10,7 +10,8 @@
     },
     "trend": {
         "createdAt": "Date",
-        "copyCode": "Code Copied"
+        "copyCode": "Code Copied",
+        "aiSummary": "AI Summary"
     },
     "settings": {
         "filter": "Filter",
