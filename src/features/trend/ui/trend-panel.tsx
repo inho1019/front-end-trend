@@ -26,24 +26,24 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
 
     const htmlContent = useMemo(() => ({ __html: data ? sanitizeHtml(data.content) : ""}), [data]);
 
-    const plainTextContent = useMemo(async () => {
-        if (!data?.content) return "";
+    // const plainTextContent = useMemo(async () => {
+    //     if (!data?.content) return "";
 
-        const tempDiv = document.createElement("div");
-        tempDiv.innerHTML = data.content;
-        const contents = `${tempDiv.textContent || tempDiv.innerText} 요약해줘`;
+    //     const tempDiv = document.createElement("div");
+    //     tempDiv.innerHTML = data.content;
+    //     const contents = `${tempDiv.textContent || tempDiv.innerText} 요약해줘`;
 
-        const res = await fetch("/.netlify/functions/summary", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: contents,
-        });
+    //     const res = await fetch("/.netlify/functions/summary", {
+    //         method: "POST",
+    //         headers: { "Content-Type": "application/json" },
+    //         body: contents,
+    //     });
 
-        const { summary } = await res.json();
-        console.log("요약 결과:", summary);
+    //     const { summary } = await res.json();
+    //     console.log("요약 결과:", summary);
 
-        return summary;
-    }, [data]);
+    //     return summary;
+    // }, [data]);
 
     useEffect(() => {
         if (viewerRef.current && data) {
@@ -117,7 +117,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
                     dangerouslySetInnerHTML={htmlContent}
                 >
-                    {plainTextContent}
+                    {/* {plainTextContent} */}
                 </div>
                 <Button
                     className={twMerge(
