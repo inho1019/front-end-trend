@@ -8,7 +8,6 @@ import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router";
-
 export interface TrendPanelProps {
     data: ParserData | null;
     isOpen: boolean;
@@ -26,6 +25,25 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const { addMessage } = useMessage();
 
     const htmlContent = useMemo(() => ({ __html: data ? sanitizeHtml(data.content) : ""}), [data]);
+
+    const plainTextContent = useMemo(async () => {
+        if (!data?.content) return "";
+
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = data.content;
+        const contents = `${tempDiv.textContent || tempDiv.innerText} 요약해줘`;
+
+        const res = await fetch("/.netlify/functions/summary", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: contents,
+        });
+
+        const { summary } = await res.json();
+        console.log("요약 결과:", summary);
+
+        return summary;
+    }, [data]);
 
     useEffect(() => {
         if (viewerRef.current && data) {
@@ -98,7 +116,9 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     ref={viewerRef}
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
                     dangerouslySetInnerHTML={htmlContent}
-                />
+                >
+                    {plainTextContent}
+                </div>
                 <Button
                     className={twMerge(
                         "flex items-center text-gray-400 cursor-ew-resize transition-colors duration-300 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden",

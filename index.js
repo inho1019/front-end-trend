@@ -8,7 +8,7 @@ const parser = new RSSParser();
 (async () => {
 
     // 피드 목록
-    const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}`);
+    const feed = await parser.parseURL(`${process.env.RSS_PROXY_URL}`);
 
     console.log(feed);
     

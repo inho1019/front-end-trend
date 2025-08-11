@@ -51,7 +51,7 @@ const parser = new RSSParser();
         const parsing = await Promise.all(
             sites.map(async (site: Site) => {
                 try {
-                    const feed = await parser.parseURL(`${process.env.VITE_RSS_PROXY_URL}${site.url}`);
+                    const feed = await parser.parseURL(`${process.env.RSS_PROXY_URL}${site.url}`);
                     const parsedData: ParserData[] = await Promise.all(feed.items.map(async item => {
                         const createdRaw = item[site.type.createdAt];
                         const content = await marked(item[site.type.content]);
