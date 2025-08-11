@@ -5,13 +5,12 @@ import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button, Spinner } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
-import { GoogleGenAI } from "@google/genai";
 import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import i18next from "i18next";
+import { getAiSummary } from "@shared/api";
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.PROD ? "" : import.meta.env.VITE_GEMINI_API_KEY });
 export interface TrendPanelProps {
     data: ParserData | null;
     isOpen: boolean;
@@ -40,9 +39,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         tempDiv.innerHTML = data.content;
         try {
             setAiSummaryStep("loading")
-            const response = await ai.models.generateContent({
-                model: "gemini-2.5-flash-lite",
-                contents: `
+            const response = await getAiSummary(`
                     ${tempDiv.textContent || tempDiv.innerText}
 
                     - 아래 조건을 꼭 지켜서 요약해줘:
@@ -51,9 +48,8 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     - 구분을 위한 기호는 사용가능
                     - 텍스트 외에 다른 형식(코드블럭, 굵은 글씨 등) 절대 사용 금지
                     - 반드시 ${i18next.language} 언어로 번역해서 작성할 것
-                `,
-            });
-            setAiSummaryContent(response?.text ?? "")
+                `)
+            setAiSummaryContent(response ?? "")
             setAiSummaryStep("complete")
         } catch (error) {
             console.log(error)
@@ -145,7 +141,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 </div>
                 <div ref={viewerRef} className="flex-1 overflow-y-auto pt-15 space-y-20 max-sm:pb-40">
                     <details ref={detailsRef} open={false} className="p-15 bg-gray-100 rounded-lg dark:bg-[#222] group">
-                        <summary onClick={() => aiSummaryStep === "pending" && (import.meta.env.PROD ? addMessage("준비중입니다") : handleAiSummary())}  className="flex flex-row justify-between items-center cursor-pointer font-medium text-lg px-5">
+                        <summary onClick={() => aiSummaryStep === "pending" && handleAiSummary()}  className="flex flex-row justify-between items-center cursor-pointer font-medium text-lg px-5">
                             {trans("trend.aiSummary", "AI 요약")}
                             <div className="size-fit transition-transform duration-300 rotate-270 group-open:rotate-90">
                                 <ArrowIcon />
