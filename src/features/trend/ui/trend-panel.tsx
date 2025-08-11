@@ -1,7 +1,7 @@
-import { XIcon } from "@shared/assets";
+import { DragIcon, XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
 import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
-import { sanitizeHtml, useTrans } from "@shared/lib/utils";
+import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
@@ -100,9 +100,14 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     dangerouslySetInnerHTML={htmlContent}
                 />
                 <Button
-                    className="cursor-ew-resize transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-800/100 dark:to-gray-800/0 active:opacity-100"
+                    className={twMerge(
+                        "flex items-center text-gray-400 cursor-ew-resize transition-colors duration-300 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden",
+                        "bg-linear-to-r from-white to-white dark:from-dark dark:to-dark active:from-gray-100/100 active:to-gray-100/0 dark:active:from-gray-800/100 dark:active:to-gray-800/0" 
+                    )}
                     onMouseDown={handleResize}
-                />
+                >
+                    <DragIcon />    
+                </Button>
                 <div className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs text-gray-400 max-sm:justify-end">
                     <div className="truncate">
                         {data?.author ? data.author : "Unknown"}

@@ -1,5 +1,6 @@
 import { SANDBOX_TEMPLATES, SandpackCodeEditor, SandpackFileExplorer, SandpackLayout, SandpackPreview, SandpackProvider, type SandpackPredefinedTemplate } from "@codesandbox/sandpack-react";
 import { FileIcon } from "@shared/assets";
+import { useScreen } from "@shared/lib/screen";
 import { useTheme } from "@shared/lib/theme";
 import { useClickAway, useTrans } from "@shared/lib/utils";
 import { useRef, useState } from "react";
@@ -12,24 +13,27 @@ const TEMPLATE_OPTIONS = Object.keys(SANDBOX_TEMPLATES).map((key) => {
         label: label,
     };
 });
+const SANDPACK_BREAKPOINT = 768;
 
 export const CodeEditor = () => {
     const trans = useTrans();
+    const { screenWidth } = useScreen();
     const detailsRef = useRef<HTMLDetailsElement>(null);
     const clickAwayRef = useClickAway<HTMLDivElement>(() => {
         if (detailsRef.current) {
             detailsRef.current.open = false;
         }
     });
-    const [template, setTemplate] = useState<SandpackPredefinedTemplate>("react-ts");
+    const [template, setTemplate] = useState<SandpackPredefinedTemplate>("vite-react-ts");
     const { currentTheme } = useTheme();
 
     return (
         <SandpackProvider
             template={template}
             theme={currentTheme}
+            style={screenWidth > SANDPACK_BREAKPOINT ? { height: "calc(100% - 40px)" } : undefined}
         >
-            <div className="space-y-10">
+            <div className="space-y-10 h-full">
                 <div className="flex flex-row gap-10 max-sm:flex-col-reverse">
                     <div ref={clickAwayRef} className="relative flex-1 border border-[#EFEFEF] rounded dark:text-[#EFEFEF] dark:border-[#252525] dark:bg-[#151515]">
                         <details ref={detailsRef} open={false} className="peer">
@@ -58,12 +62,10 @@ export const CodeEditor = () => {
                         </select>
                     </code>
                 </div>
-                <div>
-                <SandpackLayout>
-                    <SandpackCodeEditor showLineNumbers wrapContent showTabs={false} />
-                    <SandpackPreview showOpenInCodeSandbox={false} />
+                <SandpackLayout style={screenWidth > SANDPACK_BREAKPOINT ? { height: "100%" } : undefined}>
+                    <SandpackCodeEditor style={screenWidth > SANDPACK_BREAKPOINT ?  { height: "100%", minHeight: "300px" } : undefined} showLineNumbers wrapContent showTabs={false} />
+                    <SandpackPreview style={screenWidth > SANDPACK_BREAKPOINT ? { height: "100%", minHeight: "300px" } : undefined} showOpenInCodeSandbox={false} />
                 </SandpackLayout>
-                </div>
             </div>
         </SandpackProvider>
     );

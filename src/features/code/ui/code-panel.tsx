@@ -1,8 +1,8 @@
 import { Panel } from "@shared/ui/panel"
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { CodeEditor } from "./code-editor";
 import { Button } from "@shared/ui/common";
-import { LineIcon, ResetIcon, XIcon } from "@shared/assets";
+import { DragCornerIcon, LineIcon, ResetIcon, XIcon } from "@shared/assets";
 import { twMerge } from "@shared/lib/utils";
 import { useLocation } from "react-router";
 
@@ -22,6 +22,35 @@ export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProp
     const [opacity, setOpacity] = useState(100);
     const panelRef = useRef<HTMLDivElement>(null);
 
+    const handleResize = useCallback((e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        e.preventDefault();
+        const panel = panelRef.current;
+        if (!panel) return;
+        const startX = e.clientX;
+        const startY = e.clientY;
+        const startWidth = panel.offsetWidth;
+        const startHeight = panel.offsetHeight;
+
+        const onMouseMove = (moveEvent: MouseEvent) => {
+            const deltaX = moveEvent.clientX - startX;
+            const deltaY = moveEvent.clientY - startY;
+            let newWidth = startWidth + deltaX;
+            let newHeight = startHeight - deltaY;
+            newWidth = Math.max(720, Math.min(newWidth, window.innerWidth));
+            newHeight = Math.max(449, Math.min(newHeight, window.innerHeight - 65));
+            panel.style.width = `${newWidth}px`;
+            panel.style.height = `${newHeight}px`;
+        };
+
+        const onMouseUp = () => {
+            window.removeEventListener("mousemove", onMouseMove);
+            window.removeEventListener("mouseup", onMouseUp);
+        };
+
+        window.addEventListener("mousemove", onMouseMove);
+        window.addEventListener("mouseup", onMouseUp);
+    }, []);
+    
     useEffect(() => {
         if (!isOpen) {
            setIsFirst(true);
@@ -70,13 +99,18 @@ export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProp
                 )
             }
         >
-            <div style={{ opacity: `${opacity}%` }} className="size-full">
+            <div style={{ opacity: `${opacity}%` }} className="relative size-full">
                 <div
                     className={twMerge(
-                        "origin-bottom-left rounded-t-xl panel-shadow flex flex-col gap-15 bg-white p-15 h-fit dark:bg-dark max-sm:h-full",
+                        "origin-bottom-left rounded-t-xl panel-shadow flex flex-col gap-15 bg-white p-15 h-fit size-full dark:bg-dark max-sm:h-full",
                         isHidden ? "animate-scale-out fill-mode-forwards" : "animate-scale-in",
                         isFirst  &&  "animate-duration-none"
                     )}>
+                    <Button 
+                        onMouseDown={handleResize} 
+                        className="cursor-nesw-resize rounded-tr-xl absolute text-gray-400 top-0 right-0 z-10 size-16 overflow-hidden max-md:hidden">
+                        <DragCornerIcon />
+                    </Button>
                     <div className="flex flex-row justify-between gap-15">
                         <code className="shrink-0 text-lg font-jamsil max-sm:text-base">Code Editor</code>
                         <div className="flex flex-row items-center gap-10">
@@ -102,7 +136,7 @@ export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProp
                             </Button>
                         </div>
                     </div>
-                    <div className="overflow-y-auto pb-30 max-sm:pb-50" >
+                    <div className="overflow-y-auto pb-30 max-sm:pb-50 h-full" >
                         <CodeEditor key={resetTrigger.toString()} />
                     </div>
                 </div>

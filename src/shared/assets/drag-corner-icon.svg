@@ -1,0 +1,6 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- 긴 대각선 -->
+  <line x1="3.5" y1="4.5" x2="11.5" y2="12.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <!-- 짧은 대각선 -->
+  <line x1="8" y1="4" x2="12" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
