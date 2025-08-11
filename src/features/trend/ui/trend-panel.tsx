@@ -161,7 +161,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                         )
                                     case "error":
                                         return (
-                                                <p className="text-md text-gray-400 mx-auto my-30 h-48 flex justify-center items-center">
+                                                <p className="text-sm font-medium text-gray-400 mx-auto my-30 h-48 flex justify-center items-center">
                                                     {trans("trend.ai.error", "AI 요약 생성에 실패했습니다.")}
                                                 </p>
                                             );
