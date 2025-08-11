@@ -6,7 +6,7 @@ import type { ParserData } from "@shared/model/parser";
 import { Button } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router";
 
 export interface TrendPanelProps {
@@ -24,7 +24,9 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const trans = useTrans();
 
     const { addMessage } = useMessage();
-    
+
+    const htmlContent = useMemo(() => ({ __html: data ? sanitizeHtml(data.content) : ""}), [data]);
+
     useEffect(() => {
         if (viewerRef.current && data) {
             viewerRef.current.scrollTop = 0;
@@ -95,7 +97,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div
                     ref={viewerRef}
                     className="flex-1 overflow-y-auto whitespace-pre-wrap viewer py-15 max-sm:pb-40"
-                    dangerouslySetInnerHTML={{ __html: `${sanitizeHtml(data?.content) ?? ""}` }}
+                    dangerouslySetInnerHTML={htmlContent}
                 />
                 <Button
                     className="cursor-ew-resize transition-opacity duration-300 opacity-0 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden bg-linear-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-800/100 dark:to-gray-800/0 active:opacity-100"
