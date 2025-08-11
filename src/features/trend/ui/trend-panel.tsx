@@ -25,7 +25,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     useActivatingObserver(viewerRef, [data]);
 
     const [aiSummaryContent, setAiSummaryContent] = useState("")
-    const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete">("pending")
+    const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete" | "error">("pending")
 
     const trans = useTrans();
 
@@ -53,6 +53,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             setAiSummaryStep("complete")
         } catch (error) {
             console.log(error)
+            setAiSummaryStep("error");
         }
     }, [data]);
 
@@ -142,7 +143,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <div ref={viewerRef} className="flex-1 overflow-y-auto pt-15 space-y-20 max-sm:pb-40">
                     <details ref={detailsRef} open={false} className="p-15 bg-gray-100 rounded-lg dark:bg-[#222] group">
                         <summary onClick={() => aiSummaryStep === "pending" && handleAiSummary()}  className="flex flex-row justify-between items-center cursor-pointer font-medium text-lg px-5">
-                            {trans("trend.aiSummary", "AI 요약")}
+                            {trans("trend.ai.summary", "AI 요약")}
                             <div className="size-fit transition-transform duration-300 rotate-270 group-open:rotate-90">
                                 <ArrowIcon />
                             </div>
@@ -158,8 +159,14 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                                 {aiSummaryContent}
                                             </p>
                                         )
+                                    case "error":
+                                        return (
+                                                <p className="text-md text-gray-400 mx-auto my-30 h-48 flex justify-center items-center">
+                                                    {trans("trend.ai.error", "AI 요약 생성에 실패했습니다.")}
+                                                </p>
+                                            );
                                     default :
-                                        return;
+                                    return null;
                                 }
                             })()}
                         </div>

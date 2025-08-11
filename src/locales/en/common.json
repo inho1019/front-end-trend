@@ -11,7 +11,10 @@
     "trend": {
         "createdAt": "Date",
         "copyCode": "Code Copied",
-        "aiSummary": "AI Summary"
+        "ai": {
+            "summary": "AI Summary",
+            "error": "Failed to generate AI summary."
+        }
     },
     "settings": {
         "filter": "Filter",
