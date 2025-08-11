@@ -13,7 +13,7 @@
         "copyCode": "코드 복사 완료",
         "ai": {
             "summary": "AI 요약",
-            "error": "AI 요약 생성에 실패했습니다."
+            "error": "AI 요약 생성에 실패했습니다"
         }
     },
     "settings": {
