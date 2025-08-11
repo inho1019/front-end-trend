@@ -13,7 +13,7 @@
         "copyCode": "Code Copied",
         "ai": {
             "summary": "AI Summary",
-            "error": "Failed to generate AI summary."
+            "error": "Failed to generate AI summary"
         }
     },
     "settings": {
