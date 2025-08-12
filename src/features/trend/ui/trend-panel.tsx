@@ -139,7 +139,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                 <ArrowIcon />
                             </div>
                         </summary>
-                        <div className="mt-30">
+                        <div className="mt-15">
                             {(() => {
                                 switch (aiSummaryStep) {
                                     case "loading":

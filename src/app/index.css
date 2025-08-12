@@ -227,13 +227,13 @@
 
   /* Lists */
   ul, ol {
-    @apply mb-4 pl-24;
+    @apply flex flex-col gap-10 mb-4 pl-24;
   }
   li {
-    @apply mb-2 leading-relaxed;
+    @apply mb-2 p-0 leading-relaxed;
   }
   li *:not(code) {
-    @apply m-0 p-0 text-base;
+    @apply m-0 p-0 text-base inline;
   }
   ul li {
     @apply list-disc;

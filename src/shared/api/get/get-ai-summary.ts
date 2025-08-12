@@ -10,10 +10,15 @@ type ArchiveData = {
 
 export const getAiSummary = async (title: string, content: string) => {
     const path = `${import.meta.env.VITE_ARCHIVE_PATH}${Base64.encode(title)}-${i18next.language.substring(0, 2)}.json`;
-    const octokitResponse = await getContent<ArchiveData>(path, { ref: import.meta.env.VITE_ARCHIVE_REPO });
+    let octokitResponse;
+    try {
+        octokitResponse = await getContent<ArchiveData>(path, { ref: import.meta.env.VITE_ARCHIVE_REPO });
+    } catch {
+        octokitResponse = null;
+    }
 
-    if (octokitResponse.data) {
-        return octokitResponse.data.content 
+    if (octokitResponse?.data) {
+        return octokitResponse.data.content
     }
     const response = await fetch(import.meta.env.VITE_AI_API_URL, {
         method: "POST",
