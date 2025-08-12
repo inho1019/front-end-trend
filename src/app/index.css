@@ -207,7 +207,6 @@
     @apply all-initial text-gray-900 dark:text-gray-100;
   }
 
-
   pre code {
     @apply bg-transparent p-0 hover:bg-inherit active:bg-inherit text-gray-900 dark:text-gray-100
   }
@@ -231,7 +230,10 @@
     @apply mb-4 pl-24;
   }
   li {
-    @apply mb-2 leading-relaxed;
+    @apply mb-2 all-initial leading-relaxed;
+  }
+  li *:not(code) {
+    @apply all-initial;
   }
   ul li {
     @apply list-disc;
