@@ -1,7 +1,8 @@
 import { Base64 } from "js-base64";
 import { client } from "../octokit-client"
+import type { RestEndpointMethodTypes } from "@octokit/rest";
 
-export const getData = async <T>(path: string) =>  {
+export const getContent = async <T>(path: string, options?: Omit<RestEndpointMethodTypes["repos"]["getContent"]["parameters"], "owner" | "repo" | "path">) =>  {
     const params = new URLSearchParams(window.location.search);
     const cache = params.get("cache");
 
@@ -15,6 +16,7 @@ export const getData = async <T>(path: string) =>  {
                 {
                     'If-None-Match': ''
                 } : {},
+            ...options,
         })
         
         let contentBase64: string | undefined;
@@ -24,7 +26,7 @@ export const getData = async <T>(path: string) =>  {
             throw new Error("Content is not available or not in the expected format.");
         }
         const decodedContent = Base64.decode(contentBase64);
-        const data = JSON.parse(decodedContent) as T[];
+        const data = JSON.parse(decodedContent) as T;
 
         return { data, sha: response.data.sha };
     } catch (error) {

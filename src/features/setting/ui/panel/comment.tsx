@@ -1,15 +1,13 @@
 import { useTheme } from "@shared/lib/theme";
 import Giscus from '@giscus/react';
 import { useMemo } from "react";
-import { useTranslation } from "react-i18next";
 import { useTrans } from "@shared/lib/utils";
+import i18next from "i18next";
 
 export  const Comment = () => {
     const trans = useTrans();
     const { theme } = useTheme();
-    const { i18n } = useTranslation();
 
-    const giscusLanguage = useMemo(() => i18n.language.slice(0, 2), [i18n.language]);
     const giscusTheme = useMemo(() => {
         switch (theme) {
             case "dark":
@@ -36,7 +34,7 @@ export  const Comment = () => {
                 reactionsEnabled="0"
                 inputPosition="top"
                 theme={giscusTheme}
-                lang={giscusLanguage}
+                lang={i18next.language.substring(0, 2)}
             />
         </div>
     )

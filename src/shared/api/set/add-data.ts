@@ -1,11 +1,11 @@
 import { Base64 } from "js-base64";
-import { getData } from "../get/get-data";
+import { getContent } from "../get/get-content";
 import { client } from "../octokit-client";
 
 export const addData = async <T>(path: string, token: string, data: T, message?: string) => {
     try {
         const newData: T[] = []
-        const { data: existingData, sha } = await getData<T>(path);
+        const { data: existingData, sha } = await getContent<T[]>(path);
         if (existingData) {
             newData.push(...existingData);
         }
@@ -16,7 +16,7 @@ export const addData = async <T>(path: string, token: string, data: T, message?:
             repo: import.meta.env.VITE_TARGET_REPO,
             path,
             branch: import.meta.env.VITE_TARGET_BRANCH,
-            message: message ?? "Update data",
+            message: message ?? "Update Data",
             content: Base64.encode(JSON.stringify(newData, null, 2)),
             sha,
         });
