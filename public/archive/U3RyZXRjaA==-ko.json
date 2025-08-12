@@ -1,0 +1,1 @@
+{"content":"<body>\n  <ul>\n    <li>CSS에서 이제 `stretch` 키워드를 사용하여 요소의 높이를 늘릴 수 있습니다.</li>\n    <li>`stretch`는 너비에도 동일하게 적용됩니다.</li>\n    <li>`stretch` 키워드는 `100%` 또는 전체 화면 레이아웃의 `100vh`와 어떻게 다른지에 대한 질문이 많아, 이에 대한 설명을 담은 영상이 제작되었습니다.</li>\n  </ul>\n</body>","createdAt":"2025-08-12T16:41:40.959Z","language":"ko"}
