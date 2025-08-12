@@ -9,6 +9,7 @@ import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { getAiSummary } from "@shared/api";
+import { TypeAnimation } from 'react-type-animation';
 
 export interface TrendPanelProps {
     data: ParserData | null;
@@ -145,9 +146,14 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                         return <Spinner className="size-48 border-7 mx-auto my-30" />;
                                     case "complete":
                                         return (
-                                            <p className="whitespace-pre-wrap animate-fade">
-                                                {aiSummaryContent}
-                                            </p>
+                                            <code className="animate-fade">
+                                                <TypeAnimation
+                                                    style={{ whiteSpace: 'pre-line', minHeight: '108px' }}
+                                                    sequence={[aiSummaryContent]}
+                                                    cursor
+                                                    speed={90}
+                                                />
+                                            </code>
                                         )
                                     case "error":
                                         return (

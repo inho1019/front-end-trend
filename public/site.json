@@ -248,21 +248,6 @@
     }
   },
   {
-    "id": "49249d9b-6fb9-4987-8870-9fa3e89d97ed",
-    "name": "CSS Weekly",
-    "url": "https://css-weekly.com/feed/",
-    "link": "https://css-weekly.com",
-    "description": "Weekly e-mail roundup of latest CSS articles, tutorials, tools and experiments",
-    "image": "https://storage.googleapis.com/site-assets/cO3mNEq3iNort5FF2OLRja4OdBc0OyYwOlE3ZVtKic0_visual-17dbaa190fa",
-    "type": {
-      "title": "title",
-      "content": "content:encoded",
-      "link": "link",
-      "createdAt": "isoDate",
-      "author": "creator"
-    }
-  },
-  {
     "id": "dc93c268-0c5f-4cd9-ac44-831e10f22da9",
     "name": "NHN Cloud Meetup",
     "url": "https://meetup.nhncloud.com/rss",
