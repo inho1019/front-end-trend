@@ -8,7 +8,6 @@ import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
-import i18next from "i18next";
 import { getAiSummary } from "@shared/api";
 
 export interface TrendPanelProps {
@@ -39,16 +38,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         tempDiv.innerHTML = data.content;
         try {
             setAiSummaryStep("loading")
-            const response = await getAiSummary(`
-                    ${tempDiv.textContent || tempDiv.innerText}
-
-                    - 아래 조건을 꼭 지켜서 요약해줘:
-                    - 마크다운 문법 없이, 순수 텍스트로만 작성할 것
-                    - 문단 구분을 위해 줄바꿈은 유지할 것
-                    - 구분을 위한 기호는 사용가능
-                    - 텍스트 외에 다른 형식(코드블럭, 굵은 글씨 등) 절대 사용 금지
-                    - 반드시 ${i18next.language} 언어로 번역해서 작성할 것
-                `)
+            const response = await getAiSummary(data.title, tempDiv.textContent || tempDiv.innerText);
             setAiSummaryContent(response ?? "")
             setAiSummaryStep("complete")
         } catch (error) {
