@@ -1,12 +1,5 @@
 # Front-End Trend
-![ftont-end-trend](https://github.com/user-attachments/assets/e3b25f0d-4747-4b4e-9077-20b7717702aa)<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="12" fill="#1E1E1E"/>
-  <path d="M20 32 L14 26 M14 38 L20 32" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-  <path d="M44 32 L50 26 M50 38 L44 32" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-  <rect x="28" y="20" width="8" height="24" rx="2" fill="#ffffff"/>
-</svg>
-
-
+<img width="128" height="128" alt="logo" src="https://github.com/user-attachments/assets/54c23472-8182-408b-a4fa-186cd6842b81" />
 
 프론트엔드 개발자를 위한 최신 트렌드, 뉴스, 아티클, 오픈소스 등을 한 곳에서 모아보고 관리할 수 있는 RSS 기반 웹 애플리케이션입니다.
 
