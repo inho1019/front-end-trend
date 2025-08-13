@@ -1,4 +1,4 @@
-import { ArrowIcon, DragIcon, XIcon } from "@shared/assets";
+import { AiSummaryIcon, ArrowIcon, DragIcon, XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
 import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
 import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
@@ -132,14 +132,17 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     </div>
                 </div>
                 <div ref={viewerRef} className="flex-1 overflow-y-auto pt-15 space-y-20 max-sm:pb-40">
-                    <details ref={detailsRef} open={false} className="p-15 bg-gray-100 rounded-lg dark:bg-[#222] group">
-                        <summary onClick={() => aiSummaryStep === "pending" && handleAiSummary()}  className="flex flex-row justify-between items-center cursor-pointer font-medium text-lg px-5">
-                            {trans("trend.ai.summary", "AI 요약")}
+                    <details ref={detailsRef} open={false} className="transition-colors duration-300 p-15 bg-gray-100 rounded-lg dark:bg-[#222] group not-open:active:bg-gray-200 dark:not-open:active:bg-[#333]">
+                        <summary onClick={() => aiSummaryStep === "pending" && handleAiSummary()}  className="flex flex-row justify-between items-center cursor-pointer px-5">
+                            <div className="flex flex-row items-center gap-2 text-sm font-semibold">
+                                <AiSummaryIcon />
+                                {trans("trend.ai.summary", "요약")}
+                            </div>
                             <div className="size-fit transition-transform duration-300 rotate-270 group-open:rotate-90">
                                 <ArrowIcon />
                             </div>
                         </summary>
-                        <div className="mt-15">
+                        <div className="mt-15 border-t">
                             {(() => {
                                 switch (aiSummaryStep) {
                                     case "loading":
@@ -154,7 +157,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                     case "error":
                                         return (
                                                 <p className="text-sm font-medium text-gray-400 mx-auto my-30 h-48 flex justify-center items-center">
-                                                    {trans("trend.ai.error", "AI 요약 생성에 실패했습니다.")}
+                                                    {trans("trend.ai.error", "요약 생성에 실패했습니다.")}
                                                 </p>
                                             );
                                     default :
@@ -170,19 +173,19 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 </div>
                 <Button
                     className={twMerge(
-                        "flex items-center text-gray-400 cursor-ew-resize transition-colors duration-300 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden",
+                        "flex items-center text-gray-400 cursor-col-resize transition-colors duration-300 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden",
                         "bg-linear-to-r from-white to-white dark:from-dark dark:to-dark active:from-gray-100/100 active:to-gray-100/0 dark:active:from-gray-800/100 dark:active:to-gray-800/0" 
                     )}
                     onMouseDown={handleResize}
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs text-gray-400 max-sm:justify-end">
-                    <div className="truncate">
+                <div className="absolute w-[calc(100%-30px)] flex flex-row bottom-6 text-xs justify-end font-medium divide-x border-b">
+                    <div className="truncate pr-3">
                         {data?.author ? data.author : "Unknown"}
                     </div>
-                    <div className="shrink-0">
-                        &nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
+                    <div className="shrink-0 pl-3">
+                        {DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
                     </div>
                 </div>
             </div>

@@ -20,6 +20,32 @@ import FavoriteFillIcon from './favorite-fill.svg';
 import FavoriteEmptyIcon from './favorite-empty.svg';
 import DragIcon from './drag-icon.svg';
 import DragCornerIcon from './drag-corner-icon.svg';
+import AiSummaryIcon from './ai-summary-icon.svg';
 import Logo from './logo.png';
 
-export { XIcon, TranslateIcon, TranslateSmallIcon, SearchIcon, MenuIcon, LogoIcon, LogoCircleIcon, CircleXIcon, ResetIcon, ResetIconSmall, ArrowIcon, PlusIcon, CheckIcon, Logo, GithubIcon, TistoryIcon, MailIcon, FileIcon, LineIcon, FavoriteFillIcon, FavoriteEmptyIcon, DragIcon, DragCornerIcon };
+export { 
+    XIcon, 
+    TranslateIcon, 
+    TranslateSmallIcon, 
+    SearchIcon, 
+    MenuIcon, 
+    LogoIcon, 
+    LogoCircleIcon, 
+    CircleXIcon, 
+    ResetIcon, 
+    ResetIconSmall, 
+    ArrowIcon, 
+    PlusIcon, 
+    CheckIcon, 
+    Logo, 
+    GithubIcon, 
+    TistoryIcon, 
+    MailIcon, 
+    FileIcon, 
+    LineIcon, 
+    FavoriteFillIcon, 
+    FavoriteEmptyIcon, 
+    DragIcon, 
+    DragCornerIcon, 
+    AiSummaryIcon 
+};
