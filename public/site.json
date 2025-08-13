@@ -278,21 +278,6 @@
     }
   },
   {
-    "id": "0bb9a76e-78ae-4cc2-8ee7-33f3bf6817de",
-    "name": "SitePoint",
-    "url": "https://www.sitepoint.com/sitepoint.rss",
-    "link": "https://www.sitepoint.com",
-    "description": "Learn CSS | HTML5 | JavaScript | Wordpress | Tutorials-Web Development | Reference | Books and More",
-    "image": "https://www.sitepoint.com/favicon.ico",
-    "type": {
-      "title": "title",
-      "content": "content",
-      "link": "link",
-      "createdAt": "isoDate",
-      "author": "creator"
-    }
-  },
-  {
     "id": "8ab89435-9c06-4369-99c2-2ea265af7550",
     "name": "Friday Front-End",
     "url": "https://fridayfrontend.curated.co/issues.rss",
@@ -316,7 +301,7 @@
     "image": "https://substackcdn.com/image/fetch/$s_!1eXV!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8a5609ae-1239-4400-9491-6010a15c4d60_504x504.png",
     "type": {
       "title": "title",
-      "content": "content",
+      "content": "content:encoded",
       "link": "link",
       "createdAt": "isoDate",
       "author": "creator"
