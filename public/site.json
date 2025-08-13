@@ -276,5 +276,20 @@
       "createdAt": "isoDate",
       "author": "author"
     }
+  },
+  {
+    "id": "0bb9a76e-78ae-4cc2-8ee7-33f3bf6817de",
+    "name": "SitePoint",
+    "url": "https://www.sitepoint.com/sitepoint.rss",
+    "link": "https://www.sitepoint.com",
+    "description": "Learn CSS | HTML5 | JavaScript | Wordpress | Tutorials-Web Development | Reference | Books and More",
+    "image": "https://www.sitepoint.com/favicon.ico",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
