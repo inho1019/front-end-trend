@@ -125,7 +125,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                             to={data?.link ?? "#"}
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="flex-1 cursor-pointer text-sm text-blue-500 underline hover:text-blue-700 transition-colors line-clamp-1 break-all"
+                            className="flex-1 cursor-pointer text-xs text-blue-500 underline hover:text-blue-700 transition-colors line-clamp-1 break-all"
                         >
                             {data?.link}
                         </Link>
@@ -180,7 +180,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-6 text-[10px] justify-end font-medium gap-4">
+                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-8 text-[10px] justify-end font-medium gap-4">
                     <div>{data?.author || "Unknown"}</div><div className="w-1 bg-gray-200 h-6" />
                     <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}
                     </div>
