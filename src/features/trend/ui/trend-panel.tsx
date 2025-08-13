@@ -180,13 +180,12 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-6 text-xs justify-end font-medium gap-5">
+                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-6 text-[10px] justify-end font-medium gap-5">
                     <div className="truncate">
-                        {data?.author ? data.author : "Unknown"}
+                        {data?.author || "Unknown"}
                     </div>
-                    <div className="w-1 h-8 bg-gray-400"/>
                     <div className="shrink-0">
-                        {DateTime.fromISO(data.createdAt).toFormat("yyyy.MM.dd HH:mm")}
+                        &nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}
                     </div>
                 </div>
             </div>
