@@ -120,7 +120,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     </div>
                     <div className="flex flex-row items-center gap-4">
                         <p className="text-xs text-gray-700 font-medium dark:text-gray-300">{data.site.name}</p>
-                        <div className="w-1 bg-gray-200 h-12" />
+                        <div className="w-1 bg-gray-200 h-10" />
                         <Link
                             to={data?.link ?? "#"}
                             target="_blank" 
@@ -180,9 +180,9 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-6 text-[10px] justify-end font-medium">
-                    <div>{data?.author || "Unknown"}</div>
-                    <div className="shrink-0">&nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}
+                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-6 text-[10px] justify-end font-medium gap-4">
+                    <div>{data?.author || "Unknown"}</div><div className="w-1 bg-gray-200 h-6" />
+                    <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}
                     </div>
                 </div>
             </div>
