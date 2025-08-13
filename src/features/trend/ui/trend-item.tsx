@@ -26,7 +26,10 @@ export const TrendItem = ({ data, ...props }: TrendItemProps) => {
                 <p className="text-xs text-gray-500 font-medium">{data.site.name}</p> 
             </div>
             <h2 className="text-xl font-semibold line-clamp-2 leading-24 max-sm:text-lg max-sm:leading-22">{data.title}</h2>
-            <p className="text-[10px] text-gray-400">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</p> 
+            <div className="text-[10px] text-gray-400">
+          <p className="max-w-1/2 truncate">{data?.author ?? "Unknown"}</p><p> | {DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</p>
+
+</div> 
         </div>
     );
 }
