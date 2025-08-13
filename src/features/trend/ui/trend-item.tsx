@@ -13,13 +13,16 @@ export const TrendItem = ({ data, ...props }: TrendItemProps) => {
     const { data: siteData } = useSite()
     const trans = useTrans();
 
-    const image = useMemo(() => siteData?.find(site => site.id === data.site.id)?.image, [data.site.id, siteData])
+    const image = useMemo(() => {
+        const site = siteData?.find(site => site.id === data.site.id)
+        return site?.image ?? `${site?.link}/favicon.ico`
+    }, [data.site.id, siteData])
 
     return (
         <div {...props} draggable={false} className={twMerge("space-y-5", props.className)}>
             <div className="flex flex-row gap-5">
                 <div className="flex justify-center items-center text-xs size-16 rounded-xs overflow-hidden bg-gray-100 dark:bg-[#222] empty:after:content-['👀']">
-                    <img src={image ?? Logo} className="size-full object-cover"/>
+                    <img src={image ?? Logo} className="size-full object-cover" onError={e => e.currentTarget.src = Logo} />
                 </div>
                 <p className="text-xs text-gray-500 font-medium">{data.site.name}</p> 
             </div>

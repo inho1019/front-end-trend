@@ -1,5 +1,5 @@
 import { useFavoriteStore } from "@/store";
-import { FavoriteEmptyIcon, FavoriteFillIcon } from "@shared/assets";
+import { FavoriteEmptyIcon, FavoriteFillIcon, Logo } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useMessage } from "@shared/lib/message";
 import { twMerge, useTrans } from "@shared/lib/utils";
@@ -41,11 +41,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     return (
         <Link {...props} draggable={false} className={twMerge("flex flex-row gap-10", props.className)}>
             <div className="flex items-center justify-center text-xs font-medium bg-gray-100 size-74 rounded-sm dark:bg-[#222] overflow-hidden empty:after:content-['NO-IMAGE']">
-                {
-                    data.image && (
-                        <img src={data.image} className="size-full object-cover" />
-                    )
-                }
+                <img src={data.image ?? `${data.link}/favicon.ico`} className="size-full object-cover" onError={e => e.currentTarget.src = Logo} />
             </div>
             <div className="flex-1">
                 <div className="flex flex-row justify-between gap-10">
