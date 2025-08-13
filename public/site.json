@@ -291,5 +291,20 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "8ab89435-9c06-4369-99c2-2ea265af7550",
+    "name": "Friday Front-End",
+    "url": "https://fridayfrontend.curated.co/issues.rss",
+    "link": "https://frontendfoc.us/",
+    "description": "Front-end development links tweeted daily, emailed weekly.",
+    "image": "https://dxj7eshgz03ln.cloudfront.net/production/publication/logo/5428/153d9543-959d-4604-a63f-89d41eca0569.png",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
