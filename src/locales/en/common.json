@@ -12,8 +12,8 @@
         "createdAt": "Date",
         "copyCode": "Code Copied",
         "ai": {
-            "summary": "AI Summary",
-            "error": "Failed to generate AI summary"
+            "summary": "Summary",
+            "error": "Failed to generate summary"
         }
     },
     "settings": {

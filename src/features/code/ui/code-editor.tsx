@@ -24,7 +24,7 @@ export const CodeEditor = () => {
             detailsRef.current.open = false;
         }
     });
-    const [template, setTemplate] = useState<SandpackPredefinedTemplate>("vite-react-ts");
+    const [template, setTemplate] = useState<SandpackPredefinedTemplate>("react-ts");
     const { currentTheme } = useTheme();
 
     return (
