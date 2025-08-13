@@ -146,7 +146,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                             {(() => {
                                 switch (aiSummaryStep) {
                                     case "loading":
-                                        return <Spinner className="size-48 border-7 mx-auto my-30" />;
+                                        return <Spinner className="size-48 border-7 mx-auto mb-30 mt-45" />;
                                     case "complete":
                                         return (
                                             <div
@@ -156,7 +156,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                         )
                                     case "error":
                                         return (
-                                                <p className="text-sm font-medium text-gray-400 mx-auto my-30 h-48 flex justify-center items-center">
+                                                <p className="text-sm font-medium text-gray-400 mx-auto mb-30 mt-45 h-48 flex justify-center items-center">
                                                     {trans("trend.ai.error", "요약 생성에 실패했습니다.")}
                                                 </p>
                                             );
