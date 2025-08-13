@@ -1,5 +1,5 @@
 import type { ParserData } from "@shared/model/parser";
-import { twMerge, useTrans } from "@shared/lib/utils";
+import { twMerge } from "@shared/lib/utils";
 import { DateTime } from "luxon";
 import { useSite } from "@shared/lib/site";
 import { useMemo } from "react";
@@ -11,7 +11,6 @@ interface TrendItemProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export const TrendItem = ({ data, ...props }: TrendItemProps) => {
     const { data: siteData } = useSite()
-    const trans = useTrans();
 
     const image = useMemo(() => {
         const site = siteData?.find(site => site.id === data.site.id)
