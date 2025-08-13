@@ -321,5 +321,20 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "415ed02f-7fdc-4217-962b-ac9bcd491460",
+    "name": "SWIPE",
+    "url": "https://swipemag.substack.com/feed",
+    "link": "https://swipemag.substack.com",
+    "description": "Empower Your Business with Curated AI, Marketing, and Web Development Insights Delivered Bi-Weekly to your email.",
+    "image": "https://substackcdn.com/image/fetch/$s_!jeUD!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb7ef977-3a00-4d8c-8d48-d31747693de0_406x406.png",
+    "type": {
+      "title": "title",
+      "content": "content:encoded",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creator"
+    }
   }
 ]
