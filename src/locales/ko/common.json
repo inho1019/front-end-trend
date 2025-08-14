@@ -9,7 +9,6 @@
         }
     },
     "trend": {
-        "createdAt": "작성일",
         "copyCode": "코드 복사 완료",
         "ai": {
             "summary": "요약",

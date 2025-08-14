@@ -156,7 +156,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                         )
                                     case "error":
                                         return (
-                                                <p className="text-sm font-medium text-gray-400 mx-auto mb-30 mt-45 h-48 flex justify-center items-center">
+                                                <p className="text-sm font-light mx-auto mb-30 mt-45 h-48 flex justify-center items-center">
                                                     {trans("trend.ai.error", "요약 생성에 실패했습니다.")}
                                                 </p>
                                             );
@@ -180,10 +180,9 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-8 text-[10px] justify-end font-medium gap-4">
-                    <div>{data?.author || "Unknown"}</div><div className="w-1 bg-gray-200 h-6" />
-                    <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}
-                    </div>
+                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-8 text-[10px] justify-end font-medium">
+                    <div>{data?.author || "Unknown"}</div>&nbsp;|&nbsp;
+                    <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</div>
                 </div>
             </div>
         </Panel>

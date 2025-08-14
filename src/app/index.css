@@ -125,7 +125,7 @@
     scrollbar-width: none;
   }
   .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+    @apply hidden
   }
 
   /* 커스텀 스크롤바 */
@@ -168,150 +168,236 @@
 }
 
 @utility viewer {
+  /* 컨테이너 기본 (워드 브레이크 / 국제화 / float clear) */
+  & {
+    @apply leading-relaxed wrap-anywhere hyphens-auto relative;
+  }
+  &::after { /* float 정리 */
+    @apply content-empty block clear-both;
+  }
+
   /* Headings */
-  h1 {
-    @apply text-3xl font-bold my-24;
-  }
-  h2 {
-    @apply text-2xl font-semibold my-24;
-  }
-  h3 {
-    @apply text-xl font-semibold my-12;
-  }
-  h4 {
-    @apply text-lg font-medium mb-3 mt-5;
-  }
-  h5 {
-    @apply text-base font-medium mb-2 mt-4;
-  }
-  h6 {
-    @apply text-sm font-medium mb-2 mt-3;
-  }
+  h1 { @apply text-3xl font-bold my-24; }
+  h2 { @apply text-2xl font-semibold my-24; }
+  h3 { @apply text-xl font-semibold my-12; }
+  h4 { @apply text-lg font-medium mb-3 mt-5; }
+  h5 { @apply text-base font-medium mb-2 mt-4; }
+  h6 { @apply text-sm font-medium mb-2 mt-3; }
+
+  /* Heading 내부 앵커(#) 아이콘 등 */
+  :where(h1,h2,h3,h4,h5,h6) a { @apply no-underline; }
 
   /* Paragraph */
-  p {
-    @apply mb-4 leading-relaxed;
-  }
+  p { @apply mb-4 leading-relaxed; }
+  p:empty { @apply hidden }
+
+  /* 빈 텍스트 노드 사이 여백 과도 방지 */
+  br + br { @apply hidden }
 
   /* Inline code */
-  code {
-    @apply cursor-copy transition-colors bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-300 min-sm:active:bg-gray-400 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-300 max-sm:active:dark:bg-gray-900;
-  }
+  code { @apply cursor-copy transition-colors bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-300 min-sm:active:bg-gray-400 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-300 max-sm:active:dark:bg-gray-900; }
+  a code { @apply bg-transparent text-inherit p-0; }
 
   /* Code block */
-  pre {
-    @apply cursor-copy transition-colors bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-10 rounded mb-6 overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-200 min-sm:active:bg-gray-300 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-200 max-sm:active:dark:bg-gray-900;
-  }
-
-  pre *:not(code):not(table *) {
-    @apply all-initial text-gray-900 dark:text-gray-100;
-  }
-
-  pre code {
-    @apply bg-transparent p-0 hover:bg-inherit active:bg-inherit text-gray-900 dark:text-gray-100
-  }
+  pre { @apply cursor-copy transition-colors bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-10 rounded mb-6 overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-200 min-sm:active:bg-gray-300 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-200 max-sm:active:dark:bg-gray-900; }
+  pre *:not(code):not(table *) { @apply all-initial text-gray-900 dark:text-gray-100; }
+  pre code { @apply bg-transparent p-0 hover:bg-inherit active:bg-inherit text-gray-900 dark:text-gray-100; }
+  pre code[class*="language-"] { @apply block }
+  pre, code { -webkit-overflow-scrolling: touch; }
 
   /* Links */
-  a {
-    @apply text-blue-500 underline hover:text-blue-700 transition-colors break-all;
-  }
-
-  a code {
-    @apply bg-transparent text-inherit p-0;
-  }
+  a { @apply text-blue-500 underline hover:text-blue-700 transition-colors break-all; }
 
   /* Blockquote */
-  blockquote {
-    @apply border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic my-6 text-gray-600 dark:text-gray-300;
-  }
+  blockquote { @apply border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic my-6 text-gray-600 dark:text-gray-300; }
+  blockquote > :first-child { @apply mt-0 }
+  blockquote > :last-child { @apply mb-0 }
 
   /* Lists */
-  ul, ol {
-    @apply flex flex-col gap-10 mb-4 pl-24;
-  }
-  li {
-    @apply mb-2 p-0 leading-relaxed;
-  }
-  li *:not(code) {
-    @apply m-0 p-0 text-base inline;
-  }
-  ul li {
-    @apply list-disc;
-  }
-  ol li {
-    @apply list-decimal;
-  }
+  ul, ol { @apply flex flex-col gap-10 mb-4 pl-24 list-outside; }
+  li { @apply mb-2 p-0 leading-relaxed; }
+  li *:not(code) { @apply m-0 p-0 text-base inline; }
+  ul li { @apply list-disc; }
+  ol li { @apply list-decimal; }
+  ul ul, ul ol, ol ul, ol ol { @apply my-6 }
+  nav ul, nav ol { @apply pl-16; }
+  /* Task list (GitHub) */
+  li:has(> input[type=checkbox]) { @apply list-none }
+  li > input[type=checkbox] { @apply mr-8 }
 
   blockquote ul,
   blockquote ol,
-  blockquote li {
-    @apply list-none;
-  }
+  blockquote li { @apply list-none; }
+
+  /* Definition list */
+  dl { margin: 16px 0; }
+  dt { font-weight: 600; margin-top: 12px; }
+  dd { margin-left: 20px; margin-top: 4px; }
 
   /* HR */
-  hr {
-    @apply border-t border-gray-300 dark:border-gray-600 my-6;
-  }
+  hr { @apply border-t border-gray-300 dark:border-gray-600 my-6; }
 
   /* Images */
-  img {
-    @apply w-full max-w-590 h-auto rounded-md mb-6;
-  }
+  img { @apply w-full max-w-590 h-auto rounded-md mb-6; }
+  /* width/height 속성 가진 경우 원본 비율 유지 후 최대폭 제한 */
+  img[width] { height: auto !important; }
+  img[height] { width: auto; max-width: 100%; }
+
+  /* float 이미지 (legacy align) */
+  img[align="left"], figure[align="left"] { float: left; margin: 0 16px 12px 0; max-width: 50%; }
+  img[align="right"], figure[align="right"] { float: right; margin: 0 0 12px 16px; max-width: 50%; }
 
   /* Strong & emphasis */
-  strong, b {
-    @apply font-bold;
-  }
-  em, i {
-    @apply italic;
-  }
+  strong, b { @apply font-bold; }
+  em, i { @apply italic; }
 
   /* Tables */
-  table {
-    @apply w-full mb-6 text-left text-sm overflow-x-auto;
-  }
-  th, td {
-    @apply px-3 py-2;
-  }
-  th {
-    @apply bg-gray-100 dark:bg-gray-800 font-semibold;
-  }
+  table { @apply w-full mb-6 text-left text-sm overflow-x-auto; border-collapse: collapse; }
+  th, td { @apply px-3 py-2; }
+  th { @apply bg-gray-100 dark:bg-gray-800 font-semibold; }
+  /* 가독성 zebra */
+  tbody tr:nth-child(odd) { @apply bg-gray-50 dark:bg-gray-900; }
+  tbody tr:hover { @apply bg-gray-100 dark:bg-gray-800; }
+  :where(th,td) { @apply border border-gray-200 dark:border-gray-700 align-top; }
 
-  /* SVGs (often used in copied HTML like icons) */
-  svg {
-    @apply hidden;
-  }
+  /* 스크롤 테이블 래퍼 (테이블이 너무 넓을 때) */
+  table:not([data-no-wrap]) { overflow: auto; display: block; }
+
+  /* SVGs (아이콘이 과도할 경우 숨기되 코드블럭 내/수학 내 제외) */
+  svg:not(:where(pre svg, code svg, .allow-svg svg)) { @apply hidden; }
 
   /* Extra inline elements */
-  del {
-    @apply line-through text-gray-500;
-  }
-  mark {
-    @apply bg-yellow-200 dark:bg-yellow-400 text-black px-1 rounded;
-  }
-  kbd {
-    @apply bg-gray-200 dark:bg-gray-700 text-xs font-mono px-1.5 py-0.5 rounded;
-  }
-  sup {
-    @apply text-xs align-super;
-  }
-  sub {
-    @apply text-xs align-sub;
+  del { @apply line-through text-gray-500; }
+  mark { @apply bg-yellow-200 dark:bg-yellow-400 text-black px-1 rounded; }
+  kbd { @apply bg-gray-200 dark:bg-gray-700 text-xs font-mono px-1.5 py-0.5 rounded; }
+  sup { @apply text-xs align-super; }
+  sub { @apply text-xs align-sub; }
+
+  /* Collapsible sections */
+  details { @apply mb-4 bg-gray-50 dark:bg-gray-800 rounded p-4; }
+  summary { @apply cursor-pointer font-semibold mb-2; }
+
+  /* Figure */
+  figure { @apply size-fit; margin: 1.5rem 0; }
+  figcaption { @apply text-sm text-gray-500 dark:text-gray-400 mt-4 text-center; }
+
+  /* Media */
+  iframe { @apply w-full rounded-md; max-width: 100%; }
+  iframe[width][height] { height: auto; aspect-ratio: attr(width) / attr(height); }
+  video, audio, embed, object { max-width: 100%; display: block; margin: 16px 0; }
+
+  /* 반응형 유튜브 등 (inline style width/height 강제 덮어쓰기) */
+  :where(.youtube-player, .video-container, .responsive-iframe) { position: relative; width: 100% !important; padding-bottom: 56.25%; height: 0 !important; }
+  :where(.youtube-player iframe, .video-container iframe, .responsive-iframe iframe) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; }
+
+  /* 수학 수식 (MathJax / KaTeX 클래스) */
+  .MathJax, .katex-display { overflow-x: auto; overflow-y: hidden; }
+  .katex { font-size: 1.05em; }
+
+  /* 인용/코드/표 안쪽 마지막 여백 정리 */
+  :where(blockquote, pre, table) > :last-child { @apply mb-0 }
+  :where(blockquote, pre, table) > :first-child { @apply mt-0 }
+
+  /* 잘 알려진 광고 / 스크립트 삽입 잔여 wrapper 최소화 */
+  :where(.adsbygoogle, .ad, [id^="ad_"], [class*="advert"], .sponsored) { display: none !important; }
+
+  /* 접근성: 포커스 가능한 요소 */
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+  /* legacy align 속성 정렬 보정 */
+  :where(p[align], div[align], table[align]) { text-align: attr(align center); }
+
+  /* 다크모드에서 내용 안쪽 default 배경 강제 (밝은 inline style 대비) */
+  [style*="background:"], [bgcolor] {
+    @apply dark:bg-transparent;
   }
 
-  /* Collapsible sections (optional) */
-  details {
-    @apply mb-4 bg-gray-50 dark:bg-gray-800 rounded p-4;
-  }
-  summary {
-    @apply cursor-pointer font-semibold mb-2;
-  }
+  /* 긴 연속 문자열 (토큰/해시) 줄바꿈 */
+  & :where(code, pre, a, p, li, td) { word-break: break-word; }
 
-  figure {
-    @apply size-fit
-  }
+  /* 표 캡션 */
+  caption { @apply text-sm text-gray-500 dark:text-gray-400 mb-2 font-medium; }
 
-  iframe {
-    @apply w-full rounded-md;
+  /* small */
+  small { font-size: 0.825em; opacity: 0.85; }
+
+  /* 버튼/폼 요소가 들어올 경우 최소화 (대부분 RSS에는 드묾) */
+  button, input, textarea, select { font: inherit; color: inherit; }
+  textarea { width: 100%; }
+
+  /* ---- Newsletter / RSS 변형 구조 보정 ---- */
+  /* 레이아웃으로 남은 단일 셀 wrapper table (td 하나 & 그 안에 table 하나) */
+  table:has(> tbody > tr:only-child > td:only-child > table:only-child),
+  table:has(> tbody > tr:only-child > td:only-child > div:only-child:has(table:only-child)) {
+    /* 레이아웃 목적 table 제거 느낌 */
+    border: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
+  /* 연속 table 간 간격 축소 (뉴스레터 카드형) */
+  table + table { margin-top: 12px; }
+  /* table 안의 단순 p 하나만 있는 경우 여백 과다 제거 */
+  td > p:only-child { margin: 8px 0; }
+
+  /* pre/code 안에 block 요소(표/테이블/figure 등) 들어와 "코드 박스"로 잘못 표현되는 경우 일반 컨텐츠로 재스타일 */
+  pre:has(table),
+  pre:has(div table),
+  pre:has(> code > table),
+  pre:has(> code > div:has(table)),
+  pre:has(> code > p:has(table)),
+  pre:has(> code > div > div),
+  pre:has(> code > table + table) {
+    @apply bg-transparent p-0 m-0 rounded-none shadow-none text-base dark:text-inherit;
+    font-family: inherit !important;
+    border: 0 !important;
+    overflow: visible !important;
+    cursor: default;
+  }
+  pre:has(table) code { @apply bg-transparent p-0 m-0 text-inherit font-normal; white-space: normal; }
+
+  /* sanitize 로직에서 unwrap 된 __unwrapped-pre (div) – 일반 블록 컨텐츠 스타일 */
+  .__unwrapped-pre { @apply mb-4 leading-relaxed; }
+  .__unwrapped-pre pre { /* 혹시 내부에 다시 pre 남았다면 기본 유지 */ }
+
+  /* 코드가 실제 텍스트보다 태그를 과다 포함해 wrap 된 경우(휴리스틱) monospace 해제 */
+  pre:has(code) code:has(a, img, table, div, p) { font-family: inherit !important; }
+
+  /* 빈 wrapper div/paragraph 반복 제거 가시성 향상 */
+  :where(div:empty, span:empty):not([class]) { @apply hidden }
+
+  /* sponsor / 광고 문구 희미화 (span sponsor 등) */
+  span:supports(selector(:has(*))) {}
+  span:where(:not([class])):matches(:contains("sponsor"), :contains("Sponsored")) {}
+  span, p { /* 위 2줄은 안전하게 주석 처리 필요시 제거 가능 */ }
+  span:where(.sponsor, .sponsored), p:where(.sponsor, .sponsored) { opacity: .85; }
+
+  /* 이미지가 단독으로 table 셀 안에 있을 때 전체 폭 */
+  td > a:only-child > img:only-child,
+  td > img:only-child { display: block; margin: 0 auto 16px; height: auto; }
+
+  /* 잉여 nested table 이 많은 경우 최대 폭 제한 */
+  table table table { max-width: 100%; }
+
+  /* Pre 내부 강제 줄바꿈 방지되던 긴 텍스트가 아닌 경우 white-space 개선 */
+  pre:not(:has(code[class*="language-"])) { white-space: pre-wrap; }
+
+  /* code/inline 클릭 복사 힌트 제거 (레이아웃 해제된 경우) */
+  pre:has(table) { pointer-events: auto; }
+
+  /* 중첩 pre (newsletter 안 또 다른 pre) 축소 */
+  pre pre { @apply m-0 p-0 bg-transparent; }
+
+  /* 강제로 monospace가 아니어야 할 다큐 헤더 텍스트 (⚛️ React Status 등) */
+  pre:has(> code > div) { font-family: inherit !important; }
+
+  /* 끝 부분 과도한 빈 table 제거 (CSS 레이아웃 영향 최소화) */
+  table:has(> tbody > tr:only-child > td:only-child:empty) { display: none !important; }
+  table:has(> tbody > tr > td:empty) td:empty { padding: 0 !important; }
+
+  /* 복사 UI용 가짜 badge 있을 시 위치 조정 */
+  pre .__copy-hint { top: 6px; right: 8px; }
+
+  /* 마지막 요소 마진 정리 (기존 규칙 보강) */
+  & > :last-child { @apply mb-0 }
 }

@@ -9,7 +9,6 @@
         }
     },
     "trend": {
-        "createdAt": "Date",
         "copyCode": "Code Copied",
         "ai": {
             "summary": "Summary",
