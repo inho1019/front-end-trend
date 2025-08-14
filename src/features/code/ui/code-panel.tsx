@@ -136,7 +136,7 @@ export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProp
                             </Button>
                         </div>
                     </div>
-                    <div className="overflow-y-auto pb-30 max-sm:pb-50 h-full" >
+                    <div className="overflow-y-auto scrollbar-hide pb-30 max-sm:pb-50 h-full" >
                         <CodeEditor key={resetTrigger.toString()} />
                     </div>
                 </div>

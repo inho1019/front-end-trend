@@ -230,9 +230,9 @@
   blockquote li { @apply list-none; }
 
   /* Definition list */
-  dl { margin: 16px 0; }
-  dt { font-weight: 600; margin-top: 12px; }
-  dd { margin-left: 20px; margin-top: 4px; }
+  dl { @apply my-16 }
+  dt { @apply font-semibold mt-12 }
+  dd { @apply ml-20 mt-4; }
 
   /* HR */
   hr { @apply border-t border-gray-300 dark:border-gray-600 my-6; }
@@ -240,19 +240,19 @@
   /* Images */
   img { @apply w-full max-w-590 h-auto rounded-md mb-6; }
   /* width/height 속성 가진 경우 원본 비율 유지 후 최대폭 제한 */
-  img[width] { height: auto !important; }
-  img[height] { width: auto; max-width: 100%; }
+  img[width] { @apply h-auto! }
+  img[height] { @apply w-auto max-w-full }
 
   /* float 이미지 (legacy align) */
-  img[align="left"], figure[align="left"] { float: left; margin: 0 16px 12px 0; max-width: 50%; }
-  img[align="right"], figure[align="right"] { float: right; margin: 0 0 12px 16px; max-width: 50%; }
+  img[align="left"], figure[align="left"] { @apply float-left mr-16 mb-12 max-w-1/2; }
+  img[align="right"], figure[align="right"] { @apply float-right ml-16 mb-12 max-w-1/2; }
 
   /* Strong & emphasis */
   strong, b { @apply font-bold; }
   em, i { @apply italic; }
 
   /* Tables */
-  table { @apply w-full mb-6 text-left text-sm overflow-x-auto; border-collapse: collapse; }
+  table { @apply w-full mb-6 text-left text-sm overflow-x-auto border-collapse }
   th, td { @apply px-3 py-2; }
   th { @apply bg-gray-100 dark:bg-gray-800 font-semibold; }
   /* 가독성 zebra */
@@ -261,7 +261,7 @@
   :where(th,td) { @apply border border-gray-200 dark:border-gray-700 align-top; }
 
   /* 스크롤 테이블 래퍼 (테이블이 너무 넓을 때) */
-  table:not([data-no-wrap]) { overflow: auto; display: block; }
+  table:not([data-no-wrap]) { @apply overflow-auto block }
 
   /* SVGs (아이콘이 과도할 경우 숨기되 코드블럭 내/수학 내 제외) */
   svg:not(:where(pre svg, code svg, .allow-svg svg)) { @apply hidden; }
@@ -278,31 +278,31 @@
   summary { @apply cursor-pointer font-semibold mb-2; }
 
   /* Figure */
-  figure { @apply size-fit; margin: 1.5rem 0; }
+  figure { @apply size-fit my-24; }
   figcaption { @apply text-sm text-gray-500 dark:text-gray-400 mt-4 text-center; }
 
   /* Media */
-  iframe { @apply w-full rounded-md; max-width: 100%; }
-  iframe[width][height] { height: auto; aspect-ratio: attr(width) / attr(height); }
-  video, audio, embed, object { max-width: 100%; display: block; margin: 16px 0; }
+  iframe { @apply w-full rounded-md max-w-full; }
+  iframe[width][height] { aspect-ratio: attr(width) / attr(height);  @apply h-auto; }
+  video, audio, embed, object { @apply max-w-full block my-4; }
 
   /* 반응형 유튜브 등 (inline style width/height 강제 덮어쓰기) */
-  :where(.youtube-player, .video-container, .responsive-iframe) { position: relative; width: 100% !important; padding-bottom: 56.25%; height: 0 !important; }
-  :where(.youtube-player iframe, .video-container iframe, .responsive-iframe iframe) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; }
+  :where(.youtube-player, .video-container, .responsive-iframe) { @apply relative w-full! pb-[56.25%] h-0!; }
+  :where(.youtube-player iframe, .video-container iframe, .responsive-iframe iframe) { @apply absolute inset-0 w-full! h-full!; }
 
   /* 수학 수식 (MathJax / KaTeX 클래스) */
-  .MathJax, .katex-display { overflow-x: auto; overflow-y: hidden; }
-  .katex { font-size: 1.05em; }
+  .MathJax, .katex-display { @apply overflow-x-auto overflow-y-hidden; }
+  .katex { @apply text-[1.05em]; }
 
   /* 인용/코드/표 안쪽 마지막 여백 정리 */
   :where(blockquote, pre, table) > :last-child { @apply mb-0 }
   :where(blockquote, pre, table) > :first-child { @apply mt-0 }
 
   /* 잘 알려진 광고 / 스크립트 삽입 잔여 wrapper 최소화 */
-  :where(.adsbygoogle, .ad, [id^="ad_"], [class*="advert"], .sponsored) { display: none !important; }
+  :where(.adsbygoogle, .ad, [id^="ad_"], [class*="advert"], .sponsored) { @apply hidden! }
 
   /* 접근성: 포커스 가능한 요소 */
-  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { @apply outline-2 outline-current outline-offset-2; }
 
   /* legacy align 속성 정렬 보정 */
   :where(p[align], div[align], table[align]) { text-align: attr(align center); }
