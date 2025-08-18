@@ -29,7 +29,7 @@
       "@pages/*": ["./src/pages/*"],
       "@features/*": ["./src/features/*"],
       "@shared/*": ["./src/shared/*"],
-
+      "@widgets/*": ["./src/widgets/*"],
       "@/*": ["./src/*"]
     }
   },

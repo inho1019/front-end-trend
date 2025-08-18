@@ -1,5 +1,4 @@
 import { Header, Footer, MainContainer } from "@shared/ui/layout";
-import { TrendList } from "./initial/trend-list";
 import { TrendSearch } from "@features/trend";
 import { MenuIcon } from "@shared/assets";
 import { SettingsPanel } from "@features/setting";
@@ -10,6 +9,7 @@ import { twMerge } from "@shared/lib/utils";
 import { GoogleTranslateButton } from "@features/google-translate";
 import { useCodePanel } from "@features/code";
 import { useScreen } from "@shared/lib/screen";
+import { TrendList } from "@widgets/trend";
 
 
 const TrendPage = () => {

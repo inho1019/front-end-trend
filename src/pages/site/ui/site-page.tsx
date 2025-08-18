@@ -1,13 +1,13 @@
 import { Header, Footer, MainContainer } from "@shared/ui/layout";
 import { ArrowIcon, PlusIcon } from "@shared/assets";
 import { useNavigate } from "react-router";
-import { SiteList } from "./initial/site-list";
 import { useTrans } from "@shared/lib/utils";
 import { Button } from "@shared/ui/common";
 import { AddSitePanel } from "@features/site/ui/add-site-panel";
 import { usePanelController } from "@shared/lib/panel";
 import { GoogleTranslateButton } from "@features/google-translate";
 import { useScreen } from "@shared/lib/screen";
+import { SiteList } from "@widgets/site";
 
 const SitePage = () => {
     const { activatingRef } = useScreen();
