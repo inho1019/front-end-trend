@@ -21,7 +21,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const panelRef = useRef<HTMLDivElement>(null);
     const detailsRef = useRef<HTMLDetailsElement>(null);
 
-    useScrollingObserver(viewerRef);
+    useScrollingObserver(viewerRef, [data]);
 
     const [aiSummaryContent, setAiSummaryContent] = useState("")
     const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete" | "error">("pending")

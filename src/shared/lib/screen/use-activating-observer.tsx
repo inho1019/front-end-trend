@@ -1,7 +1,7 @@
-import { useEffect, type RefObject } from 'react';
+import { useEffect, type DependencyList, type RefObject } from 'react';
 import { useScreen } from './use-screen';
 
-export const useScrollingObserver = (ref: RefObject<HTMLElement | null>) => {
+export const useScrollingObserver = (ref: RefObject<HTMLElement | null>, deps?: DependencyList) => {
     const { setScrolling } = useScreen();
 
     useEffect(() => {
@@ -12,7 +12,6 @@ export const useScrollingObserver = (ref: RefObject<HTMLElement | null>) => {
 
         const handleScroll = () => {
             setScrolling(true);
-            console.log("Scrolling detected");
             if (timeoutId) clearTimeout(timeoutId);
             timeoutId = setTimeout(() => setScrolling(false), 300);
         };
@@ -23,5 +22,5 @@ export const useScrollingObserver = (ref: RefObject<HTMLElement | null>) => {
             element.removeEventListener('scroll', handleScroll);
             if (timeoutId) clearTimeout(timeoutId);
         };
-    }, [ref, setScrolling]);
+    }, [ref, setScrolling, deps]);
 };
