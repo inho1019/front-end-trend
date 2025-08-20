@@ -39,7 +39,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
         tempDiv.innerHTML = data.content;
         try {
             setAiSummaryStep("loading")
-            const response = await getAiSummary(data.title, tempDiv.textContent || tempDiv.innerText);
+            const response = await getAiSummary(data.title, data.createdAt, data?.link ?? "", tempDiv.textContent || tempDiv.innerText);
             setAiSummaryContent(response ?? "")
             setAiSummaryStep("complete")
         } catch (error) {
