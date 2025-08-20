@@ -1,12 +1,12 @@
 import { Outlet, useLocation } from "react-router";
 import { useEffect } from "react";
-import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
+import { useScrollingObserver } from "@shared/lib/screen/use-activating-observer";
 import { useScreen } from "@shared/lib/screen";
 
 export const Layout = () => {
     const { pathname } = useLocation();
     const { scrollRef } = useScreen();
-    useActivatingObserver(scrollRef, [pathname]);
+    useScrollingObserver(scrollRef);
 
     useEffect(() => {
         if (scrollRef.current) {

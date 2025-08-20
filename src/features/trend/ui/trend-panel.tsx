@@ -1,6 +1,6 @@
 import { AiSummaryIcon, ArrowIcon, DragIcon, XIcon } from "@shared/assets";
 import { useMessage } from "@shared/lib/message";
-import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
+import { useScrollingObserver } from "@shared/lib/screen/use-activating-observer";
 import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
 import { Button, Spinner } from "@shared/ui/common";
@@ -21,7 +21,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const panelRef = useRef<HTMLDivElement>(null);
     const detailsRef = useRef<HTMLDetailsElement>(null);
 
-    useActivatingObserver(viewerRef, [data]);
+    useScrollingObserver(viewerRef);
 
     const [aiSummaryContent, setAiSummaryContent] = useState("")
     const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete" | "error">("pending")
