@@ -291,5 +291,20 @@
       "createdAt": "isoDate",
       "author": "creator"
     }
+  },
+  {
+    "id": "59aa16a6-e649-455d-a3db-b4f5b0bca471",
+    "name": "MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/blog/rss.xml",
+    "link": "https://developer.mozilla.org/en-US/blog/",
+    "description": "The MDN Web Docs blog publishes articles about web development, open source software, web platform updates, tutorials, changes and updates to MDN, and more.",
+    "image": "https://developer.mozilla.org/mdn-social-share.png",
+    "type": {
+      "title": "title",
+      "content": "description",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "author"
+    }
   }
 ]
