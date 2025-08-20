@@ -132,7 +132,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     </div>
                 </div>
                 <div ref={viewerRef} className="flex-1 overflow-y-auto pt-15 space-y-20 max-sm:pb-40">
-                    <details ref={detailsRef} open={false} className="transition-colors duration-300 p-15 bg-gray-100 rounded-lg dark:bg-[#222] group not-open:active:bg-gray-200 dark:not-open:active:bg-[#333]">
+                    <details ref={detailsRef} open={false} className="transition-colors duration-300 p-15 bg-gray-50 rounded-lg dark:bg-[#222] group not-open:active:bg-gray-100 dark:not-open:active:bg-[#333]">
                         <summary onClick={() => aiSummaryStep === "pending" && handleAiSummary()}  className="flex flex-row justify-between items-center cursor-pointer px-5">
                             <div className="flex flex-row items-center gap-2 text-sm font-semibold">
                                 <AiSummaryIcon />
@@ -142,7 +142,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                 <ArrowIcon />
                             </div>
                         </summary>
-                        <div className="mt-15 border-t">
+                        <div className="mt-15">
                             {(() => {
                                 switch (aiSummaryStep) {
                                     case "loading":
