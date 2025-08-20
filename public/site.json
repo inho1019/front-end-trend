@@ -301,7 +301,7 @@
     "image": "https://developer.mozilla.org/mdn-social-share.png",
     "type": {
       "title": "title",
-      "content": "description",
+      "content": "content",
       "link": "link",
       "createdAt": "isoDate",
       "author": "author"
