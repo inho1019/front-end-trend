@@ -1,20 +1,21 @@
 import { Outlet, useLocation } from "react-router";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useActivatingObserver } from "@shared/lib/screen/use-activating-observer";
+import { useScreen } from "@shared/lib/screen";
 
 export const Layout = () => {
     const { pathname } = useLocation();
-    const layoutRef = useRef<HTMLDivElement>(null);
-    useActivatingObserver(layoutRef, [pathname]);
+    const { scrollRef } = useScreen();
+    useActivatingObserver(scrollRef, [pathname]);
 
     useEffect(() => {
-        if (layoutRef.current) {
-            layoutRef.current.scrollTo(0, 0);
+        if (scrollRef.current) {
+            scrollRef.current.scrollTo(0, 0);
         }
-    }, [pathname])
+    }, [pathname, scrollRef])
 
     return (
-        <div ref={layoutRef} className="overflow-y-auto flex flex-col h-dvh">
+        <div ref={scrollRef} className="overflow-y-auto flex flex-col h-dvh">
             <Outlet />
         </div>
     );

@@ -15,7 +15,7 @@ import { TrendList } from "@widgets/trend";
 const TrendPage = () => {
     const { isOpen: isSettingOpen, openPanel: openSettingPanel, closePanel: closeSettingPanel } = usePanelController("setting-panel");
     const { isOpen: isCodeOpen, isHidden, setIsOpen: setIsCodeOpen, showPanel: showCode } = useCodePanel();
-    const { activatingRef } = useScreen();
+    const { scrolling, scrollTop } = useScreen();
 
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
@@ -37,8 +37,8 @@ const TrendPage = () => {
                         <code className="font-jamsil">FE Trend</code>
                     </Button>
                 }
-                center={<TrendSearch className="min-2xl:max-w-480" />} 
-                right={<div className="w-93 max-2xl:hidden"/>}  
+                center={<TrendSearch />} 
+                right={<div aria-hidden={scrollTop > 15} className="transition-all duration-500 w-93 max-2xl:hidden aria-hidden:w-0"/>}  
                 className="gap-10"
             />
             <SettingsPanel isOpen={isSettingOpen} onClose={closeSettingPanel} />
@@ -46,7 +46,7 @@ const TrendPage = () => {
                 <TrendList />
             </MainContainer>
             <Footer />
-            <div ref={activatingRef} className="group" aria-hidden={false}>
+            <div className="group" aria-hidden={scrolling}>
                 <GoogleTranslateButton
                     className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
                 />

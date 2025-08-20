@@ -1,7 +1,10 @@
 import { createContext, useContext, type RefObject } from "react";
 
 type ScreenContextType = {
-  activatingRef: RefObject<HTMLDivElement> | null;
+  scrolling: boolean;
+  setScrolling: (value: boolean) => void;
+  scrollRef: RefObject<HTMLDivElement | null>;
+  scrollTop: number;
   isMobile: boolean;
   screenWidth: number;
 };

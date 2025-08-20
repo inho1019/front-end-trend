@@ -2,19 +2,18 @@ import { useEffect, type DependencyList, type RefObject } from 'react';
 import { useScreen } from './use-screen';
 
 export const useActivatingObserver = (ref: RefObject<HTMLElement | null>, deps?: DependencyList) => {
-    const { activatingRef } = useScreen();
+    const { setScrolling } = useScreen();
 
     useEffect(() => {
         const element = ref.current;
-        const activatingElement = activatingRef?.current;
-        if (!element || !activatingElement) return;
+        if (!element) return;
 
         let timeoutId: NodeJS.Timeout | null = null;
 
         const handleScroll = () => {
-            activatingElement.ariaHidden = "true";
+            setScrolling(true);
             if (timeoutId) clearTimeout(timeoutId);
-            timeoutId = setTimeout(() => activatingElement.ariaHidden = "false", 300);
+            timeoutId = setTimeout(() => setScrolling(false), 300);
         };
 
         element.addEventListener('scroll', handleScroll);
@@ -23,5 +22,5 @@ export const useActivatingObserver = (ref: RefObject<HTMLElement | null>, deps?:
             element.removeEventListener('scroll', handleScroll);
             if (timeoutId) clearTimeout(timeoutId);
         };
-    }, [ref, deps, activatingRef]);
+    }, [ref, deps, setScrolling]);
 };

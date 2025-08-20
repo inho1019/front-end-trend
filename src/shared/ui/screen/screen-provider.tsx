@@ -2,10 +2,12 @@ import { ScreenContext } from "@shared/lib/screen";
 import { useEffect, useMemo, useRef, useState, type PropsWithChildren } from "react"
 
 export const ScreenProvider = ({ children }: PropsWithChildren) => {
-    const activatingRef = useRef<HTMLDivElement>(null!);
-      
+    const scrollRef = useRef<HTMLDivElement>(null);
+
     const [isMobile, setIsMobile] = useState(false);
     const [screenWidth, setScreenWidth] = useState(0);
+    const [scrollTop, setScrollTop] = useState(0);
+    const [scrolling, setScrolling] = useState(false);
 
     useEffect(() => {
         const updateWindowDimensions = () => {
@@ -27,12 +29,26 @@ export const ScreenProvider = ({ children }: PropsWithChildren) => {
         };
     }, []);
 
+    useEffect(() => {
+        const scrollNode = scrollRef.current;
+        const handleScroll = () => {
+            setScrollTop(scrollNode?.scrollTop || 0);
+        };
+        scrollNode?.addEventListener("scroll", handleScroll);
+        return () => {
+            scrollNode?.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <ScreenContext.Provider value={useMemo(() => ({
-            activatingRef,
+            scrolling,
+            setScrolling,
+            scrollRef,
+            scrollTop,
             isMobile,
             screenWidth
-        }), [isMobile, screenWidth])}>
+        }), [isMobile, screenWidth, scrollTop, scrolling])}>
             {children}
         </ScreenContext.Provider>
     )

@@ -10,7 +10,7 @@ import { useScreen } from "@shared/lib/screen";
 import { SiteList } from "@widgets/site";
 
 const SitePage = () => {
-    const { activatingRef } = useScreen();
+    const { scrolling } = useScreen();
 
     const trans = useTrans();
     const navigate = useNavigate();
@@ -35,7 +35,7 @@ const SitePage = () => {
             <MainContainer className="pt-5 max-sm:pt-5">
                 <SiteList />
             </MainContainer>
-            <div ref={activatingRef} className="group" aria-hidden={false}>
+            <div className="group" aria-hidden={scrolling}>
                 <GoogleTranslateButton className="transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0" />
             </div>
             <Footer />
