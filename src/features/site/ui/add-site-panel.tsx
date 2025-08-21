@@ -71,15 +71,15 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
         >
             <div className="relative rounded-xl flex flex-col bg-white p-15 pb-30 h-full dark:bg-dark panel-shadow">
                 <div className="flex flex-col gap-20 h-full">
-                    <div className="flex flex-row justify-between gap-5 pb-10 border-b border-b-gray-200">
-                        <h1 className="text-lg font-jamsil group-open:line-clamp-2 group-open:max-sm:line-clamp-1">
+                    <div className="flex flex-row justify-between gap-5 pb-10 border-b border-b-gray-200 dark:border-b-[#666]">
+                        <h1 className="text-lg group-open:line-clamp-2 group-open:max-sm:line-clamp-1">
                             {trans("site.add", "사이트 등록")}
                         </h1>
                         <Button className="self-start" onClick={onClose}>
                             <XIcon />
                         </Button>
                     </div>
-                    <form onChange={() => setFormState("idle")} onSubmit={handleSubmit} className="flex-1 flex flex-col gap-10 px-10 overflow-y-auto max-sm:px-0 pb-30">
+                    <form onChange={() => setFormState("idle")} onSubmit={handleSubmit} className="flex-1 flex flex-col gap-10 px-10 overflow-y-auto scrollbar-hide max-sm:px-0 pb-30">
                         <div className="flex flex-col gap-4">
                             <label className="w-fit pl-4 text-xs font-medium text-gray-700 dark:text-gray-300 required-label">
                                 {trans("site.name", "사이트명")}
