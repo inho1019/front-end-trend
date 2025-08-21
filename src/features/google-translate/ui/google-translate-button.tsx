@@ -13,11 +13,11 @@ export const GoogleTranslateButton = ({ className, ...props }: GoogleTranslateBu
 
     return (
         <Button
-            className={twMerge("flex items-center justify-center size-38 bg-white border border-black cursor-pointer rounded-full", className)}
+            className={twMerge("flex items-center justify-center size-38 bg-white border dark:bg-dark cursor-pointer rounded-full", className)}
             onClick={toggleTranslate}
             {...props}
         >
-            <div aria-checked={isEnabled} className="text-black aria-checked:animate-spin duration-500">
+            <div aria-checked={isEnabled} className="aria-checked:animate-spin duration-500">
                 <TranslateIcon />
             </div>
         </Button>

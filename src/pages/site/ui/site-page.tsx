@@ -8,9 +8,11 @@ import { usePanelController } from "@shared/lib/panel";
 import { GoogleTranslateButton } from "@features/google-translate";
 import { useScreen } from "@shared/lib/screen";
 import { SiteList } from "@widgets/site";
+import { ScrollToTopButton } from "@features/common";
+import { twMerge } from "tailwind-merge";
 
 const SitePage = () => {
-    const { scrolling } = useScreen();
+    const { scrolling, scrollRef, scrollTop } = useScreen();
 
     const trans = useTrans();
     const navigate = useNavigate();
@@ -36,6 +38,11 @@ const SitePage = () => {
                 <SiteList />
             </MainContainer>
             <div className="group" aria-hidden={scrolling}>
+                <ScrollToTopButton
+                    scrollRef={scrollRef}
+                    aria-disabled={scrollTop < 15 || scrolling}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none")}
+                />
                 <GoogleTranslateButton className="transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0" />
             </div>
             <Footer />

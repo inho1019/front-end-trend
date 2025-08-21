@@ -10,6 +10,7 @@ import CircleXIcon from './circle-x-icon.svg';
 import ResetIcon from './reset-icon.svg';
 import ResetIconSmall from './reset-icon-small.svg';
 import ArrowIcon from './arrow-icon.svg';
+import ArrowIconThin from './arrow-icon-thin.svg';
 import PlusIcon from './plus-icon.svg';
 import CheckIcon from './check-icon.svg';
 import GithubIcon from './github-icon.svg';
@@ -34,7 +35,8 @@ export {
     CircleXIcon, 
     ResetIcon, 
     ResetIconSmall, 
-    ArrowIcon, 
+    ArrowIcon,
+    ArrowIconThin,
     PlusIcon, 
     CheckIcon, 
     Logo, 

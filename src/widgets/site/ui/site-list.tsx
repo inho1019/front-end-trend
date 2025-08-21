@@ -1,5 +1,4 @@
-import { LoadingContainer } from "@features/common";
-import { EmptyContainer } from "@features/common/ui/empty-container";
+import { EmptyContainer, LoadingContainer } from "@features/common";
 import { SiteItem } from "@features/site";
 import { useSite } from "@shared/lib/site";
 
@@ -10,7 +9,7 @@ export const SiteList = () => {
         <>
             {
                 loading ? (
-                    <LoadingContainer /> 
+                    <LoadingContainer className="pt-70 max-sm:pt-30" /> 
                 ) : (
                     !data || data.length <= 0 ? (
                         <EmptyContainer />

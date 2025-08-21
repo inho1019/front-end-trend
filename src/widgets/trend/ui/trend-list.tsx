@@ -1,10 +1,9 @@
-import { LoadingContainer } from "@features/common";
-import { EmptyContainer } from "@features/common/ui/empty-container";
+import { EmptyContainer, LoadingContainer } from "@features/common";
 import { TrendItem, TrendPanel } from "@features/trend";
 import { useData } from "@shared/lib/data";
 import { usePanelController } from "@shared/lib/panel";
 import type { ParserData } from "@shared/model/parser";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 
 export const TrendList = () => {
@@ -26,11 +25,17 @@ export const TrendList = () => {
         closePanel();
     }, [closePanel]);
     
+    useEffect(() => {
+        if (!selectedData) {
+            closePanel();
+        }
+    }, [closePanel, selectedData])
+
     return (
         <>
             {
                 loading ? (
-                    <LoadingContainer /> 
+                    <LoadingContainer className="pt-70 max-sm:pt-30" /> 
                 ) : (
                     !data || data.length <= 0 ? (
                         <EmptyContainer />

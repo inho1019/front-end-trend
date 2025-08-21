@@ -9,6 +9,8 @@ import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { getAiSummary } from "@shared/api";
+import { ScrollToTopButton } from "@features/common";
+import { useScreen } from "@shared/lib/screen";
 
 export interface TrendPanelProps {
     data: ParserData | null;
@@ -29,6 +31,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const trans = useTrans();
 
     const { addMessage } = useMessage();
+    const { scrolling } = useScreen();
 
     const aiContent = useMemo(() => ({ __html: aiSummaryContent }), [aiSummaryContent]);
     const htmlContent = useMemo(() => ({ __html: data ? sanitizeHtml(data.content) : ""}), [data]);
@@ -170,6 +173,11 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                         dangerouslySetInnerHTML={htmlContent}
                     />
                 </div>
+                <ScrollToTopButton 
+                    scrollRef={viewerRef} 
+                    aria-disabled={!isOpen || scrolling}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed hidden bottom-116 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:flex")}
+                />
                 <Button
                     className={twMerge(
                         "flex items-center text-gray-400 cursor-col-resize transition-colors duration-300 absolute w-15 h-full top-0 -left-0 rounded-l-xl max-sm:hidden",
