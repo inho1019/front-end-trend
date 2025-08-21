@@ -109,7 +109,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             className="h-[calc(100%-50px)] w-640 top-50 py-5 px-10 max-sm:px-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
         >
             <div className="relative rounded-xl flex flex-col bg-white p-15 h-full dark:bg-dark panel-shadow">
-                <div className="space-y-10 pb-15 border-b border-b-gray-200 dark:border-b-[#666]">
+                <div className="space-y-5 pb-10 border-b border-b-gray-200 dark:border-b-[#666]">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
                            <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1 break-all">{data?.title}</summary>
