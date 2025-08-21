@@ -79,7 +79,7 @@ export const AddSitePanel = ({ isOpen, onClose }: AddSitePanelProps) => {
                             <XIcon />
                         </Button>
                     </div>
-                    <form onChange={() => setFormState("idle")} onSubmit={handleSubmit} className="flex-1 flex flex-col gap-10 px-10 overflow-y-auto scrollbar-hide max-sm:px-0 pb-30">
+                    <form onChange={() => setFormState("idle")} onSubmit={handleSubmit} className="flex-1 flex flex-col gap-10 px-10 overflow-y-auto max-sm:scrollbar-hide max-sm:px-0 pb-30">
                         <div className="flex flex-col gap-4">
                             <label className="w-fit pl-4 text-xs font-medium text-gray-700 dark:text-gray-300 required-label">
                                 {trans("site.name", "사이트명")}
