@@ -109,7 +109,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
             className="h-[calc(100%-50px)] w-640 top-50 py-5 px-10 max-sm:px-5 max-sm:w-full max-sm:max-w-640 min-sm:min-w-640 min-sm:max-w-full"
         >
             <div className="relative rounded-xl flex flex-col bg-white p-15 h-full dark:bg-dark panel-shadow">
-                <div className="space-y-10 pb-15 border-b border-b-gray-200">
+                <div className="space-y-10 pb-15 border-b border-b-gray-200 dark:border-b-[#666]">
                     <div className="flex flex-row justify-between gap-5">
                         <details open className="group">
                            <summary className="text-xl font-semibold group-open:line-clamp-2 group-open:max-sm:line-clamp-1 break-all">{data?.title}</summary>
@@ -118,9 +118,8 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                             <XIcon />
                         </Button>
                     </div>
-                    <div className="flex flex-row items-center gap-4">
-                        <p className="text-xs text-gray-700 font-medium dark:text-gray-300">{data.site.name}</p>
-                        <div className="w-1 bg-gray-200 h-8" />
+                    <div className="flex flex-row items-center">
+                        <p className="text-xs font-medium">{data.site.name}&nbsp;•&nbsp;</p>
                         <Link
                             to={data?.link ?? "#"}
                             target="_blank" 
@@ -181,7 +180,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                     <DragIcon />    
                 </Button>
                 <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-0 text-[10px] justify-end font-medium">
-                    <div>{data?.author || "Unknown"}</div>&nbsp;|&nbsp;
+                    <div>{data?.author || "Unknown"}</div>&nbsp;•&nbsp;
                     <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</div>
                 </div>
             </div>
