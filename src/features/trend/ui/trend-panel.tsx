@@ -11,6 +11,7 @@ import { Link } from "react-router";
 import { getAiSummary } from "@shared/api";
 import { ScrollToTopButton } from "@features/common";
 import { useScreen } from "@shared/lib/screen";
+import { useCodePanel } from "@features/code";
 
 export interface TrendPanelProps {
     data: ParserData | null;
@@ -24,6 +25,8 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
     const detailsRef = useRef<HTMLDetailsElement>(null);
 
     useScrollingObserver(viewerRef, [data]);
+
+    const { isOpen: isCodeOpen, isHidden } = useCodePanel();
 
     const [aiSummaryContent, setAiSummaryContent] = useState("")
     const [aiSummaryStep, setAiSummaryStep] = useState<"pending" | "loading" | "complete" | "error">("pending")
@@ -175,7 +178,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 </div>
                 <ScrollToTopButton 
                     scrollRef={viewerRef} 
-                    aria-disabled={!isOpen || scrolling}
+                    aria-disabled={!isOpen || scrolling || (isCodeOpen && !isHidden)}
                     className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 right-15 z-50 active:opacity-70 group-aria-hidden:opacity-0 aria-disabled:opacity-0 aria-disabled:pointer-events-none min-sm:hidden")}
                 />
                 <Button
