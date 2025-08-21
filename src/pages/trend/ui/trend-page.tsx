@@ -51,15 +51,15 @@ const TrendPage = () => {
                 <ScrollToTopButton 
                     scrollRef={scrollRef}
                     aria-disabled={scrollTop < 15 || (isCodeOpen && !isHidden) || scrolling}
-                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:left-auto max-sm:right-20")}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:left-auto max-sm:right-15")}
                 />
                 <GoogleTranslateButton
-                    className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-20", isCodeOpen && !isHidden && "translate-y-48")} 
+                    className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-15", isCodeOpen && !isHidden && "translate-y-48")} 
                 />
                 <Button
                     aria-expanded={isCodeOpen && !isHidden}
                     onClick={handleClickCodeButton} 
-                    className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full  bg-white border dark:bg-dark aria-expanded:hidden group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-20">
+                    className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full  bg-white border dark:bg-dark aria-expanded:hidden group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-15">
                     <div className={twMerge(
                         "size-full text-sm font-suit flex items-center justify-center",
                         isCodeOpen && isHidden && "dot"
