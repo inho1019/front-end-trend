@@ -25,7 +25,7 @@ export const TrendItem = ({ data, ...props }: TrendItemProps) => {
                 </div>
                 <p className="text-xs text-gray-500 font-medium">{data.site.name}</p> 
             </div>
-            <div className="flex text-[10px] text-gray-400 pl-3 font-semibold">
+            <div className="flex text-[10px] pl-3">
                 <p className="max-w-1/2 truncate">{data?.author || "Unknown"}</p><p>&nbsp;|&nbsp;{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</p>
             </div> 
             <h2 className="text-xl font-semibold truncate leading-24 max-sm:text-lg max-sm:leading-22">{data.title}</h2>
