@@ -176,7 +176,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 <ScrollToTopButton 
                     scrollRef={viewerRef} 
                     aria-disabled={!isOpen || scrolling}
-                    className={twMerge("transition-opacity duration-300 ease-out fixed hidden bottom-116 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:flex")}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 right-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 aria-disabled:opacity-0 aria-disabled:pointer-events-none min-sm:hidden")}
                 />
                 <Button
                     className={twMerge(
@@ -187,7 +187,7 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                 >
                     <DragIcon />    
                 </Button>
-                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-0 text-[10px] justify-end font-medium">
+                <div className="absolute w-[calc(100%-30px)] flex flex-row items-center bottom-0 text-[10px] justify-end font-medium max-sm:justify-start">
                     <div>{data?.author || "Unknown"}</div>&nbsp;•&nbsp;
                     <div className="shrink-0">{DateTime.fromISO(data.createdAt).toFormat("yyyy. MM. dd")}</div>
                 </div>

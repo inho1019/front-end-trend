@@ -102,7 +102,7 @@ export const CodePanel = ({ isOpen, isHidden, onClose, onHidden }: CodePanelProp
             <div style={{ opacity: `${opacity}%` }} className="relative size-full">
                 <div
                     className={twMerge(
-                        "origin-bottom-left rounded-t-xl panel-shadow flex flex-col gap-15 bg-white p-15 h-fit size-full dark:bg-dark max-sm:h-full",
+                        "origin-bottom-left rounded-t-xl panel-shadow flex flex-col gap-15 bg-white p-15 h-fit size-full dark:bg-dark max-sm:h-full max-sm:origin-bottom-right",
                         isHidden ? "animate-scale-out fill-mode-forwards" : "animate-scale-in",
                         isFirst  &&  "animate-duration-none"
                     )}>

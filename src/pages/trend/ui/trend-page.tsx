@@ -14,10 +14,9 @@ import { ScrollToTopButton } from "@features/common";
 
 
 const TrendPage = () => {
-    const { isOpen: isTrendOpen } = usePanelController("trend-panel");
     const { isOpen: isSettingOpen, openPanel: openSettingPanel, closePanel: closeSettingPanel } = usePanelController("setting-panel");
     const { isOpen: isCodeOpen, isHidden, setIsOpen: setIsCodeOpen, showPanel: showCode } = useCodePanel();
-    const { scrolling, scrollTop, scrollRef, isMobile } = useScreen();
+    const { scrolling, scrollTop, scrollRef } = useScreen();
 
     const handleClickCodeButton = useCallback(() => {
         if (isCodeOpen) {
@@ -50,17 +49,17 @@ const TrendPage = () => {
             <Footer />
             <div className="group" aria-hidden={scrolling}>
                 <ScrollToTopButton 
-                    scrollRef={scrollRef} 
-                    aria-disabled={scrollTop < 15 || (isMobile && isTrendOpen )|| (isCodeOpen && !isHidden) || scrolling}
-                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none")}
+                    scrollRef={scrollRef}
+                    aria-disabled={scrollTop < 15 || (isCodeOpen && !isHidden) || scrolling}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-116 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:left-auto max-sm:right-20")}
                 />
                 <GoogleTranslateButton
-                    className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0", isCodeOpen && !isHidden && "translate-y-48")} 
+                    className={twMerge("transition duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-20", isCodeOpen && !isHidden && "translate-y-48")} 
                 />
                 <Button
                     aria-expanded={isCodeOpen && !isHidden}
                     onClick={handleClickCodeButton} 
-                    className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full  bg-white border dark:bg-dark aria-expanded:hidden group-aria-hidden:opacity-0">
+                    className="transition duration-300 ease-out fixed size-38 bottom-20 left-20 z-15 rounded-full  bg-white border dark:bg-dark aria-expanded:hidden group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-20">
                     <div className={twMerge(
                         "size-full text-sm font-suit flex items-center justify-center",
                         isCodeOpen && isHidden && "dot"

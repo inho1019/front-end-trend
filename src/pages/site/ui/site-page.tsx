@@ -41,9 +41,9 @@ const SitePage = () => {
                 <ScrollToTopButton
                     scrollRef={scrollRef}
                     aria-disabled={scrollTop < 15 || scrolling}
-                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none")}
+                    className={twMerge("transition-opacity duration-300 ease-out fixed bottom-68 left-20 z-50 active:opacity-70 aria-disabled:opacity-0 aria-disabled:pointer-events-none max-sm:left-auto max-sm:right-20")}
                 />
-                <GoogleTranslateButton className="transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0" />
+                <GoogleTranslateButton className="transition duration-300 ease-out fixed bottom-20 left-20 z-50 active:opacity-70 group-aria-hidden:opacity-0 max-sm:left-auto max-sm:right-20" />
             </div>
             <Footer />
             <AddSitePanel isOpen={isOpen} onClose={closePanel} />
