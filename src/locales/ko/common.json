@@ -20,10 +20,10 @@
         "favorite": "즐겨찾기",
         "reset": "초기화",
         "comment": "의견 및 건의사항",
-        "site": "사이트 목록",
         "reload": "캐시 초기화 및 새로고침"
     },
     "site": {
+        "title": "사이트 목록",
         "feedCount": "피드 {{count}}개",
         "addFavorites": "{{name}} 즐겨찾기 추가",
         "removeFavorites": "{{name}} 즐겨찾기 해제",
@@ -58,5 +58,9 @@
         "submitError": "등록 실패",
         "submitDuplicate": "중복 존재",
         "copySuccess": "복사 완료"
+    },
+    "archive": {
+        "title": "아카이브",
+        "source": "출처"
     }
 }

@@ -4,6 +4,7 @@ import { Layout } from "@shared/ui/layout";
 import { TrendPage } from "@pages/trend";
 import { SitePage } from "@pages/site";
 import { CodePanelProvider } from "@features/code";
+import { ArchivePage } from "@pages/archive";
 
 const BrowserRouter = ({ children }: React.PropsWithChildren) => {
   const router = useMemo(() => createBrowserRouter(createRoutesFromElements(children)), [children]);
@@ -22,6 +23,7 @@ const Router = () => {
         }>
           <Route path="/" element={<TrendPage />} />
           <Route path="/site" element={<SitePage />} />
+          <Route path="/archive" element={<ArchivePage />} />
       </Route>
     </BrowserRouter>
   );

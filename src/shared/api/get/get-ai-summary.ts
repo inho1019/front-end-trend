@@ -1,19 +1,13 @@
 import i18next from "i18next";
 import { getContent } from "./get-content";
 import { Base64 } from "js-base64";
-
-type ArchiveData = {
-    content: string;
-    createdAt: string;
-    link: string;
-    language: string;
-}
+import type { Archive } from "@shared/model/archive";
 
 export const getAiSummary = async (title: string, createdAt: string, link: string, content: string) => {
     const path = `${import.meta.env.VITE_ARCHIVE_PATH}${Base64.encode(title)}-${i18next.language.substring(0, 2)}.json`;
     let octokitResponse;
     try {
-        octokitResponse = await getContent<ArchiveData>(path, { ref: import.meta.env.VITE_ARCHIVE_REPO });
+        octokitResponse = await getContent<Archive>(path, { ref: import.meta.env.VITE_ARCHIVE_REPO });
     } catch {
         octokitResponse = null;
     }

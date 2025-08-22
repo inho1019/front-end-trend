@@ -70,7 +70,10 @@ export const SettingsPanel = ({ isOpen, onClose }: SettingsPanelProps) => {
                     />
                     <Filter />
                     <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/site")}>
-                        {trans("settings.site", "사이트")}
+                        {trans("site.title", "사이트")}
+                    </Button>
+                    <Button className="text-lg font-bold flex flex-row items-center" onClick={() => navigate("/archive")}>
+                        {trans("archive.title", "아카이브")}
                     </Button>
                     <Button className="text-lg font-bold flex flex-row items-center" onClick={noCacheReload}>
                         {trans("settings.reload", "캐시 초기화 및 새로고침")}
