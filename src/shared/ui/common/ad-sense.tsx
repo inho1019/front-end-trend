@@ -21,13 +21,13 @@ export const AdSense = () => {
 
   return (
     <ins
-      ref={adRef}
-      className="adsbygoogle"
-      style={{ display: "block", height: "120px" }}
-      data-ad-client="ca-pub-9982505674721509"
-      data-ad-slot="9256101892"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    />
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: "block", height: "120px" }}
+        data-ad-client="ca-pub-9982505674721509"
+        data-ad-slot="9256101892"
+        data-ad-format="fluid"
+        data-full-width-responsive="true"
+    ></ins>
   );
 };
