@@ -3,6 +3,7 @@ import { TrendItem, TrendPanel } from "@features/trend";
 import { useData } from "@shared/lib/data";
 import { usePanelController } from "@shared/lib/panel";
 import type { ParserData } from "@shared/model/parser";
+import { AdSense } from "@shared/ui/common";
 import { useCallback, useEffect, useState } from "react";
 
 
@@ -43,12 +44,19 @@ export const TrendList = () => {
                         <section className="flex flex-col">
                             {
                                 data?.map((item, index) => (
-                                    <TrendItem 
-                                        key={index} 
-                                        data={item}
-                                        onClick={() => handleClickItem(item)}
-                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
-                                    />
+                                    <>
+                                        <TrendItem 
+                                            key={index} 
+                                            data={item}
+                                            onClick={() => handleClickItem(item)}
+                                            className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
+                                        />
+                                        {
+                                            index !== 0 && index % 10 === 0 && (
+                                                <AdSense />
+                                            )
+                                        }
+                                    </>
                                 ))
                             }
                         </section>
