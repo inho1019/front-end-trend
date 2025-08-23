@@ -43,7 +43,9 @@ export const TrendList = () => {
                     ) : (
                         <section className="flex flex-col">
                             {
-                                data?.map((item, index) => (
+                                data?.map((item, index) => {
+const adIndex = index - 4;
+return (
                                     <Fragment key={index}>
                                         <TrendItem 
                                             data={item}
@@ -51,12 +53,12 @@ export const TrendList = () => {
                                             className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
                                         />
                                         {
-                                            index !== 0 && index % 10 === 0 && (
+                                            adIndex % 20 === 0 && (
                                                 <AdSense />
                                             )
                                         }
                                     </Fragment>
-                                ))
+                                )})
                             }
                         </section>
                     )
