@@ -12,7 +12,7 @@ export const ArchiveItem = ({ data, ...props }: ArchiveItemProps) => {
 
     return (
         <div {...props} draggable={false} className={twMerge("flex flex-row items-center gap-5", props.className)}>
-            <h2 className="font-medium underline">{title}</h2>
+            <h2 className="font-medium underline line-clamp-2">{title}</h2>
         </div>
     );
 }

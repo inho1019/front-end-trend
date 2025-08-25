@@ -63,7 +63,7 @@ export const ArchiveList = () => {
                                         key={item.path} 
                                         data={item} 
                                         onClick={() => handleClickItem(item.path)}
-                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer p-15 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
+                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer p-15 max-sm:px-5 min-sm:hover:not-active:opacity-75 max-sm:py-10" 
                                     />
                                 ))
                             }
