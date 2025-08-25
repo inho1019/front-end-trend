@@ -3,6 +3,7 @@ import { EmptyContainer, LoadingContainer } from "@features/common";
 import { getContent } from "@shared/api";
 import { usePanelController } from "@shared/lib/panel";
 import type { ArchiveResponse } from "@shared/model/archive";
+import i18next from "i18next";
 import { useCallback, useEffect, useState } from "react";
 
 export const ArchiveList = () => {
@@ -37,7 +38,9 @@ export const ArchiveList = () => {
             try {
                 setLoading(true);
                 const response = await getContent("public/archive", { ref: import.meta.env.VITE_ARCHIVE_REPO });
-                setData(response.originalResponse as ArchiveResponse[]);
+                setData((response.originalResponse as ArchiveResponse[]).filter(item => {
+                    return item.name.endsWith(`-${i18next.language.substring(0, 2)}.json`);
+                }));
             } catch (error) {
                 console.error("Failed to fetch archive data:", error);
             } finally {

@@ -8,7 +8,11 @@ interface ArchiveItemProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export const ArchiveItem = ({ data, ...props }: ArchiveItemProps) => {
-    const title = useMemo(() => Base64.decode(data.name.split("-")[0]), [data.name]);
+    const title = useMemo(() => {
+        const splitName = data.name.split("-");
+        splitName.pop();
+        return Base64.decode(splitName.join("-"));
+    }, [data.name]);
 
     return (
         <div {...props} draggable={false} className={twMerge("flex flex-row items-center gap-5", props.className)}>
