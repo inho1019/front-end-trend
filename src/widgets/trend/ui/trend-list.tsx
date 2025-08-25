@@ -1,11 +1,9 @@
+import { useCallback, useEffect, useState } from "react";
 import { EmptyContainer, LoadingContainer } from "@features/common";
 import { TrendItem, TrendPanel } from "@features/trend";
 import { useData } from "@shared/lib/data";
 import { usePanelController } from "@shared/lib/panel";
 import type { ParserData } from "@shared/model/parser";
-import { AdSense } from "@shared/ui/common";
-import { Fragment, useCallback, useEffect, useState } from "react";
-
 
 export const TrendList = () => {
     const { data, loading } = useData();
@@ -44,22 +42,15 @@ export const TrendList = () => {
                         <section className="flex flex-col">
                             {
                                 data?.map((item, index) => {
-const adIndex = index - 4;
-return (
-                                    <Fragment key={index}>
+                                    return (
                                         <TrendItem 
+                                            key={index}
                                             data={item}
                                             onClick={() => handleClickItem(item)}
                                             className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-15 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
                                         />
-                                        {
-                                            adIndex % 20 === 0 && (
-                                                <AdSense />
-                                            )
-                                        }
-                                    </Fragment>
-                                )})
-                            }
+                                    )
+                                })}
                         </section>
                     )
                 )

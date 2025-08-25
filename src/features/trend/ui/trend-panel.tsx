@@ -3,7 +3,7 @@ import { useMessage } from "@shared/lib/message";
 import { useScrollingObserver } from "@shared/lib/screen/use-activating-observer";
 import { sanitizeHtml, twMerge, useTrans } from "@shared/lib/utils";
 import type { ParserData } from "@shared/model/parser";
-import { Button, Spinner } from "@shared/ui/common";
+import { AdSense, Button, Spinner } from "@shared/ui/common";
 import { Panel } from "@shared/ui/panel"
 import { DateTime } from "luxon";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -147,17 +147,20 @@ export const TrendPanel = ({ data, isOpen, onClose }: TrendPanelProps) => {
                                 <ArrowIcon />
                             </div>
                         </summary>
-                        <div className="mt-15">
+                        <div className="mt-15 space-y-10">
                             {(() => {
                                 switch (aiSummaryStep) {
                                     case "loading":
                                         return <Spinner className="size-48 border-7 mx-auto mb-30 mt-45" />;
                                     case "complete":
                                         return (
-                                            <div
-                                                className="viewer whitespace-pre-wrap animate-fade"
-                                                dangerouslySetInnerHTML={aiContent}
-                                            />
+                                            <>
+                                                <div
+                                                    className="viewer whitespace-pre-wrap animate-fade"
+                                                    dangerouslySetInnerHTML={aiContent}
+                                                />
+                                                <AdSense />
+                                            </>
                                         )
                                     case "error":
                                         return (

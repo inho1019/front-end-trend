@@ -22,8 +22,8 @@ export const AdSense = () => {
   return (
     <ins
         ref={adRef}
-        className="adsbygoogle my-5"
-        style={{ display: "block", height: "100px" }}
+        className="adsbygoogle animate-fade"
+        style={{ display: "block", height: "120px" }}
         data-ad-client="ca-pub-9982505674721509"
         data-ad-slot="9256101892"
         data-ad-format="fluid"

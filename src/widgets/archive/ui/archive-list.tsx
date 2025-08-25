@@ -1,12 +1,36 @@
-import { ArchiveItem } from "@features/archive";
+import { ArchiveItem, ArchivePanel } from "@features/archive";
 import { EmptyContainer, LoadingContainer } from "@features/common";
 import { getContent } from "@shared/api";
+import { usePanelController } from "@shared/lib/panel";
 import type { ArchiveResponse } from "@shared/model/archive";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export const ArchiveList = () => {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState<ArchiveResponse[] | null>(null);
+
+    const [selectedData, setSelectedData] = useState<string | null>(null);
+
+    const { isOpen, openPanel, closePanel } = usePanelController("archive-panel");
+
+
+    const handleClickItem = useCallback((path: string) => {
+        setSelectedData(path);
+        if (!isOpen) {
+            openPanel();
+        }
+    }, [isOpen, openPanel]);
+
+    const handleClosePanel = useCallback(() => {
+        setSelectedData(null);
+        closePanel();
+    }, [closePanel]);
+    
+    useEffect(() => {
+        if (!selectedData) {
+            closePanel();
+        }
+    }, [closePanel, selectedData])
 
     useEffect(() => {
         const fetchData = async () => {
@@ -35,13 +59,19 @@ export const ArchiveList = () => {
                         <section className="flex flex-col">
                             {
                                 data?.map(item => (
-                                    <ArchiveItem key={item.path} data={item} className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer py-10 px-10 max-sm:px-5 min-sm:hover:not-active:opacity-75" />
+                                    <ArchiveItem 
+                                        key={item.path} 
+                                        data={item} 
+                                        onClick={() => handleClickItem(item.path)}
+                                        className="transition active:bg-gray-50 active:dark:bg-[#222] cursor-pointer p-15 max-sm:px-5 min-sm:hover:not-active:opacity-75" 
+                                    />
                                 ))
                             }
                         </section>
                     )
                 )
             }
+            <ArchivePanel isOpen={isOpen} path={selectedData} onClose={handleClosePanel} />
         </>
     );
 }
