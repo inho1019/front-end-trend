@@ -46,7 +46,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
             <div className="flex-1">
                 <div className="flex flex-row justify-between gap-10">
                     <h3 className="text-xl font-bold max-sm:text-lg">{data.name}</h3>
-                    <Button onClick={handleToggleFavorite} className="self-start hover:animate-wiggle hover:animate-infinite active:animate-none">
+                    <Button onClick={handleToggleFavorite} className="self-start">
                         {
                             isFavorite ? (
                                 <FavoriteFillIcon />
