@@ -20,7 +20,7 @@ export const Header = ({
             <header 
                 className={
                     twMerge(
-                        "min-h-50 z-5 w-full sticky flex top-0 items-center justify-between p-10 bg-white dark:bg-dark", 
+                        "min-h-50 z-5 w-full sticky flex top-0 items-center justify-between p-10 touch-none overflow-hidden bg-white dark:bg-dark", 
                         className
                     )}>
                 {left}
