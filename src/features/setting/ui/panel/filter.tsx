@@ -10,7 +10,7 @@ export const Filter = () => {
     const trans = useTrans();
     const { siteIds, setSiteIds, isFavorite } = useData();
     const { data, loading } = useSite();
-    const { favoriteSiteIds } = useFavoriteStore();
+    const favoriteSiteIds = useFavoriteStore(state => state.favoriteSiteIds);
 
     const filteredData = useMemo(() => data?.filter(site => isFavorite ? favoriteSiteIds.includes(site.id) : true) || [], [data, isFavorite, favoriteSiteIds]);
 

@@ -2,7 +2,7 @@ import { useFavoriteStore } from "@/store";
 import { FavoriteEmptyIcon, FavoriteFillIcon, Logo } from "@shared/assets";
 import { useData } from "@shared/lib/data";
 import { useMessage } from "@shared/lib/message";
-import { twMerge, useTrans } from "@shared/lib/utils";
+import { NativeApp, twMerge, useTrans } from "@shared/lib/utils";
 import type { Site } from "@shared/model/site";
 import { Button } from "@shared/ui/common";
 import { useCallback, useMemo } from "react";
@@ -17,7 +17,8 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
     const navigate = useNavigate();
     const { addMessage } = useMessage();
     const { originalData, setSiteIds, setIsFavorite } = useData();
-    const { favoriteSiteIds, toggleFavoriteSite } = useFavoriteStore();
+    const favoriteSiteIds = useFavoriteStore(state => state.favoriteSiteIds);
+    const toggleFavoriteSite = useFavoriteStore(state => state.toggleFavoriteSite);
 
     const isFavorite = useMemo(() => favoriteSiteIds.includes(data.id), [data.id, favoriteSiteIds])
     const feedCount = useMemo(() => originalData?.filter(item => item.site.id === data.id).length ?? 0, [originalData, data.id]);
@@ -26,6 +27,7 @@ export const SiteItem = ({ data, ...props }: SiteItemProps) => {
         e.preventDefault();
         addMessage(trans(isFavorite ? "site.removeFavorites" : "site.addFavorites",`즐겨찾기 추가/해제`, undefined, { name: data.name }));
         toggleFavoriteSite(data.id)
+        NativeApp.invoke("toggleFavoriteSite", { siteId: data.id });
     }, [addMessage, data.id, data.name, isFavorite, toggleFavoriteSite, trans]);
 
 

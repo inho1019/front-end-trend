@@ -7,6 +7,7 @@ export type FavoriteState = {
 };
 
 export type FavoriteAction = {
+    setFavoriteSiteIds: (siteIds: string[]) => void;
     toggleFavoriteSite: (siteId: string) => void;
 };
 
@@ -16,6 +17,9 @@ export const useFavoriteStore = create<FavoriteStateAction>()(
   persist(
     immer(set => ({
       favoriteSiteIds: [],
+      setFavoriteSiteIds: (siteIds: string[]) => set(state => {
+        state.favoriteSiteIds = siteIds;
+      }),
       toggleFavoriteSite: siteId =>
         set(state => {
           if (state.favoriteSiteIds.includes(siteId)) {

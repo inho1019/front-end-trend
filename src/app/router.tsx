@@ -13,7 +13,6 @@ const BrowserRouter = ({ children }: React.PropsWithChildren) => {
 };
 
 const Router = () => {
-    
   return (
     <BrowserRouter>
       <Route element={

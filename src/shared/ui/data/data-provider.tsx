@@ -5,7 +5,7 @@ import { decompressSync, strFromU8 } from 'fflate';
 import { useFavoriteStore } from "@/store";
 
 export const DataProvider = ({ children }: PropsWithChildren) => {
-    const { favoriteSiteIds } = useFavoriteStore();
+    const favoriteSiteIds = useFavoriteStore(state => state.favoriteSiteIds);
 
     const [originalData, setOriginalData] = useState<ParserData[] | null>(null);
     const [data, setData] = useState<ParserData[] | null>(null);

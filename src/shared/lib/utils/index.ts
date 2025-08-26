@@ -4,3 +4,4 @@ export { twMerge } from './tw-merge';
 export { sanitizeHtml } from './sanitize-html';
 export { draggableScroll } from './draggable-scroll';
 export { useDebounce } from './use-debounce';
+export { NativeApp } from './native-app';
