@@ -35,8 +35,9 @@ export const Layout = () => {
     }, [setFavoriteSiteIds])
 
     useEffect(() => {
-        const canGoBack = window.history.length > 1;
-        NativeApp.invoke<boolean>("setCanGoBack", { canGoBack: canGoBack });
+        const canGoBack = window.history.state.idx > 0;
+        console.log(canGoBack);
+        NativeApp.invoke<boolean>("setCanGoBack", { canGoBack });
     }, [searchParams])
 
     return (
