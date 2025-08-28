@@ -21,6 +21,8 @@ export const Layout = () => {
 
 
     useEffect(() => {
+        const canGoBack = window.history.length > 1;
+        NativeApp.invoke<boolean>("setCanGoBack", { canGoBack: canGoBack });
         return NativeApp.ready(navigate);
     }, [navigate]);
 
