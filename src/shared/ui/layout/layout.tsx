@@ -1,4 +1,4 @@
-import { Outlet, useLocation, useNavigate } from "react-router";
+import { Outlet, useLocation, useNavigate, useSearchParams } from "react-router";
 import { useEffect } from "react";
 import { useScrollingObserver } from "@shared/lib/screen/use-activating-observer";
 import { useScreen } from "@shared/lib/screen";
@@ -7,6 +7,7 @@ import { useFavoriteStore } from "@/store";
 
 export const Layout = () => {
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
     const { pathname } = useLocation();
     const { scrollRef } = useScreen();
     const setFavoriteSiteIds = useFavoriteStore(state => state.setFavoriteSiteIds);
@@ -21,8 +22,6 @@ export const Layout = () => {
 
 
     useEffect(() => {
-        const canGoBack = window.history.length > 1;
-        NativeApp.invoke<boolean>("setCanGoBack", { canGoBack: canGoBack });
         return NativeApp.ready(navigate);
     }, [navigate]);
 
@@ -35,6 +34,10 @@ export const Layout = () => {
         fetchTheme();
     }, [setFavoriteSiteIds])
 
+    useEffect(() => {
+        const canGoBack = window.history.length > 1;
+        NativeApp.invoke<boolean>("setCanGoBack", { canGoBack: canGoBack });
+    }, [searchParams])
 
     return (
         <div ref={scrollRef} className="overflow-y-auto flex flex-col h-dvh">
