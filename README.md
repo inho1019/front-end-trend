@@ -1,5 +1,6 @@
 # Front-End Trend
-<img width="128" height="128" alt="logo" src="https://github.com/user-attachments/assets/54c23472-8182-408b-a4fa-186cd6842b81" />
+<img width="128" height="128" alt="logo (1)" src="https://github.com/user-attachments/assets/a33aec6c-b622-45a1-bb91-ac301794c284" />
+
 
 프론트엔드 개발자를 위한 최신 트렌드, 뉴스, 아티클, 오픈소스 등을 한 곳에서 모아보고 관리할 수 있는 RSS 기반 웹 애플리케이션입니다.
 
