@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="12" fill="#1E1E1E"/>
-  <path d="M20 32 L14 26 M14 38 L20 32" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-  <path d="M44 32 L50 26 M50 38 L44 32" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-  <rect x="28" y="20" width="8" height="24" rx="2" fill="#ffffff"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="128" height="128" rx="24" fill="#1E1E1E"/>
+
+  <!-- F (thicker rectangles) -->
+  <rect x="26" y="32" width="40" height="12" rx="3" fill="#fff"/>
+  <rect x="26" y="58" width="32" height="12" rx="3" fill="#fff"/>
+  <rect x="26" y="32" width="12" height="56" rx="3" fill="#fff"/>
+
+  <!-- E (thicker three bars) -->
+  <rect x="70" y="32" width="32" height="12" rx="3" fill="#fff"/>
+  <rect x="70" y="58" width="32" height="12" rx="3" fill="#fff"/>
+  <rect x="70" y="84" width="32" height="12" rx="3" fill="#fff"/>
 </svg>
