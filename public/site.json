@@ -310,7 +310,7 @@
   {
     "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
     "name": "GeekNews",
-    "url": "https://feeds.feedburner.com/geeknews-feed",
+    "url": "https://news.hada.io/rss/news",
     "link": "https://news.hada.io",
     "description": "개발 뉴스, 기술 관련 새소식, 스타트업 정보와 노하우, 세상의 재미난 것들을 좋아하는 사람들을 위한 뉴스 사이트. 이메일 뉴스레터/X(Twitter)/슬랙 봇으로 구독 가능",
     "image": "https://social.news.hada.io/favicon.png",
@@ -318,7 +318,7 @@
       "title": "title",
       "content": "content",
       "link": "link",
-      "createdAt": "published",
+      "createdAt": "",
       "author": ""
     }
   }
