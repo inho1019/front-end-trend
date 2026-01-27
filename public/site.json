@@ -318,8 +318,8 @@
       "title": "title",
       "content": "content",
       "link": "link",
-      "createdAt": "",
-      "author": ""
+      "createdAt": "isoDate",
+      "author": "author"
     }
   }
 ]
