@@ -321,5 +321,20 @@
       "createdAt": "isoDate",
       "author": "author"
     }
+  },
+  {
+    "id": "fea6242a-6856-473f-968e-c4b9ea5eed35",
+    "name": "Ones To Watch For FrontEnd",
+    "url": "https://ones-to-watch.ethansup.net/rss.xml",
+    "link": "https://ones-to-watch.ethansup.net/",
+    "description": "프론트엔드에 대한 정보들을 매주 큐레이션해드립니다.",
+    "image": "",
+    "type": {
+      "title": "title",
+      "content": "content",
+      "link": "link",
+      "createdAt": "isoDate",
+      "author": "creater"
+    }
   }
 ]
