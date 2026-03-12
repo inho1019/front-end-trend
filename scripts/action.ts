@@ -15,37 +15,7 @@ dotenv.config();
 const window = new JSDOM("").window;
 const DOMPurify = createDOMPurify(window);
 
-const escapeHtml = (value: string) => {
-  return value
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-};
-
-function preserveLiteralMarkupInCodeBlocks(rawHTML: string): string {
-  const dom = new JSDOM(`<body>${rawHTML}</body>`);
-  const { document } = dom.window;
-
-  const literalNodes = document.querySelectorAll("pre, code");
-
-  literalNodes.forEach((node) => {
-    if (node.tagName === "CODE" && node.parentElement?.tagName === "PRE") {
-      return;
-    }
-
-    const literalMarkup = node.innerHTML.replace(/<br\s*\/?>/gi, "\n");
-
-    node.innerHTML = escapeHtml(literalMarkup);
-  });
-
-  return document.body.innerHTML;
-}
-
 function sanitizeRSSContent(rawHTML: string): string {
-  const protectedHTML = preserveLiteralMarkupInCodeBlocks(rawHTML);
-
   DOMPurify.addHook("afterSanitizeAttributes", function (node) {
     if (node.tagName === "A") {
       node.setAttribute("target", "_blank");
@@ -70,7 +40,7 @@ function sanitizeRSSContent(rawHTML: string): string {
       );
     }
   });
-  return DOMPurify.sanitize(protectedHTML, {
+  return DOMPurify.sanitize(rawHTML, {
     FORBID_TAGS: ["script", "style", "link", "form"],
     FORBID_ATTR: ["style", "onerror", "onclick", "onload", "class"],
     ALLOWED_URI_REGEXP: /^https?:/,
