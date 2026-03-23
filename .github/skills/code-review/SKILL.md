@@ -4,6 +4,10 @@ description: "브랜치 간 코드 변경사항을 비교하고 코드리뷰를 
 argument-hint: "비교 대상 브랜치명 (기본값: origin/master). 예) origin/dev, origin/staging"
 ---
 
+When performing a code review, respond in Japanese.
+
+When performing a code review, say "コードレビューを開始します" at the beginning of the review and "コードレビューが完了しました" at the end of the review.
+
 # 브랜치 코드 리뷰 스킬
 
 커밋된 변경사항 + Staged + Unstaged 변경사항을 모두 포함해 종합적으로 리뷰한다.
