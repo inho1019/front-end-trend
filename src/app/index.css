@@ -1,68 +1,315 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css");
+@import "tailwindcss";
+@import "tailwindcss-animated";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+@theme {
+  --font-sans:
+    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
+    "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", sans-serif, "SUIT";
+  --font-suit: "SUIT";
+  --font-jamsil: "TheJamsil5Bold";
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+  --spacing: 0.0625rem; /* 1px */
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  --color-dark: #121212;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+  --animate-message: message 3s ease-in-out;
+  --animate-scale-in: scale-in 0.3s ease-out;
+  --animate-scale-out: scale-out 0.3s ease-in;
+  @keyframes message {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    15% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    85% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
   }
-  a:hover {
-    color: #747bff;
+  @keyframes scale-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.05);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
-  button {
-    background-color: #f9f9f9;
+  @keyframes scale-out {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.05);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-dark text-dark dark:text-white font-sans text-base;
+    top: 0 !important;
+  }
+  .required-label {
+    @apply relative;
+  }
+  .required-label::after {
+    @apply absolute top-0 -right-10 text-[#d90000] text-[15px] leading-none content-["*"];
+  }
+  .dot {
+    @apply relative;
+  }
+  .dot::after {
+    @apply absolute top-1 right-1 size-10 rounded-full bg-[#d90000] content-empty animate-bounce;
+  }
+
+  /* 구글 번역 관련 element 숨기기 */
+  #google_translate_element,
+  .goog-te-banner-frame,
+  .goog-te-gadget,
+  .goog-te-menu-value,
+  .skiptranslate,
+  .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+    display: none !important;
+  }
+
+  /* details 마커 숨기기 */
+  details summary::-webkit-details-marker,
+  details summary::marker {
+    display: none !important;
+    color: transparent !important;
+    background: none !important;
+  }
+  details summary {
+    @apply list-none cursor-default;
+  }
+
+  /* select 마커 숨기기 및 텍스트 가운데로 */
+  select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    margin: 0;
+    text-align-last:center;
+    -moz-text-align-last: center;
+  }
+
+  /* 스크롤바 숨기기 */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* 커스텀 스크롤바 */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #bdbdbd transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 4px;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background: #9e9e9e;
+  }
+
+  /* Panel Shadow */
+  .panel-shadow {
+    @apply shadow-[0_2px_16px_0_rgba(0,0,0,0.1)] dark:shadow-[0_2px_16px_0_rgba(0,0,0,0.95)];
+  }
+}
+
+@utility all-initial {
+  all: initial;
+}
+
+@utility all-inherit {
+  all: inherit;
+}
+
+@utility fill-mode-forwards {
+  animation-fill-mode: forwards;
+}
+
+@utility content-empty {
+  content: "";
+}
+
+@utility viewer {
+  /* Headings */
+  h1 {
+    @apply text-3xl font-bold my-24;
+  }
+  h2 {
+    @apply text-2xl font-semibold my-24;
+  }
+  h3 {
+    @apply text-xl font-semibold my-12;
+  }
+  h4 {
+    @apply text-lg font-medium mb-3 mt-5;
+  }
+  h5 {
+    @apply text-base font-medium mb-2 mt-4;
+  }
+  h6 {
+    @apply text-sm font-medium mb-2 mt-3;
+  }
+
+  /* Paragraph */
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  /* Inline code */
+  code {
+    @apply cursor-copy transition-colors bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-pink-400 p-2 rounded overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-300 min-sm:active:bg-gray-400 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-300 max-sm:active:dark:bg-gray-900;
+  }
+
+  /* Code block */
+  pre {
+    @apply cursor-copy transition-colors bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-10 rounded mb-6 overflow-x-auto text-sm font-mono min-sm:hover:bg-gray-200 min-sm:active:bg-gray-300 min-sm:hover:dark:bg-gray-900 min-sm:active:dark:bg-gray-950 max-sm:active:bg-gray-200 max-sm:active:dark:bg-gray-900;
+  }
+
+  pre *:not(code):not(table *) {
+    @apply all-initial text-gray-900 dark:text-gray-100;
+  }
+
+
+  pre code {
+    @apply bg-transparent p-0 hover:bg-inherit active:bg-inherit text-gray-900 dark:text-gray-100
+  }
+
+  /* Links */
+  a {
+    @apply text-blue-500 underline hover:text-blue-700 transition-colors break-all;
+  }
+
+  a code {
+    @apply bg-transparent text-inherit p-0;
+  }
+
+  /* Blockquote */
+  blockquote {
+    @apply border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic my-6 text-gray-600 dark:text-gray-300;
+  }
+
+  /* Lists */
+  ul, ol {
+    @apply mb-4 pl-24;
+  }
+  li {
+    @apply mb-2 leading-relaxed;
+  }
+  ul li {
+    @apply list-disc;
+  }
+  ol li {
+    @apply list-decimal;
+  }
+
+  blockquote ul,
+  blockquote ol,
+  blockquote li {
+    @apply list-none;
+  }
+
+  /* HR */
+  hr {
+    @apply border-t border-gray-300 dark:border-gray-600 my-6;
+  }
+
+  /* Images */
+  img {
+    @apply w-full max-w-590 h-auto rounded-md mb-6;
+  }
+
+  /* Strong & emphasis */
+  strong, b {
+    @apply font-bold;
+  }
+  em, i {
+    @apply italic;
+  }
+
+  /* Tables */
+  table {
+    @apply w-full mb-6 text-left text-sm overflow-x-auto;
+  }
+  th, td {
+    @apply px-3 py-2;
+  }
+  th {
+    @apply bg-gray-100 dark:bg-gray-800 font-semibold;
+  }
+
+  /* SVGs (often used in copied HTML like icons) */
+  svg {
+    @apply hidden;
+  }
+
+  /* Extra inline elements */
+  del {
+    @apply line-through text-gray-500;
+  }
+  mark {
+    @apply bg-yellow-200 dark:bg-yellow-400 text-black px-1 rounded;
+  }
+  kbd {
+    @apply bg-gray-200 dark:bg-gray-700 text-xs font-mono px-1.5 py-0.5 rounded;
+  }
+  sup {
+    @apply text-xs align-super;
+  }
+  sub {
+    @apply text-xs align-sub;
+  }
+
+  /* Collapsible sections (optional) */
+  details {
+    @apply mb-4 bg-gray-50 dark:bg-gray-800 rounded p-4;
+  }
+  summary {
+    @apply cursor-pointer font-semibold mb-2;
+  }
+
+  figure {
+    @apply size-fit
+  }
+
+  iframe {
+    @apply w-full rounded-md;
   }
 }

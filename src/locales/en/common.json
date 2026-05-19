@@ -1,0 +1,63 @@
+{
+    "common": {
+        "submit": "Submit",
+        "error": "Error",
+        "complete": "Complete",
+        "noData": "Not Found Data",
+        "codeEditor": {
+            "fileExplorer": "File Explorer"
+        }
+    },
+    "trend": {
+        "createdAt": "Date",
+        "copyCode": "Code Copied",
+        "ai": {
+            "summary": "AI Summary",
+            "error": "Failed to generate AI summary"
+        }
+    },
+    "settings": {
+        "filter": "Filter",
+        "favorite": "Favorite",
+        "reset": "Reset",
+        "comment": "Comments & Suggestions",
+        "site": "Site List",
+        "reload": "Cache Clear & Reload"
+    },
+    "site": {
+        "feedCount": "{{count}} feeds",
+        "addFavorites": " {{name}} add to Favorites",
+        "removeFavorites": "{{name}} remove from Favorites",
+        "add": "Add Site",
+        "helper": "*If there is no token, the data will be copied in JSON format. Please leave a comments & suggestions.",
+        "name": "Site Name",
+        "namePlaceholder": "Enter the site name",
+        "url": "RSS Address",
+        "urlPlaceholder": "Enter the RSS address of the site",
+        "link": "Site Address",
+        "linkPlaceholder": "Enter the address of the site",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter a description of the site",
+        "image": "Image",
+        "imagePlaceholder": "Enter the thumbnail address of the site",
+        "type": "Type",
+        "typeTitle": "Title",
+        "typeTitlePlaceholder": "Usually title is used",
+        "typeContent": "Content",
+        "typeContentPlaceholder": "Usually content, content:encoded is used",
+        "typeCreatedAt": "Date",
+        "typeCreatedAtPlaceholder": "Usually isoDate, pubDate is used",
+        "typeAuthor": "Author",
+        "typeAuthorPlaceholder": "Usually author, creator is used",
+        "typeLink": "Post Link",
+        "typeLinkPlaceholder": "Usually link is used",
+        "token": "Token",
+        "tokenPlaceholder": "Enter your GitHub token",
+        "copy": "Copy",
+        "duplication": "Duplication",
+        "submitSuccess": "Submit Successful",
+        "submitError": "Submit Failed",
+        "submitDuplicate": "Duplicate Exists",
+        "copySuccess": "Copy Successful"
+    }
+}

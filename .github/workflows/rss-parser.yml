@@ -1,0 +1,51 @@
+name: RSS Parser
+
+on:
+# 푸시 이벤트가 발생할 때마다 아래 스크립트를 실행한다.
+  push:
+    branches:
+      - main
+# 6시간에 한번씩 아래 스크립트를 실행한다.
+  schedule:
+    - cron: "0 */6 * * *"
+  # Actions 탭에서 수동으로 워크플로우를 실행할 수 있도록 구성
+  workflow_dispatch:
+
+# 권한부여
+permissions:
+  contents: write
+  actions: write
+  id-token: write
+
+env:
+  VITE_TARGET_PATH_SITE: ${{ vars.VITE_TARGET_PATH_SITE }}
+  VITE_TARGET_PATH_DATA: ${{ vars.VITE_TARGET_PATH_DATA }}
+  RSS_PROXY_URL: ${{ secrets.RSS_PROXY_URL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Install dependencies
+        run: yarn install
+      - name: Run RSS Parser
+        run: npx tsx scripts/action.ts
+      - name: Commit Data
+        run: |
+          git config --local user.email "inho1019@naver.com"
+          git config --local user.name "inho1019"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update data.json"
+            git push
+            echo "changes_detected=true" >> $GITHUB_ENV
+          else
+            echo "No changes to commit"
+            echo "changes_detected=false" >> $
+          fi
