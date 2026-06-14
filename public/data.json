@@ -1,5 +1,16 @@
 [
   {
+    "title": "페이블5·미토스5, 출시 3일 만에 외국인 접근 전면 차단",
+    "content": "<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>•\t앤트로픽 최신 모델 페이블5(Fable 5)·미토스5(Mythos 5)가 6월 13일 미국 정부 명령으로 외국인 사용 금지  \n•\t미토스5는 오래된 소프트웨어 취약점을 전문 팀 수준으로 하루 만에 찾아내는 사이버보안 특화 모델  \n•\t페이블5는 미토스5에 가드레일을 추가해 일반 공개한 버전, 벤치마크 기준 현존 최고...<p></p></code></pre>",
+    "createdAt": "2026-06-14T16:18:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=30482",
+    "author": "sanarial",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "GLM 5.2 출시",
     "content": "<ul>\n<li>GLM-5.2는 실제 사용 가능한 <strong>1M 컨텍스트</strong>와 장기 과제 독립 수행을 지원하는 오픈소스 모델로, 복잡한 에이전트 애플리케이션 구축 기반을 제공함</li>\n<li>프런티어 모델 접근이 <strong>비기술적 이유</strong>로 갑자기 차단되는 상황에서 과학은 세계적이어야 하며 AGI로 가는 길은 높은 ...<p></p></li></ul>",
     "createdAt": "2026-06-14T04:29:43.000+00:00",
@@ -587,17 +598,6 @@
     "content": "<ul>\n<li>팀 협업에서 AI가 작성한 <strong>디버그 조사·문서·코드</strong>가 늘어나며, AI 출력물을 언제 다른 사람이 읽도록 보내도 되는지가 새 에티켓 문제가 됨</li>\n<li>내부 코드베이스와 문서에 잘 통합된 AI는 실제로 <strong>유용한 출력</strong>을 만들 수 있음</li>\n<li>소프트웨어 엔지니어가 AI 텍스트를...<p></p></li></ul>",
     "createdAt": "2026-06-12T05:38:54.000+00:00",
     "link": "https://news.hada.io/topic?id=30425",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ReuseLessSoftware - 소프트웨어, &#039;덜&#039; 재사용하기",
-    "content": "<ul>\n<li><strong>공급망 공격</strong>은 소프트웨어 배포 비용이 매우 낮아지고 빌드·배포 자동화가 널리 쓰이면서 더 큰 문제로 커졌음</li>\n<li>1970년대에는 재사용 가능한 소프트웨어를 만들기 어려운 <strong>소프트웨어 위기</strong>가 있었지만, 지금은 패키지 저장소와 패키지 관리자가 이름과 버전만으로 코...<p></p></li></ul>",
-    "createdAt": "2026-06-12T04:02:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=30424",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
