@@ -1,5 +1,16 @@
 [
   {
+    "title": "GLM 5.2 출시",
+    "content": "<ul>\n<li>GLM-5.2는 실제 사용 가능한 <strong>1M 컨텍스트</strong>와 장기 과제 독립 수행을 지원하는 오픈소스 모델로, 복잡한 에이전트 애플리케이션 구축 기반을 제공함</li>\n<li>프런티어 모델 접근이 <strong>비기술적 이유</strong>로 갑자기 차단되는 상황에서 과학은 세계적이어야 하며 AGI로 가는 길은 높은 ...<p></p></li></ul>",
+    "createdAt": "2026-06-14T04:29:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=30478",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "이메일의 미래",
     "content": "<ul>\n<li>AI가 받은편지함을 읽고 요약하며 작업까지 수행하는 환경에서는 <strong>발신자 검증</strong>이 이메일 신뢰의 핵심 조건이 됨</li>\n<li>SPF, DKIM, DMARC는 서버 권한, 메시지 무결성, 실패 시 처리 방침을 결합해 <strong>이메일 인증</strong>의 기본 구조를 이룸</li>\n<li>AI 필터와 AI 보조 도구가 이메...<p></p></li></ul>",
     "createdAt": "2026-06-14T01:49:22.000+00:00",
@@ -588,17 +599,6 @@
     "createdAt": "2026-06-12T04:02:44.000+00:00",
     "link": "https://news.hada.io/topic?id=30424",
     "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Social Archiver - SNS 글을 옵시디언에 바로 가져오는 플러그인(업데이트)",
-    "content": "<p>안녕하세요!</p>\n<p>소셜 아카이버 플러그인 4.0.0으로 업데이트 되었는데 한가지 추가된 모드가 있어서 간단히 소개드리려고 글 남깁니다.</p>\n<p>옵시디언 플러그인으로 시작했는데 모바일앱, 웹 등이 추가되면서 회원 가입을 해야 쓸 수 있는 구조였습니다.</p>\n<p>이번 업데이트로 로그인 하지 않고, 크롬 익스텐</p>",
-    "createdAt": "2026-06-12T03:17:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=30423",
-    "author": "hyungyunlim",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
