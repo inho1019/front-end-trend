@@ -1,5 +1,16 @@
 [
   {
+    "title": "Volkswagen, GrapheneOS 사용자를 차단하기 시작함",
+    "content": "<ul>\n<li>GrapheneOS 사용자가 Volkswagen 앱에서 <strong>로그인 실패</strong>와 서버 연결 오류를 겪고 있으며, 같은 계정이 stock Android나 iPhone에서는 동작하는 사례가 나옴</li>\n<li>GrapheneOS는 Volkswagen 앱의 <strong>Play Integrity API</strong> 사용을 감지했고, My SEAT 앱도 Device Integrity Check ...<p></p></li></ul>",
+    "createdAt": "2026-06-18T04:34:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=30604",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: htmlbook – AI가 만든 HTML, 파일로 안 보내고 링크 하나로 공유",
     "content": "<p>AI한테 리포트·대시보드·문서를 HTML로 만들어달라 하면 결과물은 잘 나옴. 근데 남한테 보여주려면? <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.html</code> 파일 그대로 보내거나(받는 쪽은 다운받아 열어야 됨), 코드 채팅에 복붙하거나, 스샷 찍음. 결과물이 로컬에 갇혀 있으니까.</p>\n<p><strong>htmlbook은 그걸 '링크'로 끝냄.</strong> 에이전트</p>",
     "createdAt": "2026-06-18T03:59:58.000+00:00",
@@ -620,17 +631,6 @@
     "content": "<ul>\n<li>Elon Musk의 <strong>SpaceX</strong>가 AI 코딩 에이전트 Cursor의 개발사 Anysphere를 <strong>600억 달러($60B) 전액 주식 교환</strong> 방식으로 인수, 기업용 AI 도구 시장 진입 강화</li>\n<li>이번 인수로 지난 2월 SpaceX에 인수된 <strong>xAI</strong>가 AI 코딩 분야에서 입지 확보, 해당 분야는 기...<p></p></li></ul>",
     "createdAt": "2026-06-16T23:32:38.000+00:00",
     "link": "https://news.hada.io/topic?id=30551",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple이 Hide My Email을 쓸모없게 만들려 하고 있음",
-    "content": "<ul>\n<li><strong>Sign in with Apple</strong>과 iCloud+ Hide My Email 별칭이 앞으로 <strong>@private.icloud.com</strong> 하위 도메인에서 발급될 예정임</li>\n<li>이 변경으로 서비스가 iCloud의 일반 메일함에 영향을 주지 않고 <strong>릴레이 별칭</strong>만 더 쉽게 차단할 수 있게 됨</li>\n<li>기존에는 Ap...<p></p></li></ul>",
-    "createdAt": "2026-06-16T23:25:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=30550",
     "author": "xguru",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
