@@ -1,5 +1,148 @@
 [
   {
+    "title": "이번 주말에 무엇을 할 예정인가요?",
+    "content": "<ul>\n<li>주말 계획을 자유롭게 나누는 <strong>커뮤니티 프롬프트</strong>임</li>\n<li>계획 공유뿐 아니라 필요한 <strong>도움이나 피드백</strong> 요청도 허용함</li>\n<li>특별한 일정이 없어도 참여할 수 있는 열린 질문임</li>\n<li>아무것도 하지 않는 선택도 <strong>괜찮다</strong>고 명시함</li>\n<li>생산성보...<p></p></li></ul>",
+    "createdAt": "2026-06-27T03:01:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=30874",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "실패한 국가 배후 추정 공격 해부",
+    "content": "<ul>\n<li>캐나다의 한 개발자가 가짜 VC 인터뷰를 가장한 <strong>백도어 유도 공격</strong>을 받았고, 공격 흐름은 crates.io 패키지 관리자를 노린 것으로 의심될 만큼 개발자 업무에 맞춰져 있었음</li>\n<li>미끼 저장소는 “Ticket Harbor”라는 TypeScript 앱처럼 보였지만, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">patch-package</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">t...<p></p></code></li></ul>",
+    "createdAt": "2026-06-27T02:03:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=30873",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "37signals의 의사결정 가이드",
+    "content": "<ul>\n<li>회사를 <strong>사람들의 집단</strong>과 <strong>결정의 집합</strong>이라는 두 가지로 정의, 그 사람들이 어떻게 결정하느냐가 곧 비즈니스를 운영하는 기술</li>\n<li>매일, 온종일 반복하는 단 하나의 일이 <strong>결정</strong>이며, 이를 위한 일반 원칙 모음을 공유</li>\n<li>제시된 원칙은 <strong>요...<p></p></strong></li></ul>",
+    "createdAt": "2026-06-27T01:10:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=30872",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "가짜 트랙션 문제",
+    "content": "<ul>\n<li>헬스케어 스타트업에서 <strong>초기 긍정 신호</strong>를 시장 검증이 끝나기도 전에 창업자가 트랙션으로 믿어버리는 순간이 펀드레이징에서 가장 위험한 시점 중 하나</li>\n<li>창업자는 미팅·피드백·파일럿·소개 같은 <strong>관심 신호</strong>를 회사가 작동한다는 증거로 받아들이지만, 투자자는 그 ...<p></p></li></ul>",
+    "createdAt": "2026-06-27T01:04:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=30871",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "&#039;기획 하네스(planning harness)&#039;로 완성하는 상세기획 워크플로우 자동화",
+    "content": "<p>기획자들이 AI를 활용할 때 상위기획은 잘 자동화하면서도 상세기획에서는 여전히 수작업으로 고생하는 문제를 다루고 있음.<br>\n주변 개발자의 조언으로 '기획 하네스(Planning Harness)' 개념을 도입해 이를 해결한 사례 중심의 내용.</p>\n<p>기획 하네스(planning harness)란?<br>\n. AI가 일관된 규칙과 컨텍스</p>",
+    "createdAt": "2026-06-27T01:03:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=30870",
+    "author": "pentaxzs",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "오픈소스 보안을 함께 지키기 위한 Akrites 공개서한",
+    "content": "<ul>\n<li><strong>AI 기반 취약점 발견</strong>이 유지관리자의 대응 속도를 앞지르면서, Akrites는 핵심 오픈소스 소프트웨어를 공동으로 보강하기 위한 산업계 협력으로 출범함</li>\n<li>심각한 취약점 발견은 과거 전문가에게 몇 주 걸리던 작업이었지만, 이제는 <strong>AI 모델</strong>이 몇 분 만에 여러 취약점...<p></p></li></ul>",
+    "createdAt": "2026-06-27T01:03:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=30869",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CVE-2026-LGTM 사고 보고서",
+    "content": "<ul>\n<li>자동화된 방어 체계가 서로의 판단을 믿고 넘어가면서, 악성 패키지 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">foxhole-lz4</code>가 <strong>게시·탐지·대응·완화</strong> 전 과정을 통과한 96시간짜리 사고로 번짐</li>\n<li>숨은 프롬프트, base64 블롭, 대형 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vendor.min.js</code>, 빌드 스크립트의 <strong>자격 증명 유출</strong> 루...<p></p></li></ul>",
+    "createdAt": "2026-06-27T01:00:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=30868",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 정부가 GPT-5.6 사용자를 결정할 예정",
+    "content": "<ul>\n<li>트럼프 행정부가 최신 AI 기술에 접근하려는 기업을 <strong>정부가 직접 심사</strong>하는 정책을 확대하며, OpenAI와 Anthropic 양사 모두에 규제를 적용 중</li>\n<li>OpenAI는 최신 모델 <strong>Sol</strong> 출시와 함께 미국 정부 승인을 받은 기업만 접근할 수 있도록 했으며, 개인 사용자 접근 절차는...<p></p></li></ul>",
+    "createdAt": "2026-06-27T00:57:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=30867",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GPT‑5.6 Sol 프리뷰: 차세대 모델",
+    "content": "<ul>\n<li>OpenAI가 <strong>GPT‑5.6 시리즈</strong>를 제한 프리뷰로 열며, 플래그십 Sol과 일상 업무용 Terra, 저비용 Luna를 함께 내놓음</li>\n<li>Sol은 코딩·생물학·사이버보안에서 <strong>에이전트 능력</strong>을 강화했고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">max</code> reasoning effort와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ultra</code> 모드로 더 깊은 추론과 서...<p></p></li></ul>",
+    "createdAt": "2026-06-27T00:54:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=30866",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "새로운 산업혁명의 잠금 해제",
+    "content": "<ul>\n<li>AI는 인간 수준 지능 도달과 그 이상을 목표로 하지만, <strong>산업 인프라와 물리적 한계</strong>가 그 잠재력을 가둬두고 있음</li>\n<li>의미 있는 생활수준 변화에는 <strong>전력 + 지능 + 조정된 행동(coordinated action)</strong> 세 가지 요소의 결합이 필수</li>\n<li>미국은 지능은 갖췄으나 </li></ul>",
+    "createdAt": "2026-06-27T00:38:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=30865",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "gofumpt- gofmt보다 더 엄격한 Go 코드 포매터",
+    "content": "<ul>\n<li>기존 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gofmt</code>와 <strong>하위 호환</strong>되면서 더 엄격한 규칙을 강제하는 포매터</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gofmt</code>가 허용하는 포맷의 부분집합으로 <strong>드롭인 교체</strong>가 가능해, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gofumpt</code> 실행 후 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gofmt</code>를 돌려도 변경 사항 없음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gofmt</code></li></ul>",
+    "createdAt": "2026-06-27T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=30864",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "훔치기도 기술이다",
+    "content": "<ul>\n<li>창작에서의 “훔치기”는 참고 수준을 넘어 <strong>타인의 작업을 직접 복제</strong>해 빠르게 기준점을 만들고, 자신이 바꿔야 할 부분을 배우는 방법임</li>\n<li>Virgil Abloh의 <strong>3% 접근법</strong>은 기존 Air Force 1 디자인을 거의 유지하려 한 사례에서 출발하며, 작은 차이를 만들려면 원본 전...<p></p></li></ul>",
+    "createdAt": "2026-06-27T00:26:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=30863",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple, 고급형 M6 Mac 칩 건너뛰고 AI 중심 M7 라인으로 전환 예정",
+    "content": "<ul>\n<li>Apple이 M1부터 M5까지 유지해온 칩 세대별 Pro/Max 변형 출시 관행을 처음으로 깨고, <strong>M6는 베이스 칩만</strong> 출시한 뒤 하이엔드 라인은 차세대 M7으로 건너뛰는 전략 변경 추진 중</li>\n<li>M6 베이스 칩은 올해 중 엔트리급 MacBook Pro에 탑재 예정이며, <strong>메모리 대역폭이 M5 대비 약 3...<p></p></strong></li></ul>",
+    "createdAt": "2026-06-26T21:36:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=30862",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "민주·권위주의 국가들이 대규모 감시 경쟁을 벌이고 있음",
     "content": "<ul>\n<li>국가 대규모 감시는 민주주의와 권위주의를 가리지 않고 확산됐으며, <strong>인권과 사생활 침해</strong>뿐 아니라 실제 문제 해결에도 비효율적이라는 비판을 받음</li>\n<li>미국의 감시 체계는 <strong>FISA Section 702</strong>, PRISM, Upstream, XKeyscore를 축으로 법원 판단 없이 방대한 인터넷 활동...<p></p></li></ul>",
     "createdAt": "2026-06-26T19:38:47.000+00:00",
@@ -93,17 +236,6 @@
     "createdAt": "2026-06-26T06:15:21.000+00:00",
     "link": "https://news.hada.io/topic?id=30853",
     "author": "rkttu",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 당근전톡 — 당근마켓 가기 전에 카톡으로 동네 공개매물 먼저 둘러보기",
-    "content": "<p>안녕하세요.<br>\n카카오 PlayMCP 기반으로 당근전톡이라는 작은 MCP 서비스를 만들어봤습니다.</p>\n<p>당근전톡은 당근마켓 앱을 열기 전에, 카톡에서 자연어로 동네 공개매물을 먼저 찾아볼 수 있는 읽기 전용 리서치 도구입니다.</p>\n<p>예를 들면 이렇게 물어볼 수 있습니다.</p>\n<ul>\n<li>합정동에서 맥북 중고</li></ul>",
-    "createdAt": "2026-06-26T05:34:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=30852",
-    "author": "mobeah",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -517,17 +649,6 @@
     }
   },
   {
-    "title": "이해의 기쁨과 힘",
-    "content": "<ul>\n<li>소프트웨어를 깊이 이해하면 도구에 끌려가지 않고, 자신이 책임지는 시스템에 대한 <strong>통제와 소유권</strong>을 가질 수 있음</li>\n<li>검색과 LLM은 빠른 답을 주지만, 설명할 수 없는 해법을 복사하는 습관은 수정 능력과 <strong>핵심 역량</strong>을 약화시킬 수 있음</li>\n<li>일회성 스크립트나 ...<p></p></li></ul>",
-    "createdAt": "2026-06-25T07:04:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=30818",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Vibe Coders, Agent Stacks, and the Internet's Ghost Town Milestone",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!EXLo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!EXLo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!EXLo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!EXLo!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!EXLo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7816bea7-4461-4aa9-b3d8-6d81c03c4a39_2752x1536.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>It’s been a wild two weeks in tech. Let’s mutate into the code. First up, we have a massive philosophical schism. Are you a <strong>Software Engineer</strong>, or are you a <strong>Vibe Coder</strong>?</p><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">[Vibe Coder] ----&gt; \"If it runs, it ships\" ----&gt; 🚀 \n[Engineer]   ----&gt; \"But what about the CI/CD?\" -&gt; 🛡️</code></code></pre><p>Articles are tracking the rise of the <em>Vibe Coder</em>—someone who feeds prompts to an AI, gets a working prototype in five minutes, and vibes. Meanwhile, traditional <em>Software Engineers</em> are stuck grinding out the “time-to-safe-merge” and long-term ownership.</p><p>But why choose when the tech stack is doing both? <strong>Vercel Ship 2026</strong> just dropped, and they unveiled their new <strong>“Agent Stack,”</strong> featuring Vercel Connect. It’s built specifically to deploy and manage autonomous AI coding agents securely at scale. If you’re building those agents, <strong>Astro 7.0</strong> just launched with a rewritten Rust compiler, native Rust Markdown, and advanced routing workflows <em>literally</em> optimized for AI agents. And <strong>React Router v8</strong> is stable and ESM-only, <strong>TanStack Table v9</strong> enters beta with an atom-based state engine, and <strong>TanStack Start</strong> is giving Next.js devs a run for their money with a router-first, isomorphic approach.</p><p><strong>The AI ecosystem</strong> is evolving faster than your npm install finishes. In a massive blow to repetitive compute costs, Stack Overflow announced “Stack Overflow for Agents.” It’s an API-first knowledge exchange where AI agents can share machine-readable blueprints and verified solutions. No more burning 50,000 tokens debugging the same broken regex.</p><p>To help them navigate, Mozilla dropped the <strong>MDN MCP Server</strong>, giving LLMs real-time access to web platform standards so they stop hallucinating deprecated 2022 syntax.</p><p>But where do they put all this data? Engineering teams are building <strong>Persistent Agent Memory Layers</strong> on Elasticsearch, while researchers are unlocking <strong>“post-memory training”</strong>—using reinforcement learning to teach models memory management natively, rather than relying on heavy external vector DBs.</p><p>Finally, <strong>look at the marketing data</strong>. We have officially crossed the Rubicon. Semrush confirmed that AI agent traffic has officially surpassed human web traffic.</p><blockquote><p>“The web is now mostly bots talking to bots.”</p></blockquote><p>Because of this, B2B marketing is completely flipped. <strong>G2 Reviews</strong> are becoming the new trust layer because LLMs scrape structured, verified data to make recommendations, completely bypassing traditional Google organic search rankings.</p><p>Speaking of Google, the <strong>May 2026 Core Update</strong> has settled. The winners? Reddit, which absolutely dominated the top-3 rankings.</p><p>The losers? YouTube links in search and anyone shipping “content bloat.” If you are mass-producing low-value SEO spam, Google’s crawl budget will delete your visibility.</p><p>As always, exciting times ahead…and a bit of summer vacation.</p><p>Happy reading.</p><div data-attrs=\"{\" data-component-name=\"SubscribeWidgetToDOM\"><div><div><p>Thanks for reading! Subscribe for free to receive new posts and support my work.</p></div><input name=\"email\" placeholder=\"Type your email…\"><input value=\"Subscribe\"><div><div></div><div></div></div></div></div><p><strong>PLEASE🙏</strong><span> Should you find emails from </span><strong>SWIPE</strong><span> unwanted or annoying, unsubscribe. If you’re interested in learning how and when you might end up in SWIPE and what you can expect in the future, check it out </span><strong><a href=\"https://swipemag.substack.com/about\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></strong><span>.</span></p><h2><span>⚙️</span>Dev stuff</h2><div id=\"youtube2-Ybrl4FYM57c\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p>🤫<a href=\"https://yusufaytas.com/vibe-coder-vs-software-engineer?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Vibe Coder vs Software Engineer</a> - This article breaks down the conceptual divide between a “vibe coder” (who leverages AI tools to quickly generate prototypes and values time-to-first-working-version) and a “software engineer” (who manages the entire software development lifecycle, prioritizing time-to-safe-merge and long-term ownership).</p><p><a href=\"https://vercel.com/blog/vercel-ship-2026-recap?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Vercel Ship 2026 recap</a> - A comprehensive summary of Vercel’s Ship 2026 event highlights, focusing on the release of their modular “Agent Stack” (including Vercel Connect and runtime workflows) tailored for deploying, running, and managing autonomous AI coding agents securely at scale.</p><p><a href=\"https://remix.run/blog/react-router-v8?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">React Router v8</a> - An announcement highlighting the stable release of React Router v8, detailing minimal breaking changes, modern peer dependency updates (React 19+ and Node 22+), an transition to ESM-only architecture, and the official End-of-Life timeline for v6 and Remix v2.</p><p><a href=\"https://astro.build/blog/astro-7/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Astro 7.0</a> - A launch post announcing Astro 7, focusing heavily on dramatic build-speed improvements powered by a rewritten Rust compiler, a native Rust Markdown pipeline, integration with Vite 8 / Rolldown, and advanced routing workflows built for AI agents.</p><p><strong>✨<a href=\"https://crystallize.com/blog/frontend-teams-still-ship-slow-storefronts?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Why Do Good Frontend Teams Still Ship Slow Storefronts?</a></strong> - An architectural insight into why modern e-commerce storefronts suffer from poor loading speeds. It argues that performance drops result from compounded organizational issues, lazy data schemas, and bad integration choices rather than developers’ technical skills.</p><p><a href=\"https://blog.janestreet.com/formal-methods-at-jane-street-index/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Formal methods and the future of programming</a> - A deep dive by Jane Street explaining why they are turning to formal methods. The post highlights how agentic AI coding flips the traditional cost-benefit math of software verification, using strict type constraints and mathematical proofs to manage automated code output.</p><p><a href=\"https://polar.sh/blog/orbit-llm-safe-design-system?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Building an LLM safe design system</a> - An engineering chronicle discussing “Orbit,” a new UI design system explicitly engineered to curb visual inconsistencies caused by AI loops. It enforces rules via strict, deterministic ESLint contracts in CI rather than traditional documentation.</p><p>🤖<a href=\"https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">AI demands more engineering discipline. Not less (xpost)</a> - Charity Majors maps out why the proliferation of cheap, AI-generated code means software engineering needs stronger organizational rigor. <span>She argues code should be treated as a disposable cache of shared understanding, moving human effort upstream to specifications and downstream to robust observability.</span></p><p><a href=\"https://www.adarsha.dev/blog/tanstack-mental-model-for-nextjs-developers?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack Start: A Mental Model for Next.js Developers</a> - A framework guide comparing TanStack Start and Next.js, explaining the mental shift from a framework-implicit “server-default” world to a router-first, isomorphic React environment where type boundaries and server functions are explicitly declared.</p><p><a href=\"https://vexlio.com/blog/svgs-and-pdfs-can-both-be-interactive/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">SVGs and PDFs can both be interactive</a> - An investigation into the rarely-leveraged programmability structures hiding inside common document formats, detailing how embedded JavaScript runtimes allow SVGs and PDFs to behave as entirely self-contained, responsive mini-applications.</p><p><a href=\"https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Persistent Agent Memory Layer on Elasticsearch</a> - A technical exploration explaining how to engineer a durable, long-term memory layer for AI agents utilizing Elasticsearch to achieve highly precise retrieval recall during runtime operations.</p><p><a href=\"https://dev.to/harsh2644/the-8020-rule-of-ai-code-why-the-last-20-takes-80-of-your-time-3pcg?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The 80/20 Rule of AI Code — Why the Last 20% Takes 80% of Your Time</a> - A practical reality check on AI development speeds, explaining why LLMs excel at quickly generating the first 80% (the “happy path”) but force humans to spend hours debugging the final 20% involving complex error states, domain logic, and hidden edge cases.</p><p><a href=\"https://chillicream.com/blog/2026/06/11/open-your-graphql-api-for-the-rest%3Futm_source%3Dswipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Open Your GraphQL API for the Rest</a> - A guide walking through how to expose structured GraphQL server topologies to standard REST-based endpoints and AI orchestration systems using Nitro’s unified OpenAPI compilation pipelines.</p><p><a href=\"https://martinfowler.com/articles/reliable-llm-bayer.html?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Building Reliable Agentic AI Systems</a> - A production-readiness case study showcasing Bayer’s “PRINCE” platform. <span>It outlines how to deploy reliable Agentic Retrieval-Augmented Generation (RAG) and text-to-SQL setups inside heavily regulated, data-siloed enterprise environments.</span></p><p><a href=\"https://tanstack.com/blog/tanstack-table-v9-memory-performance?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack Table V9: Taking Form</a> - An announcement outlining the architectural enhancements built into TanStack Table v9 beta, introducing an atom-based state engine powered by TanStack Store to allow granular, fine-tuned re-renders and optimal client-side memory performance.</p><h2>🤖AI / ChatGPT stuff</h2><div id=\"youtube2-JoXbk2fm7jM\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p><a href=\"https://gabrielweinberg.com/p/people-are-consuming-ai-like-they?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">People Are Consuming AI Like They Eat Meat</a> - Written by Gabriel Weinberg on his Substack publication <strong>yegg</strong>, this article outlines a framework for modern consumer AI adoption. <span>He argues that rather than an all-or-nothing wave, society is adopting AI like meat consumption: some embrace it fully, some restrict its use intentionally, and others avoid it completely.</span></p><p><a href=\"https://sunilpai.dev/posts/never-waste-a-token/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Never Waste a Token</a> - Author Sunil Pai introduces the concept of “durable inference,” exploring how decoupling your LLM provider connections from your application logic prevents costly token loss when processes crash or redeploy mid-stream in an agentic loop.</p><p><strong>🛒💰<a href=\"https://crystallize.com/blog/agentic-commerce?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Agentic Commerce and Emerging AI Shopping Protocols</a></strong> - A deep dive into how headless Product Information Management (PIM) and structured schemas power “agentic commerce”—shifting digital shopping from manual search-and-scroll interfaces to machine-readable APIs that autonomous AI agents can query and purchase through on behalf of users.</p><p><a href=\"https://dev.to/evgeniy_kormin/vibe-coding-bible-a-programming-paradigm-for-ai-written-software-gp9?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Vibe Coding Bible: A Programming Paradigm for AI-Written Software</a> - An operational breakdown of the “Vibe Coding” loop (Intent → Generate → Review → Refine), unpacking how modern IDE tools shift the developer’s role from raw manual writing to running continuous integration, verification, and code architecture.</p><p><a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing the MDN MCP Server</a> - Mozilla introduces an experimental Model Context Protocol (MCP) server for MDN Web Docs, giving AI agents and IDEs real-time, direct access to up-to-date web platform standards and browser compatibility data to avoid stale training data hallucinations.</p><p><a href=\"https://cloudfour.com/thinks/improvements-to-web-for-ai-should-benefit-all-users/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Improvements to Web for AI Should Benefit All Users</a> - A critique of creating parallel, AI-only web protocols (like WebMCP forks). It argues that when AI agents struggle to interact with a website, the platform’s core HTML and ARIA semantics should be improved so that human users, assistive technologies, and bots all benefit equally.</p><p><a href=\"https://nekuda.substack.com/p/should-merchants-build-a-dedicated%3Futm_source%3Dswipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Should Merchants Build a Dedicated Website for AI Agents?</a> - In the Substack publication <strong>nekuda</strong>, the author examines the emerging category of “agent readiness” for online retailers, analyzing data on whether building markdown-only subdomains or distinct agent pages provides actual business value versus exposing direct API handshakes.</p><p>💡<a href=\"https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing Stack Overflow for Agents</a> - Stack Overflow details its new beta platform: an API-first knowledge exchange engineered specifically for AI agents to share machine-readable blueprints and verified solutions, avoiding repetitive token spend and compute waste across identical software bugs.</p><p><a href=\"https://deepmind.google/blog/securing-the-future-of-ai-agents/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Securing the Future of AI Agents</a> - Google DeepMind outlines its “AI Control Roadmap,” a defense-in-depth security framework that handles advanced autonomous agents as potential “insider threats,” employing trusted AI supervisors to monitor agent behavior and execute real-time interventions.</p><p><a href=\"https://www.google.com/search?q=https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-52f6%3Futm_source%3Dswipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Why Does AI Forget What You Said (and How to Fix It)</a> - An architectural look into context window fatigue, explaining why LLMs experience thinner attention metrics over long conversations and offering practical strategies for building explicit application-side caching and summary memory layers.</p><p><a href=\"https://blog.bytebytego.com/p/ep219-12-open-source-llms?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">EP219: 12 Open-source LLMs</a> - Featured on Alex Xu’s <strong>ByteByteGo Newsletter</strong> Substack, this entry breaks down 12 notable open-source large language models of 2026 by their core architectural advantages (such as DeepSeek V4 and Gemma 4 QAT), alongside a deep dive into Small Language Models (SLMs) versus cloud inference engines.</p><p><a href=\"https://every.to/working-overtime/i-asked-an-ai-to-audit-my-own-career?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">I Asked an AI to Audit My Own Career</a> - A case study showing how to configure a localized file-system operating system using Codex to perform objective, cross-platform career audits and OKR performance monitoring against actual workspace telemetry.</p><p><a href=\"https://www.google.com/search?q=https://thoughtfullab.com/the-state-of-ai-post-training-agents.html%3Futm_source%3Dswipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The State of AI Post-Training Agents</a> - An analysis by Thoughtful Lab highlighting “post-memory training,” an optimization method utilizing reinforcement learning during the post-training stage to teach models memory management as an internal behavior rather than relying on heavy external infrastructure.</p><p>🏃‍♀️‍➡️<a href=\"https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Running Local Models Is Good Now</a> - Machine learning engineer Vicki Boykis breaks down the 2026 tipping point for local inference. Fueled by optimized architectures like Gemma 4 12B QAT and local engines, developers can run local agentic code loops safely isolated inside Docker containers at roughly 75% frontier accuracy.</p><p><a href=\"https://www.pathtostaff.com/p/everything-a-senior-engineer-needs?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Everything a Senior Engineer Needs to Know About What’s Inside an LLM</a> - Published by Sidwyn Koh on the Substack <strong>Path to Staff Engineer</strong>, this technical deep dive translates base transformer logic, token weights, and mathematical context engineering into a foundational roadmap for senior engineers navigating a post-AI landscape.</p><h2>📊Marketing stuff</h2><div id=\"youtube2-RPN9plATBtU\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p><a href=\"https://jon4growth.substack.com/p/inside-the-linkedin-content-system?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Inside the LinkedIn content system</a> - On his Substack publication <strong>The AI Marketer</strong>, Jonathan Martinez breaks down the structural mechanics and “growth engineering” loops he uses to build and scale content systems on LinkedIn.</p><p>📊<a href=\"https://www.semrush.com/blog/ai-agent-bot-traffic/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Bot traffic now exceeds traffic from human users</a> - Semrush analyzes the major 2026 milestone where AI agent traffic officially surpassed human web traffic, detailing how marketers can adapt by tracking AI visibility and citation rates instead of traditional bounce-rate metrics.</p><p><a href=\"https://peec.ai/blog/using-mcp-for-seos-geos-and-aeos?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Using MCP for SEOs, GEOs, and AEOs</a> - A practical technical guide on leveraging the Model Context Protocol (MCP) to connect AI assistants directly to live SEO data tools, enabling automated analysis and content optimization without manual spreadsheet work.</p><p><a href=\"https://foundationinc.co/lab/g2-reviews-ai-trust/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">G2 Reviews Are Building the Trust Layer of AI Search in B2B</a> - An investigation into how LLMs prioritize structured, verified third-party data from platforms like G2 to justify B2B software recommendations, effectively decoupling “trust” from traditional organic SERP rankings.</p><p><a href=\"https://searchengineland.com/travel-brands-earn-ai-recommendations-480084?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">How travel brands can earn AI recommendations</a> - An exploration of how travel companies are restructuring their business schemas and entity signals to improve visibility in AI Overviews and conversational travel planning interfaces.</p><p><a href=\"https://pierreherubel.substack.com/p/the-955-playbook-for-linkedin-growth?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The 95/5 Playbook for LinkedIn Growth</a> - On his Substack, Pierre Herubel outlines a strategic framework for LinkedIn, focusing on how to build brand relevance for the 95% of your audience that isn’t ready to buy <em>right now</em>, rather than just chasing the 5% that are.</p><p>😎<a href=\"https://iamveru.com/what-running-reddit-marketing-taught-me/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">What running Reddit marketing taught me</a> - A personal deep dive into navigating Reddit’s unique community ecosystem, arguing that corporate marketing only succeeds when it prioritizes radical transparency and authentic community contribution over sales pitches.</p><p><a href=\"https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-beauty?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The State of Beauty: What We’ve Learned From Working With Beauty Brands</a> - A McKinsey report analyzing the high-complexity measurement landscape of the beauty industry, focusing on the shift from click-based attribution to causal measurement in a culture driven by viral trends.</p><p><a href=\"https://www.buzzstream.com/blog/lily-ray-podcast/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Lily Ray on the BuzzStream Podcast</a> - A featured discussion with search authority Lily Ray, covering the volatility of modern algorithms, the importance of brand integrity, and the future of search in a generative AI era.</p><p><a href=\"https://www.searchenginejournal.com/why-publishing-more-content-is-making-your-seo-worse/576047/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Why publishing more content is making your SEO worse</a> - A critical look at modern SEO strategy, explaining why producing high volumes of low-value, repetitive content (content bloat) destroys crawl budgets and hurts overall site visibility.</p><p><a href=\"https://seranking.com/blog/google-may-2026-core-update-analysis/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Google May 2026 Core Update Analysis</a> - SE Ranking’s post-mortem of the May 2026 update, highlighting the massive shift in search results where Reddit gained significantly in top-3 rankings while YouTube’s presence in regular search links declined.</p><p><a href=\"https://www.searchenginejournal.com/what-is-a-good-ctr-for-google-ads/492785/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">What is a good CTR for Google Ads?</a> - A benchmark analysis for paid search performance, providing updated click-through rate expectations in a digital landscape where AI-generated search layouts and ad formats are constantly shifting.</p><p></p><p>¯\\_(ツ)_/¯</p><p><strong>🛠TOOL you should check out:</strong><span> </span></p><p><span>🎸</span><strong>LISTEN TO:</strong><span> </span><a href=\"https://www.youtube.com/watch?v=6DdZDP4dfes&amp;list=RD6DdZDP4dfes\" target=\"_blank\" rel=\"noopener noreferrer\">The Killers - The Man</a><span> in the Live Lounge</span></p><p>Happy reading /bookmarking!</p><p><strong><span>If you enjoyed these, please SUBSCRIBE, recommend 👏 and share to help others find us! Let us know what you think in the comments section below.</span><br><br><span>🐦Follow </span><a href=\"https://twitter.com/theSWIPEmag\" target=\"_blank\" rel=\"noopener noreferrer\">SWIPE on TWITTER</a></strong></p><div data-attrs=\"{\" data-component-name=\"SubscribeWidgetToDOM\"><div><div><p>Thanks for reading! Subscribe for free to receive new posts and support my work.</p></div><input name=\"email\" placeholder=\"Type your email…\"><input value=\"Subscribe\"><div><div></div><div></div></div></div></div>",
     "createdAt": "2026-06-25T06:28:53.000+00:00",
@@ -536,127 +657,6 @@
     "site": {
       "id": "415ed02f-7fdc-4217-962b-ac9bcd491460",
       "name": "SWIPE"
-    }
-  },
-  {
-    "title": "Show GN: Windows 11 작업표시줄에 내 앱 UI를 올릴 수 있게 해주는 라이브러리를 만들었습니다.",
-    "content": "<p>최근 Windows 11 작업표시줄(taskbar) 안에 직접 앱 UI를 끼워 넣을 수 있는 라이브러리를 공개했습니다. 이름은 <strong>Deskband11Lib</strong>이고, NuGet으로 설치하면 WinUI 3이나 WPF 앱을 작업표시줄 위젯으로 만들 수 있습니다.</p>\n<p>왜 만들게 됐는지, 어떻게 돌아가는지, 그리고 실제로 스토어에 등록한 </p>",
-    "createdAt": "2026-06-25T04:56:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=30817",
-    "author": "kck4156",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Code as Agent Harness — 코드를 에이전트의 실행 기반으로 보는 102페이지 서베이",
-    "content": "<p><strong>UIUC × Meta × Stanford</strong> 합작. 5월 arXiv에 올라온 서베이 논문인데, 관점이 꽤 재밌다.</p>\n<h3>핵심 주장</h3>\n<p><strong>\"코드는 더 이상 LLM이 생성하는 결과물이 아니다. 에이전트가 추론하고, 행동하고, 상태를 저장하고, 피드백을 검증하는 operational substrate(실행 기반)다.\"</strong></p>",
-    "createdAt": "2026-06-25T02:49:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=30815",
-    "author": "johnonlee",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI시대, 나의 전문성을 재설계하는 법 [구글 슬라이드, 165P]",
-    "content": "<ul>\n<li>데이터오븐 하용호님의 발표자료</li>\n<li>회사의 <strong>AX(AI 전환)</strong> 여정은 대부분 비슷한 5단계를 거침 — <strong>환호 → 정체 → 신남 → 의구심 → 마지막 고비</strong></li>\n<li><strong>AI J curve Trap</strong> - AI 붙인다고 바로 잘하는 게 아니라 <strong>Verification Tax(검증 세금...<p></p></strong></li></ul>",
-    "createdAt": "2026-06-25T02:26:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=30814",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cafe24, LLM Router 공개",
-    "content": "<ul>\n<li>Claude, Gemini, Qwen, Llama, DeepSeek 등 <strong>100개 이상 모델</strong>을 <strong>단일 엔드포인트</strong>로 호출하는 통합 LLM 인프라</li>\n<li><strong>OpenAI 호환 단일 API</strong>를 제공해, Provider마다 다른 API 명세·재시도 로직·스트리밍 포맷을 따로 학습/유지할 필요 없음</li>\n<li></li></ul>",
-    "createdAt": "2026-06-25T01:46:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=30813",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "RubyLLM: 주요 AI 제공자를 하나로 묶는 Ruby 프레임워크",
-    "content": "<ul>\n<li><strong>RubyLLM</strong>은 Ruby 앱에서 챗봇, AI 에이전트, RAG, 콘텐츠 생성 같은 AI 워크플로를 한 프레임워크로 만들게 해줌</li>\n<li>GPT, Claude, 로컬 <strong>Ollama</strong> 등을 같은 인터페이스로 다루며, 의존성은 Faraday, Zeitwerk, Marcel 3개로 제한됨</li>\n<li>채팅뿐 아니라 이미지·비디오 ...<p></p></li></ul>",
-    "createdAt": "2026-06-25T01:17:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=30811",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Quake 개발자 존 카맥의 초기 시절 실수들",
-    "content": "<ul>\n<li>Quake 개발 초기는 <strong>기술적 과욕</strong>과 조직 운영 문제가 함께 드러난 시기였고, 안정적인 기반을 택했다면 팀의 부담을 줄일 수 있었음</li>\n<li>멀티플레이어와 모딩은 더 보수적인 <strong>Doom++ 엔진</strong>에서도 구현 가능했으며, Quake의 급격한 기술 전환은 디자이너들에게 반복적인 재...<p></p></li></ul>",
-    "createdAt": "2026-06-25T01:00:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=30810",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Anthropic, Claude Tag 공개",
-    "content": "<ul>\n<li>Claude와 협업하는 새로운 방식으로, <strong>Slack에 팀원처럼 합류</strong>해 채널 내 누구나 작업을 위임할 수 있는 기능</li>\n<li>지정된 채널 접근 권한과 도구·데이터·<strong>코드베이스 연결</strong>을 통해 <strong>@Claude</strong> 태그만으로 작업 위임 가능</li>\n<li>채널 안의 Claude는 요청을...<p></p></li></ul>",
-    "createdAt": "2026-06-25T00:57:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=30809",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "독일에서 회사 설립하기: 9,600유로와 152일, 아직 인보이스도 못 보냄",
-    "content": "<ul>\n<li>1월 말 독일에서 두 번째 회사 설립을 시작한 뒤 6월 말까지 <strong>€9,654.71</strong>를 지출했지만, PlentyLabs UG &amp; Co. KG는 아직 고객에게 인보이스를 한 장도 보내지 못함</li>\n<li>총비용은 수수료·청구서 <strong>€7,654.71</strong>와 손댈 수 없는 주식자본 <strong>€2,000</strong>로 나뉘...<p></p></li></ul>",
-    "createdAt": "2026-06-25T00:54:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=30808",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Bunny DNS 무료 전환",
-    "content": "<ul>\n<li>bunny.net은 119개 지역 글로벌 네트워크와 <strong>Bunny CDN</strong> 성능을 뒷받침해 온 DNS를 무료화해, DNS를 별도 프리미엄 기능이 아닌 플랫폼의 기본 진입점으로 전환함</li>\n<li>내부 <strong>라우팅 엔진</strong>으로 시작한 Bunny DNS는 쿼리마다 최적 목적지를 판단하도록 설계됐고, 현재 300,00...<p></p></li></ul>",
-    "createdAt": "2026-06-25T00:51:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=30807",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, Broadcom과 만든 첫 자체 추론 칩 Jalapeño 공개",
-    "content": "<ul>\n<li><strong>Jalapeño(할라페뇨)</strong> 는 LLM 추론(inference)에 특화된 가속기이자 Broadcom과 함께 만드는 <strong>다세대 컴퓨팅 플랫폼</strong>의 첫 결과물</li>\n<li>설계 착수부터 제조 테이프아웃까지 단 <strong>9개월</strong> 소요, 고성능 첨단 반도체 분야 사상 가장 빠른 ASIC 개발 주기로 추정...<p></p></li></ul>",
-    "createdAt": "2026-06-25T00:47:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=30806",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "bumblebee - 공급망 침해 노출 점검용 스캐너",
-    "content": "<ul>\n<li>맥/리눅스 개발자 머신에서 <strong>패키지/확장/개발 도구 메타데이터</strong>를 수집해, 공급망 침해 발생 시 즉시 확인하는 읽기 전용 인벤토리 수집기</li>\n<li><strong>SBOM</strong>(무엇이 배포됐나) 과 <strong>EDR</strong>(무엇이 실행됐나)이 답하지 못하는 영역, 즉 lockfile/패키지 매니저 메타데...<p></p></li></ul>",
-    "createdAt": "2026-06-25T00:29:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=30805",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1893,7 +1893,7 @@
   },
   {
     "title": "[Korean FE Article] The Pulse: ‘토큰맥싱(tokenmaxxing)’이라는 기이한 신종 트렌드",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!snr3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 424w, https://substackcdn.com/image/fetch/$s_!snr3!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 848w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1272w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 424w, https://substackcdn.com/image/fetch/$s_!snr3!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 848w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1272w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://shorturl.at/g4Tjo\" target=\"_blank\" rel=\"noopener noreferrer\">https://shorturl.at/g4Tjo</a></p></blockquote><h2><strong>소개</strong></h2><p>빅테크 기업들이 AI 도입률과 토큰 사용량을 생산성 지표로 측정하기 시작하면서, 사내에서 'AI 네이티브'로 살아남기 위해 피로감을 느끼는 엔지니어들이 늘고 있습니다. 이 글은 인사평가에서 불이익을 받지 않으려고 의미 없는 프롬프트를 날리고 에이전트를 돌려대며 토큰을 억지로 태우는, 이른바 ‘토큰맥싱(Tokenmaxxing)’이라는 실리콘밸리의 기이한 생존 게임을 고발합니다. 매일 AI 도구를 곁에 두고 코드를 짜는 개발자로서, 과거의 '코드 라인 수 채우기' 악습이 AI 시대에 어떻게 변질되어 나타나고 있는지 함께 고민해보면 어떨까요?</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>개인적으로 토큰 사용량은 AI 적극 도입을 희망하는 회사에서 충분히 관찰할만한 지표라고 생각하는데요. 다만, 이걸 가지고 성과를 측정하는 것은 다른 이야기라고 생각하는데, 이 글에서처럼 회사에서 토큰 사용량을 측정하고 팀원들이 볼 수 있도록 공유하고 있나요? 이런 현상을 어떻게 보고 있나요?</p></blockquote><p><strong>💬. 의견 1</strong></p><p>저희는 토큰 증설과 사용량을 관리하는 사내 대시보드가 존재하여 팀원들 간에는 사용량을 공유하고 있지만 이를 전사 오픈하고 있지는 않습니다. 해당 대시보드에서 가장 최근 N건의 프롬프트와 AI 사용 패턴을 기반으로 현재 어떤 부분을 잘 사용하고 있는지,혹은 개선이 필요한지 피드백해주는 기능이 같이 제공되고 있어서 토큰 사용량 개선 방향을 제안받을 수 있는 형태입니다.</p><p>토큰 소비량은 입력 프롬프트, 작업의 복잡도 및 맥락 파악비용, 잦고 비효율적인 MCP 호출 등 요인이 많기 때문에 많은 토큰을 사용한다고 해서 그게 꼭 성과지표랑 이어지기는 어렵지 않을까 생각하여 저도 회의적인 입장입니다.</p><p>그래도 AI로 ‘무엇인가 시도해보려는’ 동기부여 만큼은 중요하다고 생각해요.<br>선형적이지는 않지만, 사용량이 많고 사용 패턴이 긍정적이라면 AI를 업무환경에 적극적으로 도입해서 변화를 꾀하려는 움직임이 있다고 해석할 수 있지 않을까합니다.</p><p><strong>💬. 의견 2</strong></p><p>일단 저희 팀은 토큰 사용량에 대해서 따로 수치화하고 있거나 모니터링 하고 있지는 않습니다.</p><p>근데 회사 입장에서는 평소에 잘 안 쓰는 사람들 독려하는 계기가 되거나 잘 쓰는 사람들의 패턴을 분석해서 다른 사람들도 더 잘 쓰게 하는 인사이트를 찾을 수 있는 방법도 될 수 있을거같긴 하네요 ㅎㅎ</p><p>이게 평가지표에 영향을 주고 장기적으로 운용하게 되면은 악용사례도 꽤나 나올 수 있을거 같긴하지만 단기적으로는 꽤나 재밌고 괜찮을거 같긴 합니다.</p><p>국내 기업들 중에선 컬리가 비슷한 모델로 쓰는거같구 최근에 컬리에서 AI 사용량 1등 하신분의 후기도 재밌게 읽어서 글 공유드려요! → <a href=\"https://helloworld.kurly.com/blog/ai-orchestration-1\" target=\"_blank\" rel=\"noopener noreferrer\">링크</a></p><p><strong>💬. 의견 3</strong></p><p>저희 동아리에서도 토큰맥싱이라는 단어가 자주 보인다면서 글 공유해주셨더라구요!</p><div data-attrs=\"{\" in=\"\" data-component-name=\"EmbeddedPostToDOM\" is=\"\"><a href=\"https://read.engineerscodex.com/p/tokenmaxxing-promomaxxing-and-misaligned?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web&amp;embedding_publication_id=1748074&amp;embedding_post_id=196734205\" target=\"_blank\" rel=\"noopener noreferrer\"><div><img src=\"https://substackcdn.com/image/fetch/$s_!DSkX!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2baa3ff-3727-4dfa-a5c0-1b6f00b16d14_1024x1024.png\"><span>Engineer’s Codex</span></div><div><div>Tokenmaxxing, Promomaxxing, and Misaligned Incentives in Tech</div></div><div>Engineer’s Codex is a publication about real-world software engineering…</div><div><span>Read more</span></div><div>2 months ago · 47 likes · 4 comments · Engineer's Codex</div></a></div><p>요 글이 말씀해주신 내용을 잘 담고 있는 것 같습니다! 측정 지표가 인센티브로 굳어질 때 어떻게 망가지는지 🥲</p><h2><strong>목차</strong></h2><ul><li><p>마이크로소프트: 전면적인 토큰맥싱</p></li><li><p>세일즈포스: “최소”와 “이상” 목표를 채우려고 토큰을 태우다</p></li><li><p>쇼피파이: 토큰맥싱을 피하는 좋은 사례</p></li><li><p>토큰맥싱: AI 벤더에게는 좋고, 그 외 모두에게는 나쁘다</p></li></ul><p></p>",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!snr3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 424w, https://substackcdn.com/image/fetch/$s_!snr3!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 848w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1272w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!snr3!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 424w, https://substackcdn.com/image/fetch/$s_!snr3!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 848w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1272w, https://substackcdn.com/image/fetch/$s_!snr3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22228f25-17a9-4482-974b-f728ba67ad08_800x418.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://shorturl.at/g4Tjo\" target=\"_blank\" rel=\"noopener noreferrer\">https://shorturl.at/g4Tjo</a></p></blockquote><h2><strong>소개</strong></h2><p>빅테크 기업들이 AI 도입률과 토큰 사용량을 생산성 지표로 측정하기 시작하면서, 사내에서 'AI 네이티브'로 살아남기 위해 피로감을 느끼는 엔지니어들이 늘고 있습니다. 이 글은 인사평가에서 불이익을 받지 않으려고 의미 없는 프롬프트를 날리고 에이전트를 돌려대며 토큰을 억지로 태우는, 이른바 ‘토큰맥싱(Tokenmaxxing)’이라는 실리콘밸리의 기이한 생존 게임을 고발합니다. 매일 AI 도구를 곁에 두고 코드를 짜는 개발자로서, 과거의 '코드 라인 수 채우기' 악습이 AI 시대에 어떻게 변질되어 나타나고 있는지 함께 고민해보면 어떨까요?</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>개인적으로 토큰 사용량은 AI 적극 도입을 희망하는 회사에서 충분히 관찰할만한 지표라고 생각하는데요. 다만, 이걸 가지고 성과를 측정하는 것은 다른 이야기라고 생각하는데, 이 글에서처럼 회사에서 토큰 사용량을 측정하고 팀원들이 볼 수 있도록 공유하고 있나요? 이런 현상을 어떻게 보고 있나요?</p></blockquote><p><strong>💬. 의견 1</strong></p><p>저희는 토큰 증설과 사용량을 관리하는 사내 대시보드가 존재하여 팀원들 간에는 사용량을 공유하고 있지만 이를 전사 오픈하고 있지는 않습니다. 해당 대시보드에서 가장 최근 N건의 프롬프트와 AI 사용 패턴을 기반으로 현재 어떤 부분을 잘 사용하고 있는지,혹은 개선이 필요한지 피드백해주는 기능이 같이 제공되고 있어서 토큰 사용량 개선 방향을 제안받을 수 있는 형태입니다.</p><p>토큰 소비량은 입력 프롬프트, 작업의 복잡도 및 맥락 파악비용, 잦고 비효율적인 MCP 호출 등 요인이 많기 때문에 많은 토큰을 사용한다고 해서 그게 꼭 성과지표랑 이어지기는 어렵지 않을까 생각하여 저도 회의적인 입장입니다.</p><p>그래도 AI로 ‘무엇인가 시도해보려는’ 동기부여 만큼은 중요하다고 생각해요.<br>선형적이지는 않지만, 사용량이 많고 사용 패턴이 긍정적이라면 AI를 업무환경에 적극적으로 도입해서 변화를 꾀하려는 움직임이 있다고 해석할 수 있지 않을까합니다.</p><p><strong>💬. 의견 2</strong></p><p>일단 저희 팀은 토큰 사용량에 대해서 따로 수치화하고 있거나 모니터링 하고 있지는 않습니다.</p><p>근데 회사 입장에서는 평소에 잘 안 쓰는 사람들 독려하는 계기가 되거나 잘 쓰는 사람들의 패턴을 분석해서 다른 사람들도 더 잘 쓰게 하는 인사이트를 찾을 수 있는 방법도 될 수 있을거같긴 하네요 ㅎㅎ</p><p>이게 평가지표에 영향을 주고 장기적으로 운용하게 되면은 악용사례도 꽤나 나올 수 있을거 같긴하지만 단기적으로는 꽤나 재밌고 괜찮을거 같긴 합니다.</p><p>국내 기업들 중에선 컬리가 비슷한 모델로 쓰는거같구 최근에 컬리에서 AI 사용량 1등 하신분의 후기도 재밌게 읽어서 글 공유드려요! → <a href=\"https://helloworld.kurly.com/blog/ai-orchestration-1\" target=\"_blank\" rel=\"noopener noreferrer\">링크</a></p><p><strong>💬. 의견 3</strong></p><p>저희 동아리에서도 토큰맥싱이라는 단어가 자주 보인다면서 글 공유해주셨더라구요!</p><div data-attrs=\"{\" in=\"\" data-component-name=\"EmbeddedPostToDOM\" is=\"\"><a href=\"https://read.engineerscodex.com/p/tokenmaxxing-promomaxxing-and-misaligned?utm_source=substack&amp;utm_campaign=post_embed&amp;utm_medium=web\" target=\"_blank\" rel=\"noopener noreferrer\"><div><img src=\"https://substackcdn.com/image/fetch/$s_!DSkX!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2baa3ff-3727-4dfa-a5c0-1b6f00b16d14_1024x1024.png\"><span>Engineer’s Codex</span></div><div><div>Tokenmaxxing, Promomaxxing, and Misaligned Incentives in Tech</div></div><div>Engineer’s Codex is a publication about real-world software engineering…</div><div><span>Read more</span></div><div>2 months ago · 47 likes · 4 comments · Engineer's Codex</div></a></div><p>요 글이 말씀해주신 내용을 잘 담고 있는 것 같습니다! 측정 지표가 인센티브로 굳어질 때 어떻게 망가지는지 🥲</p><h2><strong>목차</strong></h2><ul><li><p>마이크로소프트: 전면적인 토큰맥싱</p></li><li><p>세일즈포스: “최소”와 “이상” 목표를 채우려고 토큰을 태우다</p></li><li><p>쇼피파이: 토큰맥싱을 피하는 좋은 사례</p></li><li><p>토큰맥싱: AI 벤더에게는 좋고, 그 외 모두에게는 나쁘다</p></li></ul><p></p>",
     "createdAt": "2026-05-21T00:11:17.000+00:00",
     "link": "https://kofearticle.substack.com/p/korean-fe-article-the-pulse-tokenmaxxing",
     "author": "",
