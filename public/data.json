@@ -1,5 +1,258 @@
 [
   {
+    "title": "ArmSoM Sige7로 구축한 저전력 고성능 홈 NVR 시스템",
+    "content": "<p>호주 시드니의 대형 가정에 배포된 이 시스템은 24시간 연중무휴로 작동하는 저전력 고성능 NVR입니다. ArmSoM Sige7(RK3588) 보드를 기반으로 하며, 8대의 실외 카메라를 동시에 처리합니다.<br>\n주요 기능:<br>\nAI 객체 인식: 사람, 자동차, 오토바이, 고양이 실시간 감지<br>\n번호판 인식(LPR): 낮/밤/폭우 ...</p>",
+    "createdAt": "2026-06-30T03:07:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=30967",
+    "author": "armsomyla",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "클로드 코드 창시자가 말하는 AI 시대의 다섯 가지 일하는 사람의 원형(archetype)",
+    "content": "<p>보리스 체르니(클로드 코드 창시자)는 AI 시대의 다섯 가지 일하는 사람의 원형(패턴)에 대한 글을 올렸습니다.</p>\n<ul>\n<li>프로토타이퍼: 새 아이디어를 쏟아내는 사람</li>\n<li>빌더: 그걸 진짜 제품으로 만들어내는 사람</li>\n<li>스위퍼: 어질러진 것을 치우는 사람</li>\n<li>그로워: 만들어진 제품을 시장에 맞</li></ul>",
+    "createdAt": "2026-06-30T02:24:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=30965",
+    "author": "jaehong747",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Instagram, Meta Glasses 광고에 사용자 사진 활용",
+    "content": "<ul>\n<li><strong>Instagram Reels</strong>에 노출된 <strong>Meta Glasses</strong> 광고가 사용자 본인의 프로필 사진을 끌어와 그 사람의 남자친구를 겨냥하면서, 초개인화 광고 논란이 본격화</li>\n<li>광고는 \"<strong>Hey Meta, call Alisa</strong>\"라는 음성 명령과 함께 실제 사용자(lissil_)의 프로...<p></p></li></ul>",
+    "createdAt": "2026-06-30T01:14:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=30963",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 대법원, 지오펜스 영장에 헌법상 개인정보 보호 필요 판결",
+    "content": "<ul>\n<li>미국 대법원은 수사기관이 스마트폰 위치 데이터를 광범위하게 확보하는 <strong>지오펜스 영장</strong>이 수정헌법 4조상 수색에 해당한다고 6대3으로 판결함</li>\n<li>다수의견은 휴대전화 위치 기록에 <strong>합리적 프라이버시 기대</strong>가 있으며, 공공장소에 있었거나 데이터가 제3자 기술기업에 있...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:50:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=30962",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Mullvad CEO가 스웨덴 극우 Örebro party의 주요 자금 제공자라는 주장",
+    "content": "<ul>\n<li>Mastodon의 Jörg Seidel은 <strong>Mullvad CEO</strong>가 스웨덴 극우 <strong>Örebro party</strong>에 자금을 대고 있다며 공개적으로 비판함</li>\n<li>그는 해당 CEO가 단순 후원자가 아니라 당 자금의 <strong>70% 이상</strong>을 기부한 주요 재원이라고 주장함</li>\n<li>이 기부가 Örebro party의 올해...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:47:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=30961",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "연령 확인은 자동화된 발화 귀속의 전조일 뿐",
+    "content": "<ul>\n<li>미국 여러 주와 유럽 국가, 호주가 도입한 <strong>연령 확인 규제</strong>는 아동 보호를 명분으로 삼지만, 온라인 발화를 실명 정체성과 연결하는 기반이 될 수 있음</li>\n<li>법 집행이 온라인 발언에 개입하려면 <strong>무슨 일이 있었는가</strong>와 <strong>누가 했는가</strong>를 알아야 하며, 기존...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:44:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=30960",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Compute-adjusted LTV(연산 비용 반영 LTV) 계산하는 방법",
+    "content": "<ul>\n<li>AI 제품이 동일 구독료를 받으면서도 고객마다 <strong>추론 비용</strong>을 크게 다르게 소비하면서, 전체 고객층의 매출총이익률이 안정적이라는 전통적 LTV의 전제가 무너지는 상황</li>\n<li>핵심은 <strong>Compute-Adjusted LTV</strong>로, 고정·반고정 구독 매출에 변동성 큰 연산 비용이 결합된 AI 제...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:42:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=30959",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Go Micro - Go를 위한 에이전트 하네스",
+    "content": "<ul>\n<li>에이전트/서비스/워크플로우를 <strong>하나의 런타임</strong> 위에서 구축하는 Go 프레임워크</li>\n<li>도구, 메모리, 가드레일, 트리거 워크플로우, 의존 서비스, 다른 에이전트가 접근하는 프로토콜까지 <strong>하나의 하네스</strong>로 묶음</li>\n<li>서비스의 모든 엔드포인트가 자동으로 <strong>AI 호...<p></p></strong></li></ul>",
+    "createdAt": "2026-06-30T00:31:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=30958",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "월간 요금제가 최선의 선택일 수 있음",
+    "content": "<ul>\n<li>연간 구독이 리텐션·인기 지표에서 앞서지만 <strong>리텐션이 곧 매출은 아니며</strong>, 연간 해지는 수개월간 대시보드에 숨겨진 채 <strong>지연된 해지(delayed churn)</strong> 로 드러남</li>\n<li>월간 구독은 <strong>PMF 도달 이전</strong>이거나 신뢰가 낮을 때, 사용자가 유연성을 선호할 때, 단기...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:25:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=30957",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Memora: 장기 작업을 위한 확장형 메모리 시스템",
+    "content": "<h3>요약 개요</h3>\n<ul>\n<li>\n<p><strong>목적</strong></p>\n<ul>\n<li>AI 에이전트가 대화·문서에서 필요한 정보를 자동으로 추출하고 장기적으로 저장·검색할 수 있도록 지원하는 메모리 프레임워크</li>\n</ul>\n</li>\n<li>\n<p><strong>핵심 설계</strong></p>\n<ul>\n<li>전체 원문인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Memory value</code>는 그대로</li></ul></li></ul>",
+    "createdAt": "2026-06-30T00:13:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=30956",
+    "author": "baeba",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인상적인 성능 향상이 중요하지 않을 때",
+    "content": "<ul>\n<li>성능 최적화는 복잡한 시스템을 이해하고 제품을 개선하는 강력한 수단이지만, <strong>10배 빠른 결과</strong>도 실제 업무 방식이나 처리량을 바꾸지 못할 수 있음</li>\n<li>쿼리 응답을 5~10분에서 30초~1분으로 줄여도, 사람이 기다리며 주의를 유지하는 <strong>약 10초 임계값</strong>을 넘으면 체감 효...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:11:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=30955",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ante: 빌림 검사와 참조 카운팅을 결합하는 새 방식",
+    "content": "<ul>\n<li>Ante는 <strong>참조 카운팅</strong>의 유연성과 <strong>빌림 검사</strong>의 안전성을 함께 쓰면서, Rust식 런타임 패닉이나 Swift식 독점 접근 검사 오버헤드를 피하려는 시스템 언어 설계임</li>\n<li>핵심 장치는 <strong>shape-stability</strong>와 temporary uniq conversion으로, 참조 카운팅된 값의...<p></p></li></ul>",
+    "createdAt": "2026-06-30T00:08:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=30954",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CUDA 커널을 실행하면 내부에서 벌어지는 일",
+    "content": "<ul>\n<li>단순한 벡터 덧셈 CUDA 프로그램도 결과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">2.000000</code>을 얻기까지 <strong>컴파일 파이프라인</strong>, 드라이버 호출, GPU 명령 큐, 워프 스케줄링, 메모리 계층, 완료 세마포어를 거침</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">nvcc</code>는 호스트 코드와 디바이스 코드를 나눠 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cicc</code>로 <strong>PTX</strong>...<p></p></li></ul>",
+    "createdAt": "2026-06-29T23:58:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=30953",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "삼성·SK 하이닉스·마이크론, 미국서 메모리 가격 담합으로 소송당함",
+    "content": "<ul>\n<li>미국 소비자와 소규모 사업자들이 <strong>D-RAM 가격 담합 의혹</strong>으로 삼성전자, SK 하이닉스, Micron을 제소하며, 메모리발 가격 상승인 <strong>chipflation</strong> 논란이 법정 쟁점으로 번짐</li>\n<li>원고는 개인 소비자 14명과 PC 소매업체 등 소규모 사업자 3곳이며, 6월 25일 <strong>Califo...<p></p></strong></li></ul>",
+    "createdAt": "2026-06-29T23:55:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=30952",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "HackerRank 오픈소스 ATS, 같은 이력서 점수가 90점·74점·88점으로 흔들림",
+    "content": "<ul>\n<li>같은 이력서와 같은 명령으로 HackerRank의 <strong>오픈소스 ATS 채용 에이전트</strong>를 반복 실행하자 점수가 66~99점까지 흔들렸고, 85점 컷오프에서는 65%가 탈락하는 결과가 나옴</li>\n<li>이 도구는 PDF 이력서를 파싱하고 LLM을 6번 호출해 기본 정보, 경력, 학력, 기술, 프로젝트, 수상 내역을 구조...<p></p></li></ul>",
+    "createdAt": "2026-06-29T23:53:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=30951",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Pollen이 글 삭제를 시도했고 Google은 검색에서 제거함",
+    "content": "<ul>\n<li>Pollen 붕괴를 다룬 2022년 글이 <strong>DMCA 신고</strong>를 이유로 Google 검색 결과에서 사라지며, 허위 저작권 신고가 공익적 기록을 지울 수 있다는 문제가 드러남</li>\n<li>신고는 해당 글이 1998년 New York Post 기사 “<strong>Band Leader Hits Winning Chord</strong>”를 복사했다는 내용이지만,...<p></p></li></ul>",
+    "createdAt": "2026-06-29T23:52:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=30950",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": ".self: 셀프호스팅을 지원하도록 설계된 새 최상위 도메인",
+    "content": "<ul>\n<li>누구나 <strong>자신의 데이터를 온전히 소유</strong>할 수 있도록, 셀프 호스팅을 밑바탕부터 지원하는 새로운 최상위 도메인 <strong>.self</strong> 제안</li>\n<li>인터넷 인프라가 데이터 추출과 주의력 착취에 활용되어 온 구조를 바꾸기 위한 <strong>대안적 웹 아키텍처</strong> 시도</li>\n<li></li></ul>",
+    "createdAt": "2026-06-29T23:46:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=30949",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사라지는 폴란드어 Ś의 기묘한 사례 (2015)",
+    "content": "<ul>\n<li>Medium 웹 편집기에서 폴란드어 대문자 <strong>Ś</strong>만 입력되지 않던 버그는 입력 관습, PC 수입 환경, 저장 단축키 습관, Windows의 Right Alt 처리 방식이 겹치며 발생함</li>\n<li>폴란드어는 라틴 알파벳에 9개 발음 구별 문자를 더해 쓰며, 초기 PC 환경에서는 전용 키보드 대신 <strong>Alt+라틴 문...<p></p></strong></li></ul>",
+    "createdAt": "2026-06-29T22:49:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=30946",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미시간 법안, 고용주의 근무시간 외 직원 연락 요구 금지 추진",
+    "content": "<ul>\n<li>미시간 주의 <strong>Senate Bill 948</strong>은 퇴근 후에도 이메일·문자·전화 대응을 기대받는 근로 환경에 법적 경계를 세우려는 법안임</li>\n<li>Sen. Erika Geiss가 발의한 <strong>Workplace Employee Boundaries Act</strong>는 Labor Committee에 회부된 상태이며, 고용주가 근무시간 밖 연락을 요구할...<p></p></li></ul>",
+    "createdAt": "2026-06-29T22:46:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=30945",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: Zanagrams, 무료 일일 단어 퍼즐",
+    "content": "<ul>\n<li>매일 새로 풀 수 있는 <strong>무료 단어 퍼즐</strong>로, 글자를 드래그해 숨겨진 단어를 찾는 간단한 방식임</li>\n<li>글자는 어느 방향으로든 이어진 <strong>경로</strong>를 따라 선택하며, 더 이상 필요 없는 글자와 경로는 퍼즐에서 사라짐</li>\n<li>단어를 찾는 순서는 자유롭고, 퍼즐은 항상 계속 풀...<p></p></li></ul>",
+    "createdAt": "2026-06-29T22:43:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=30944",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Boeing 747, 마지막 하강을 시작하다",
+    "content": "<ul>\n<li>Boeing 747은 1970년 첫 운항 이후 장거리 대량 항공여행의 상징이었지만, 항공사들이 더 효율적인 소형·쌍발기로 옮겨가며 <strong>여객기 시대</strong>가 저물고 있음</li>\n<li>747은 Boeing이 군용 대형 수송기 경쟁에서 패한 뒤 Everett에 거대한 조립 시설을 세우고 약 <strong>2,700명 엔지니어</strong></li></ul>",
+    "createdAt": "2026-06-29T22:29:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=30943",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Qwen 3.6 27B는 로컬 개발의 최적 지점",
+    "content": "<ul>\n<li><strong>Qwen 3.6 27B</strong>는 로컬 모델에 회의적이던 사용자에게도 범용 작업에서 의미 있는 선택지로 보이며, 35B A3B보다 느리지만 더 강력한 dense 모델로 추천됨</li>\n<li>창작·코딩 테스트에서는 <strong>제약 조건 준수</strong>가 강점으로 드러났고, OpenCode에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pnpm</code> 기반 육각형 ...<p></p></li></ul>",
+    "createdAt": "2026-06-29T22:23:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=30942",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Rocket Lab, 기업가치 12조원 규모로 Iridium 인수",
+    "content": "<ul>\n<li>Rocket Lab은 Iridium을 <strong>현금·주식 거래</strong>로 인수하는 최종 계약을 체결했으며, Iridium의 기업가치는 약 80억 달러($8.0b)로 산정됨</li>\n<li>이번 결합은 Rocket Lab의 <strong>발사·위성 제조</strong> 역량과 Iridium의 전 세계 위성 통신망, L-band 주파수, 500개 이상 파트너 생태계를 묶...<p></p></li></ul>",
+    "createdAt": "2026-06-29T22:22:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=30941",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Fluid Typography with progress()",
     "content": "<blockquote>\n<p>Never do pixel math with em and rem units. That’s where we went wrong, by assuming that 16px == 1em is a reliable fact.</p>\n<cite>Miriam Suzanne,<a href=\"https://www.oddbird.net/2025/02/12/fluid-type/\" target=\"_blank\" rel=\"noopener noreferrer\"> <em>Reimagining Fluid Typography</em></a></cite></blockquote>\n\n\n\n<p>Fluid typography has been around for a while. These days, most people reach for <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clamp()</code> with pre-calculated values from tools like <a href=\"https://utopia.fyi/type/calculator/\" target=\"_blank\" rel=\"noopener noreferrer\">Utopia</a>, <a href=\"https://www.fluid-type-scale.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Fluid Type Scale</a>, or Sass. It’s modern, concise, and super easy to use.</p>\n\n\n\n<p>You’ve probably used a similar calculator before. You input two sizes and their corresponding breakpoints, and it generates a value that fluidly scales between them.</p>\n\n\n\n<p>Usually, we input these numbers as pixels, and most good calculators will convert the font size to rems. That’s part of the appeal.</p>\n\n\n\n<p>But you might not have realized that your thoughtfully chosen breakpoints have also been converted to rems and are now subject to the user’s default font size.</p>\n\n\n\n<p>In practice, this means your breakpoints can be wildly different from what you imagined, and we can accidentally disregard the user’s font size choices in the process.</p>\n\n\n\n<p>We’ll explore why this happens and how we can solve it with modern CSS, using range mapping to calculate everything in the browser.</p>\n\n\n\n<p>Before we dive in, a quick heads-up: this technique is more complex than you might be used to, but it’s easy to reuse thanks to custom properties, and future CSS will make it much more concise.</p>\n\n\n\n<h2><strong>A Problem with Fluid Typography</strong></h2>\n\n\n\n<p>Let’s say you’ve set up some fluid type with these inputs:</p>\n\n\n\n<figure><table><tbody><tr><td><strong>Viewport</strong></td><td><strong>Font Size</strong></td></tr><tr><td>600px</td><td>12px</td></tr><tr><td>1200px</td><td>32px</td></tr></tbody></table></figure>\n\n\n\n<p>A calculator will then helpfully convert those values to rem units behind the scenes:</p>\n\n\n\n<figure><table><tbody><tr><td><strong>Viewport</strong></td><td><strong>Font Size</strong></td></tr><tr><td>37.5rem</td><td>0.75rem</td></tr><tr><td>75rem</td><td>2rem</td></tr></tbody></table></figure>\n\n\n\n<p>Now, imagine a user with a <strong>1200px</strong> wide screen and the <strong>default root font size of 16px</strong>. At 2rem, the font size is 32px, exactly what we expected.</p>\n\n\n\n<p>But what if that user increases their base font size to <strong>32px</strong>?</p>\n\n\n\n<p>Everything is still in rems, but now 1rem = 32px. So:</p>\n\n\n\n<figure><table><tbody><tr><td><strong>Viewport</strong></td><td><strong>Font Size</strong></td></tr><tr><td>1200px</td><td>24px</td></tr><tr><td>2400px</td><td>64px</td></tr></tbody></table></figure>\n\n\n\n<p>At the same 1200px viewport, the font size is now only <strong>24px</strong>.</p>\n\n\n\n<p>Despite the viewport not changing and the user increasing their font size, our fluid type has shrunk, working directly against the user’s preference.</p>\n\n\n\n<p>While this is an extreme case, any pre-calculated fluid value experiences this issue to some degree.</p>\n\n\n\n<p>So how do we fix it?</p>\n\n\n\n<p>We need to bring the calculations back into CSS and mix our units, combining the accuracy of pixel-based breakpoints with the accessibility of rem-based font sizes.</p>\n\n\n\n<p>There are several ways to perform these calculations, but range mapping stands out as a method especially well suited to CSS. It’s particularly appealing because it aligns with emerging CSS features like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">calc-mix()</code>, which will simplify these calculations in the future.</p>\n\n\n\n<p>While this is closely related to the similar problem of ensuring fluid type can be zoomed to 200% of its original size, it is unfortunately not addressed by this technique and will still require manual testing.</p>\n\n\n\n<h2><strong>Range Mapping</strong></h2>\n\n\n\n<p>Range mapping is the process of converting a value from one range to another while preserving its relative position. For fluid typography, we want to take the current viewport width and calculate the corresponding value in our output range.</p>\n\n\n\n<p>In this demo, you’ll see that for any value in either range, there is a corresponding value in the other:</p>\n\n\n\n<div></div>\n\n\n\n<p>That’s a rather large output range for the purposes of visualizing, so we’ll define some more sensible values in CSS:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--min-size</span>: 1<span>rem</span>;\n<span>--min-size-viewport</span>: 400<span>px</span>;\n\n<span>--max-size</span>: 1<span>.5rem</span>;\n<span>--max-size-viewport</span>: 1200<span>px</span>;</code></span></pre>\n\n\n<p>First, we need to calculate the current viewport’s position within our range.</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code></h3>\n\n\n\n<p>Until quite recently, figuring this out was actually very tricky. We had to rely on<a href=\"https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j\" target=\"_blank\" rel=\"noopener noreferrer\"> advanced CSS hacks</a> to convert values to unitless numbers, which greatly complicated the calculations.</p>\n\n\n\n<p>Fortunately, modern CSS has delivered us a new function that does exactly that:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--progress</span>: <span>progress</span>(100<span>vi</span>, <span>var</span>(<span>--min-size-viewport</span>), <span>var</span>(<span>--max-size-viewport</span>));</code></span></pre>\n\n\n<p>From MDN:</p>\n\n\n\n<blockquote>\n<p>The <strong>progress()</strong> CSS function returns a  value representing the position of one value (the progress value) relative to two other values.</p>\n</blockquote>\n\n\n\n<p>Just what we need!</p>\n\n\n\n<p>It has a few key features that make it ideal for our use:</p>\n\n\n\n<ul>\n<li>It accepts a mix of units, as long as they are all of the same type. This allows us to use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">100vi</code> to measure the current viewport, and then compare it to our range defined in pixels (or any length units we choose).</li>\n\n\n\n<li>It returns a unitless number, making it much easier to work with later in our calculation.</li>\n\n\n\n<li>Since the returned number is always between 0 and 1, it also clamps our size between its minimum and maximum.</li>\n</ul>\n\n\n\n<p>With <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code>, we no longer need to convert our viewport breakpoints to rems, completely side-stepping the problem of traditional fluid typography discussed above.</p>\n\n\n\n<h3>Finishing the Calculation</h3>\n\n\n\n<p>Next, we need to find the ‘span’ of our output range, how big it is. We can easily calculate that by subtracting the minimum from the maximum:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>/* 1.5rem - 1rem = 0.5rem */</span>\n<span>--output-span</span>: <span>calc</span>(<span>var</span>(<span>--max-size</span>) <span>-</span> <span>var</span>(<span>--min-size</span>));</code></span></pre>\n\n\n<p>Now we can scale this span based on the current viewport by multiplying by our <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code> value:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>/* (0-1) * 0.5rem */</span>\n<span>--fluid</span>: <span>calc</span>(<span>var</span>(<span>--progress</span>) * <span>var</span>(<span>--output-span</span>));</code></span></pre>\n\n\n<p>This gives us a range that starts at 0, so let’s use our minimum size to offset that to the correct starting point:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>/* 1rem + (0-1) * 0.5rem */</span>\n<span>--fluid</span>: <span>calc</span>(<span>var</span>(<span>--min-size</span>) + <span>var</span>(<span>--progress</span>) * <span>var</span>(<span>--output-span</span>));</code></span></pre>\n\n\n<p>Now it scales correctly from the start to the end of our range, and we have our final value! Here’s it all put together:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--min-size</span>: 1<span>rem</span>;\n<span>--min-size-viewport</span>: 400<span>px</span>;\n\n<span>--max-size</span>: 1<span>.5rem</span>;\n<span>--max-size-viewport</span>: 1200<span>px</span>;\n\n<span>--_progress</span>: <span>progress</span>(100<span>vi</span>, <span>var</span>(<span>--min-size-viewport</span>), <span>var</span>(<span>--max-size-viewport</span>));\n<span>--_output-span</span>: <span>calc</span>(<span>var</span>(<span>--max-size</span>) <span>-</span> <span>var</span>(<span>--min-size</span>));\n\n<span>--fluid</span>: <span>calc</span>(<span>var</span>(<span>--min-size</span>) + <span>var</span>(<span>--_progress</span>) * <span>var</span>(<span>--_output-span</span>));</code></span></pre>\n\n\n<h2><strong>Building a Scale</strong></h2>\n\n\n\n<p>Let’s extend this to a full scale, with each step derived from the previous using a custom ratio. It’s popular to use different ratios for the minimum and maximum sizes, so we’ll do the same.</p>\n\n\n\n<p>Here’s our ratios in CSS alongside the rest of our setup:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--min-size</span>: 1<span>rem</span>;\n<span>--min-size-viewport</span>: 400<span>px</span>;\n<span>--min-size-ratio</span>: 1<span>.2</span>;\n\n<span>--max-size</span>: 1<span>.5rem</span>;\n<span>--max-size-viewport</span>: 1200<span>px</span>;\n<span>--max-size-ratio</span>: 1<span>.25</span>;\n\n<span>--_progress</span>: <span>progress</span>(100<span>vi</span>, <span>var</span>(<span>--min-size-viewport</span>), <span>var</span>(<span>--max-size-viewport</span>));</code></span></pre>\n\n\n<p>Now for the steps of our scale. Using what we’ve already discussed, let’s create our base size:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--step-0</span>: <span>calc</span>(\n  <span>var</span>(<span>--min-size</span>) + <span>var</span>(<span>--_progress</span>) * (<span>var</span>(<span>--max-size</span>) <span>-</span> <span>var</span>(<span>--min-size</span>))\n);</code></span></pre>\n\n\n<p>To calculate our next step, we multiply every use of our min and max sizes by their ratio. Let’s use extra custom properties to store these values:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--_min-1</span>: <span>calc</span>(<span>var</span>(<span>--min-size</span>) * <span>var</span>(<span>--min-size-ratio</span>));\n<span>--_max-1</span>: <span>calc</span>(<span>var</span>(<span>--max-size</span>) * <span>var</span>(<span>--max-size-ratio</span>));\n\n<span>--step-1</span>: <span>calc</span>(\n  <span>var</span>(<span>--_min-1</span>) + <span>var</span>(<span>--_progress</span>) * (<span>var</span>(<span>--_max-1</span>) <span>-</span> <span>var</span>(<span>--_min-1</span>))\n);</code></span></pre>\n\n\n<p>What about step 2? We multiply each size by its ratio <em>twice</em>, which luckily is the same as squaring the ratio with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pow()</code>:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--_min-2</span>: <span>calc</span>(<span>var</span>(<span>--min-size</span>) * <span>pow</span>(<span>var</span>(<span>--min-size-ratio</span>), 2));\n<span>--_max-2</span>: <span>calc</span>(<span>var</span>(<span>--max-size</span>) * <span>pow</span>(<span>var</span>(<span>--max-size-ratio</span>), 2));\n\n<span>--step-2</span>: <span>calc</span>(\n  <span>var</span>(<span>--_min-2</span>) + <span>var</span>(<span>--_progress</span>) * (<span>var</span>(<span>--_max-2</span>) <span>-</span> <span>var</span>(<span>--_min-2</span>))\n);</code></span></pre>\n\n\n<p>In fact, since anything to the power of 1 is itself, and anything to the power of 0 is 1, we can use this same calculation for every step in our scale. It even works with negative numbers to create smaller sizes.</p>\n\n\n\n<p>For any given step <em>n</em>, we raise both ratios to the power of <em>n.</em></p>\n\n\n\n<p>With that in mind, we have a few options for defining the rest of our scale:</p>\n\n\n\n<h3><strong>Per Element Value</strong></h3>\n\n\n\n<p>If you’ve ever looked at the code of one of<a href=\"https://codepen.io/jh3y\" target=\"_blank\" rel=\"noopener noreferrer\"> Jhey’s demos</a>, you might notice he often uses a fluid typography technique very similar to what we’ve done here.</p>\n\n\n\n<p>He gets an infinite scale with no duplication by setting the exponent via a custom property, rather than hardcoding it at each step.</p>\n\n\n\n<div></div>\n\n\n\n<p>The downside is that we’re limited to a single value for the entire element, so we can’t set other properties with different steps.</p>\n\n\n\n<h3><strong>A little bit of Sass</strong></h3>\n\n\n\n<p>If you’re already using Sass, then a complete scale is just a @for loop away:</p>\n\n\n\n<div></div>\n\n\n\n<h3><strong>Stick to CSS</strong></h3>\n\n\n\n<p>Since we’re only changing a few numbers for each step, it’s easy to copy and paste the rest of our scale.</p>\n\n\n\n<div></div>\n\n\n\n<p>And that’s it! All ready to copy and paste into your projects; just edit the scale config as required.</p>\n\n\n\n<h2><strong>Taking It Further</strong></h2>\n\n\n\n<p>Our conditional value can be anything we have the units to express. I used 100vi, but we could easily swap that for 100cqi to instead respond to the width of the nearest container:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--progress</span>: <span>progress</span>(100<span>qi</span>, <span>var</span>(<span>--min-size-container</span>), <span>var</span>(<span>--max-size-container</span>));</code></span></pre>\n\n\n<p>If you prefer whole numbers or have a baseline grid you need to align to, then we can use round() with our preferred rounding interval:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--interval</span>: 1<span>px</span>;\n\n<span>--step-0</span>: <span>round</span>(\n  <span>var</span>(<span>--min-size</span>) + <span>var</span>(<span>--_progress</span>) * (<span>var</span>(<span>--max-size</span>) <span>-</span> <span>var</span>(<span>--min-size</span>)),\n  <span>var</span>(<span>--interval</span>));</code></span></pre>\n\n\n<p>What if our scale decreases as the viewport increases? It’s probably not something commonly needed in practice, but fortunately, the range-mapping calculation already handles an inverse relationship. Just swap the viewport values:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--min-size</span>: 1<span>rem</span>;\n<span>--min-size-viewport</span>: 1200<span>px</span>;\n\n<span>--max-size</span>: 1<span>.5rem</span>;\n<span>--max-size-viewport</span>: 400<span>px</span>;</code></span></pre>\n\n\n<h2><strong>Browser Support</strong></h2>\n\n\n\n<p>The biggest limiting factor is <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code>, which is supported in all modern browsers except Firefox, so this isn’t ready for production just yet.</p>\n\n\n\n<p>If you wanted to test for support and fallback to a traditional scale, it is easy to do so:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@supports</span> (<span>opacity:</span> progress(<span>1px</span>,<span>0px</span>,<span>1px</span>) {\n  ...\n}</code></span></pre>\n\n\n<p>It is possible to support all major browsers without <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress()</code> by manually calculating this value ourselves using some CSS hacks. Here are some demos showing how to do that if you are interested, but be warned, it’s even more verbose than what we’ve done here:</p>\n\n\n\n<ul>\n<li><a href=\"https://codepen.io/matthewmorete/pen/zxvNrEM?editors=0101\" target=\"_blank\" rel=\"noopener noreferrer\">Per Element</a></li>\n\n\n\n<li><a href=\"https://codepen.io/matthewmorete/pen/VYvPYqv?editors=0101\" target=\"_blank\" rel=\"noopener noreferrer\">Sass</a></li>\n\n\n\n<li><a href=\"https://codepen.io/matthewmorete/pen/LEpxVPp?editors=0101\" target=\"_blank\" rel=\"noopener noreferrer\">CSS</a></li>\n</ul>\n\n\n\n<h2><strong>The Future</strong></h2>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@function</span> --fluid-size(--step) {\n  <span>--min-size</span>: 1<span>rem</span>;\n  <span>--min-size-viewport</span>: 400<span>px</span>;\n  <span>--min-size-ratio</span>: 1<span>.2</span>;\n\t\n  <span>--max-size</span>: 1<span>.5rem</span>;\n  <span>--max-size-viewport</span>: 1200<span>px</span>;\n  <span>--max-size-ratio</span>: 1<span>.25</span>;\n\t\n  <span>--_progress</span>: <span>progress</span>(100<span>vi</span>, <span>var</span>(<span>--min-size-viewport</span>), <span>var</span>(<span>--max-size-viewport</span>));\n  <span>--_min-size</span>: <span>calc</span>(<span>var</span>(<span>--min-size</span>) * <span>pow</span>(<span>var</span>(<span>--min-size-ratio</span>), <span>var</span>(<span>--step</span>)));\n  <span>--_max-size</span>: <span>calc</span>(<span>var</span>(<span>--max-size</span>) * <span>pow</span>(<span>var</span>(<span>--max-size-ratio</span>), <span>var</span>(<span>--step</span>)));\n\t\n  <span>result</span>: <span>calc-mix</span>(<span>var</span>(<span>--_progress</span>), <span>var</span>(<span>--_min-size</span>), <span>var</span>(<span>--_max-size</span>));\n}\n\n<span>h1</span> {\n  <span>font-size</span>: <span>--fluid-size</span>(<span>4</span>);\n}</code></span></pre>\n\n\n<p>What an upgrade! Here’s what’s happening:</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@function</code></h3>\n\n\n\n<p>As I mentioned at the start, and you’ve probably noticed, calculating a fluid scale in CSS is very verbose. But not with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@function</code>! Instead of calculating a separate variable for each step, we put all our calculations into a single function and call it instead.</p>\n\n\n\n<p>Currently only supported in Chromium.</p>\n\n\n\n<p>Juan Diego Rodríguez explains<a href=\"https://css-tricks.com/functions-in-css/\" target=\"_blank\" rel=\"noopener noreferrer\"> CSS functions</a> in more detail.</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">calc-mix()</code></h3>\n\n\n\n<p>In the even further future, things will get even more concise with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">calc-mix()</code>, which completes the remaining range mapping calculations.</p>\n\n\n\n<p>It takes 3 inputs: a normalized/progress() value and the start and end of the output range:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>calc-mix</span>(<span>var</span>(<span>--_progress</span>), <span>var</span>(<span>--_min-size</span>), <span>var</span>(<span>--_max-size</span>))</code></span></pre>\n\n\n<p>No browser supports <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">calc-mix()</code> yet, but until then, we can continue to calculate this ourselves.</p>\n\n\n\n<h2><strong>Further Reading</strong></h2>\n\n\n\n<ul>\n<li><a href=\"https://henry.codes/writing/how-to-map-a-number-between-two-ranges/\" target=\"_blank\" rel=\"noopener noreferrer\">How To Map A Number Between Two Ranges</a> — If you’re looking for more about range mapping, then check out Henry’s excellent explanation.</li>\n\n\n\n<li><a href=\"https://www.madebymike.com.au/writing/precise-control-responsive-typography/\" target=\"_blank\" rel=\"noopener noreferrer\">Precise control over responsive typography</a> — Pre-dating most CSS math functions and even custom properties, this 2015 post from Mike is the earliest I can find describing the precise fluid type we use today. He even uses the same range mapping approach we’ve used here.</li>\n\n\n\n<li><a href=\"https://adrianroselli.com/2019/12/responsive-type-and-zoom.html\" target=\"_blank\" rel=\"noopener noreferrer\">Responsive Type and Zoom</a> — Adrian Roselli reminds us of accessibility concerns and argues that we may not need fluid typography.</li>\n\n\n\n<li><a href=\"https://www.smashingmagazine.com/2023/11/addressing-accessibility-concerns-fluid-type/\" target=\"_blank\" rel=\"noopener noreferrer\">Addressing Accessibility Concerns With Using Fluid Type</a> — Maxwell Barvian gives us advice on passing <a href=\"https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=144#resize-text\" target=\"_blank\" rel=\"noopener noreferrer\">1.4.4 Resize text (AA)</a> by ensuring we can zoom all text to 200% of its original size.</li>\n\n\n\n<li><a href=\"https://www.oddbird.net/2025/02/12/fluid-type/\" target=\"_blank\" rel=\"noopener noreferrer\">Reimagining Fluid Typography</a> &amp; <a href=\"https://clagnut.com/blog/2441/\" target=\"_blank\" rel=\"noopener noreferrer\">In defence of fluid typography</a> — A back and forth between Miriam Suzanne and Richard Rutter, considering the merits of fluid type.</li>\n</ul>\n",
     "createdAt": "2026-06-29T16:00:50.000+00:00",
@@ -324,259 +577,6 @@
     "createdAt": "2026-06-28T19:28:26.000+00:00",
     "link": "https://news.hada.io/topic?id=30912",
     "author": "afcoo0215",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Prism: 타입 지정 효과를 갖춘 비순수 함수형 언어",
-    "content": "<ul>\n<li><strong>Prism</strong>은 가변 변수, 예외, 스트림 같은 효과를 숨기지 않고 타입에 드러내면서도, 외부에 관찰되지 않는 지역 변경은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Int -&gt; Int</code> 같은 순수 타입으로 유지하는 실험적 컴파일러임</li>\n<li>핵심은 <strong>대수적 효과 핸들러</strong>와 행 다형성(row polymorphism)으로, 효...<p></p></li></ul>",
-    "createdAt": "2026-06-28T15:12:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=30911",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CPU를 정말 화나게 만드는 데이터 접근 패턴",
-    "content": "<ul>\n<li>같은 정수 합산 루프라도 접근 순서만 바꾸면 실행 시간이 크게 달라지며, 실험은 <strong>무작위 접근보다 30% 이상 느린</strong> 순열을 만들 수 있음을 보임</li>\n<li>선형 접근은 <strong>1.33억 사이클</strong>로 빠른 반면, 무작위 접근은 CPU가 다음 위치를 예측하기 어려워 <strong>15.7억 사이클</strong></li></ul>",
-    "createdAt": "2026-06-28T15:09:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=30910",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IP Crawl, 공개 인터넷에 노출된 웹캠 지도",
-    "content": "<ul>\n<li><strong>IP Crawl Beta</strong>는 공개 인터넷에서 발견된 오픈 웹캠을 지도와 목록으로 탐색할 수 있게 만든 카탈로그임</li>\n<li>첫 화면 기준 <strong>13,911대</strong>의 카메라가 등록되어 있으며, 라이브와 스냅샷 항목이 함께 표시됨</li>\n<li>탐색은 <strong>국가·도시·ISP/조직·제조사</strong> 필터...<p></p></li></ul>",
-    "createdAt": "2026-06-28T14:36:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=30909",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Elixir 가드의 단락 평가: 조건 순서가 결과를 바꿈",
-    "content": "<ul>\n<li>Elixir의 <strong>가드(guard)</strong> 에서는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">or</code> 조건을 바꾸기만 해도 같은 논리식처럼 보이는 코드의 결과가 달라질 수 있음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">is_integer(x) or is_map_key(x,:foo)</code> 순서는 정수 입력에서 <strong>단락 평가</strong>가 먼저 일어나 위험한 검사를 건너뜀</li>\n<li>반대...<p></p></li></ul>",
-    "createdAt": "2026-06-28T14:02:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=30908",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "더 많은 언어가 배워야 할 OxCaml의 무할당 함수 검사",
-    "content": "<ul>\n<li>Jane Street의 OCaml 상위 집합인 <strong>OxCaml</strong>은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">[@zero_alloc]</code>으로 함수 호출 트리 전체의 힙 할당 금지를 컴파일러에 선언할 수 있게 함</li>\n<li>선언된 호출 경로에서 할당이 생기면 <strong>컴파일 실패</strong>로 바로 드러나며, 프로파일러로 나중에 찾는 방식보다 회귀를 빠...<p></p></li></ul>",
-    "createdAt": "2026-06-28T12:01:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=30907",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: ArachneControl – 서버가 브라우저를 원격 제어해 수집하는 오픈소스 데이터 수집 시스템",
-    "content": "<p>사용자의 <strong>실제 브라우저 세션</strong>으로 데이터를 수집하되, <strong>무엇을 어떻게 수집할지는 서버가 런타임에 동적 발행</strong>하는 self-hosted 수집 시스템입니다. 서버가 클라이언트(브라우저)를 원격 통제하는 <strong>명령-수행-보고(Command-Execute-Report)</strong> 패턴.</p>\n<p>크롤러를 새</p>",
-    "createdAt": "2026-06-28T02:15:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=30905",
-    "author": "kingtw",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DSpark: Speculative decoding을 활용한 LLM 추론 가속화 [pdf]",
-    "content": "<ul>\n<li>DSpark: 준자기회귀(semi-autoregressive) 생성과 신뢰도 스케줄링을 결합한 추측 디코딩(speculative decoding) 프레임워크</li>\n<li><strong>병렬 드래프터(parallel drafter)</strong> 가 한 번의 순전파로 긴 토큰 블록을 제안하지만 토큰 간 의존성 부재로 후반부 <strong>수락률 급감(acceptance decay)...<p></p></strong></li></ul>",
-    "createdAt": "2026-06-28T00:35:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=30902",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Paca - 인간과 AI 에이전트 협업을 위한 오픈소스 프로젝트 관리 도구",
-    "content": "<ul>\n<li><strong>AI 네이티브 셀프 호스팅</strong> 프로젝트 관리 플랫폼으로, Jira/Trello/ClickUp/Monday의 무료 오픈소스 대체제</li>\n<li>AI 에이전트가 챗봇 애드온이 아니라 <strong>Scrum 팀의 동등한 팀원</strong>으로 참여\n<ul>\n<li><strong>스프린트에 배정</strong>되어 통합 Scrumban 보드에 인간과 함께...<p></p></li></ul></li></ul>",
-    "createdAt": "2026-06-28T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=30901",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Go에서 과도한 nil 포인터 검사",
-    "content": "<ul>\n<li>Go의 <strong>nil 검사</strong>는 패닉을 막을 수 있지만, 반복되는 위치가 잘못되면 코드가 “무엇이 nil일 수 있는가”를 스스로 설명하지 못함</li>\n<li>Redis 클라이언트 같은 <strong>필수 의존성</strong>을 내부 메서드에서 검사하면, 생성 실패를 정상 실행 경로처럼 취급하게 됨</li>\n<li>생성자에서...<p></p></li></ul>",
-    "createdAt": "2026-06-28T00:18:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=30900",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Reddit 안티스팸 내부를 엿보다",
-    "content": "<ul>\n<li>2021년 Reddit의 일시적 오류로 보이는 현상 때문에, Relay for reddit에서 평소 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Removed: Auto</code>로 숨겨지던 <strong>사이트 전체 스팸 제거 사유</strong>와 내부 판단 데이터가 노출됨</li>\n<li>공개 아카이브 코드상 제거 정보는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ban_info.banner</code>를 거쳐 전달되며, Relay는 API의 ...<p></p></li></ul>",
-    "createdAt": "2026-06-28T00:15:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=30899",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "NLnet Labs의 LLM 사용 정책",
-    "content": "<ul>\n<li>NLnet Labs는 프로젝트 기여와 커뮤니케이션에서 <strong>LLM 사용을 제한</strong>하며, 정책 위반 제출물은 사전 통지 없이 닫히거나 삭제될 수 있음</li>\n<li>코드와 문서 기여는 <strong>사람이 직접 작성</strong>해야 하며, LLM이나 다른 확률적 도구가 생성한 내용은 포함할 수 없음</li>\n<li>취약점·버...<p></p></li></ul>",
-    "createdAt": "2026-06-28T00:12:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=30898",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 다시 돌아온LoL 5인 큐, 그때 그시절을 기억하며,... 어 근데 친구가 없네. 누구랑하지 - 바로 5sio",
-    "content": "<p>청소년, 대학시절 친구들과 군대 전우들과 함께 하던 5인큐의 그리움. 다시 돌아왔습니다.</p>\n<p>저녁 11시 나도 다시 한번 해볼까 해서 들어갔는데... 친구창에는 친구가 없고  커뮤니티에서는 5인큐 매칭 게시판이 없어서 좌절했습니다.</p>\n<p>지로보 선생님의 말씀처럼 \"5인 1쓰\"지만 나는 아니라는 확</p>",
-    "createdAt": "2026-06-28T00:02:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=30897",
-    "author": "oakhex",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "오픈 웨이트 LLM과 폐쇄형 LLM의 격차",
-    "content": "<ul>\n<li>Artificial Analysis Intelligence Index에서는 <strong>오픈 웨이트 LLM</strong>이 폐쇄형 LLM의 과거 성능을 따라잡는 시간이 2024년 여름부터 꾸준히 줄어드는 흐름을 보임</li>\n<li>이 단일 지표에 추세선을 그으면 격차가 <strong>2026년 12월 3일</strong> 0개월이 되어, 오픈 모델이 지표상 최전선 폐쇄...<p></p></li></ul>",
-    "createdAt": "2026-06-27T23:35:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=30896",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "구형 하드웨어에서 Linux로 PC 되살리기: 2026 가이드",
-    "content": "<ul>\n<li>Windows 11의 TPM 2.0, Secure Boot, 최신 CPU 요구사항에서 밀려난 2014~2019년대 PC도 <strong>경량 Linux</strong>로 일상용 머신이 될 수 있으며, 전자폐기물 감소와도 직접 연결됨</li>\n<li>배포판 선택은 <strong>RAM 용량과 CPU 아키텍처</strong>가 좌우하며, 2GB 미만·2~4GB·4GB 이상 구간마다 현실적...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:52:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=30895",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Zuckerberg의 내부고발자 전쟁",
-    "content": "<ul>\n<li>Meta 전 국제관계팀장 Sarah Wynn-Williams의 회고록 <strong>Careless People</strong>을 둘러싼 법적 압박이, 내부고발자 개인을 넘어 전·현직 직원들의 발언을 위축시키는 사례로 번지고 있음</li>\n<li>Wynn-Williams의 고용 계약에는 <strong>비밀유지·비방 금지·강제 중재</strong> 조항이 있었고, Meta는...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:50:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=30894",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "물리 매체 소유가 여전히 중요한 이유",
-    "content": "<ul>\n<li>디지털 상점의 “구매”는 대개 파일 소유가 아니라 <strong>취소 가능한 라이선스</strong>에 가까워, 서비스 종료·권리 계약 변경·계정 제재가 생기면 영화·게임·책 접근이 사라질 수 있음</li>\n<li>Blu-ray, 게임 카트리지, 인쇄본, CD·바이닐 같은 <strong>물리 매체</strong>는 원격 정책 변경으로 선반에...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:49:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=30893",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "핀테크 엔지니어링 핸드북",
-    "content": "<ul>\n<li>돈을 핵심 상태로 다루는 시스템은 <strong>데이터를 만들지 않고</strong>, 잃지 않으며, 아무 것도 신뢰하지 않는다는 원칙 위에서 설계되어야 함</li>\n<li>금액 표현은 float를 피하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">BigDecimal</code>, 최소 단위 정수, 유리수 등을 책임에 맞게 조합해야 하며, JSON 숫자 직렬화도 <strong>IEEE-7...<p></p></strong></li></ul>",
-    "createdAt": "2026-06-27T22:45:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=30892",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI가 RFIC 설계의 “흑마술”을 배우다",
-    "content": "<ul>\n<li>RFIC는 5G, 자동차 레이더, 위성 통신 같은 무선 기술의 기반이지만, 전자기·열·패키징 신뢰성을 함께 맞춰야 해 <strong>수작업 중심의 난제</strong>로 남아 있음</li>\n<li>Princeton 연구진은 인간 설계 템플릿을 출발점으로 삼지 않고, <strong>강화학습</strong>과 역설계를 결합해 아키텍처·회로 토폴로지...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:37:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=30891",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jolla Phone, 2026년 10월 배송 배치 판매",
-    "content": "<ul>\n<li>Jolla는 <strong>DIT(Do It Together) Linux phone</strong>을 내세운 Jolla Phone의 2026년 10월 배송 배치를 열고, 2,000대 한정 물량을 99€ 선결제로 예약받음</li>\n<li>총 가격은 <strong>649€</strong> 이며 8GB/128GB·12GB/256GB 구성, The Orange·Snow White·Kaamos Black 색상, EU·UK·Norway·Switzer...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:35:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=30890",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "익명 GitHub 계정이 미공개 0-day를 대량 공개",
-    "content": "<ul>\n<li><strong>Exploitarium</strong>은 공개 proof-of-concept와 취약점 연구 글을 한곳에 모은 GitHub 저장소이며, 새 연구 항목은 자체 완결형 폴더로 추가됨</li>\n<li>저장소에는 7-Zip, AnyDesk, Docker, Firefox, FFmpeg, Ghidra, Gitea, ImageMagick, libssh2, Nmap, OpenVPN, PHP, RustDesk, VLC 등 여러 프로...<p></p></li></ul>",
-    "createdAt": "2026-06-27T22:33:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=30889",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "PlayStation, 고객 계정에서 구매 영화 551편 삭제 예정",
-    "content": "<ul>\n<li>Sony가 PlayStation Store에서 <strong>StudioCanal 배급 콘텐츠</strong>를 구매한 사용자에게 기존 구매작 접근 중단과 라이브러리 제거를 통보함</li>\n<li>대상에는 <em>Terminator 2</em>, <em>Total Recall</em>, <em>Confessions of a Dangerous Mind</em> 등이 포함되며, PlayStation 웹사이트에는 제거...<p></p></li></ul>",
-    "createdAt": "2026-06-27T19:35:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=30887",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "초음파로 뇌를 촬영하기",
-    "content": "<ul>\n<li>Aleph는 두개골을 열지 않고 뇌 혈관 활동을 고해상도로 보는 <strong>초음파 기반 뇌 인터페이스 하드웨어</strong>를 개발하며, MRI처럼 넓은 범위와 세부 해상도를 동시에 노림</li>\n<li>이 방식은 뉴런 활성화 부위로 혈액이 더 공급되는 <strong>신경혈관 결합</strong>을 이용해, 두개골을 통과한 초음파...<p></p></li></ul>",
-    "createdAt": "2026-06-27T17:45:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=30886",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "속도가 증가할 때 운동에너지는 왜 선형이 아니라 제곱으로 증가하는가? (2011)",
-    "content": "<ul>\n<li>비회전 물체의 운동에너지 $\\frac{1}{2}mv^2$는 단순 공식 암기가 아니라, 왜 $0\\to1\\ \\mathrm{m/s}$보다 $1\\to2\\ \\mathrm{m/s}$ 가속에 더 많은 에너지가 필요한지를 묻는 <strong>직관의 문제</strong>임</li>\n<li>핵심 설명은 <strong>갈릴레이 불변성</strong>과 에너지 보존으로, 같은 충돌을 다른 기준계...<p></p></li></ul>",
-    "createdAt": "2026-06-27T17:42:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=30885",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
