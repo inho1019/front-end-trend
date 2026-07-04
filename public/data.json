@@ -1,5 +1,225 @@
 [
   {
+    "title": "에이전트 자율성 수준",
+    "content": "<ul>\n<li>에이전트형 엔지니어링은 프롬프트 작성보다 <strong>운영 설계</strong>에 가까워지고 있으며, 작업별로 허용할 자율성과 이를 뒷받침할 <strong>검증 방식</strong>을 함께 정해야 함</li>\n<li>단일 사다리형 모델은 한 에이전트에 대한 신뢰를 숫자로 표현하는 데는 유용하지만, 여러 에이전트를 동시에 다루...<p></p></li></ul>",
+    "createdAt": "2026-07-04T02:39:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=31115",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Costco는 안티-Amazon이다",
+    "content": "<ul>\n<li>Amazon식 소매 미래가 <strong>무한한 상품 구색</strong>과 초고속 배송을 향하는 동안, Costco는 제한된 품목·오프라인 구매·단순 물류로 최근 5년간 매출을 매년 평균 10% 이상 늘림</li>\n<li>Costco 매장은 약 <strong>4,000개 SKU</strong>만 취급해 Walmart Supercenter의 약 130,000개 SKU나 Amazon식 무...<p></p></li></ul>",
+    "createdAt": "2026-07-04T01:58:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=31114",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Fable을 이기는 ‘짧은 목줄’ AI 코딩 방법",
+    "content": "<ul>\n<li>보안 중요 소프트웨어에서 AI 코딩 에이전트를 쓰려면 자율 실행을 맡기기보다, 개발자가 변경을 계속 통제하는 <strong>Short Leash 방식</strong>이 필요함</li>\n<li>여러 에이전트가 병렬로 코드를 만들고 검토하는 “vibe”식 접근은 코드베이스 이해를 약화시키고, AI가 <strong>off the rails</strong> 상...<p></p></li></ul>",
+    "createdAt": "2026-07-04T01:55:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=31113",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "세션 기록을 기억하는건 에이전트에 유용하지 않음",
+    "content": "<ul>\n<li>SWE 작업에서 에이전트가 문서·PR·커밋 같은 컨텍스트를 이미 볼 수 있다면, 과거 <strong>세션 기록 검색</strong>은 성능 이점을 만들지 못했음</li>\n<li>흔한 구현은 모든 transcript를 DB에 저장한 뒤 <strong>벡터 검색</strong>, Elasticsearch, SQL 검색, 그래프를 붙여 MCP나 CLI skill로 노출하지만, ...<p></p></li></ul>",
+    "createdAt": "2026-07-04T01:55:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=31112",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Retry-now, 지금 바로 윤회 - 완전 자율 루프 에이전트",
+    "content": "<p>AI 코딩 에이전트를 반복 실행해서 코드베이스를 점진적으로 개선하는 에이전트 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">retry-now</code>를 만들었습니다.</p>\n<p>핵심 아이디어는 \"매 이터레이션마다 완전히 새로운 컨텍스트 0 세션에서 코드를 다시 보게 하자\"입니다.<br>\n기존 장기 실행 에이전트는 이전 판단을 방어하거나, 이미 시도</p>",
+    "createdAt": "2026-07-04T01:50:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=31111",
+    "author": "owjs3901",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Fable 필드 가이드: 나의 미지(Unknowns) 찾기",
+    "content": "<ul>\n<li>Claude Fable 5 작업의 핵심은 사용자가 주는 <strong>지도(map, 프롬프트·스킬·컨텍스트)</strong> 와 작업이 실제 일어나는 <strong>영토(territory, 코드베이스·현실·제약)</strong> 의 간극, 즉 <strong>미지(unknowns)</strong> 를 찾아 좁히는 것</li>\n<li>Fable은 작업 품질이 <strong>미지를 명확히 하...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-04T01:03:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31107",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "루프 엔지니어링의 미학 (The Art of Loop Engineering)",
+    "content": "<ul>\n<li>에이전트를 안정적으로 유용한 작업에 활용하려면 좋은 모델만으로는 부족하며, 작업 집합에 맞게 설계된 <strong>하네스(harness)</strong> 가 필요함</li>\n<li>가장 기본이 되는 <strong>에이전트 루프</strong>는 LLM에 컨텍스트를 주고 작업이 끝날 때까지 도구를 반복 호출하는 구조</li>\n<li>여기에 검증...<p></p></li></ul>",
+    "createdAt": "2026-07-04T00:36:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31106",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "1인 창업자의 시대",
+    "content": "<ul>\n<li><strong>미국 인구조사국</strong>은 2022년 사업체 분류 방식을 개편해 고소득 무고용 사업체 기준을 상향했고, 이후 <strong>고소득 1인 창업자(solopreneur)</strong> 집계가 급증</li>\n<li>신규 사업체 형성 통계, 국가별 등록 기록, <strong>Stripe 플랫폼 데이터</strong>가 모두 1인 창업의 지속적 성장...<p></p></li></ul>",
+    "createdAt": "2026-07-04T00:35:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31105",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "epiq - Git 기반 분산형 로컬 CLI 네이티브 이슈 트래커",
+    "content": "<ul>\n<li><strong>터미널 네이티브 이슈 트래커</strong>. 이슈 트래킹을 에디터/터미널 안으로 가져와 잦은 컨텍스트 전환을 없앰</li>\n<li><strong>로컬 우선(local-first)</strong>: 계정/SaaS/외부 서비스 없이 동작하고, 상태를 로컬에 저장해 편집이 즉시 반영됨</li>\n<li><strong>Git 백업·버전 관리</strong>: 모...<p></p></li></ul>",
+    "createdAt": "2026-07-04T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31104",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "KDE Plasma에서 샌드박스를 깨는 임의 코드 실행 취약점",
+    "content": "<ul>\n<li>KDE Plasma의 창 관리 동작 때문에 샌드박스된 앱이 사용자의 클릭을 계기로 <strong>호스트 임의 바이너리</strong>를 실행할 수 있음이 PoC로 확인됨</li>\n<li>핵심 원인은 KWin이 앱이 제공한 <strong>app_id</strong>를 신뢰하고, 실제 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.desktop</code> 파일 매칭 없이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/proc/PID/cmdline</code></li></ul>",
+    "createdAt": "2026-07-04T00:25:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=31103",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ActivityPub 구현이 어려운 이유, 그리고 그럴 필요가 없는 이유",
+    "content": "<ul>\n<li>ActivityPub 서버를 직접 만들면 첫 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Follow</code> 요청부터 설명 없는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">401 Unauthorized</code>에 막히기 쉽고, Fedify는 <strong>서명·JSON-LD·전달·보안</strong> 부담을 애플리케이션 코드 밖으로 옮기는 TypeScript 프레임워크임</li>\n<li>페디버스 인증은 만료 초안 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">draft-cavage-http...<p></p></code></li></ul>",
+    "createdAt": "2026-07-04T00:22:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=31102",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ClickHouse가 Observability 전쟁에서 앞서가는 이유",
+    "content": "<ul>\n<li>로그는 작은 시스템의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">grep</code> 경험과 달리, 서비스와 소비자가 늘면 <strong>대용량·비정형·예측 불가 쿼리</strong>가 겹쳐 Observability에서 가장 다루기 어려운 데이터가 됨</li>\n<li>ClickHouse는 클릭스트림 분석용 DB로 출발했지만, <strong>고볼륨·추가 중심·시간 순서·집계 읽기</strong>라...<p></p></li></ul>",
+    "createdAt": "2026-07-04T00:19:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=31101",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "14주년을 맞은 Lobsters",
+    "content": "<ul>\n<li>2012년 시작한 <strong>Lobsters</strong>가 14주년을 맞으며, 커뮤니티 활동 지표가 꾸준히 상승 중임</li>\n<li>현재 등록 사용자는 <strong>20,412명</strong>이고, 누적 제출 스토리는 127,589건에 이름</li>\n<li>댓글 <strong>696,054개</strong>와 투표 4,911,743표가 쌓여, 토론과 평가 활동도 큰 규모로...<p></p></li></ul>",
+    "createdAt": "2026-07-04T00:16:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=31100",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "저커버그, Meta의 해고가 효과 없었음을 ‘인정’",
+    "content": "<ul>\n<li>Meta는 AI 에이전트 개발에 맞춰 조직을 크게 흔들었지만, Zuckerberg는 최근 4개월간 <strong>에이전트 개발 궤적</strong>이 기대만큼 가속하지 않았다고 말함</li>\n<li>1~2월 구조조정 논의는 회사가 변화에 뒤처질 수 있다는 <strong>상위 인력들의 우려</strong>와 Claude Code 같은 도구에 대한 낙관론 속...<p></p></li></ul>",
+    "createdAt": "2026-07-03T23:20:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31099",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "스위스는 왜 25Gbit 인터넷이 가능하고 미국은 아닌가",
+    "content": "<ul>\n<li>스위스는 가정용으로 <strong>대칭형 전용 25Gbit/s 광인터넷</strong>을 제공하지만, 미국과 독일은 공유형 망·제한된 사업자 선택·높은 가격 문제가 반복됨</li>\n<li>광섬유 접속망은 <strong>자연 독점(Natural Monopoly)</strong> 에 가까워, 사업자마다 물리망을 따로 깔게 두면 경쟁보다 중복 투자와 독점...<p></p></li></ul>",
+    "createdAt": "2026-07-03T23:19:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=31098",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Alibaba, 백도어 위험 우려해 사내에서 클로드 코드 사용 금지 조치 예정",
+    "content": "<ul>\n<li>중국 IT 대기업 Alibaba가 <strong>중국 연계 사용자 식별</strong> 기능으로 논란이 된 Anthropic의 <strong>Claude Code</strong>를 업무에서 사용하지 못하도록 직원들에게 금지 조치</li>\n<li>Anthropic이 Alibaba를 상대로 <strong>Claude AI 모델 능력의 불법 추출</strong>을 주장한 이후 양사 갈등이 심...<p></p></li></ul>",
+    "createdAt": "2026-07-03T23:17:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=31097",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Half-Baked Product: 반쯤 구운 제품",
+    "content": "<ul>\n<li>오븐 스타트업 Ovens Inc.는 스페인 시장 10%를 노리고 출발했지만, <strong>굽기 실패율</strong>을 해결하기 전에 판매 약속과 투자 논리에 제품 방향이 끌려감</li>\n<li>초기 MVP는 재료 양을 입력하면 굽는 시간을 자동 조절한다고 내세웠지만 빵·케이크·피자가 자주 실패했고, <strong>고객 5명</strong>의...<p></p></li></ul>",
+    "createdAt": "2026-07-03T23:16:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=31096",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Valve, Steam Machine e-ink 전면을 오픈소스로 공개",
+    "content": "<ul>\n<li>Steam Machine 전면을 꾸미는 <strong>e-ink 디스플레이</strong>를 Valve가 직접 판매하지 않는 대신, 사용자가 직접 제작할 수 있는 자료를 공개함</li>\n<li>제작 자료는 Valve <strong>GitLab</strong>에 MIT 라이선스로 올라와 있으며, 부품 구성과 조립 정보를 포함함</li>\n<li>프로젝트 이름은 <strong>I...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-03T23:15:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31095",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CarPlay는 부가적이다",
+    "content": "<ul>\n<li>Rivian이 CarPlay를 지원하지 않으면서, Casey Liss는 <strong>CarPlay 미지원 차량은 사지 않겠다</strong>고 선을 그음</li>\n<li>Rivian은 화면 미러링이 차량 UI 전체를 차지한다고 우려하지만, 일반 <strong>CarPlay</strong>는 CarPlay Ultra처럼 모든 화면을 장악하는 방식이 아님</li>\n<li>Volvo XC90 사...<p></p></li></ul>",
+    "createdAt": "2026-07-03T23:13:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31094",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "멘탈 모델을 전달하는 도구나 기법은?",
+    "content": "<ul>\n<li>시스템이나 제품을 이해하는 <strong>멘탈 모델</strong>을 다른 사람에게 전달하고 함께 키우는 데 효과적인 도구와 기법을 묻는 질문임</li>\n<li>멘탈 모델을 키우는 방법으로 <strong>시스템을 직접 만들고 유지보수</strong>하는 경험이 거론됨</li>\n<li>전달 방식은 냅킨 낙서, 옆에서 몸짓으로 설명하기,...<p></p></li></ul>",
+    "createdAt": "2026-07-03T21:02:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=31093",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "로컬 인텔리전스에 대한 권리",
     "content": "<ul>\n<li>RTI는 플랫폼 계정이나 클라우드 API에 묶이지 않고 자기 기기에서 <strong>로컬 AI</strong>를 실행할 권리를 보호하려는 활동임</li>\n<li>공개 AI 모델의 <strong>다운로드·소유·실행·연구·수정·공유</strong>는 합법적 사용으로 보장하되, 실제 피해 행위는 계속 단속해야 한다는 입장임</li>\n<li>사기, 사...<p></p></li></ul>",
     "createdAt": "2026-07-03T16:34:24.000+00:00",
@@ -352,50 +572,6 @@
     }
   },
   {
-    "title": "허접한 웹 포럼을 되살리자",
-    "content": "<ul>\n<li>낡은 웹 포럼은 코드도 거칠고 자주 망가졌지만, <strong>작은 커뮤니티가 오래 머무르며 대화하는 공간</strong>으로는 현대 소셜 네트워크보다 만족스러운 면이 있었음</li>\n<li>Usenet과 이메일 리스트 이후 웹 포럼은 1994년 <strong>WWW Interactive Talk</strong> 같은 초기 구현, CGI·Perl 도구, 상업·...<p></p></li></ul>",
-    "createdAt": "2026-07-03T00:15:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=31061",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Oomwoo - 직접 만드는 오픈소스 로봇 청소기",
-    "content": "<ul>\n<li><strong>oomwoo</strong>는 사용자가 직접 조립하는 오픈소스 가정용 로봇 청소기 프로젝트로, 하드웨어·펌웨어·소프트웨어를 첫 커밋부터 공개하는 build-in-public 방식으로 진행됨</li>\n<li>핵심 구성은 <strong>Raspberry Pi</strong>, ROS 2, 2D LiDAR, 3D 프린트 섀시, Home Assistant 통합이며, 일상 청...<p></p></li></ul>",
-    "createdAt": "2026-07-03T00:13:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=31060",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "모던 앱 (The Modern App)",
-    "content": "<ul>\n<li>“차세대 코드 편집기”라는 데모를 빌려, 현대의 소프트웨어가 <strong>업데이트·협업·AI 기능</strong>으로 과밀해진 상태를 풍자</li>\n<li>화면에는 문서 로딩 실패, 개인정보 동의, 클라이언트 예외, 라벨 없는 아이콘, Windows 활성화 알림, 오류·경고·충돌 수치가 겹치며 <strong>혼란스러운 UI</strong>...<p></p></li></ul>",
-    "createdAt": "2026-07-03T00:13:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=31059",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Android 개발자 검증: 보호로 위장한 위협",
-    "content": "<ul>\n<li>F-Droid는 <strong>Android Developer Verification(ADV)</strong> 이 Android 8 이상 기기에 이미 배포됐고, Google이 승인하지 않은 개발자의 앱 실행을 막는 중앙 통제 장치가 될 수 있다고 비판함</li>\n<li>Google은 악성코드 확산 억제를 명분으로 내세우지만, F-Droid는 ADV가 <strong>초기 배포 차단</strong></li></ul>",
-    "createdAt": "2026-07-03T00:08:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=31058",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Meta releases its React design system",
     "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​481 — July 3, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/187471/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/187432/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/d3rq25ebulc1pplq8yvb.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/187432/rss\" title=\"astryx.atmeta.com\" target=\"_blank\" rel=\"noopener noreferrer\">Meta Releases Its <em>Astryx</em> Design System</a></span> — Built on React and <a href=\"https://react.statuscode.com/link/187433/rss\" target=\"_blank\" rel=\"noopener noreferrer\">StyleX</a>, and under development at Meta for over 8 years (powering <em>“over 13,000 apps”</em>, they claim), Astryx provides <a href=\"https://react.statuscode.com/link/187434/rss\" target=\"_blank\" rel=\"noopener noreferrer\">more than 160 components</a>, <a href=\"https://react.statuscode.com/link/187435/rss\" target=\"_blank\" rel=\"noopener noreferrer\">theming</a>, <a href=\"https://react.statuscode.com/link/187436/rss\" target=\"_blank\" rel=\"noopener noreferrer\">templates</a>, and tooling. There's also <a href=\"https://react.statuscode.com/link/187437/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a playground</a> to experiment&nbsp;with.</p>\n  <p>Meta </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 In <a href=\"https://react.statuscode.com/link/187438/rss\" target=\"_blank\" rel=\"noopener noreferrer\">How Astryx Works</a>, the Meta team explains the technical story behind the project, why they built it, and the basics of its&nbsp;operation.</p></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/187431/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/32e8caac.png\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/187431/rss\" title=\"master.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Agentic Frontend Development</a></span> — Join this interactive workshop and see how AI can help with the messy middle of frontend work. Covers practical patterns for prompting, reviewing, debugging, and iterating with Codex — to help design, build, and refine modern&nbsp;interfaces.</p>\n  <p>Master.dev <span>sponsor</span></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187439/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Storybook has introduced first-class support for TanStack projects</a> in the React ecosystem, including Router, Start, and Query.</p>\n</li>\n<li>\n<p>Vercel continues to tease Next.js 16.3 (now in preview) with a look at <a href=\"https://react.statuscode.com/link/187440/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Turbopack progress</a> and <a href=\"https://react.statuscode.com/link/187441/rss\" target=\"_blank\" rel=\"noopener noreferrer\">AI-related improvements</a>.</p>\n</li>\n<li>\n<p>Vercel has also <a href=\"https://react.statuscode.com/link/187442/rss\" target=\"_blank\" rel=\"noopener noreferrer\">introduced <em>Vercel Services</em></a>. It provides a way to run multiple frameworks in one project, e.g. a Next.js frontend and a backend that might well be built in Python, Go, or&nbsp;Rust.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/187443/rss\" title=\"3perf.com\" target=\"_blank\" rel=\"noopener noreferrer\">The Hidden Cost of Hydration Mismatches</a></span> — How a single hydration mismatch, combined with web font swapping, can push a React page’s Largest Contentful Paint (<a href=\"https://react.statuscode.com/link/187444/rss\" target=\"_blank\" rel=\"noopener noreferrer\">LCP</a>) from green into the&nbsp;red.</p>\n  <p>Ivan Akulov </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://react.statuscode.com/link/187445/rss\" target=\"_blank\" rel=\"noopener noreferrer\">How We Made React Native Animations Smooth on Low-End Android</a> – A deep dive into Skia, Reanimated, and Hermes performance on budget&nbsp;Android. <cite>Vishesh Raheja</cite></p>\n<p>📺 <a href=\"https://react.statuscode.com/link/187446/rss\" target=\"_blank\" rel=\"noopener noreferrer\">How Tanner Linsley Built TanStack to Outlive Him</a> – A <em>very</em> smoothly produced 15-minute interview with the creator of <a href=\"https://react.statuscode.com/link/187447/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack</a>. <cite>The Build Log</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/187448/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Next.js Already Traces Your Requests: How to Export Them with OpenTelemetry</a> <cite>Kyle Tryon (Sentry)</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/187449/rss\" target=\"_blank\" rel=\"noopener noreferrer\">I Let React Compiler Handle Memoization: Here's What Actually Broke</a> <cite>Isaac Okoro (LogRocket)</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/187450/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/mbrvbof3q1ujqnfapog4.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/187450/rss\" title=\"www.mapcn.dev\" target=\"_blank\" rel=\"noopener noreferrer\">mapcn: Ready-to-Use Customizable Map Components</a></span> — Built by a Cloudflare design engineer, mapcn is a suite of map components for React based on <a href=\"https://react.statuscode.com/link/187451/rss\" target=\"_blank\" rel=\"noopener noreferrer\">MapLibre</a> and styled with Tailwind. If you use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/ui</code>, you’ll be very comfortable here as it follows the same&nbsp;approach.</p>\n  <p>Anmoldeep Singh </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><span>💬</span>&nbsp;<a href=\"https://react.statuscode.com/link/187452/rss\" title=\"ui.shadcn.com\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/ui</code> Adds New Components for Chat Interfaces</a></span> — <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MessageScroller</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Message</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Bubble</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Attachment</code>, and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Marker</code> components join the suite, providing an easy way to create a messaging experience in your&nbsp;app.</p>\n  <p>shadcn Team </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/187453/rss\" title=\"www.termcn.dev\" target=\"_blank\" rel=\"noopener noreferrer\">termcn: A Suite of Beautiful Terminal Components for React</a></span> — Built on <a href=\"https://react.statuscode.com/link/187454/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Ink</a> and <a href=\"https://react.statuscode.com/link/187455/rss\" target=\"_blank\" rel=\"noopener noreferrer\">OpenTUI</a> and distributed via the shadcn CLI, this is a comprehensive component library for <em>terminal</em> UIs.</p>\n  <p>Aniket Pawar </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/187456/rss\" title=\"react-icons.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">React Icons 5.7: Easily Bring Popular Icons Into Your React Projects</a></span> — Use imports to bring in only the icons your project needs from sets like Font Awesome, Typicons, GitHub’s <a href=\"https://react.statuscode.com/link/187457/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Octicons</a>, and more. v5.7 bumps all the icon sets up to their latest&nbsp;versions.</p>\n  <p>Kamijin Fanta </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Real-time UI, stale data? The bottleneck is the query, not the component. <a href=\"https://react.statuscode.com/link/187458/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TimescaleDB</a> fixes&nbsp;it.</p>\n \n<p>⚛️ You compose React from components. Compose your AI backend the same way — agents as typed APIs, native TypeScript SDK, 100+ recipes. <a href=\"https://react.statuscode.com/link/187459/rss\" target=\"_blank\" rel=\"noopener noreferrer\">→ Star on&nbsp;GitHub</a>.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187460/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Ant Design 6.5</a> – The enterprise-focused design language/React UI library gets a smaller bundle size, new icons, and <a href=\"https://react.statuscode.com/link/187461/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a DESIGN.md file</a> for agents to&nbsp;use.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187462/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Downshift 9.4</a> – Primitives to build WAI-ARIA compliant React autocomplete, combobox and select components. <a href=\"https://react.statuscode.com/link/187463/rss\" target=\"_blank\" rel=\"noopener noreferrer\">v9.4 fixes</a> React Compiler compatibility.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187464/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Router 8.1</a> – Adds a way for <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">create-react-router</code> to install an agent skill, and instrumentation data now <a href=\"https://react.statuscode.com/link/187465/rss\" target=\"_blank\" rel=\"noopener noreferrer\">includes extra metadata</a>.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187466/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TinyBase 9.0</a> – Bug fix and stability release for the reactive data store and sync engine&nbsp;backend.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187467/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo SDK 57</a> – Brings React Native 0.86 to&nbsp;Expo.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187468/rss\" target=\"_blank\" rel=\"noopener noreferrer\">MUI / Material UI 9.2</a> and <a href=\"https://react.statuscode.com/link/187469/rss\" target=\"_blank\" rel=\"noopener noreferrer\">MUI-X 9.8</a></p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/187470/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native VisionCamera 5.1</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/481/rss\">",
     "createdAt": "2026-07-03T00:00:00.000+00:00",
@@ -404,39 +580,6 @@
     "site": {
       "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
       "name": "React Status"
-    }
-  },
-  {
-    "title": "미국 대법원 결정으로 흔들린 EU-미국 데이터 이전",
-    "content": "<ul>\n<li>EU-미국 개인정보 이전은 미국의 <strong>독립 감독기관</strong>을 전제로 유지돼 왔는데, 미국 대법원의 <strong>Trump v. Slaughter</strong> 결정으로 FTC 독립성 전제가 흔들림</li>\n<li>EU 조약법은 개인정보 보호 감독을 <strong>독립 기관</strong>이 맡도록 요구하며, 2023년 EU-US Data Privacy Fram...<p></p></li></ul>",
-    "createdAt": "2026-07-02T22:02:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=31056",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "개구리 유래 장내 세균이 생쥐 종양을 제거함",
-    "content": "<ul>\n<li>동료심사 연구에서 양서류·파충류 장내 미생물군 유래 <strong>Ewingella americana</strong>가 생쥐 대장암 모델의 종양 제거 후보로 부상함</li>\n<li>면역 기능이 있는 생쥐에 <strong>단회 정맥 투여</strong>하자 치료군 100%에서 종양이 완전히 사라졌고, 암세포 재노출 후에도 재발이 관찰되지 않음</li>...<p></p></ul>",
-    "createdAt": "2026-07-02T19:35:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=31055",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 노동자 소유 협동조합 제품 2.2만 개를 검색하는 디렉터리",
-    "content": "<ul>\n<li>Worker Owned는 <strong>노동자 소유 기업</strong>의 온라인 상품을 한곳에서 찾게 해, 협동조합 제품을 구매하려는 사람이 매장을 따로 찾아다니는 수고를 줄여줌</li>\n<li>현재 규모는 <strong>60개 이상 매장</strong>의 22,000개 이상 제품이며, 검색 결과는 각 회사 사이트로 연결됨</li>\n<li>Worker Own...<p></p></li></ul>",
-    "createdAt": "2026-07-02T18:34:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31054",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -451,61 +594,6 @@
     }
   },
   {
-    "title": "그래픽스 프로그래머가 되려면 무엇을 배워야 하는가",
-    "content": "<ul>\n<li>실시간 그래픽스 채용 역량은 <strong>CPU 측 명시적 그래픽스 API</strong>와 <strong>GPU 측 조명·셰이딩</strong>을 함께 요구하며, 두 영역을 동시에 깊게 익히기는 어려움</li>\n<li>CPU 측은 DirectX12, Vulkan, Metal 같은 현대적 API와 애셋 로딩·엔진 지원 작업을 다루고, GPU 측은 그림자, 앰비언트 오...<p></p></li></ul>",
-    "createdAt": "2026-07-02T17:46:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=31053",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "FFmpeg 9.1의 새로운 AAC 인코더",
-    "content": "<ul>\n<li>FFmpeg의 네이티브 <strong>AAC 인코더</strong>가 rate control, RDO와 PNS·TNS·I/S·M/S까지 전면 재작성되며, 외부 AAC 인코더와 직접 비교할 만한 품질을 목표로 함</li>\n<li>새 구현은 <strong>엄격한 CBR</strong>에 가깝게 동작하고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-q:a</code> 기반 실제 VBR 모드는 권장되지 않음</li>\n<li>Zim...<p></p></li></ul>",
-    "createdAt": "2026-07-02T17:43:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=31052",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI가 일자리보다 먼저 가져가는 것",
-    "content": "<ul>\n<li>AI 시대의 최대 수혜자를 자처하는 개발자가, AI와만 일한 지 1년이 넘은 시점에 느낀 위화감을 소설 《삼체》의 '지자(智子)' 비유로 풀어낸 에세이</li>\n<li>핵심 주장: <strong>AI는 일자리를 가져가기 한참 전에, 몰입·소유감·성장의 사다리 같은 \"일자리보다 먼저 없어지는 것들\"을 조용히 먼저...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-02T16:09:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=31051",
-    "author": "flowkater",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내가 자라며 알던 인터넷은 더 이상 존재하지 않는다",
-    "content": "<ul>\n<li>인터넷은 한때 선택적으로 방문하는 <strong>별도 공간</strong>에 가까웠지만, 2026년에는 은행·세금·쇼핑·업무·인증까지 일상 거의 전부에 엮인 기반이 됨</li>\n<li>2000년대 초반 가족용 PC와 전화 접속 환경에서는 컴퓨터가 특정 작업이나 놀이를 위한 도구였고, 사용자는 메뉴와 프로그램을 둘러보며 </li></ul>",
-    "createdAt": "2026-07-02T16:04:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=31050",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, Codex 전용 미니 키보드 ‘Codex Micro’ 티저 공개",
-    "content": "<p>OpenAI가 Codex 사용자를 위한 전용 하드웨어 <strong>Codex Micro</strong>를 예고했습니다.<br>\nOpenAI Developers 계정에 올라온 티저에는 “Your favorite Codex shortcuts are getting an upgrade”라는 문구와 함께 작은 매크로패드 형태의 장치가 등장했으며, 정식 공개일은 <strong>2026년 7월 15일</strong></p>",
-    "createdAt": "2026-07-02T16:02:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=31049",
-    "author": "princox",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Multi-Region Architecture: Going Global Without Going Broke",
     "content": "<p><span>When an application grows geographically, it is logical to start serving it from a second region to improve latency and availability. However, adding a second region to an application can make it slower and less reliable than it was with one.</span></p><p><span>That runs against the instinct, which says more locations should mean faster service and steadier uptime, which is often the case. But once the same data lives in two places at once, a new class of problem appears that can nullify the advantages of multi-region deployments.</span></p><p><span>Let’s look at a short example. Picture two edits to the same piece of data, made at nearly the same instant, one handled by a server on the US East Coast and one by a server in Frankfurt, right as the network link between those regions drops. Both edits are saved locally. Each region now holds a different version of that data, with no shared record of which one came first. When the link comes back, one of the two versions has to be chosen over the other. The way a system handles that question has a large effect on what a global footprint costs to build and to run.</span></p><p><span>Going global is better understood as a progression than as a single decision. In this article, we will start with the building blocks, the small set of concepts every regional design rests on, then work through the common setups in order, from a single region with backups up to running every region at once. Each step buys something concrete: lower latency, higher availability, or the ability to keep data inside a country’s borders. Each one also has a price, in money and in the consistency tradeoffs it introduces.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!6gKa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!6gKa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!6gKa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6gKa!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!6gKa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F955f4dc3-759d-407c-9c6e-784685c2ba6c_2650x3068.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><span>Foundations</span></h2>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/multi-region-architecture-going-global\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-07-02T15:30:30.000+00:00",
@@ -517,39 +605,6 @@
     }
   },
   {
-    "title": "Pidgin 3.0 Alpha 2(2.96.0) 출시",
-    "content": "<ul>\n<li>Pidgin 3.0의 두 번째 <strong>알파 릴리스</strong>가 공식 버전 <strong>2.96.0</strong>으로 공개됐고, 최종 사용자용으로 간주되는 3.0.0 전까지 같은 방식의 릴리스가 이어짐</li>\n<li>이번 버전은 현재 개발 상태를 보여주는 <strong>시간 기준 스냅샷</strong>이라 실험은 가능하지만, 일반 사용자에게 ...<p></p></li></ul>",
-    "createdAt": "2026-07-02T15:02:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=31048",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ZCode: GLM-5.2용 공식 하네스",
-    "content": "<ul>\n<li><strong>ZCode</strong>는 개발 도구와 AI 에이전트를 묶어 계획, 코딩, 리뷰, 배포를 한 흐름에서 처리하려는 GLM-5.2 공식 하네스임</li>\n<li>ZCode 3.0은 <strong>GLM-5.2 최적화</strong>와 멀티 에이전트 협업 개선을 내세우며, 추론·코딩 작업 전반에서 GLM과의 통합을 강조함</li>\n<li>예시 작업은 브라...<p></p></li></ul>",
-    "createdAt": "2026-07-02T12:36:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=31047",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: AI를 위한, 대한민국 대중교통 경로 &amp; 비용 탐색 CLI, MCP 서버",
-    "content": "<p>대중교통 경로 &amp; 비용을 알려주는 CLI 및 MCP 서버입니다</p>\n<p>https://github.com/GyeongHoKim/naeryeo</p>\n<p>homebrew, scoop, npm으로 설치가 가능합니다.<br>\n사용예시 다음과 같습니다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code># API 키를 OS 키체인에 등록  \nnaeryeo setup  \n# 경로 출력  \nnaeryeo ro</code></pre>",
-    "createdAt": "2026-07-02T10:11:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=31046",
-    "author": "rlarudgh2017",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Matching AI Modality To User Intent: Designing The Right Interface",
     "content": "<p>The design community has entered a period of conversational tunnel vision. Because Large Language Models (LLMs) are trained on dialogue, the industry has collectively decided that the chat bubble is the natural home for every AI capability. While the chat interface is a viable and powerful option for many tasks, it is one tool in an expansive toolkit. UX and Product teams must be intentional about the <strong>modalities</strong> we choose for how users provide their data and commands, and how the system presents its output.</p>\n<blockquote>Modality is the way a person uses their senses to interact with a system: seeing, hearing, touching, speaking, or typing.</blockquote>\n\n<p>To pick the best method, you need to think about what the user wants to do, where they are, and how much cognitive effort they are already expending. This guide offers a clear way to figure out the best approach for any product, using two tools to assist in the process: a Task Audit and an Input/Output Alignment Matrix.</p>\n<p>Picture a traveler jogging through a loud airport terminal after a sudden gate change. They are dragging their roller bag and carrying a coffee in the other hand. They need to open their airline app to ask the AI assistant where to go. The tool immediately fails the input modality test. It forces the traveler to stop walking, balance their coffee, and type a long booking reference number into a tiny chat box. When they finally hit send, the system fails the output modality test. Instead of flashing a large, high-contrast gate number, the AI returns a dense paragraph explaining the atmospheric weather patterns causing the delay. The actual gate number sits buried at the very bottom.</p>\n<p>While they might make the flight just fine, the user won’t forget the moment of anxiety they felt while using the AI tool — an experience that could have served as a way to reinforce a commitment to UX has instead validated the common conception that companies don’t care about or understand customers using their products. In this scenario, the airline built a smart tool, but the interface failed the user. The input required physical dexterity, which the traveler lacked at the time of need. The output demanded a level of reading focus they could not spare. This article will cover how we can avoid this scenario in our AI-powered tools. In order to be successful, we must evaluate the <strong>physical and cognitive load</strong> of our users to match both the input and output modality to their <strong>immediate intent</strong>.</p>\n<p>Let’s first discuss the limitations of a chat-based interface.</p>\nMyth of the Do-It-All Chatbot\n<p>The allure of the chatbot is easy to understand from a product development standpoint. It is a blank slate. It suggests that the system can handle anything the user provides. However, a text-heavy interface often causes a high adaptation load. This load increases cognitive demands on users. Over time, this cognitive burden turns into a psychological tax a person pays when changing natural thought processes to accommodate a machine. </p>\n<p>When an interface relies solely on conversation, it imposes a dual burden: a <strong>linguistic challenge for input</strong> and a <strong>cognitive challenge for output</strong>. We’ll examine both separately below.</p>\n<h3>Input: Why a Text Box is a Linguistic Barrier</h3>\n<p>A blank chat box creates a major problem for users who need to discover what a tool can actually do. In a standard graphical interface, menus and buttons provide clear visual cues that signal every available option. A chat box often leads to <strong>choice paralysis</strong> because users are forced to guess what the AI is capable of. They have to remember the exact phrasing or technical terms required to get the result they want.</p>\n<p>Consider a data analyst who wants to find a specific trend in a spreadsheet. In a traditional tool, they might click a filter or sort button. In a chat interface, they must suddenly become a writer and describe that complex logic in a complete sentence. Another example: a manager trying to reorganize a team schedule. Dragging and dropping blocks on a calendar is intuitive. Describing those same scheduling shifts in a text prompt adds a layer of work that makes the task feel more difficult than it should be.</p>\n<p>Designing for input means recognizing that composing a prompt is a <strong>creative act</strong>. It requires a person to translate a vague thought into a specific command. For many professionals, this creates a linguistic barrier. A designer might know exactly how they want an image to look but struggle to describe the lighting or texture in a text prompt. In that case, a slider or a color picker is a much better input method than a text box.</p>\n<p>Having addressed the linguistic barrier of constructing input prompts, we must now consider the other half of the conversational burden. This is the cognitive cost the AI imposes when it responds in dense blocks of text.</p>\n<h3>Output: The Cognitive Cost of Reading Long Text</h3>\n<p>When an AI responds in long blocks of text, it transfers the <strong>interpretive work</strong> to you, the user. Text is a <strong>serial medium</strong>: your brain has to read one word after the next to extract meaning. That takes time. Sequential reading is necessary in many scenarios. Complex legal analysis or reviewing nuanced medical histories requires reading full paragraphs. Teams create friction when they default to text for data that visual formats communicate faster. Visual methods allow parallel processing. You can view a chart and spot a pattern in under a second.</p>\n<p>Imagine asking an AI for a project status update. Instead of a color-coded dashboard, you receive three paragraphs listing every task completed that week. Now you must read the entire response and mentally summarize it to find the one piece of information you needed. The quick visual check has been replaced by a reading assignment.</p>\n<p>The <strong>cognitive tax</strong> of this work compounds with professional stakes. A doctor asking for a patient’s vital signs needs a clear numerical display, not a narrative describing the readings. A stock trader looking for a price spike needs a line graph immediately, not a written description of price movement over the past hour. In both cases, a text response forces the professional through a slow, error-prone extraction process when <strong>speed</strong> and <strong>accuracy</strong> are most important.</p>\n<p><img src=\"https://files.smashing.media/articles/matching-ai-modality-user-intent-designing-right-interface/1-output-cognitive-cost-reading-long-text.png\"></p>\nA Taxonomy of Input and Output Modalities\n<p>Before selecting a modality, practitioners need a <strong>shared vocabulary</strong> for what the options actually are. The table below maps common input and output modalities to the contexts where each performs best. This is not a ranking. Each modality has a <strong>role</strong>; the question is always which role it is playing in a given workflow.</p>\n<p>Designing for modality inherently requires a strong focus on <strong>accessibility</strong>. While visual dashboards provide rapid insight for many people, designers need to provide screen-reader-optimized audio alternatives for users with visual disabilities. Modality choices should multiply pathways to information.</p>\n<p><strong>Input Modalities</strong></p>\n<table>\n    <thead>\n        <tr>\n            <th>Modality</th>\n            <th>Best For</th>\n      <th>Example Contexts</th>\n      <th>Cognitive &amp; Physical Rationale</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td><strong>Button / Tap</strong></td>\n            <td>Single-step, binary actions</td>\n      <td>Launching a feature; confirming an alert</td>\n      <td>Eliminates recall overhead by utilizing recognition; maximizes execution speed during time-sensitive tasks.</td>\n        </tr>\n        <tr>\n            <td><strong>Voice</strong></td>\n            <td>Hands-busy or eyes-busy contexts</td>\n      <td>Field technician query; driving navigation</td>\n      <td>Offloads physical interaction to speech, though bounded by ambient noise and social privacy norms.</td>\n        </tr>\n        <tr>\n            <td><strong>Natural Language Chat</strong></td>\n            <td>Ambiguous or exploratory queries</td>\n      <td>Researching options; asking follow-up questions</td>\n      <td>Offers users freedom in what they can say; however, the user must figure out how to phrase their request clearly.</td>\n        </tr>\n    <tr>\n            <td><strong>Form / Wizard</strong></td>\n            <td>Structured, multi-field data entry</td>\n      <td>Filling out a contract; configuring a report</td>\n      <td>Keeps users from missing information by breaking down a complicated task into clear, step-by-step visual sections.</td>\n        </tr>\n     <tr>\n            <td><strong>GUI (Filters, Sliders, Drag-and-drop)</strong></td>\n            <td>Complex parameter setting or spatial tasks</td>\n      <td>Scheduling; data filtering; image editing</td>\n      <td>Prevents mistakes and ensures users don't miss information by dividing complicated tasks into clear, step-by-step visual parts.</td>\n        </tr>\n    <tr>\n            <td><strong>Multi-modal (Image + Text)</strong></td>\n            <td>Visual input paired with description</td>\n      <td>Uploading a design mockup with annotation</td>\n      <td>Reduces the effort of explaining things because users can reference an object instead of having to describe it only with words.</td>\n        </tr>\n    <tr>\n            <td><strong>Gesture</strong></td>\n            <td>Hands-free spatial interaction</td>\n      <td>Waving a hand to acknowledge an alert in a sterile operating room</td>\n      <td>Allows physical interaction without touching a surface. This keeps users safe and clean in contaminated environments and allows for quick input or acknowledgement.</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><strong>Output Modalities</strong></p>\n<table>\n    <thead>\n        <tr>\n            <th>Modality</th>\n            <th>Best For</th>\n      <th>Example Contexts</th>\n      <th>Cognitive &amp; Physical Rationale</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td><strong>Push Notification / Alert</strong></td>\n            <td>Time-sensitive, ambient awareness</td>\n      <td>Price spike alert; task completion notice</td>\n      <td>Provides a quick update that the user can process at a glance. It delivers information without demanding a full break in concentration from their primary task.</td>\n        </tr>\n    <tr>\n            <td><strong>Audio Summary</strong></td>\n            <td>Hands-busy or eyes-busy contexts</td>\n      <td>Status updates while walking; conversational voice agents providing real-time navigation</td>\n      <td>Delivers information directly to the user’s ear. Removes the need to look at a screen, keeping the user safe and aware of their physical surroundings while moving or working.</td>\n        </tr>\n    <tr>\n            <td><strong>Short Text Summary</strong></td>\n            <td>Focused queries needing brief answers</td>\n      <td>Definition lookup; single-metric status</td>\n      <td>Gives a fast answer to a direct question. Users can read a short sentence quickly without experiencing the fatigue of scanning paragraphs of text.</td>\n        </tr>\n    <tr>\n            <td><strong>Visual Dashboard</strong></td>\n            <td>High-density, comparative analysis</td>\n      <td>Project status; resource allocation</td>\n      <td>Enables visual trend and outlier detection. Avoids the mental effort of reading data line-by-line and cross-referencing in real time.</td>\n        </tr>\n    <tr>\n            <td><strong>Interactive Canvas</strong></td>\n            <td>Generative or iterative creative tasks</td>\n      <td>Design iteration; layout adjustment</td>\n      <td>Allows users to manipulate the output instead of asking an AI to move it via text instructions. Reflects a natural way to interact with the output.</td>\n        </tr>\n     <tr>\n            <td><strong>Inline Confirmation</strong></td>\n            <td>Guided task flows needing feedback</td>\n      <td>Step-by-step configuration wizard with in-line validation</td>\n      <td>Provides visual proof that the system recorded a choice correctly. Reduces users’ anxiety about wondering if an error occurred.</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><strong><em>Table 1:</em></strong> <em>Input and Output Modality Taxonomy. Use this as a reference during the Task Audit to identify candidate modalities before narrowing to a recommendation.</em></p>\n<p>The following <em>FigureFigure 2</em> illustrates the <strong>cognitive spectrum</strong>, mapping how mental effort scales across various interaction methods. This spectrum is a critical tool for designers to visualize the shift from low-effort, ambient interactions to high-effort, focused experiences. By understanding where a specific task sits on this spectrum, teams can identify whether a user needs a “glanceable” output that minimizes mental processing or a high-density format that supports deep, analytical thinking. </p>\n<p><img src=\"https://files.smashing.media/articles/matching-ai-modality-user-intent-designing-right-interface/2-cognitive-spectrum-modality.png\"></p>\n<p>With this taxonomy established, the next step is to apply a rigorous method to select the optimal input and output combination. Practitioners must ground this selection process in the user’s real-world environment and context.</p>\nTask Audit: A Framework for Modality Selection\n<p>To choose the right interaction method, practitioners should complete a <strong>Task Audit</strong> before interface design begins. A formal Task Audit is the framework that moves teams from assumptions about user behavior to <strong>evidence</strong>. This process gathers data about the physical, social, and cognitive context in which the work actually happens, which then drives all input and output modality decisions.</p>\n<p>Use these four areas of focus to anchor the audit:</p>\n<ul>\n<li><strong>Input Constraints</strong>: This addresses whether the user can physically interact with the system using their hands, such as typing or tapping. It often dictates the necessity of hands-free interaction methods like voice input when the user's hands are occupied by tools or gear.<ul>\n<li>Can the user use their hands to type or tap? A mechanic working under a vehicle might need to ask a question using only voice because their hands are occupied and covered in grease.</li>\n</ul>\n</li>\n<li><strong>Output Constraints</strong>: This defines whether a user can safely and practically view information on a screen. It concerns situations where a user's eyes must remain focused on their environment, making audio or glanceable visual cues the appropriate display method.<ul>\n<li>Can the user safely look at a screen to read information? A delivery driver's navigation system should provide audio directions because reading a detailed map while driving through an intersection is dangerous.</li>\n</ul>\n</li>\n<li><strong>Social Constraints</strong>: This considers the environment's tolerance for audible interaction, either speaking or listening to audio output. It helps determine if a quiet space requires silent alerts or if a loud environment demands a non-audio output method.<ul>\n<li>Is the environment appropriate for speaking aloud or listening to audio? An office worker in a quiet, open-plan space would prefer a silent text notification over a spoken voice response.</li>\n</ul>\n</li>\n<li><strong>Cognitive Load</strong>: This measures the amount of mental effort the user must already dedicate to their primary task. Teams must design the interface output to either minimize mental processing, such as with a quick visual indicator, or support deep thinking with a detailed summary.<ul>\n<li>How much mental effort does the task already require? A surgeon needs a quick visual red indicator during a procedure, while a lawyer researching case strategy needs a detailed text summary to absorb at their own pace.</li>\n</ul>\n</li>\n</ul>\n<p>The audit answers two questions for every feature:</p>\n<ol>\n<li>What modality can the user physically use to provide input here?</li>\n<li>What modality can the user realistically process as output here? </li>\n</ol>\n<p>Here is how to gather the evidence to inform your task audit. Use one or more of these common UX research-related methods:</p>\n<h3>1. Contextual Inquiry and Observation</h3>\n<p>This is the most direct way to capture <a href=\"https://www.gov.uk/guidance/contextual-inquiry\" target=\"_blank\" rel=\"noopener noreferrer\">how people work in their natural setting</a>, and it provides the richest data for identifying physical constraints on both input and output. Observation is necessary because users often perform hidden work: small steps or workarounds they forget to mention in an interview, or environmental details they do not think to describe because they have adapted to them.</p>\n<p><em>The Approach</em>: Go to the user’s actual workspace, whether a field site, warehouse, or office floor. Ask them to perform the task you are studying and observe closely.</p>\n<p><em>What to Look For</em>: This method is most revealing for Input Constraints and Output Constraints.</p>\n<ul>\n<li><strong>Input example</strong><br>A technician diagnosing equipment who cannot put down their tools rules out typing and points directly to voice input.</li>\n<li><strong>Output example</strong><br>A supervisor in a meeting who looks up and down repeatedly from a screen signals a need for glanceable, low-density output rather than a scrolling text summary.</li>\n</ul>\n<h3>2. Focused Interviews</h3>\n<p><a href=\"https://medium.com/design-bootcamp/interviewing-without-bias-a-guide-to-user-interviews-in-ux-design-6d27598c5006\" target=\"_blank\" rel=\"noopener noreferrer\">Interviews</a> surface the mental models and decision points that observation cannot capture. They are most valuable for understanding Cognitive Load.</p>\n<p><em>The Approach</em>: Conduct one-on-one sessions with end-users and the stakeholders who manage the outcome. Use a structured protocol focused on a specific task. Ask for stories about past successes and failures rather than general opinions.</p>\n<p><em>What to Look For</em>:</p>\n<ul>\n<li><strong>The “Why” Behind High Cognitive Load</strong><br>Ask users to describe the hardest part of a task. A lawyer may explain that the volume of detail is not the challenge; synthesis for ethical or strategic judgment is. This confirms a need for detailed text output the user can read and absorb at their own pace, not a summary dashboard.</li>\n<li><strong>Process Ambiguity</strong><br>Uncover situations that are unclear or error-prone, which identifies where AI capabilities provide the most leverage and what output format will reduce rather than increase ambiguity.</li>\n</ul>\n<h3>3. Collaborative Workshops</h3>\n<p><a href=\"https://www.amazon.com/Workshop-Book-design-successful-workshops/dp/1292119705\" target=\"_blank\" rel=\"noopener noreferrer\">Workshops</a> are essential for defining task boundaries and establishing required fidelity levels. Product managers and stakeholders bring foundational knowledge of system requirements; researchers apply audit criteria.</p>\n<p><em>The Approach</em>: Use workshops to build a shared <strong>Task Inventory</strong>. Bring designers, engineers, product managers, and business analysts together to map every step of the process. Product managers and business analysts ensure factual accuracy; the research team applies audit criteria to each step.</p>\n<p><em>What to Look For</em>:</p>\n<ul>\n<li><strong>Social Constraints</strong><br>Confirm where tasks are performed. A workflow that takes place on a loud manufacturing floor versus a shared quiet library demands very different output modalities.</li>\n<li><strong>Ambiguity and Speed Tests</strong><br>For every task in the inventory, apply two tests. <em>First</em>: Does this step require human ethical judgment? If yes, the AI output must support that judgment, not replace it. <em>Second</em>: Does this step require instantaneous execution? If yes, the interface must support fast input with minimal cognitive overhead.</li>\n</ul>\n<p>Once you gather field evidence through these research channels, map your findings directly against the <strong>Modality Taxonomy</strong>. Each concrete physical or social constraint you document systematically eliminates mismatched interfaces. This process strips away design guesswork, narrowing your architectural choices down to the specific input and output combinations that survive the reality of the user’s environment.</p>\n<p>When you ground input and output modality decisions in field evidence rather than interface convention, the resulting design reduces adaptation load for the user and grounds your modality choices in evidence. When you base decisions on field data, you move past interface convention and build a powerful case for the resources needed to create the right experience for your users.</p>\n<p>Once the audit is complete, the final step is utilizing the Input/Output Alignment Matrix to formalize the connection between user intent and the optimal modality combination.</p>\nInput/Output Alignment Matrix\n<p>With Task Audit findings in hand, you can use an <strong>Input/Output Alignment Matrix</strong> to map user intent to specific modality combinations. This matrix is organized by what the user is trying to accomplish in a given moment. This distinction versus focusing on what your AI is capable of doing matters. If intent changes across a single workday for the same user, the interface should respond to those shifts.</p>\n<p>Choosing the wrong modality for the user’s context can lead to user frustration. Users might feel mentally drained if a lot of information is delivered through a format that is hard to process, like getting a massive status update only in text. They may also start worrying if an action was actually completed correctly when a precise command is buried within a long chat exchange. Finally, the system can force users into finding clumsy workarounds, making them adapt to the machine’s method instead of working in their natural, most effective way.</p>\n<table>\n    <thead>\n        <tr>\n            <th>User Intent</th>\n            <th>Optimal Input Modality</th>\n      <th>Optimal Output Modality</th>\n      <th>Environmental Fit</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>Quick Status Check</td>\n            <td>Voice or Single-tap Button</td>\n      <td>Audio or Push Notification</td>\n      <td>Hands-busy, Eyes-busy (e.g., Technician on ladder)</td>\n        </tr>\n        <tr>\n            <td>Specific Detail Query</td>\n            <td>Natural Language Chat</td>\n      <td>Short Text Summary</td>\n      <td>Focused, low-density data need</td>\n        </tr>\n        <tr>\n            <td>Complex Analysis</td>\n            <td>GUI (Filters, Sliders)</td>\n      <td>Visual Dashboard (Charts, Tables)</td>\n      <td>Desk-based, high-resolution screen</td>\n        </tr>\n    <tr>\n            <td>Creative Generation</td>\n            <td>Multi-modal (Image + Text)</td>\n      <td>Interactive Canvas</td>\n      <td>Design or drafting environment</td>\n        </tr>\n    <tr>\n            <td>Monitoring / Alert</td>\n            <td>Passive (background system)</td>\n      <td>Push Notification or Audio Alert</td>\n      <td>Any environment; task is ambient awareness</td>\n        </tr>\n    <tr>\n            <td>Guided Task Completion</td>\n            <td>Structured Form or Step-by-step Wizard</td>\n      <td>Inline Confirmation + Progress Indicator</td>\n      <td>Focused workflow; user needs verification feedback</td>\n        </tr>\n    </tbody>\n</table>\n\n<p><strong><em>Table 2:</em></strong> <em>Input/Output Alignment Matrix. Map user intent to modality combinations using Task Audit evidence. The two added rows (Monitoring/Alert and Guided Task Completion) cover common enterprise and mobile scenarios not captured in simpler frameworks.</em></p>\n<p>When teams coordinate these factors, they can move past the automatic default of adding a chatbot. Visual layouts enable rapid scanning. Structured inputs remove the burden of constructing perfect sentences. Audio outputs serve users whose hands and eyes are otherwise occupied. </p>\n<blockquote>The right modality combination respects the user’s physical and cognitive state at the moment of interaction.</blockquote>\n\n<p>A real-world scenario where environmental constraints dictated a shift in design strategy best demonstrates the practical application of this matrix and the broader audit framework.</p>\nCase Study: Adaptive Modality for Field Technicians\n<h3>The Problem: Cognitive Overload in High-Risk Environments</h3>\n<p>Field technicians servicing high-voltage electrical grids often face a dangerous misalignment of interface modality. Traditionally, these technicians had to rely on ruggedized tablets to access technical manuals and log status updates. However, the physical constraints of the job — wearing heavy protective gloves and working in bucket trucks at significant heights — made interacting with a standard touch interface nearly impossible while on a job site. Additionally, attempting to read complex, text-heavy diagnostic reports on a screen while maintaining situational awareness created a high cognitive load that increased the risk of safety errors.</p>\n<h3>Research Methods: Capturing the Reality of the Field</h3>\n<p>To address this, researchers conducted a Task Audit utilizing three specific methods from this article. First, <em>Contextual Inquiry and Observation</em> revealed that technicians often worked in “hands-busy, eyes-busy” states where any manual input was a significant barrier. Researchers observed technicians wearing mandatory thick protective gloves while in the bucket truck, which made precise screen taps nearly impossible and often triggered the wrong commands. </p>\n<p>High-altitude environments also introduced severe screen glare from direct sunlight, washing out the display and making text difficult to read even at full brightness. Furthermore, technicians faced the physical safety risk of trying to manipulate and secure a heavy, ruggedized tablet while balanced in awkward positions, creating a distraction that could lead to dangerous slips or equipment contact. These factors, combined with the need to constantly monitor live wires and the surrounding environment, meant technicians could not safely dedicate their eyes or hands to a standard tablet interface, confirming the severity of the eyes-busy and hands-busy constraints.</p>\n<p>Second, <em>Focused Interviews</em> with veteran technicians validated the findings from the field. They confirmed that the operational challenges, including the thick gloves, screen glare, and safety risks, were not unique to one location but were commonly experienced across multiple sites, including high-altitude transmission lines and sprawling power substations. This broad confirmation solidified the need for a non-touch, voice-first solution. The interviews also surfaced a critical cognitive constraint: the need for glance verification of vital signs, such as voltage readings and temperature trends, rather than being forced to read a long narrative description of system health. Technicians stressed that their primary need was immediate, unambiguous verification (is this safe? or where is the fault?), not a lengthy diagnostic report, indicating that a text-heavy response was dangerous to their workflow.</p>\n<p>These methods confirmed that the environment required a departure from the traditional chat or form-based AI capability interface.</p>\n<h3>The Resolution: A Multi-Modal Handoff Solution</h3>\n<p>The resulting solution implemented an adaptive modality handoff designed to mitigate the physical and cognitive barriers researchers identified during the research. While active on a job site, technicians utilize voice input to query the system. This method allows them to remain productive while wearing thick protective gloves that would otherwise prevent precise interaction with a touchscreen.</p>\n<p>The AI responds with a short audio summary of immediate diagnostic data. This audio feedback bypasses the challenge of screen glare in high-altitude environments and allows the technician to maintain situational awareness of the high-voltage grid without the safety risk of looking away from dangerous equipment. By providing immediate answers to fault locations through audio, the system meets the technician’s need for glance verification through a hands-free and eyes-free channel.</p>\n<p>Once technicians return to a truck and secure safety gear, a system automatically hands off workflows to a 15-inch visual dashboard mounted inside a vehicle. A rugged 10-inch field tablet lacks adequate screen real estate for complex schematics. A larger vehicle display allows for parallel processing of historical trend data and wide electrical grid maps. This case study reflects an actual field audit conducted for a national utility provider. Implementing this adaptive approach reduced diagnostic time by twenty percent and increased daily tool adoption among field crews.</p>\n<p><img src=\"https://files.smashing.media/articles/matching-ai-modality-user-intent-designing-right-interface/3-cross-modality-handoff-diagram.png\"></p>\nDesigning for the Environment\n<p>An AI capability is only as usable as the interface that delivers it. Researchers and designers must resist the pull toward the path of least resistance. Building a chatbot is fast and familiar, something we’ve been doing for decades now. Building an interface that feels like a natural extension of how someone already works is harder, and it is the work that matters.</p>\n<p>Start by leaving the screen. The Task Audit requires presence in the places where work actually happens: the field site, the warehouse floor, the operating room. The physical and social realities of those spaces are not edge cases. They are the <strong>design brief</strong>.</p>\n<p>The future of AI interface design is a diverse ecosystem: visual, vocal, haptic, and ambient, calibrated to user intent and environmental context. The chat window is one tool in that ecosystem. It is the right tool for specific jobs, and often the wrong tool for the jobs we reflexively assign to it.</p>\n<blockquote>In order for us to create the greatest likelihood of acceptance and use of the AI capability we offer users, we must fit the modality to the person and the place.</blockquote> \n\n<h3>Where to Start</h3>\n<p>To get started immediately, run a lightweight version of the Task Audit before your next design sprint. Spend two hours observing the workflow in its actual environment. Conduct three to five interviews with the people who perform the task. Bring a PM or analyst into a 90-minute workshop to build a task inventory and apply the four audit questions. You will not have complete data, but you will have enough to make a defensible modality recommendation backed by evidence rather than convention.</p>\n<p>I created a Modality Task Audit Template to help guide teams with moving forward. You can download this worksheet and take it directly to your next field observation. It allows design and product teams to document specific physical barriers before writing a single line of code.</p>\n<ul>\n<li><a href=\"https://smashing-files.ams3.digitaloceanspaces.com/articles/matching-ai-modality-user-intent-designing-right-interface/Modality_Task_Audit_Field_Template.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download: Modality Task Audit Field Template (PDF)</a></li>\n</ul>\n<p>Inside this Template:</p>\n<ul>\n<li><strong>Step 1: Physical Reality Check.</strong><br>An observation checklist to log hand availability, eye focus requirements, and ambient noise levels in a specific workspace.</li>\n<li><strong>Step 2: Cognitive Baseline.</strong><br>A scoring grid to rate required reading density and verification anxiety for a given workflow.</li>\n<li><strong>Step 3: The Handoff Map.</strong><br>A blank flow diagram to chart where a user starts a task (for example, using voice on a mobile phone in a warehouse) and where they finish it (for example, reviewing a visual dashboard on an office monitor).</li>\n</ul>\n<p>We focus heavily on training smarter AI models. We owe equal attention to human interfaces. A brilliant underlying model packaged in a lazy text interface fails. When you observe actual work environments and align interaction modalities to them, you remove adaptation friction.</p>\nModality Task Audit Field Template\n<p>Use this worksheet during field observations. It allows design teams to document specific physical barriers before writing code.</p>\n<h3>Part 1: Physical Reality Check</h3>\n<p>Observe users as they perform a primary task in actual workspaces. Check all applicable conditions.</p>\n<p><strong>State of Hands</strong></p>\n<ul>\n<li>[ ] Hands are free for typing.</li>\n<li>[ ] User holds a clipboard or a smartphone.</li>\n<li>[ ] User holds tools, drives a vehicle, or wears thick gloves.</li>\n</ul>\n<p><strong>Visual Focus Requirements</strong></p>\n<ul>\n<li>[ ] User focuses entirely on a screen.</li>\n<li>[ ] User alternates glances between a screen and physical surroundings.</li>\n<li>[ ] User watches live machinery or navigates crowded spaces.</li>\n</ul>\n<p><strong>Ambient Noise Level</strong></p>\n<ul>\n<li>[ ] Quiet environment (office).</li>\n<li>[ ] Moderate noise (busy cafe).</li>\n<li>[ ] Loud environment (construction site, loud retail floor).</li>\n</ul>\n<h3>Part 2: Cognitive Baseline</h3>\n<p>Rate the mental effort required to complete a specific workflow.</p>\n<table>\n    <thead>\n        <tr>\n            <th>Metric</th>\n            <th>Low</th>\n      <th>Medium</th>\n      <th>High</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td><strong>Required Reading Density</strong></td>\n            <td>Single numbers, binary states</td>\n      <td>Short summaries, simple instructions</td>\n      <td>Legal contracts, complex diagnostic reports</td>\n        </tr>\n        <tr>\n            <td><strong>Verification Anxiety</strong></td>\n            <td>Reversible actions, low stakes</td>\n      <td>Standard business operations</td>\n      <td>Irreversible actions, safety risks, financial transactions</td>\n        </tr>\n    </tbody>\n</table>\n\n<h3>Part 3: Handoff Map</h3>\n<p>Chart user journeys across different environments. Document required input and output at each stage.</p>\n<p><strong>Stage 1: Initial Action</strong></p>\n<ul>\n<li>Location: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n<li>Input Method: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n<li>Output Method: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n</ul>\n<p><strong>Stage 2: Context Transition</strong></p>\n<ul>\n<li>Trigger for environment change (example: user returns to a desk): <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n</ul>\n<p><strong>Stage 3: Completion Action</strong></p>\n<ul>\n<li>Location: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n<li>Input Method: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n<li>Output Method: <strong><strong><strong><strong><strong>____</strong></strong></strong></strong></strong></li>\n</ul>\n",
     "createdAt": "2026-07-02T10:00:00.000+00:00",
@@ -558,61 +613,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "수동 Ethernet 탭 만들기",
-    "content": "<ul>\n<li>스마트 TV의 유휴 트래픽을 직접 확인하려고 €39짜리 <strong>Throwing Star LAN Tap</strong> 대신 RJ45 브레이크아웃 보드와 미니 브레드보드로 수동 Ethernet 탭을 복제함</li>\n<li>이 탭은 라우터와 대상 기기 사이에 인라인으로 들어가 신호를 두 개의 <strong>모니터 포트</strong>로 복사하며, 전원·소...<p></p></li></ul>",
-    "createdAt": "2026-07-02T07:02:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=31043",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "&quot;프론티어 AI가 의료 전문 툴 이겼다&quot;는 논문 재검증해보니 — 채점자간 일치도 0.10, 채점자가 곧 참가자",
-    "content": "<h3>간략 요약</h3>\n<ul>\n<li>Nature Medicine에 2026년 6월 12일 게재된 논문 \"General-purpose large language models outperform specialized clinical AI tools on medical benchmarks\"에서 GPT-5.2, Gemini 3.1 Pro, Claude Opus 4.6 같은 범용 프론티어 모델이 OpenEvidence, UpToDate AI 같은 의료 전용...<p></p></li></ul>",
-    "createdAt": "2026-07-02T05:58:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=31041",
-    "author": "flamehaven01",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 내부 사용자용 페이지 배포 플랫폼",
-    "content": "<p>회사에서 일하다 보면 사내 유저들에게만 문서를 공유하고 싶은 경우가 꽤 자주 있습니다.<br>\n백오피스용 API 문서라던가, 내부 데이터가 포함된 분석 리포트 같은건 외부인들에게 공개되기 찝찝하니까요.<br>\n그럴 때마다 보안을 고민하게 됩니다.<br>\n인증을 붙이자니 귀찮고, 인증을 붙이지 않는다면 사내망...</p>",
-    "createdAt": "2026-07-02T04:19:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=31038",
-    "author": "toughrogrammer",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Box3D - 오픈소스 3D 물리 엔진 공개",
-    "content": "<ul>\n<li>게임 서버에서 대규모 3D 물리 시뮬레이션을 직접 제어해야 하는 요구가 커지면서, <strong>Box3D</strong>가 Box2D 계열의 오픈소스 3D 물리 엔진으로 공개됨</li>\n<li>구조는 Box2D와 가깝고 <strong>C API</strong>, C17 소스, 서브스테핑 솔버, 연속 충돌, 그래프 컬러링, wide SIMD 접촉 솔버, 멀티스레딩...<p></p></li></ul>",
-    "createdAt": "2026-07-02T03:36:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=31037",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Ship - 로컬 프로젝트를 내 도메인에 바로 띄우는 오픈소스 배포 도구",
-    "content": "<p>Ship은 로컬에 있는 작은 웹 서비스를 내 도메인에 바로 띄우기 위해 만들고 있는 오픈소스 배포 도구입니다.</p>\n<p>제가 원했던 흐름은 단순했습니다.</p>\n<ol>\n<li>SSR 서버 프로젝트를 하나 스캐폴딩합니다.</li>\n<li>Dockerfile을 둡니다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ship --service demo</code>를 실행합니다.</li>\n<li></li></ol>",
-    "createdAt": "2026-07-02T03:32:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=31036",
-    "author": "gronxb",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
