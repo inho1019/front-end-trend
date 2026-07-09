@@ -1,5 +1,192 @@
 [
   {
+    "title": "Show GN: 소셜 아카이버(업데이트) - 소셜 플랫폼의 글들도 깔끔하게 읽게 해드립니다",
+    "content": "<p>소셜 아카이버는 원래 소셜 미디어 플랫폼들의 글들을 중심으로 아카이빙을 도와드리는 서비스입니다. 아마도 하단에 관련 글에 자연스럽게, 이전 글들이 레퍼런스로 나올 것 같은데 관련 글들에서 확인하실 수 있을 것 같고요.</p>\n<p>이번 업데이트 소식은 크롬 익스텐션의 리더 모드입니다. 요즘 소셜 미디어 특징</p>",
+    "createdAt": "2026-07-09T02:31:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=31260",
+    "author": "hyungyunlim",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Lucene search core 기여 팀이 만든 Local-first AI Memory Workspace, Maek",
+    "content": "<p>안녕하세요. 검색과 AI Memory Infrastructure를 개발하는 팀 cognica입니다.</p>\n<p>팀 소개를 간단히 드리면, cognica에서 제시한 BB25(Bayesian BM25) 기반 확률적 하이브리드 검색(probabilistic hybrid search) 작업이 최근 Apache Lucene 10.5.0 코어에 공식 포함(BayesianScoreQuery, LogOddsFusionQuery)되었</p>",
+    "createdAt": "2026-07-09T02:26:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31259",
+    "author": "timcognica",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Grok 4.5 공개",
+    "content": "<ul>\n<li>SpaceXAI가 <strong>코딩·에이전트형 작업·지식 업무</strong>를 겨냥한 자사 최상위 모델 Grok 4.5를 출시</li>\n<li>학습 과정은 수만 개 <strong>NVIDIA GB300 GPU</strong>와 데이터 중복 제거·품질 점수화·도메인 중심 선택에 초점을 맞춰, 단순 토큰 규모보다 신호 품질을 강조함</li>\n<li>벤치마크에서는...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:58:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=31256",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GitLost: GitHub AI 에이전트를 속여 비공개 저장소 유출",
+    "content": "<ul>\n<li>Noma Labs는 GitHub Agentic Workflows에서 <strong>간접 프롬프트 인젝션</strong> 취약점 GitLost를 발견했으며, 공개 저장소 이슈만으로 같은 조직의 비공개 저장소 데이터를 공개 댓글에 노출시킬 수 있었음</li>\n<li>이 기능은 Markdown 워크플로를 YAML Actions 파일로 컴파일하고, Claude 또는 GitHub C...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:55:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31255",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, GPT‑Live 공개",
+    "content": "<ul>\n<li>ChatGPT Voice를 더 자연스러운 실시간 대화에 가깝게 만들기 위해 <strong>GPT‑Live‑1</strong>과 <strong>GPT‑Live‑1 mini</strong>를 공개</li>\n<li><strong>풀듀플렉스 구조</strong>로 듣기와 말하기를 동시에 처리해 짧은 맞장구, 빠른 주고받기, 사용자가 생각할 때 기다리는 동작을 지원</li>\n<li>...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:52:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31254",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능",
+    "content": "<ul>\n<li><strong>Chatto</strong>는 그룹·팀 채팅용 앱으로, Slack·Teams·Discord 같은 그룹 채팅 앱과 비슷하지만 <strong>더 컴팩트하고 빠른 사용감</strong>을 목표로 함</li>\n<li>실행 파일만으로 서버를 띄우고 자체 프론트엔드까지 제공해, 개인 인프라에 비교적 <strong>간단히 배포</strong>할 수 있음</li>\n...<p></p></ul>",
+    "createdAt": "2026-07-09T00:49:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=31253",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Uniqlo 티셔츠의 난독화된 bash 스크립트 해독하기",
+    "content": "<ul>\n<li>Uniqlo 매장에서 팔린 Akamai 디자인 티셔츠에는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">base64 --decode</code> 결과를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">eval</code>로 실행하는 <strong>난독화된 bash 코드</strong>가 인쇄돼 있었지만, 실제로는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Peace for All</code> 캠페인용 이스터에그였음</li>\n<li>Base64로 인코딩된 Here string을 풀면 터미널에서 </li></ul>",
+    "createdAt": "2026-07-09T00:46:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=31252",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 취향은 새로운 해자(Moat)이며, 어떤 스타트업이 살아남을지는 디자인이 결정합니다",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!teLF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!teLF!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!teLF!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크 : <a href=\"https://velog.io/@sehyunny/why-taste-is-the-new-moast\" target=\"_blank\" rel=\"noopener noreferrer\">https://velog.io/@sehyunny/why-taste-is-the-new-moast</a></p></blockquote><h2><strong>소개</strong></h2><p><strong>해자(moat)</strong>라는 말을 들어보셨나요? 원래는 적의 침입을 막으려고 성 둘레에 깊게 파놓은 도랑을 뜻하는 말인데요, 요즘은 <strong>경쟁사가 쉽게 따라올 수 없는 진입장벽이나 경쟁 우위</strong>를 비유할 때 많이 쓰입니다. 워렌 버핏이 좋은 기업을 고르는 기준으로 이 표현을 즐겨 쓰면서 비즈니스 용어로 널리 퍼졌다고 하죠.</p><p>이 글은 AI로 코드와 앱 생산이 무한하고 저렴해진 지금, 전통적인 해자(속도, 자본, 기술력)는 힘을 잃었고 대신 무엇을 만들지 않을지 판단하는 ‘취향(taste)’이 유일한 해자가 되었다고 주장합니다.</p><p>취향이 스펙보다 중요해지는 시대, 이 의견에 공감하시나요? 이 글을 읽어보시면서 한 번쯤 곰곰이 생각해보시면 좋을 것 같습니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>Q1. 저자는 AI 시대에 더 많이, 더 빠르게 만드는 건 더 이상 의미가 없고, 오히려 ‘뭘 빼고 뭘 남길지’ 판단하는 <strong>취향</strong>이 진정한 경쟁 요소라고 주장합니다. 개발자 입장에서 이 주장에 공감 가실까요? 아니면 현실에서는 좀 다르다고 느끼시나요?</p></blockquote><p><strong>💬. 의견 1</strong></p><p>매우 공감합니다. 근데 이게 AI 때문에 갑자기 생긴 흐름은 아니라고 생각해요. 예전에  2024 트렌드 노트를 볼 때도 개인화·취향 소비 얘기가 나왔던 게 기억나는데, 그 흐름이 원래 있었고 AI가 기폭제 역할을 한 것 같습니다. 그래서 지금은 취향 없는 상품은 선택을 받기 힘든 시대가 된 것 같습니다.</p><p><strong>💬. 의견 2</strong></p><p>저도 기능 추가보다 뭘 뺄지 고민하는 게 더 중요하다고 생각해서 공감이 되는 것 같아요. 있으면 좋은 비타민 같은 제품 말고, 꼭 필요한 진통제💊 같은 제품을 만들려면 불필요한 걸 걷어내고 문제를 명확하게 정의하는 게 중요한 것 같습니다.</p><p></p><blockquote><p>Q2. 혹시 개발 하시면서 기술적인 고도화 외에도 <strong>취향</strong>을 기반으로 한 느낌이나 디테일 쪽에 시간 더 쏟은 적 있으신지, 있다면 그게 결과적으로 어떠한 차이를 만들었는지 궁금합니다!</p></blockquote><p><strong>💬. 의견 1</strong></p><p>아쉽게도 외부 사용자 취향이나 디테일에 집중해서 만들어본 경험은 아직 부족한 것 같아요. 대신 요즘엔 \"내가 쓰기 편한 것, 내가 보고 싶은 정보\"를 중심에 두고 기능을 만들어보려고 하는데, 개발자 본인이 사용자가 돼서 자기 취향을 서비스에 반영해보는 것도 결국 비슷한 경험이 아닐까 싶습니다~~</p><p><strong>💬. 의견 2</strong></p><p>평소에 특정 도메인만 계속 개발하다 보니 제품이 사용자한테 일관된 느낌을 주는지 잘 못 느낄 때가 있더라고요. 각 팀이 기능을 계속 추가하다 보면 시간 지나면서 느낌이 달라지기도 하고요. 그래서 그런 걸 점검하는 느낌으로 매주 한두 번씩 제품 기능을 다 한번씩 써보고, 이질감 느껴지면 팀에 공유해서 개선했던 경험이 있어요. 지표로 확인은 못 했지만 사용자한테는 좋은 경험이 되지 않았을까 생각했습니다!</p><h2><strong>목차</strong></h2><ol><li><p>희소성의 붕괴: 소프트웨어가 저렴해질 때</p></li><li><p>취향의 정의: 창업자의 숨겨진 초능력</p></li><li><p>신뢰 인프라로서의 디자인</p></li><li><p>미적 해자: 느낌이 기능이 될 때</p></li><li><p>취향 경제의 부상</p></li><li><p>편집자로서의 창업자: 절제로 이끌기</p></li><li><p>속도 대신 신뢰를 위한 디자인</p></li><li><p>다음 해자는 의미입니다</p></li></ol>",
+    "createdAt": "2026-07-09T00:31:16.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-moat",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "Weave Router - 프롬프트마다 최적의 모델로 라우팅하는 에이전트용 모델 라우터",
+    "content": "<ul>\n<li>Anthropic, OpenAI, Gemini를 <strong>단일 엔드포인트</strong>로 묶는 드롭인 프록시. 요청마다 최적 모델을 자동 선택</li>\n<li>모든 프롬프트를 <strong>50ms</strong> 이내에 올바른 모델로 라우팅하며, 엔드포인트 변경만으로 <strong>비용 40-70% 절감</strong> 가능</li>\n<li>프롬프트를 감(vibes)이 아...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:31:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31251",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "왼손잡이 사용자에게만 영향을 준 WordPress 버그",
+    "content": "<ul>\n<li>모바일에서 스크롤 중 <strong>댓글 답글 상자</strong>가 갑자기 열리는 문제가 있었고, 오른손 엄지로 스크롤하던 사이트 운영자는 재현하지 못했음</li>\n<li>원인은 페이지 왼쪽의 <strong>reply 링크</strong>와 WordPress의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">touchstart</code> 처리였으며, 왼손 엄지 스크롤이 의도치 않은 링크 터치...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:16:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=31250",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TypeScript 7.0 발표",
+    "content": "<ul>\n<li>TypeScript 7.0은 도구체인을 Go 기반 네이티브 코드로 이식한 릴리스로, 대형 프로젝트의 전체 빌드에서 보통 <strong>8~12배 속도 향상</strong>을 제공함</li>\n<li>새 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tsc</code>는 기존처럼 npm의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">typescript</code> 패키지로 설치하며, 편집기 지원은 <strong>LSP 기반 언어 서버</strong>로 ...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:13:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=31249",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "내가 좋아하는 소프트웨어 엔지니어링 인터뷰 질문: 중앙값 계산",
+    "content": "<ul>\n<li>기술 인터뷰의 작은 구현 문제는 퍼즐보다 효과적일 수 있으며, <strong>중앙값 계산</strong>은 기본 코딩 능력과 설계 감각을 함께 드러냄</li>\n<li>정렬이 필요한 문제라서 함수가 직접 정렬할지, 호출자가 정렬할지, 원본 배열을 <strong>변경해도 되는지</strong> 같은 API 논의로 자연스럽게 이어짐</li>...<p></p></ul>",
+    "createdAt": "2026-07-09T00:10:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=31248",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TrueType QR Code 폰트 - 폰트만으로 QR코드 만들기",
+    "content": "<ul>\n<li><strong>대괄호로 감싼 텍스트</strong>를 QR 코드로 바꾸는 TrueType/OpenType 폰트로, 이미지 생성 없이 문서 안에 QR 코드를 넣을 수 있음</li>\n<li>변환은 폰트 내부의 <strong>OpenType 규칙</strong>이 처리하며, 대괄호 밖 텍스트는 일반 라틴 텍스트로 그대로 표시됨</li>\n<li>QR 코드 블록도 텍스트로...<p></p></li></ul>",
+    "createdAt": "2026-07-09T00:07:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=31247",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SICP 비디오 강의(1986)",
+    "content": "<ul>\n<li>MIT 6.001 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Structure and Interpretation of Computer Programs</code>의 전체 흐름을 <strong>20개 비디오 강의</strong>로 따라갈 수 있어, SICP를 체계적으로 복습하기 좋은 자료임</li>\n<li>강의는 <strong>1986년 7월</strong> Hewlett-Packard 직원 대상으로 진행됐고, Hewlett-Packard Television...<p></p></li></ul>",
+    "createdAt": "2026-07-08T21:33:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=31246",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "중국, 3억2500만 달러 뇌물 수수 공무원에 사형 선고",
+    "content": "<ul>\n<li>중국 동부 법원이 난징시 전직 공무원 <strong>Yang Youlin</strong>에게 30년간 22억 위안, 약 <strong>3억2500만 달러</strong>의 뇌물을 받은 혐의로 사형을 선고함</li>\n<li>Yang은 1993년부터 2023년까지 난징시 여러 직책을 맡으며 공사 계약, 토지 이전, 자금 조달을 돕는 대가로 <strong>금전과 귀중품...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-08T20:33:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=31245",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Microsoft가 Windows Device ID로 사용자를 추적할 수 있음",
+    "content": "<ul>\n<li>Scattered Spider 관련 혐의를 받는 19세 <strong>Peter Stokes</strong> 사건에서 FBI가 Microsoft의 <strong>Global Device ID(GDID)</strong> 기록으로 Windows PC와 온라인 활동을 연결한 사실이 드러남</li>\n<li>GDID는 Windows 설치를 Microsoft 서비스와 시나리오 전반에서 식별하는 <strong>지속적 기기...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-08T19:39:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=31244",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Davit - Apple Containers용 네이티브 macOS UI",
+    "content": "<ul>\n<li>애플 실리콘 Mac에서 Apple의 컨테이너 플랫폼으로 Linux 컨테이너를 실행·관리하는 <strong>네이티브 macOS 앱</strong>이며, Docker Desktop 없이 쓸 수 있음</li>\n<li>Apple의 오픈소스 <strong>container 데몬</strong>과 XPC로 직접 통신해 CLI와 같은 경로를 사용하며, Electron·웹뷰·자체 백그라운드 에...<p></p></li></ul>",
+    "createdAt": "2026-07-08T19:36:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=31243",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "TypeScript v7 Released",
     "content": "<p>Go로 재작성된 TypeScript가 정식으로 공개됐습니다.</p>\n",
     "createdAt": "2026-07-08T17:28:31.000+00:00",
@@ -55,7 +242,7 @@
     }
   },
   {
-    "title": "Trusted Publishing을 패키지 신뢰 신호로 보면 안 됨",
+    "title": "PyPI의 Trusted Publishing을 패키지 신뢰 신호로 보면 안 됨",
     "content": "<ul>\n<li><strong>Trusted Publishing</strong>의 “신뢰”는 패키지를 사람이 믿어도 된다는 뜻이 아니라, CI/CD 같은 외부 <strong>머신 신원</strong>과 패키지 인덱스 사이의 업로드 인증 관계를 가리킴</li>\n<li>PyPI의 구현은 <strong>OIDC 연합</strong> 위에서 동작하며, 장기 API 토큰 대신 짧고 범위가 좁은 게...<p></p></li></ul>",
     "createdAt": "2026-07-08T08:01:35.000+00:00",
     "link": "https://news.hada.io/topic?id=31238",
@@ -473,138 +660,6 @@
     }
   },
   {
-    "title": "Nintendo, 유럽서 배터리 교체형 제품 개정판 발표",
-    "content": "<ul>\n<li>Nintendo는 <strong>2027년 2월 중순</strong> 발효될 유럽 배터리 규정 변경에 맞춰, 2026년 여름부터 일부 유럽 판매 제품을 <strong>사용자 교체형 배터리</strong> 개정판으로 순차 전환함</li>\n<li>개정판은 현재 제품과 <strong>기능 차이가 없으며</strong>, Nintendo Store에는 2026년 여름 첫 제품부터...<p></p></li></ul>",
-    "createdAt": "2026-07-07T01:03:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31198",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Castro Podcasts: 고객 지원으로 관계를 쌓으려던 시도가 빗나간 이유",
-    "content": "<ul>\n<li>Castro 인수 후 매일 제품을 쓰고 모든 이메일에 답하는 <strong>사람 중심 지원</strong>을 차별화하려 했지만, 기대만큼 고객 충성도나 호감으로 이어지지 않았음</li>\n<li>즉시 정확한 해결책을 줄 수 있는 상황에서는 만족도가 높았지만, 대부분의 세심한 답변은 사용자의 기대와 어긋나 <strong>불만을 키...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-07T01:00:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31197",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "영국 철도망 실시간 지도",
-    "content": "<p>영국 철도망 실시간 지도</p>\n",
-    "createdAt": "2026-07-07T00:57:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31196",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT-5.6 Sol Ultra는 Codex에 탑재될 것임",
-    "content": "<ul>\n<li>GPT-5.5 pro가 <strong>Codex에서 제외</strong>된 것은 실책이라고 지적하자 Codex 담당 Tibo가 \"<strong>Ultra will be in codex</strong>\" 라며 <strong>GPT-5.6 Sol Ultra가 Codex에 탑재</strong> 될것이라 언급함</li>\n<li>질문자는 <strong>Codex의 훨씬 높은 사용량 한도</strong>와 잦은 리...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:54:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31195",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "오픈소스 애플리케이션의 구조와 설계 지식 공유",
-    "content": "<h3>요약 개요</h3>\n<ul>\n<li>\n<p><strong>핵심 주제</strong></p>\n<ul>\n<li>오픈소스 애플리케이션의 내부 구조와 설계 의사결정을 개발자들이 직접 설명한 책과 관련 자료를 소개한다.</li>\n</ul>\n</li>\n<li>\n<p><strong>핵심 요점</strong></p>\n<ul>\n<li>소프트웨어 개발자는 건축가와 달리 역사적으로 중요한 대형 프</li></ul></li></ul>",
-    "createdAt": "2026-07-07T00:51:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=31194",
-    "author": "baeba",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenWrt One – 오픈 하드웨어 라우터",
-    "content": "<ul>\n<li><strong>OpenWrt One</strong>은 OpenWrt 생태계에 맞춘 오픈 하드웨어 라우터로, MediaTek Filogic 820 SoC와 WiFi 6, 2.5Gbit WAN을 갖춰 실사용 라우터와 개발·복구 장비 역할을 함께 노림</li>\n<li>기본 출고 상태에는 <strong>OpenWrt 릴리스 펌웨어</strong>와 LuCI GUI가 포함되며, NAND 부팅 후 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">...<p></p></code></li></ul>",
-    "createdAt": "2026-07-07T00:51:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31193",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "XBOX 재설정: 조직·스튜디오·운영 모델 재편",
-    "content": "<ul>\n<li>XBOX는 FY27 동안 약 <strong>3,200명 감원</strong>과 4개 스튜디오의 새 경영진 이관을 포함해, 비용 구조와 성장 둔화를 바로잡기 위한 대규모 재편에 들어감</li>\n<li>비교 가능한 플랫폼·퍼블리싱 기업보다 <strong>마진이 3~10배 낮고</strong>, Game Pass·멀티플랫폼·콘텐츠 확장도 기대한 속도로 성장하...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:48:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=31192",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Rocky - 파이프라인 전체를 타입 검사해 실행 전에 깨지는 변경을 잡아내는 SQL 변환 엔진",
-    "content": "<ul>\n<li><strong>스키마 드리프트 자동 감지</strong>: 소스 테이블 컬럼 타입/이름이 상류에서 바뀌어 버리면, diff 후 타겟을 자동 재생성\n<ul>\n<li>개발에선 통과하나 운영에서 실패하는 쿼리를 실행 전에 잡아내고, \"어제까지 잘 돌았는데 데이터가 이상하다\" 상황을 실행 시점에 즉시 차단</li>\n</ul>\n...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:41:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31191",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Astryx - Meta가 공개한 오픈소스 디자인 시스템",
-    "content": "<ul>\n<li><strong>React와 StyleX</strong> 기반으로 완전한 커스터마이징과 <strong>에이전트 대응</strong>이 특징</li>\n<li>접근성과 브랜드 테마 적용이 가능한 <strong>160개 이상의 React 컴포넌트</strong>를 갖추고, 다크모드, 즉시 배포 가능한 템플릿, CLI를 하나의 통합 시스템으로 제공</li>\n<li>Meta 내부에...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:28:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=31190",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jam 프로그래밍 언어",
-    "content": "<ul>\n<li><strong>Jam</strong>은 C 계열 언어의 즉각적인 사용감을 유지하면서, GC 없이 안전성·낮은 학습 곡선·고성능을 함께 노리는 v1.0 이전 단계의 언어임</li>\n<li>핵심은 <strong>mutable value semantics</strong>와 Rust식 drop 시스템으로, 사용자 코드에 참조나 lifetime 문법을 노출하지 않고 소유권·borro...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:12:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=31189",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "컴퓨터를 위한 속도 제한",
-    "content": "<ul>\n<li>개인용 컴퓨팅은 한때 계산 능력을 대중에게 나눠줬지만, 일정 지점 이후 <strong>컴퓨팅 파워 증가</strong>가 개인의 자율성보다 중앙집중적 통제와 더 강하게 연결되기 시작함</li>\n<li>Ivan Illich의 1973년 에세이 <strong>Energy and Equity</strong>는 1인당 에너지 사용이 임계값을 넘으면 형평성이 줄...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:09:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=31188",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Elm 0.19.2, 빌드 속도 개선",
-    "content": "<ul>\n<li>Elm 0.19.2는 Elm 1.0으로 가기 전 여러 <strong>소규모 릴리스</strong>로 컴파일러 개선을 반영하려는 흐름의 첫 단계임</li>\n<li>대규모 Elm 코드베이스에서 처음부터 컴파일은 <strong>5.7초</strong>, 이후 증분 빌드는 <strong>350ms 미만</strong>으로 측정돼 개발 중 집중 흐름을 끊을 가능성이 줄어듦...<p></p></li></ul>",
-    "createdAt": "2026-07-07T00:06:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=31187",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "What's new in ECMAScript 2026 (and usable today)",
     "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​793 — July 7, 2026</p></td>\n<td><p><a href=\"https://javascriptweekly.com/link/187564/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<table><tbody><tr><td></td></tr></tbody></table>\n    \n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><table><tbody><tr><td><p>JavaScript Weekly</p></td></tr></tbody></table>\n</code></pre>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/187516/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/uspa69xtit607rmfzdnq.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187516/rss\" title=\"voidzero.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Vite+ Beta: A Web Dev Toolchain Behind One Command</a></span> — Vite+ is the <a href=\"https://javascriptweekly.com/link/187517/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Vite</a> team’s ‘unified toolchain’ that brings Vite, Vitest, Oxlint, and similar tools together under a single <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vp</code> command, whether for running a dev server, tests, formatting, or&nbsp;bundling.</p>\n  <p>VoidZero </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 Vite+ was originally intended to be a commercial project to fund work on Vite and related projects, but was open sourced under the MIT license earlier this&nbsp;year.</p></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/187515/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/eb4e5347.png\"></a>\n  <p><span><a href=\"https://javascriptweekly.com/link/187515/rss\" title=\"www.meticulous.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Still Writing Tests Manually? Meticulous AI Is Here</a></span> — Notion, Dropbox, Wiz and LaunchDarkly now use a testing paradigm they can’t work without. Built by former Palantir engineers, Meticulous automatically creates an evolving suite of E2E UI tests, delivering exhaustive coverage with no developer&nbsp;effort.</p>\n  <p>Meticulous <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187518/rss\" title=\"pawelgrzybek.com\" target=\"_blank\" rel=\"noopener noreferrer\">What's New in ECMAScript 2026</a></span> — \nThe 876 page <a href=\"https://javascriptweekly.com/link/187519/rss\" target=\"_blank\" rel=\"noopener noreferrer\">ECMAScript 2026 spec</a> was approved last week, and this round-up covers several main new features that made the cut, from <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Array.fromAsync</code> to native <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Uint8Array</code> Base64/Hex conversion, with examples for each. All are already in browsers and runtimes (except <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Math.sumPrecise</code> in Node) so you can likely use them today.\n</p>\n  <p>Pawel Grzybek </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>🕹️ <a href=\"https://javascriptweekly.com/link/187520/rss\" target=\"_blank\" rel=\"noopener noreferrer\">js1024, the annual 1KB code-golf competition, is open for entries</a>. The theme is 'dreaming', and you've got 1,024 bytes to make something neat. Here's <a href=\"https://javascriptweekly.com/link/187521/rss\" target=\"_blank\" rel=\"noopener noreferrer\">last year's winner</a> to get a feel for the&nbsp;caliber.</p>\n</li>\n<li>\n<p>There's <a href=\"https://javascriptweekly.com/link/187522/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a TC39 proposal to standardize a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">code</code> property on <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Error</code></a> (long a de-facto Node convention). Its champion, James Snell, hopes to advance it at this month's&nbsp;plenary.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>RELEASES:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187523/rss\" target=\"_blank\" rel=\"noopener noreferrer\">vinext 1.0 Beta</a> – Cloudflare's Vite plugin reimplementing Next.js's API&nbsp;surface.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187524/rss\" target=\"_blank\" rel=\"noopener noreferrer\">webpack-dev-server 6.0</a> – The official webpack dev server with live reloading upgrades to Express 5 and native&nbsp;ESM.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187525/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Dependency Cruiser 18.0</a> – Tool to validate and graph project&nbsp;dependencies.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187526/rss\" target=\"_blank\" rel=\"noopener noreferrer\">npm 11.18.0</a>, <a href=\"https://javascriptweekly.com/link/187527/rss\" target=\"_blank\" rel=\"noopener noreferrer\">pnpm 11.10</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>📖&nbsp; Articles and Videos</p></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187528/rss\" title=\"htmx.org\" target=\"_blank\" rel=\"noopener noreferrer\">Working with AI: A Concrete Example</a></span> — The creator of <a href=\"https://javascriptweekly.com/link/187529/rss\" target=\"_blank\" rel=\"noopener noreferrer\">htmx</a> reflects on the role of AI in his work with a practical example of using Claude to investigate a bug report. He also touches on how AI fits in with being an ‘older developer’, a topic I rarely see brought&nbsp;up.</p>\n  <p>Carson Gross </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187530/rss\" title=\"medal.tv\" target=\"_blank\" rel=\"noopener noreferrer\">How Medal Cut Its Electron Frontend Bundle from 40MB to 2.7MB</a></span> — A gaming metaphor heavy tale of slashing an Electron app’s bundle from 40MB+ to 2.7MB using Vite, Rolldown, code splitting, and aggressive dead-code&nbsp;elimination.</p>\n  <p>Rick Zhang (Medal) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187531/rss\" title=\"www.miris.com\" target=\"_blank\" rel=\"noopener noreferrer\">Streaming Real-Time HDR Reflections to Every Device with Miris</a></span> — Miris built a WebXR car configurator that streams a 1.2GB asset in real-time with HDR reflections across any&nbsp;device.</p>\n  <p>Miris <span>sponsor</span></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://javascriptweekly.com/link/187532/rss\" target=\"_blank\" rel=\"noopener noreferrer\">A Guide to Hydration and Rendering Strategies</a> – SSR, streaming, islands, resumability, and RSC, compared. <cite>Neciu Dan</cite></p>\n<p>📄 <a href=\"https://javascriptweekly.com/link/187533/rss\" target=\"_blank\" rel=\"noopener noreferrer\">WebGL Without a GPU</a> – Useful tips for testing or taking screenshots of WebGL-rendered&nbsp;experiences. <cite>Kiko Beats</cite></p>\n<p>📄 <a href=\"https://javascriptweekly.com/link/187534/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding TypeScript's Distributive Conditional Types</a> <cite>Tejas Bubane</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp;Code &amp; Tools</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/187536/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/g8yrt7uc0jzjbppk5dzs.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187536/rss\" title=\"wordgard.net\" target=\"_blank\" rel=\"noopener noreferrer\">Wordgard: A New Rich Text Editor Library from ProseMirror's&nbsp;Creator</a></span> — With <a href=\"https://javascriptweekly.com/link/187537/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Eloquent JavaScript</a> and <a href=\"https://javascriptweekly.com/link/187538/rss\" target=\"_blank\" rel=\"noopener noreferrer\">ProseMirror</a> under his belt, not many people know more about JavaScript <em>and</em> making good editor controls than Marijn. Modular, supports collaborative editing, and thoughtfully built. <a href=\"https://javascriptweekly.com/link/187539/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Live demo</a> and <a href=\"https://javascriptweekly.com/link/187540/rss\" target=\"_blank\" rel=\"noopener noreferrer\">how to get&nbsp;started</a>.</p>\n  <p>Marijn Haverbeke </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187541/rss\" title=\"agentfield.ai\" target=\"_blank\" rel=\"noopener noreferrer\">The TypeScript-Native AI Backend for Autonomous Software</a></span> — Orchestrate agents as typed APIs — then spin up software factories that ship production-grade PRs. <a href=\"https://javascriptweekly.com/link/187541/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Open&nbsp;source</a>.</p>\n  <p>Agentfield.ai <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187563/rss\" title=\"astryx.atmeta.com\" target=\"_blank\" rel=\"noopener noreferrer\">Astryx: Meta Open Sources Its Design System</a></span> — \nA design system used by 13,000+ apps inside Meta is now open source with 150+ React components, theming options, dark mode, and CLI tooling.\n</p>\n  <p>Meta </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/187543/rss\" title=\"driverjs.com\" target=\"_blank\" rel=\"noopener noreferrer\">Driver.js v1.6: Present In-App Tours, Highlights, and Contextual Help</a></span> — A library for making on-page tours and contextual help systems. It’s been around for several years, but is well maintained with numerous demos on the&nbsp;homepage.</p>\n  <p>Kamran Ahmed </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><span>✉️</span>&nbsp;<a href=\"https://javascriptweekly.com/link/187544/rss\" title=\"upyo.org\" target=\"_blank\" rel=\"noopener noreferrer\">Upyo 0.5: A Cross-Runtime Email Sending Library</a></span> — A unified, type-safe API for sending emails both on SMTP and HTTP-based (e.g. SendGrid or Amazon SES) providers from Node, Deno, Bun, or edge function&nbsp;runtimes.</p>\n  <p>Hong Minhee </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://javascriptweekly.com/link/187545/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Things You No Longer Need JavaScript For</a> – A catalog of patterns modern HTML and CSS can now handle alone. <cite>Aaron T. Grogg</cite></p>\n<ul>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187546/rss\" target=\"_blank\" rel=\"noopener noreferrer\">ESLint Plugin Perfectionist 5.10</a> – For when you're <em>really</em> particular about how things like objects, imports, and types are ordered, whether alphabetically, by length, etc.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187547/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TinyBase 9.0</a> – Bug fix and stability release for the reactive data store and sync engine&nbsp;backend.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187548/rss\" target=\"_blank\" rel=\"noopener noreferrer\">wavesurfer.js 7.12.10</a> – Interactive waveform rendering for playing&nbsp;audio.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187549/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Google Maps 1.9</a> – Use a Google map as a reactive&nbsp;component.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n\t<p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>💛 This Sept, <a href=\"https://javascriptweekly.com/link/187550/rss\" target=\"_blank\" rel=\"noopener noreferrer\">ZurichJS Conf</a> brings world-class JS speakers, hands-on workshops and an exclusive VIP afterparty, nonprofit and affordable.</p>\n \n<p>Queries that run in milliseconds on petabytes of data. <a href=\"https://javascriptweekly.com/link/187551/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TimescaleDB extends Postgres to perform at massive&nbsp;scale</a>.</p>\n \n<p>🦊 Most PDF translators don't tell you which parts to trust. <a href=\"https://javascriptweekly.com/link/187552/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Here's how to build a pipeline</a> with confidence scoring baked&nbsp;in.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>📢&nbsp; Elsewhere in the ecosystem</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p>🤖 <a href=\"https://javascriptweekly.com/link/187553/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Safari has introduced an MCP server</a> in its latest preview release, providing agents with a way to connect to a Safari window and emulate the user experience while debugging.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187555/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/ui</code> has switched to Base UI as its default component library</a> (from Radix). Radix isn't going away, but <a href=\"https://javascriptweekly.com/link/187556/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Base UI</a> is recommended for new&nbsp;projects.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/187554/rss\" target=\"_blank\" rel=\"noopener noreferrer\">PocketJS</a> is a project that brings a JavaScript VM, Vue Vapor, and Solid UI into an 8MB memory budget, and can, curiously, run on the Sony PSP, as well as in WASM and natively on macOS.</p>\n</li>\n<li>\n<p>📈 <a href=\"https://javascriptweekly.com/link/187557/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Commit History</a> is an online tool that creates charts of a user's GitHub commits over time. A nice addition for your <a href=\"https://javascriptweekly.com/link/187558/rss\" target=\"_blank\" rel=\"noopener noreferrer\">profile README</a>, or check out <a href=\"https://javascriptweekly.com/link/187559/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Sindre Sorhus's chart</a> to see the legendary maintainer's consistency over the&nbsp;years.</p>\n</li>\n<li>\n<p>🎉 <a href=\"https://javascriptweekly.com/link/187560/rss\" target=\"_blank\" rel=\"noopener noreferrer\">PGlite</a>, a WebAssembly build of Postgres for use in JavaScript environments, <a href=\"https://javascriptweekly.com/link/187561/rss\" target=\"_blank\" rel=\"noopener noreferrer\">celebrates reaching 10 million weekly downloads</a> while explaining the use cases and how to get started with it&nbsp;yourself.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</div>\n  </td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://javascriptweekly.com/open/793/rss\">",
     "createdAt": "2026-07-07T00:00:00.000+00:00",
@@ -613,50 +668,6 @@
     "site": {
       "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "name": "Javascript Weekly"
-    }
-  },
-  {
-    "title": "코드 청결도는 코딩 에이전트에 영향을 미치는가? 통제된 최소쌍 연구",
-    "content": "<ul>\n<li>자율 <strong>코딩 에이전트</strong> 평가는 주로 고정된 코드베이스에서의 작업 성공률을 봐 왔지만, 이 연구는 코드 자체의 <strong>청결도</strong>가 탐색·수정 비용을 바꾸는지 분리해 측정함</li>\n<li>아키텍처, 의존성, 외부 동작은 같고 SonarQube 규칙 위반과 인지 복잡도만 다른 <strong>최소쌍 저장...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-06T22:35:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=31186",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "몇 분 만에 상처를 닫는 해파리, 과학자들이 주목하는 치유 비밀",
-    "content": "<ul>\n<li>_Clytia hemisphaerica_의 유영 단계인 <strong>메두사(medusa)</strong> 는 작은 상처를 몇 분 안에 닫고 큰 상처도 1시간 이내에 회복하며, 사람과 달리 흉터 조직을 만들지 않음</li>\n<li>투명한 몸과 빠른 회복 덕분에 살아 있는 개체 안에서 <strong>상피세포</strong>가 손상 조직을 다시 이어 붙이는 과...<p></p></li></ul>",
-    "createdAt": "2026-07-06T21:38:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=31185",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "비강 스프레이로 뇌 노화 역전 가능성",
-    "content": "<ul>\n<li>노화로 인한 <strong>뇌 염증과 기억력 저하</strong>를 침습적 시술 없이 겨냥하는 치료 접근이 Texas A&amp;M 연구에서 확인됨</li>\n<li>두 번의 <strong>비강 스프레이 투여</strong>만으로 뇌 염증이 줄고, 뇌세포의 에너지 생산 기능과 기억력이 개선된 것으로 나타남</li>\n<li>치료 물질은 세포외 소포체...<p></p></li></ul>",
-    "createdAt": "2026-07-06T21:35:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=31184",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Homegames, 8년간 만든 오픈소스 게임 플랫폼",
-    "content": "<ul>\n<li><strong>Homegames</strong>는 브라우저에서 게임을 플레이·제작·공유할 수 있는 무료 오픈소스 플랫폼이며, 플레이에는 계정이 필요 없음</li>\n<li>개발자는 브라우저 안의 <strong>코드 편집기</strong>와 라이브 미리보기로 게임 변경 사항을 바로 테스트할 수 있음</li>\n<li>Studio는 에셋 업로드뿐 아니라...<p></p></li></ul>",
-    "createdAt": "2026-07-06T18:32:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=31183",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -2087,17 +2098,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "[Korean FE Article] 에이전트 코딩에서 쌓이는 이해 부채",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!I1o_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!I1o_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 424w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 848w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!I1o_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!I1o_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 424w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 848w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!I1o_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e0b5f94-1de3-411d-b6dc-29d93c002a2b_1200x675.jpeg 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://velog.io/@typo/80-problem-in-agentic-coding\" target=\"_blank\" rel=\"noopener noreferrer\">https://velog.io/@typo/80-problem-in-agentic-coding</a></p></blockquote><h2>소개</h2><p>AI 에이전트가 코드의 대부분을 작성하는 시대, 개발자의 역할은 어떻게 바뀌고 있을까요? 이 글은 “생산성 향상” 그 이면에 숨은 이해 부채와 리뷰 병목, 그리고 “오케스트레이터”로 변해가는 엔지니어의 역할을 다룹니다. 최근 에이전트 코딩을 쓰면서 한 번쯤 느껴봤을 감각들을 꽤 현실적으로 잘 풀어낸 글이었는데요. 한 번씩 가볍게 읽어보시면 좋을 것 같습니다 🧑‍💻</p><h2>목차</h2><ul><li><p>실수의 형태가 바뀌었습니다</p></li><li><p>이해 부채 - 우리가 따로 세지 않는 숨은 비용</p></li><li><p>생산성 역설 - 더 많은 코드, 비슷한 처리량</p></li><li><p>8:2 비율이 통하는 경우</p></li><li><p>서로 다른 두 집단</p></li><li><p>명령형에서 선언형으로 - 진짜 레버리지</p></li><li><p>슬로파칼립스는 올 것인가</p></li><li><p>실제로 통하는 실전 패턴</p></li><li><p>불편한 진실 - 스킬 개발에 대하여</p></li><li><p>우리는 지금 어디에 서 있는가</p></li><li><p>회의론자에게(회의적인 건 맞다)</p></li></ul>",
-    "createdAt": "2026-05-15T01:02:17.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-8fa",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
