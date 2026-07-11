@@ -1,5 +1,181 @@
 [
   {
+    "title": "양극성 LISP 프로그래머",
+    "content": "<ul>\n<li>Lisp는 기술적으로 뛰어나지만 주류가 되지 못한 <strong>“뛰어난 실패작”</strong> 이다.</li>\n<li>저자는 그 이유를 언어 자체보다 Lisp에 끌린 사람들의 성향에서 찾는다.</li>\n<li>이들은 탁월한 지성과 독창성을 지녔지만, 지루한 마무리·협업·타협·지속성을 견디지 못하는 경향이 있다.</li>\n<li>Lisp...<p></p></li></ul>",
+    "createdAt": "2026-07-11T02:35:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=31319",
+    "author": "geesecross",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple, OpenAI를 상대로 소송 제기하며 전 직원들이 영업비밀을 훔쳤다고 주장",
+    "content": "<ul>\n<li>애플은 전 직원 2명과 OpenAI 및 Jony Ive의 io Products를 상대로 <strong>영업비밀 부정취득</strong>과 계약 위반 소송을 제기하며, OpenAI의 하드웨어 진출이 Apple 기밀에 기대고 있다고 주장</li>\n<li>소장에 따르면 OpenAI는 io Products 인수와 전 Apple 임원·엔지니어 채용을 통해 소비자 하드웨어 시...<p></p></li></ul>",
+    "createdAt": "2026-07-11T00:45:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31318",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "뉴욕시, 기만적 구독 관행 금지 예정",
+    "content": "<ul>\n<li>뉴욕시는 헬스장 멤버십·스트리밍 같은 반복 과금에서 소비자가 빠져나오기 어렵게 만드는 <strong>기만적 구독 관행</strong>을 금지하며, 미국 도시 중 첫 사례가 됨</li>\n<li><strong>10월 1일</strong>부터 간단한 해지 방법을 제공하지 않는 기업은 사용자 구독 1건당 <strong>525달러</strong>와 환급 수...<p></p></li></ul>",
+    "createdAt": "2026-07-11T00:42:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31317",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "QuadRF는 드론을 포착하고 벽 너머 WiFi를 볼 수 있음",
+    "content": "<ul>\n<li><strong>QuadRF</strong>는 Raspberry Pi 5와 피코초 수준 타이밍의 FPGA 보드를 결합한 휴대형 위상 배열 라디오로, 4.9~6GHz RF 환경을 빔포밍과 신호 처리로 시각화함</li>\n<li>공중으로 이동하는 <strong>WiFi 패킷</strong>은 물리적 접속 없이도 관찰 대상이 될 수 있어, RF 스트리밍·디코딩 데이터가 더...<p></p></li></ul>",
+    "createdAt": "2026-07-11T00:39:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31316",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "fenic - 사람과 에이전트를 위한 시맨틱 데이터프레임(Semantic DataFrames)",
+    "content": "<ul>\n<li><strong>PySpark/SQL 스타일 연산</strong>(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">select</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">filter</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">join</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">group_by</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">agg</code>)과 언어 모델을 호출하는 <strong>시맨틱 연산자</strong>를 하나의 쿼리 모델 안에서 함께 다루는 DataFrame 쿼리 엔진\n<ul>\n<li>문서/트랜스크립트/로그/e...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-07-11T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31315",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Cpp2Rust: C++를 안전한 Rust로 자동 번역",
+    "content": "<ul>\n<li><strong>Cpp2Rust</strong>는 clang AST 기반의 구문 주도 번역기로, C++ 입력을 자동으로 완전히 안전한 Rust 코드로 변환함</li>\n<li>번역 과정은 clang으로 C++ 파일을 파싱해 AST를 만들고, AST를 순회하며 Rust 코드를 문자열로 생성한 뒤 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rustfmt</code>로 단일 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.rs</code> 파일을 출력함</li></ul>",
+    "createdAt": "2026-07-11T00:01:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=31314",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 대한민국 제도 100개를 한장씩 체계도로 만들었습니다.",
+    "content": "<p>AI리터러시를 조금 다른 방향으로 고민해봤습니다.<br>\n일반인이 AI를 배우는 것이 아니라 AI를 통해서 다른 전문 영역의 리터러시를 높이는 것입니다.<br>\n저는 행정직 공무원이라 공공행정 영역에서 전문성, 암묵지가 막대하다는 것을 체감하고 있습니다.<br>\n우리나라 100개 제도의 법령을 사람이 읽고 그림...</p>",
+    "createdAt": "2026-07-10T23:47:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=31313",
+    "author": "hosungseo2026",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Bonnie Tyler, 75세로 사망",
+    "content": "<ul>\n<li>웨일스 출신 가수 <strong>Bonnie Tyler</strong>는 1980년대 히트곡 <strong>Total Eclipse of the Heart</strong>로 세계적 인지도를 얻었고, 50년에 걸친 음악 경력을 남긴 뒤 75세로 사망함</li>\n<li>본명 <strong>Gaynor Hopkins</strong>로 Neath의 공공주택에서 자랐으며, Swansea 클럽에서 탤런트 스카...<p></p></li></ul>",
+    "createdAt": "2026-07-10T23:33:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31312",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Meta, 맞춤형 CXL 브리지 칩으로 구형 RAM을 새 서버에서 재사용",
+    "content": "<ul>\n<li>Meta는 버려질 수 있는 <strong>DDR4 메모리</strong>를 새 DDR5 서버에 붙여, 일부 분리형 추론 워크로드에서 필요한 서버 수를 최대 <strong>25%</strong> 줄임</li>\n<li>서버 플릿의 약 <strong>40%는 메모리 증설이 불가능</strong>한 반면, 메모리는 서버보다 오래 쓸 수 있어 DIMM 재활용이 비용 절감 수...<p></p></li></ul>",
+    "createdAt": "2026-07-10T21:36:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=31311",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Lisp로 가는 길: 왜 Lisp인가",
+    "content": "<ul>\n<li>Lisp는 괄호 문법보다 <strong>언어를 문제에 맞게 확장</strong>하는 사고방식이 핵심이며, REPL·패키지·심볼·조건·재시작까지 익혀야 진가가 드러남</li>\n<li>코드와 데이터가 모두 리스트로 표현되는 <strong>동형성</strong> 덕분에, 매크로는 평가 전 코드를 데이터처럼 다뤄 새 제어 구조와 문법 추상화...<p></p></li></ul>",
+    "createdAt": "2026-07-10T21:33:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=31310",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2026년 12월 말 윤초 추가 없음",
+    "content": "<ul>\n<li>IERS Bulletin C 72에 따라 <strong>2026년 12월 말 UTC에는 윤초가 추가되지 않아</strong>, 시간 측정·배포 시스템은 별도 삽입 처리를 준비할 필요가 없음</li>\n<li>UTC와 TAI의 차이는 <strong>2017년 1월 1일 0시 UTC부터 추후 공지까지</strong> <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">UTC-TAI = -37 s</code>로 유지됨</li>\n<li>윤초 도...<p></p></li></ul>",
+    "createdAt": "2026-07-10T21:30:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=31309",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple Silicon 임원이 말한 Mac mini AI 수요와 온디바이스 미래",
+    "content": "<ul>\n<li>AI 에이전트를 장시간 돌릴 별도 장비 수요가 커지면서 <strong>Mac mini와 Mac Studio</strong>가 개발자용 데스크톱으로 주목받고 있음</li>\n<li>에이전트형 작업은 주 작업 머신과 분리되고 사용자가 직접 통제하며 <strong>24시간 7일 실행</strong>할 수 있는 시스템을 요구함</li>\n<li>Mac-first 또는 Ma...<p></p></li></ul>",
+    "createdAt": "2026-07-10T20:59:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=31308",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사람이 유지보수할 것처럼 코드를 작성하라",
+    "content": "<ul>\n<li>LLM이 코드를 계속 대신 써주더라도, 중복 조건문과 임시 구현을 그대로 병합하면 이후 생성 코드가 그 관행을 <strong>프로젝트 규칙</strong>처럼 따라갈 수 있음</li>\n<li>접근 권한 확인 로직을 route handler, background job, API endpoint, webhook 등에 반복해 넣으면 테스트는 통과해도 <strong>유지보...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-10T20:56:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=31307",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "좋은 도구는 보이지 않는다",
+    "content": "<ul>\n<li>좋은 도구는 사용자가 작업에 몰입하는 동안 <strong>배경으로 사라지는 도구</strong>이며, 도구 제작자의 목표도 도구 자체를 의식하지 않게 만드는 데 있음</li>\n<li>도구의 결함을 “재미있는 퍼즐”로 포장하면 <strong>영리해 보이는 느낌</strong>을 실제 생산성으로 착각하기 쉬움</li>\n<li>vim, emacs...<p></p></li></ul>",
+    "createdAt": "2026-07-10T20:54:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=31306",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "개발자들이 GitHub를 떠나 Codeberg와 셀프 호스팅 대안으로 옮기는 이유",
+    "content": "<ul>\n<li>GitHub는 2025년에 <strong>6억 개 이상 저장소</strong>와 거의 10억 건의 커밋을 기록한 대형 플랫폼이지만, 일부 오픈소스 프로젝트는 장애와 운영 방향에 대한 불신 때문에 다른 호스팅을 선택하고 있음</li>\n<li>Ghostty, Zig, Tenacity는 GitHub를 떠났거나 <strong>읽기 전용 미러</strong>만 남겼고, D...<p></p></li></ul>",
+    "createdAt": "2026-07-10T20:34:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=31305",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Rust 1.97.0 발표",
+    "content": "<ul>\n<li>Rust 1.97.0 stable 릴리스는 컴파일 산출물의 심볼 생성 방식과 빌드 경고 처리 흐름을 바꾸며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rustup update stable</code>로 업데이트할 수 있음</li>\n<li><strong>symbol mangling v0</strong>가 stable 기본값이 되어 Rust 전용 심볼 이름 체계로 전환되고, 기존 Itanium ABI 기반 방식은 제거 방향...<p></p></li></ul>",
+    "createdAt": "2026-07-10T20:01:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31303",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "유리 같은 중추: 다음 전쟁에서 미 육군 군수가 무너질 수 있는 이유",
     "content": "<ul>\n<li>미 육군 군수 체계는 지난 20년간 <strong>위협이 적은 보급선</strong>, 계약업체 지원, 고정 전방기지에 맞춰 효율화됐지만, 대규모 전투에서는 공격을 견디며 보급을 지속하는 능력이 전투력의 핵심이 됨</li>\n<li>1941년 <strong>Operation Barbarossa</strong>, 1991년 Desert Storm, 2003년 Iraqi Freedo...<p></p></li></ul>",
     "createdAt": "2026-07-10T17:34:53.000+00:00",
@@ -55,8 +231,8 @@
     }
   },
   {
-    "title": "Show HN: 느린 컴퓨터에서 GLM 5.2 실행하기",
-    "content": "<ul>\n<li>colibrì는 <strong>GLM-5.2 744B MoE</strong>를 소비자용 머신의 약 25GB RAM에서 실행하도록 만든 순수 C 엔진이며, 라우팅된 expert를 디스크에서 스트리밍해 GPU 없이 동작함</li>\n<li>핵심 구조는 dense 부분 약 17B 파라미터를 <strong>int4로 RAM에 상주시켜 9.9GB</strong>를 쓰고, 21,504개 라우팅 ex...<p></p></li></ul>",
+    "title": "colibrì - 느린 컴퓨터에서 GLM 5.2 실행하기",
+    "content": "<ul>\n<li><strong>GLM-5.2 744B MoE</strong>를 소비자용 머신의 약 25GB RAM에서 실행하도록 만든 순수 C 엔진이며, 라우팅된 expert를 디스크에서 스트리밍해 <strong>GPU 없이 동작</strong>함</li>\n<li>핵심 구조는 dense 부분 약 17B 파라미터를 <strong>int4로 RAM에 상주시켜 9.9GB</strong>를 쓰고, 21,504개 라...<p></p></li></ul>",
     "createdAt": "2026-07-10T05:39:25.000+00:00",
     "link": "https://news.hada.io/topic?id=31297",
     "author": "neo",
@@ -462,105 +638,6 @@
     }
   },
   {
-    "title": "Bun을 Rust로 다시 작성하기",
-    "content": "<ul>\n<li>Zig로 시작한 Bun은 월 <strong>2,200만 회 이상 다운로드</strong>되는 런타임으로 커졌지만, GC 기반 JavaScript 엔진과 수동 메모리 관리가 맞물리며 반복된 안정성 문제를 Rust 전환의 계기로 삼음</li>\n<li>535,496줄의 Zig 코드를 사람이 1년간 옮기는 대신, Claude Code의 <strong>동적 워크플로우</strong></li></ul>",
-    "createdAt": "2026-07-09T04:05:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=31263",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "디지털 시대의 돈 — 화폐 진화와 디지털 화폐의 제도적 선택",
-    "content": "<h3>요약 개요</h3>\n<ul>\n<li>이 글은 화폐를 단순한 교환 수단이 아니라 <strong>상품성, 신용, 국가 권력, 제도적 신뢰가 결합된 사회적 시스템</strong>으로 분석한다.</li>\n<li>화폐사는 “누가 돈을 발행하는가”, “누가 그 가치를 보장하는가”, “위기 때 누가 책임지는가”라는 질문을 중심으로 전개된다.</li>...<p></p></ul>",
-    "createdAt": "2026-07-09T04:04:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=31262",
-    "author": "baeba",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 소셜 아카이버(업데이트) - 소셜 플랫폼의 글들도 깔끔하게 읽게 해드립니다",
-    "content": "<p>소셜 아카이버는 원래 소셜 미디어 플랫폼들의 글들을 중심으로 아카이빙을 도와드리는 서비스입니다. 아마도 하단에 관련 글에 자연스럽게, 이전 글들이 레퍼런스로 나올 것 같은데 관련 글들에서 확인하실 수 있을 것 같고요.</p>\n<p>이번 업데이트 소식은 크롬 익스텐션의 리더 모드입니다. 요즘 소셜 미디어 특징</p>",
-    "createdAt": "2026-07-09T02:31:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=31260",
-    "author": "hyungyunlim",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Lucene search core 기여 팀이 만든 Local-first AI Memory Workspace, Maek",
-    "content": "<p>안녕하세요. 검색과 AI Memory Infrastructure를 개발하는 팀 cognica입니다.</p>\n<p>팀 소개를 간단히 드리면, cognica에서 제시한 BB25(Bayesian BM25) 기반 확률적 하이브리드 검색(probabilistic hybrid search) 작업이 최근 Apache Lucene 10.5.0 코어에 공식 포함(BayesianScoreQuery, LogOddsFusionQuery)되었</p>",
-    "createdAt": "2026-07-09T02:26:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31259",
-    "author": "timcognica",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Grok 4.5 공개",
-    "content": "<ul>\n<li>SpaceXAI가 <strong>코딩·에이전트형 작업·지식 업무</strong>를 겨냥한 자사 최상위 모델 Grok 4.5를 출시</li>\n<li>학습 과정은 수만 개 <strong>NVIDIA GB300 GPU</strong>와 데이터 중복 제거·품질 점수화·도메인 중심 선택에 초점을 맞춰, 단순 토큰 규모보다 신호 품질을 강조함</li>\n<li>벤치마크에서는...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:58:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=31256",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GitLost: GitHub AI 에이전트를 속여 비공개 저장소 유출",
-    "content": "<ul>\n<li>Noma Labs는 GitHub Agentic Workflows에서 <strong>간접 프롬프트 인젝션</strong> 취약점 GitLost를 발견했으며, 공개 저장소 이슈만으로 같은 조직의 비공개 저장소 데이터를 공개 댓글에 노출시킬 수 있었음</li>\n<li>이 기능은 Markdown 워크플로를 YAML Actions 파일로 컴파일하고, Claude 또는 GitHub C...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:55:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=31255",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, GPT‑Live 공개",
-    "content": "<ul>\n<li>ChatGPT Voice를 더 자연스러운 실시간 대화에 가깝게 만들기 위해 <strong>GPT‑Live‑1</strong>과 <strong>GPT‑Live‑1 mini</strong>를 공개</li>\n<li><strong>풀듀플렉스 구조</strong>로 듣기와 말하기를 동시에 처리해 짧은 맞장구, 빠른 주고받기, 사용자가 생각할 때 기다리는 동작을 지원</li>\n<li>...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:52:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=31254",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Chatto, 이제 오픈소스로 공개되어 셀프 호스팅 가능",
-    "content": "<ul>\n<li><strong>Chatto</strong>는 그룹·팀 채팅용 앱으로, Slack·Teams·Discord 같은 그룹 채팅 앱과 비슷하지만 <strong>더 컴팩트하고 빠른 사용감</strong>을 목표로 함</li>\n<li>실행 파일만으로 서버를 띄우고 자체 프론트엔드까지 제공해, 개인 인프라에 비교적 <strong>간단히 배포</strong>할 수 있음</li>\n...<p></p></ul>",
-    "createdAt": "2026-07-09T00:49:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=31253",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Uniqlo 티셔츠의 난독화된 bash 스크립트 해독하기",
-    "content": "<ul>\n<li>Uniqlo 매장에서 팔린 Akamai 디자인 티셔츠에는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">base64 --decode</code> 결과를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">eval</code>로 실행하는 <strong>난독화된 bash 코드</strong>가 인쇄돼 있었지만, 실제로는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Peace for All</code> 캠페인용 이스터에그였음</li>\n<li>Base64로 인코딩된 Here string을 풀면 터미널에서 </li></ul>",
-    "createdAt": "2026-07-09T00:46:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=31252",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "[Korean FE Article] 취향은 새로운 해자(Moat)이며, 어떤 스타트업이 살아남을지는 디자인이 결정합니다",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!teLF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!teLF!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!teLF!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!teLF!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!teLF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff83dfde-361c-4317-bdd3-2ab38033445c_1536x1024.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크 : <a href=\"https://velog.io/@sehyunny/why-taste-is-the-new-moast\" target=\"_blank\" rel=\"noopener noreferrer\">https://velog.io/@sehyunny/why-taste-is-the-new-moast</a></p></blockquote><h2><strong>소개</strong></h2><p><strong>해자(moat)</strong>라는 말을 들어보셨나요? 원래는 적의 침입을 막으려고 성 둘레에 깊게 파놓은 도랑을 뜻하는 말인데요, 요즘은 <strong>경쟁사가 쉽게 따라올 수 없는 진입장벽이나 경쟁 우위</strong>를 비유할 때 많이 쓰입니다. 워렌 버핏이 좋은 기업을 고르는 기준으로 이 표현을 즐겨 쓰면서 비즈니스 용어로 널리 퍼졌다고 하죠.</p><p>이 글은 AI로 코드와 앱 생산이 무한하고 저렴해진 지금, 전통적인 해자(속도, 자본, 기술력)는 힘을 잃었고 대신 무엇을 만들지 않을지 판단하는 ‘취향(taste)’이 유일한 해자가 되었다고 주장합니다.</p><p>취향이 스펙보다 중요해지는 시대, 이 의견에 공감하시나요? 이 글을 읽어보시면서 한 번쯤 곰곰이 생각해보시면 좋을 것 같습니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>Q1. 저자는 AI 시대에 더 많이, 더 빠르게 만드는 건 더 이상 의미가 없고, 오히려 ‘뭘 빼고 뭘 남길지’ 판단하는 <strong>취향</strong>이 진정한 경쟁 요소라고 주장합니다. 개발자 입장에서 이 주장에 공감 가실까요? 아니면 현실에서는 좀 다르다고 느끼시나요?</p></blockquote><p><strong>💬. 의견 1</strong></p><p>매우 공감합니다. 근데 이게 AI 때문에 갑자기 생긴 흐름은 아니라고 생각해요. 예전에  2024 트렌드 노트를 볼 때도 개인화·취향 소비 얘기가 나왔던 게 기억나는데, 그 흐름이 원래 있었고 AI가 기폭제 역할을 한 것 같습니다. 그래서 지금은 취향 없는 상품은 선택을 받기 힘든 시대가 된 것 같습니다.</p><p><strong>💬. 의견 2</strong></p><p>저도 기능 추가보다 뭘 뺄지 고민하는 게 더 중요하다고 생각해서 공감이 되는 것 같아요. 있으면 좋은 비타민 같은 제품 말고, 꼭 필요한 진통제💊 같은 제품을 만들려면 불필요한 걸 걷어내고 문제를 명확하게 정의하는 게 중요한 것 같습니다.</p><p></p><blockquote><p>Q2. 혹시 개발 하시면서 기술적인 고도화 외에도 <strong>취향</strong>을 기반으로 한 느낌이나 디테일 쪽에 시간 더 쏟은 적 있으신지, 있다면 그게 결과적으로 어떠한 차이를 만들었는지 궁금합니다!</p></blockquote><p><strong>💬. 의견 1</strong></p><p>아쉽게도 외부 사용자 취향이나 디테일에 집중해서 만들어본 경험은 아직 부족한 것 같아요. 대신 요즘엔 \"내가 쓰기 편한 것, 내가 보고 싶은 정보\"를 중심에 두고 기능을 만들어보려고 하는데, 개발자 본인이 사용자가 돼서 자기 취향을 서비스에 반영해보는 것도 결국 비슷한 경험이 아닐까 싶습니다~~</p><p><strong>💬. 의견 2</strong></p><p>평소에 특정 도메인만 계속 개발하다 보니 제품이 사용자한테 일관된 느낌을 주는지 잘 못 느낄 때가 있더라고요. 각 팀이 기능을 계속 추가하다 보면 시간 지나면서 느낌이 달라지기도 하고요. 그래서 그런 걸 점검하는 느낌으로 매주 한두 번씩 제품 기능을 다 한번씩 써보고, 이질감 느껴지면 팀에 공유해서 개선했던 경험이 있어요. 지표로 확인은 못 했지만 사용자한테는 좋은 경험이 되지 않았을까 생각했습니다!</p><h2><strong>목차</strong></h2><ol><li><p>희소성의 붕괴: 소프트웨어가 저렴해질 때</p></li><li><p>취향의 정의: 창업자의 숨겨진 초능력</p></li><li><p>신뢰 인프라로서의 디자인</p></li><li><p>미적 해자: 느낌이 기능이 될 때</p></li><li><p>취향 경제의 부상</p></li><li><p>편집자로서의 창업자: 절제로 이끌기</p></li><li><p>속도 대신 신뢰를 위한 디자인</p></li><li><p>다음 해자는 의미입니다</p></li></ol>",
     "createdAt": "2026-07-09T00:31:16.000+00:00",
@@ -569,83 +646,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "Weave Router - 프롬프트마다 최적의 모델로 라우팅하는 에이전트용 모델 라우터",
-    "content": "<ul>\n<li>Anthropic, OpenAI, Gemini를 <strong>단일 엔드포인트</strong>로 묶는 드롭인 프록시. 요청마다 최적 모델을 자동 선택</li>\n<li>모든 프롬프트를 <strong>50ms</strong> 이내에 올바른 모델로 라우팅하며, 엔드포인트 변경만으로 <strong>비용 40-70% 절감</strong> 가능</li>\n<li>프롬프트를 감(vibes)이 아...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:31:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31251",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "왼손잡이 사용자에게만 영향을 준 WordPress 버그",
-    "content": "<ul>\n<li>모바일에서 스크롤 중 <strong>댓글 답글 상자</strong>가 갑자기 열리는 문제가 있었고, 오른손 엄지로 스크롤하던 사이트 운영자는 재현하지 못했음</li>\n<li>원인은 페이지 왼쪽의 <strong>reply 링크</strong>와 WordPress의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">touchstart</code> 처리였으며, 왼손 엄지 스크롤이 의도치 않은 링크 터치...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:16:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=31250",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "TypeScript 7.0 발표",
-    "content": "<ul>\n<li>TypeScript 7.0은 도구체인을 Go 기반 네이티브 코드로 이식한 릴리스로, 대형 프로젝트의 전체 빌드에서 보통 <strong>8~12배 속도 향상</strong>을 제공함</li>\n<li>새 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tsc</code>는 기존처럼 npm의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">typescript</code> 패키지로 설치하며, 편집기 지원은 <strong>LSP 기반 언어 서버</strong>로 ...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:13:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=31249",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내가 좋아하는 소프트웨어 엔지니어링 인터뷰 질문: 중앙값 계산",
-    "content": "<ul>\n<li>기술 인터뷰의 작은 구현 문제는 퍼즐보다 효과적일 수 있으며, <strong>중앙값 계산</strong>은 기본 코딩 능력과 설계 감각을 함께 드러냄</li>\n<li>정렬이 필요한 문제라서 함수가 직접 정렬할지, 호출자가 정렬할지, 원본 배열을 <strong>변경해도 되는지</strong> 같은 API 논의로 자연스럽게 이어짐</li>...<p></p></ul>",
-    "createdAt": "2026-07-09T00:10:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=31248",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "TrueType QR Code 폰트 - 폰트만으로 QR코드 만들기",
-    "content": "<ul>\n<li><strong>대괄호로 감싼 텍스트</strong>를 QR 코드로 바꾸는 TrueType/OpenType 폰트로, 이미지 생성 없이 문서 안에 QR 코드를 넣을 수 있음</li>\n<li>변환은 폰트 내부의 <strong>OpenType 규칙</strong>이 처리하며, 대괄호 밖 텍스트는 일반 라틴 텍스트로 그대로 표시됨</li>\n<li>QR 코드 블록도 텍스트로...<p></p></li></ul>",
-    "createdAt": "2026-07-09T00:07:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=31247",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SICP 비디오 강의(1986)",
-    "content": "<ul>\n<li>MIT 6.001 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Structure and Interpretation of Computer Programs</code>의 전체 흐름을 <strong>20개 비디오 강의</strong>로 따라갈 수 있어, SICP를 체계적으로 복습하기 좋은 자료임</li>\n<li>강의는 <strong>1986년 7월</strong> Hewlett-Packard 직원 대상으로 진행됐고, Hewlett-Packard Television...<p></p></li></ul>",
-    "createdAt": "2026-07-08T21:33:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=31246",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "중국, 3억2500만 달러 뇌물 수수 공무원에 사형 선고",
-    "content": "<ul>\n<li>중국 동부 법원이 난징시 전직 공무원 <strong>Yang Youlin</strong>에게 30년간 22억 위안, 약 <strong>3억2500만 달러</strong>의 뇌물을 받은 혐의로 사형을 선고함</li>\n<li>Yang은 1993년부터 2023년까지 난징시 여러 직책을 맡으며 공사 계약, 토지 이전, 자금 조달을 돕는 대가로 <strong>금전과 귀중품...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-08T20:33:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=31245",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
