@@ -1,5 +1,93 @@
 [
   {
+    "title": "내 세그멘테이션 오류는 어디로 사라졌나?",
+    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">entr</code>로 C 프로그램을 반복 컴파일·실행하자 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">hello</code>가 비정상 종료됐지만, 컴파일 출력 뒤에 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Segmentation fault</code> 메시지가 나타나지 않음</strong></li>\n<li>이 메시지는 충돌한 프로그램이 아니라, 자식 프로세스를 회수하며 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">SIGSEGV</code> 종료를 확인한...<p></p></li></ul>",
+    "createdAt": "2026-07-12T19:01:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=31359",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "UPI 결제 한 건이 처리되는 과정",
+    "content": "<ul>\n<li>QR 스캔부터 완료 알림까지 불과 2~3초지만, 뒤에서는 앱·스폰서 은행·NPCI 중앙 스위치·송금 및 수취 은행이라는 <strong>서로 분리된 주체</strong>가 요청과 응답을 릴레이함</li>\n<li>PhonePe나 Google Pay 같은 앱은 결제 의도만 수집하고 돈이나 PIN을 직접 다루지 않으며, <strong>PSP 스폰서 은행</strong></li></ul>",
+    "createdAt": "2026-07-12T18:41:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31358",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "의사들은 어떻게 죽는가: 우리와 같지 않지만, 우리도 그래야 한다 (2016)",
+    "content": "<ul>\n<li>의사들은 현대 의학의 한계와 말기 치료가 가져올 결과를 잘 알기 때문에, 자신의 임종에서는 가능한 모든 처치보다 <strong>고통을 줄이고 존엄을 지키는 선택</strong>을 하는 경우가 많음</li>\n<li>회복 가능성이 희박한 환자에게 수술·튜브·기계·약물을 동원하는 <strong>무익한 치료</strong>는 중환자실...<p></p></li></ul>",
+    "createdAt": "2026-07-12T18:38:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31357",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PgBouncer 처리량을 4배로 확장한 방법",
+    "content": "<ul>\n<li>ClickHouse Managed Postgres는 단일 스레드인 PgBouncer가 CPU 코어 하나에 묶이는 한계를 피하기 위해, 코어 수에 비례한 <strong>다중 프로세스 플릿</strong>을 기본 구성으로 운영함</li>\n<li>모든 프로세스가 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">so_reuseport</code>로 같은 포트에 바인딩되고 커널이 새 연결을 분산하므로, 클라이언...<p></p></li></ul>",
+    "createdAt": "2026-07-12T17:33:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31356",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "마담 Semver가 지금 당신을 기다립니다",
+    "content": "<ul>\n<li>점술가 <strong>Madame Semver</strong>는 저장소 아카이브를 고민하는 오픈소스 관리자에게 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">^1.0.0</code> 카드를 내밀고, 아카이브하지 않은 대가로 겪을 미래를 펼쳐 보임</li>\n<li>테스트를 통과한 잘못된 PR부터 라이브러리를 오해한 이슈, 유사 이름 패키지, 실제 취약점 하나가 섞인 <strong>보안...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-12T17:01:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=31355",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "달팽이 이빨, 거미줄을 제치고 자연계에서 가장 강한 물질로 확인(2015)",
+    "content": "<ul>\n<li>영국 연구진이 삿갓조개류 해양 달팽이의 이빨을 시험한 결과, <strong>인장 강도</strong>가 대부분의 거미줄보다 평균 약 5배 높아 측정된 자연 물질 가운데 가장 강했음</li>\n<li>이빨은 철을 함유한 결정인 <strong>침철석(goethite) 나노섬유</strong>를 단백질 기질이 감싸는 복합 구조로 이루어짐</li>\n...<p></p></ul>",
+    "createdAt": "2026-07-12T15:39:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=31354",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "현대식 인테리어가 뇌의 시각 처리에 부담을 줄 수 있음",
+    "content": "<ul>\n<li>줄무늬 바닥, 반복적인 기하학 무늬, 강한 대비, 깜빡이는 LED는 시각 피질의 활동과 산소 요구량을 높여 <strong>두통·눈의 피로·메스꺼움</strong>을 유발할 수 있음</li>\n<li>자연 풍경과 달리 인공 패턴은 세부 단계에 따른 시각적 복잡성의 규칙에서 벗어나며, 뇌가 이를 비효율적으로 처리해 <strong>대사...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-12T15:36:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=31353",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Repo-rter - 깃허브 레포지토리 통계를 영구 저장하고 쉽게 볼 수 있는 로컬 데스크탑 크로스 플랫폼 앱",
+    "content": "<h2>소개</h2>\n<ul>\n<li>깃허브가 기본 제공하는 Insights(트래픽, 클론 등) 데이터가 14일만 지나면 삭제되는 문제를 해결하기 위해 개발된 무료 오픈소스 데스크탑 앱입니다.</li>\n<li>API를 통해 데이터를 가져와 사용자의 로컬 머신에 캐싱함으로써, 영구적으로 트래픽 기록을 보존하고 조회할 수 있습니다.</li>\n...<p></p></ul>",
+    "createdAt": "2026-07-12T14:50:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=31352",
+    "author": "woojinim64",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Mesh LLM - iroh 기반 분산 AI 컴퓨팅",
     "content": "<ul>\n<li>여러 머신에 흩어진 GPU와 메모리를 <strong>하나의 컴퓨팅 자원</strong>으로 묶어, 로컬 실행·피어 전달·분할 실행을 OpenAI 호환 API 하나로 제공함</li>\n<li>요청은 로컬 GPU나 모델을 적재한 피어에서 처리되며, 한 머신에 들어가지 않는 모델은 여러 노드에 <strong>파이프라인 단계</strong>로 나눠 실행...<p></p></li></ul>",
     "createdAt": "2026-07-12T12:33:54.000+00:00",
@@ -484,17 +572,6 @@
     }
   },
   {
-    "title": "유리 같은 중추: 다음 전쟁에서 미 육군 군수가 무너질 수 있는 이유",
-    "content": "<ul>\n<li>미 육군 군수 체계는 지난 20년간 <strong>위협이 적은 보급선</strong>, 계약업체 지원, 고정 전방기지에 맞춰 효율화됐지만, 대규모 전투에서는 공격을 견디며 보급을 지속하는 능력이 전투력의 핵심이 됨</li>\n<li>1941년 <strong>Operation Barbarossa</strong>, 1991년 Desert Storm, 2003년 Iraqi Freedo...<p></p></li></ul>",
-    "createdAt": "2026-07-10T17:34:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=31302",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 7",
     "content": "<p><span>Our 7th cohort of </span>Becoming an AI Engineer<em><strong> </strong></em><strong><span>starts tomorrow, Saturday, July 11</span></strong><span>. This is a live, cohort-based course created in collaboration with </span><strong>best-selling author</strong><span> Ali Aminian and published by ByteByteGo.</span></p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/ai_engineer_c7_substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out here</span></a></p><div><figure><a href=\"https://go.bytebytego.com/ai_engineer_c7_substack\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!cnwp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 424w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 848w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 1272w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!cnwp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!cnwp!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 424w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 848w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 1272w, https://substackcdn.com/image/fetch/$s_!cnwp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb4096b9-580b-41ca-9d43-65090c3f0fa4_2360x2920.png 1456w\"></picture><div><div><button><svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Here’s what makes this cohort special:</p><ul><li><p>Learn by doing: Build real world AI applications, not just by watching videos.</p></li><li><p>Structured, systematic learning path: Follow a carefully designed curriculum that takes you step by step, from fundamentals to advanced topics.</p></li><li><p>Live feedback and mentorship: Get direct feedback from instructors and peers.</p></li><li><p>Community driven: Learning alone is hard. Learning with a community is easy!</p></li></ul><p>We are focused on skill building, not just theory or passive learning. Our goal is for every participant to walk away with a strong foundation for building AI systems.</p><p>If you want to start learning AI from scratch, this is the perfect platform for you to begin.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/ai_engineer_c7_substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out here</span></a></p>",
     "createdAt": "2026-07-10T15:32:04.000+00:00",
@@ -506,17 +583,6 @@
     }
   },
   {
-    "title": "나는 Stanley Lieber를 죽이지 않았다: 9front로 그리는 법",
-    "content": "<ul>\n<li>9front에서 그림을 그리는 전체 흐름을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">paint(1)</code> 중심으로 정리하며, <strong>입력 장치 선택</strong>부터 캔버스 관리, 이미지 조작, 내보내기까지 연결함</li>\n<li>작업은 9front 내부 <strong>image(6)</strong> 형식에서 진행하고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">paint(1)</code>로 그린 뒤 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">page(1)</code>, ...<p></p></li></ul>",
-    "createdAt": "2026-07-10T14:03:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=31301",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
     "content": "<p>When a branding project fails, it usually happens long before the logo stage: in the strategy phase, when words like “modern,” “trustworthy,” “premium,” “friendly,” and “disruptive” are left undefined. The result is a gap between what the brand is supposed to communicate and what the designer is expected to create. This is the space I like to call the <strong>“pre-concept” phase</strong>.</p>\n<p>At the beginning of a project, designers usually receive many inputs: a brief, a few stakeholder conversations, competitor references, maybe a moodboard or a list of adjectives. From there, they are expected to create visual concepts that feel right. But “right” is difficult to judge when the team has not agreed on what the brand is supposed to communicate in the first place.</p>\n<p>As an example, a health tech company we worked with said they wanted to look modern, trustworthy, and disruptive. At first, “disruptive” sounded like a push toward something bold and unconventional. But as we talked, it became clear that disruption, for them, still had to feel credible inside a conservative healthcare environment. Their clients were large government medical institutions. A brand that felt too rebellious, experimental, or visually loud would not create the right kind of trust.</p>\n<p>In other words, their version of “disruptive” looked more traditional than the word suggested.</p>\n<p>The problem was not that the client used the wrong language. The problem was that the language was too broad to guide design decisions. Before a designer can turn strategy into a visual concept, those words need to become more specific. What kind of modern? Trustworthy in what way? Disruptive compared to whom? And how far can the brand move away from category expectations before it starts to feel wrong for its audience?</p>\n<p>This article is about that pre-concept phase: the work that happens after the kickoff but before the first visual direction. While the broader <a href=\"https://www.smashingmagazine.com/2023/11/crafting-killer-brand-identity-digital-product/\" target=\"_blank\" rel=\"noopener noreferrer\">brand identity process for digital products</a> includes strategy, concepts, implementation, and the assets a product team needs to build consistently, this article focuses on the earlier work that makes the first concept possible: researching the brand context, uncovering hidden assumptions with stakeholders, and <strong>turning shared direction into a visual foundation</strong>. Rather, a practical bridge between what the brand needs to mean and how it might begin to look.</p>\n<p>The first place to build that bridge is the brand workshop, where broad discovery needs to become a clearer understanding of the brand context.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/1-pre-concept-reference-board-brand-identity.png\"></p>\nStage 1: Research The Brand Context\n<p>A brand workshop will naturally cover the standard discovery topics: the business, its goals, the product or service, the competitive landscape, and the target audience. This article will not try to list every question a designer should ask in that workshop. For readers who want a broader starting point, we prepared <a href=\"https://www.figma.com/board/eFYGzJenbwLH9goz9cmVIt/Brand-Workshop-Toolkit--Questions-And-Exercises?node-id=0-1&amp;t=aJvGUUN8TzRumgkh-1\" target=\"_blank\" rel=\"noopener noreferrer\">a Brand Workshop Toolkit: Questions and Exercises</a>, a FigJam framework we use in our studio to structure discovery conversations.</p>\n<p>Here, I want to focus on a smaller set of questions that are easy to skip but extremely useful before visual work begins. These questions are less about collecting facts and more about clarifying perception. They help the team understand what the brand needs to make people believe, where it needs to feel credible, and which category assumptions it should follow or challenge.</p>\n<p><strong>Perception</strong> sits at the center of brand discovery because the brand is shaped in someone else’s mind.</p>\n<blockquote>“A brand is a person’s gut feeling about a product, service, or company.”<br><br>— Marty Neumeier, <a href=\"https://www.martyneumeier.com/the-brand-gap\" target=\"_blank\" rel=\"noopener noreferrer\">The Brand Gap</a></blockquote>\n\n<p>If the brand ultimately lives in someone else's perception, the workshop has to clarify what perception the team is trying to create.</p>\n<p>The perception questions I focus on are:</p>\n<ul>\n<li>What should people believe about the company after seeing the brand for the first time?</li>\n<li>What would make the brand feel credible in this category?</li>\n<li>If the brand were a person in the room, how would they speak?</li>\n<li>What do customers currently misunderstand about the company, product, or category?</li>\n<li>Where does the brand need to fit the category, and where does it need to break from it?</li>\n</ul>\n<p>These questions help reveal the assumptions behind people’s opinions, instead of simply adding more opinions to the room. The <strong>questions matter</strong> because brand attributes often sound aligned before they are actually understood. A stakeholder may say the brand should feel “premium,” and everyone may nod. But one person may mean refined and editorial. Another may mean expensive and exclusive. Another may mean clean, quiet, and minimal. The word sounds shared, but it can lead to three completely different visual systems.</p>\n<p>For instance, in the health tech project mentioned earlier, the client described the desired brand as “disruptive.” In many categories, that might suggest something bold, loud, or unconventional. But their audience was large government medical institutions, so disruption had to be expressed through clarity, efficiency, and confidence rather than rebellion. If we had taken the word at face value, the visual direction could easily have moved too far from what their audience would trust.</p>\n<p>In another project, a fintech team wanted the brand to feel “bold” without losing credibility. That word created useful tension. The word bold could mean bright colors, oversized typography, and a highly expressive system. But in a financial category, it also had to carry signals of security, control, and competence. The question was not whether the brand should be bold, but what kind of boldness would still feel trustworthy.</p>\n<p>When the team can define what these attributes mean in <strong>context</strong>, the designer is no longer working from broad adjectives. They are working from a clearer design problem.</p>\nStage 2: Reveal Hidden Assumptions With Stakeholders\n<p>Strategically selected questions can uncover part of the verbal layer, but words alone are rarely enough. To move from language into visual direction, it helps to incorporate exercises that make stakeholders think through images, associations, and relative perception.</p>\n<p>Jake Knapp makes a similar point in GV’s <a href=\"https://medium.com/gv-library/the-three-hour-brand-sprint-3ccabf4b768a\" target=\"_blank\" rel=\"noopener noreferrer\">Three-Hour Brand Sprint</a>:</p>\n<blockquote>“The point of these exercises is to make the abstract idea of “our brand” into something concrete.”<br><br>— Jake Knapp</blockquote>\n\n<p>The following two exercises help translate what stakeholders say about the brand into material that can later inform look and feel, design principles, and concept development.</p>\n<p>This is also where stakeholder participation becomes important. When clients only receive a strategy presentation, they can stay passive. They may agree in the meeting without noticing the assumptions they are bringing into the process. But when they have to place a competitor on a map, choose an image, or explain why a certain reference feels credible, they become active participants. Their attitudes, beliefs, and disagreements become visible before they have a chance to derail the first concept review.</p>\n<p>I usually start by looking outward at the <strong>category</strong>, then inward at the brand itself.</p>\n<h3>Exercise 1: Competitor Perception Mapping</h3>\n<p>Before the workshop, collect screenshots of competitor brands, websites, product interfaces, social visuals, or other visible brand touchpoints. During the workshop, ask the client team to place those competitors on a simple two-axis map.</p>\n<p>This exercise is not about deciding which competitors have “good” or “bad” design. It is about understanding <strong>how the client reads the category</strong>: what feels credible, what feels generic, what feels too conservative, what feels too experimental, and where there may be an open visual territory for the brand.</p>\n<p>The axes should be chosen based on the tension the brand needs to solve. For example:</p>\n<ul>\n<li>Traditional to progressive.</li>\n<li>Corporate to human.</li>\n<li>Understated to bold.</li>\n<li>Accessible to exclusive.</li>\n</ul>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/2-competitor-perception-map.png\"></p>\n<p>For a health tech company that wants to feel innovative but works with conservative medical institutions, the map might use <strong>traditional to progressive</strong> and <strong>corporate to human</strong>. For a fintech brand that wants to stand out without losing trust, it might use <strong>understated to bold</strong> and <strong>accessible to exclusive</strong>.</p>\n<p>The most useful part of this exercise is often not the final map, but the disagreement it creates. One stakeholder may read a competitor as progressive, while another sees it as generic. One may see a brand as premium, while another reads it as cold. These disagreements reveal how different people define trust, innovation, credibility, and differentiation. That is exactly the kind of ambiguity that needs to be resolved before design begins.</p>\n<h3>Exercise 2: Visual Brand Driver</h3>\n<p>After the team has discussed the category, I like to turn the conversation inward. One exercise we use for this is called <strong>Visual Brand Driver</strong>. Each stakeholder is asked to choose images for a set of unrelated categories: transport, typeface, activity, furniture, mood, object, animal, architecture, and drink.</p>\n<p>The instruction is important: the images should not represent the person’s personal taste. They should represent the company.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/3-visual-brand-driver-exercise.png\"></p>\n<p>For example, if the company were a type of transport, what would it be? A quiet electric car, a high-speed train, a private jet, a bicycle, a delivery van? If it were a piece of furniture, would it be a soft lounge chair, a precise modular desk, or a heavy boardroom table?</p>\n<p>After choosing the images, each person adds four or five adjectives to explain why they selected them. This part matters more than the image itself. The same object can mean different things to different people. A train might suggest speed, structure, reliability, mass accessibility, or a fixed route. A lounge chair might suggest comfort, calm, informality, or lack of urgency.</p>\n<p>The exercise helps create a deeper layer of brand perception. Instead of asking people to describe the company directly, it asks them to think through <strong>metaphor</strong> and <strong>association</strong>. Patterns and contradictions become visible. One stakeholder may see the brand as refined and calm, another as energetic and experimental. One may describe the company as precise and structured, another as warm and flexible.</p>\n<p>Those differences are not a problem. They are useful materials. They show what needs to be clarified before the visual concept phase begins.</p>\n<p>This exercise is also helpful because it separates brand perception from aesthetic preference. A stakeholder may personally like a certain image, but if it does not describe the company, it should not be part of the exercise. That distinction is important throughout the branding process. The question is not <em>“Do we like this?”</em> but <em>“Does this express the right thing about the brand?”</em></p>\nStage 3: Turn Shared Direction Into A Visual Foundation\n<p>Once the workshop has revealed the main assumptions, the next client meeting can turn that shared understanding into a visual foundation. This is still not the first identity concept. It is a working layer between strategy and design, where the client can react to perception, visual principles, and early asset directions before the designer invests time in full concepts.</p>\n<p>We usually structure this meeting around three connected layers:</p>\n<ol>\n<li><strong>Look and feel</strong><br>What should the brand feel like?</li>\n<li><strong>Design code</strong><br>How can key brand ideas become visual principles?</li>\n<li><strong>Branding assets</strong><br>What early choices should guide typography, color, logo direction, imagery, and illustration?</li>\n</ol>\n<p>Together, these layers move the conversation from perception to practical design boundaries.</p>\n<h3>Look And Feel</h3>\n<p><em>Look and feel</em> boards are not collections of visuals the team likes. They are <strong>perception boards</strong>. The designer collects references based on the workshop: desired perception, category tension, competitor codes, stakeholder disagreements, and brand character.</p>\n<p>If the brand needs to feel trustworthy, modern, and human, the board should help the team discuss what kind of trust, modernity, and humanity are appropriate. Is the brand calm and institutional, or warm and accessible? Is it progressive through precision, or through a more expressive editorial tone?</p>\n<p>The point is to let the client respond to perception before reacting to a logo, color palette, or finished visual system.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/4-look-and-feel-board.png\"></p>\n<h3>Design Code</h3>\n<p><em>Design code</em> makes the direction more specific by translating key brand ideas into visual principles.</p>\n<p>For a parenting app in Germany, <strong>personalized support for your unique journey</strong> might become organic shapes, handwritten lines, and softer compositions. <strong>Parenting is messy and magical</strong> might become soft gradients, layered imagery, and playful irregularity. <strong>Research-backed support for real life</strong> might introduce doctor calls, data snapshots, infographics, and editorial layouts that make the brand feel credible.</p>\n<p>For a PR agency working with prop tech companies, <strong>momentum in motion</strong> might become lines, arrows, ripple effects, or motion blur. <strong>Springboard</strong> might become a lift-off moment and elastic visual energy. <strong>Building blocks</strong> might become modular shapes or stacked compositions.</p>\n<p>The team is not choosing the final graphic expression here. It is testing whether the visual metaphors make sense before concept design begins.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/5-design-code.png\"></p>\n<h3>Brand Assets</h3>\n<p>The final layer brings the conversation down to the building blocks of identity: typography, color, logo style, photography, illustration, and graphic language.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/6-brand-asset-direction.png\"></p>\n<p>At this stage, the team can discuss questions such as:</p>\n<ul>\n<li>Should the typography feel editorial, technical, warm, precise, expressive, or restrained?</li>\n<li>Should the color palette follow category codes or create contrast?</li>\n<li>Should the logo be a quiet typographic mark, a flexible symbol, or a more expressive character?</li>\n<li>Should photography feel documentary, polished, intimate, product-led, everyday, or aspirational?</li>\n<li>Should illustration explain complex ideas, add warmth, or become a distinctive brand language?</li>\n</ul>\n<p>This gives the designer <strong>boundaries</strong> without making the final identity predictable. The next step is still concept design, but the team is no longer starting from vague adjectives or private expectations.</p>\n<p><img src=\"https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/7-brand-asset-direction.png\"></p>\nPre-Concept Checklist\n<p>Before moving into the first concept, it helps to pause and check whether the team has enough <strong>shared direction</strong>. The checklist is not meant to make every decision in advance. It is meant to make sure the designer is not starting from vague words, hidden assumptions, or unresolved disagreements.</p>\n<p>Before creating the first concept, check whether the team has:</p>\n<ul>\n<li>A clear understanding of what the brand needs to communicate.</li>\n<li>A defined brand character.</li>\n<li>A shared sense of what that character means and what it does not mean.</li>\n<li>Visual references tied to perception, not taste.</li>\n<li>Key brand ideas translated into visual principles.</li>\n<li>Early direction for typography, color, imagery, and graphic language.</li>\n<li>Documented areas of agreement and disagreement.</li>\n<li>A clear sense of which concept directions would be wrong before designing them.</li>\n</ul>\n<p>This last point is especially useful. A strong pre-concept phase not only tells the designer what to explore. It also clarifies what to avoid: directions that would be too expected, too cold, too playful, too conservative, too loud, too generic, or too far from what the audience can trust.</p>\n<p>When the team can name those boundaries, the first concept becomes easier to evaluate. The conversation shifts from <em>“I like it”</em> or <em>“I do not like it”</em> to <em>“Does this express the brand we agreed on?”</em></p>\nThe First Concept Should Not Be A Guess\n<p>The first concept should not feel like a guess or a surprise reveal. It should feel like the next step in a direction the team already understands.</p>\n<p>That does not mean removing intuition, experimentation, or creative risk from the branding process. It means giving those things a <strong>sharper problem to solve</strong>. When the team has clarified the brand character, tested visual perception, translated ideas into design principles, and discussed the early building blocks of the identity, the designer can explore with more confidence.</p>\n<p>Pre-concept work does not need to make the final identity predictable. It needs to <strong>make the conversation around it more meaningful</strong>. Instead of asking whether the work matches someone's private expectation, the team can ask a better question: Does this visual direction express what the brand needs to become?</p>\n",
     "createdAt": "2026-07-10T13:00:00.000+00:00",
@@ -525,72 +591,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "Show GN: AI가 만든 HTML, 링크 하나로 바로 공유하기 (MCP 지원)",
-    "content": "<p>안녕하세요. 요즘 에이전트한테 prd나 보고서 뽑을때 md보다는 HTML로 뽑아야 할때가 종종 생기는데, 공유하는 게 은근 귀찮더라고요. 이거 하나 보여주자고 배포하는 것도 오버고요. 그래서 만들게 되었습니다.</p>\n<p>htmldrop은 HTML을 던지면 바로 공유 링크가 나오는 서비스입니다. 사이트에서 API 한 번 치면 끝</p>",
-    "createdAt": "2026-07-10T12:09:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=31300",
-    "author": "turbogara1",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "colibrì - 느린 컴퓨터에서 GLM 5.2 실행하기",
-    "content": "<ul>\n<li><strong>GLM-5.2 744B MoE</strong>를 소비자용 머신의 약 25GB RAM에서 실행하도록 만든 순수 C 엔진이며, 라우팅된 expert를 디스크에서 스트리밍해 <strong>GPU 없이 동작</strong>함</li>\n<li>핵심 구조는 dense 부분 약 17B 파라미터를 <strong>int4로 RAM에 상주시켜 9.9GB</strong>를 쓰고, 21,504개 라...<p></p></li></ul>",
-    "createdAt": "2026-07-10T05:39:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31297",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Postgres를 Rust로 재작성, 이제 Postgres 회귀 테스트 100% 통과",
-    "content": "<ul>\n<li><strong>pgrust</strong>는 Postgres 18.3 호환을 목표로 하는 Rust 재작성 프로젝트이며, 46,000개 이상의 회귀 쿼리에서 Postgres의 예상 출력과 일치함</li>\n<li>기존 <strong>Postgres 18.3 데이터 디렉터리</strong>에서 부팅할 수 있는 디스크 호환성을 갖추고, 실제 Postgres 테스트를 동작 기준으로 삼...<p></p></li></ul>",
-    "createdAt": "2026-07-10T05:36:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31296",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: TetherMoon - 오픈소스 테더링 툴",
-    "content": "<p>개인프로젝트로 소니 카메라 테더링 툴을 만들고 있습니다.</p>\n<p>언제까지고 혼자 깎아내서는 성격상 끝은 끝대로 못보고 흥미를 잃을 것 같아 v1.0으로 정식버전화 합니다.</p>\n<p>사실 다른 기종을 이용한 테스트를 진행하지 못해 아직은 a7c에만 대응하는 녀석이긴 하지만은.... 많은 테스트와 사용을 거치며 더</p>",
-    "createdAt": "2026-07-10T04:28:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=31295",
-    "author": "lunaticm",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미첼 하시모토 인터뷰: Ghostty, Zig, 오픈소스 유지보수",
-    "content": "<ul>\n<li>Mitchell Hashimoto는 Vagrant, Terraform, Vault 이후 <strong>Ghostty</strong>와 Vouch를 만들며, 터미널·Zig·오픈소스 유지보수·제품 품질에 대한 자신의 기준을 정리함</li>\n<li>Ghostty는 GPU 프로그래밍, 데스크톱/단일 노드 시스템 프로그래밍, <strong>Zig</strong>를 익히려는 개인 프로젝트에서 출발...<p></p></li></ul>",
-    "createdAt": "2026-07-10T03:04:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31294",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 혹시 토익 고사장 하나씩 찾다가 지치셨나요?",
-    "content": "<p><strong>2천 명 이상의 토익 수험생들이 사용하고 있어요!</strong></p>\n<p>토익 시험을 신청할 때 고사장을 고르는 게 은근히 불편했습니다.</p>\n<p>토익 홈페이지에서는 지역별 고사장 목록은 볼 수 있지만,<br>\n여러 고사장을 지도 위에서 한 번에 비교하거나 “내 위치에서 가까운 순서”로 보기 어렵더라구요 </p>",
-    "createdAt": "2026-07-10T02:02:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=31293",
-    "author": "remocode",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
