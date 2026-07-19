@@ -1,5 +1,49 @@
 [
   {
+    "title": "Fable 5 vs. GPT-5.6 Sol: NP-난해 문제에서 /goal은 도움이 되는가?",
+    "content": "<ul>\n<li>미공개 광섬유망 최적화 문제를 30분씩 풀게 한 결과, <strong>Fable 5</strong>가 최고 점수와 가장 안정적인 성능을 보였지만 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/goal</code>은 일관된 향상을 만들지 못함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/goal</code>은 단순히 더 오래 작업하게 하는 기능이 아니라 <strong>제어 루프와 탐색 경로</strong>를 바꿔, 좋...<p></p></li></ul>",
+    "createdAt": "2026-07-19T18:34:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=31588",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "당신이 안 보는 사이 프론트엔드에 무슨 일이 있었나",
+    "content": "<ul>\n<li>2008년경 프론트엔드를 떠난 개발자를 대상으로, 지난 20년간의 변화를 설명하는 글</li>\n<li>모든 도구는 실제 문제(상처) 위에 생긴 흉터 조직이며 각 레이어의 해결책이 다음 레이어의 문제를 만들며 쌓였다는 것이 전체 논지</li>\n<li>글 전체에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><button><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> 하나를 표본으로 삼아 각 시...<p></p></button></li></ul>",
+    "createdAt": "2026-07-19T17:12:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=31587",
+    "author": "kciter1",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Codex 사용량 한도 리셋 추적",
+    "content": "<ul>\n<li>@thsottiaux의 X 공지를 추적해 <strong>Codex 사용량 한도 리셋 시점</strong>을 기록하며, 마지막 리셋은 2일 전임</li>\n<li>현재까지 <strong>35회</strong>를 집계했고 평균 대기 간격은 8.9일, 최장 공백은 67.7일임</li>\n<li>장애·지연·한도 계산 오류를 보상할 때뿐 아니라 사용자 증가, 제품 출시, 기념...<p></p></li></ul>",
+    "createdAt": "2026-07-19T16:34:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=31586",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "EU, 미판매 의류·신발 폐기 금지 시행",
+    "content": "<ul>\n<li>EU 전역의 <strong>대기업</strong>은 7월 19일부터 미판매 의류·의류 액세서리·신발을 폐기할 수 없으며, 중견기업에는 2030년부터 같은 규칙이 적용됨</li>\n<li>기업은 할인·대체 시장 판매나 기부를 먼저 고려하고, 수리·재정비·재제조를 거쳐 제품을 <strong>재사용</strong>하도록 해야 함</li>\n<li>안전하...<p></p></li></ul>",
+    "createdAt": "2026-07-19T13:33:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=31584",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: 브라우저에서만 돌아가는 한국어 AI 글 판별기",
     "content": "<p>얼마전에 Hacker News를 뜨겁게 달궜던 주제가 있습니다.<br>\n고전 ML로 AI Slop Text를 판별하는 게 생각보다 효과가 좋다는 블로그 글이었어요.</p>\n<p>https://news.ycombinator.com/item?id=48936880<br>\nhttps://blog.lyc8503.net/en/post/llm-classifier/</p>\n<p>이미 많이 논의되었던 접근이기도 했지만 아</p>",
     "createdAt": "2026-07-19T11:53:11.000+00:00",
@@ -528,17 +572,6 @@
     }
   },
   {
-    "title": "LLM 비판론자들이 옳다. 그래도 나는 LLM을 쓴다",
-    "content": "<ul>\n<li>저작권·환경·윤리 문제와 저품질 산출물, 오픈소스 신뢰 붕괴, 주니어 육성 약화, 지정학적 종속을 인정하면서도 LLM을 <strong>사고의 품질을 높이는 도구</strong>로 계속 활용함</li>\n<li>LLM은 기존의 생각·의견·구조를 증폭하므로, 사람의 판단이 없으면 유창한 쓰레기를 대량 생산하지만 충분한 생각과 책...<p></p></li></ul>",
-    "createdAt": "2026-07-17T21:36:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=31528",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Masonry (with Animation) in CSS",
     "content": "<p>Perhaps you’ve seen the good news that <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout\" target=\"_blank\" rel=\"noopener noreferrer\">display: grid-lanes;</a></code> is <a href=\"https://caniuse.com/css-grid-lanes\" target=\"_blank\" rel=\"noopener noreferrer\">starting to arrive</a> in browsers which replicates what we generally call “masonry” layout in CSS. It’s in Safari and feature-flagged in Chrome and Firefox. It gives this staggered grid item layout (with <a href=\"https://gridlanes.webkit.org/\" target=\"_blank\" rel=\"noopener noreferrer\">lots of possibilities</a>) reminiscent of a brick wall, hence the name. </p>\n\n\n\n<p>The name <em>really</em> comes from David DeSandro’s original library <a href=\"https://masonry.desandro.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Masonry.js</a> (and also <a href=\"https://packery.metafizzy.co/\" target=\"_blank\" rel=\"noopener noreferrer\">Packery</a> and <a href=\"https://isotope.metafizzy.co/layout-modes/masonry\" target=\"_blank\" rel=\"noopener noreferrer\">Isotope</a>). Those libraries accomplished the staggered layout well. But the foundation of them was a bunch of elements <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">float</code>ed. Here’s an original demo of Masonry.js:</p>\n\n\n\n<div></div>\n\n\n\n<p>If you <em>resize</em> that, you’ll see that Masonry.js <strong>had another trick up its sleeve</strong>: animation! </p>\n\n\n\n<p>See, Masonry.js supported fluidity, such that if the number of items (based on an ideal width) that could “fit” on a horizontal row had to change, it would redo its calculation magic and animate the elements into new positions. Here’s a video of that.</p>\n\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>\t<figure>\n\t\t<div> </div>\n\t\t\n\t\t\n\t</figure>\n\t\n</code></pre>\n<p>I thought about this when I saw a mind-blowing <a href=\"https://codepen.io/bramus/pen/ogBYjgm\" target=\"_blank\" rel=\"noopener noreferrer\">demo from Bramus</a> in which grid items would animate to new positions under the same conditions. But Bramus’ demo uses actual grid layout! And the re-calculating grid was by virtue of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">repeat</code>/<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">auto-fill</code> magic that grid has always been good at, like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">grid-template-columns: repeat(auto-fill, 6rem);</code></p>\n\n\n\n<p>The trick in Bramus’ demo is that it’s not actual the grid items themselves that animate into new positions. It’s actually a <em>child element</em> of the grid items, which is set to cover the entire grid area by virtue of anchor positioning and an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset</code> value that tracks the parent cell’s position. <em>Super cool.</em></p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.grid</span> {\n  <span>display</span>: grid;\n  <span>grid-template-columns</span>: <span>repeat</span>(auto-fill, ...);\n\n  .cell {\n     <span>anchor-scope</span>: --grid-cell;\n     <span>anchor-name</span>: --grid-cell;\n\n     .cell-content {\n        <span>transition</span>: inset <span>0.2s</span> ease;\n        <span>position</span>: absolute;\n  \t<span>position-anchor</span>: --grid-cell;\n  \t<span>inset</span>: <span>anchor</span>(inside);\n     }\n  }\n}</code></span></pre>\n\n\n<p>You don’t have to nest it like that; I just did it to make the structure clearer.</p>\n\n\n\n<p>That feels pretty darn magical to me. I don’t know I would have thought of it, as it feels like to cover the cell you’d do <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset: 0;</code> and then there is nothing really to animate as that never changes. But apparently the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">anchor(inside)</code> is dynamic enough that it animates even if the end result it essentially the same as <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset: 0;</code></p>\n\n\n\n<p>So here’s David’s original demo, with the JavaScript and floating ripped out, and a grid layout put in place instead, with the magical CSS from above:</p>\n\n\n\n<div></div>\n\n\n\n<p>Here’s a video of that, which is pretty darn close to the same as the JavaScript version.</p>\n\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>\t<figure>\n\t\t<div> </div>\n\t\t\n\t\t\n\t</figure>\n\t\n</code></pre>\n",
     "createdAt": "2026-07-17T19:52:50.000+00:00",
@@ -547,39 +580,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "OpenAI·Anthropic에서 일한 전 YC 창업자, 최소 105명",
-    "content": "<ul>\n<li>스타트업 인수나 폐업 이후의 경로를 추적한 결과, YC 창업자 최소 105명이 <strong>OpenAI 또는 Anthropic</strong>에서 일한 것으로 집계됨</li>\n<li>과거 CEO·CTO였던 이들도 현재는 <strong>Member of Technical Staff</strong>가 가장 많으며, 63명으로 전체의 60%를 차지함</li>\n<li>직무별로는 연구·안...<p></p></li></ul>",
-    "createdAt": "2026-07-17T19:35:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=31527",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LM Studio Bionic: 오픈 모델을 위한 AI 에이전트",
-    "content": "<ul>\n<li><strong>LM Studio Bionic</strong>은 코딩·조사·문서 작업을 로컬 또는 클라우드의 오픈 모델로 처리해, 개인정보와 AI 사용 비용을 직접 통제할 수 있는 별도 앱임</li>\n<li>모델은 기기에서 직접 실행하거나 <strong>LM Link</strong>로 연결할 수 있으며, 복잡한 작업에는 LM Studio Secure Cloud의 대형 오...<p></p></li></ul>",
-    "createdAt": "2026-07-17T16:34:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=31525",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: browser-rs-mcp - 초경량 멀티 에이전트 스텔스 브라우저 컨트롤러",
-    "content": "<h2>1. Motivation?</h2>\n<p>에이전트 하나에 크롬 하나. 이게 기본값이면 에이전트당 RAM이 500MB~1GB씩 나갑니다. 에이전트 5개만 굴려도 브라우저만으로 RAM 2.5~5GB.</p>\n<p>거기다 Playwright는 CDP 세션 자체가 기본으로 하나에 ~180MB를 먹습니다. 브라우저 프로세스 메모리는 별개로 치고, CDP 레이어 자체가 이</p>",
-    "createdAt": "2026-07-17T15:52:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=31524",
-    "author": "maestrojeong",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
