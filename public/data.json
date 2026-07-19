@@ -1,5 +1,148 @@
 [
   {
+    "title": "Show GN: 고전 아케이드 게임의 웹 플레이 &amp;  Live kit을 이용한 네트워크 플레이",
+    "content": "<p>고전 mame게임을 웹으로 즐길 수 있는 사이트를 만들어 보았습니다.<br>\n단순하게 웹으로 즐길 수 있는 사이트는 많이 있는것 같은데, 네트워크 플레이를 웹상에서 원활하게 지원하는 사이트는 없는것 같아서<br>\n네트워크 플레이에 중점을 두고 만들어 봤습니다.</p>\n<p>일단, 사용자가 mame rom을 업로드하면, </p>",
+    "createdAt": "2026-07-19T02:02:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=31575",
+    "author": "dodammomo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Kimi K3의 순간",
+    "content": "<ul>\n<li>일상적인 코딩 작업에서 <strong>Kimi K3와 Claude</strong>를 병행한 결과, 출력 품질과 답변에 필요한 토큰 수에서 실질적인 차이를 구별하기 어려웠음</li>\n<li>Kimi K3 API는 100만 토큰당 입력 <strong>$3</strong>, 출력 $15로, 각각 $10와 $50인 Claude 최상위 모델보다 크게 저렴함</li>\n<li>Kimi는 월...<p></p></li></ul>",
+    "createdAt": "2026-07-19T01:33:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=31574",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "안녕히, 그동안의 모든 Bikeshed에 감사드립니다",
+    "content": "<ul>\n<li>FOSS의 미래를 바꿀 두 요인으로 <strong>LLM 기반 코드 리뷰</strong>와 <strong>연령 확인</strong>을 꼽으며, 특히 연령 확인이 현재 형태의 FOSS를 끝내는 계기가 될 것으로 내다봄</li>\n<li>LLM 코드 리뷰는 사람이 살피기 어려운 탐색 공간을 더 넓고 깊게 조사하지만, 초기의 큰 성과 이후 효용이 감소할...<p></p></li></ul>",
+    "createdAt": "2026-07-19T01:09:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=31573",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Lone Lisp를 만든 Matheus Moreira 인터뷰",
+    "content": "<ul>\n<li><strong>Lone Lisp</strong>는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">libc</code> 없이 Linux 시스템 호출 위에서 직접 실행되는 Lisp로, Matheus Moreira가 freestanding C만으로 온전한 언어와 사용자 공간 프로그램을 만들 수 있는지 확인하려 시작함</li>\n<li>안정적인 <strong>Linux 사용자 공간 ABI</strong>를 직접 이용해 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">errno...<p></p></code></li></ul>",
+    "createdAt": "2026-07-19T01:06:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=31572",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "100만 개 키워드가 보여준, AI가 검색에 미치는 영향",
+    "content": "<ul>\n<li>월간 검색량 1만 회 이상인 <strong>1,010,848개 키워드</strong>를 분석한 결과, 전체 검색 수요의 29%가 감소했지만 증가한 수요가 이를 거의 상쇄해 총검색량은 사실상 유지됨</li>\n<li>검색 감소 폭은 정보 탐색 비중에 따라 달라져 <strong>FinTech -37.7%</strong> 처럼 AI가 완결된 답을 제공하기 쉬운 ...<p></p></li></ul>",
+    "createdAt": "2026-07-19T00:40:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31571",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GPT-5.6이 프롬프트로 볼록 최적화의 30년 공백을 메움",
+    "content": "<ul>\n<li>제공된 본문은 GPT-5.6이나 볼록 최적화가 아니라, 모든 <strong>유한 단순군</strong>을 18개 무한 계열과 26개 산재군으로 분류하는 군론의 정리를 다룸</li>\n<li>유한 단순군은 소수처럼 유한군의 기본 구성 요소지만, 같은 <strong>합성열</strong>을 가진 비동형 군이 존재하므로 구성 요소만으로 원래 군...<p></p></li></ul>",
+    "createdAt": "2026-07-19T00:35:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31570",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Mindwalk - 코딩 에이전트 세션을 코드베이스의 3D 지도 위에서 재생하는 시각화 도구",
+    "content": "<ul>\n<li>세션 로그는 에이전트가 무엇을 했는지 기록하지만, <strong>작업을 어떻게 이해했는지</strong>(관련 영역 판단, 탐색 위치, 작업 범위 일치 여부)는 담지 못하며, 원본 JSONL을 읽어서는 알 수 없음</li>\n<li>저장소를 <strong>야간 지도</strong>로 그려, 에이전트가 검색/읽기/수정한 위치는 빛나고 나머지...<p></p></li></ul>",
+    "createdAt": "2026-07-19T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31569",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GitRoot",
+    "content": "<ul>\n<li><strong>GitRoot</strong>는 단일 바이너리로 저장소와 접근 권한을 관리하고, 독립형 플러그인으로 이슈·보드·브랜치 병합·웹 인터페이스를 조합하는 소형 Git 포지임</li>\n<li>코드뿐 아니라 이슈, 병합 요청, 보드까지 <strong>모든 데이터를 일반 파일로 Git에 저장</strong>해 별도 데이터베이스나 숨겨진...<p></p></li></ul>",
+    "createdAt": "2026-07-19T00:01:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=31568",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI가 Stack Overflow에 끼친 영향을 그래프로 보기",
+    "content": "<p>AI가 Stack Overflow에 끼친 영향을 그래프로 보기</p>\n",
+    "createdAt": "2026-07-18T23:01:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=31567",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 기업 로고는 왜 항문처럼 보일까? (2025)",
+    "content": "<ul>\n<li>AI 기업 로고에는 <strong>원형 윤곽과 중앙의 빈 공간</strong>, 방사형 요소, 부드러운 곡선, 그라데이션이 반복돼 의도치 않게 인체 구조를 연상시킴</li>\n<li>원은 완전함·무한함·친근함을 전달하고, 사람은 <strong>파레이돌리아</strong> 때문에 추상적인 형태에서도 익숙한 생물학적 패턴을 찾아냄</li>...<p></p></ul>",
+    "createdAt": "2026-07-18T22:59:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=31566",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "역진행(Regressive) JPEG",
+    "content": "<ul>\n<li>점진적 JPEG의 <strong>다중 스캔 구조</strong>를 변형하면 다운로드가 진행될수록 화질이 좋아지는 대신, 이미 표시된 이미지가 다른 이미지로 계속 바뀌게 할 수 있음</li>\n<li>각 스캔은 색상 채널·DCT 주파수 범위·정밀도를 지정하며, 같은 해상도의 JPEG에서 일부 마커를 제거해 이어 붙이면 <strong>기존...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-18T22:57:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=31565",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LG 모니터, 사용자 동의 없이 Windows Update로 소프트웨어 설치",
+    "content": "<ul>\n<li>일부 LG 모니터를 Windows PC에 연결하면 <strong>LG Monitor App Installer</strong>가 자동 설치돼 McAfee 구독을 홍보하며, 사용자 승인 절차는 제공되지 않음</li>\n<li>Windows Update가 LG 확장 및 소프트웨어 구성 요소 패키지를 설치한 뒤 약 <strong>1분 후</strong> 앱 설치가 시작됐고, 동의 창이나 ...<p></p></li></ul>",
+    "createdAt": "2026-07-18T22:55:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=31564",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "EEG로 확인한 뇌의 두 음성 스트림 동시 부호화",
+    "content": "<ul>\n<li>정상 청력 성인 24명의 EEG를 분석한 결과, 주의를 전환할 때 <strong>새 화자에 대한 신경 추적</strong>이 기존 화자에서 이탈하기 전에 시작돼 두 음성이 일시적으로 동시에 표상됨</li>\n<li>두 화자의 음성 포락선과 단어 시작·예측 정보를 시간 반응 함수(TRF)로 모델링했으며, <strong>1초 디코딩 창</strong></li></ul>",
+    "createdAt": "2026-07-18T21:34:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=31563",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Zilog Z80 출시 50주년",
     "content": "<ul>\n<li>1976년 7월 출시된 <strong>Zilog Z80</strong>은 개인용·취미용 컴퓨터부터 임베디드·산업 장비까지 널리 쓰이며 8비트 마이크로프로세서 시대를 대표하게 됨</li>\n<li><strong>Intel 8080 바이너리 호환성</strong>을 유지하면서 레지스터·주소 지정·명령어·인터럽트 기능을 확장하고, 전기적 연결은 더 단순...<p></p></li></ul>",
     "createdAt": "2026-07-18T18:35:09.000+00:00",
@@ -23,7 +166,7 @@
   },
   {
     "title": "문제를 해결하지 않고 대응하는 세 가지 방식",
-    "content": "<ul>\n<li>조직은 문제를 직접 해결하는 대신 <strong>다른 곳으로 떠넘기거나 보존</strong>하고, 해결 과정에서 새로운 문제를 만들기도 함</li>\n<li>중대형 조직의 <strong>국소 최적화</strong>는 한 영역을 개선하는 대신 다른 영역을 악화시키므로, 개인이 아닌 상위 관리자의 인센티브와 시스템 관점을 바로잡아야...<p></p></li></ul>",
+    "content": "<ul>\n<li>조직은 문제를 직접 해결하는 대신 <strong>다른 곳으로 떠넘기거나</strong>, 기존 문제를 보존하거나, 해결 과정에서 새로운 문제를 만들어내기도 함</li>\n<li><strong>문제 이동</strong>은 한 부문의 상황을 개선하면서 다른 부문의 상황을 악화시키는 국소 최적화로, 중대형 조직에서 흔히 발생함</li>\n</ul>",
     "createdAt": "2026-07-18T17:44:58.000+00:00",
     "link": "https://news.hada.io/topic?id=31559",
     "author": "neo",
@@ -451,94 +594,6 @@
     }
   },
   {
-    "title": "Pandas 창시자가 말하는 AI·Apache Arrow·소프트웨어 엔지니어링의 미래 [유튜브]",
-    "content": "<ul>\n<li>Pandas와 Apache Arrow를 만든 경험을 바탕으로, AI 시대에도 고성능 데이터 시스템과 소프트웨어를 설계하는 <strong>전문성·판단력·취향</strong>이 핵심이라고 봄</li>\n<li>Apache Arrow는 표 형식 데이터를 위한 범용 <strong>인메모리 기반 계층</strong>으로 시스템 간 전송과 처리를 표준화하며, 채택하...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:54:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31516",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Patreon이 팬아웃으로 알림 시스템을 확장한 방법",
-    "content": "<ul>\n<li>연간 수십억 건의 알림을 처리해 온 <strong>13년 된 시스템</strong>은 대형 크리에이터 한 명당 수백만 건을 생성하면서 타임아웃에 부딪혔고, Patreon은 수신자별 알림을 미리 생성하는 팬아웃 계층으로 이를 재설계함</li>\n<li>수신자 목록을 작은 배치로 나누고 인앱 피드·푸시·이메일을 독립적으로 처리하...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:50:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=31515",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "개발자를 해킹하는 LinkedIn 채용 과제 사기",
-    "content": "<ul>\n<li>LinkedIn에서 소프트웨어 엔지니어 채용을 제안한 뒤 정상적인 React/Web3 과제로 위장한 비공개 GitHub 저장소를 전달했으며, 실행하면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tailwind.config.js</code>에 숨겨진 <strong>JavaScript 악성코드</strong>가 개발자 컴퓨터에서 작동함</li>\n<li>30,987바이트짜리 설정 파일은 수천 개의 공백 뒤...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:48:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=31514",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Decoy Font: 입력 내용을 숨기는 TTF 글꼴",
-    "content": "<ul>\n<li>한 글자 공간에 실제 문자와 미끼 문자를 함께 배치해, 사람에게는 원래 메시지를 보여주면서 <strong>AI와 OCR에는 다른 문자를 읽히게 하는</strong> TTF 글꼴임</li>\n<li>얇고 선명한 전경 윤곽선과 흐릿한 저주파 배경을 중첩하는 <strong>공간 주파수 기법</strong>을 사용해, 보는 거리와 방식에 따라 서...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:44:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31513",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OnePlus, 미국·유럽 운영 중단",
-    "content": "<ul>\n<li>OnePlus는 <strong>글로벌 전략 조정</strong>에 따라 유럽과 북미에서 신제품 출시를 종료하되, 기존 기기 지원과 일부 현지 서비스는 계속 운영함</li>\n<li>OPPO의 지원 아래 기존 OnePlus 기기는 모델별 약속 기간까지 <strong>소프트웨어 업데이트·보안 패치</strong>와 사후 서비스를 제공받음</li>\n<li>...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:41:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31512",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Sony, ‘구매한’ 영화·TV 프로그램 551편을 사용자 계정에서 또 삭제",
-    "content": "<ul>\n<li>Sony와 StudioCanal의 <strong>라이선스 계약 문제</strong>로 PlayStation Store에서 구매한 영화·TV 프로그램 551편이 다시 사라질 예정이며, 디지털 구매가 회사가 철회할 수 있는 이용권에 가깝다는 현실을 드러냄</li>\n<li>PlayStation은 구매한 콘텐츠를 <strong>9월 1일 삭제</strong>한다고 통보했지만...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:38:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31511",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LeafWiki – 서버와 DB없이 단일 바이너리로 실행하는 셀프 호스팅 위키",
-    "content": "<ul>\n<li>런북, 홈랩 문서, 튜토리얼, 팀 노트를 <strong>폴더 트리 구조</strong>로 정리하는 사람들을 위한 도구</li>\n<li>콘텐츠를 디스크에 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.md</code> 파일로 저장하고 <strong>단일 Go 바이너리</strong>로 동작해 웹서버/DB 없이 실행되며 리눅스/맥/윈도우/라즈베리 파이 지원</li>\n<li>페이지는 항상 일반...<p></p></li></ul>",
-    "createdAt": "2026-07-17T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31510",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해",
-    "content": "<ul>\n<li><strong>Linux 커널</strong>은 반AI 프로젝트가 아니며, AI는 다른 도구들과 마찬가지로 <strong>유용한 도구</strong>임</li>\n<li>LLM에 대한 반감이 있는 사람들이 존재하지만, 이 사안에 대해서는 <strong>최상위 메인테이너로서 단호한 입장</strong>을 취함</li>\n<li>AI의 <strong>유용성 자체는 더 이상...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-17T00:02:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=31509",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Pete Hunt is back to lead Next.js",
     "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​483 — July 17, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/188125/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/188083/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/xrj22mwoden85sqljlpf.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188083/rss\" title=\"www.reactbench.com\" target=\"_blank\" rel=\"noopener noreferrer\">ReactBench: Evaluating How Coding Agents Write React Code</a></span> — From the team behind <a href=\"https://react.statuscode.com/link/188084/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Scan</a> and Million.js, an eval for coding agents on 'realistic React work' to suss out models that do well in other benchmarks but can't necessarily write reliable React code. GPT 5.6 Sol leads for now. <a href=\"https://react.statuscode.com/link/188085/rss\" target=\"_blank\" rel=\"noopener noreferrer\">More&nbsp;details.</a></p>\n  <p>Aiden Bai et al. </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188086/rss\" title=\"react.dev\" target=\"_blank\" rel=\"noopener noreferrer\">React's Team Page Gets a Restructure</a></span> — As part of <a href=\"https://react.statuscode.com/link/188087/rss\" target=\"_blank\" rel=\"noopener noreferrer\">the changes</a> around React's governance structure, the official team page has been reorganized around the Leadership Council and members of the numerous working groups (e.g. Compiler, React Native, Docs).</p>\n  <p>The React Team </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188082/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/38d8f21d.webp\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/188082/rss\" title=\"coderabbit.link\" target=\"_blank\" rel=\"noopener noreferrer\">Cut Code Review Time &amp; Bugs in Half, Instantly</a></span> — CodeRabbit reviews every PR with full codebase context, catching off-by-ones, null refs and edge cases before they hit prod. It does the heavy lifting, so you do the final 10%. Trusted by 15,000+ teams. <a href=\"https://react.statuscode.com/link/188082/rss\" target=\"_blank\" rel=\"noopener noreferrer\">2-click install, free to&nbsp;try</a>.</p>\n  <p>CodeRabbit <span>sponsor</span></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>⭐ Guillermo Rauch <a href=\"https://react.statuscode.com/link/188088/rss\" target=\"_blank\" rel=\"noopener noreferrer\">just announced on 𝕏</a> that Vercel has hired Pete Hunt and Nick Schrock (co-creator of GraphQL). Pete, an early and influential React team member, will be leading the Next.js project.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188089/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Vercel is formalizing a predictable, monthly Next.js security release schedule</a> with the first coming in just a few days.</p>\n</li>\n<li>\n<p>Cloudflare has entirely rebuilt <a href=\"https://react.statuscode.com/link/188090/rss\" target=\"_blank\" rel=\"noopener noreferrer\">its blog</a> on top of <a href=\"https://react.statuscode.com/link/188091/rss\" target=\"_blank\" rel=\"noopener noreferrer\">EmDash</a>, the <a href=\"https://react.statuscode.com/link/188092/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Astro</a>-powered 'spiritual successor to WordPress' it unveiled (genuinely) on April&nbsp;1.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188093/rss\" title=\"dx-styles.dev\" target=\"_blank\" rel=\"noopener noreferrer\">I've Maintained Linaria for Six Years: Here's Why I Built Something&nbsp;New</a></span> — <em>\"Runtime CSS-in-JS is winding down,\"</em> says Linaria's maintainer, who has now built <a href=\"https://react.statuscode.com/link/188094/rss\" target=\"_blank\" rel=\"noopener noreferrer\">dx-styles</a>, a zero-runtime compile-time alternative (for which there's also a <a href=\"https://react.statuscode.com/link/188095/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Linaria migration&nbsp;guide</a>).</p>\n  <p>Anton Evzhakov </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188096/rss\" title=\"certificates.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Cache Components in Next.js, Explained</a></span> — A walkthrough of Next.js 16's dynamic-by-default caching model, covering <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">use cache</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cacheLife</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cacheTag</code>, and how it powers Instant&nbsp;Navigations.</p>\n  <p>Aurora Scharff </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📺 <a href=\"https://react.statuscode.com/link/188097/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Jack Herrington Can’t Think of a Reason to Choose Next.js Anymore</a> – Jack explains why he's all-in on the TanStack approach, as well as his experiences building with AI, in this 45-minute&nbsp;interview. <cite>Ankita Kulkarni</cite></p>\n<p>📺 <a href=\"https://react.statuscode.com/link/188098/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The Framework Wars Are Over: Why No One Dethroned React</a> – Kent's take in 11&nbsp;minutes. <cite>Kent C. Dodds</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/188099/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Building a ChatGPT-Style AI Chat App in React Native</a> – That also uses RAG to answer domain-specific&nbsp;queries. <cite>Dave Mkpa-Eke (Margelo)</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188100/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/bjmfrkg2i2mujsoag2zb.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188100/rss\" title=\"ui.shadcn.com\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/typeset</code>: A Complete Typography System for HTML</a></span> — A drop-in typography system for rendered HTML (such as Markdown output) packaged as a single CSS file with one wrapper class. Rather than exposing dozens of typography settings, it's driven by a few CSS variables. There's a <a href=\"https://react.statuscode.com/link/188101/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Typeset builder</a> to help you customize it and generate code to get&nbsp;started.</p>\n  <p>shadcn Team </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188102/rss\" title=\"dsssp.io\" target=\"_blank\" rel=\"noopener noreferrer\">DSSSP: Audio Equalization and Filter Visualization Components</a></span> — One for the audio folks. SVG-based components to visualize things like frequency response graphs and control audio filters. There are <a href=\"https://react.statuscode.com/link/188103/rss\" target=\"_blank\" rel=\"noopener noreferrer\">some live&nbsp;demos</a>.</p>\n  <p>Alex Strelets </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188104/rss\" title=\"react-dropzone.js.org\" target=\"_blank\" rel=\"noopener noreferrer\">react-dropzone 17.0: Create File Drag-and-Drop Zones</a></span> — A mature library offering a hook-based approach to making HTML-compliant drag-and-drop zones for files dropped onto pages. The docs include <a href=\"https://react.statuscode.com/link/188105/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a basic demo with&nbsp;code</a>.</p>\n  <p>Param Aggarwal </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188106/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">React Mosaic 7.0: A Component Tiling 'Window Manager'</a></span> — Provides an API to organize and tile React components across a view. <a href=\"https://react.statuscode.com/link/188107/rss\" target=\"_blank\" rel=\"noopener noreferrer\">v7.0</a> makes big layout engine changes and targets React 16-19 with a full ESM + CJS build. <a href=\"https://react.statuscode.com/link/188108/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Demo&nbsp;here.</a></p>\n  <p>Kevin Verdieck </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188109/rss\" title=\"brainless.swerdlow.dev\" target=\"_blank\" rel=\"noopener noreferrer\">brainless: Claude Code, Codex, and Grok UIs as <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn</code> Components</a></span> — If, for some reason, you want to <a href=\"https://react.statuscode.com/link/188110/rss\" target=\"_blank\" rel=\"noopener noreferrer\">recreate a TUI coding agent experience</a> on the Web, render <a href=\"https://react.statuscode.com/link/188111/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Claude-style diffs</a> or show off agent examples in docs, perhaps?</p>\n  <p>Ben Swerdlow </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188112/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-fontawesome 3.4</a> – The official library to use <a href=\"https://react.statuscode.com/link/188113/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Font Awesome</a> icons in React apps adds support for <a href=\"https://react.statuscode.com/link/188114/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Font Awesome 7.3's</a> new animations.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188115/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Preact 11.0 Beta 2</a> – <em>\"One of the last betas for Preact 11,\"</em> says maintainer Jovi De Croock. There's already <a href=\"https://react.statuscode.com/link/188116/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a migration guide</a> ready to&nbsp;use.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188117/rss\" target=\"_blank\" rel=\"noopener noreferrer\">use-local-storage-state 20.0</a> – A hook that persists data in <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">localStorage</code>.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188118/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-dropdown 2.0</a> – Simple accessible dropdown component.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188119/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-joyride 3.2</a> – Create guided tours within your React apps.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188120/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Travels 1.4</a> – Fast, reusable patch-based undo/redo mechanism.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188121/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native Skia 2.9</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Real-time UI on a slow query? <a href=\"https://react.statuscode.com/link/188122/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TimescaleDB extends Postgres</a> so analytics keep pace with your&nbsp;components.</p>\n \n<p>⚡ <a href=\"https://react.statuscode.com/link/188123/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Zuplo</a> puts every API, AI, and MCP request behind one gateway. Route traffic, guard your MCP servers, and cap your AI costs. <a href=\"https://react.statuscode.com/link/188123/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Try it&nbsp;free</a>.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td><p>📊&nbsp; Monitoring package popularity</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188124/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wc2von9kring79sp9kmv.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Did you know TanStack maintains <a href=\"https://react.statuscode.com/link/188124/rss\" target=\"_blank\" rel=\"noopener noreferrer\">an npm stats monitoring page</a> you can use to graph the popularity of any npm packages over time?</p>\n<p>The default view shows how TanStack's collection of libraries fares against other popular sets from React Router, Next.js, and Angular, but you can also pick from other pre-defined groups like 'data grids' or 'state management', or just specify your own packages to compare.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/483/rss\">",
     "createdAt": "2026-07-17T00:00:00.000+00:00",
@@ -558,61 +613,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "NotebookLM, Gemini Notebook으로 이름 변경",
-    "content": "<ul>\n<li>Google은 <strong>독립형 연구 도구</strong>라는 제품 성격을 유지하면서 Gemini 앱과 Google Search 등 자사 생태계와의 연동을 확대하기 위해 NotebookLM을 <strong>Gemini Notebook</strong>으로 변경함</li>\n<li>2023년 Google I/O에서 <strong>Project Tailwind</strong>로 출발한 이 제품은 현재 3,000만...<p></p></li></ul>",
-    "createdAt": "2026-07-16T22:56:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=31508",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Roc 컴파일러의 Rust→Zig 재작성 진행기",
-    "content": "<ul>\n<li>기존 구현의 <strong>구조적 결함을 해결</strong>하기 위해 Rust 30만 줄을 Zig로 다시 작성했으며, 487일 만에 기능 동등성에 도달해 올해 후반 첫 정식 번호 릴리스인 0.1.0을 목표로 함</li>\n<li>새 컴파일러는 <strong>핫 코드 로딩</strong>과 재현 가능한 크로스 컴파일, 패턴 매칭 안의 문자열 보간, H...<p></p></li></ul>",
-    "createdAt": "2026-07-16T22:52:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=31507",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "음악 불법 복제에서 사라진 즐거움",
-    "content": "<ul>\n<li>Oink와 <strong>What.CD</strong>는 단순한 불법 다운로드 사이트를 넘어, 방대한 음악을 고품질로 보존하고 이용자의 지식과 노동으로 운영된 비공개 음악 공동체였음</li>\n<li>초대·면접·업로드 비율·지속적 시딩을 요구한 <strong>엄격한 규칙</strong>은 수사기관의 접근을 어렵게 하는 동시에, 공개 파일 ...<p></p></li></ul>",
-    "createdAt": "2026-07-16T22:47:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=31506",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "디지털 시계 디자인 컬렉션",
-    "content": "<ul>\n<li><strong>Clocks.dev</strong>는 현재 시각과 날짜를 다양한 방식으로 표현한 디지털 시계 디자인을 한곳에서 탐색할 수 있는 사이트임</li>\n<li>기하학적 형태, 숫자 배열, 단어 조합, 시곗바늘, 원형 다이얼, LCD 등 서로 다른 <strong>시각 표현 방식</strong>을 비교해 볼 수 있음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">All time...<p></p></code></li></ul>",
-    "createdAt": "2026-07-16T21:33:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=31504",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Microsoft Comic Chat, 오픈 소스로 공개",
-    "content": "<ul>\n<li>IRC 대화를 캐릭터·말풍선·표정이 담긴 만화 패널로 자동 변환하던 <strong>Microsoft Comic Chat</strong>의 소스 코드가 공개</li>\n<li>1995년 개발을 시작해 Visual C++ 4.0과 MFC로 제작했으며, 대화 단서를 해석해 <strong>자세·표정·제스처·패널 배치</strong>를 실시간으로 결정한 뒤 1996년 Internet ...<p></p></li></ul>",
-    "createdAt": "2026-07-16T20:55:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=31503",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
