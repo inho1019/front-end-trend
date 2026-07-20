@@ -1,5 +1,38 @@
 [
   {
+    "title": "Show GN: eslint-plugin-import-boundary - ESLint Rule을 통해 javascript 프로젝트에서 import/export의 코드 ...",
+    "content": "<p>최근 인턴십을 하며 제품의 거대한 코드베이스를 처음 경험했습니다. 변경의 영향 범위를 가늠하기 어렵고, “이 코드는 어디서 참조해야 하는지”가 반복적으로 고민됐습니다. 정적 분석(ESLint)으로 import 경계를 강제하면 아키텍처 품질을 더 안정적으로 유지할 수 있겠다고 생각했습니다.<br>\neslint-plugin-b...</p>",
+    "createdAt": "2026-07-20T13:26:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=31621",
+    "author": "nayounsang1",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Minecraft: Java Edition, 창·입력 백엔드를 SDL3로 전환",
+    "content": "<ul>\n<li>Minecraft 26.3 Snapshot 4는 창 관리·입력·플랫폼 통합 백엔드를 <strong>GLFW에서 SDL3로 교체</strong>하고, 키보드 입력에 SDL 스캔코드와 키코드를 도입함</li>\n<li>키 바인딩은 자판 배열별 코드 대신 <strong>물리적 키 위치</strong>를 사용하며, Linux에서는 가능하면 Wayland를 우선하고 macOS에서는...<p></p></li></ul>",
+    "createdAt": "2026-07-20T12:35:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=31620",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Codex CLI의 Subagent 세션 로그가 수백 GB까지 증가해 디스크를 소진하는 문제",
+    "content": "<ul>\n<li>Codex CLI가 Resume된 장기 세션에서 Subagent를 반복 생성할 때, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.codex/sessions</code> 아래의 JSONL 세션 파일이 비정상적으로 증가하는 문제가 보고됨</li>\n<li>공개 사례에서는 하나의 Resume된 부모 세션에서 2,393개의 Subagent 세션 파일이 생성됐으며, 이 파일들이 약 731.5GiB를 차지함</li></ul>",
+    "createdAt": "2026-07-20T12:22:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=31618",
+    "author": "click",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: sessionhub - 흩어진 Claude Code, Codex 세션을 한 곳에서 검색",
     "content": "<p>sessionhub는 여러 머신에 흩어진 Claude Code · Codex 세션을 한 곳에 모아 검색하는 도구입니다.</p>\n<p>데스크톱과 노트북을 오가고 가끔 서버에서도 개발하는데, \"이거 전에 해봤는데\" 싶은 작업이 어느 머신에 있었는지 자주 헷갈렸습니다. Claude Code랑 Codex 세션이 각 머신 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.claude/proje</code></p>",
     "createdAt": "2026-07-20T07:56:22.000+00:00",
@@ -521,39 +554,6 @@
     "content": "<ul>\n<li>435개가 넘는 매장과 물류센터의 공급망을 현대화하는 과정에서 Haskell을 도입했으며, 8년 뒤 여러 팀이 관리하는 <strong>약 100만 줄의 코드</strong>가 핵심 프로덕션 시스템에서 운영되고 있음</li>\n<li>Haskell은 런타임 오류 유형을 줄이고 GHC 기반 리팩터링과 레거시 연동을 지원하지만, SDK 부족에 따...<p></p></li></ul>",
     "createdAt": "2026-07-18T18:03:31.000+00:00",
     "link": "https://news.hada.io/topic?id=31560",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "문제를 해결하지 않고 대응하는 세 가지 방식",
-    "content": "<ul>\n<li>조직은 문제를 직접 해결하는 대신 <strong>다른 곳으로 떠넘기거나</strong>, 기존 문제를 보존하거나, 해결 과정에서 새로운 문제를 만들어내기도 함</li>\n<li><strong>문제 이동</strong>은 한 부문의 상황을 개선하면서 다른 부문의 상황을 악화시키는 국소 최적화로, 중대형 조직에서 흔히 발생함</li>\n</ul>",
-    "createdAt": "2026-07-18T17:44:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=31559",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "로마 콘크리트는 어떻게 수천 년을 견뎠나? 1,900년 된 화장실에서 찾은 단서",
-    "content": "<ul>\n<li>하드리아누스 빌라의 1,900년 된 공동 화장실 시료는 기존의 <strong>포졸란 반응</strong>뿐 아니라 장기간의 탄산화도 내구성에 기여했음을 보여줌</li>\n<li>대기 중 이산화탄소가 콘크리트의 칼슘 화합물과 반응하면 단단한 <strong>방해석(calcite)</strong> 이 생성돼 작은 균열과 기공을 메움</li>\n<li>복...<p></p></li></ul>",
-    "createdAt": "2026-07-18T17:41:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=31558",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Pebble 대규모 업데이트 – 2026년 7월",
-    "content": "<ul>\n<li><strong>Pebble Time 2</strong>는 2만3,000대 이상 생산돼 예약 주문의 80% 이상을 이행했으며, 남은 물량은 색상에 따라 7월 28일 또는 31일까지 출하할 예정임</li>\n<li>PebbleOS 전력 최적화로 Pebble 2 Duo의 중앙값 배터리 수명이 17일에서 <strong>30일 이상</strong>으로 늘었고, Pebble Time 2는 약 2...<p></p></li></ul>",
-    "createdAt": "2026-07-18T17:38:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=31557",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
