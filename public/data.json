@@ -1,5 +1,49 @@
 [
   {
+    "title": "Show GN: sessionhub - 흩어진 Claude Code, Codex 세션을 한 곳에서 검색",
+    "content": "<p>sessionhub는 여러 머신에 흩어진 Claude Code · Codex 세션을 한 곳에 모아 검색하는 도구입니다.</p>\n<p>데스크톱과 노트북을 오가고 가끔 서버에서도 개발하는데, \"이거 전에 해봤는데\" 싶은 작업이 어느 머신에 있었는지 자주 헷갈렸습니다. Claude Code랑 Codex 세션이 각 머신 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.claude/proje</code></p>",
+    "createdAt": "2026-07-20T07:56:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=31617",
+    "author": "esc5221",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Oshiette(오시에떼) - 나만의 캐릭터와 대화하듯 즐기는 메신저형 비주얼 노벨",
+    "content": "<p><strong>소개</strong></p>\n<p>안녕하세요!</p>\n<p>나만의 캐릭터와 대화하듯 즐기는 메신저형 비주얼 노벨, Oshiette(오시에떼)를 소개합니다.</p>\n<p>이전에 프롬프트 없이 선택만으로 나만의 캐릭터를 만드는 서비스인 My Oshi Canvas를 소개했었는데요.<br>\n(https://news.hada.io/topic?id=27477)</p>\n<p>서비</p>",
+    "createdAt": "2026-07-20T07:47:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=31616",
+    "author": "jacky",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 조언을 받으면 정확도는 3분의 1로 떨어지고 자신감은 2배 이상 높아짐",
+    "content": "<ul>\n<li>AI 조언을 이용한 참가자는 “모른다”고 답하는 비율이 44%에서 3%로 급감했고, <strong>정확도는 27%에서 9%로 하락</strong>한 반면 자신감은 30%에서 76%로 상승함</li>\n<li>연구진은 합리적인 도구 위임과 구분하기 위해 영화 속 시각적 세부 정보처럼 <strong>AI가 자주 틀리는 질문</strong>과 대체로 오...<p></p></li></ul>",
+    "createdAt": "2026-07-20T07:33:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=31614",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, Codex 모델 컨텍스트 크기를 372k에서 272k로 축소",
+    "content": "<ul>\n<li>OpenAI Codex의 <strong>번들 모델 메타데이터</strong>를 갱신하면서 모델 컨텍스트 크기를 372k에서 272k로 줄인 변경을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">release/0.144</code> 브랜치에 백포트함</li>\n<li>PR #33972는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">agent/hotfix-0.144-model-metadata</code> 브랜치에서 <strong>Codex 0.144 릴리스</strong>로 변경 사항을...<p></p></li></ul>",
+    "createdAt": "2026-07-20T03:33:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=31611",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "경계가 만든 길, Load Balancer(DSR)",
     "content": "<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerDSR202607900%281%29.png\" alt=\"NHN Cloud_meetup banner_DSR_202607_900.png\"></a></p>\n<p>기존의 프록시 방식 로드 밸런서(LB)는 클라이언트와 서버 사이에서 양쪽 연결을 모두 종단하고 데이터를 중계하는 구조입니다. 요청과 응답이 모두 LB를 경유하기 때문에, 응답 트래픽이 클수록 LB가 병목이 됩니다. 1KB 요청에 100MB 응답이 나가는 워크로드라면 응답이 LB 대역폭 대부분을 소모합니다. 접속자가 늘수록 LB 처리량이 선형으로 증가하고, 백엔드 서버를 늘려도 LB 자체가 처리량의 상한이 됩니다.</p>\n<p>L7 라우팅이나 SSL 종단이 필요한 표준 웹 서비스에서는 프록시 방식이 적합합니다. 하지만 응답 트래픽이 크거나 낮은 레이턴시가 중요한 워크로드에서는 구조적인 한계가 있습니다. 응답까지 LB를 경유하는 구조 자체가 병목이 되기 때문입니다. 응답 트래픽을 LB에서 분리해 서버가 클라이언트에게 직접 응답하게 하면 이 문제를 해결할 수 있습니다. 이것이 Load Balancer(DSR)의 출발점입니다.</p>\n<h2>선 긋기</h2>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/comparison900.png\" alt=\"comparison_900.png\"></p>\n<p>두 방식의 차이는 응답 경로에 있습니다. Load Balancer(DSR)은 요청은 LB를 경유하되, 응답은 LB를 우회하는 비대칭 구조로 동작합니다. IP는 그대로 두고 L2 레벨에서 목적지 MAC만 변경해 서버로 전달하기 때문에 SNAT/DNAT를 수행하지 않습니다. 덕분에 서버에서 클라이언트 원본 IP를 그대로 확인할 수 있어, X-Forwarded-For나 Proxy Protocol 없이도 로깅과 접근 제어가 가능합니다.</p>\n<p>세션 분산은 5-tuple(소스 IP/포트, 목적지 IP/포트, 프로토콜) 기반이 기본값입니다. 세션 지속성을 활성화하면 소스 IP 기반으로 전환되어, 동일 클라이언트의 요청이 항상 같은 서버로 전달됩니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/uC138uC158uC9C0uC18DuC131uBE44uAD50.png\" alt=\"세션_지속성_비교.png\"></p>\n<p><em>세션 지속성 설정: 사용 안 함 (5-Tuple Hash) vs 사용 (SOURCE_IP Hash)</em></p>\n<p>단, 비대칭 구조 특성상 서버 측 설정이 필요합니다. 서버는 VIP로 들어온 요청을 받아 VIP를 출발지로 클라이언트에 직접 응답해야 하기 때문입니다. 이를 위해 lo 인터페이스에 VIP를 /32로 바인딩하고, ARP 충돌 방지를 위한 커널 파라미터(arp_ignore=1, arp_announce=2)를 설정해야 합니다.</p>\n<h2>제약 안에서의 설계</h2>\n<p>XDP로 커널 앞단에서 패킷을 처리하는 방식을 선택했습니다. 커널 네트워크 스택 진입 전 단계에서 패킷을 처리해 오버헤드를 최소화할 수 있습니다. 개발 과정에서는 여러 제약이 따랐습니다.</p>\n<p>XDP 프로그램은 동적 자료구조를 사용할 수 없고 지정된 MAP 형태의 자료구조만 사용해야 하는 제약이 있습니다. 또한, 커널에 로드하는 시점에 BPF Verifier의 검증을 통과해야 합니다. 패킷 데이터에 접근하는 모든 지점에 경계 검사를 명시해야 하고, 하나라도 누락되면 로드가 거부되는데, 거부 사유 로그가 직관적이지 않아 원인을 찾는 데 시간이 걸렸습니다. 또한 instruction 수 제한으로 복잡한 처리를 분리해야 했고, 헬스체크 probe 송신처럼 패킷을 능동적으로 생성하는 작업은 XDP에서 처리할 수 없었습니다.</p>\n<p>이를 해결하기 위해 역할을 분리했습니다. 무거운 계산과 능동적인 처리는 유저스페이스의 애플리케이션 레이어가 담당하고, 커널 레이어에서는 BPF MAP 조회만 수행합니다. 멤버 선택에 필요한 해시 데이터와 헬스체크 정보는 유저스페이스에서 미리 계산해 BPF MAP에 저장하고, 패킷 경로에서는 이를 읽기만 합니다. 데이터 경로가 단순해져 검증이 수월해지고 성능도 향상됐습니다.</p>\n<h2>조용히 동작하는 것들</h2>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/healthcheckrouting900.png\" alt=\"healthcheck_routing_900.png\"></p>\n<p>클라이언트의 요청은 LB를 경유해 서버로 전달됩니다. VXLAN으로 캡슐화해 멤버 서버로 전송하며, 서버의 응답은 LB를 거치지 않고 클라이언트에게 직접 전달됩니다.</p>\n<p>멤버 상태는 ICMP, TCP, HTTP 프로토콜로 주기적으로 점검합니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/uD5ECuC2A4uCCB4uD06C.png\" alt=\"헬스체크.png\"></p>\n<p><em>헬스체크 설정 화면 — 프로토콜, 주기, 응답 대기 시간, 재시도 횟수 설정</em></p>\n<p>프로토콜과 주기, 재시도 횟수는 콘솔에서 설정할 수 있습니다. 장애가 감지된 멤버는 자동으로 분산 대상에서 제외되고, 복구되면 다시 포함됩니다. 멤버 선택은 일관성 해싱(Consistent Hashing) 기반으로 동작하기 때문에, 여러 LB 노드가 Active-Active로 구성되어도 노드 간 세션 상태 동기화 없이 동일한 분산 결정을 내릴 수 있습니다. Floating IP를 연결하면 외부 네트워크 접근도 가능하며, 멤버는 동일 서브넷 내 인스턴스만 등록할 수 있습니다.</p>\n<h2>두 가지 선택지</h2>\n<p>Load Balancer(DSR)은 L4(TCP, UDP)만 지원합니다. L7 라우팅이나 SSL 종단이 필요한 서비스에는 기존 프록시 방식 LB가 적합하며, 두 방식을 워크로드 특성에 맞게 선택해 사용할 수 있습니다.</p>\n<p>특히 응답 트래픽이 큰 서비스에 적합합니다. 미디어 스트리밍, 대용량 파일 다운로드, 게임 서버가 대표적인 사용 사례입니다. 클라이언트 원본 IP를 서버에서 직접 확인해야 하는 경우에도 별도 헤더 파싱 없이 활용할 수 있습니다. 프로젝트당 DSR 10개, DSR당 멤버 30개의 쿼터가 적용됩니다.</p>\n<p>Load Balancer(DSR)은 XDP/eBPF 기반 커널 단 기술을 상용 네트워크 서비스에 적용한 결과물입니다. 프록시 방식 대비 처리 성능을 높였으며, 워크로드 특성에 맞는 LB 선택이 가능해졌습니다. 모니터링과 통계 집계 기능을 보완 중이며, 운영 가시성을 높이는 방향으로 계속 발전시킬 계획입니다. Load Balancer(DSR)은 NHN Cloud에서 운영 중입니다.</p>\n<ul>\n<li><p><a href=\"https://www.nhncloud.com/kr/service/network/load-balancer-dsr\" target=\"_blank\" rel=\"noopener noreferrer\">Load Balancer(DSR) 서비스 소개</a></p>\n</li>\n<li><p><a href=\"https://docs.nhncloud.com/ko/Network/Load%20Balancer%28DSR%29/ko/console-guide/\" target=\"_blank\" rel=\"noopener noreferrer\">Load Balancer(DSR) 콘솔 사용 가이드</a></p>\n</li>\n<li><p>도입 문의: <a href=\"https://www.nhncloud.com/kr/support/inquiry\" target=\"_blank\" rel=\"noopener noreferrer\">NHN Cloud 고객지원 &gt; 문의하기</a></p>\n</li>\n</ul>\n<h2>참고 용어</h2>\n<p>| 용어 | 설명 |</p>\n<p>|------|------|</p>\n<p>| <strong>XDP(eXpress Data Path)</strong> | 커널 앞단에서 패킷을 처리하는 고성능 기술. DSR의 데이터플레인 핵심입니다. |</p>\n<p>| <strong>eBPF(extended Berkeley Packet Filter)</strong> | 커널에서 안전하게 실행되는 프로그램 작성 기술. XDP 구현의 기반입니다. |</p>\n<p>| <strong>VXLAN(Virtual Extensible LAN)</strong> | L2를 L3 위에서 캡슐화하는 터널링 프로토콜. LB가 멤버로 패킷을 전달할 때 사용됩니다. |</p>\n<p>| <strong>일관성 해싱(Consistent Hashing)</strong> | 노드 변경 시 기존 세션 재배치를 최소화하는 분산 알고리즘. Active-Active 구조의 기반입니다. |</p>\n<p>| <strong>BPF MAP</strong> | eBPF 프로그램의 데이터 저장·조회 자료구조. 세션·멤버·분산 테이블을 관리합니다. |</p>\n<p>| <strong>Control Plane / Data Plane</strong> | 제어(정책 결정, 헬스체크)와 전달(패킷 처리) 역할의 분리 구조. 데이터 경로를 단순하고 빠르게 유지합니다. |</p>\n<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint900%281%29.png\" alt=\"NHN Cloud_meetup banner_footer_mint_900.png\"></a></p>\n",
     "createdAt": "2026-07-20T02:12:54.000+00:00",
@@ -525,50 +569,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "SQLite를 운영하며 새롭게 배운 몇 가지",
-    "content": "<ul>\n<li>소규모 웹사이트의 프로덕션 환경에도 SQLite를 쓸 수 있지만, Django ORM이 맡는 작업이 늘면서 데이터베이스의 <strong>운영 복잡성</strong>을 체감함</li>\n<li>4,000행 테이블의 FTS5 검색이 5초 걸렸으나 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ANALYZE</code></strong> 실행 후 약 0.05초로 줄어, 쿼리 플래너 통계가 성능에 큰 ...<p></p></li></ul>",
-    "createdAt": "2026-07-18T16:33:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=31556",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: drawdb-collaborative - 실시간 협업이 가능한 drawDB",
-    "content": "<p>drawDB, ChartDB 등 ERD 툴은 많지만 협업이 가능한 실시간 수정이 반영이 포함된 무료 self-hosted 저장소는 없더라고요. 그래서 drawDB 오픈소스를 포크해서 수정해봤습니다.</p>\n<p>지원하는 기능은 아래와 같습니다.</p>\n<ol>\n<li>같은 다이어그램에 들어오는 모든 사용자는 서로 자동으로 연결됩니다.</li>\n<li></li></ol>",
-    "createdAt": "2026-07-18T16:23:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=31555",
-    "author": "yms2772",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 유튜브 댓글에서 체스 플레이 매크 프로그램",
-    "content": "<p>유튜브 댓글을 이용해 구독자 집단 지성과<br>\n체스 AI(Stockfish)가 대결하는 자동 체스 봇을 만들어봤습니다.</p>\n<p>봇은 10분마다 고정댓글의 대댓글을 수집한 뒤, 최근 작성된 댓글 중 SAN(Standard Algebraic Notation) 체스 표기법으로 작성된 수만 추려 가장 많은 좋아요를 받은 수를 플레이어의 착수로 선</p>",
-    "createdAt": "2026-07-18T15:50:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=31554",
-    "author": "arcoding",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 윈도우의 MSIX를 더블클릭 인스톨러 EXE로 만들어주는 도구를 만들어봤습니다.",
-    "content": "<p>MSIX는 Windows의 최신 패키징 포맷입니다. 샌드박스 기반으로 동작해서 레지스트리나 파일 연결 같은 시스템 변경이 격리되고, 삭제하면 잔여물이 하나도 남지 않습니다. MSIXBundle로 x64, x86, ARM64를 하나의 파일에 담을 수도 있고요.</p>\n<p>문제는 배포입니다.</p>\n<p>MSIX를 스토어 밖에서 설치하려면 사용자</p>",
-    "createdAt": "2026-07-18T13:14:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=31552",
-    "author": "kck4156",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
