@@ -1,5 +1,49 @@
 [
   {
+    "title": "Moonshine - PC 게임을 Moonlight가 실행되는 모든 기기로 스트리밍",
+    "content": "<ul>\n<li><strong>Moonshine</strong>은 PC 게임 화면을 Moonlight 클라이언트로 전송하고 키보드·마우스·컨트롤러 입력을 호스트로 돌려보내 원격 플레이를 지원하는 Linux 호스트임</li>\n<li>스트림마다 별도의 <strong>Wayland 컴포지터</strong>를 사용해 데스크톱과 격리하며, 스트리밍 중에도 호스트 PC를 계속 사...<p></p></li></ul>",
+    "createdAt": "2026-07-21T13:33:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31660",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Gitolite",
+    "content": "<ul>\n<li><strong>Gitolite</strong>는 중앙 서버에서 Git 저장소를 호스팅하며, 저장소별로 <strong>세밀한 접근 제어</strong>를 적용할 수 있게 함</li>\n<li>패키지 관리자로 설치할 때는 흔히 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gitolite3</code></strong> 라는 이름을 사용하며, 소스 코드는 Codeberg와 GitHub에서 제공됨</li>\n<li>Un...<p></p></li></ul>",
+    "createdAt": "2026-07-21T13:01:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=31659",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 뽑로그 - FDM·레진을 한 곳에서 다루는 3D프린팅 지식 사이트",
+    "content": "<p>FDM 과 레진을 한 사이트에서 다루는 한국어 3D프린팅 지식 사이트를 만들었습니다.</p>\n<p>[왜 만들었나]<br>\n\"엔더3 첫 레이어\", \"PETG 스트링\" 같은 걸 검색하면 개봉기와 제휴 리뷰가 먼저 나오고, 정작 필요한 \"내 기종 x 내 소재 셋팅값\"은 카페·갤러리·개인 블로그로 흩어져 </p>",
+    "createdAt": "2026-07-21T12:20:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=31657",
+    "author": "kiss9815",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인간 수학자, 반례 찾기에서 AI에 추월당하다",
+    "content": "<ul>\n<li>ChatGPT와 Claude 계열 모델이 불과 몇 주 사이 Erdős의 단위 거리 추측, Grothendieck의 군 스킴 질문, <strong>Jacobian Conjecture</strong>에 반례를 만들었으며 일부는 Lean으로 검증됨</li>\n<li>OpenAI의 <strong>Sol</strong>은 Erdős 반례와 필요한 전역 유체론 결과를 3주 만에 120만 줄의 Lean 코드로...<p></p></li></ul>",
+    "createdAt": "2026-07-21T11:34:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=31656",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Git 훅과 nq로 만드는 최소형 CI",
     "content": "<ul>\n<li>개인 서버의 bare Git 저장소에 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">post-receive</code> 훅</strong>을 추가해 테스트, 빌드, 파일 이동을 자동화하는 간단한 CI 구성임</li>\n<li>기존 CI는 복잡한 YAML 설정과 느린 실행, 어려운 자체 호스팅에 비해 완전한 빌드 격리나 비밀정보 관리까지 필요하지 않았음</li>\n<li>훅에서 작업을...<p></p></li></ul>",
     "createdAt": "2026-07-21T08:01:21.000+00:00",
@@ -544,50 +588,6 @@
     "createdAt": "2026-07-20T00:41:01.000+00:00",
     "link": "https://news.hada.io/topic?id=31596",
     "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "말기 4기 췌장암의 마지막 두 달: 증상 변화와 가족 돌봄의 핵심",
-    "content": "<h3>요약 개요</h3>\n<ul>\n<li>\n<p><strong>경과의 개인차</strong></p>\n<ul>\n<li>종양의 위치, 전이 장기, 치료 이력, 전신 상태에 따라 증상과 생존 기간이 크게 달라짐.</li>\n<li>의사가 제시한 예상 기간보다 짧거나 길게 생존한 사례가 모두 존재함.</li>\n</ul>\n</li>\n<li>\n<p><strong>주요 신체 변화</strong></p>\n</li></ul>",
-    "createdAt": "2026-07-20T00:38:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=31595",
-    "author": "baeba",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenWiki - 코드베이스를 위한 에이전트용 문서를 작성하고 관리하는 CLI",
-    "content": "<ul>\n<li><strong>에이전트 전용</strong>으로 제작된 문서화 도구로, 코드베이스나 목적별 메모리용 위키를 작성/유지</li>\n<li>내장 커넥터 또는 Git 저장소를 통해 로컬 지식 소스를 가져와 하나의 <strong>로컬 위키로 통합</strong></li>\n<li><strong>두 가지 모드</strong> 제공\n<ul>\n<li><strong>Personal 모드...<p></p></strong></li></ul></li></ul>",
-    "createdAt": "2026-07-20T00:31:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31594",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "최근 즐겨 읽는 블로그는 무엇인가요?",
-    "content": "<ul>\n<li>최근 꾸준히 읽고 있는 <strong>블로그 추천</strong>을 요청하는 글</li>\n<li>추천 분야에는 별도의 제한을 두지 않으며, 특히 블로그가 <strong>학술 논문을 넘어 제공하는 가치</strong>에 관심이 있음</li>\n<li>논문과 차별화되는 정보나 경험을 주요 추천 기준으로 삼음</li>\n<li>구체적인 블로그와 함께 ...<p></p></li></ul>",
-    "createdAt": "2026-07-20T00:00:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=31592",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "여분의 Mac을 Claude Code 전용 제어 환경으로 만드는 단계별 가이드",
-    "content": "<ul>\n<li>개인 데이터가 없는 <strong>여분의 Mac</strong>에 Claude Code를 설치해, 주 Mac의 SSH와 휴대폰 Claude 앱에서 항상 접근 가능한 <strong>독립 실행 환경</strong>으로 구성함</li>\n<li>컨테이너보다 장비 격리 수준이 높고 Unity와 Mac 전용 GUI 앱도 사용할 수 있어, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--dangerously-skip-permission...<p></p></code></li></ul>",
-    "createdAt": "2026-07-19T23:35:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=31591",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
