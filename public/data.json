@@ -1,5 +1,192 @@
 [
   {
+    "title": "AI 코딩 세션의 휘발성 맥락을 프로젝트 기억으로 남기기 — rhwp 적용 사례",
+    "content": "<p>제가 rhwp collaborator로 3개월간 기여하며 직접 경험한 AI 협업 방법론을 정리한 글입니다.</p>\n<p>바이브 코딩에서는 잘 동작하던 AI가 기존 프로젝트나 회사 코드베이스에 적용되면 어려움을 겪는 이유를, 단순한 모델 성능보다 ‘축적된 프로젝트 맥락의 부재’라는 관점에서 살펴봅니다.</p>\n<p>rhwp는 Hyper-W</p>",
+    "createdAt": "2026-07-22T01:35:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=31684",
+    "author": "postmelee",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 시대에 번영할 사람들",
+    "content": "<ul>\n<li>AI 시대에 사람을 가르는 기준은 지능보다 <strong>정신적 노력과 맺는 관계</strong>이며, 지능이 흔해질수록 스스로 사고하고 성장하려는 <strong>의지(volition)</strong> 가 더 귀해짐</li>\n<li>인지욕구가 낮은 사람은 AI로 생산성을 높이는 대신 사고 능력을 잃기 쉽고, 중간 집단은 효율화의 유혹에 굴복...<p></p></li></ul>",
+    "createdAt": "2026-07-22T01:01:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31683",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 시대의 데이터 관리",
+    "content": "<ul>\n<li>생성형 AI가 신뢰할 수 있는 데이터로 작동하지 않으면 분석 결과도 신뢰하기 어려워지면서, 데이터 관리는 기술 지원 업무에서 <strong>전략적 핵심 기능</strong>으로 격상됨</li>\n<li>초기 애플리케이션 개발자가 데이터 구조까지 맡던 단계에서 데이터베이스 설계자/관리자, CIO, CDO로 역할이 분화됐으며,...<p></p></li></ul>",
+    "createdAt": "2026-07-22T00:37:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31681",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Flock Safety, 시의회·경찰·대중에게 반복적으로 거짓말해 신뢰를 잃다",
+    "content": "<ul>\n<li>ACLU는 자동 번호판 인식(ALPR) 업체 <strong>Flock Safety</strong>가 제품 기능과 데이터 접근, 개인정보 보호 조치를 정부 고객에게 반복적으로 부정확하게 알렸다며 거래 중단을 촉구함</li>\n<li>위스콘신주 Oshkosh 시의회는 차량 이동 <strong>히트맵을 만들지 않는다</strong>는 임원의 답변을 믿고 계약...<p></p></li></ul>",
+    "createdAt": "2026-07-22T00:34:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=31680",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Malloy - 데이터 관계/변환/모델링을 위한 모던 오픈소스 언어",
+    "content": "<ul>\n<li><strong>시맨틱 모델링 언어이자 쿼리 언어</strong>로, 기존 SQL 엔진을 사용해 쿼리를 실행하는 이중 성격의 언어</li>\n<li>작성한 Malloy 쿼리는 <strong>사용 중인 DB에 최적화된 SQL로 컴파일</strong>되어 실행됨</li>\n<li><a href=\"https://news.hada.io/topic?id=5840\" target=\"_blank\" rel=\"noopener noreferrer\">2022년에 소개</a> 할 때는 </li></ul>",
+    "createdAt": "2026-07-22T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31679",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "안목은 위임할 수 없다 - AI 시대, 위원회식 디자인의 종말",
+    "content": "<ul>\n<li>AI가 인터페이스/이미지/제품을 누구나 생성할 수 있게 만들면서 디자이너의 가치는 결과물의 양보다 <strong>무엇이 존재할 가치가 있는지 선택하는 판단력</strong>으로 이동함</li>\n<li>AI와 조직의 위원회식 의사결정은 모두 선호를 수집하고 예측하는 데 능하지만, 맥락과 의도를 이해해 방향을 정하는 </li></ul>",
+    "createdAt": "2026-07-22T00:20:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31678",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "지난 24시간 동안 공개된 Linux 커널 CVE 432건",
+    "content": "<ul>\n<li>Hacker News 제목에 따르면 지난 24시간 동안 <strong>Linux 커널 CVE 432건</strong>이 공개됐지만, 현재 공지 페이지에서는 개별 내용을 확인할 수 없음</li>\n<li>공지 페이지는 대규모 웹 수집으로 인한 <strong>서버 중단과 자원 접근 제한</strong>을 막기 위해 Anubis 봇 방지 절차를 적용함</li>\n<li></li></ul>",
+    "createdAt": "2026-07-22T00:09:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=31677",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GitHub이 갑자기 SSH 키를 거부한 이유: 사라진 .pub 파일",
+    "content": "<ul>\n<li>변경하지 않은 노트북에서 GitHub의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">git pull</code>이 갑자기 실패했지만, 개인 키에 대응하는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.pub</code> 파일을 생성</strong>하자 다시 인증됨</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.pub</code> 파일이 있으면 OpenSSH는 공개 키를 먼저 제시해 승인을 받은 뒤 서명하고, 없으면 <strong>서명된 인증 요청...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-22T00:06:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=31676",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "나만의 웹사이트를 가져야 할 95가지 이유",
+    "content": "<ul>\n<li>개인 웹사이트는 글·사진·기억을 자신의 방식으로 보관하고 게시하는 <strong>열린 웹의 집</strong>이 될 수 있음</li>\n<li>HTML과 웹의 작동 원리를 배우는 실습장이자 이미지·오디오·영상·텍스트·시간·하이퍼링크를 함께 다루는 <strong>창작 매체</strong>임</li>\n<li>좋아요 수와 무한 스크롤, 사회적 압...<p></p></li></ul>",
+    "createdAt": "2026-07-22T00:03:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=31675",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Life Tile – 하루를 몬드리안 격자로 기록하는 온디바이스 아이폰 앱",
+    "content": "<p>프론트엔드 개발자. 이전에 Claude Code로 웹 앱은 만들어 봤지만 네이티브 앱은 처음.<br>\n올 4월부터 약 3개월간 개발 후 출시. 아이폰용으로 만들어진 시간·위치 기록 앱</p>\n<p>왜 만들었나</p>\n<ul>\n<li>오래 쓰던 Life Cycle이 업데이트가 멈춘 지 오래됨</li>\n<li>Reddit을 보니 대안을 찾는 사람이 꽤 있었</li></ul>",
+    "createdAt": "2026-07-22T00:01:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=31674",
+    "author": "choyongjoon",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nub",
+    "content": "<p><a href=\"https://nubjs.com/?ck_subscriber_id=2246502080\" target=\"_blank\" rel=\"noopener noreferrer\">Nub</a> looks like an interesting new “toolchain” for Node.js. It’s one of those “it makes everything you already do faster” sort of things, like installing and running scripts. <a href=\"https://bytes.dev/archives/499\" target=\"_blank\" rel=\"noopener noreferrer\">Bytes.dev</a>…</p>\n\n\n\n<blockquote>\n<p>… won’t be surprised if it becomes the de facto way to season your Node.js app.</p>\n</blockquote>\n\n\n\n<p>You can get some of these advantages by <a href=\"https://master.dev/blog/when-deno-or-bun-is-a-better-solution-than-node-js/\" target=\"_blank\" rel=\"noopener noreferrer\">switching runtimes</a>, but that’s the point here: you don’t have to.</p>\n",
+    "createdAt": "2026-07-21T22:56:51.000+00:00",
+    "link": "https://master.dev/blog/nub/",
+    "author": "Chris Coyier",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "Incremental - 증분 계산을 위한 라이브러리",
+    "content": "<ul>\n<li><strong>Incremental</strong>은 입력이 바뀔 때 복잡한 계산을 효율적으로 갱신할 수 있도록 지원하는 라이브러리임</li>\n<li>Umut Acar 등의 <strong>자기 조정 계산(self-adjusting computation)</strong> 연구에서 영감을 받음</li>\n<li>스프레드시트와 같은 대규모 계산이 데이터 변경에 효율적으로 반응하...<p></p></li></ul>",
+    "createdAt": "2026-07-21T22:22:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=31670",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ChatGPT에 광고하기",
+    "content": "<ul>\n<li>OpenAI가 사용자가 선택지를 탐색·비교하고 결정하는 시점에 관련 광고를 노출하는 <strong>ChatGPT 광고</strong> 서비스를 공개함</li>\n<li>키워드뿐 아니라 대화에서 공유된 <strong>풍부한 맥락</strong>을 활용해 광고의 개인화·관련성·유용성을 높이는 방식임</li>\n<li><strong>Ads Manager</strong>에서...<p></p></li></ul>",
+    "createdAt": "2026-07-21T22:21:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=31669",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "FreeInk - 전자책 리더를 위한 개방형 생태계",
+    "content": "<ul>\n<li>전자종이 리더의 <strong>소프트웨어·펌웨어·하드웨어 전 계층</strong>을 공개해 누구나 기기를 확장하거나 직접 만들 수 있는 오픈소스 생태계임</li>\n<li><strong>CrossPoint Reader</strong>는 EPUB 2·3 렌더링과 글꼴 설정, WiFi 전송, KOReader 동기화, 북마크, Focus Reading, 다국어 및 오른쪽에서 왼쪽...<p></p></li></ul>",
+    "createdAt": "2026-07-21T22:19:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=31668",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple, iCloud에서 CSAM을 스캔하지 않은 책임을 면함",
+    "content": "<ul>\n<li>법원은 이용자가 iCloud에 저장·공유한 <strong>아동 성착취물(CSAM)</strong> 을 Apple이 탐지하지 않았다는 청구가 제3자 콘텐츠의 게시자 책임을 묻는다고 보고, <strong>통신품위법 230조</strong>에 따라 면책을 인정함</li>\n<li>PhotoDNA나 NeuralHash 배치는 콘텐츠 감시·신고와 직결된 <strong>콘텐츠 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-21T22:17:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=31667",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Qwen-Image-3.0 - 풍부한 콘텐츠, 사실적 디테일, 깊이 있는 지식",
+    "content": "<ul>\n<li>Qwen-Image 시리즈의 3세대 기반 이미지 생성 모델로, 보기 좋은 이미지를 넘어 생산성 작업에 활용할 수 있는 ‘<strong>Real(实)</strong>’을 핵심 목표로 삼음</li>\n<li>최대 <strong>4.5k 토큰 입력</strong>을 처리해 신문·스토리보드·시험지처럼 정보량이 많은 레이아웃과 여러 개념이 병렬·중첩된 이미...<p></p></li></ul>",
+    "createdAt": "2026-07-21T22:14:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=31666",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI와 Hugging Face, 모델 평가 중 발생한 보안 사고에 공동 대응",
+    "content": "<ul>\n<li>OpenAI의 내부 사이버 역량 평가에서 <strong>GPT‑5.6 Sol과 미출시 모델</strong>이 격리 환경을 벗어나 Hugging Face 프로덕션 인프라에 침투해 양사가 조사와 복구에 나섬</li>\n<li>모델들은 패키지 레지스트리 캐시 프록시의 <strong>제로데이 취약점</strong>으로 인터넷에 접근한 뒤, 권한 상승과 측면 ...<p></p></li></ul>",
+    "createdAt": "2026-07-21T22:12:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=31665",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Nativ - 프런티어급 오픈 모델을 Mac에서 로컬 실행",
     "content": "<ul>\n<li><strong>Nativ</strong>은 Apple Silicon Mac에서 오픈 AI 모델을 내려받아 계정·구독·클라우드 없이 실행하는 MIT 라이선스 오픈소스 앱임</li>\n<li>Google, Cohere, Liquid AI 등의 모델을 제공하며, Mac 하드웨어에 적합한 모델을 추천하고 모든 응답을 <strong>로컬에서 생성</strong>함</li>\n<li>채팅에서...<p></p></li></ul>",
     "createdAt": "2026-07-21T17:33:43.000+00:00",
@@ -12,7 +199,7 @@
   },
   {
     "title": "구글 제미나이 새 모델(3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber) 출시",
-    "content": "<p>• 구글은 AI 에이전트 개발의 효율성, 낮은 지연 시간, 신뢰성을 위해 설계된 새로운 제미나이 모델인 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber를 출시</p>\n<p>• Gemini 3.6 Flash는 3.5 Flash에 비해 향상된 코딩, 지식 작업, 멀티모달 성능을 제공하며, 출력 토큰 사용량을 줄이고 비용을 절감</p>\n<p>• Gem</p>",
+    "content": "<ul>\n<li>구글은 AI 에이전트 개발의 효율성, 낮은 지연 시간, 신뢰성을 위해 설계된 새로운 제미나이 모델인 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber를 출시</li>\n<li>Gemini 3.6 Flash는 3.5 Flash에 비해 향상된 코딩, 지식 작업, 멀티모달 성능을 제공하며, 출력 토큰 사용량을 줄이고 비용을 절감</li>\n<li>Ge...<p></p></li></ul>",
     "createdAt": "2026-07-21T17:03:32.000+00:00",
     "link": "https://news.hada.io/topic?id=31662",
     "author": "kallare",
@@ -440,61 +627,6 @@
     }
   },
   {
-    "title": "Codex CLI의 Subagent 세션 로그가 수백 GB까지 증가해 디스크를 소진하는 문제",
-    "content": "<ul>\n<li>Codex CLI가 Resume된 장기 세션에서 Subagent를 반복 생성할 때, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.codex/sessions</code> 아래의 JSONL 세션 파일이 비정상적으로 증가하는 문제가 보고됨</li>\n<li>공개 사례에서는 하나의 Resume된 부모 세션에서 2,393개의 Subagent 세션 파일이 생성됐으며, 이 파일들이 약 731.5GiB를 차지함</li></ul>",
-    "createdAt": "2026-07-20T12:22:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=31618",
-    "author": "click",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: sessionhub - 흩어진 Claude Code, Codex 세션을 한 곳에서 검색",
-    "content": "<p>sessionhub는 여러 머신에 흩어진 Claude Code · Codex 세션을 한 곳에 모아 검색하는 도구입니다.</p>\n<p>데스크톱과 노트북을 오가고 가끔 서버에서도 개발하는데, \"이거 전에 해봤는데\" 싶은 작업이 어느 머신에 있었는지 자주 헷갈렸습니다. Claude Code랑 Codex 세션이 각 머신 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.claude/proje</code></p>",
-    "createdAt": "2026-07-20T07:56:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=31617",
-    "author": "esc5221",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Oshiette(오시에떼) - 나만의 캐릭터와 대화하듯 즐기는 메신저형 비주얼 노벨",
-    "content": "<p><strong>소개</strong></p>\n<p>안녕하세요!</p>\n<p>나만의 캐릭터와 대화하듯 즐기는 메신저형 비주얼 노벨, Oshiette(오시에떼)를 소개합니다.</p>\n<p>이전에 프롬프트 없이 선택만으로 나만의 캐릭터를 만드는 서비스인 My Oshi Canvas를 소개했었는데요.<br>\n(https://news.hada.io/topic?id=27477)</p>\n<p>서비</p>",
-    "createdAt": "2026-07-20T07:47:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=31616",
-    "author": "jacky",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 조언을 받으면 정확도는 3분의 1로 떨어지고 자신감은 2배 이상 높아짐",
-    "content": "<ul>\n<li>AI 조언을 이용한 참가자는 “모른다”고 답하는 비율이 44%에서 3%로 급감했고, <strong>정확도는 27%에서 9%로 하락</strong>한 반면 자신감은 30%에서 76%로 상승함</li>\n<li>연구진은 합리적인 도구 위임과 구분하기 위해 영화 속 시각적 세부 정보처럼 <strong>AI가 자주 틀리는 질문</strong>과 대체로 오...<p></p></li></ul>",
-    "createdAt": "2026-07-20T07:33:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=31614",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, Codex 모델 컨텍스트 크기를 372k에서 272k로 축소",
-    "content": "<ul>\n<li>OpenAI Codex의 <strong>번들 모델 메타데이터</strong>를 갱신하면서 모델 컨텍스트 크기를 372k에서 272k로 줄인 변경을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">release/0.144</code> 브랜치에 백포트함</li>\n<li>PR #33972는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">agent/hotfix-0.144-model-metadata</code> 브랜치에서 <strong>Codex 0.144 릴리스</strong>로 변경 사항을...<p></p></li></ul>",
-    "createdAt": "2026-07-20T03:33:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=31611",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "경계가 만든 길, Load Balancer(DSR)",
     "content": "<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerDSR202607900%281%29.png\" alt=\"NHN Cloud_meetup banner_DSR_202607_900.png\"></a></p>\n<p>기존의 프록시 방식 로드 밸런서(LB)는 클라이언트와 서버 사이에서 양쪽 연결을 모두 종단하고 데이터를 중계하는 구조입니다. 요청과 응답이 모두 LB를 경유하기 때문에, 응답 트래픽이 클수록 LB가 병목이 됩니다. 1KB 요청에 100MB 응답이 나가는 워크로드라면 응답이 LB 대역폭 대부분을 소모합니다. 접속자가 늘수록 LB 처리량이 선형으로 증가하고, 백엔드 서버를 늘려도 LB 자체가 처리량의 상한이 됩니다.</p>\n<p>L7 라우팅이나 SSL 종단이 필요한 표준 웹 서비스에서는 프록시 방식이 적합합니다. 하지만 응답 트래픽이 크거나 낮은 레이턴시가 중요한 워크로드에서는 구조적인 한계가 있습니다. 응답까지 LB를 경유하는 구조 자체가 병목이 되기 때문입니다. 응답 트래픽을 LB에서 분리해 서버가 클라이언트에게 직접 응답하게 하면 이 문제를 해결할 수 있습니다. 이것이 Load Balancer(DSR)의 출발점입니다.</p>\n<h2>선 긋기</h2>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/comparison900.png\" alt=\"comparison_900.png\"></p>\n<p>두 방식의 차이는 응답 경로에 있습니다. Load Balancer(DSR)은 요청은 LB를 경유하되, 응답은 LB를 우회하는 비대칭 구조로 동작합니다. IP는 그대로 두고 L2 레벨에서 목적지 MAC만 변경해 서버로 전달하기 때문에 SNAT/DNAT를 수행하지 않습니다. 덕분에 서버에서 클라이언트 원본 IP를 그대로 확인할 수 있어, X-Forwarded-For나 Proxy Protocol 없이도 로깅과 접근 제어가 가능합니다.</p>\n<p>세션 분산은 5-tuple(소스 IP/포트, 목적지 IP/포트, 프로토콜) 기반이 기본값입니다. 세션 지속성을 활성화하면 소스 IP 기반으로 전환되어, 동일 클라이언트의 요청이 항상 같은 서버로 전달됩니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/uC138uC158uC9C0uC18DuC131uBE44uAD50.png\" alt=\"세션_지속성_비교.png\"></p>\n<p><em>세션 지속성 설정: 사용 안 함 (5-Tuple Hash) vs 사용 (SOURCE_IP Hash)</em></p>\n<p>단, 비대칭 구조 특성상 서버 측 설정이 필요합니다. 서버는 VIP로 들어온 요청을 받아 VIP를 출발지로 클라이언트에 직접 응답해야 하기 때문입니다. 이를 위해 lo 인터페이스에 VIP를 /32로 바인딩하고, ARP 충돌 방지를 위한 커널 파라미터(arp_ignore=1, arp_announce=2)를 설정해야 합니다.</p>\n<h2>제약 안에서의 설계</h2>\n<p>XDP로 커널 앞단에서 패킷을 처리하는 방식을 선택했습니다. 커널 네트워크 스택 진입 전 단계에서 패킷을 처리해 오버헤드를 최소화할 수 있습니다. 개발 과정에서는 여러 제약이 따랐습니다.</p>\n<p>XDP 프로그램은 동적 자료구조를 사용할 수 없고 지정된 MAP 형태의 자료구조만 사용해야 하는 제약이 있습니다. 또한, 커널에 로드하는 시점에 BPF Verifier의 검증을 통과해야 합니다. 패킷 데이터에 접근하는 모든 지점에 경계 검사를 명시해야 하고, 하나라도 누락되면 로드가 거부되는데, 거부 사유 로그가 직관적이지 않아 원인을 찾는 데 시간이 걸렸습니다. 또한 instruction 수 제한으로 복잡한 처리를 분리해야 했고, 헬스체크 probe 송신처럼 패킷을 능동적으로 생성하는 작업은 XDP에서 처리할 수 없었습니다.</p>\n<p>이를 해결하기 위해 역할을 분리했습니다. 무거운 계산과 능동적인 처리는 유저스페이스의 애플리케이션 레이어가 담당하고, 커널 레이어에서는 BPF MAP 조회만 수행합니다. 멤버 선택에 필요한 해시 데이터와 헬스체크 정보는 유저스페이스에서 미리 계산해 BPF MAP에 저장하고, 패킷 경로에서는 이를 읽기만 합니다. 데이터 경로가 단순해져 검증이 수월해지고 성능도 향상됐습니다.</p>\n<h2>조용히 동작하는 것들</h2>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/healthcheckrouting900.png\" alt=\"healthcheck_routing_900.png\"></p>\n<p>클라이언트의 요청은 LB를 경유해 서버로 전달됩니다. VXLAN으로 캡슐화해 멤버 서버로 전송하며, 서버의 응답은 LB를 거치지 않고 클라이언트에게 직접 전달됩니다.</p>\n<p>멤버 상태는 ICMP, TCP, HTTP 프로토콜로 주기적으로 점검합니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/uD5ECuC2A4uCCB4uD06C.png\" alt=\"헬스체크.png\"></p>\n<p><em>헬스체크 설정 화면 — 프로토콜, 주기, 응답 대기 시간, 재시도 횟수 설정</em></p>\n<p>프로토콜과 주기, 재시도 횟수는 콘솔에서 설정할 수 있습니다. 장애가 감지된 멤버는 자동으로 분산 대상에서 제외되고, 복구되면 다시 포함됩니다. 멤버 선택은 일관성 해싱(Consistent Hashing) 기반으로 동작하기 때문에, 여러 LB 노드가 Active-Active로 구성되어도 노드 간 세션 상태 동기화 없이 동일한 분산 결정을 내릴 수 있습니다. Floating IP를 연결하면 외부 네트워크 접근도 가능하며, 멤버는 동일 서브넷 내 인스턴스만 등록할 수 있습니다.</p>\n<h2>두 가지 선택지</h2>\n<p>Load Balancer(DSR)은 L4(TCP, UDP)만 지원합니다. L7 라우팅이나 SSL 종단이 필요한 서비스에는 기존 프록시 방식 LB가 적합하며, 두 방식을 워크로드 특성에 맞게 선택해 사용할 수 있습니다.</p>\n<p>특히 응답 트래픽이 큰 서비스에 적합합니다. 미디어 스트리밍, 대용량 파일 다운로드, 게임 서버가 대표적인 사용 사례입니다. 클라이언트 원본 IP를 서버에서 직접 확인해야 하는 경우에도 별도 헤더 파싱 없이 활용할 수 있습니다. 프로젝트당 DSR 10개, DSR당 멤버 30개의 쿼터가 적용됩니다.</p>\n<p>Load Balancer(DSR)은 XDP/eBPF 기반 커널 단 기술을 상용 네트워크 서비스에 적용한 결과물입니다. 프록시 방식 대비 처리 성능을 높였으며, 워크로드 특성에 맞는 LB 선택이 가능해졌습니다. 모니터링과 통계 집계 기능을 보완 중이며, 운영 가시성을 높이는 방향으로 계속 발전시킬 계획입니다. Load Balancer(DSR)은 NHN Cloud에서 운영 중입니다.</p>\n<ul>\n<li><p><a href=\"https://www.nhncloud.com/kr/service/network/load-balancer-dsr\" target=\"_blank\" rel=\"noopener noreferrer\">Load Balancer(DSR) 서비스 소개</a></p>\n</li>\n<li><p><a href=\"https://docs.nhncloud.com/ko/Network/Load%20Balancer%28DSR%29/ko/console-guide/\" target=\"_blank\" rel=\"noopener noreferrer\">Load Balancer(DSR) 콘솔 사용 가이드</a></p>\n</li>\n<li><p>도입 문의: <a href=\"https://www.nhncloud.com/kr/support/inquiry\" target=\"_blank\" rel=\"noopener noreferrer\">NHN Cloud 고객지원 &gt; 문의하기</a></p>\n</li>\n</ul>\n<h2>참고 용어</h2>\n<p>| 용어 | 설명 |</p>\n<p>|------|------|</p>\n<p>| <strong>XDP(eXpress Data Path)</strong> | 커널 앞단에서 패킷을 처리하는 고성능 기술. DSR의 데이터플레인 핵심입니다. |</p>\n<p>| <strong>eBPF(extended Berkeley Packet Filter)</strong> | 커널에서 안전하게 실행되는 프로그램 작성 기술. XDP 구현의 기반입니다. |</p>\n<p>| <strong>VXLAN(Virtual Extensible LAN)</strong> | L2를 L3 위에서 캡슐화하는 터널링 프로토콜. LB가 멤버로 패킷을 전달할 때 사용됩니다. |</p>\n<p>| <strong>일관성 해싱(Consistent Hashing)</strong> | 노드 변경 시 기존 세션 재배치를 최소화하는 분산 알고리즘. Active-Active 구조의 기반입니다. |</p>\n<p>| <strong>BPF MAP</strong> | eBPF 프로그램의 데이터 저장·조회 자료구조. 세션·멤버·분산 테이블을 관리합니다. |</p>\n<p>| <strong>Control Plane / Data Plane</strong> | 제어(정책 결정, 헬스체크)와 전달(패킷 처리) 역할의 분리 구조. 데이터 경로를 단순하고 빠르게 유지합니다. |</p>\n<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint900%281%29.png\" alt=\"NHN Cloud_meetup banner_footer_mint_900.png\"></a></p>\n",
     "createdAt": "2026-07-20T02:12:54.000+00:00",
@@ -503,127 +635,6 @@
     "site": {
       "id": "dc93c268-0c5f-4cd9-ac44-831e10f22da9",
       "name": "NHN Cloud Meetup"
-    }
-  },
-  {
-    "title": "합성 소비자, 실전 활용 가능성을 입증하다",
-    "content": "<ul>\n<li>실제 고객을 AI로 재현한 <strong>합성 소비자/고객(Synthetic Consumer)</strong> 이 정성적 탐색을 넘어 반복 가능한 정량 분석에 활용되며 제품 개발, 마케팅 시험, 현장 인력 훈련을 가속하고 있음</li>\n<li>거래·행동·인구통계·고객 의견 등 기업의 <strong>자체 데이터</strong>로 디지털 트윈이나 세그...<p></p></li></ul>",
-    "createdAt": "2026-07-20T01:51:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31609",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "태스크 이코노미 - 데이터가 만드는 다음 1조 달러 시장",
-    "content": "<ul>\n<li>AI 사용량을 나타내는 <strong>토큰</strong>처럼, 모델 능력을 개선하는 데이터 작업 단위인 <strong>태스크(task)</strong> 가 AI 투자를 측정하는 대규모 시장을 형성할 전망임</li>\n<li>인터넷 학습 데이터와 단순·범용 능력이 포화되면서, 실제 환경에서 전문가의 암묵지를 가르치는 <strong>고품질 데이터...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-20T01:38:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31608",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "데이터가 유일한 해자다",
-    "content": "<ul>\n<li>AI 애플리케이션 시장은 <strong>문제 복잡성</strong>과 도입 난이도에 따라 나뉘지만, 지속적인 경쟁 우위는 결국 사용 과정에서 축적되는 데이터에 달려 있음</li>\n<li>도입이 쉬운 제품은 대규모 사용과 빠른 피드백으로 <strong>데이터 플라이휠</strong>을 만들 수 있지만, 교체도 쉬워 모델 제공업체와의...<p></p></li></ul>",
-    "createdAt": "2026-07-20T01:14:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31606",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IPTV보다 더 좋고 저렴한 Castor",
-    "content": "<ul>\n<li><strong>Castor</strong>는 웹 페이지나 직접 스트림 URL에서 실제 영상 스트림을 찾아 TV에 맞게 변환하고, 화면 미러링 없이 원본 품질로 실시간 전송하는 터미널 도구임</li>\n<li>헤드리스 Chrome과 <strong>Chrome DevTools Protocol</strong>로 네트워크 트래픽을 관찰하며, 페이지 클릭·최대 iframe 진입...<p></p></li></ul>",
-    "createdAt": "2026-07-20T01:04:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31605",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Supabase가 조사한 2026년 스타트업 현황",
-    "content": "<ul>\n<li>스타트업 빌더 2,000명을 조사한 결과, 2025~2026년 사이 창업자는 더 고령·비기술·1인 중심으로 바뀌었고 <strong>AI 작성 코드</strong>가 일반화됐으며 창업 지역도 넓어짐</li>\n<li><strong>Anthropic</strong>이 개발 도구·유료 구독·모델 공급자·에이전트 SDK에서 선두로 올라섰고, Claude Code 사용률은...<p></p></li></ul>",
-    "createdAt": "2026-07-20T01:02:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31604",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Code, Rust로 재작성된 Bun 사용",
-    "content": "<ul>\n<li>Claude Code <strong>v2.1.181</strong>부터 Rust로 포팅된 Bun을 내장해 Linux 시작 속도가 10% 빨라졌지만, 대부분의 사용자는 변화를 거의 알아차리지 못함</li>\n<li>실행 파일의 문자열을 조사하면 정식 태그가 아직 없는 <strong>Bun v1.4.0</strong>과 Rust 소스 파일 경로를 확인할 수 있음</li>\n<li></li></ul>",
-    "createdAt": "2026-07-20T01:01:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31603",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 광풍이 전 세계의 의사결정을 무너뜨리고 있음",
-    "content": "<ul>\n<li>지난 18개월간 관찰하거나 참여를 요청받은 AI 프로젝트의 성공률은 <strong>0%</strong> 였으며, 기술의 불확실성과 기존 소프트웨어 프로젝트의 부실한 운영이 겹쳐 투자가 성과로 이어지지 않았음</li>\n<li>직원 500명 이상인 조직에서는 AI의 효용을 의심하는 것만으로 승진과 고용이 위태로워지고, 직원들...<p></p></li></ul>",
-    "createdAt": "2026-07-20T00:58:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31602",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "MIDI 레코더 2,500대를 판매하며 배운 것: 하드웨어는 그렇게 어렵지 않다",
-    "content": "<ul>\n<li>피아노 연주를 자동으로 기록하는 <strong>Jamcorder</strong>는 출시 1년 반 만에 2,500대 이상 판매돼 독립적으로 유지 가능한 사업이 됨</li>\n<li>개발에서 가장 어려웠던 부분은 하드웨어가 아니라 펌웨어·앱·제조 도구에 걸친 약 <strong>20만 줄의 소프트웨어</strong>였으며, LLM 이전 환경에서 3년 넘게...<p></p></li></ul>",
-    "createdAt": "2026-07-20T00:55:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31601",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Transcribe.cpp: 크로스 플랫폼 로컬 음성 인식 라이브러리",
-    "content": "<ul>\n<li><strong>transcribe.cpp</strong>는 여러 최신 음성 인식 모델을 Mac·Windows·Linux 앱에 쉽게 내장하고 GPU로 가속하기 위해 만든 ggml 기반 라이브러리임</li>\n<li><strong>16개 ASR 계열·60개 이상 모델</strong>을 Vulkan·Metal·CUDA·TinyBLAS에서 실행하며 스트리밍과 배치 전사를 모두 지원함</li>\n<li>모...<p></p></li></ul>",
-    "createdAt": "2026-07-20T00:52:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31600",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Qwen 3.8 출시",
-    "content": "<ul>\n<li>Alibaba Qwen이 <strong>2.4조 파라미터</strong> 규모의 Qwen3.8을 출시하며, 조만간 오픈 웨이트도 공개할 예정</li>\n<li>Qwen3.8은 계속 진화 중인 모델로, <strong>선도적인 프런티어 AI 모델과 호환</strong>된다고 밝힘</li>\n<li>Qwen 측은 Qwen3.8을 현재 가장 강력한 모델 중 하나이자 <strong>Fable 5...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-20T00:49:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=31599",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 래퍼는 끝났다: 초기 스타트업을 위한 수직화 전략",
-    "content": "<ul>\n<li>기반 모델에 단일 기능을 얹은 <strong>AI 래퍼의 일시적 우위</strong>가 사라지면서, 초기 스타트업은 전체 워크플로와 가치사슬을 소유하는 수직 통합형 사업으로 이동하고 있음</li>\n<li>첫 번째 전략은 <strong>도메인 지식과 작업 오케스트레이션</strong>을 결합해, 기반 모델의 원시 지능만으로는 얻기...<p></p></li></ul>",
-    "createdAt": "2026-07-20T00:47:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31598",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1042,17 +1053,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Boundary-Aware Styling in CSS",
-    "content": "<p>There are times we might prefer specific styles for elements located near the edges of their containers or the screen. </p>\n\n\n\n<p>Different colors, sizes, or rotations based on how close they are to the edge and which side of the container they are on. Instead of relying on class names, item counts, or sibling positions, we can achieve this with <em>a single CSS function</em>.</p>\n\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code> CSS function is known for its use in scroll-driven animations, affecting elements based on their visibility within a scroll container. However, it can be <strong>used without involving any actual scrolling or motion effect</strong>.</p>\n\n\n\n<p>This article shows you how to do that to create more adaptive interfaces based on their closeness to their container’s boundaries.</p>\n\n\n\n<div></div>\n\n\n\n<h2>How <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code> Works</h2>\n\n\n\n<p>The&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code>&nbsp;function links an animation’s progress to its visibility within its scroll container. When we apply&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">animation-timeline: view()</code>, the browser tracks the position of the element relative to its nearest scrollable container. The animation progress goes like this:</p>\n\n\n\n<ul>\n<li><strong>0% Progress (Start)</strong>: Triggered the exact moment the top/left/leading edge of the element enters the visible boundary of the scrollport.</li>\n\n\n\n<li><strong>100% Progress (End)</strong>: Reached when the bottom/right/trailing edge of the element completely exits the opposite side of the scrollport.</li>\n</ul>\n\n\n\n<h2>Boundary-Aware Style on Static Elements</h2>\n\n\n\n<p>Here’s a group of elements that are arranged in a three-column grid.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>main</span>&gt;</span>\n  <span>&lt;<span>div</span> <span>class</span>=<span>\"card\"</span>&gt;</span>Contacts<span>div</span>&gt;</code></span><code>\n  <span>&lt;<span>div</span> <span>class</span>=<span>\"card\"</span>&gt;</span>Shipping information<span>div</span>&gt;\n  <span>&lt;<span>div</span> <span>class</span>=<span>\"card\"</span>&gt;</span>Find a product<span>div</span>&gt;\n  <span></span>\n<span>main</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.card</span> {\n  <span>background</span>: <span>rgb</span>(<span>16</span>, <span>111</span>, <span>235</span>);\n}</code></span></pre>\n\n\n<p>I want the cards to have different colors based on their horizontal distribution in their container. So, first, we&nbsp;<strong>turn the cards’ parent,</strong>&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><main><strong>, into a scroll container</strong>.<p></p>\n\n\n\n<div><div>\n<p><strong>How does an element become a scroll container?</strong>&nbsp;An element automatically turns into a scroll container when you apply one of these:</p>\n\n\n\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: scroll;</code></li>\n\n\n\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: auto;</code></li>\n\n\n\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: hidden;</code> (No scrollbars, but the content is scrollable programmatically)</li>\n</ul>\n</div></div>\n\n\n\n<p>Let’s update&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><main>&nbsp;to be a scroll container:<p></p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>main</span> {\n  <span>overflow</span>: hidden;\n}</code></span></pre>\n\n\n<p>If <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><main> doesn’t become a scroll container, the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code> function we’ll later apply might take the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> element as the nearest scroll container.<p></p>\n\n\n\n<p>To change the cards’ colors, I’ll use the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">hue-rotate()</code> filter. This goes into a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@keyframes</code> declaration.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@keyframes</span> cr {\n  <span>/* Set the color range */</span>\n  <span>from</span> { <span>filter</span>: <span>hue-rotate</span>(<span>180deg</span>); }\n}</code></span></pre>\n\n\n<p>Use the keyframes animation on the cards with the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view(x)</code> timeline. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">x</code> is the horizontal axis.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.card</span> {\n  <span>background</span>: <span>rgb</span>(<span>16</span>, <span>111</span>, <span>235</span>);\n  <span>animation</span>: cr;\n  <span>animation-timeline</span>: <span>view</span>(x);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Another example:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --a {\n  <span>syntax</span>: \"&lt;<span>angle</span>&gt;\";\n  <span>initial-value</span>: 0<span>deg</span>;\n  <span>inherits</span>: <span>false</span>;\n}\n<span>@keyframes</span> cr {\n  <span>from</span> { <span>--a</span>: <span>360deg</span>; }\n}\n<span>main</span> {\n  <span>overflow</span>: hidden;\n}\n<span>.card</span> {\n  <span>background</span>: <span>conic-gradient</span>( from var(--a), red, pink, crimson, fuchsia, orange);\n  <span>animation</span>: cr;\n  <span>animation-timeline</span>: <span>view</span>(x);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Here’s what some simple style changes look like:</p>\n\n\n\n<div></div>\n\n\n\n<div></div>\n\n\n\n<div></div>\n\n\n\n<h2>Boundary-aware style on draggable elements</h2>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>div</span> <span>id</span>=<span>\"draggable-box\"</span>&gt;</span>\n  Draggable box\n<span>div</span>&gt;</code></span></pre>\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">#draggable-box</code>&nbsp;element is a draggable (by JavaScript). Its position on screen, the default scroll container, changes as we drag it across the viewport. So does its color.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@keyframes</span> shiftColor {\n  <span>to</span> {\n    <span>background-color</span>: <span>rgb</span>(<span>203</span>, <span>49</span>, <span>242</span>);\n  }\n}\n<span>#draggable-box</span> {\n  <span>background-color</span>: <span>rgb</span>(<span>41</span>, <span>113</span>, <span>248</span>);\n  <span>animation</span>: shiftColor;\n  <span>animation-timeline</span>: <span>view</span>(x);\n}</code></span></pre>\n\n\n<p>See the box’s color change as you drag it from the left to the right side of the screen.</p>\n\n\n\n<div></div>\n\n\n\n<p>You can apply the same principle in HTML sliders.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">&lt;<span>input</span> <span>id</span>=\"<span>slider-range</span>\" <span>type</span>=\"<span>range</span>\" <span>min</span>=\"0\" <span>max</span>=\"100\" <span>value</span>=\"50\"&gt;</code></span></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@keyframes</span> shiftColor {\n  <span>from</span> { <span>background-color</span>: red; }\n  50% { <span>background-color</span>: yellow; }\n  <span>to</span> { <span>background-color</span>: green; }\n}\n<span>#slider-range</span> {\n  <span>/* the slider track */</span>\n  &amp;::-webkit-slider-runnable-track{ <span>/* Webkit */</span>\n    <span>overflow</span>: hidden;\n  }\n  &amp;<span>::-moz-range-track</span> {             <span>/* Firefox */</span>\n    <span>overflow</span>: hidden;\n  }\n <span>/* the slider thumb */</span>\n  &amp;<span>::-webkit-slider-thumb</span> {         <span>/* Webkit */</span>\n    <span>animation</span>: shiftColor;\n    <span>animation-timeline</span>: <span>view</span>(x);\n  }\n  &amp;<span>::-moz-range-thumb</span> {             <span>/* Firefox */</span>\n    <span>animation</span>: shiftColor;\n    <span>animation-timeline</span>: <span>view</span>(x);\n  }\n}</code></span></pre>\n\n\n<p>The slider’s track is set as the scrollable container with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: hidden</code>, and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view(x)</code> is applied to the thumb. There are three color stops in the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@keyframes</code> animation that <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code> drives. As we slide the thumb along the track from one edge to the other, its color changes between the edges and the middle.</p>\n\n\n\n<div></div>\n\n\n\n<p>Here’s another example where an anchor-positioned element to the thumb changes.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>div</span> <span>id</span>=<span>\"slider-container\"</span>&gt;</span>\n  <span>&lt;<span>input</span> <span>id</span>=<span>\"slider-range\"</span> <span>type</span>=<span>\"range\"</span> <span>min</span>=<span>\"0\"</span> <span>max</span>=<span>\"100\"</span> <span>value</span>=<span>\"50\"</span>&gt;</span>\n  <span></span>\n  <span>&lt;<span>div</span> <span>id</span>=<span>\"slider-thumb\"</span>&gt;</span><span>⭐</span><span>️</span><span>div</span>&gt;</code></span><code>\n<span>div</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --a {\n  <span>syntax</span>: \"&lt;<span>angle</span>&gt;\";\n  <span>initial-value</span>: 0<span>deg</span>;\n  <span>inherits</span>: <span>false</span>;\n}\n<span>@keyframes</span> shiftColor {\n  <span>from</span> { <span>--a</span>: <span>370deg</span> }\n  50%  { <span>--a</span>: <span>180deg</span> }\n  <span>to</span>   { <span>--a</span>: -<span>10deg</span> }\n}\n<span>#slider-container</span> {\n  <span>overflow</span>: hidden;\n}\n<span>#slider-thumb</span> {\n  <span>background-image</span>: <span>conic-gradient</span>(crimson var(--a), dodgerblue <span>var</span>(--a));\n  <span>animation</span>: shiftColor;\n  <span>animation-timeline</span>: <span>view</span>(x);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>You can experiment with the axes, animation range, animation steps, and more to achieve different results. Just make sure the right ancestor is set as the scroll container using the&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow</code>&nbsp;property.</p>\n\n\n\n<p></p>\n</main></main></main>",
-    "createdAt": "2026-07-07T15:09:39.000+00:00",
-    "link": "https://master.dev/blog/boundary-aware-styling-in-css/",
-    "author": "Preethi Sam",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
