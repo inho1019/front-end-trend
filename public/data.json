@@ -1,5 +1,27 @@
 [
   {
+    "title": "Ask GN: 구글 크롬 확장 프로그램 개인적으로 만들어서 쓰고 계신것 있으신가요?",
+    "content": "<p>아래 2개 확장 프로그램 개인적으로 만들어서 유용하게 쓰고 있는데, 긱뉴스 사용자 분들은 혹시 개인적으로 만드셔서 쓰고 계신 확장 프로그램이 있으신지 궁금합니다.</p>\n<p>있으시면 확장, 깃허브 링크 올려주시면 좋을것 같습니다.</p>\n<p>LunaTools <a href=\"https://github.com/lunamoth/LunaTools\" target=\"_blank\" rel=\"noopener noreferrer\">https://g</a></p>",
+    "createdAt": "2026-07-23T07:01:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31727",
+    "author": "lunamoth",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GigaToken - 언어 모델 토큰화를 약 1,000배 가속",
+    "content": "<ul>\n<li>다양한 CPU와 널리 쓰이는 토크나이저를 지원하며, 텍스트를 GB/s 단위로 처리하는 Tiktoken 과 HuggingFace Tokenizers 대체 도구</li>\n<li>정규식 엔진이 맡던 사전 토큰화를 <strong>SIMD</strong>로 최적화하고 분기·스레드 통신·Python 상호작용을 줄이며, 이전에 본 단어의 토큰 매핑을 효율적으로 캐싱함...<p></p></li></ul>",
+    "createdAt": "2026-07-23T06:33:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=31724",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: 로컬 LLM 에이전트 개발과 테스트를 한곳에서, 툴 검색과 HITL, MCP 연동까지 (한국 통계 MCP 데모)",
     "content": "<p>국가통계포털(KOSIS)이 공식 MCP 시범서비스를 열어서, 노트북에서 도는 9B 로컬 모델에 붙여봤습니다. API 키 없이 합계출산율을 찾아 차트를 그리고, CSV로 저장하려는 순간에는 승인 창이 뜹니다. 파일 쓰기처럼 사람이 승인(HITL)해야만 하는 작업은 UI에서 사람이 확인하고 승인하도록 해뒀기 때문입니다.</p>\n...<p></p>",
     "createdAt": "2026-07-23T02:43:03.000+00:00",
@@ -576,28 +598,6 @@
     "content": "<ul>\n<li><strong>Gitolite</strong>는 중앙 서버에서 Git 저장소를 호스팅하며, 저장소별로 <strong>세밀한 접근 제어</strong>를 적용할 수 있게 함</li>\n<li>패키지 관리자로 설치할 때는 흔히 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gitolite3</code></strong> 라는 이름을 사용하며, 소스 코드는 Codeberg와 GitHub에서 제공됨</li>\n<li>Un...<p></p></li></ul>",
     "createdAt": "2026-07-21T13:01:09.000+00:00",
     "link": "https://news.hada.io/topic?id=31659",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 뽑로그 - FDM·레진을 한 곳에서 다루는 3D프린팅 지식 사이트",
-    "content": "<p>FDM 과 레진을 한 사이트에서 다루는 한국어 3D프린팅 지식 사이트를 만들었습니다.</p>\n<p>[왜 만들었나]<br>\n\"엔더3 첫 레이어\", \"PETG 스트링\" 같은 걸 검색하면 개봉기와 제휴 리뷰가 먼저 나오고, 정작 필요한 \"내 기종 x 내 소재 셋팅값\"은 카페·갤러리·개인 블로그로 흩어져 </p>",
-    "createdAt": "2026-07-21T12:20:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=31657",
-    "author": "kiss9815",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인간 수학자, 반례 찾기에서 AI에 추월당하다",
-    "content": "<ul>\n<li>ChatGPT와 Claude 계열 모델이 불과 몇 주 사이 Erdős의 단위 거리 추측, Grothendieck의 군 스킴 질문, <strong>Jacobian Conjecture</strong>에 반례를 만들었으며 일부는 Lean으로 검증됨</li>\n<li>OpenAI의 <strong>Sol</strong>은 Erdős 반례와 필요한 전역 유체론 결과를 3주 만에 120만 줄의 Lean 코드로...<p></p></li></ul>",
-    "createdAt": "2026-07-21T11:34:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=31656",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
