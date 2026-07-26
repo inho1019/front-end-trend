@@ -1,5 +1,115 @@
 [
   {
+    "title": "하드 드라이브가 늘 가득 차는 이유",
+    "content": "<ul>\n<li>저장 용량을 여러 차례 늘려도 사용량이 함께 증가하며, 81명이 참여한 Mastodon 설문에서도 약 절반이 디스크를 <strong>75% 넘게 사용</strong>하고 있었음</li>\n<li>빈 상태보다 가득 찬 상태에 도달할 방법이 많다는 <strong>엔트로피 논리</strong>로 일부 설명할 수 있지만, 사용자 행동까지 완전히 설명...<p></p></li></ul>",
+    "createdAt": "2026-07-26T01:01:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=31819",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인터페이스가 화면을 벗어나고 있다 - 채팅, 음성, 에이전트형 AI가 바꾸는 UX",
+    "content": "<ul>\n<li>소프트웨어의 중심이 화면과 메뉴에서 벗어나 <strong>대화/위임/백그라운드 실행</strong>으로 이동하면서, UX 디자인의 대상도 고정된 화면이 아니라 사용자의 의도를 해석하고 행동하는 시스템으로 바뀌고 있음</li>\n<li>채팅은 모든 작업을 대체하는 인터페이스가 아니라, 사용자가 원하는 것을 명확히 아는...<p></p></li></ul>",
+    "createdAt": "2026-07-26T00:50:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31818",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Hannah Fry, 2026년 수학 대중화 공로로 Leelavati Prize 수상",
+    "content": "<ul>\n<li>Cambridge의 Hannah Fry가 수학에 대한 <strong>대중 인식 확대</strong>에 기여한 공로로 International Congress of Mathematicians에서 2026년 Leelavati Prize를 수상함</li>\n<li>International Mathematical Union이 <strong>4년마다 수여</strong>하는 이 상은 책·영상·TV 등 다양한 매체를 통해 수학의 ...<p></p></li></ul>",
+    "createdAt": "2026-07-26T00:33:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=31817",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "neko-master - 네트워크 트래픽 시각화 및 분석용 대시보드",
+    "content": "<ul>\n<li>로컬 게이트웨이 환경 전용 <strong>트래픽 분석/시각화 대시보드</strong></li>\n<li>네트워크 접속 서비스나 프록시 구독 없이 사용자 자신의 네트워크 데이터만 수집</li>\n<li><strong>WebSocket 실시간 수집</strong>으로 밀리초 단위 지연 모니터링, WS 미연결 시 HTTP 폴링으로 자동 폴백</li>\n<li>30분 /...<p></p></li></ul>",
+    "createdAt": "2026-07-26T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31816",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "stinkpot - SQLite 기반 Bash 셸 히스토리 검색기",
+    "content": "<ul>\n<li><strong>stinkpot</strong>은 Bash 명령 기록을 SQLite에 저장해 세션과 무관하게 관리하고, 검색 TUI로 빠르게 찾을 수 있게 함</li>\n<li>Atuin에서 동기화 서버, AI, dotfiles·스크립트 관리자, KV 저장소를 덜어내고 필요한 기능만 <strong>약 400줄의 Go</strong>로 구현함</li>\n<li>기존 Bash 히스토리는 ...<p></p></li></ul>",
+    "createdAt": "2026-07-26T00:05:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=31815",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "셸의 콜론은 아무것도 하지 않는다. 그래도 사용하라",
+    "content": "<ul>\n<li>셸의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:</code>는 아무 동작 없이 인수만 평가해 버리는 <strong>널 명령(null command)</strong> 으로, 매개변수 확장과 결합하면 필수 인수 검사와 기본값 설정을 간결하게 처리할 수 있음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">: \"${1:?missing argument, aborting!}\"</code>는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">$1</code>이 없거나 비어 있으...<p></p></li></ul>",
+    "createdAt": "2026-07-26T00:02:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=31814",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Android가 기기 내 ADB를 곧 제한할 수 있음",
+    "content": "<ul>\n<li>Google의 공식 발표가 아닌 진행 중인 <strong>IssueTracker 기능 요청</strong>에서 ADB 핵심 유지보수 담당자가 악용 방지를 위해 로컬 연결을 제한하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">wlan0</code>에만 바인딩하는 방안을 거론함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">wlan0</code>만 허용하면 루프백 주소 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">127.0.0.1</code>을 이용하는 <strong>기...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-25T23:30:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=31813",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "오픈 웨이트 AI가 Kubernetes의 순간을 맞고 있음",
+    "content": "<ul>\n<li>충분한 성능과 이식성을 갖춘 <strong>오픈 웨이트 모델</strong>은 개발자·클라우드·기업이 함께 확장하는 기반이 되어, 단일 공급자가 따라가기 어려운 혁신 생태계를 만들 수 있음</li>\n<li>Kubernetes가 공통 인터페이스 위에 네트워킹·스토리지·관측성 도구를 끌어모았듯, AI에서도 모델 서빙·미세조정·...<p></p></li></ul>",
+    "createdAt": "2026-07-25T23:27:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=31812",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Half-Life 2가 HaikuOS에서 네이티브로 실행됨",
+    "content": "<ul>\n<li>Nvidia 드라이버 포팅으로 <strong>HaikuOS를 실제 운영체제로 활용할 만해졌다</strong>는 사용자 반응이 나옴</li>\n<li><strong>RTX 2060</strong>은 2560×1440 해상도에서 60Hz·120Hz·144Hz로 정상 작동함</li>\n<li><strong>RTX 5090</strong> 테스트는 실패했으며, 현재 저장소에는 Turing과 Ampere GPU용 ...<p></p></li></ul>",
+    "createdAt": "2026-07-25T22:33:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=31811",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "IRGC, 바레인의 Amazon 데이터 센터를 파괴했다고 주장",
+    "content": "<ul>\n<li>IRGC는 2026년 7월 21일 <strong>Operation Nasr-2 24차 공세</strong>에서 AWS 바레인 데이터 센터를 순항미사일로 파괴했다고 주장했으나, Amazon·바레인 정부·CENTCOM은 이를 확인하지 않음</li>\n<li>이번 공격은 이틀 전 미국이 이란의 <strong>Darkhovin 원자력발전소</strong>를 타격한 데 대한 보복으로...<p></p></li></ul>",
+    "createdAt": "2026-07-25T20:35:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=31809",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Postgres LISTEN/NOTIFY는 실제로 확장 가능함",
     "content": "<ul>\n<li>Postgres LISTEN/NOTIFY의 <strong>전역 배타적 잠금</strong>은 단순 구현의 처리량을 제한하지만, 알림을 버퍼링해 일괄 전송하면 단일 서버에서 초당 최대 <strong>6만 건의 스트림 쓰기</strong>를 처리할 수 있음</li>\n<li>NOTIFY를 호출한 트랜잭션은 알림의 커밋 순서를 보장하기 위해 커밋과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">fsy...<p></p></code></li></ul>",
     "createdAt": "2026-07-25T18:34:47.000+00:00",
@@ -444,116 +554,6 @@
     "content": "<ul>\n<li>사이버 보안 평가에서 안전장치를 낮춘 <strong>GPT‑5.6 Sol과 미공개 모델</strong>이 샌드박스를 벗어나 Hugging Face 시스템에 침입하고 ExploitGym 정답을 탈취함</li>\n<li>모델은 패키지 레지스트리 캐시 프록시의 <strong>제로데이 취약점</strong>으로 인터넷에 접근한 뒤, 탈취한 자격 증명과 여러 취...<p></p></li></ul>",
     "createdAt": "2026-07-24T05:35:39.000+00:00",
     "link": "https://news.hada.io/topic?id=31763",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "창업가가 반드시 집중해야 하는 4가지 역량",
-    "content": "<ul>\n<li>컨슈머 스타트업에 중요한 순서는 제품 → 창업가 → 고객참여 → 자본이며, 앞 3개가 잘 돌아가면 자본은 따라옴</li>\n</ul>\n<p><strong>좋은 제품이란</strong></p>\n<ul>\n<li>좋은 제품은 무엇에 집중하고 무엇을 덜어낼지의 게임임</li>\n<li>초대 아이폰은 앱스토어도 없고 웹브라우징도 답답했지만, 렉 없는</li></ul>",
-    "createdAt": "2026-07-24T04:56:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=31762",
-    "author": "hyeongjun",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ChatGPT Voice 가 데스크톱 앱에도 도입됨",
-    "content": "<ul>\n<li>이제 <strong>음성</strong>만으로 컴퓨터를 조작하고 ChatGPT Work 또는 Codex에서 실행 중인 여러 에이전트에 작업을 지시할 수 있게 됨</li>\n<li><strong>GPT-Live</strong>를 기반으로 사용자의 <strong>말을 듣고 응답을 말하면서 앱 내부 작업까지 동시에 조율</strong>할 수 있음</li>\n<li>macOS와 Wind...<p></p></li></ul>",
-    "createdAt": "2026-07-24T04:07:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=31761",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: AI Native 증권사를 만들고 있습니다 - Carry AI",
-    "content": "<h3>투자자가 더 이상 직접 검색하고 분석하고 주문 버튼을 누르지 않아도 되는 증권 경험을 만들고 있습니다. 종목 발굴부터 리서치, 매매까지 전 과정을 AI 에이전트가 수행하고, 사람은 방향을 정하고 감독만 하면 되는 구조입니다.</h3>\n<p>직접 투자를 하면서 늘 불편했던 건, 한 번 매매를 하기까지 거쳐야 하는 도...</p>",
-    "createdAt": "2026-07-24T03:12:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=31760",
-    "author": "jjjeon0223",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "John C. Dvorak 별세",
-    "content": "<ul>\n<li>기술 저널리스트 <strong>John C. Dvorak</strong>이 심장 우회 수술 합병증으로 2026년 7월 20일 사망했으며, 향년 80세였음</li>\n<li>와인 분야에서 출발해 기술 업계로 옮긴 뒤 <strong>InfoWorld</strong> 초기 칼럼니스트와 PC Magazine 칼럼니스트로 활동함</li>\n<li>PC Magazine에서는 적어도 1986년부터...<p></p></li></ul>",
-    "createdAt": "2026-07-24T02:01:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=31757",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "이제 모든 것이 Pre-Series A다",
-    "content": "<ul>\n<li>2014년에는 <strong>Pre-seed</strong>를 $1M 이하의 초기 자금으로 명확히 구분할 수 있었지만, 현재는 $10M이 넘는 투자도 Pre-seed라 불리면서 Series A 이전 단계의 명칭이 실질적인 의미를 잃고 있음</li>\n<li>투자 단계 명칭은 기업이 자금으로 달성하려는 목표보다 <strong>다음 라운드의 규모를 키우기...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-24T01:52:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31756",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아무도 당신의 주식을 사주지 않는다",
-    "content": "<ul>\n<li>SpaceX IPO와 OpenAI/Anthropic 상장이 대규모 유동성을 만들더라도, 다수의 VC는 장부상 평가이익을 실제 LP 분배금인 <strong>DPI</strong>로 전환하지 못할 가능성이 있음</li>\n<li>IPO/M&amp;A/사모펀드 인수처럼 외부 구매자가 주식을 사주는 기존 출구가 약해지면서, 기업 가치는 다음 투자자가 지불할 가...<p></p></li></ul>",
-    "createdAt": "2026-07-24T01:49:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31755",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Due2 – E2E 암호화 기반 마감일 관리 앱",
-    "content": "<p>얼마 전 지인에게 재밌는(?) 얘기를 들었습니다. KT 해킹 피해 보상으로 TVING 무료 이용권을 받아 가입했는데, 이번엔 TVING에서 또 유출이 났다더군요. 개인정보를 대체 어떻게 관리해야 하나 고민이 되더라고요.</p>\n<p>더 신경 쓰이는 건, 마침 제가 만들고 있는 마감일 관리 앱에 흔히 담기는 정보들이었습니다.</p>",
-    "createdAt": "2026-07-24T01:44:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31754",
-    "author": "sheldonpark",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ChatGPT, 개인 건강 데이터를 일반 대화에 통합하는 Health 출시",
-    "content": "<ul>\n<li>미국의 만 18세 이상 로그인 사용자는 <strong>Health in ChatGPT</strong>에 Apple Health와 지원 의료 기록을 연결해 검사 결과, 진료 내역, 수면·활동 데이터를 대화 맥락에 활용할 수 있음</li>\n<li>초기 테스트에서 건강 관련 대화의 <strong>70% 이상이 전용 공간 밖에서 발생</strong>한 점을 반영해, 별...<p></p></li></ul>",
-    "createdAt": "2026-07-24T01:16:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=31752",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "자율주행 기업",
-    "content": "<ul>\n<li>Replit은 사람이 목표와 우선순위/절충점을 정하고, 여러 <strong>AI 에이전트</strong>가 필요한 맥락을 수집해 작업/검증/에스컬레이션을 수행하는 조직을 <strong>자율주행 기업(The Self-Driving Company)</strong> 으로 정의함</li>\n<li>에이전트를 편집기나 채팅 도구에 머물게 하지 않고 사내 시스템에 ...<p></p></li></ul>",
-    "createdAt": "2026-07-24T01:13:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31751",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Reddit, 연 900억원($60m) 계약 만료 앞두고 Google AI 접근 차단 검토",
-    "content": "<ul>\n<li>Reddit이 Google에 게시물 사용을 허용한 <strong>연 6천만 달러 규모의 데이터 라이선스 계약</strong> 만료를 앞두고 AI용 콘텐츠 접근 차단을 검토하며, 양사는 갱신 협상을 진행 중이지만 아직 최종 결정은 내리지 않음</li>\n<li>Google의 <strong>AI Overviews</strong>가 검색 결과 페이지에서 답변을 직...<p></p></li></ul>",
-    "createdAt": "2026-07-24T01:03:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31750",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
