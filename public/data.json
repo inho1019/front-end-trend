@@ -1,5 +1,82 @@
 [
   {
+    "title": "현대 하드웨어 시대에 마이크로커널을 다시 검토해야 할지도 모름",
+    "content": "<ul>\n<li>과거 높은 오버헤드로 실용성이 떨어졌던 <strong>마이크로커널</strong>은 오늘날 보편화된 IOMMU와 공유 메모리 덕분에 다시 현실적인 선택지가 될 수 있음</li>\n<li>드라이버와 서브시스템을 사용자 공간에 격리하면 결함이나 공격의 영향 범위를 제한해 <strong>보안·신뢰성·모듈성</strong>을 높일 수 있음...<p></p></li></ul>",
+    "createdAt": "2026-07-26T19:01:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=31836",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "낯선 변화를 마주하며: Fly.io의 Sprites 전환",
+    "content": "<ul>\n<li>강한 실적에도 사업 정체성이 흔들리자 Fly.io는 추가 자금을 조달하고 전 Docker CEO Scott Johnston에게 경영을 맡기며 <strong>Sprites를 핵심 사업</strong>으로 전환함</li>\n<li>AI로 누구나 맞춤형 소프트웨어를 만들 수 있게 되면서, 사용자 가까이 배포하는 퍼블릭 클라우드와 인간 개발자 중심의 편의...<p></p></li></ul>",
+    "createdAt": "2026-07-26T18:43:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31835",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Brolly - 날씨 예보를 평문으로 보여주는 사이트",
+    "content": "<ul>\n<li><strong>평문 표와 ASCII 그래프</strong>만으로 날씨·강수량·자외선·대기질·꽃가루 정보를 빠르게 확인할 수 있음</li>\n<li>예시 지역은 영국 York이며, 26일 일요일 19시 현재 <strong>흐림</strong>, 기온 19.2°C·체감 16.7°C, 바람 12mph·돌풍 24mph임</li>\n<li>당일 기온은 17~22°C, 평균 풍속은 12mph, ...<p></p></li></ul>",
+    "createdAt": "2026-07-26T18:40:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31834",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국과의 컴퓨팅 격차 관련 발언 유출 후 DeepSeek의 자금 조달 중단(녹취록) [PDF]",
+    "content": "<p>미국과의 컴퓨팅 격차 관련 발언 유출 후 DeepSeek의 자금 조달 중단(녹취록) [PDF]</p>\n",
+    "createdAt": "2026-07-26T18:37:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31833",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기",
+    "content": "<ul>\n<li><strong>ESP32-S3</strong>에서 서버 연결 없이 2,890만 매개변수 언어 모델을 구동해 작은 화면에 약 <strong>초당 9개 토큰</strong>으로 텍스트를 출력함</li>\n<li>전체 매개변수 중 2,500만 개를 느린 플래시에 두고 토큰마다 필요한 약 6개 행, <strong>450바이트</strong>만 읽는 Per-Layer Embeddings 구...<p></p></li></ul>",
+    "createdAt": "2026-07-26T15:32:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=31832",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Bitchat이 Radicle에 공개됨",
+    "content": "<ul>\n<li><strong>Bitchat</strong>은 Bluetooth 메시 네트워크와 인터넷 기반 Nostr를 결합해 계정·전화번호·중앙 서버 없이 작동하는 iOS·macOS용 탈중앙 P2P 메시징 앱임</li>\n<li>오프라인에서는 Bluetooth LE로 최대 <strong>7홉 중계</strong>를 지원하고, 인터넷 연결 시 290개 이상의 Nostr 릴레이를 통해 전 세...<p></p></li></ul>",
+    "createdAt": "2026-07-26T14:38:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=31831",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Flock 감시 카메라를 무력화하는 자경단 운동의 확산",
+    "content": "<ul>\n<li>미국 전역의 사생활 보호 활동가들이 Flock Safety의 <strong>자동 번호판 인식기(ALPR)</strong> 를 대량 감시 장치로 규정하고 가리거나 파손하고 있으며, 확인된 사례만 23개 주에서 최소 33건에 달함</li>\n<li>기업가치 84억 달러인 Flock은 거의 모든 주의 약 6,000개 지역에서 매달 수십억 회 번호판을 스...<p></p></li></ul>",
+    "createdAt": "2026-07-26T14:35:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=31830",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: 엄랭으로 틱택토 AI를 만들어 봤습니다.",
     "content": "<p>엄랭(UmmLang)으로 틱택토 AI를 구현해봤습니다.<br>\n엄랭은 변수, 입출력, 조건문, 라인 점프 정도만 제공하는 난해한 프로그래밍 언어로</p>\n<p>[ 어어엄어어어,,,,,,,,  식어어어ㅋ   동탄어?준. ] 이러한 생김새를 가지고 있습니다.</p>\n<p>반복문이나 함수 같은 일반적인 제어 구조가 거의 없습니다. 정수조차</p>",
     "createdAt": "2026-07-26T11:39:14.000+00:00",
@@ -466,83 +543,6 @@
     "content": "<ul>\n<li>중국의 6세 소녀 Mei는 부모가 부담한 약 12억9,000만원($860k)으로 <strong>세계 최초의 뇌 표적 염기 편집 치료</strong>를 받았으나, 7일 뒤 치료 관련 중증 면역반응인 혈전성 미세혈관병증으로 사망함</li>\n<li>연구진은 변이된 <strong>CHD3 염기</strong>를 교정하려 수백조 개의 AAV9 벡터를 척수액에 ...<p></p></li></ul>",
     "createdAt": "2026-07-24T19:42:45.000+00:00",
     "link": "https://news.hada.io/topic?id=31778",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Codeberg, 암호화폐 프로젝트 금지 정책 채택",
-    "content": "<ul>\n<li>Codeberg e.V. 총회가 이용약관의 평판 훼손 콘텐츠 예시에 <strong>암호화폐 관련 프로젝트</strong>를 추가하는 안건을 통과시킴</li>\n<li>운영 측은 모든 관련 프로젝트를 금지하는 대신 사기 등 <strong>평판을 해치는 사례</strong>를 프로젝트별로 판단한다고 해석함</li>\n<li>그러나 “암호화폐 프로젝트...<p></p></li></ul>",
-    "createdAt": "2026-07-24T18:44:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=31777",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "소프트웨어 팩토리가 실패하는 이유: 하네스 엔지니어링만으로는 부족함",
-    "content": "<ul>\n<li>사람이 코드를 읽고 쓰지 않는 <strong>무인(lights-off) 소프트웨어 팩토리</strong>는 생성 속도를 높이지만, 장기 유지보수성을 판단할 인간까지 제거해 복잡한 프로덕션 코드베이스에서 작동하기 어려움</li>\n<li>코딩 모델의 강화학습은 테스트 통과처럼 빠르고 명확한 보상을 최적화하며, 수개월 뒤 드러...<p></p></li></ul>",
-    "createdAt": "2026-07-24T18:41:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=31776",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "TheNumbers.com에 무슨 일이 일어났나",
-    "content": "<ul>\n<li>영화 7만8,000여 편의 데이터를 제공하던 <strong>The Numbers</strong>가 2026년 3월 5일 갑자기 중단됐고, 30년 된 시스템을 겨냥한 대규모 자동 트래픽과 보안 탐색 탓에 기존 사이트를 폐기하고 최소 기능만 복구함</li>\n<li>전체 트래픽에서 사람의 비중은 약 <strong>10%</strong> 에 불과했으며, 2025년...<p></p></li></ul>",
-    "createdAt": "2026-07-24T17:36:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=31775",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Echo — 오픈 가중치 모델로 Fable 수준 결과를 3분의 1 비용에 달성",
-    "content": "<ul>\n<li><strong>Echo</strong>는 GLM-5.2, Kimi K2.7 등 여러 오픈 가중치 모델을 요청별로 조합해, 단일 모델에 모든 작업을 맡기는 방식의 한계를 보완함</li>\n<li>요청마다 <strong>연산량과 참여 모델</strong>을 정하고 결과 결합 방식까지 조정해, 간단한 프롬프트에는 적은 추론 자원을 사용함</li>\n<li>첫 평가...<p></p></li></ul>",
-    "createdAt": "2026-07-24T16:33:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=31774",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: ADHDev 1.0 - 로컬 코딩 에이전트를 웹/모바일에서 제어하고 병렬 작업 후 자동 병합하는 도구",
-    "content": "<p>안녕하세요, ADHDev 만든 개발자입니다. 스탠드얼론 에디션은 AGPL로 공개했고, 클라우드 버전으로 운영비를 벌 생각입니다.</p>\n<p>Claude Code, Codex 같은 터미널 에이전트를 머신 두세 대에서 돌리다 보니 두 가지가 계속 발목을 잡았습니다. 어느 세션이 끝났는지, 멈췄는지, 승인을 기다리는지 터미널을 왔다갔</p>",
-    "createdAt": "2026-07-24T15:43:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=31773",
-    "author": "vilmire",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Codeberg로 이전한 것을 후회하는 이유",
-    "content": "<ul>\n<li>GitHub의 성능 저하와 Microsoft의 영향력을 피해 비영리 자유 소프트웨어 호스팅인 Codeberg로 옮겼지만, <strong>LLM·암호화폐 프로젝트의 범주별 금지</strong>로 플랫폼의 자유를 신뢰하기 어려워짐</li>\n<li>Codeberg는 LLM 중심 저장소의 자원 소비·저품질 기여·저작권 문제를 근거로 들었으나, 프로젝트...<p></p></li></ul>",
-    "createdAt": "2026-07-24T15:43:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31772",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tell HN: Namecheap이 확인되지 않은 제3자에게 내 계정을 넘겼습니다",
-    "content": "<ul>\n<li>13년간 사용한 Namecheap 계정에서 대학 동아리 도메인의 비밀번호 재설정 요청이 발생해 즉시 신고했지만, 지원팀은 신고자 본인 확인 후 보안 점검 안내만 보냄</li>\n<li>이후 동아리 책임자가 전화로 소유권을 주장하자 Namecheap은 <strong>별도 검증 없이</strong> 계정 비밀번호와 연결 이메일 주소를 변...<p></p></li></ul>",
-    "createdAt": "2026-07-24T15:40:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31771",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
