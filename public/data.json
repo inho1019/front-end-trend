@@ -1,5 +1,203 @@
 [
   {
+    "title": "Show GN: react-native-pure-chart 2.0.0 - SVG/Skia 없이 View만으로 차트 그리는 라이브러리, 9년 만에 AI 에이...",
+    "content": "<p>9년 전에 만들었던 React Native 차트 라이브러리를 9년 만에 2.0.0으로 업데이트해서 npm에 올렸습니다. 이번 업데이트 작업의 대부분은 AI 에이전트가 수행했고, 그 과정을 공유합니다.</p>\n<p>먼저 라이브러리 소개입니다. react-native-pure-chart는 이름 그대로 \"pure\"가 정체성입니다. react-native-</p>",
+    "createdAt": "2026-07-28T01:41:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=31902",
+    "author": "oksktank",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Decathlon 독일, decathlon.de에 Wero 결제 도입",
+    "content": "<ul>\n<li>Decathlon은 7월 20일 독일 온라인몰에 <strong>Wero</strong>를 도입했으며, 독일은 그룹의 해외 시장 중 이 유럽 결제 체계를 처음 적용한 국가가 됨</li>\n<li>European Payments Initiative(EPI)가 운영하는 Wero는 은행 앱의 지문·얼굴 인식으로 승인한 뒤 계좌 간 결제를 실시간 처리해, 판매자가 </li></ul>",
+    "createdAt": "2026-07-28T01:13:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31901",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "오픈 웨이트 모델에 대한 Anthropic의 입장",
+    "content": "<ul>\n<li>위험한 능력이 없는 <strong>오픈 웨이트 모델</strong>은 기업·개발자·연구자에게 가치를 제공하는 공공재이며, Anthropic은 이를 범주 전체로 금지하는 데 반대함</li>\n<li>핵심 국가안보 우려는 공개 방식 자체가 아니라 <strong>권위주의 정부의 AI 우위</strong>, 강력한 모델을 이용한 사이버·생물학 공격...<p></p></li></ul>",
+    "createdAt": "2026-07-28T01:10:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31900",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "개발자를 위한 데이터 도구 지형 가이드",
+    "content": "<ul>\n<li>데이터 분야에 처음 참여한 소프트웨어 개발자가 도구의 이름만 외우지 않고, 데이터의 <strong>수집/저장/처리/활용</strong> 단계에서 각 도구가 맡는 역할과 연결 관계를 파악하도록 전체 지형을 정리함</li>\n<li>데이터 직군은 대략 <strong>분석/과학/엔지니어링/머신러닝</strong> 유형으로 나뉘며, SQL과...<p></p></li></ul>",
+    "createdAt": "2026-07-28T01:08:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31899",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Kimi-K3 기술 보고서 [PDF]",
+    "content": "<p>Kimi-K3 기술 보고서 [PDF]</p>\n",
+    "createdAt": "2026-07-28T01:07:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31898",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Bun의 Rust 재작성은 어떻게 진행되고 있나?",
+    "content": "<ul>\n<li>11일 만에 끝난 작업으로 알려졌지만, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">main</code> 병합 후 <strong>6주가 지난 2026년 7월 27일에도 릴리스 태그가 없고</strong> 관련 작업이 계속되고 있음</li>\n<li>최초 재작성에는 2026년 5월 3~14일 <strong>Anthropic API 비용 16만5천 달러</strong>가 들었으나, Buildkite CI/CD와 후속 작업 비...<p></p></li></ul>",
+    "createdAt": "2026-07-28T01:04:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31897",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 기업들이 희귀 서적을 파쇄하고 있다",
+    "content": "<ul>\n<li>AI 기업들은 대량 구매한 <strong>희귀 서적의 책등을 절단해 고속 스캔</strong>한 뒤 원본을 파쇄하고 있음</li>\n<li><strong>ISBNdb</strong>는 최대 100만 권 주문, 구매자 익명성, NDA를 지원하며 고객에게 이 과정을 ‘디지털 보존’이라 부르도록 권함</li>\n<li><strong>2022년 이전 출판물</strong>은 ...<p></p></li></ul>",
+    "createdAt": "2026-07-28T01:01:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31896",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PGSimCity - PostgreSQL의 작동 방식을 탐험 가능한 3D 도시로 시각화",
+    "content": "<ul>\n<li>PostgreSQL의 연결/백엔드/공유 메모리/WAL/스토리지/체크포인트/autovacuum/복제를 <strong>건물과 구역으로 표현한 3D 교육용 시뮬레이션</strong>으로, 각 건물과 애니메이션이 실제 데이터베이스 메커니즘에 대응함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shared_buffers</code>의 clock-sweep 교체, WAL 기록과 플러시, 체크포인...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:58:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=31895",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "세계에서 가장 작은 나라가 AI 논쟁에 어떤 영향을 미치고 있는가",
+    "content": "<ul>\n<li>시민이 약 1,000명인 <strong>바티칸 시국</strong>은 과학자·사회과학자·교황청 부처를 연결해 전 세계 14억 명의 가톨릭 신자에게 영향을 미칠 <strong>AI 윤리 기준</strong>을 만들고 있음</li>\n<li>교황 Leo XIV의 첫 회칙 <strong>Magnifica Humanitas</strong>는 AI 자체보다 개발자와 사용자가 부여하는...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:56:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31894",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Hugging Face에 공개된 Kimi-K3",
+    "content": "<ul>\n<li><strong>Kimi K3</strong>는 2.8조 개 매개변수와 104만 8,576토큰 컨텍스트를 갖춘 오픈 가중치 네이티브 멀티모달 에이전트 모델로, 장시간 코딩·지식 작업·추론을 지원함</li>\n<li><strong>Kimi Delta Attention(KDA)</strong>, Attention Residuals, Stable LatentMoE를 결합해 896개 전문가 중 토큰마다 1...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:55:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31893",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "데이터 그리드 구축의 10단계",
+    "content": "<ul>\n<li>MongoDB·PostgreSQL용 데이터베이스 GUI를 만들면서 BSON·JSONB 타입, 중첩 열, 검색, 편집, 고정, 드래그를 지원해야 했고, 이를 위해 약 1년간 <strong>양축 가상화</strong>와 상태 관리 구조를 최적화함</li>\n<li>원본 문서와 별도로 표시 문자열·타입·평탄화 경로·열 순서·검색 결과를 미리 계산하는 </li></ul>",
+    "createdAt": "2026-07-28T00:41:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31892",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Topcoat - Rust를 위한 풀스택 웹 프레임워크",
+    "content": "<ul>\n<li><strong>모든 마크업을 서버에서 렌더링</strong>, 컴포넌트가 async로 DB를 직접 조회해 별도 API 계층용 보일러플레이트 제거</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">$(...)</code> 표현식은 <strong>타입 검증되는 일반 Rust 코드</strong>로, 서버에서 평가되는 동시에 JavaScript로 변환되어 브라우저에서 즉시 재실행\n<ul>\n<li>...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-07-28T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=31891",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI로 11일 만에 끝낸 Bun의 Zig→Rust 재작성에서 배울 점",
+    "content": "<ul>\n<li>메모리 안전성이 없는 Zig에서 누수와 충돌이 계속되자, Bun은 <strong>535,496줄의 코드</strong>를 64개 AI 에이전트로 Rust에 옮겨 1~2년 걸릴 작업을 11일로 단축함</li>\n<li>성공의 출발점은 600줄짜리 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">PORTING.md</code>였으며, 파일별 병렬 변환과 <strong>두 차례 적대적 검토</strong>, 컴파일 ...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:27:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=31890",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "생산성이라는 신기루",
+    "content": "<ul>\n<li>Facebook Groups를 출시하고 해커톤에서 잇달아 성과를 낸 <strong>Bob</strong>의 생산성은 정교한 개발 환경이 아니라 결과물에서 드러났음</li>\n<li>구문 강조도 부정확한 기본 <strong>Sublime Text</strong>를 쓰며 라이브 리로딩이나 디버거 대신 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">printf</code>와 로그로 문제를 확인함</li>\n<li>복...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:09:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=31888",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "대부분의 Googlebot은 가짜다",
+    "content": "<ul>\n<li>사이트 장애를 일으킬 만큼 요청을 보내는 Googlebot 사례 상당수는 Google이 아니라 <strong>Googlebot을 사칭한 외부 봇</strong>에서 비롯됨</li>\n<li>HTTP <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">User-Agent</code>는 요청자가 임의로 지정할 수 있어, 로그의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Googlebot/2.1</code> 문자열만으로는 <strong>실제 Googlebot임을 보장할...<p></p></strong></li></ul>",
+    "createdAt": "2026-07-28T00:06:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=31887",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI에 관하여",
+    "content": "<ul>\n<li>IDE 자동완성에서 <strong>GitHub Copilot·Claude Code</strong>로 이어진 경험은 AI가 생각을 더 빠르게 코드로 옮기고 기존 코드를 분석·수정하는 실용적 개발 도구가 됐음을 보여줌</li>\n<li>초기 실패만 보고 AI를 외면했지만 Claude의 질의응답과 바이너리 역공학, <strong>Ollama 로컬 모델</strong>을 직...<p></p></li></ul>",
+    "createdAt": "2026-07-28T00:03:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=31886",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "JetZero",
+    "content": "<ul>\n<li>JetZero는 <strong>250석 규모</strong>와 국제선 항속거리를 갖춘 전익형 상업용 항공기 <strong>Z4</strong>를 개발 중임</li>\n<li>낮은 항력과 가벼운 기체 설계를 바탕으로 기존 상업용 제트기보다 <strong>연료 사용량을 최대 50% 절감</strong>하는 것이 목표임</li>\n<li><strong>JAL과 Gulf Air</strong></li></ul>",
+    "createdAt": "2026-07-27T22:34:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=31885",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Vercel의 Scriptc - 바이너리에 JavaScript 엔진을 포함하지 않는 TypeScript 네이티브 컴파일러",
+    "content": "<ul>\n<li><strong>scriptc</strong>는 일반 TypeScript를 Node·V8·JavaScript 엔진 없이 실행되는 소형 네이티브 바이너리로 컴파일하며, 실제 TypeScript 컴파일러의 타입 검사와 Node 동작 호환성을 유지함</li>\n<li>코드 구조별로 정적 컴파일 가능 여부를 판정해 기본적으로 네이티브 코드로 만들고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--dynami...<p></p></code></li></ul>",
+    "createdAt": "2026-07-27T21:33:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=31884",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "아이들에게 Forth를 가르쳐 본 경험",
     "content": "<ul>\n<li>중·고등학생을 위한 <strong>12회 프로그래밍 수업</strong>에서 문법보다 기초 개념에 집중하고자, 1970년에 나온 스택 기반 연결형 언어 Forth를 선택함</li>\n<li>종이 접시로 후입선출 구조와 연산을 직접 수행한 뒤 컴퓨터로 옮겨, 학생들이 <strong>Forth 인터프리터의 동작</strong>을 몸으로 이해하도록...<p></p></li></ul>",
     "createdAt": "2026-07-27T17:02:01.000+00:00",
@@ -356,204 +554,6 @@
     "content": "<ul>\n<li>현재 데이터에서는 <strong>AI 노출도가 높은 직종의 대규모 고용 감소</strong>가 확인되지 않지만, 신규 졸업자와 젊은 사무직의 채용 부진에는 AI가 일부 영향을 미쳤을 가능성이 있음</li>\n<li>2022년 이후 실업률은 AI 노출 상위 20% 직군에서 0.77%p, 하위 20% 직군에서 0.85%p 상승해 AI발 실직보다 </li></ul>",
     "createdAt": "2026-07-26T19:35:32.000+00:00",
     "link": "https://news.hada.io/topic?id=31837",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "현대 하드웨어 시대에 마이크로커널을 다시 검토해야 할지도 모름",
-    "content": "<ul>\n<li>과거 높은 오버헤드로 실용성이 떨어졌던 <strong>마이크로커널</strong>은 오늘날 보편화된 IOMMU와 공유 메모리 덕분에 다시 현실적인 선택지가 될 수 있음</li>\n<li>드라이버와 서브시스템을 사용자 공간에 격리하면 결함이나 공격의 영향 범위를 제한해 <strong>보안·신뢰성·모듈성</strong>을 높일 수 있음...<p></p></li></ul>",
-    "createdAt": "2026-07-26T19:01:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=31836",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "낯선 변화를 마주하며: Fly.io의 Sprites 전환",
-    "content": "<ul>\n<li>강한 실적에도 사업 정체성이 흔들리자 Fly.io는 추가 자금을 조달하고 전 Docker CEO Scott Johnston에게 경영을 맡기며 <strong>Sprites를 핵심 사업</strong>으로 전환함</li>\n<li>AI로 누구나 맞춤형 소프트웨어를 만들 수 있게 되면서, 사용자 가까이 배포하는 퍼블릭 클라우드와 인간 개발자 중심의 편의...<p></p></li></ul>",
-    "createdAt": "2026-07-26T18:43:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31835",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Brolly - 날씨 예보를 평문으로 보여주는 사이트",
-    "content": "<ul>\n<li><strong>평문 표와 ASCII 그래프</strong>만으로 날씨·강수량·자외선·대기질·꽃가루 정보를 빠르게 확인할 수 있음</li>\n<li>예시 지역은 영국 York이며, 26일 일요일 19시 현재 <strong>흐림</strong>, 기온 19.2°C·체감 16.7°C, 바람 12mph·돌풍 24mph임</li>\n<li>당일 기온은 17~22°C, 평균 풍속은 12mph, ...<p></p></li></ul>",
-    "createdAt": "2026-07-26T18:40:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31834",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DeepSeek, 미중 AI 격차 관련 발언 유출후 투자 유치 중단 (녹취록)",
-    "content": "<ul>\n<li>DeepSeek가 <strong>두 번째 투자 유치</strong>에 참여하던 일부 투자자에게 예정됐던 계약 체결을 진행하지 않고 협상을 당분간 중단한다고 구두로 통보했으며, 향후 절차를 재개할 가능성은 남아 있음</li>\n<li>중단에는 창업자 Liang Wenfeng이 <strong>첫 투자 당시 발언으로 알려진 내용이 온라인에서 확...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-26T18:37:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=31833",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기",
-    "content": "<ul>\n<li><strong>ESP32-S3</strong>에서 서버 연결 없이 2,890만 매개변수 언어 모델을 구동해 작은 화면에 약 <strong>초당 9개 토큰</strong>으로 텍스트를 출력함</li>\n<li>전체 매개변수 중 2,500만 개를 느린 플래시에 두고 토큰마다 필요한 약 6개 행, <strong>450바이트</strong>만 읽는 Per-Layer Embeddings 구...<p></p></li></ul>",
-    "createdAt": "2026-07-26T15:32:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=31832",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Bitchat이 Radicle에 공개됨",
-    "content": "<ul>\n<li><strong>Bitchat</strong>은 Bluetooth 메시 네트워크와 인터넷 기반 Nostr를 결합해 계정·전화번호·중앙 서버 없이 작동하는 iOS·macOS용 탈중앙 P2P 메시징 앱임</li>\n<li>오프라인에서는 Bluetooth LE로 최대 <strong>7홉 중계</strong>를 지원하고, 인터넷 연결 시 290개 이상의 Nostr 릴레이를 통해 전 세...<p></p></li></ul>",
-    "createdAt": "2026-07-26T14:38:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=31831",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Flock 감시 카메라를 무력화하는 자경단 운동의 확산",
-    "content": "<ul>\n<li>미국 전역의 사생활 보호 활동가들이 Flock Safety의 <strong>자동 번호판 인식기(ALPR)</strong> 를 대량 감시 장치로 규정하고 가리거나 파손하고 있으며, 확인된 사례만 23개 주에서 최소 33건에 달함</li>\n<li>기업가치 84억 달러인 Flock은 거의 모든 주의 약 6,000개 지역에서 매달 수십억 회 번호판을 스...<p></p></li></ul>",
-    "createdAt": "2026-07-26T14:35:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=31830",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "재능이라는 허상",
-    "content": "<ul>\n<li>많은 주니어가 취업난, AI, 뛰어난 주변 개발자들을 보며 \"나는 개발 재능이 없다\"고 생각하고 개발자를 포기한다.</li>\n<li>하지만 우리가 흔히 생각하는 개발자의 재능은 너무 좁다. 기술을 좋아하고, 어려운 문제를 즐기고, 새로운 기술을 빠르게 습득하는 ‘기술형·Geek형 개발자’만이 좋은 개발...<p></p></li></ul>",
-    "createdAt": "2026-07-26T12:47:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=31828",
-    "author": "kwjo0228",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 엄랭으로 틱택토 AI를 만들어 봤습니다.",
-    "content": "<p>엄랭(UmmLang)으로 틱택토 AI를 구현해봤습니다.<br>\n엄랭은 변수, 입출력, 조건문, 라인 점프 정도만 제공하는 난해한 프로그래밍 언어로</p>\n<p>[ 어어엄어어어,,,,,,,,  식어어어ㅋ   동탄어?준. ] 이러한 생김새를 가지고 있습니다.</p>\n<p>반복문이나 함수 같은 일반적인 제어 구조가 거의 없습니다. 정수조차</p>",
-    "createdAt": "2026-07-26T11:39:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=31827",
-    "author": "arcoding",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Taylor Farms, 사이클로스포라 리콜 발표 연기 위해 백악관에 연락",
-    "content": "<ul>\n<li>미국의 대형 농산물 공급업체 <strong>Taylor Farms</strong>가 미국 역사상 최대 규모 중 하나인 식품 매개 질병 사태와 관련해 리콜 발표를 늦춰달라고 백악관에 요청함</li>\n<li>감염 사태의 원인으로 지목되기 전에 <strong>추가 증거와 대응 시간</strong>이 필요하다는 입장이었음</li>\n<li>비용이 많이 ...<p></p></li></ul>",
-    "createdAt": "2026-07-26T11:33:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=31826",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "젠슨황의 Open Weights and American AI Leadership에 담긴 의미",
-    "content": "<p>젠슨 황이 이틀전 성명한 Open Weights and American AI Leadership 은 이 시대의 가장 중요한 쟁점 중 하나를 담고 있습니다. 폐쇄형 모델 vs. 오픈웨이트 모델. 아니 이제 전자는 only 앤스로픽일지도 모르겠습니다.</p>\n<ol>\n<li>\n<p>NVIDIA, Microsoft, Meta 등 주요 기업들이 오픈웨이트가 미국의 AI 리더십을 강</p></li></ol>",
-    "createdAt": "2026-07-26T07:35:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=31824",
-    "author": "hotuna",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "메모리 안전성 절대주의자들",
-    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">unsafe</code>의 존재만으로 Rust를 배제하고 <strong>Fil-C만 안전하다고 보는 기준</strong>은 실제 소프트웨어의 적용 범위와 기술적 절충을 놓침</li>\n<li><strong>Fil-C</strong>는 C/C++의 잘못된 메모리 접근을 패닉으로 바꾸지만, ABI 비호환성, 일부 상황에서 수배의 성능 저하, GC 도입이라는 ...<p></p></li></ul>",
-    "createdAt": "2026-07-26T06:02:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=31822",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "면접 후 연락이 끊겼나요?",
-    "content": "<ul>\n<li><strong>Did They Ghost You?</strong> 는 면접 뒤 명확한 거절이나 안내 없이 연락을 끊은 회사를 익명으로 기록하는 공개 서비스임</li>\n<li><strong>승인된 제보 564건</strong>을 바탕으로 연락 두절 신고가 많은 회사의 순위를 제공함</li>\n<li>후보자와 면접관의 이름은 수집하거나 공개하지 않으며, 모든...<p></p></li></ul>",
-    "createdAt": "2026-07-26T05:33:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=31821",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "하드 드라이브가 늘 가득 차는 이유",
-    "content": "<ul>\n<li>저장 용량을 여러 차례 늘려도 사용량이 함께 증가하며, 81명이 참여한 Mastodon 설문에서도 약 절반이 디스크를 <strong>75% 넘게 사용</strong>하고 있었음</li>\n<li>빈 상태보다 가득 찬 상태에 도달할 방법이 많다는 <strong>엔트로피 논리</strong>로 일부 설명할 수 있지만, 사용자 행동까지 완전히 설명...<p></p></li></ul>",
-    "createdAt": "2026-07-26T01:01:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=31819",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인터페이스가 화면을 벗어나고 있다 - 채팅, 음성, 에이전트형 AI가 바꾸는 UX",
-    "content": "<ul>\n<li>소프트웨어의 중심이 화면과 메뉴에서 벗어나 <strong>대화/위임/백그라운드 실행</strong>으로 이동하면서, UX 디자인의 대상도 고정된 화면이 아니라 사용자의 의도를 해석하고 행동하는 시스템으로 바뀌고 있음</li>\n<li>채팅은 모든 작업을 대체하는 인터페이스가 아니라, 사용자가 원하는 것을 명확히 아는...<p></p></li></ul>",
-    "createdAt": "2026-07-26T00:50:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31818",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Hannah Fry, 2026년 수학 대중화 공로로 Leelavati Prize 수상",
-    "content": "<ul>\n<li>Cambridge의 Hannah Fry가 수학에 대한 <strong>대중 인식 확대</strong>에 기여한 공로로 International Congress of Mathematicians에서 2026년 Leelavati Prize를 수상함</li>\n<li>International Mathematical Union이 <strong>4년마다 수여</strong>하는 이 상은 책·영상·TV 등 다양한 매체를 통해 수학의 ...<p></p></li></ul>",
-    "createdAt": "2026-07-26T00:33:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=31817",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "neko-master - 네트워크 트래픽 시각화 및 분석용 대시보드",
-    "content": "<ul>\n<li>로컬 게이트웨이 환경 전용 <strong>트래픽 분석/시각화 대시보드</strong></li>\n<li>네트워크 접속 서비스나 프록시 구독 없이 사용자 자신의 네트워크 데이터만 수집</li>\n<li><strong>WebSocket 실시간 수집</strong>으로 밀리초 단위 지연 모니터링, WS 미연결 시 HTTP 폴링으로 자동 폴백</li>\n<li>30분 /...<p></p></li></ul>",
-    "createdAt": "2026-07-26T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31816",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "stinkpot - SQLite 기반 Bash 셸 히스토리 검색기",
-    "content": "<ul>\n<li><strong>stinkpot</strong>은 Bash 명령 기록을 SQLite에 저장해 세션과 무관하게 관리하고, 검색 TUI로 빠르게 찾을 수 있게 함</li>\n<li>Atuin에서 동기화 서버, AI, dotfiles·스크립트 관리자, KV 저장소를 덜어내고 필요한 기능만 <strong>약 400줄의 Go</strong>로 구현함</li>\n<li>기존 Bash 히스토리는 ...<p></p></li></ul>",
-    "createdAt": "2026-07-26T00:05:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=31815",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
