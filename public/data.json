@@ -1,5 +1,16 @@
 [
   {
+    "title": "속도의 종교",
+    "content": "<ul>\n<li>“빠르게 움직이기”가 실무적 필요를 넘어 <strong>진지함과 야망의 증거</strong>가 되면서, 신중한 검토는 추진력을 방해하는 태도로 취급됨</li>\n<li>진짜 속도는 업무·제약·의존성을 이해하고 명확히 결정한 뒤 실행할 때 나오지만, 많은 조직은 <strong>모호한 요구사항과 미완의 결정</strong>을 속도로...<p></p></li></ul>",
+    "createdAt": "2026-08-01T06:32:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=32030",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "리팩터링이 만드는 경제적 이점",
     "content": "<ul>\n<li>에이전트가 작성한 <strong>17,155줄 규모의 Rust 데이터 접근 계층</strong>을 단계적으로 리팩터링하자, 같은 기능 변경에 필요한 입력 토큰이 159,564개에서 27,360개로 <strong>83% 감소</strong>함</li>\n<li>전체 코드량은 거의 그대로였지만 관련 코드를 응집도 높은 파일로 분리하면서, 에이전트가 변경...<p></p></li></ul>",
     "createdAt": "2026-08-01T00:33:42.000+00:00",
@@ -631,17 +642,6 @@
     "content": "<ul>\n<li>엔지니어링 매니저는 기술 업무를 넘어 어려운 결정과 갈등, 기밀, 조직의 불안을 감당하는 <strong>외롭고 책임이 큰 역할</strong>을 맡게 됨</li>\n<li>직책이 바뀌면 팀과의 관계도 달라지고 개인 의견조차 지시로 받아들여질 수 있어, <strong>말과 감정 관리</strong>가 중요해짐</li>\n<li>성과가 나타나기...<p></p></li></ul>",
     "createdAt": "2026-07-30T01:02:02.000+00:00",
     "link": "https://news.hada.io/topic?id=31969",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Vision Pro로 완공 전 집을 실물 크기로 둘러보기",
-    "content": "<ul>\n<li>집을 짓기 전 <strong>평면도를 실물 크기의 몰입형 3D 공간</strong>으로 바꾸면 방과 복도의 크기, 동선, 현관에서 보이는 풍경을 직접 체감하며 설계를 검토할 수 있음</li>\n<li>Fusion 360에서 바닥·벽·천장을 만들고 재질과 가구를 배치한 뒤 <strong>USDZ</strong>로 내보내 Vision Pro에서 탐색하는 작업...<p></p></li></ul>",
-    "createdAt": "2026-07-30T00:32:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=31968",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
