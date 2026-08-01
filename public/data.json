@@ -1,5 +1,38 @@
 [
   {
+    "title": "프리미어리그, 유니폼 전면 도박업체 후원 금지",
+    "content": "<ul>\n<li>2026-27시즌부터 프리미어리그 20개 구단의 경기 유니폼 전면에서 <strong>도박업체 후원 로고</strong>가 완전히 사라짐</li>\n<li>2025-26시즌에는 도박업체가 20개 구단 중 <strong>11개 구단의 주 후원사</strong>였지만, 새 규정 시행으로 전면 후원이 모두 종료됨</li>\n<li>빈자리는 금융업체 5개 구단, 항...<p></p></li></ul>",
+    "createdAt": "2026-08-01T11:31:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=32034",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ruby Central이 남긴 파괴적 유산",
+    "content": "<ul>\n<li>RubyGems·Bundler·RubyGems.org 통제권을 장악한 뒤 10개월 동안 Ruby Central은 <strong>컨퍼런스 2개, 주요 OSS 프로젝트 2개, 기여자 9명</strong>을 잃었고 분쟁도 해결하지 못함</li>\n<li>이전 유지관리자들의 합의안을 받아들이지 않은 채, André Arko가 Bundler 권리와 고용법 관련 청구를 포기해야 </li></ul>",
+    "createdAt": "2026-08-01T11:02:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=32033",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Stripe가 원하는 것은 숫자 하나뿐",
+    "content": "<ul>\n<li>exe는 제품 로직 곳곳에서 결제 API를 직접 호출하는 대신, 상태 변화를 <strong>청구 가능 사실(billable facts)</strong> 로 기록하고 확정된 상태를 Stripe와 조정함</li>\n<li>기존 구조에서는 데이터베이스 트랜잭션과 결제 API 호출이 얽혀 <strong>부분 실패</strong>, 비정상 구독 상태, 결제 거절 같은...<p></p></li></ul>",
+    "createdAt": "2026-08-01T09:01:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=32032",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "속도의 종교",
     "content": "<ul>\n<li>“빠르게 움직이기”가 실무적 필요를 넘어 <strong>진지함과 야망의 증거</strong>가 되면서, 신중한 검토는 추진력을 방해하는 태도로 취급됨</li>\n<li>진짜 속도는 업무·제약·의존성을 이해하고 명확히 결정한 뒤 실행할 때 나오지만, 많은 조직은 <strong>모호한 요구사항과 미완의 결정</strong>을 속도로...<p></p></li></ul>",
     "createdAt": "2026-08-01T06:32:44.000+00:00",
@@ -610,39 +643,6 @@
     "createdAt": "2026-07-30T01:25:20.000+00:00",
     "link": "https://news.hada.io/topic?id=31972",
     "author": "rkjun",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "디자이너를 위한 현실적인 커리어 조언",
-    "content": "<ul>\n<li>디자인 커리어 조언은 흔히 <strong>이상적인 회사와 개인의 경력 경로</strong>를 전제로 하지만, 실제 채용에서는 포트폴리오의 완성도, 가시적 성과, 협업 능력, 사회적 증거를 함께 평가함</li>\n<li>실력을 키우려면 초보자처럼 배우고 좋은 디자인을 분석하며, 여러 대안을 탐색하고 결과물을 꾸준히 만들...<p></p></li></ul>",
-    "createdAt": "2026-07-30T01:22:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31971",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "명확한 시야, 풀스택이면 정말 이길 수 있을까?",
-    "content": "<ul>\n<li>AI가 스타트업의 실행 범위를 넓혔지만, 전체 가치사슬보다 <strong>데이터·워크플로·고가치 결과</strong>가 축적되는 통제 지점을 장악하는 것이 중요함</li>\n<li>산업 초기에는 통합형 제품이 성능과 신뢰성을 높이지만, 시장이 성숙하고 인터페이스가 표준화되면 이익은 <strong>성능을 결정하는 하위 시스...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-30T01:11:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31970",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "매니저가 된다는 것의 진실",
-    "content": "<ul>\n<li>엔지니어링 매니저는 기술 업무를 넘어 어려운 결정과 갈등, 기밀, 조직의 불안을 감당하는 <strong>외롭고 책임이 큰 역할</strong>을 맡게 됨</li>\n<li>직책이 바뀌면 팀과의 관계도 달라지고 개인 의견조차 지시로 받아들여질 수 있어, <strong>말과 감정 관리</strong>가 중요해짐</li>\n<li>성과가 나타나기...<p></p></li></ul>",
-    "createdAt": "2026-07-30T01:02:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=31969",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
