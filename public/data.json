@@ -1,5 +1,82 @@
 [
   {
+    "title": "BMW, 구매한 차량 화면에 Spider-Man 광고 배포",
+    "content": "<ul>\n<li>BMW가 고객이 이미 구매한 차량의 <strong>Control Display</strong>에 <em>Spider-Man: Brand New Day</em> 전체 화면 광고를 배포하면서, 차량 소유권과 <strong>화면 사용 권한</strong>을 둘러싼 논란이 커짐</li>\n<li>시동 시 나타나는 배너를 운전자가 선택하면 음악과 <strong>실내 무드 조명</strong>이...<p></p></li></ul>",
+    "createdAt": "2026-08-02T18:32:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=32068",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RamenHaus",
+    "content": "<ul>\n<li><strong>RamenHaus</strong>에 아지타마 쇼유(Ajitama Shoyu) 라멘 기록이 등록돼 있음</li>\n<li>라멘을 제공한 매장은 <strong>Ramen Zundo-Ya</strong>임</li>\n<li>방문 지역은 일본 <strong>도쿄(Tokyo)</strong> 임</li>\n<li>해당 기록은 <strong>2018년</strong>에 작성됨</li>\n<li>각 항목에서 라멘 이름...<p></p></li></ul>",
+    "createdAt": "2026-08-02T17:31:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=32067",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Wikimedia Foundation, 노조 인정 거부하고 노조 저지 전문 로펌 선임",
+    "content": "<ul>\n<li>Wikimedia Foundation(WMF)은 직원 압도적 다수가 가입 카드에 서명한 <strong>Wiki Workers United U.S.</strong> 의 자발적 노조 인정을 거부하고, <strong>NLRB 비밀투표</strong>를 요구함</li>\n<li>노조는 WMF가 중립을 표방하면서 <strong>Littler Mendelson</strong>을 법률대리인으로 선임해, 투표를 늦...<p></p></li></ul>",
+    "createdAt": "2026-08-02T16:33:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32063",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Matrix에서의 일주일",
+    "content": "<ul>\n<li>실제 커뮤니티를 Matrix로 운영하자 <strong>Spaces 권한</strong>, 서버 간 동기화, 차단 정책, 페더레이션이 연이어 고장 나면서 단순한 관리 작업에도 장시간의 조사와 우회가 필요했음</li>\n<li>Spaces가 일반 룸으로 구현된 구조와 홈서버별 상태 불일치로 권한 변경이 전파되지 않고, 추천 룸이 사라지거...<p></p></li></ul>",
+    "createdAt": "2026-08-02T16:02:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=32062",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: 엔지니어를 꿈꾸는 15살인 제가 만든 사이클로이드 감속기",
+    "content": "<ul>\n<li><strong>Python 생성기</strong>로 설계한 3D 프린팅 사이클로이드 감속기로, 세 차례 버전을 거쳐 NEMA 17에서 구동되는 설계를 완성함</li>\n<li>Version 3는 외부 핀 10개와 로터 로브 9개로 <strong>1:9 감속비</strong>를 구현하며, 입력축과 반대 방향으로 회전함</li>\n<li>PLA로 제작한 90mm 감속기는 NE...<p></p></li></ul>",
+    "createdAt": "2026-08-02T15:31:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=32061",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 클로드코드 세션 탐색기 만들어 봤습니다.",
+    "content": "<p>여러 프로젝트를 오가다 보니 세션이 디렉토리별로 흩어졌습니다.<br>\n예전에 나눴던 대화에서 필요한 내용을 찾지 못해 같은 걸 다시 묻거나, 이미 했던 논의를 또<br>\n반복하는 일이 잦아졌습니다.</p>\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">claude --resume</code> 의 인터랙티브 피커로 세션을 고를 수는 있지만 탐색 범위가<br>\n현재 </p>",
+    "createdAt": "2026-08-02T14:58:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=32060",
+    "author": "skarb8277",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Go 1.27 인터랙티브 투어",
+    "content": "<ul>\n<li>이번 릴리스는 <strong>제네릭 메서드</strong>를 중심으로 구조체 리터럴과 타입 추론을 개선하고, 표준 라이브러리·런타임·도구 체계까지 폭넓게 확장함</li>\n<li>80바이트 미만 일부 할당은 최대 30% 빨라지고, 할당이 많은 실제 프로그램은 약 <strong>1% 성능 향상</strong>이 예상되지만 바이너리는 약 6...<p></p></li></ul>",
+    "createdAt": "2026-08-02T13:33:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=32059",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Istio ServiceEntry로 외부 서비스 등록하기",
     "content": "<p>Istio <a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>는 문서에서 다음과 같이 설명한다.</p>\n<blockquote>\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 사용하면 Istio 내부 서비스 레지스트리에 항목을 추가해 메시 내에서 자동으로 발견된 서비스가 수동으로 지정한 서비스에 접근하거나 라우팅할 수 있다. ServiceEntry는 서비스의 속성(DNS 이름, VIP, 포트, 프로토콜, 엔드포인트)를 설정한다. 이러한 서비스는 메시 외부에 있을 수도 있고 메시 내부 서비스일 수도 있다.</p>\n</blockquote>\n<h2>outboundTrafficPolicy</h2>\n<p>이 글은 Istio의 Sidecar 모드를 전제로 설명한다.</p>\n<p>이전 <a target=\"_blank\" rel=\"noopener noreferrer\">Sidecar 글</a>에서 봤듯이, Istio 서비스 메시를 사용하면 Pod의 요청은 함께 구성된 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">istio-proxy</code>를 통해 나간다. 메시 내 서비스는 자동으로 등록되지만, 외부 서비스로 요청을 보내면 메시가 목적지를 알지 못한다.</p>\n<p>이런 경우 <strong>외부 API를 Istio 내부 서비스 레지스트리에 수동으로 등록해 메시 서비스처럼 관리하려면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 사용</strong>한다.</p>\n<p><a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>가 없으면 전역 설정인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">meshConfig</code>의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">outboundTrafficPolicy</code>를 따르게 된다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span>1</span><span><span>meshConfig</span><span>:</span><span>\n</span></span></span><span><span>2</span><span><span>  </span><span>outboundTrafficPolicy</span><span>:</span><span>\n</span></span></span><span><span>3</span><span><span>    </span><span>mode</span><span>:</span><span> </span><span>REGISTRY_ONLY</span><span>\n</span></span></span></code></pre><p><a href=\"https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig-OutboundTrafficPolicy\" target=\"_blank\" rel=\"noopener noreferrer\">outboundTrafficPolicy</a>는 애플리케이션이 알 수 없는 아웃바운드 트래픽을 어떻게 다룰지 정하는 설정이다. 모드는 다음 세 가지 중 하나를 선택할 수 있다.</p>\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">REGISTRY_ONLY</code> : 알지 못하는 아웃바운드 트래픽을 드랍한다. 트래픽의 목적지는 명시적으로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 통해 서비스 레지스트리에 선언해야 한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ALLOW_ANY</code> : 알지 못하는 목적지로의 트래픽을 허용한다. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">PassthroughCluster</code>를 통해 원래 목적지 IP로 전달한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ALLOW_ANY_DYNAMIC_DNS</code> : 알 수 없는 목적지로의 트래픽을 동적 DNS 해결로 허용한다.</li>\n</ul>\n<p>이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">outboundTrafficPolicy</code>는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Sidecar</code>에서 설정할 수 있다.</p>\n<h2>ServiceEntry</h2>\n<p>알 수 없는 목적지는 <a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>로 허용 여부만 선택할 수도 있다. 하지만 Istio가 이를 인식하면 타임아웃, 재시도 규칙, 서킷 브레이커 같은 트래픽 정책을 적용할 수 있다. 또한 실제 서비스 이름으로 식별하므로 로그와 메트릭의 관측성도 높아진다.</p>\n<p>다음은 간단한 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code> 예시이다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-https</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>api.dropboxapi.com</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span>- <span>www.googleapis.com</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span>- <span>api.facebook.com</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>443</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>https</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>TLS</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_EXTERNAL</span><span>\n</span></span></span><span><span>15</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>DNS</span><span>\n</span></span></span></code></pre><p>주요 필드를 살펴보자.</p>\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">hosts</code> : Istio에 등록할 호스트명이다.\n<ul>\n<li>와일드카드 접두사를 쓴 DNS 이름도 가능하다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">VirtualService</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DestinationRule</code>에서 일치하는 호스트를 찾을 때 사용한다.</li>\n<li>HTTP에서는 Host/Authority 헤더와 매칭한다.</li>\n<li>HTTPS/TLS에서는 SNI 값과 매칭한다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ports</code> : 서비스가 제공하는 포트와 프로토콜이다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">name</code> : (필수) 포트에 할당된 레이블</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">number</code> : (필수) 정수 형식의 포트 번호</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">protocol</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTP</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTPS</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTP2</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">GRPC</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MONGO</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">TCP</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">TLS</code> 중 하나의 값이다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">targetPort</code> : 트래픽을 수신할 포트 번호</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">location</code> : 서비스가 메시 외부(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_EXTERNAL</code>)인지 메시 내부(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_INTERNAL</code>)인지를 정한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">resolution</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">istio-proxy</code>가 최종 엔드포인트 주소를 결정하는 방법을 지정하며, 아래 값 중 하나를 사용한다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DNS</code> : Envoy가 DNS를 조회해 엔드포인트를 결정하며, 외부 API에는 보통 가장 안전한 선택이다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DNS_ROUND_ROBIN</code> : DNS 결과 중 첫 주소를 사용한다.\n<ul>\n<li>이름을 보면 여러 주소를 돌려서 사용할 것 같지만, 실제로는 새 연결이 계속 첫 주소를 사용하는 방식이다. DNS 변경이 잦아 기존 엔드포인트를 제거하고 커넥션 풀을 드레인한 뒤 새로 연결해야 할 때, 커넥션 풀이 너무 자주 생성되는 문제를 막기 위해 사용한다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">STATIC</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code> 필드에 선언한 정적 IP 주소를 사용한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">NONE</code> : 들어오는 요청이 이미 IP로 해석되었다고 가정하고 아무것도 하지 않는다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code> : 서비스에 연결된 IP 주소</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">workloadSelector</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_INTERNAL</code>에서만 사용할 수 있으며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code>와 둘 중 하나만 사용할 수 있다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">addresses</code> : 서비스에 연결된 가상 IP 주소</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">exportTo</code> : 해당 ServiceEntry를 어느 네임스페이스에 노출할지를 정한다. 생략하면 모든 네임스페이스에 노출한다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\".\"</code> : ServiceEntry가 생성된 네임스페이스에만 노출</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\"*\"</code> : 모든 네임스페이스에 노출</li>\n</ul>\n</li>\n</ul>\n<p>구성이 간단하므로 몇 가지 예시를 보면 어떤 상황에 쓰는지 이해할 수 있다.</p>\n<h3>추가 예시</h3>\n<p>다음은 MongoDB를 ServiceEntry에 등록한 예시이다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-mongocluster</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>mymongodb.somedomain</span><span> </span><span># not used</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span><span>addresses</span><span>:</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span>- <span>192.192.192.192</span><span>/24</span><span> </span><span># VIPs</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>27018</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>mongodb</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>MONGO</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_INTERNAL</span><span>\n</span></span></span><span><span>15</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>STATIC</span><span>\n</span></span></span><span><span>16</span><span><span>  </span><span>endpoints</span><span>:</span><span>\n</span></span></span><span><span>17</span><span><span>  </span>- <span>address</span><span>:</span><span> </span><span>2.2.2.2</span><span>\n</span></span></span><span><span>18</span><span><span>  </span>- <span>address</span><span>:</span><span> </span><span>3.3.3.3</span><span>\n</span></span></span><span><span>19</span><span><span>  \n</span></span></span><span><span>20</span><span><span>---</span>-------<span>\n</span></span></span><span><span>21</span><span><span>  \n</span></span></span><span><span>22</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span>23</span><span><span>kind</span><span>:</span><span> </span><span>DestinationRule</span><span>\n</span></span></span><span><span>24</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span>25</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>mtls-mongocluster</span><span>\n</span></span></span><span><span>26</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span>27</span><span><span>  </span><span>host</span><span>:</span><span> </span><span>mymongodb.somedomain</span><span>\n</span></span></span><span><span>28</span><span><span>  </span><span>trafficPolicy</span><span>:</span><span>\n</span></span></span><span><span>29</span><span><span>    </span><span>tls</span><span>:</span><span>\n</span></span></span><span><span>30</span><span><span>      </span><span>mode</span><span>:</span><span> </span><span>MUTUAL</span><span>\n</span></span></span><span><span>31</span><span><span>      </span><span>clientCertificate</span><span>:</span><span> </span><span>/etc/certs/myclientcert.pem</span><span>\n</span></span></span><span><span>32</span><span><span>      </span><span>privateKey</span><span>:</span><span> </span><span>/etc/certs/client_private_key.pem</span><span>\n</span></span></span><span><span>33</span><span><span>      </span><span>caCertificates</span><span>:</span><span> </span><span>/etc/certs/rootcacerts.pem</span><span>\n</span></span></span></code></pre><p>다음은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">VirtualService</code>의 TLS 라우팅을 이용해서 SNI 값으로 방화벽에 연결하는 예시다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-redirect</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_EXTERNAL</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>443</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>https</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>TLS</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>NONE</span><span>\n</span></span></span><span><span>15</span><span><span>\n</span></span></span><span><span>16</span><span><span>---</span>----<span>\n</span></span></span><span><span>17</span><span><span>\n</span></span></span><span><span>18</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span>19</span><span><span>kind</span><span>:</span><span> </span><span>VirtualService</span><span>\n</span></span></span><span><span>20</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span>21</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>tls-routing</span><span>\n</span></span></span><span><span>22</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span>23</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span>24</span><span><span>  </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span>25</span><span><span>  </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span>26</span><span><span>  </span><span>tls</span><span>:</span><span>\n</span></span></span><span><span>27</span><span><span>  </span>- <span>match</span><span>:</span><span>\n</span></span></span><span><span>28</span><span><span>    </span>- <span>sniHosts</span><span>:</span><span>\n</span></span></span><span><span>29</span><span><span>      </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span>30</span><span><span>      </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span>31</span><span><span>    </span><span>route</span><span>:</span><span>\n</span></span></span><span><span>32</span><span><span>    </span>- <span>destination</span><span>:</span><span>\n</span></span></span><span><span>33</span><span><span>        </span><span>host</span><span>:</span><span> </span><span>internal-egress-firewall.ns1.svc.cluster.local</span><span>\n</span></span></span></code></pre>",
     "createdAt": "2026-08-02T08:46:08.000+00:00",
@@ -522,83 +599,6 @@
     "createdAt": "2026-07-31T02:13:02.000+00:00",
     "link": "https://news.hada.io/topic?id=32009",
     "author": "hyeongjun",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Kimi K3 로컬 실행 가이드",
-    "content": "<ul>\n<li>Moonshot AI의 <strong>Kimi K3</strong>는 전체 2.8T·활성 104B 매개변수와 네이티브 비전, 100만 토큰 문맥을 갖춘 오픈 웨이트 모델이며, Unsloth가 로컬 실행용 GGUF 양자화를 제공함</li>\n<li>전체 정밀도 추론에는 1.56TB가 필요하지만, <strong>Dynamic 1-bit</strong> <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">UD-IQ1_S</code>는 594GB에...<p></p></li></ul>",
-    "createdAt": "2026-07-31T01:44:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=32008",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: FlowCraft – 메타프롬프트를 그래프로 시각화하고 그래프 기반 실행 프롬프트로 변환하는 도구",
-    "content": "<p>안녕하세요,</p>\n<p>Claude Code나 코덱스의 Plan 모드에서 만든 긴 계획을 보다 쉽게 검토하고,<br>\nAI에게 전달하기 위해 만든 FlowCraft Task Studio를 공유합니다.</p>\n<p>긴 메타프롬프트를 그대로 넘기면 어떤 작업이 먼저인지, 무엇을 병렬로 처리할 수 있는지,<br>\n특정 서브에이전트에게 일이 너무 몰리</p>",
-    "createdAt": "2026-07-31T00:36:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=32007",
-    "author": "sleeplesshan",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google, 2026년 말까지 Android 연령 확인을 전 세계로 확대",
-    "content": "<ul>\n<li>브라질에서 제공 중인 <strong>Google Play Age Signals API</strong>가 8월 중순 호주·캐나다를 거쳐 2026년 말 전 세계 모든 사용자에게 확대됨</li>\n<li>부모는 자녀의 연령대만 선택적으로 공유할 수 있으며, 성인도 앱 개발자의 요청에 따라 자신의 연령을 전달할 수 있음</li>\n<li>개발자는 전달받은 </li></ul>",
-    "createdAt": "2026-07-31T00:32:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32006",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "termcn - Ink와 OpenTUI 기반의 아름다운 터미널 UI 컴포넌트",
-    "content": "<ul>\n<li>별도 설정 필요없이 명령 하나로 셋업 가능한 <strong>React</strong>용 터미널 UI 컴포넌트 오픈소스</li>\n<li><strong><a href=\"https://github.com/vadimdemedes/ink\" target=\"_blank\" rel=\"noopener noreferrer\">Ink</a></strong> 와 <strong><a href=\"https://github.com/anomalyco/opentui\" target=\"_blank\" rel=\"noopener noreferrer\">OpenTUI</a></strong> 위에 구축하였고, <strong>shadcn/u...<p></p></strong></li></ul>",
-    "createdAt": "2026-07-31T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32005",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 미학",
-    "content": "<ul>\n<li>기술적 제약에 대응해 등장한 <strong>디자인 관용구</strong> 중 일부는 유행을 넘어 보편적인 소프트웨어 상호작용 방식으로 자리 잡음</li>\n<li>AI 인터페이스는 ✨, 무지개색, <strong>스트리밍 텍스트</strong>처럼 AI를 상징하거나 대화형 작동 방식에 특화된 시각·행동 패턴을 만들어냄</li>\n<li>AI의 ‘...<p></p></li></ul>",
-    "createdAt": "2026-07-31T00:07:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=32004",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "가장 즐겁게 작업한 사이드 프로젝트는 무엇인가요?",
-    "content": "<ul>\n<li><a href=\"https://blog.jsbarretto.com/post/software-is-joy\" target=\"_blank\" rel=\"noopener noreferrer\">Software is Joy</a>의 취지처럼, 지금까지 작업하며 가장 즐거웠던 <strong>사이드 프로젝트</strong>를 공유해 달라는 질문임</li>\n</ul>\n...<p></p>",
-    "createdAt": "2026-07-31T00:04:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=32003",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "C++의 부동소수점→정수 변환이 정의되지 않은 동작을 일으키는 경우",
-    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">float</code>의 소수부를 버린 값이 대상 정수형 범위를 벗어나면 <strong>정의되지 않은 동작(UB)</strong> 이 발생하며, 암시적 변환·함수형 캐스트·<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">static_cast</code> 모두 영향받음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-Wall</code>과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-Wextra</code>는 이를 경고하지 않고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-Wconversion</code>도 ...<p></p></li></ul>",
-    "createdAt": "2026-07-31T00:01:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=32002",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
