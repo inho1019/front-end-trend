@@ -1,5 +1,170 @@
 [
   {
+    "title": "MiniMax H3, ComfyUI 출시 당일 지원 — 오픈 가중치·네이티브 오디오·2K 영상",
+    "content": "<ul>\n<li>MiniMax의 3세대이자 첫 <strong>오픈 가중치 비디오 모델</strong> H3가 ComfyUI에서 출시 당일부터 지원되며, 최대 15초 길이의 2K 영상을 생성함</li>\n<li>텍스트·이미지 기반 생성부터 시작·종료 프레임 제어와 참조 기반 생성까지 하나의 모델에서 처리하고, 영상과 <strong>스테레오 오디오를 동시에 생성...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-04T01:32:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=32129",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "구글 서치 콘솔, X/인스타그램/틱톡/유튜브를 통한 유입 트래픽도 지원 시작",
+    "content": "<ul>\n<li>Google 검색과 디스커버에서 <strong>소셜 및 동영상 게시물의 실적</strong>을 추적하는 새로운 Search Console 속성 유형인 <strong>플랫폼 속성</strong> 도입</li>\n<li><strong>Instagram, TikTok, X, YouTube</strong> 콘텐츠로 사용자를 유도하는 검색어 추적 및 게시물 상호작용 방식 파악 가능</li>\n</ul>",
+    "createdAt": "2026-08-04T01:11:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32128",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "안목, 판단 그리고 AI",
+    "content": "<ul>\n<li><strong>안목(taste)</strong> 은 충분한 증거가 없어도 무엇이 뛰어난지 알아보는 능력이며, <strong>판단(judgment)</strong> 은 위험과 결과를 감수하고 그 선택을 실제 작업으로 내보내는 능력임</li>\n<li>안목은 반복적인 제작 경험과 뛰어난 결과물에 대한 폭넓은 노출을 통해 형성되며, 정답이 모호한 여...<p></p></li></ul>",
+    "createdAt": "2026-08-04T01:04:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32127",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: maxt – 거래소와 언어가 달라도 일관된 방식으로 사용하는 멀티 언어 거래소 SDK",
+    "content": "<p>안녕하세요. 여러 거래소를 하나의 서비스에서 사용하면서 겪은 불편에서 시작한 오픈소스 프로젝트 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">maxt</code>를 소개합니다.</p>\n<h3>만든 이유</h3>\n<p>통합 API를 사용해도 실제로 여러 거래소를 연동하면 같은 기능에 서로 다른 파라미터가 필요하거나, 응답과 오류를 별도로 처리해야 하는 경우가 있었습</p>",
+    "createdAt": "2026-08-04T01:03:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=32126",
+    "author": "provite",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "크래프톤, 21B 한영 이중언어 음성 AI 모델 &#039;A.X K2 Raon-Speech&#039; 공개",
+    "content": "<ul>\n<li>SKT의 A.X K2 Light 20B-A3B 텍스트 백본에 KRAFTON이 자체 학습한 <strong>음성 인코더와 음성 코덱을 결합</strong>한 모델로, 전체 21.2B 중 <strong>약 3.5B 파라미터를 활성화</strong></li>\n<li><a href=\"https://huggingface.co/KRAFTON/Raon-Speech-9B\" target=\"_blank\" rel=\"noopener noreferrer\">Raon-Speech-9B</a>의 학습 방식을 사용하며 세 ...<p></p></li></ul>",
+    "createdAt": "2026-08-04T01:01:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32125",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "카카오, &#039;카나나-2&#039;의 경량 모델 4종 오픈소스로 공개",
+    "content": "<ul>\n<li><strong>Kanana-2 SLM 모델군</strong>으로 <strong>3B 모델</strong>과 이를 압축한 <strong>1.3B 모델의 Base/Instruct 가중치</strong>를 제공</li>\n<li>Kanana-2-3B는 TPU 클러스터에서 처음부터 사전학습한 뒤 인스트럭션 파인튜닝과 강화학습을 적용했으며, 1.3B 모델은 <strong>단계적 가지치기와 증류...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-04T00:46:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32124",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LobeHub - AI 팀 전체를 고용/스케줄링/보고하는 Chief Agent Operator",
+    "content": "<ul>\n<li>여러 AI 에이전트를 한 곳에서 <strong>고용/스케줄링/보고</strong>하며 7×24 운영 체제로 조직화, 사용자가 상시 접속하지 않아도 AI 팀 관리 가능</li>\n<li><strong>작업 단위로서의 에이전트</strong> 개념 채택, 인간과 에이전트가 공진화(co-evolve)하는 인프라 제공</li>\n<li>기존 에이전트가 일회성/작...<p></p></li></ul>",
+    "createdAt": "2026-08-04T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32123",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "JSON은 당신을 속이고 있다",
+    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">JSON.parse(JSON.stringify(value))</code>는 JavaScript 상태를 그대로 복제하지 않으며, 큰 정수·<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">undefined</code>·<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Date</code>·<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">NaN</code> 등이 <strong>조용히 변경되거나 삭제</strong>될 수 있음</li>\n<li>JSON은 문자열·숫자·불리언·<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">null</code>·배열·객체만 지원하는 작...<p></p></li></ul>",
+    "createdAt": "2026-08-04T00:14:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=32122",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "9front “THIS WAS SUPPOSED TO BE FUN” 릴리스",
+    "content": "<ul>\n<li>Plan 9 계열 운영체제 <strong>9front</strong>가 그래픽 변환 API 개편, 원격 디버깅, 새 하드웨어 드라이버를 중심으로 기능을 확장함</li>\n<li>개편된 <strong>affinewarp API</strong>를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">page</code>, Doom을 비롯한 게임과 이미지 도구에 적용하고, 고정소수점 정밀도와 BGR15 처리 성능을 개선함...<p></p></li></ul>",
+    "createdAt": "2026-08-04T00:11:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=32121",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "도움을 구합니다",
+    "content": "<ul>\n<li>무료·무보증 오픈소스에 환불, 기능 추가, Windows 지원, 라이선스 변경까지 요구하는 이용자들을 향해 <strong>유지관리자의 소진과 반감</strong>을 냉소적으로 풀어냄</li>\n<li>AGPLv3-or-later를 MIT로 바꾸지 않고, Claude가 대부분 작성한 대형 PR을 검토한 뒤 승인된 기여자 외에는 <strong>PR 제출을 차...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-04T00:08:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=32120",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLM은 전문성을 보상함",
+    "content": "<ul>\n<li>LLM 덕분에 누구나 여러 분야에서 준수한 결과를 만들 수 있지만, 같은 모델에서 더 큰 가치를 끌어내는 핵심은 <strong>프롬프트 기법보다 도메인 전문성</strong>임</li>\n<li>Terence Tao는 Jacobian Conjecture의 반례를 ChatGPT와 논의하며 짧고 핵심적인 질문, 간접적인 반박, 독자적인 도약과 대안으로 대...<p></p></li></ul>",
+    "createdAt": "2026-08-03T23:31:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=32119",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 새로운 북한 캠페인이 가짜 코딩 면접으로 개발자 자격 증명을 훔칩니다",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!-Z1c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!-Z1c!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 424w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 848w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 1272w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!-Z1c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png\" data-attrs=\"{\" alt=\"가짜 채용 공고가 담긴 Slack 스레드\" title=\"가짜 채용 공고가 담긴 Slack 스레드\" srcset=\"https://substackcdn.com/image/fetch/$s_!-Z1c!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 424w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 848w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 1272w, https://substackcdn.com/image/fetch/$s_!-Z1c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc58390d2-092f-4235-8805-6b1a66634b8d_1602x716.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://tinyurl.com/44juduzp\" target=\"_blank\" rel=\"noopener noreferrer\">https://tinyurl.com/44juduzp</a></p></blockquote><h2><strong>소개</strong></h2><p>요즘은 채용 과제, 오픈소스 라이브러리, npm 패키지처럼 “당연히 실행해 보는” 코드가 곧 공격 경로가 됩니다. 이 글은 겉보기엔 멀쩡히 돌아가는 프로젝트가 국기 이미지 뒤에 악성코드를 숨긴 채 배포됐고, 정적 분석과 백신을 모두 우회한 사례를 이야기합니다. 남이 준 코드를 로컬에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">npm run dev</code> 한 번 돌리는 순간 사내 자격 증명·SSH 키·크립토 지갑까지 유출되고 그게 조직 전체를 겨냥한 공급망 공격의 첫 발판이 되는데요. 누구든 낯선 코드를 실행하기 전 한 번 더 의심하는 습관이 필요하게 된 시대인 것 같습니다. 🤨</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>이 글을 보면 결국 외주나 프리랜서 개발자를 구한다는 미끼로 사람을 모아서 코딩 테스트 형태로 악성코드를 심는 패턴인데요. 혹시 비슷한 채용 사칭이나 미심쩍은 외주 제안을 받아보신 경험이나, 관련해서 들어보신 사례가 있으신가요? 없으시다면 앞으로 이런 식의 제안을 받았을 때 어떤 부분을 유심히 보면 좋을지도 같이 얘기해보고 싶어요. 사실 기업의 채용 테스트를 진행할때도 충분히 문제가 될 수 있는 패턴인 것 같아서요!</p></blockquote><p><strong>💬. 의견 1 </strong></p><p><span>오.. 요즘 이런 식의 공격 패턴이 있군요.</span><br><span>직접 겪어본 적은 없지만, 링크드인 같은 검증된 플랫폼을 통해 온 제안인지 파악하고 출처가 불분명하다면 일단 실행 안 해 보는 습관이 필요할 것 같아요. AI가 발전하면서 공격 수법도 다양해진 것 같아 걱정입니다. </span>😭</p><p><strong>💬. 의견 2</strong></p><p>개인 간의 파일 공유 시에 악성코드 정적 분석 과정이 필수로 필요해지는 시점이 오는 것인가 하는 생각이 드는군요. 😒 외부 파일이 내부로 들어오더라도 네트워크 레벨에서 차단을 해준다면 1차적인 방어는 가능하지 않않을까 합니다</p><h2><strong>목차</strong></h2><ul><li><p>핵심 요약</p></li><li><p>Elastic이 이 악성코드 캠페인을 발견한 경위</p></li><li><p>실행 경로</p></li><li><p>DPRK 배후 추정 근거, Contagious Interview와의 연관성</p></li><li><p>OTTERCOOKIE와 BEAVERTAIL이 보안 리서치에서 겹치는 이유</p></li><li><p>악성코드 분석</p><ul><li><p>obfuscator.io가 악성코드를 숨기는 방식</p></li><li><p>브라우저 자격 증명 및 크립토 지갑 탈취기 모듈의 동작 방식</p></li><li><p>이 악성코드가 개발자 머신에서 훔치는 파일</p></li><li><p>Socket.IO 기반 RAT</p></li><li><p>클립보드 탈취기와 윈도우 페이로드 드로퍼</p></li></ul></li><li><p>결론</p></li><li><p>Contagious Interview 악성코드의 MITRE ATT&amp;CK 전술 및 기법</p><ul><li><p>전술</p></li><li><p>기법</p></li></ul></li><li><p>Contagious Interview 악성코드 캠페인 탐지 및 예방 방법</p><ul><li><p>탐지 및 예방 규칙</p></li><li><p>관측값</p></li></ul></li><li><p>참고 자료</p></li><li><p>부록: 표적이 된 크립토 지갑 확장 프로그램 ID</p></li></ul><p></p>",
+    "createdAt": "2026-08-03T23:30:25.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-f54",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "Andy Pavlo, ClickHouse Labs 설립 위해 ClickHouse 합류",
+    "content": "<ul>\n<li>Carnegie Mellon University에서 현대 DBMS 내부 구조를 연구해 온 <strong>Andy Pavlo</strong>가 ClickHouse에 합류해 데이터베이스 연구 조직 <strong>ClickHouse Labs</strong>를 설립하고 이끎</li>\n<li>연구 결과를 엔지니어링 조직에 일방적으로 넘기는 연구소가 아니라, 엔지니어·고객·협력자·산업 파...<p></p></li></ul>",
+    "createdAt": "2026-08-03T22:31:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=32118",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "독일, 풍력·태양광 발전량이 처음으로 화석연료 추월",
+    "content": "<ul>\n<li>Carbon Brief의 Energy Institute 데이터 분석에서 2025년 독일의 <strong>풍력·태양광 발전량은 225TWh·44%</strong> 로, 화석연료의 217TWh·43%를 처음 넘어섬</li>\n<li>독일은 석탄과 원자력을 함께 퇴출하는 <strong>Energiewende</strong>에 따라 20년간 태양광과 육상풍력을 빠르게 확대했으며, EU 전체에...<p></p></li></ul>",
+    "createdAt": "2026-08-03T20:33:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=32117",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Bonsai - Jane Street의 UI 라이브러리",
+    "content": "<ul>\n<li><strong>Bonsai</strong>는 Elm에서 일부 영감을 받아 OCaml로 고성능 반응형 웹 애플리케이션을 만드는 UI 라이브러리로, Jane Street의 사내 웹 애플리케이션 대부분에 사용됨</li>\n<li>컴포넌트를 <strong>순수 함수형 상태 머신</strong>으로 구현하며, 상태·증분 계산·렌더링을 하나로 묶지 않고 필요한 기...<p></p></li></ul>",
+    "createdAt": "2026-08-03T19:37:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=32116",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Taylor Farms, 16일 동안 Cyclospora 입장문을 네 차례 수정",
     "content": "<ul>\n<li>Taylor Farms는 7월 17일부터 31일까지 <strong>Cyclospora 집단발병 입장문</strong>을 네 차례 수정해 총 다섯 버전을 만들었지만, 2013년 이후 Doctor Mora 시설에서 무엇을 바꿨는지는 밝히지 않음</li>\n<li>최초 입장문에 있던 FDA의 <strong>특정 농장 추적조사</strong> 내용은 삭제됐고, 7월 19일 추가...<p></p></li></ul>",
     "createdAt": "2026-08-03T19:34:43.000+00:00",
@@ -88,7 +253,7 @@
     }
   },
   {
-    "title": "Show GN: B",
+    "title": "Show GN: Book Studio",
     "content": "<p>그동안 PDF로 된 책을 웹 문서로 옮겨 혼자 읽어왔습니다. 챕터를 나눠 탐색하고, 필요한 내용을 검색하고, 밑줄과 메모를 남기니 일반 PDF 뷰어보다 훨씬 편했습니다. 이 환경을 다른 분도 만들 수 있도록 <strong>Book Studio</strong>라는 템플릿으로 정리해 공개했습니다.</p>\n<p>Fumadocs기반의 디자인으로, 현대</p>",
     "createdAt": "2026-08-03T14:58:21.000+00:00",
     "link": "https://news.hada.io/topic?id=32107",
@@ -110,8 +275,8 @@
     }
   },
   {
-    "title": "Kakehashi - Linux ARM에서 macOS 바이너리를 실행하는 실험적 사용자 공간",
-    "content": "<ul>\n<li><strong>Kakehashi</strong>는 Linux aarch64에서 Darwin Mach-O를 불러와 macOS ARM64 CLI 바이너리를 실행하는 사용자 공간 변환 계층으로, JIT나 명령어 에뮬레이션 없이 동작함</li>\n<li>독립형 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">libSystem</code>을 매핑하고 <strong>BSD 시스템 호출</strong>을 Linux로 변환하며, clang 프로브와 D...<p></p></li></ul>",
+    "title": "Kakehashi - Linux ARM에서 macOS CLI 바이너리를 실행하는 변환 계층",
+    "content": "<ul>\n<li><strong>macOS ARM64용 Darwin CLI 바이너리</strong>를 별도의 macOS 머신 없이 Linux aarch64에서 실행하는 사용자 공간 변환 계층</li>\n<li><strong>맥 전용 도구 검증 및 CI 작업</strong>을 저렴한 Linux 환경으로 옮길 수 있음</li>\n<li>JIT나 명령어 에뮬레이션 없이 CPU에서 <strong>네이티브 실행</strong></li></ul>",
     "createdAt": "2026-08-03T14:31:41.000+00:00",
     "link": "https://news.hada.io/topic?id=32106",
     "author": "neo",
@@ -440,72 +605,6 @@
     }
   },
   {
-    "title": "RamenHaus",
-    "content": "<ul>\n<li>쿠키, 자바스크립트 없이 회전하는 라멘 그릇 사진만 보여주는 사이트</li>\n<li>국가/도시별로 정리된 총 114개의 라멘 사진이 포함</li>\n<li><a href=\"https://rotatingsandwiches.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Rotating Sandwiches</a> 에서 영감을 받음</li>\n</ul>\n...<p></p>",
-    "createdAt": "2026-08-02T17:31:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=32067",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Wikimedia Foundation, 노조 인정 거부하고 노조 저지 전문 로펌 선임",
-    "content": "<ul>\n<li>Wikimedia Foundation(WMF)은 직원 압도적 다수가 가입 카드에 서명한 <strong>Wiki Workers United U.S.</strong> 의 자발적 노조 인정을 거부하고, <strong>NLRB 비밀투표</strong>를 요구함</li>\n<li>노조는 WMF가 중립을 표방하면서 <strong>Littler Mendelson</strong>을 법률대리인으로 선임해, 투표를 늦...<p></p></li></ul>",
-    "createdAt": "2026-08-02T16:33:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=32063",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Matrix에서의 일주일",
-    "content": "<ul>\n<li>실제 커뮤니티를 Matrix로 운영하자 <strong>Spaces 권한</strong>, 서버 간 동기화, 차단 정책, 페더레이션이 연이어 고장 나면서 단순한 관리 작업에도 장시간의 조사와 우회가 필요했음</li>\n<li>Spaces가 일반 룸으로 구현된 구조와 홈서버별 상태 불일치로 권한 변경이 전파되지 않고, 추천 룸이 사라지거...<p></p></li></ul>",
-    "createdAt": "2026-08-02T16:02:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=32062",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 엔지니어를 꿈꾸는 15살인 제가 만든 사이클로이드 감속기",
-    "content": "<ul>\n<li><strong>Python 생성기</strong>로 설계한 3D 프린팅 사이클로이드 감속기로, 세 차례 버전을 거쳐 NEMA 17에서 구동되는 설계를 완성함</li>\n<li>Version 3는 외부 핀 10개와 로터 로브 9개로 <strong>1:9 감속비</strong>를 구현하며, 입력축과 반대 방향으로 회전함</li>\n<li>PLA로 제작한 90mm 감속기는 NE...<p></p></li></ul>",
-    "createdAt": "2026-08-02T15:31:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=32061",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 클로드코드 세션 탐색기 만들어 봤습니다.",
-    "content": "<p>여러 프로젝트를 오가다 보니 세션이 디렉토리별로 흩어졌습니다.<br>\n예전에 나눴던 대화에서 필요한 내용을 찾지 못해 같은 걸 다시 묻거나, 이미 했던 논의를 또<br>\n반복하는 일이 잦아졌습니다.</p>\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">claude --resume</code> 의 인터랙티브 피커로 세션을 고를 수는 있지만 탐색 범위가<br>\n현재 </p>",
-    "createdAt": "2026-08-02T14:58:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=32060",
-    "author": "skarb8277",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Go 1.27 인터랙티브 투어",
-    "content": "<ul>\n<li>이번 릴리스는 <strong>제네릭 메서드</strong>를 중심으로 구조체 리터럴과 타입 추론을 개선하고, 표준 라이브러리·런타임·도구 체계까지 폭넓게 확장함</li>\n<li>80바이트 미만 일부 할당은 최대 30% 빨라지고, 할당이 많은 실제 프로그램은 약 <strong>1% 성능 향상</strong>이 예상되지만 바이너리는 약 6...<p></p></li></ul>",
-    "createdAt": "2026-08-02T13:33:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=32059",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Istio ServiceEntry로 외부 서비스 등록하기",
     "content": "<p>Istio <a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>는 문서에서 다음과 같이 설명한다.</p>\n<blockquote>\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 사용하면 Istio 내부 서비스 레지스트리에 항목을 추가해 메시 내에서 자동으로 발견된 서비스가 수동으로 지정한 서비스에 접근하거나 라우팅할 수 있다. ServiceEntry는 서비스의 속성(DNS 이름, VIP, 포트, 프로토콜, 엔드포인트)를 설정한다. 이러한 서비스는 메시 외부에 있을 수도 있고 메시 내부 서비스일 수도 있다.</p>\n</blockquote>\n<h2>outboundTrafficPolicy</h2>\n<p>이 글은 Istio의 Sidecar 모드를 전제로 설명한다.</p>\n<p>이전 <a target=\"_blank\" rel=\"noopener noreferrer\">Sidecar 글</a>에서 봤듯이, Istio 서비스 메시를 사용하면 Pod의 요청은 함께 구성된 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">istio-proxy</code>를 통해 나간다. 메시 내 서비스는 자동으로 등록되지만, 외부 서비스로 요청을 보내면 메시가 목적지를 알지 못한다.</p>\n<p>이런 경우 <strong>외부 API를 Istio 내부 서비스 레지스트리에 수동으로 등록해 메시 서비스처럼 관리하려면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 사용</strong>한다.</p>\n<p><a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>가 없으면 전역 설정인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">meshConfig</code>의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">outboundTrafficPolicy</code>를 따르게 된다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span>1</span><span><span>meshConfig</span><span>:</span><span>\n</span></span></span><span><span>2</span><span><span>  </span><span>outboundTrafficPolicy</span><span>:</span><span>\n</span></span></span><span><span>3</span><span><span>    </span><span>mode</span><span>:</span><span> </span><span>REGISTRY_ONLY</span><span>\n</span></span></span></code></pre><p><a href=\"https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig-OutboundTrafficPolicy\" target=\"_blank\" rel=\"noopener noreferrer\">outboundTrafficPolicy</a>는 애플리케이션이 알 수 없는 아웃바운드 트래픽을 어떻게 다룰지 정하는 설정이다. 모드는 다음 세 가지 중 하나를 선택할 수 있다.</p>\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">REGISTRY_ONLY</code> : 알지 못하는 아웃바운드 트래픽을 드랍한다. 트래픽의 목적지는 명시적으로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>를 통해 서비스 레지스트리에 선언해야 한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ALLOW_ANY</code> : 알지 못하는 목적지로의 트래픽을 허용한다. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">PassthroughCluster</code>를 통해 원래 목적지 IP로 전달한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ALLOW_ANY_DYNAMIC_DNS</code> : 알 수 없는 목적지로의 트래픽을 동적 DNS 해결로 허용한다.</li>\n</ul>\n<p>이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">outboundTrafficPolicy</code>는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Sidecar</code>에서 설정할 수 있다.</p>\n<h2>ServiceEntry</h2>\n<p>알 수 없는 목적지는 <a href=\"https://istio.io/latest/docs/reference/config/networking/service-entry/\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceEntry</a>로 허용 여부만 선택할 수도 있다. 하지만 Istio가 이를 인식하면 타임아웃, 재시도 규칙, 서킷 브레이커 같은 트래픽 정책을 적용할 수 있다. 또한 실제 서비스 이름으로 식별하므로 로그와 메트릭의 관측성도 높아진다.</p>\n<p>다음은 간단한 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code> 예시이다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-https</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>api.dropboxapi.com</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span>- <span>www.googleapis.com</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span>- <span>api.facebook.com</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>443</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>https</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>TLS</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_EXTERNAL</span><span>\n</span></span></span><span><span>15</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>DNS</span><span>\n</span></span></span></code></pre><p>주요 필드를 살펴보자.</p>\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">hosts</code> : Istio에 등록할 호스트명이다.\n<ul>\n<li>와일드카드 접두사를 쓴 DNS 이름도 가능하다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">VirtualService</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DestinationRule</code>에서 일치하는 호스트를 찾을 때 사용한다.</li>\n<li>HTTP에서는 Host/Authority 헤더와 매칭한다.</li>\n<li>HTTPS/TLS에서는 SNI 값과 매칭한다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ports</code> : 서비스가 제공하는 포트와 프로토콜이다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">name</code> : (필수) 포트에 할당된 레이블</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">number</code> : (필수) 정수 형식의 포트 번호</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">protocol</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTP</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTPS</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HTTP2</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">GRPC</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MONGO</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">TCP</code>|<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">TLS</code> 중 하나의 값이다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">targetPort</code> : 트래픽을 수신할 포트 번호</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">location</code> : 서비스가 메시 외부(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_EXTERNAL</code>)인지 메시 내부(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_INTERNAL</code>)인지를 정한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">resolution</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">istio-proxy</code>가 최종 엔드포인트 주소를 결정하는 방법을 지정하며, 아래 값 중 하나를 사용한다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DNS</code> : Envoy가 DNS를 조회해 엔드포인트를 결정하며, 외부 API에는 보통 가장 안전한 선택이다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DNS_ROUND_ROBIN</code> : DNS 결과 중 첫 주소를 사용한다.\n<ul>\n<li>이름을 보면 여러 주소를 돌려서 사용할 것 같지만, 실제로는 새 연결이 계속 첫 주소를 사용하는 방식이다. DNS 변경이 잦아 기존 엔드포인트를 제거하고 커넥션 풀을 드레인한 뒤 새로 연결해야 할 때, 커넥션 풀이 너무 자주 생성되는 문제를 막기 위해 사용한다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">STATIC</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code> 필드에 선언한 정적 IP 주소를 사용한다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">NONE</code> : 들어오는 요청이 이미 IP로 해석되었다고 가정하고 아무것도 하지 않는다.</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code> : 서비스에 연결된 IP 주소</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">workloadSelector</code> : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">MESH_INTERNAL</code>에서만 사용할 수 있으며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">endpoints</code>와 둘 중 하나만 사용할 수 있다.</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">addresses</code> : 서비스에 연결된 가상 IP 주소</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">exportTo</code> : 해당 ServiceEntry를 어느 네임스페이스에 노출할지를 정한다. 생략하면 모든 네임스페이스에 노출한다.\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\".\"</code> : ServiceEntry가 생성된 네임스페이스에만 노출</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\"*\"</code> : 모든 네임스페이스에 노출</li>\n</ul>\n</li>\n</ul>\n<p>구성이 간단하므로 몇 가지 예시를 보면 어떤 상황에 쓰는지 이해할 수 있다.</p>\n<h3>추가 예시</h3>\n<p>다음은 MongoDB를 ServiceEntry에 등록한 예시이다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-mongocluster</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>mymongodb.somedomain</span><span> </span><span># not used</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span><span>addresses</span><span>:</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span>- <span>192.192.192.192</span><span>/24</span><span> </span><span># VIPs</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>27018</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>mongodb</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>MONGO</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_INTERNAL</span><span>\n</span></span></span><span><span>15</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>STATIC</span><span>\n</span></span></span><span><span>16</span><span><span>  </span><span>endpoints</span><span>:</span><span>\n</span></span></span><span><span>17</span><span><span>  </span>- <span>address</span><span>:</span><span> </span><span>2.2.2.2</span><span>\n</span></span></span><span><span>18</span><span><span>  </span>- <span>address</span><span>:</span><span> </span><span>3.3.3.3</span><span>\n</span></span></span><span><span>19</span><span><span>  \n</span></span></span><span><span>20</span><span><span>---</span>-------<span>\n</span></span></span><span><span>21</span><span><span>  \n</span></span></span><span><span>22</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span>23</span><span><span>kind</span><span>:</span><span> </span><span>DestinationRule</span><span>\n</span></span></span><span><span>24</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span>25</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>mtls-mongocluster</span><span>\n</span></span></span><span><span>26</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span>27</span><span><span>  </span><span>host</span><span>:</span><span> </span><span>mymongodb.somedomain</span><span>\n</span></span></span><span><span>28</span><span><span>  </span><span>trafficPolicy</span><span>:</span><span>\n</span></span></span><span><span>29</span><span><span>    </span><span>tls</span><span>:</span><span>\n</span></span></span><span><span>30</span><span><span>      </span><span>mode</span><span>:</span><span> </span><span>MUTUAL</span><span>\n</span></span></span><span><span>31</span><span><span>      </span><span>clientCertificate</span><span>:</span><span> </span><span>/etc/certs/myclientcert.pem</span><span>\n</span></span></span><span><span>32</span><span><span>      </span><span>privateKey</span><span>:</span><span> </span><span>/etc/certs/client_private_key.pem</span><span>\n</span></span></span><span><span>33</span><span><span>      </span><span>caCertificates</span><span>:</span><span> </span><span>/etc/certs/rootcacerts.pem</span><span>\n</span></span></span></code></pre><p>다음은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ServiceEntry</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">VirtualService</code>의 TLS 라우팅을 이용해서 SNI 값으로 방화벽에 연결하는 예시다.</p>\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><span><span> 1</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span> 2</span><span><span>kind</span><span>:</span><span> </span><span>ServiceEntry</span><span>\n</span></span></span><span><span> 3</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span> 4</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>external-svc-redirect</span><span>\n</span></span></span><span><span> 5</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span> 6</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span> 7</span><span><span>  </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span> 8</span><span><span>  </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span> 9</span><span><span>  </span><span>location</span><span>:</span><span> </span><span>MESH_EXTERNAL</span><span>\n</span></span></span><span><span>10</span><span><span>  </span><span>ports</span><span>:</span><span>\n</span></span></span><span><span>11</span><span><span>  </span>- <span>number</span><span>:</span><span> </span><span>443</span><span>\n</span></span></span><span><span>12</span><span><span>    </span><span>name</span><span>:</span><span> </span><span>https</span><span>\n</span></span></span><span><span>13</span><span><span>    </span><span>protocol</span><span>:</span><span> </span><span>TLS</span><span>\n</span></span></span><span><span>14</span><span><span>  </span><span>resolution</span><span>:</span><span> </span><span>NONE</span><span>\n</span></span></span><span><span>15</span><span><span>\n</span></span></span><span><span>16</span><span><span>---</span>----<span>\n</span></span></span><span><span>17</span><span><span>\n</span></span></span><span><span>18</span><span><span>apiVersion</span><span>:</span><span> </span><span>networking.istio.io/v1</span><span>\n</span></span></span><span><span>19</span><span><span>kind</span><span>:</span><span> </span><span>VirtualService</span><span>\n</span></span></span><span><span>20</span><span><span>metadata</span><span>:</span><span>\n</span></span></span><span><span>21</span><span><span>  </span><span>name</span><span>:</span><span> </span><span>tls-routing</span><span>\n</span></span></span><span><span>22</span><span><span>spec</span><span>:</span><span>\n</span></span></span><span><span>23</span><span><span>  </span><span>hosts</span><span>:</span><span>\n</span></span></span><span><span>24</span><span><span>  </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span>25</span><span><span>  </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span>26</span><span><span>  </span><span>tls</span><span>:</span><span>\n</span></span></span><span><span>27</span><span><span>  </span>- <span>match</span><span>:</span><span>\n</span></span></span><span><span>28</span><span><span>    </span>- <span>sniHosts</span><span>:</span><span>\n</span></span></span><span><span>29</span><span><span>      </span>- <span>wikipedia.org</span><span>\n</span></span></span><span><span>30</span><span><span>      </span>- <span>\"*.wikipedia.org\"</span><span>\n</span></span></span><span><span>31</span><span><span>    </span><span>route</span><span>:</span><span>\n</span></span></span><span><span>32</span><span><span>    </span>- <span>destination</span><span>:</span><span>\n</span></span></span><span><span>33</span><span><span>        </span><span>host</span><span>:</span><span> </span><span>internal-egress-firewall.ns1.svc.cluster.local</span><span>\n</span></span></span></code></pre>",
     "createdAt": "2026-08-02T08:46:08.000+00:00",
@@ -514,94 +613,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "wiff",
-    "content": "<ul>\n<li><strong>wiff</strong>는 diff를 캡처해 구문 강조로 탐색하고 주석을 남길 수 있는 <strong>터미널 코드 리뷰 도구</strong>임</li>\n<li>리뷰를 <strong>로컬 세션</strong>에 저장하며, 사람은 TUI로, 에이전트는 CLI와 스킬로 같은 세션을 읽고 쓸 수 있음</li>\n<li>작업 트리·인덱스·히스토리의 변경 사항을...<p></p></li></ul>",
-    "createdAt": "2026-08-02T07:01:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=32056",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "질문을 제대로 하면 AI 금융 조언은 놀라울 정도로 좋아짐",
-    "content": "<ul>\n<li>22~89세의 재무 결정을 시뮬레이션한 결과, LLM 조언은 30세 이상 거의 모든 사람에게 <strong>저축 완충 자금</strong>을 마련하고 저축·주식시장 참여·분산투자를 늘리는 데 도움을 줌</li>\n<li>근로 기간에는 저축하고 은퇴 후에는 자산을 인출하며 45세 이후 주식 비중을 낮추도록 권했지만, <strong>실직 ...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-02T06:38:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=32055",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Seedance 2.5 - 30초 원테이크 생성과 유연한 참조",
-    "content": "<ul>\n<li>ByteDance Seed 팀이 단편 생성에서 완성된 창작물 제작으로 범위를 넓힌 차세대 영상 모델 <strong>Seedance 2.5</strong>를 출시</li>\n<li>음성과 영상을 포함한 최대 <strong>30초 분량</strong>을 한 번에 생성하고 여러 차례 연장해, 인물·환경·서사 속도를 유지한 수분 길이 콘텐츠를 만들 수 있음</li>\n...<p></p></ul>",
-    "createdAt": "2026-08-02T06:35:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=32054",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "바이브코딩 국민스택 Next.js + Supabase에 대한 오해",
-    "content": "<p>이 글은 바이브코딩 국민스택인 Next.js와 Supabase를 다루려면, 편리해 보이는 추상화 뒤에 숨은 동작 원리를 직접 뜯어봐야 할 때가 있다는 걸 이야기합니다.</p>\n",
-    "createdAt": "2026-08-02T05:13:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=32053",
-    "author": "m1nsuppp",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "NetBSD 11.0 출시",
-    "content": "<ul>\n<li>여러 차례 지연된 <strong>NetBSD 11.0</strong>이 공개됐으며, 아키텍처별 설치 안내와 CDN 설치 이미지를 제공함</li>\n<li>설치 매체에 따라 파일 선택이 달라져, CD-ROM에는 <strong>700MB 미만 분할 ISO</strong> 또는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-dvd.iso</code>를, USB 같은 플래시 미디어에는 압축을 푼 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.img</code>를...<p></p></li></ul>",
-    "createdAt": "2026-08-02T04:01:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=32052",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ripgrep musl 바이너리가 초대형 검색 중 간헐적으로 세그멘테이션 오류를 일으킴",
-    "content": "<ul>\n<li>Ripgrep 15.2.0의 <strong>x86_64-unknown-linux-musl</strong> 바이너리가 대규모 파일 트리를 높은 동시성으로 검색할 때 간헐적으로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">SIGSEGV</code>와 함께 종료됨</li>\n<li>충돌은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">opendir</code>가 호출한 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">calloc</code> 내부에서 발생하며, <strong>musl mallocng</strong>의 힙 메타데...<p></p></li></ul>",
-    "createdAt": "2026-08-02T01:36:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=32051",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google은 Google News를 방치했나?",
-    "content": "<ul>\n<li>관심 주제의 미국 뉴스를 찾는 데 쓰던 <strong>Google News 검색</strong>이 지정 조건과 무관한 결과를 내놓으면서 신뢰하기 어려워짐</li>\n<li>Tools 메뉴에서 발행 기간·언어·지역을 지정할 수 있지만, 이들 <strong>검색 필터가 차례로 작동하지 않게 됨</strong></li>\n<li>검색 결과의 상당 부분을 뉴스 ...<p></p></li></ul>",
-    "createdAt": "2026-08-02T01:33:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=32049",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Flint - AI 시대를 위한 시각화 언어",
-    "content": "<ul>\n<li><strong>Flint</strong>는 데이터 필드의 의미를 바탕으로 파싱·축·서식·색상을 자동 결정해, 저수준 설정 없이 차트를 만들고 수정할 수 있는 시각화 언어임</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Rank</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">YearMonth</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Delta</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Temperature</code> 같은 <strong>의미 타입(semantic type)</strong></li></ul>",
-    "createdAt": "2026-08-02T00:31:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=32048",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -2035,17 +2046,6 @@
     }
   },
   {
-    "title": "[Korean FE Article] Claude로 UI 버그를 디버깅해 봤습니다. 실제로 어떤 일이 벌어졌을까요?",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!pNNV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!pNNV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 424w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 848w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 1272w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!pNNV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!pNNV!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 424w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 848w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 1272w, https://substackcdn.com/image/fetch/$s_!pNNV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d445878-45c7-4167-889b-4386b75330c6_1424x752.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://handhand.tistory.com/entry/debugging-session-with-claude\" target=\"_blank\" rel=\"noopener noreferrer\">https://handhand.tistory.com/entry/debugging-session-with-claude</a></p></blockquote><p></p><h2><strong>소개</strong></h2><p>디버깅 과정에서 AI와 함께 가설을 세우고, 빗나가고, 다시 세우길 반복하며 진짜 원인에 닿기까지. 저자는 Claude와 주고받은 대화를 따라가며 어떻게 문제를 파악하고 의도를 전달해야 하는지, 그리고 그 과정에서 얻은 교훈은 무엇인지 풀어냅니다. AI와 함께 효율적으로 문제를 풀어가는 방향을 엿보고 싶다면, 이 글이 좋은 길잡이가 되어줄 거예요.</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>AI와 함께 프론트엔드 애플리케이션의 버그를 추적하시면서 각자 활용하시는 디버깅 꿀팁이나 유용한 도구(mcp, skills 등) 혹은 경험들은 어떤게 있을까요?</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>저도 AI에게 위임하기보다는 같이 페어프로그래밍을 하는 동료처럼 생각하고 활용하는 것 같은데요! 요즘은 디버깅도 동일하고 어떤 문제를 풀 때 의식적으로 <em>문제 이해 - 계획 수립 - 계획 실행 - 피드백</em> 단계를 거치는데 각 단계마다 AI와 같이 고민을 하면서 정리해보는 편이에요!</p><p><strong>💬. 의견 2</strong></p><p>저는 작업을 시킬때 기본적인 정보 습득에는 Context7 MCP를 활용하고, 그 외에는 비슷한 문제를 겪은 사례를 찾는 웹서치를 자주 활용하는 편입니다. 디버깅 자체는 결국 로그 기반으로 접근하게 되는 것 같습니다. 로그를 잘 남기고 추적 가능한 지점을 확보하는 게 우선이고, 요즘은 cmux를 쓰면서 에이전트와 내장 브라우저를 함께 띄워두고 AI가 직접 화면을 참고하면서 문제를 찾도록 하고 있습니다. 프런트엔드는 결국 화면과 연관된 문제가 많다 보니 이 방식이 꽤 유효한 것 같습니다.<br>또 가설이 생기면 해당 시나리오를 테스트 코드로 먼저 구현해두고, 그 테스트가 통과하도록 만드는 방식으로 접근하기도 합니다. 요런 접근은 AI가 빠르게 사용하고 버리는 방식으로 유효한것 같더라구요!</p><p><strong>💬. 의견 3</strong></p><p>저는 요즘 스펙 문서를 먼저 만들어두고 어느정도 안전장치를 문서화한 후에 클로드로 돌려보고 있어요<br>그래도 허점이 많아서 iteration의 연속입니다 ㅎㅎ<br>가끔 더블체크를 위해서 비슷한 context 를 쌓지 않은 곳에서 다시 질문해요!</p><p></p><h2><strong>목차</strong></h2><ul><li><p>실시간 디버깅 여정</p><ul><li><p>첫 번째 가설: 양식의 비활성화 상태</p></li><li><p>두 번째 가설: 화면을 막고 있는 로딩 스크린</p></li><li><p>세 번째 가설: 닫히지 않는 모달</p></li><li><p>네 번째 가설: 모달 언마운트 이슈 + Claude의 첫 수정안</p></li><li><p>해결</p></li></ul></li><li><p>Claude와 디버깅하면서 든 느낌</p></li><li><p>장단점</p></li><li><p>마치며</p></li></ul><p></p>",
-    "createdAt": "2026-05-22T00:31:02.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-claude-ui",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
-    }
-  },
-  {
     "title": "Advanced Tree Counting: Mathematical Layouts With `sibling-index()` And `sibling-count()`",
     "content": "<p>You know that thing where you have a grid of cards, and you want them to fade in one after another? That staggered cascade effect. Looks great. Should be simple. And yet every time I’ve built it, the implementation has made me feel like I’m doing something fundamentally stupid.</p>\n<p><img src=\"https://files.smashing.media/articles/mathematical-layouts-sibling-index-sibling-count/sibling-index-devtools.jpeg\"></p>\nWhat’s Coming\n<p>The current spec only counts <em>all</em> element siblings. But the CSSWG has documented a planned extension in <a href=\"https://github.com/w3c/csswg-drafts/issues/9572\" target=\"_blank\" rel=\"noopener noreferrer\">issue #9572</a>: an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">of </code> argument, matching what <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:nth-child()</code> already supports.</p>\n<p>Something like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-index(of .active)</code> would let you count only siblings matching a specific selector. An element that’s the eighth child overall but the third <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.active</code> child would return <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">3</code>. For dynamic UIs where you’re filtering or toggling visibility, that would keep the index sequential without requiring DOM manipulation.</p>\n<p>There’s also been CSSWG discussion around <a href=\"https://github.com/w3c/csswg-drafts/issues/11068\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">children-count()</code></a> and <a href=\"https://github.com/w3c/csswg-drafts/issues/11069\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">descendant-count()</code></a> functions — the first would tell you how many children an element has (useful for parent-driven layouts), the second would count all descendants recursively. Both are still at the proposal stage, but they’d round out the tree-counting story: <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-index()</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-count()</code> give you the horizontal view (where am I among my peers?), while <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">children-count()</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">descendant-count()</code> would give you the vertical view (what’s below me?).</p>\n<p><em>That feeling I mentioned at the top — writing ten <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:nth-child()</code> rules for a staggered animation and wondering if you’re missing something obvious? You weren’t. The obvious thing just didn’t exist yet.</em></p>\n",
     "createdAt": "2026-05-21T08:00:00.000+00:00",
@@ -2846,17 +2846,6 @@
     "site": {
       "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "name": "FE News"
-    }
-  },
-  {
-    "title": "Image formats: Pixel data from encoders to decoders",
-    "content": "<p>From individual pixels to fully decoded images on your screen, raw pixel data gets transformed, compressed, and efficiently delivered. Learn about the techniques and optimizations that shrink image information without any perceivable loss in quality.</p>\n",
-    "createdAt": "2025-08-04T00:00:00.000+00:00",
-    "link": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics/",
-    "author": "polina-gurtovaia",
-    "site": {
-      "id": "59aa16a6-e649-455d-a3db-b4f5b0bca471",
-      "name": "MDN Blog"
     }
   }
 ]
