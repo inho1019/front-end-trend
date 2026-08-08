@@ -1,5 +1,181 @@
 [
   {
+    "title": "이번 주 App Store 거절 사례: Dark Hours",
+    "content": "<ul>\n<li>일반인을 위한 <strong>천문학 앱 Dark Hours</strong>가 점성술 앱으로 오인돼 App Store 심사에서 거절됨</li>\n<li>타로와 운세 등 점성술 관련 기능이 전혀 없으며, 몇 초만 살펴봐도 <strong>천문학 서비스</strong>라는 점을 확인할 수 있음</li>\n<li>개발자 Terry Godier가 App Review Board까지 이의를 ...<p></p></li></ul>",
+    "createdAt": "2026-08-08T01:31:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=32258",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "평가 주도 개발 (Eval-driven development)",
+    "content": "<ul>\n<li>Airbnb는 비결정적 출력과 주관적 정답, 검색·추론·도구 호출의 연쇄 실패를 다루기 위해 평가를 사후 검증이 아닌 <strong>핵심 엔지니어링 규율</strong>로 취급함</li>\n<li><strong>평가 주도 개발(EDD)</strong> 은 실제 오류를 발견해 평가 기준으로 만들고 지속적으로 검사하며, 출시 목표와 게이트를 먼...<p></p></li></ul>",
+    "createdAt": "2026-08-08T01:03:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32257",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI가 재편하는 차세대 사이버보안 스택",
+    "content": "<ul>\n<li>AI가 취약점을 찾아 악용하는 속도가 빨라지면서 평균 <strong>악용까지 걸리는 시간(TTE)</strong> 은 공개 9시간 전인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-9시간</code>까지 줄었고, 공개 전 제로데이로 악용되는 취약점 비율도 5년 전 약 30%에서 현재 80% 이상으로 증가함</li>\n<li>보안 조직은 여러 도구를 직접 운용하는 방식에서 벗...<p></p></li></ul>",
+    "createdAt": "2026-08-08T00:52:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32256",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI가 린 스타트업 플레이북을 무너뜨리고 있는가? [유튜브]",
+    "content": "<ul>\n<li>AI로 소프트웨어를 더 빠르고 저렴하게 만들 수 있게 되면서, 좁은 틈새에서 출발하는 <strong>린 스타트업 방식</strong>뿐 아니라 처음부터 차별화된 영역에서 크고 야심 찬 제품을 만드는 선택지도 넓어짐</li>\n<li>AI에 지식을 맡길 수 있어도 머릿속 <strong>인지적 L1 캐시</strong>에서 꺼내는 편이 훨씬...<p></p></li></ul>",
+    "createdAt": "2026-08-08T00:35:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32255",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Paseo - 여러 코딩 에이전트를 데스크톱/모바일에서 관리하는 오케스트레이터",
+    "content": "<ul>\n<li>Claude Code/Codex/Copilot/OpenCode/Pi를 <strong>하나의 인터페이스</strong>에서 다루며, 작업별로 알맞은 모델 선택</li>\n<li><strong>Self-hosted</strong>로 에이전트가 내 머신의 전체 개발 환경(도구/설정/스킬)에서 실행</li>\n<li><strong>음성 제어(Voice control)</strong> 지원, 음성 모드로 작업 ...<p></p></li></ul>",
+    "createdAt": "2026-08-08T00:32:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32254",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Orca - 여러 병렬 코딩 에이전트를 위한 오픈소스 ADE",
+    "content": "<ul>\n<li>자신의 구독을 그대로 사용해, <strong>터미널에서 실행되는 모든 CLI 에이전트</strong>(Codex/ClaudeCode/OpenCode/Pi 등)를 구동</li>\n<li><strong>Parallel Worktrees</strong>로 각 에이전트를 <strong>격리된 git worktree</strong>에서 나란히 실행하고 한 곳에서 추적</li>\n<li>하나의 프롬프트를 다섯...<p></p></li></ul>",
+    "createdAt": "2026-08-08T00:19:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32253",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "셸의 느낌표는 외침이 아니다: 반복 입력을 줄이는 ! 활용법",
+    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bash</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">csh</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tcsh</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">zsh</code>의 <strong>이벤트 지정자</strong>는 이전 명령이나 인수를 직접 참조해 반복 입력과 히스토리 탐색을 줄여줌</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">![event][:word][:modifier]</code> 형식으로 <strong>명령 선택·단어 추출·문자열 변환</strong>을 하나...<p></p></li></ul>",
+    "createdAt": "2026-08-08T00:06:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=32252",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI를 떠나 Jurassic Park를 만들다",
+    "content": "<ul>\n<li>ChatGPT basketball의 정렬 안전성을 이끌었다는 화자가 <strong>Jurassic Park 스타트업</strong>을 세워, 되살린 최상위 포식자로 정렬되지 않은 AI에 맞서겠다는 풍자적 계획을 공개함</li>\n<li>공룡은 1억6,500만 년간 AI 사이버 공격을 받은 기록이 없고 데이터센터도 파괴할 수 있다는 논리로 <strong>대...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-08T00:03:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=32251",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "한 직군 전체가 자신의 경력을 믿지 않게 되면 무슨 일이 벌어질까",
+    "content": "<ul>\n<li>AI는 일자리를 위협하는 데 그치지 않고, 고임금 지식 노동자에게 업무와 경력 전체가 무의미할 수 있다는 <strong>실존적 불안</strong>을 일으키고 있음</li>\n<li>지식 노동은 성취감·공동체·정체성을 직장에서 찾는 <strong>워크이즘(Workism)</strong> 에 기대왔지만, AI가 실제 업무를 대신하면서 인간의 ...<p></p></li></ul>",
+    "createdAt": "2026-08-07T22:33:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=32250",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: GpuTray - 트레이에서 GPU/CPU 상태확인, GPU power limit, 12V-2x6 pin monitoring",
+    "content": "<p>GPU 상태를 확인할 때마다 HWiNFO나 Afterburner 같은 프로그램을 열어두는 게 번거로워서 만든 가벼운 Windows 시스템 트레이 모니터링 도구입니다.</p>\n<p>트레이의 16x16 아이콘 자체가 실시간 그래프로 동작하며 CPU, RAM, GPU, VRAM, GPU 온도, 12V-2x6 핀 전류 중 최대 5개 항목을 동시에 표시할 수 있습니다....</p>",
+    "createdAt": "2026-08-07T22:26:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=32249",
+    "author": "kirinonakar",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "취미 규모에서 무너지는 웹 서버 배포 모델",
+    "content": "<ul>\n<li>자체 호스팅 웹 애플리케이션은 기존 서버 환경에 맞춰야 하므로 <strong>정적 파일·캐시·인증·검색</strong>을 효율적으로 구성하기 어렵고, 간단한 배포라는 목표와 충돌함</li>\n<li>리버스 프록시마다 기능과 품질이 달라 정적 파일 제공과 비인증 캐시를 맡기기 어려우며, 애플리케이션에 내장하면 </li></ul>",
+    "createdAt": "2026-08-07T22:02:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=32248",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DeepSeek V4 Flash 0731의 ARC-AGI 평가 결과",
+    "content": "<ul>\n<li>세 가지 추론 수준으로 검증한 결과, 최대 수준에서 <strong>ARC-AGI-1 89.0%</strong>, <strong>ARC-AGI-2 61.4%</strong> 를 기록함</li>\n<li>최대 추론 기준 Semi-Private 평가 비용은 작업당 각각 <strong>$0.02와 $0.04</strong>로 집계됨</li>\n<li>추론 수준을 낮추면 ARC-AGI-1은 89.0%에서 84.0%로, AR...<p></p></li></ul>",
+    "createdAt": "2026-08-07T21:36:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=32247",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Oracle, 사내 AI 코딩은 장려하면서 OpenJDK에는 AI 생성 코드 기여 금지",
+    "content": "<ul>\n<li>Oracle은 자신이 관리하는 오픈소스 Java 프로젝트 <strong>OpenJDK</strong>에서 LLM/확산 모델 등으로 일부라도 생성된 코드, 문서, 이미지 등의 기여를 금지하는 임시 정책을 도입함</li>\n<li>AI 도구를 코드 <strong>이해/디버깅/리뷰/연구</strong>에 개인적으로 사용하는 것은 허용하지만, 그 도구가 생성...<p></p></li></ul>",
+    "createdAt": "2026-08-07T21:33:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=32246",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Herdr, Y Combinator 합류 후에도 런타임은 오픈소스로 유지",
+    "content": "<ul>\n<li>1인 프로젝트로 시작한 <strong>Herdr</strong>가 GitHub 스타 2만 5,000개와 다운로드 34만 건을 기록한 뒤 <strong>Y Combinator F26 배치</strong>에 합류해 소규모 팀을 구성함</li>\n<li>터미널의 패널(pane)·탭·프로젝트를 에이전트 실행 단위로 다루며, 수 시간에서 수일 동안 이어지는 작업을 어디서든 ...<p></p></li></ul>",
+    "createdAt": "2026-08-07T20:43:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=32245",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "150만 페이지 웹사이트에서 scraper와 싸운 1년",
+    "content": "<blockquote>\n<p>\"내 웹사이트 트래픽의 99%는 봇이다\"</p>\n</blockquote>\n<ul>\n<li>150만 개 프로필 페이지를 운영하는 PatronView는 한 주 동안 서버가 <strong>250만 건의 외부 요청과 128만 페이지 로드</strong>를 처리했지만 분석 도구에는 5,977 pageview만 기록돼, 측정된 1회당 약 <strong>214회의 보</strong></li></ul>",
+    "createdAt": "2026-08-07T20:37:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=32244",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ChatGPT, 무료 사용자에게도 GPT‑5.6 Luna 제공 시작",
+    "content": "<ul>\n<li>매주 10억 명이 다양한 용도로 쓰는 ChatGPT에 맞춰 <strong>GPT‑5.6 Sol</strong>의 답변 집중도와 사실 신뢰성을 높이고, 무료 사용자에게 최신 모델 접근을 확대함</li>\n<li>Plus·Pro에서는 Instant와 심층 추론을 같은 모델로 통합하고, 웹·모바일·데스크톱의 <strong>사고량 슬라이더</strong>로 질문별 ...<p></p></li></ul>",
+    "createdAt": "2026-08-07T19:32:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=32243",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "View Transitions: Careful Not To Make Stuff Unclickable",
     "content": "<p>Just a little Public Service Announcement here. </p>\n\n\n\n<p>Let’s say you’re doing a View Transition in the form of using the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.startViewTransition()</code> method. Maybe you’re <a href=\"https://codepen.io/editor/team/CodePenTemplates/pen/019cb5ec-807e-727a-b18a-5eb41b0fc901\" target=\"_blank\" rel=\"noopener noreferrer\">showing an image bigger</a> or sorting a table or <a href=\"https://codepen.io/editor/chriscoyier/pen/019779ce-914a-726c-99ba-6416c013d117\" target=\"_blank\" rel=\"noopener noreferrer\">moving some list items around</a> or something.</p>\n\n\n\n<p>If you don’t deal with it specifically, it’s likely you’re <strong>blocking interactivity on the rest of the page.</strong></p>\n\n\n\n<p>Here’s a very basic demo. There is an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">alert()</code> button you can click to see an alert. Click that and see. Then run the View Transition and try to click that button.</p>\n\n\n\n<div></div>\n\n\n\n<p>See how you can’t click the alert button while the View Transition is running?</p>\n\n\n\n<p>Because of the long 10s duration in that example, it should give you enough time to open DevTools and take a peek. You should be able to see the <a href=\"https://master.dev/blog/demystifying-the-view-transition-pseudo-tree/\" target=\"_blank\" rel=\"noopener noreferrer\">View Transition Pseudo Tree</a> there. And if you hover over the top one, the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::view-transition</code>, you’ll see it cover the entire viewport in light blue, telling you the dimensions of it cover the entire viewport.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=1024%2C594&amp;ssl=1\" alt=\"\" srcset=\"https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=1024%2C594&amp;ssl=1 1024w, https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=300%2C174&amp;ssl=1 300w, https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=768%2C446&amp;ssl=1 768w, https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=1536%2C892&amp;ssl=1 1536w, https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/08/CleanShot-2026-08-07-at-11.09.15%402x.png?resize=2048%2C1189&amp;ssl=1 2048w\"></figure>\n\n\n\n<p>So now you’ve got this big, giant, invisible element covering the entire viewport for the entire length of the transition. <strong>That’s what stops the interactivity</strong>, like clicking.</p>\n\n\n\n<h2>The Solution</h2>\n\n\n\n<p>Two-parter here. </p>\n\n\n\n<p>One, the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:root</code> element has a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view-transition-name</code> by default, so it’s going to take part in the overall View Transition even if it doesn’t really do anything. I think this is a default so that entire pages can cross-fade in multi-page View Transitions. But we don’t need that. So if we remove the name, it won’t be one of the snap-shotted elements taking up space. </p>\n\n\n\n<p>Two, the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::view-transition</code> element is also that big giant viewport-covering element, and what we need to do there is make sure you can click through it.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>:root</span> {\n  <span>view-transition-name</span>: none;\n}\n<span>::view-transition</span> { \n  <span>pointer-events</span>: none;\n}</code></span></pre>\n\n\n<p>The snap-shotted (for lack of a better term) elements you actually see transitioning on a page are essentially on the “top layer” while the View Transition is happening. So they’ll soak up clicks while they are there. Not sure why that’s the default, but that’s what we got. </p>\n\n\n\n<h2>Another Newer Solution</h2>\n\n\n\n<p>Another solution here is the “scope down” the View Transition. We don’t <em>have</em> to call <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">document.startViewTransition()</code> (like, on the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">document</code>) although that definitely has the best browser support. Instead, we can call that method on the element that has the elements inside it that we care to transition. Like…</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>const</span> parent = <span>document</span>.querySelector(<span>\"#parent\"</span>);\nmove.addEventListener(<span>\"click\"</span>, () =&gt; {\n  parent.startViewTransition(<span><span>()</span> =&gt;</span> {\n    thing.classList.toggle(<span>\"moved\"</span>);\n  })\n});</code></span></pre>\n\n\n<p><a href=\"https://developer.chrome.com/blog/scoped-view-transitions-feedback\" target=\"_blank\" rel=\"noopener noreferrer\">Scoped view transitions</a> are just a good idea, allowing for things like keeping elements in a hidden overflow area and such (because the pseudo-element tree stays within that parent element). We also benefit here as, without doing any other CSS manipulation, interactive elements aren’t affected. You still might wanna do the CSS stuff, though, if you want to retain interactivity <em>within</em> the scoped area.</p>\n",
     "createdAt": "2026-08-07T18:46:31.000+00:00",
@@ -429,72 +605,6 @@
     }
   },
   {
-    "title": "Android 휴대폰에서 Linux로 전환하기",
-    "content": "<ul>\n<li>Google Play Services의 <strong>광범위한 추적</strong>, 커스텀 ROM을 어렵게 하는 기기 트리 폐쇄, AI 기능 확대, 앱 설치 제한이 누적되면서 모바일 Linux로 전환함</li>\n<li>Fairphone 4에서 Ubuntu Touch·postmarketOS·SailfishOS를 검토한 끝에, 제스처 탐색과 애플리케이션 프레임워크가 뛰어난 </li></ul>",
-    "createdAt": "2026-08-06T09:32:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=32201",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 회원가입·광고 없는 인터넷 속도측정 도구를 만들었습니다 (4개 국어)",
-    "content": "<p>사무실 네트워크 시공을 하다 보면 \"회선은 기가인데 왜 느리냐\"는 말을 자주 듣습니다.<br>\n현장에서 근거로 보여줄 측정 도구가 필요한데, 기존 것들은 광고가 많거나 잴 때마다<br>\n값이 튀어서 쓰기 어려웠습니다. 그래서 직접 만들었습니다.</p>\n<p>구현하면서 신경 쓴 부분</p>\n<ul>\n<li>측정 안</li></ul>",
-    "createdAt": "2026-08-06T04:19:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=32200",
-    "author": "mnobw",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DuckDuckGo의 &quot;스마트&quot; 글래스: Normal F***ing Sunglasses",
-    "content": "<blockquote>\n<p>이 \"스마트\" 안경은 AI도 카메라도 없습니다. 태양빛을 막기 위해 설계되었으며, 클라우드로 보내는 데이터는 없습니다.</p>\n</blockquote>\n<p>프라이버시 중심 검색엔진 DDG가 <a href=\"https://knockaround.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Knockaround</a>와의 콜라보레이션으로 출시한 이 안경은 스마트글래스와 유</p>",
-    "createdAt": "2026-08-06T02:50:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=32198",
-    "author": "unsure4000",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: SVN KR : 한글 사용자를 위한 mac용 SVN 앱",
-    "content": "<p>안녕하세요</p>\n<p>최근 사내에서 외주 프로젝트에서 SVN을 사용할일이 있었는데,</p>\n<p>상용 맥용 SVN 프로그램이 문제가 많고, CLI는 매번 너무 불편해서 하나 만들어서 사내에서 사용하다가 함께 사용하면 좋을것 같아 무료로 스토어에 올렸습니다.</p>\n<p>주요 기능</p>\n<p>여러 폴더 동시에 관리 가능<br>\nWi</p>",
-    "createdAt": "2026-08-06T02:49:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=32197",
-    "author": "thkimdev",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Zed DeltaDB 얼리 액세스",
-    "content": "<ul>\n<li><strong>DeltaDB</strong>는 커밋 사이의 작업 과정까지 기록하고, 각 변경을 이를 만든 대화와 연결하는 버전 관리 시스템임</li>\n<li>모든 편집에 <strong>안정적인 식별자</strong>를 부여해 코드가 변화해 온 어느 시점으로든 되돌아갈 수 있음</li>\n<li>코드 변경과 <strong>에이전트 대화</strong>를 양방...<p></p></li></ul>",
-    "createdAt": "2026-08-06T02:31:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=32195",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "late.sh - 개발자를 위한 아늑한 터미널 클럽하우스",
-    "content": "<ul>\n<li><strong>SSH 클라이언트</strong>만으로 접속하는 터미널 우선 소셜 앱으로, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ssh late.sh</code> 한 줄이면 실시간 채팅/음악/게임/뉴스 등을 보는 공간에 들어가기 가능</li>\n<li>단축키 0은 TUI형태의 클럽하우스(키로 이동가능), 1은 irc 같은 채팅방, 2는 퍼즐 게임, 3은 MUD게임, 4는 공유 아트보드...<p></p></li></ul>",
-    "createdAt": "2026-08-06T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32192",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "[Korean FE Article] npm 패키지를 평가하는 방법 - 2026 에디션",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!xk0r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!xk0r!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 424w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 848w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 1272w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!xk0r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!xk0r!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 424w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 848w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 1272w, https://substackcdn.com/image/fetch/$s_!xk0r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b5ebd31-fb82-4601-8e57-75b89d385fc4_1376x768.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://handhand.tistory.com/entry/how-to-evaluate-an-npm-package-2026-edition\" target=\"_blank\" rel=\"noopener noreferrer\">https://handhand.tistory.com/entry/how-to-evaluate-an-npm-package-2026-edition</a></p></blockquote><h2><strong>소개</strong></h2><p>프로젝트를 진행하며 무심코 설치하는 수많은 npm 패키지, 과연 얼마나 안전할까요?<br>블랙박스와 같은 외부 코드는 우리 시스템에 접근해 민감한 데이터를 유출하거나 악의적인 요청을 수행할 위험을 안고 있습니다. 단순히 주간 다운로드 수나 스타 수에 의존하는 대신, 어떻게 하면 진짜 신뢰할 수 있는 패키지를 선별할 수 있을까요? <br>저자는 의존성 필요성 검토부터 출처 증명(Provenance), 유지보수 상태, CI 및 보안 대응체계에 이르는 <strong>5단계 실전 평가 프로세스</strong>를 제시합니다. <br>오픈소스 공급망 공격 및 슬롭스쿼팅 위험 속에서 내 프로젝트를 안전하게 지키고 싶은 개발자분들이라면 읽어보시는 것을 추천드립니다.</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><ol><li><p>필요한 npm 패키지를 선택할 때 본인만의 기준이 있으실까요?</p></li><li><p>AI에게 함께 작업하면서 직접 필요한 기능만 구현하는게 외부 의존성을 추가하는 방향보다 가볍고 안정적인 경우도 있을 것 같은데요, 이 부분에 대한 경험이나 의견도 궁금합니다!</p></li></ol></blockquote><p><strong>💬. 의견 1 </strong></p><blockquote><p>필요한 npm 패키지를 선택할 때 본인만의 기준이 있으실까요?</p></blockquote><p>글에서의 내용과 유사한 것 같아요!<br>필요한 기능을 모두 제공하는지, 그리고 그 외의 기능이 우리 프로젝트에 들어올 때 너무 과한점은 없는지 같은것도 검토하구요. 오픈소스 관점에서 기여에 열려있다면 더 선택하는데 도움이 되는것 같아요.<br>회사에서 사용한다면 라이선스도 중요하구요. 최대한 많은 것들을 체크해서 가장 가벼운 것을 골라 사용합니다.</p><blockquote><p>AI에게 함께 작업하면서 직접 필요한 기능만 구현하는게 외부 의존성을 추가하는 방향보다 가볍고 안정적인 경우도 있을 것 같은데요, 이 부분에 대한 경험이나 의견도 궁금합니다!</p></blockquote><p>해당 의존이 어떤 성격이냐에 따라 다를것 같은데요. 커스터마이징이 많이 필요하거나, 잘 운영되는 적합한 패키지들이 없거나 할 때는 직접 구현을 검토하는 것 같아요. 대신, ‘바퀴를 다시 발명하지마라’라는 말처럼 신뢰를 이미 받고 있는 라이브러리가 있다면 (그리고 우리 프로젝트에 문제가 되지 않을 정도로 충분히 작다면) 저는 직접 구현보다 만들어져 있는 것들을 사용하는 편인거 같아요!</p><p></p><p><strong>💬. 의견 2</strong></p><blockquote><p>필요한 npm 패키지를 선택할 때 본인만의 기준이 있으실까요?</p></blockquote><p>tanstack, date-fns, ky와 같이 많은 사람들이 사용하는 패키지인지, 꾸준히 유지보수가 되는 패키지인지, 비슷한 패키지가 많다면 어떤 패키지가 우리가 풀려는 문제와 가장 적합한지 등을 보는 것 같아요. react/next.js와 같은 패키지에서 문제가 발생했던 것 처럼 유명한 패키지라고 괜찮은 것은 아니다보니 패키지를 안전하게 설치하는 방법에 대해 고민하는 것이 필요하다고 느꼈어요.</p><blockquote><p>AI에게 함께 작업하면서 직접 필요한 기능만 구현하는게 외부 의존성을 추가하는 방향보다 가볍고 안정적인 경우도 있을 것 같은데요, 이 부분에 대한 경험이나 의견도 궁금합니다!</p></blockquote><p>AI로 코드를 생산하는 비용이 낮아졌고, 더더욱 특정 도메인에서 필요한 기능이 아니라 프로그래밍의 일반적인 문제를 푸는 것은 AI가 충분히 잘 한다고 생각하긴 하는데요. 그럼에도 불구하고 일반적인 문제를 해결하는 경우에는 잘 만들어진 패키지를 사용하는 것이 유지보수하거나 불필요한 고민을 덜 하기에 좋다고 생각하는 것 같아요. 그래서 해결하려고 하는 문제중에 일반적인 문제이고 이 문제를 잘 해결하고 있는 패키지가 있다고 하면 외부 의존성을 추가하는 편입니다!</p><p></p><h2><strong>목차</strong></h2><ul><li><p>정말로 이 패키지가 필요한가요?</p></li><li><p>활발하게 유지보수되고 있나요?</p></li></ul><ul><li><p>npm에 실제로 게시된 것을 신뢰할 수 있나요?</p></li><li><p>CI 파이프라인이 실재하나요, 아니면 장식인가요?</p></li></ul><ul><li><p>코드 품질이 눈에 보이나요?</p></li></ul><ul><li><p>무언가 잘못되면 어떻게 되나요?</p></li><li><p>체크리스트</p></li></ul>",
     "createdAt": "2026-08-06T00:30:40.000+00:00",
@@ -503,116 +613,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "공세적 인터넷 태세",
-    "content": "<ul>\n<li>블로그 VPS를 자동 스캐너·스크레이퍼·스패머 같은 <strong>인터넷 약탈자</strong>에게 덜 매력적으로 만들기 위해 허니팟, 타르핏, 가짜 콘텐츠를 운영함</li>\n<li>가짜 WordPress 로그인은 인증 거부를 5초 늦추고, <strong>endlessh</strong>가 22번 포트를 점유하는 동안 실제 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sshd</code>는 다른 포...<p></p></li></ul>",
-    "createdAt": "2026-08-06T00:08:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=32191",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "rust-lang/rust가 LLM 사용 정책을 도입함",
-    "content": "<ul>\n<li>Rust 프로젝트의 5개 팀이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rust-lang/rust</code> 모노레포 기여 시 <strong>LLM 사용 방식</strong>을 규정하는 정책을 채택했으며, Rust 전체의 공식 입장이나 프로젝트 전역 정책은 아님</li>\n<li>질문·분석·정제·검사·제안·리뷰에는 LLM을 사용할 수 있지만 <strong>새 콘텐츠 생성</strong>은 엄격...<p></p></li></ul>",
-    "createdAt": "2026-08-06T00:05:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=32190",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Ephemeral System Prompt - 실행마다 달라지는 지시사항을 넣고도 프롬프트 캐시 유지하기",
-    "content": "<p>LLM 에이전트를 만들다 보면 시스템 프롬프트는 유지하면서도 현재 시각, 세션 상태, 호스트 정책처럼 <strong>실행마다 달라지는 지시사항</strong>을 추가해야 할 때가 있습니다.</p>\n<p>하지만 이런 내용을 시스템 프롬프트에 직접 합치면 매번 프롬프트 prefix가 달라져 provider의 prompt caching을 제대로 활용</p>",
-    "createdAt": "2026-08-05T23:32:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=32189",
-    "author": "maestrojeong",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google DeepMind 리더십 개편: Demis Hassabis는 의장으로, Jeff Dean은 퇴사",
-    "content": "<ul>\n<li>AI 연구와 제품 개발을 가속하기 위해 <strong>Google DeepMind 리더십</strong>을 개편하고, Demis Hassabis는 일상 운영에서 물러나 AGI·과학 전략에 집중함</li>\n<li>Hassabis는 <strong>Google DeepMind 의장·Alphabet 수석과학자</strong>를 맡고 Isomorphic Labs도 계속 이끌며, 모델·연구 조직과 Alphab...<p></p></li></ul>",
-    "createdAt": "2026-08-05T22:32:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=32187",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Discovery Loop",
-    "content": "<ul>\n<li>Jeff Dean, Sanjay Ghemawat, Quoc Le, Oriol Vinyals의 <strong>Discovery Loop</strong>는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구 속도를 높이고 결과물의 양과 품질을 개선하는 시스템을 개발함</li>\n<li>프런티어 AI 모델과 대규모 컴퓨팅 인프라로 실험을 제안·실행·평가하고 결과에서 학습하...<p></p></li></ul>",
-    "createdAt": "2026-08-05T19:31:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=32186",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare OS: 에이전트·앱·업무를 위한 개방형 플랫폼",
-    "content": "<ul>\n<li>Cloudflare가 전 직원을 대상으로 운영해 온 <strong>Cloudflare OS</strong>의 새 버전을 오픈소스로 공개해, 조직별 지식·업무 절차·내부 시스템을 활용하는 에이전트 작업 공간을 직접 배포할 수 있게 함</li>\n<li>플랫폼은 회사가 선별한 맥락과 기술을 사용하는 <strong>에이전트 작업 공간</strong>, 내부...<p></p></li></ul>",
-    "createdAt": "2026-08-05T18:38:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32185",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Demis Hassabis, Google DeepMind CEO에서 회장으로 이동",
-    "content": "<ul>\n<li><strong>Demis Hassabis</strong>가 Google DeepMind의 일상 운영에서 물러나 회장을 맡고, Alphabet 수석 과학자와 Isomorphic Labs 책임자를 병행함</li>\n<li>CTO <strong>Koray Kavukcuoglu</strong>가 수석부사장으로 조직을 이끌며 Sundar Pichai에게 직접 보고하고, Gemini 로드맵 실행에 집중함</li>\n</ul>",
-    "createdAt": "2026-08-05T18:35:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32184",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "뉴멕시코 민간 항공기 추락, 미군 GPS 교란과 연관",
-    "content": "<ul>\n<li>5월 13일 Roswell에서 Ruidoso로 향하던 의료수송용 Beechcraft King Air가 미군 훈련으로 <strong>GPS를 잃은 뒤 산에 충돌</strong>해 조종사 2명과 간호사 2명 전원이 사망했으며, 미국에서 GPS 교란이 민간 항공기 추락에 기여한 첫 사례가 됨</li>\n<li>White Sands Missile Range의 <strong>NAVFEST 훈련...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-05T16:33:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=32183",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "libexpat, 뮌헨시 지원으로 최대 6개월간 유급 유지보수",
-    "content": "<ul>\n<li>2026년 8월 1일부터 뮌헨시의 <strong>Open Source Sabbatical</strong>을 통해 libexpat 유지보수가 최대 6개월간 <strong>유급 전업 업무</strong>로 전환됨</li>\n<li>우선순위는 <strong>미해결 취약점 5개</strong> 수정과 XML 1.0r5 지원 추가, 프로젝트의 견고성·유지보수성 개선임</li>\n<li>libexpat은 ...<p></p></li></ul>",
-    "createdAt": "2026-08-05T15:42:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32182",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Waymo, 댈러스에서 누구나 이용 가능",
-    "content": "<ul>\n<li>2026년 8월 4일부터 댈러스에서 누구나 Waymo 앱으로 <strong>완전 자율주행 차량</strong>을 호출할 수 있음</li>\n<li>2월 서비스 개시 후 관심 명단에 있던 이용자 <strong>약 15만 명</strong>에게 제공하던 서비스를 전면 개방함</li>\n<li>주민들이 심부름·출퇴근·모임에 이용해 온 데 이어, 이제 <strong>...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-05T15:39:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=32181",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
