@@ -1,5 +1,82 @@
 [
   {
+    "title": "Show GN: Toolio - 파일 업로드 없이 도는 무료 웹툴 190개 넘게 만들었습니다.",
+    "content": "<p>매일 자잘하게 필요한 작업(PDF 합치기·이미지 변환·계산·개발 유틸 등)마다 사이트를 옮겨다니는 게 번거로워서, 190개 넘는 무료 웹툴을 한곳에 모았습니다.<br>\n대부분 브라우저 안에서 처리돼 파일이 서버로 업로드되지 않고(서버가 필요한 소수 툴은 따로 표시), 가입·설치 없이 바로 씁니다. 16개 언어 지원,...</p>",
+    "createdAt": "2026-08-08T12:30:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=32267",
+    "author": "pongstudio",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Kitesurf - V8 격리 환경에서 실행되는 에이전트 우선 브라우저",
+    "content": "<ul>\n<li>AI 에이전트의 브라우저 수요와 Workers 기술 성숙이 맞물리자 Cloudflare가 <strong>Kitesurf</strong>를 12주 만에 개발해 Browser Run 베타에서 무료로 공개함</li>\n<li>Engine·PageScript·PageRenderer를 여러 <strong>Workers 격리 환경</strong>으로 분리하고, 네트워크 접근 통제와 상태 최소화로 신뢰할...<p></p></li></ul>",
+    "createdAt": "2026-08-08T11:15:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=32266",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "xAI·SpaceX와 AI 인프라 구축 경쟁",
+    "content": "<ul>\n<li>SpaceX 산하 xAI는 Memphis의 <strong>Colossus 데이터센터</strong>에서 무허가로 가동한 가스터빈을 2027년 7월까지 철거하고, 천연가스 발전소로 대체하기로 Mississippi 환경 당국과 합의함</li>\n<li>Colossus I은 착공 후 <strong>122일 만에 가동</strong>됐지만, 69기의 임시 이동식 터빈이 스모그와 포...<p></p></li></ul>",
+    "createdAt": "2026-08-08T11:12:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=32265",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "배치 처리·연산자 융합·SIMD로 Postgres 분석 성능을 300배 높인 pgrust",
+    "content": "<ul>\n<li>pgrust 0.2는 쿼리 엔진을 중심으로 성능을 개선해 이전 버전보다 <strong>10배</strong>, OLTP에서 Postgres보다 30%, ClickBench에서 <strong>300배</strong> 빠르며 ClickHouse도 앞섬</li>\n<li>Postgres의 행 단위 <strong>Volcano 실행 모델</strong>은 각 행마다 런타임에 결정되는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">next()</code>를...<p></p></li></ul>",
+    "createdAt": "2026-08-08T11:09:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=32264",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nixpkgs 코어 팀 해산",
+    "content": "<ul>\n<li>지난 10개월간 <strong>합의 중심의 상향식 거버넌스</strong>를 운영했지만, 역할을 계속하면 건강을 해치고 후임 충원도 어렵다고 판단해 해산함</li>\n<li><strong>신규 커미터 19명</strong> 온보딩과 커미터 위임 절차 개편, 병합 봇 확장, GitHub Enterprise Cloud 후원 업그레이드 확보, 보안 사고 대응,...<p></p></li></ul>",
+    "createdAt": "2026-08-08T09:32:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=32263",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "다른 팀을 인터뷰하고 깨달은 ‘문제는 나일 수 있다’",
+    "content": "<ul>\n<li>잦은 기술 논쟁을 겪어 온 인프라 엔지니어가 <strong>ngrok 인프라 팀 4명</strong>을 인터뷰한 결과, 이들은 Argo Rollouts 도입을 두고 견해가 달라도 서로의 입장과 장단점을 정확히 이해하며 감정적 충돌 없이 결론을 내렸음</li>\n<li>수십만 TCP 연결을 유지하는 Mux 교체에는 수 시간이 걸리지만, 팀은 ...<p></p></li></ul>",
+    "createdAt": "2026-08-08T08:03:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=32262",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 외부 AI 결과를 여러 SNS에 예약하고 실제 발행 상태를 추적하는 ANKK",
+    "content": "<p>SNS 자동화에서 API가 202를 반환한 시점과 실제 게시물이 공개된 시점은 다릅니다. 이 차이를 운영하면서 반복해서 겪어, 외부 AI·스크립트에서 만든 콘텐츠를 여러 SNS에 예약하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">accepted → queued → publishing → published/failed</code>를 추적하는 호스팅형 도구 ANKK를 만들었습니다.</p>\n<p>무료로</p>",
+    "createdAt": "2026-08-08T06:58:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=32261",
+    "author": "mrego",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Assembly 명예의 전당",
     "content": "<ul>\n<li><strong>Assembly Hall of Shame</strong>은 명령어를 빠르게 최적화하는 대신, 단일 명령어가 얼마나 느려질 수 있는지 실험해 성능의 절대 하한을 찾는 프로젝트임</li>\n<li>현재 x86 1위는 AMD Ryzen 7 5800H에서 실행한 <strong>fxrstor64</strong>로, PCIe 경합을 일으켜 198,002,498,236사이클과 62초를 ...<p></p></li></ul>",
     "createdAt": "2026-08-08T05:31:31.000+00:00",
@@ -11,7 +88,7 @@
     }
   },
   {
-    "title": "2027년 메모리 생산 용량, 이미 매진된 것으로 알려져",
+    "title": "2027년 메모리 생산 용량, 이미 매진됨",
     "content": "<ul>\n<li>Samsung·SK Hynix·Micron의 <strong>2027년 메모리 생산 용량</strong>을 AI 기업들이 모두 사들였다는 보도가 나왔으나, 세 제조사는 아직 확인하지 않음</li>\n<li>2027년 <strong>DRAM·HBM 생산 물량</strong>은 추가 공급 계획 없이 모두 계약됐으며, 주요 구매자는 생산 전 물량을 최대 5년 장기 계약으로 ...<p></p></li></ul>",
     "createdAt": "2026-08-08T03:32:13.000+00:00",
     "link": "https://news.hada.io/topic?id=32259",
@@ -517,39 +594,6 @@
     }
   },
   {
-    "title": "Meta, AI 생성 아동 성적 학대 이미지가 포함된 광고 게재",
-    "content": "<ul>\n<li>지난 9개월간 <strong>AI 생성 아동 성적 학대물(CSAM)</strong> 과 성적으로 암시적인 문구를 담은 유료 광고 수십 건이 Facebook·Instagram·Messenger·Threads의 심사를 통과해 노출됨</li>\n<li>Tech Transparency Project(TTP)는 Meta 광고 라이브러리에서 <strong>문제 광고 50건 이상</strong>을 발견했으...<p></p></li></ul>",
-    "createdAt": "2026-08-06T18:37:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32211",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gwern, 전업 글쓰기와 익명 활동을 그만두고 Guardian Angel을 출시",
-    "content": "<ul>\n<li>범용 챗봇 대신 한 사람의 <strong>성격/가치/선호를 모방하는 디지털 트윈 LLM</strong>인 Guardian Angel(GA)을 만들고, 사용자를 대체하기보다 수많은 에이전트를 지휘할 수 있도록 증폭하는 방식을 제안함</li>\n<li>GA는 사용자의 데이터로 지속 학습하고, 불확실할 때 직접 질문하는 <strong>동적 평가(dy...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-06T18:34:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=32210",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cargo를 위한 비전",
-    "content": "<ul>\n<li>Stack Overflow 2025 설문에서 가장 선호되는 개발 도구로 꼽힌 <strong>Cargo</strong>를 더 발전시키기 위해 의존성 관리, 빌드 성능, 적응성, 유지보수라는 네 축에서 이상적인 작업 흐름을 모색함</li>\n<li>crates.io 생태계의 재사용과 공동 감사를 살리면서 <strong>품질 좋은 패키지 탐색</strong>, Edi...<p></p></li></ul>",
-    "createdAt": "2026-08-06T17:05:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=32209",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "The Read Path versus the Write Path: Strategies and Techniques",
     "content": "<p><span>Every application built on stored data performs two kinds of operations against it.</span></p><p><span>A write operation records a fact, such as a new order, a changed email address, or a deleted comment. On the other hand, a read operation answers a question, such as which orders were placed this week or what should appear on a profile page. A single database on modest hardware can handle both types of operations without much trouble, and a developer need not be bothered about which operation is more common in the application’s context.</span></p><p><span>However, high traffic can change things. Let’s say a page starts to load slowly. A fix is identified, which is creating an index on the column being filtered. Now, several months later, the same page is slow again under higher load. This time the fix is a cache in front of the query. A year after that, the database saturates during peak hours. This time the fix is a read replica with reporting traffic routed to it. In principle, each fix works, but each one is needed at a different time and for a different reason.</span></p><p><span>Now, let’s assume that a user updates a profile, reloads the page, but still sees the previous value. The bug does not reproduce locally, and it disappears on its own before anyone can investigate its root cause. However, this behavior can be a direct consequence of some of the other fixes. This is because each of the previous fixes placed a copy of some data somewhere other than its source. But the copy is not updated in sync with the source update. In other words, a seemingly simple fix on the read path can impact how things appear to work on the write path.</span></p><p><span>In this article, we will look at read path and write path operations and techniques in detail. Here’s what we will cover:</span></p><ul><li><p><span>Why fast reads and correct writes require opposing data structures</span></p></li><li><p><span>Precomputation and duplication, the single operation underneath every read optimization</span></p></li><li><p><span>Two different definitions of consistency, and the bugs caused by treating them as one</span></p></li><li><p><span>Indexes, denormalization, caching, read replicas, materialized views, purpose-built read stores, fan-out on write versus read, and CQRS</span></p></li><li><p><span>For each strategy, its sync mechanism, staleness window, and characteristic failure mode</span></p></li><li><p><span>Write-heavy systems, where the ratio inverts and the decisions reverse with it.</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!krnL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!krnL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!krnL!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!krnL!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!krnL!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!krnL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!krnL!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!krnL!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!krnL!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!krnL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c5cd46b-a420-4a09-b1ca-40f8b0d4063a_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><span>Read/Write Asymmetry</span></h2>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/the-read-path-versus-the-write-path\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-08-06T15:31:50.000+00:00",
@@ -558,50 +602,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "마리오가 파레토를 만나다",
-    "content": "<ul>\n<li>Mario Kart 8의 드라이버·차체·타이어·글라이더 조합을 <strong>다목적 최적화</strong> 문제로 보면, 파레토 전선으로 열등한 선택지를 제거할 수 있음</li>\n<li>속도와 가속력 모두에서 다른 후보에 밀리면 <strong>지배당한 선택지</strong>가 되며, 어느 후보에도 완전히 지배당하지 않는 조합이 파레토 전...<p></p></li></ul>",
-    "createdAt": "2026-08-06T15:31:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=32208",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "《Blade Runner》 타이틀 카드가 놀라운 이유",
-    "content": "<ul>\n<li>《Blade Runner》는 <strong>Goudy Oldstyle 한 가지 서체</strong>에 대문자, 크기, 색상, 이탤릭 변주를 더해 디스토피아적 미래의 분위기를 구축함</li>\n<li>타이포그래피는 정보를 읽기 쉽게 전달하는 데 그치지 않고 <strong>감정과 인상</strong>을 만들며, 프로젝트마다 필요한 감정의 강도도 달라짐</li></ul>",
-    "createdAt": "2026-08-06T13:37:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=32207",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "범죄는 돈이 되지만 식물학은 그렇지 않다",
-    "content": "<ul>\n<li>낯선 전문용어에 위축되기보다 인터넷을 도서관처럼 활용해 개념을 검색하고 질문하면서 <strong>식물 식별의 기초</strong>부터 익힐 수 있음</li>\n<li>문화권마다 다른 일반명의 혼란을 피하려면 <strong>라틴어 학명</strong>을 이해해야 하며, 속명은 대문자·종명은 소문자·전체 이름은 이탤릭체로 표기함...<p></p></li></ul>",
-    "createdAt": "2026-08-06T13:34:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=32206",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "경찰, 대마초 수색 명분을 위해 Flock으로 주 경계를 넘은 남성 추적",
-    "content": "<ul>\n<li>위스콘신 경찰은 <strong>Flock 카메라 네트워크</strong>로 Edward Abrams-Phillips가 대마초가 합법인 미시간을 자주 오간 사실을 파악하고, 차량 수색의 상당한 근거(probable cause)에 포함함</li>\n<li>2025년 4월, 위스콘신에서 미시간으로 갔다가 몇 시간 뒤 돌아오는 경로를 <strong>실시간에 가깝게 추...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-06T11:37:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=32205",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
