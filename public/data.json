@@ -1,5 +1,27 @@
 [
   {
+    "title": "Assembly 명예의 전당",
+    "content": "<ul>\n<li><strong>Assembly Hall of Shame</strong>은 명령어를 빠르게 최적화하는 대신, 단일 명령어가 얼마나 느려질 수 있는지 실험해 성능의 절대 하한을 찾는 프로젝트임</li>\n<li>현재 x86 1위는 AMD Ryzen 7 5800H에서 실행한 <strong>fxrstor64</strong>로, PCIe 경합을 일으켜 198,002,498,236사이클과 62초를 ...<p></p></li></ul>",
+    "createdAt": "2026-08-08T05:31:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=32260",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2027년 메모리 생산 용량, 이미 매진된 것으로 알려져",
+    "content": "<ul>\n<li>Samsung·SK Hynix·Micron의 <strong>2027년 메모리 생산 용량</strong>을 AI 기업들이 모두 사들였다는 보도가 나왔으나, 세 제조사는 아직 확인하지 않음</li>\n<li>2027년 <strong>DRAM·HBM 생산 물량</strong>은 추가 공급 계획 없이 모두 계약됐으며, 주요 구매자는 생산 전 물량을 최대 5년 장기 계약으로 ...<p></p></li></ul>",
+    "createdAt": "2026-08-08T03:32:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=32259",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "이번 주 App Store 거절 사례: Dark Hours",
     "content": "<ul>\n<li>일반인을 위한 <strong>천문학 앱 Dark Hours</strong>가 점성술 앱으로 오인돼 App Store 심사에서 거절됨</li>\n<li>타로와 운세 등 점성술 관련 기능이 전혀 없으며, 몇 초만 살펴봐도 <strong>천문학 서비스</strong>라는 점을 확인할 수 있음</li>\n<li>개발자 Terry Godier가 App Review Board까지 이의를 ...<p></p></li></ul>",
     "createdAt": "2026-08-08T01:31:41.000+00:00",
@@ -576,28 +598,6 @@
     "content": "<ul>\n<li>위스콘신 경찰은 <strong>Flock 카메라 네트워크</strong>로 Edward Abrams-Phillips가 대마초가 합법인 미시간을 자주 오간 사실을 파악하고, 차량 수색의 상당한 근거(probable cause)에 포함함</li>\n<li>2025년 4월, 위스콘신에서 미시간으로 갔다가 몇 시간 뒤 돌아오는 경로를 <strong>실시간에 가깝게 추...<p></p></strong></li></ul>",
     "createdAt": "2026-08-06T11:37:17.000+00:00",
     "link": "https://news.hada.io/topic?id=32205",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "100배 저렴한 오픈 모델로 검색에서 GPT-5.6 Sol 능가하기",
-    "content": "<ul>\n<li>Castform으로 강화학습 후처리한 <strong>4B 오픈 소스 모델</strong>이 GPT-5.6 Sol과 같은 수준의 검색 정확도를 달성하면서 비용은 <strong>100분의 1</strong>로 낮춤</li>\n<li>에이전트 검색은 한 번의 임베딩 검색에서 여러 차례 계획·검색하는 방식으로 진화했으며, GPT-5.6 Sol 기반 다중 턴 검색은 요...<p></p></li></ul>",
-    "createdAt": "2026-08-06T11:34:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=32204",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "‘장애 동글’: 실리콘밸리가 나와 당신을 싫어하는 이유",
-    "content": "<ul>\n<li><strong>장애 동글(Disability Dongle)</strong> 은 장애인이 겪는 현실보다 비장애인의 시선과 디자인 수상에 맞춘, 화려하고 비싸며 기술적으로 인상적인 장치를 뜻함</li>\n<li>3만 달러짜리 계단 등반 휠체어보다 <strong>경사로와 넓은 문</strong>이 저렴하고 안정적이며, 유모차·손수레·노인에게도 유용...<p></p></li></ul>",
-    "createdAt": "2026-08-06T11:01:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=32202",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
