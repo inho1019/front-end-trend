@@ -1,5 +1,126 @@
 [
   {
+    "title": "Qwen 3.8 27B",
+    "content": "<ul>\n<li><strong>Qwen3.8-27B-FP8</strong>은 이미지·영상 이해와 장기 에이전트 작업을 지원하는 270억 파라미터 밀집형 모델로, 원본과 성능 지표가 거의 같은 세밀한 FP8 양자화 가중치를 제공함</li>\n<li>기본 활성화된 <strong>사고 모드</strong>는 요청별로 끌 수 있으며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">reasoning_effort</code>로 추론...<p></p></li></ul>",
+    "createdAt": "2026-08-14T18:33:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=32510",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "1910년의 『프린키피아 마테마티카』가 현대적으로 읽히는 이유",
+    "content": "<ul>\n<li>1910년에 출간된 <em>Principia Mathematica</em>는 <strong>참조 투명성</strong>과 타입, 자유·바인딩 변수, 치환, 스코프 등 현대 프로그래밍 언어의 핵심 개념을 이미 다룸</li>\n<li>명제 함수와 겉보기 변수(apparent variable)는 각각 <strong>람다 항과 바인딩 변수</strong>에 대응하며, 알파 동등성과...<p></p></li></ul>",
+    "createdAt": "2026-08-14T17:36:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32509",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Qwen3.8-27B",
+    "content": "<ul>\n<li>Alibaba Qwen이 <strong>Qwen3.8-27B 오픈 가중치</strong>를 공개해 로컬 경량 애플리케이션 개발에 활용할 수 있음</li>\n<li>270억 개 매개변수의 <strong>네이티브 멀티모달 밀집 모델</strong>로, 전반적인 성능에서 Qwen3.7-Plus를 능가함</li>\n<li>실제 <strong>코딩·오피스 워크플로</strong>에 강점을 ...<p></p></li></ul>",
+    "createdAt": "2026-08-14T17:33:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32508",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "넓게 만들고, 좁게 출시하기",
+    "content": "<ul>\n<li>AI가 구현과 브랜치 분해 비용을 낮추면서, 작업 경계를 처음부터 확정하는 대신 <strong>전체 기능을 먼저 구현</strong>하고 실제 코드에 드러난 경계에 따라 작은 PR로 나눌 수 있게 됨</li>\n<li>설계를 생략하는 방식은 아니며, 계획을 충분히 검증하고 새로운 설계라면 <strong>명세를 코드보다 먼저 커밋...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-14T16:36:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=32507",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "안녕, 나야. 정말 오랜만이야",
+    "content": "<ul>\n<li>14년 넘게 블로그를 떠나 있는 동안 일상의 <strong>고요한 시간</strong>이 사라졌고, 팟캐스트·오디오북·소셜 미디어로 모든 침묵을 채우는 습관이 생김</li>\n<li>여가가 줄고 책임이 늘면서 운동·요리·청소 중에도 무언가를 재생했으며, 조용해지면 곧바로 콘텐츠를 찾게 됨</li>\n<li>움직이기까지 몇 분이 ...<p></p></li></ul>",
+    "createdAt": "2026-08-14T16:36:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=32506",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "하나의 프롬프트를 11개 AI 모델에 실행했더니 나온 서로 다른 결과",
+    "content": "<ul>\n<li>Netlify가 동일한 커피숍 웹사이트 프롬프트를 <strong>11개 AI 모델</strong>에서 각각 3회 실행한 결과, 디자인·콘텐츠 품질과 평균 크레딧이 2.4부터 수백 단위까지 크게 달라짐</li>\n<li>디자인 벤치마크가 아닌 실제 생성 결과를 비교한 <strong>주관적 실험</strong>으로, 모든 모델에 Netlify 기본 설정...<p></p></li></ul>",
+    "createdAt": "2026-08-14T16:34:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=32505",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모든 빌어먹을 웹사이트 (2020)",
+    "content": "<ul>\n<li>현대 웹사이트에 반복해서 등장하는 <strong>팝업과 안내창</strong>을 한 페이지에 모아 획일적인 사용자 경험을 풍자함</li>\n<li>페이지 상단에는 사용자가 읽지 않을 것이라고 전제한 <strong>COVID-19 안내문</strong>이 자리함</li>\n<li>가입 팝업은 쿠폰 코드 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">10PERCENTOFF</code>를 내세워 </li></ul>",
+    "createdAt": "2026-08-14T16:33:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=32504",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Flutter 3.47",
+    "content": "<ul>\n<li>Flutter 3.47은 <strong>Material·Cupertino 디자인 시스템 분리</strong>와 데스크톱 Impeller 기본화, Widget Previews 안정화를 통해 SDK와 UI 패키지의 릴리스 주기를 분리함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">material_ui</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cupertino_ui</code>가 <strong>1.0</strong>으로 출시돼 SDK 전체를 올리지 않고도 ...<p></p></li></ul>",
+    "createdAt": "2026-08-14T16:31:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=32503",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Opus 5는 왜 함께 작업하기 더 불편하게 느껴지는가?",
+    "content": "<ul>\n<li>Opus 5는 Opus 4.7·4.8보다 역량이 뛰어나고 벤치마크에서 Fable과 경쟁하지만, 실제 작업에서는 <strong>더 세밀한 감독</strong>이 필요해 이전 모델보다 불편하게 느껴짐</li>\n<li>Opus 4.7·4.8과 Fable은 의도가 불분명하면 질문하고 계획을 임의로 재해석하지 않지만, Opus 5는 이러한 <strong>확인 절차...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-14T15:32:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=32502",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nine PBS, 기록 데이터 접근을 차단한 Iron Mountain 제소",
+    "content": "<ul>\n<li>St. Louis의 <strong>Nine PBS</strong>는 Denver 데이터센터에 보관된 <strong>50TB 이상의 자료</strong>를 돌려받기 위해 7월 28일 Iron Mountain Data Centers를 제소함</li>\n<li>클라우드 저장업체 <strong>Open Source Storage(OSS)</strong> 가 3월 6일 예고 없이 접근을 차단한 뒤 사실상 운영을 중단했...<p></p></li></ul>",
+    "createdAt": "2026-08-14T13:38:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=32500",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "평범한 풍요",
+    "content": "<ul>\n<li>현대의 평범한 아파트에는 음악 스트리밍, 전등, 사진, 안경, 수도, 냉장고처럼 과거에는 <strong>경이롭거나 대다수가 누릴 수 없었던 기술</strong>이 일상으로 자리 잡고 있음</li>\n<li>인쇄술과 전신은 지식과 메시지의 이동을, 사진과 미술 복제는 기억과 예술의 보존·접근을 바꾸며 <strong>시간·거리·...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-14T13:35:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=32499",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "“기술 부채”가 아니라 그저 “엉망인 상태”다",
     "content": "<ul>\n<li>개발팀이 <strong>기술 부채</strong>라고 부르는 문제 대부분은 미래 비용을 알고 선택한 부채가 아니라, 미숙한 작업·취향 차이·예상하지 못한 복잡성이 뒤섞인 <strong>엉망인 상태</strong>에 가까움</li>\n<li>금융 부채는 계약 시점에 규모·비용·조건을 알 수 있지만 기술적 결정의 비용은 대개 나중에 드...<p></p></li></ul>",
     "createdAt": "2026-08-14T13:01:48.000+00:00",
@@ -173,6 +294,17 @@
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
+    }
+  },
+  {
+    "title": "The Next.js team is doing a Reddit AMA",
+    "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​487 — August 14, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/189347/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<table><tbody><tr><td><p>🗓️ We're taking a break next week, so we're back in your inbox on August 28.<br>__<br><em>Your editor, Peter Cooper</em></p></td></tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/189319/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/gtnjd4ymausiuh6vt3lz.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189319/rss\" title=\"tanstack.com\" target=\"_blank\" rel=\"noopener noreferrer\">A Tour of TanStack Form v2: Now in Alpha</a></span> — The headless form library has been rebuilt from the ground up after a year of v1 feedback. The big change is validation: instead of one handler per event, validators become a pipeline where each declares its own triggers and conditions. Type safety and SSR improve&nbsp;too.</p>\n  <p>Luca Jakob (TanStack) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189320/rss\" title=\"reactnative.dev\" target=\"_blank\" rel=\"noopener noreferrer\">React Native 0.87 Released</a></span> — Its public JavaScript API is now the <em><a href=\"https://react.statuscode.com/link/189321/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Strict TypeScript API</a></em> with types generated from RN's source. <a href=\"https://react.statuscode.com/link/189322/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Metro</a> bumps to the leaner v0.87, and there's (experimental) Swift Package Manager support for&nbsp;iOS.</p>\n  <p>Peng, Cucci, Dall'Agnol, and Falch </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/189318/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/a9c133ca.png\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/189318/rss\" title=\"master.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Frontend Architecture: Monoliths to Microfrontends</a></span> — Maxi Ferreira walks through modular monoliths, monorepos, and microfrontends so you can pick the right structure for your codebase and know the real cost before you&nbsp;commit.</p>\n  <p>Master.dev <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189323/rss\" title=\"engineeringblog.yelp.com\" target=\"_blank\" rel=\"noopener noreferrer\">Migrating a Large Flow Monorepo to TypeScript</a></span> — Yelp picked Flow in 2017 as it handled React better than TypeScript did. A fair call at the time, but undoing that took years of converting hundreds of packages and 1.4 million lines of code, with both typecheckers running the whole&nbsp;time.</p>\n  <p>Shawn Walton (Yelp) </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>👥 The Next.js team (now including Dan Abramov and Pete Hunt) is doing an AMA (Ask Me Anything) on Reddit this coming Tuesday (August 18). You can <a href=\"https://react.statuscode.com/link/189324/rss\" target=\"_blank\" rel=\"noopener noreferrer\">post your questions on this thread</a> in advance.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/189325/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Biome 2.5.8</a> is out with a new <a href=\"https://react.statuscode.com/link/189326/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">useReactCompiler</code> rule</a> that runs React Compiler in lint mode and reports which components and hooks wouldn't compile&nbsp;safely (effectively a 'dry run' before you enable the&nbsp;compiler).</p>\n</li>\n<li>\n<p>🇫🇷 <a href=\"https://react.statuscode.com/link/189327/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native Connection</a>, the French React Native conference, returns to Paris on September&nbsp;24.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189328/rss\" title=\"nextjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Making Navigations Instant in v0</a></span> — Next.js 16.3 includes an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">instant()</code> test helper for Playwright that asserts what is painted before the network responds. Vercel looped an agent against it to speed up its AI app builder, <a href=\"https://react.statuscode.com/link/189329/rss\" target=\"_blank\" rel=\"noopener noreferrer\">v0</a>.</p>\n  <p>Jude Gao (Next.js Team) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span>▶&nbsp;&nbsp;<a href=\"https://react.statuscode.com/link/189330/rss\" title=\"www.youtube.com\" target=\"_blank\" rel=\"noopener noreferrer\">Own the RSC Pipeline: Cache and Compose It Yourself</a></span> — RSC is a primitive, not an architecture, argues the contributor behind TanStack Start's implementation. It's two React functions and a stream, so you can cache it, and even take it offline. <em>(18&nbsp;minutes.)</em></p>\n  <p>Manuel Schiller </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189331/rss\" title=\"www.jovidecroock.com\" target=\"_blank\" rel=\"noopener noreferrer\">Making Referential Stability a Type</a></span> — Jovi, of the Preact core team, turns referential stability into a branded type, so a component can demand a stable array or callback and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tsc</code> rejects the inline literal. Experimental.</p>\n  <p>Jovi De Croock </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://react.statuscode.com/link/189332/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Scanning Barcodes in React Native Apps</a> – A pleasantly thorough roundup of the&nbsp;options from the creator of VisionCamera. <cite>Marc Rousavy</cite></p>\n<p>📺 <a href=\"https://react.statuscode.com/link/189333/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native Tools That Actually Save Me Time</a>  <cite>Simon Grimm</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/189334/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/pll76rbdbs9pumnj7csz.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189334/rss\" title=\"gtkx.dev\" target=\"_blank\" rel=\"noopener noreferrer\">GTKX 1.0: The React Framework for Linux</a></span> — A way to build native Linux desktop apps with React. Write JSX, get real GTK4 and Adwaita widgets with no webview, in an ordinary Node process with npm packages and even Fast&nbsp;Refresh&nbsp;support.</p>\n  <p>Eugenio Depalo </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 1.0 is the big release, but <a href=\"https://react.statuscode.com/link/189335/rss\" target=\"_blank\" rel=\"noopener noreferrer\">GTKX 1.1</a> landed just after with a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gtkx deploy</code> command that produces a distributable Flatpak, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.deb</code>/<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.rpm</code> and AppImage in one&nbsp;go.</p></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189336/rss\" title=\"kbar.vercel.app\" target=\"_blank\" rel=\"noopener noreferrer\">kbar 1.0: A Cmd+K Interface for React Apps</a></span> — After five years of betas, this simple way to add in-page commands and search now fully supports React 18 and 19. You can try it out right on the page&nbsp;too.</p>\n  <p>Tim Chang </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/189337/rss\" title=\"gooey.jakubantalik.com\" target=\"_blank\" rel=\"noopener noreferrer\">Liquid Gooey: Liquid/Gooey Effects for React</a></span> — More subtle and pleasing than I imagined at first. Nice demos on the&nbsp;homepage.</p>\n  <p>Jakub Antalik </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/189338/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Hook Form 7.85.0</a> – Adds support for React 19.2's &lt;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Activity</code>&gt;.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/189339/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Motion 13.1</a> – The animation library's Reorder component gains multidimensional reordering, axis detection, and RTL support.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/189340/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Next.js 16.3.1</a> – Cleans up some elements of the <a href=\"https://react.statuscode.com/link/189341/rss\" target=\"_blank\" rel=\"noopener noreferrer\">16.3 release</a> like repeated prefetch loops, cache entries being discarded too eagerly after a tag revalidation, and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">headers()</code> returning a stale view of the request.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/189342/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Sonner 2.0.8</a> – The first release in over a year for the popular toast component&nbsp;(<a href=\"https://react.statuscode.com/link/189343/rss\" target=\"_blank\" rel=\"noopener noreferrer\">demo</a>).</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>🎤 Dive deep into React in the heart of London. <a href=\"https://react.statuscode.com/link/189344/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Join React Advanced</a>: 2 days of talks &amp; workshops for senior React engineers. Oct 23 &amp;&nbsp;26.</p>\n \n<p>Meet <a href=\"https://react.statuscode.com/link/189345/rss\" target=\"_blank\" rel=\"noopener noreferrer\">chat.agent on Trigger.dev</a>: durable AI agents built with the AI SDK you already use. Long-lived LLM sessions that survive deploys, crashes &amp;&nbsp;refreshes.</p>\n \n<p>📉 Cold launch, time to interactive and per-route timings from real users, tied to the build that changed them: <a href=\"https://react.statuscode.com/link/189346/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo&nbsp;Observe</a>.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>And that's a wrap! We'll see you again on Friday, August 28! 👋</p>\n<p><em>P.S. A huge thanks to everyone who's sent in submissions lately. There have been so many that I've fallen well behind, but every email gets read and I'll catch up on my return&nbsp;:-)</em></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/487/rss\">",
+    "createdAt": "2026-08-14T00:00:00.000+00:00",
+    "link": "https://react.statuscode.com/issues/487",
+    "author": "",
+    "site": {
+      "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
+      "name": "React Status"
     }
   },
   {
@@ -478,127 +610,6 @@
     "createdAt": "2026-08-13T00:15:15.000+00:00",
     "link": "https://news.hada.io/topic?id=32450",
     "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "에이전틱 코드 리뷰에서 인간-AI 시너지 : 인간과 AI는 다르게 리뷰한다",
-    "content": "<ul>\n<li>300개 GitHub 프로젝트의 <strong>27만여 개 인라인 코드 리뷰 대화</strong>를 분석해, 인간과 AI의 피드백이 실제 수정과 후속 대화로 어떻게 이어지는지 비교함</li>\n<li>AI는 코드에서 문제를 찾아 바로 수정안을 제시하는 데 집중한 반면, 인간은 <strong>왜 이렇게 구현했는지 묻고 테스트/프로젝트 관례...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-13T00:15:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32449",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Linux용 소프트웨어 패키징이 싫은 이유",
-    "content": "<ul>\n<li>터미널 편집기 <strong>Fresh</strong>를 모든 Linux 사용자가 쉽게 설치할 수 있도록 여러 배포 채널을 지원했지만, 채널이 늘어날수록 릴리스 유지 비용과 장애 가능성도 커짐</li>\n<li>npm, Cargo, AppImage, Flatpak, deb, rpm, AUR, Nix, mise 등은 각기 일부 사용자에게만 적합하며 <strong>보안·호환성...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-13T00:07:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=32448",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 사용을 그만두기로 한 이유",
-    "content": "<ul>\n<li>20년 경력의 개발자가 LLM 코딩 도구를 1년 넘게 적극적으로 사용한 끝에 <strong>정신 건강·소프트웨어 품질·환경과 사회적 비용</strong>을 이유로 코딩을 포함한 모든 AI 사용을 중단하기로 함</li>\n<li>Claude Code와 Linear를 연결해 코드 한 줄 직접 수정하지 않고 비사소한 프로젝트를 완성할 만큼 생산...<p></p></li></ul>",
-    "createdAt": "2026-08-13T00:04:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=32447",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Labor0 – AI 코딩 에이전트의 작업을 의존성 그래프로 조율합니다",
-    "content": "<p>안녕하세요. SWC를 만든 강동윤입니다.</p>\n<p>Zephyr Cloud Inc.에서 제가 처음부터 개발을 리드해 온 <strong>Labor0</strong>를 출시했습니다.</p>\n<p>Codex, Claude Code, OpenCode 같은 코딩 에이전트는 이미 개별 작업을 꽤 잘 수행합니다. 하지만 실제 프로젝트는 하나의 작업으로 끝나지 않습니다.</p>\n<p>기</p>",
-    "createdAt": "2026-08-12T23:17:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=32446",
-    "author": "kdy1234",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Qwen3.8-2.4T-A95B 오픈 웨이트 공개",
-    "content": "<ul>\n<li>앞서 <a href=\"https://news.hada.io/topic?id=32090\" target=\"_blank\" rel=\"noopener noreferrer\">Qwen3.8-Max 발표</a>에서 예고했던 <strong>Qwen 최초의 Max급 오픈 웨이트 모델</strong>로, Qwen의 최상위 모델 계열을 자체 인프라에서 직접 실행할 수 있게 됨</li>\n<li>총 <strong>2.4조(2.4T) 파라미터 중 토큰당 950억(95B)을 활성화</strong>하는...<p></p></li></ul>",
-    "createdAt": "2026-08-12T21:33:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=32445",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DeepSeek V4 Pro 0813",
-    "content": "<ul>\n<li>OpenRouter에서 <strong>단일 공급자</strong>가 호스팅하며, 별도 라우팅 결정 없이 모든 요청을 해당 공급자에게 직접 전달함</li>\n<li>실제 고객의 가중 평균 가격은 100만 토큰당 입력 <strong>$0.03508</strong>, 출력 <strong>$0.8697</strong>이며, 캐싱과 할인에 따라 게시 가격보다 낮아질 수 있음</li></ul>",
-    "createdAt": "2026-08-12T19:32:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=32444",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "차량 번호판 과거 기록 검색에는 영장이 필요함",
-    "content": "<ul>\n<li>자동 차량 번호판 판독기(ALPR)가 촘촘해지면 개인의 이동 전체를 재구성할 수 있으므로, 긴급한 실시간 조회와 달리 <strong>과거 기록 검색</strong>에는 영장이 필요함</li>\n<li>ALPR 카메라는 대당 <strong>3,000달러 미만</strong>으로 저렴해 사건 해결에 기여할 수 있지만, 범죄 감소 효과를 뒷받침하는...<p></p></li></ul>",
-    "createdAt": "2026-08-12T18:33:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=32443",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tailscale이 데이터베이스 손상 원인을 16년 된 SQLite WAL-Reset 버그로 추적한 과정",
-    "content": "<ul>\n<li>6개월간 발생한 <strong>19건의 데이터베이스 손상</strong>과 반복적인 제어 평면 장애를 조사한 끝에, SQLite 체크포인트와 쓰기 트랜잭션 사이의 희귀한 데이터 경쟁을 찾아냄</li>\n<li>WAL 페이지가 주 데이터베이스에 복사되지 않았는데도 체크포인트가 완료된 것으로 처리돼 데이터가 영구 소실됐으며, S...<p></p></li></ul>",
-    "createdAt": "2026-08-12T17:38:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=32442",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음",
-    "content": "<ul>\n<li>AI는 구현 속도의 제한을 없애 <strong>취약한 엔지니어링 문화</strong>를 가진 프로젝트가 복구 불가능한 복잡성에 도달하는 시간까지 크게 단축함</li>\n<li>하루 만에 수만 줄을 생성할 수 있지만 사람이 이해하고 검토하는 속도는 그대로여서, 잘못된 결정과 추상화가 <strong>검토 역량을 압도</strong>함...<p></p></li></ul>",
-    "createdAt": "2026-08-12T17:35:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=32441",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "2026년 개기일식 웹캠",
-    "content": "<ul>\n<li><strong>개기일식 구간 시작</strong>까지 31분 39초가 남아 있음</li>\n<li>일식이 <strong>첫 번째 웹캠에 도달</strong>하기까지 남은 시간은 1시간 11분 59초임</li>\n<li>개기일식 시작과 첫 웹캠 도달 시점을 각각 카운트다운함</li>\n<li>첫 웹캠 도달은 개기일식 시작보다 <strong>40분 20초 뒤</strong>임...<p></p></li></ul>",
-    "createdAt": "2026-08-12T16:31:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=32439",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Grok 4.6 공개, 파라미터 확장 대신 사후학습에 투자한 모델",
-    "content": "<ul>\n<li>xAI가 Grok 4.6을 공개함. Cursor와 Grok Build에서 당일부터 사용 가능하며, 첫 주 동안 두 서비스의 포함 사용량을 2배로 제공함</li>\n<li>아홉 개 벤치마크를 합산한 Artificial Analysis Intelligence Index에서 GPT-5.6 Sol과 동률을 기록했다고 밝힘. 지수 값은 61이며, CursorBench와 FrontierCode, AA-...<p></p></li></ul>",
-    "createdAt": "2026-08-12T16:30:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32438",
-    "author": "princox",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -1394,17 +1405,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "Pete Hunt is back to lead Next.js",
-    "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​483 — July 17, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/188125/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/188083/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/xrj22mwoden85sqljlpf.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188083/rss\" title=\"www.reactbench.com\" target=\"_blank\" rel=\"noopener noreferrer\">ReactBench: Evaluating How Coding Agents Write React Code</a></span> — From the team behind <a href=\"https://react.statuscode.com/link/188084/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Scan</a> and Million.js, an eval for coding agents on 'realistic React work' to suss out models that do well in other benchmarks but can't necessarily write reliable React code. GPT 5.6 Sol leads for now. <a href=\"https://react.statuscode.com/link/188085/rss\" target=\"_blank\" rel=\"noopener noreferrer\">More&nbsp;details.</a></p>\n  <p>Aiden Bai et al. </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188086/rss\" title=\"react.dev\" target=\"_blank\" rel=\"noopener noreferrer\">React's Team Page Gets a Restructure</a></span> — As part of <a href=\"https://react.statuscode.com/link/188087/rss\" target=\"_blank\" rel=\"noopener noreferrer\">the changes</a> around React's governance structure, the official team page has been reorganized around the Leadership Council and members of the numerous working groups (e.g. Compiler, React Native, Docs).</p>\n  <p>The React Team </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188082/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/38d8f21d.webp\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/188082/rss\" title=\"coderabbit.link\" target=\"_blank\" rel=\"noopener noreferrer\">Cut Code Review Time &amp; Bugs in Half, Instantly</a></span> — CodeRabbit reviews every PR with full codebase context, catching off-by-ones, null refs and edge cases before they hit prod. It does the heavy lifting, so you do the final 10%. Trusted by 15,000+ teams. <a href=\"https://react.statuscode.com/link/188082/rss\" target=\"_blank\" rel=\"noopener noreferrer\">2-click install, free to&nbsp;try</a>.</p>\n  <p>CodeRabbit <span>sponsor</span></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>⭐ Guillermo Rauch <a href=\"https://react.statuscode.com/link/188088/rss\" target=\"_blank\" rel=\"noopener noreferrer\">just announced on 𝕏</a> that Vercel has hired Pete Hunt and Nick Schrock (co-creator of GraphQL). Pete, an early and influential React team member, will be leading the Next.js project.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188089/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Vercel is formalizing a predictable, monthly Next.js security release schedule</a> with the first coming in just a few days.</p>\n</li>\n<li>\n<p>Cloudflare has entirely rebuilt <a href=\"https://react.statuscode.com/link/188090/rss\" target=\"_blank\" rel=\"noopener noreferrer\">its blog</a> on top of <a href=\"https://react.statuscode.com/link/188091/rss\" target=\"_blank\" rel=\"noopener noreferrer\">EmDash</a>, the <a href=\"https://react.statuscode.com/link/188092/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Astro</a>-powered 'spiritual successor to WordPress' it unveiled (genuinely) on April&nbsp;1.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188093/rss\" title=\"dx-styles.dev\" target=\"_blank\" rel=\"noopener noreferrer\">I've Maintained Linaria for Six Years: Here's Why I Built Something&nbsp;New</a></span> — <em>\"Runtime CSS-in-JS is winding down,\"</em> says Linaria's maintainer, who has now built <a href=\"https://react.statuscode.com/link/188094/rss\" target=\"_blank\" rel=\"noopener noreferrer\">dx-styles</a>, a zero-runtime compile-time alternative (for which there's also a <a href=\"https://react.statuscode.com/link/188095/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Linaria migration&nbsp;guide</a>).</p>\n  <p>Anton Evzhakov </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188096/rss\" title=\"certificates.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Cache Components in Next.js, Explained</a></span> — A walkthrough of Next.js 16's dynamic-by-default caching model, covering <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">use cache</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cacheLife</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cacheTag</code>, and how it powers Instant&nbsp;Navigations.</p>\n  <p>Aurora Scharff </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📺 <a href=\"https://react.statuscode.com/link/188097/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Jack Herrington Can’t Think of a Reason to Choose Next.js Anymore</a> – Jack explains why he's all-in on the TanStack approach, as well as his experiences building with AI, in this 45-minute&nbsp;interview. <cite>Ankita Kulkarni</cite></p>\n<p>📺 <a href=\"https://react.statuscode.com/link/188098/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The Framework Wars Are Over: Why No One Dethroned React</a> – Kent's take in 11&nbsp;minutes. <cite>Kent C. Dodds</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/188099/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Building a ChatGPT-Style AI Chat App in React Native</a> – That also uses RAG to answer domain-specific&nbsp;queries. <cite>Dave Mkpa-Eke (Margelo)</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188100/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/bjmfrkg2i2mujsoag2zb.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188100/rss\" title=\"ui.shadcn.com\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/typeset</code>: A Complete Typography System for HTML</a></span> — A drop-in typography system for rendered HTML (such as Markdown output) packaged as a single CSS file with one wrapper class. Rather than exposing dozens of typography settings, it's driven by a few CSS variables. There's a <a href=\"https://react.statuscode.com/link/188101/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Typeset builder</a> to help you customize it and generate code to get&nbsp;started.</p>\n  <p>shadcn Team </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188102/rss\" title=\"dsssp.io\" target=\"_blank\" rel=\"noopener noreferrer\">DSSSP: Audio Equalization and Filter Visualization Components</a></span> — One for the audio folks. SVG-based components to visualize things like frequency response graphs and control audio filters. There are <a href=\"https://react.statuscode.com/link/188103/rss\" target=\"_blank\" rel=\"noopener noreferrer\">some live&nbsp;demos</a>.</p>\n  <p>Alex Strelets </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188104/rss\" title=\"react-dropzone.js.org\" target=\"_blank\" rel=\"noopener noreferrer\">react-dropzone 17.0: Create File Drag-and-Drop Zones</a></span> — A mature library offering a hook-based approach to making HTML-compliant drag-and-drop zones for files dropped onto pages. The docs include <a href=\"https://react.statuscode.com/link/188105/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a basic demo with&nbsp;code</a>.</p>\n  <p>Param Aggarwal </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188106/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">React Mosaic 7.0: A Component Tiling 'Window Manager'</a></span> — Provides an API to organize and tile React components across a view. <a href=\"https://react.statuscode.com/link/188107/rss\" target=\"_blank\" rel=\"noopener noreferrer\">v7.0</a> makes big layout engine changes and targets React 16-19 with a full ESM + CJS build. <a href=\"https://react.statuscode.com/link/188108/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Demo&nbsp;here.</a></p>\n  <p>Kevin Verdieck </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/188109/rss\" title=\"brainless.swerdlow.dev\" target=\"_blank\" rel=\"noopener noreferrer\">brainless: Claude Code, Codex, and Grok UIs as <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn</code> Components</a></span> — If, for some reason, you want to <a href=\"https://react.statuscode.com/link/188110/rss\" target=\"_blank\" rel=\"noopener noreferrer\">recreate a TUI coding agent experience</a> on the Web, render <a href=\"https://react.statuscode.com/link/188111/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Claude-style diffs</a> or show off agent examples in docs, perhaps?</p>\n  <p>Ben Swerdlow </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188112/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-fontawesome 3.4</a> – The official library to use <a href=\"https://react.statuscode.com/link/188113/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Font Awesome</a> icons in React apps adds support for <a href=\"https://react.statuscode.com/link/188114/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Font Awesome 7.3's</a> new animations.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188115/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Preact 11.0 Beta 2</a> – <em>\"One of the last betas for Preact 11,\"</em> says maintainer Jovi De Croock. There's already <a href=\"https://react.statuscode.com/link/188116/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a migration guide</a> ready to&nbsp;use.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188117/rss\" target=\"_blank\" rel=\"noopener noreferrer\">use-local-storage-state 20.0</a> – A hook that persists data in <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">localStorage</code>.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188118/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-dropdown 2.0</a> – Simple accessible dropdown component.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188119/rss\" target=\"_blank\" rel=\"noopener noreferrer\">react-joyride 3.2</a> – Create guided tours within your React apps.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188120/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Travels 1.4</a> – Fast, reusable patch-based undo/redo mechanism.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/188121/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native Skia 2.9</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Real-time UI on a slow query? <a href=\"https://react.statuscode.com/link/188122/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TimescaleDB extends Postgres</a> so analytics keep pace with your&nbsp;components.</p>\n \n<p>⚡ <a href=\"https://react.statuscode.com/link/188123/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Zuplo</a> puts every API, AI, and MCP request behind one gateway. Route traffic, guard your MCP servers, and cap your AI costs. <a href=\"https://react.statuscode.com/link/188123/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Try it&nbsp;free</a>.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td><p>📊&nbsp; Monitoring package popularity</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/188124/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wc2von9kring79sp9kmv.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Did you know TanStack maintains <a href=\"https://react.statuscode.com/link/188124/rss\" target=\"_blank\" rel=\"noopener noreferrer\">an npm stats monitoring page</a> you can use to graph the popularity of any npm packages over time?</p>\n<p>The default view shows how TanStack's collection of libraries fares against other popular sets from React Router, Next.js, and Angular, but you can also pick from other pre-defined groups like 'data grids' or 'state management', or just specify your own packages to compare.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/483/rss\">",
-    "createdAt": "2026-07-17T00:00:00.000+00:00",
-    "link": "https://react.statuscode.com/issues/483",
-    "author": "",
-    "site": {
-      "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
-      "name": "React Status"
     }
   },
   {
