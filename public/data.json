@@ -1,5 +1,27 @@
 [
   {
+    "title": "겨울을 앞두고 기록적 수준으로 빠르게 성장하는 슈퍼 엘니뇨",
+    "content": "<ul>\n<li>2026년 <strong>슈퍼 엘니뇨</strong>는 열대 태평양의 해양·대기 결합이 빠르게 강화되면서 2015~2016년 사건보다 발달 속도와 현재 강도가 앞섰고, 최신 장기 전망도 연말 정점을 계속 상향 조정함</li>\n<li>서풍 이상이 따뜻한 해수를 동쪽으로 밀어 만든 <strong>켈빈파(Kelvin Wave)</strong> 는 수심 250...<p></p></li></ul>",
+    "createdAt": "2026-08-16T11:33:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=32549",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "복부 지방, BMI보다 심장병 위험을 더 정확히 예측",
+    "content": "<ul>\n<li>26만 명 이상을 평균 <strong>20년간 추적</strong>한 결과, 허리둘레와 허리-엉덩이 비율이 BMI만으로 놓칠 수 있는 심혈관질환 위험을 구분함</li>\n<li>BMI는 체중과 키만으로 계산해 지방 분포를 반영하지 못하며, 장기 주변의 <strong>내장지방</strong>은 심장병·당뇨병과 연관됨</li>\n<li>정상 체중 중 5...<p></p></li></ul>",
+    "createdAt": "2026-08-16T09:32:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=32548",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "감염 진드기를 15분 만에 확인하는 첫 가정용 라임병 검사",
     "content": "<ul>\n<li>미국에서 매년 <strong>3,100만 명 이상</strong>이 진드기에 물리는 가운데, LymeAlert는 진드기 속 라임병 원인균을 약 15분 만에 확인해 초기 치료 판단을 돕는 첫 가정용 선별 도구임</li>\n<li>진드기를 분쇄한 뒤 <strong>면역크로마토그래피 시험지</strong>로 <em>Borrelia burgdorferi</em>를 검출하며...<p></p></li></ul>",
     "createdAt": "2026-08-16T06:33:22.000+00:00",
@@ -544,28 +566,6 @@
     "createdAt": "2026-08-14T02:30:02.000+00:00",
     "link": "https://news.hada.io/topic?id=32491",
     "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: commentube - 유튜브 댓글을 게임으로 즐겨보세요",
-    "content": "<p>유튜브 댓글을 게임으로 간단히 즐겨보면 어떨까 싶어서 만들어 봤습니다<br>\n'더 많이 더 적게' 컨텐츠에서 영감을 받아 시작된 프로젝트입니다</p>\n<p>좋아하는 유튜브 영상 링크를 넣으면 댓글을 활용한 게임을 시작할 수 있습니다<br>\n시작 즉시 댓글을 추출하여 게임 진행에 사용됩니다<br>\n현재 게임은 총</p>",
-    "createdAt": "2026-08-14T01:28:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=32489",
-    "author": "hshim",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "State of CSS 2026",
-    "content": "<ul>\n<li>4,902명이 참여한 2026년 조사에서 CSS는 새 기능이 빠르게 늘어나는 가운데 <strong>Anchor Positioning이 올해 가장 주목받은 기능</strong>으로 올라섰으며, 사용률도 전년 대비 15% 증가해 조사 대상 기능 중 가장 큰 상승폭을 기록함</li>\n<li>이미 자리 잡은 기능에서는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:has()</code> 사용...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-14T01:00:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=32486",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
