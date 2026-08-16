@@ -1,5 +1,16 @@
 [
   {
+    "title": "감염 진드기를 15분 만에 확인하는 첫 가정용 라임병 검사",
+    "content": "<ul>\n<li>미국에서 매년 <strong>3,100만 명 이상</strong>이 진드기에 물리는 가운데, LymeAlert는 진드기 속 라임병 원인균을 약 15분 만에 확인해 초기 치료 판단을 돕는 첫 가정용 선별 도구임</li>\n<li>진드기를 분쇄한 뒤 <strong>면역크로마토그래피 시험지</strong>로 <em>Borrelia burgdorferi</em>를 검출하며...<p></p></li></ul>",
+    "createdAt": "2026-08-16T06:33:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=32547",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "celld - 셀프호스팅 가능한 분산 Durable Objects",
     "content": "<ul>\n<li>Deno가 공개한 오픈소스 런타임으로, <strong>Cloudflare Workers와 Durable Objects 모델을 자신의 서버에서 실행</strong>할 수 있게 함</li>\n<li><strong>Cloudflare용 코드를 비교적 적은 변경으로 셀프호스팅</strong>하는 것이 목표: 기존 Wrangler 프로젝트의 Module Worker, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">fetch</code>, Servi...<p></p></li></ul>",
     "createdAt": "2026-08-16T00:30:02.000+00:00",
@@ -555,17 +566,6 @@
     "createdAt": "2026-08-14T01:00:04.000+00:00",
     "link": "https://news.hada.io/topic?id=32486",
     "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Wails v3 Beta - Go 데스크톱 앱을 위한 새로운 기반",
-    "content": "<ul>\n<li>초기엔 <strong>Go 백엔드 + HTML/CSS/JS·React·Vue 프론트엔드</strong>로 맥/윈/리눅스용 단일 바이너리 앱을 만드는 가벼운 Electron 대체제였음</li>\n<li>이후 v2를 거쳐 이번 <strong>v3 Beta</strong>에서는 단순 GUI 래퍼보다 복잡한 데스크톱 앱을 만들기 위한 애플리케이션 구조 자체를 크게 재설계...<p></p></li></ul>",
-    "createdAt": "2026-08-14T00:45:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32485",
-    "author": "xguru",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
