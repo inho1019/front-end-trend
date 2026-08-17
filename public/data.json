@@ -1,9 +1,141 @@
 [
   {
-    "title": "eigendrum",
-    "content": "<p>eigendrum</p>\n",
-    "createdAt": "2026-08-16T17:49:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=32559",
+    "title": "Rust와 PostgreSQL로 확장 가능한 백엔드 서비스 구축하기",
+    "content": "<ul>\n<li>Rust는 Go보다 백엔드 개발 생산성이 낮을 수 있지만, <strong>강한 타입 시스템/컴파일러가 보장하는 정확성</strong>과 zero-cost abstraction 덕분에 10K+ LOC/약 100개 엔드포인트 규모에서 비즈니스 로직 버그를 줄이거나 높은 성능이 필요한 서비스에 적합함</li>\n<li>HTTP 스택은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tokio</code> →...<p></p></li></ul>",
+    "createdAt": "2026-08-17T00:54:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32571",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2026년 Stripe에서 Staff Engineer로 일한다는 것",
+    "content": "<ul>\n<li>Stripe에서 Staff Engineer 역할은 AI로 편해진 것보다 <strong>AI를 활용해 더 큰 영향력을 내야 한다는 기대가 높아진 것</strong>에 가까움. 최신 Anthropic/OpenAI 모델과 사내 코딩 도구를 빠르게 제공하며, Staff에게는 이를 활용하지 못할 변명이 점점 줄어든다고 느낌</li>\n<li>이제 Staff가 여러 대형...<p></p></li></ul>",
+    "createdAt": "2026-08-17T00:45:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32570",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "플랫폼 엔지니어링은 여전히 중요함",
+    "content": "<ul>\n<li>Agentic Coding으로 코드 작성 비용이 크게 낮아졌어도 <strong>재사용의 경제성까지 사라진 것은 아님</strong>. 매번 전체 스택을 새로 생성하는 것보다 이미 잘 만들어진 하위 플랫폼을 활용해 필요한 부분만 만드는 편이 여전히 저렴함</li>\n<li>\"코드 작성 비용이 0으로 간다\"는 표현은 과장되어...<p></p></li></ul>",
+    "createdAt": "2026-08-17T00:31:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32569",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 프로그레시브 이미지 렌더링의 현재와 잠재적 미래",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!F258!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!F258!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!F258!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!F258!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!F258!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!F258!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!F258!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!F258!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!F258!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!F258!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e6b0d13-730c-4fa2-8b45-4b899cadfd04_1536x1024.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://devowen.com/544\" target=\"_blank\" rel=\"noopener noreferrer\">https://devowen.com/544</a></p></blockquote><h2><strong>소개</strong></h2><p>이 글은 JPEG, PNG, WebP, AVIF, JPEG XL 등 주요 이미지 형식이 <strong>다운로드 도중 이미지를 점진적으로 표시하는 방식</strong>을 비교합니다.</p><p>현재는 프로그레시브 JPEG가 비교적 안정적이지만, WebP·AVIF·JPEG XL은 브라우저별 지원 차이와 디코딩 성능 등의 한계가 있습니다. </p><p>다만 최신 이미지의 파일 크기가 이미 충분히 작고 네트워크 데이터도 끊어져 도착할 수 있어, 프로그레시브 렌더링의 실제 효과는 제한적일 수 있다고 설명합니다.</p><p>향후에는 AVIF 파일 앞부분에 작고 흐릿한 미리보기 이미지를 넣어 빠르게 보여주는 방식이 현실적인 개선안으로 제안됩니다</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>Q. JPEG, WebP, AVIF 등 다양한 이미지 포맷이 있는데, 실무에서 이미지 포맷을 선택할 때 어떤 기준으로 결정하시나요? 혹은 프로그레시브 렌더링처럼 사용자 경험을 개선하기 위해 이미지 최적화에 신경 써본 경험이 있으시면 공유해 주세요!</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>이전에는 브라우저 지원 범위를 확인하고서 용량이 작은 WebP나 AVIF 확장자의 이미지를 주로 쓰는 편이었는데, 지금은 이미지/아이콘과 같은 리소스를 관리해주는 제품이 있어서 딱히 고민하지 않고 그대로 쓰는 편이었던 것 같아요! 최적화를 위해서는 이미지에 placeholder를 적용하거나 lazy loading을 적용해봤어요!</p><p><strong>💬. 의견 2</strong></p><p><span>대부분은 서버측에서 지원하는 스펙에 따르고, 제약이 없다면 png, WebP 를 주로 사용하고 있습니다.</span><br><span>최적화는 일반적으로 lazy loading을 적용했는데, 메신저 서비스의 경우 로딩이 적절한 타이밍에 되지 않거나 로딩 되면서 레이아웃 시프트가 크게 일어나면 사용자 경험이 크게 떨어지기 때문에 신경을 많이 썼던 기억이 나네요.</span><br><span>이외에 이미지 관련해서는 이미지 리사이즈나 APNG 애니메이션 제어 같은 작업을 종종 했었습니다.</span></p><h2><strong>목차</strong></h2><ul><li><p>브라우저의 프로그레시브 이미지 렌더링 현황</p></li><li><p>프로그레시브 렌더링이 정말 도움이 될까?</p></li><li><p>반응형 이미지 대신 프로그레시브 렌더링은 어떨까?</p></li></ul><p></p>",
+    "createdAt": "2026-08-17T00:30:43.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-d46",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "git-knife - Git 커밋 메타데이터를 표처럼 편집하는 데스크톱 GUI",
+    "content": "<ul>\n<li>Git 커밋의 <strong>메시지, 작성자/커미터 이름·이메일, 작성일/커밋일</strong>을 표 형태 GUI에서 직접 수정하는 도구</li>\n<li>GitKraken/Sublime Merge/Fork 같은 GUI는 reword/reorder는 잘 지원하지만 <strong>임의 커밋의 날짜나 committer 정보 변경</strong>은 제한적이며,<br>\n이를 지원하는 </li></ul>",
+    "createdAt": "2026-08-17T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=32568",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Flexible Authentication - 수백만 사용자를 위한 Airbnb의 인증 재설계",
+    "content": "<ul>\n<li>Airbnb는 여행 예약처럼 <strong>로그인 간격이 길고 사용 환경이 다양한 서비스</strong>에서 인증 실패가 예약과 매출 손실로 이어진다고 보고, 10년간 누적된 로그인 방식을 <strong>Flexible Authentication</strong>으로 재설계함</li>\n<li>핵심은 <strong>Identify first, then Challenge</strong>로, 사...<p></p></li></ul>",
+    "createdAt": "2026-08-17T00:15:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32567",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모든 빌어먹을 웹사이트",
+    "content": "<ul>\n<li>AI 생성 랜딩 페이지에 반복되는 <strong>획일적 디자인 관습</strong>을 한 화면에 모아 풍자함</li>\n<li>Instrument Serif, 무작위 이탤릭체, 과도한 <strong>긴 대시(em dash)</strong> 를 전형적인 요소로 꼽음</li>\n<li>아무 의미 없는 실시간 상태와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Three · Words · I guess</code> 같은 <strong>...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-17T00:06:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=32566",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "C 대체재를 만들고 있다고 생각했지만 틀렸다",
+    "content": "<ul>\n<li>C3의 목표는 오늘날 C가 쓰이는 영역만 대체하는 것이 아니라, C의 단순성과 성능에 현대적 편의성을 더해 <strong>범용 애플리케이션</strong>을 만드는 언어를 제공하는 데 있음</li>\n<li>1980~90년대에는 C와 Pascal이 애플리케이션 언어였지만, 오늘날 <strong>C 대체재</strong>는 주로 운영체제·임베디드...<p></p></li></ul>",
+    "createdAt": "2026-08-17T00:03:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=32565",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모델은 의도적으로 더 멍청해지고 있다",
+    "content": "<ul>\n<li>최근 소형/MoE 모델은 <strong>적은 활성 매개변수로도 수학·코딩 추론 성능을 높이는 대신, 세부 정보 회상 능력은 약해지는 모습</strong>을 보임</li>\n<li><strong>사실 지식(factual knowledge)</strong> 은 많은 모델 용량을 차지하고 빠르게 낡지만, 문제 분해·검산·되돌아가기 같은 추론 절차는 여러 문...<p></p></li></ul>",
+    "createdAt": "2026-08-16T22:36:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=32564",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tell HN: 네임서버를 전환하면 Cloudflare가 분석 코드를 몰래 삽입함",
+    "content": "<ul>\n<li>R2 버킷을 자체 서브도메인으로 제공하려고 네임서버를 Cloudflare로 전환한 뒤, JavaScript 없이 HTML만 사용하는 textlog.cc에 <strong>JavaScript 분석 스니펫</strong>이 삽입된 것을 발견함</li>\n<li>이를 끄려면 Analytics 대시보드에서 사이트를 분석 기능에 추가한 다음 스니펫을 비활성화해야 했음</li></ul>",
+    "createdAt": "2026-08-16T22:33:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=32563",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 크레딧 재판매 시장 - 토큰 브로커와 Relay는 어떻게 움직이나",
+    "content": "<ul>\n<li>OpenAI/Anthropic 같은 AI API를 공식 가격보다 싸게 제공하는 시장이 커지면서, <strong>남는 크레딧을 사고파는 Token Broker</strong>부터 수많은 계정과 API Key를 묶어 하나의 Endpoint로 제공하는 <strong>Relay</strong>까지 별도의 유통망이 형성되고 있음</li>\n<li>Token Broker 쪽은 스타트업의 미사...<p></p></li></ul>",
+    "createdAt": "2026-08-16T21:31:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=32562",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "제3세계 임베디드 엔지니어가 “RISC-V: 그들은 더 잘 알았어야 했다”에 답하다",
+    "content": "<ul>\n<li>Trinidad and Tobago에서는 1달러짜리 칩 배송에 <strong>60~200달러</strong>가 들 수 있어, RISC-V의 가치는 명령어 인코딩의 우아함보다 저렴한 하드웨어와 도구를 실제로 구할 수 있다는 데 있음</li>\n<li>Dmitry Grinberg는 값싼 마이크로컨트롤러에 작은 면적·높은 코드 밀도·낮은 인터럽트 지연이 필요하...<p></p></li></ul>",
+    "createdAt": "2026-08-16T20:33:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=32561",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "알츠하이머 증상을 되돌린다는 논란의 수술",
+    "content": "<ul>\n<li>목의 미세 림프관을 정맥에 연결하는 <strong>심부 경부 림프관-정맥 문합술(dcLVA)</strong> 이 일부 중증 알츠하이머 환자에게 빠른 호전을 보였지만, 질병의 진행 자체를 바꾸는지는 입증되지 않음</li>\n<li>뇌에서 나온 체액과 노폐물의 배출 경로를 개선해 <strong>amyloid-β와 tau</strong>를 제거한다는...<p></p></li></ul>",
+    "createdAt": "2026-08-16T18:32:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=32560",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -45,7 +177,7 @@
   },
   {
     "title": "iOS용 Firefox에 네이티브 광고 차단 기능 추가",
-    "content": "<p>iOS용 Firefox에 네이티브 광고 차단 기능 추가</p>\n",
+    "content": "<ul>\n<li>Firefox for iOS에 <strong>EasyList 기반 광고 차단 기능</strong>이 추가돼, 활성화하면 광고가 로드되기 전에 네트워크 수준에서 차단함</li>\n<li>서드파티 광고 네트워크/거래소, 광고 추적기, 웹사이트의 많은 서드파티 광고와 <strong>팝업·오버레이 같은 방해형 광고</strong>를 차단함</li>\n<li>기능은...<p></p></li></ul>",
     "createdAt": "2026-08-16T17:37:08.000+00:00",
     "link": "https://news.hada.io/topic?id=32555",
     "author": "neo",
@@ -56,7 +188,7 @@
   },
   {
     "title": "새로운 아이디어가 태어나는 마음의 상태를 기르는 법(2023)",
-    "content": "<ul>\n<li>위대한 아이디어는 처음에는 나쁜 아이디어처럼 보여 타인의 평가에 쉽게 사라지므로, 창작에는 물리적 고립보다 <strong>사회적 판단에서 벗어난 마음의 상태</strong>가 필요함</li>\n<li>Alexander Grothendieck은 17~20세에 기존 수학을 홀로 재발견하며 자신의 사고와 호기심을 추적하는 <strong>혼자일 수...<p></p></strong></li></ul>",
+    "content": "<ul>\n<li>위대한 아이디어는 초기에는 나쁜 아이디어처럼 보이는 경우가 많고 타인의 평가에 쉽게 사라지므로, 창작에는 <strong>물리적 고립보다 사회적 판단에서 벗어나 미성숙한 생각을 받아들일 수 있는 정신 상태</strong>가 필요함</li>\n<li>Alexander Grothendieck은 17~20세에 이미 알려진 수학을 혼자 재발견하...<p></p></li></ul>",
     "createdAt": "2026-08-16T16:44:28.000+00:00",
     "link": "https://news.hada.io/topic?id=32554",
     "author": "neo",
@@ -77,8 +209,8 @@
     }
   },
   {
-    "title": "소프트웨어 엔지니어링 기본기가 어느 때보다 중요해짐",
-    "content": "<ul>\n<li>에이전트 하네스와 모델은 소프트웨어를 구현하는 강력한 도구가 됐지만, 무엇을 어떻게 조합할지 결정하는 <strong>엔지니어링 판단력</strong>까지 대신하지는 못함</li>\n<li>프롬프트로 red/green TDD를 요구하면 작동하고 테스트 가능한 코드를 얻을 수 있으나, <strong>인터페이스와 결합부</strong>를 설...<p></p></li></ul>",
+    "title": "소프트웨어 엔지니어링의 기본 원칙이 어느 때보다 중요해짐",
+    "content": "<ul>\n<li>에이전트 하네스와 모델은 지난 1년 사이 <strong>“이걸 구현할 수 있는가”라는 문턱을 크게 낮췄지만</strong>, 구현 가능성은 소프트웨어 엔지니어링의 시작일 뿐임</li>\n<li>TDD와 결정론적 검증 도구를 붙이면 작동하고 테스트 가능한 코드까지 빠르게 만들 수 있지만, <strong>API와 모듈의 경계를 어떻...<p></p></strong></li></ul>",
     "createdAt": "2026-08-16T16:38:28.000+00:00",
     "link": "https://news.hada.io/topic?id=32552",
     "author": "neo",
@@ -456,127 +588,6 @@
     "createdAt": "2026-08-15T00:25:02.000+00:00",
     "link": "https://news.hada.io/topic?id=32514",
     "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "호주의 가정용 배터리 확산이 도매 전력 가격 인하에 기여",
-    "content": "<ul>\n<li>남는 태양광 전력을 저장하도록 가정용 배터리를 지원한 결과, 1년여 만에 <strong>50만 대 이상</strong>이 설치되고 도매 전력 가격도 약 절반 낮아짐</li>\n<li>2025년 7월 시작된 <strong>가정용 배터리 보조금</strong>은 태양광 설비에 연결된 주거용 배터리 시스템 가격을 30% 할인함</li>\n<li>가구 3곳 ...<p></p></li></ul>",
-    "createdAt": "2026-08-14T20:32:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=32513",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Count Binface, Clacton 보궐선거에서 4분의 1 넘게 득표",
-    "content": "<ul>\n<li>쓰레기통 복장의 풍자 후보 <strong>Count Binface</strong>가 Clacton 보궐선거에서 9,455표(26.9%)를 얻어 역대 최고 성적인 2위에 오름</li>\n<li>사임 후 다시 출마해 주요 정당들의 집단 보이콧을 촉발한 Reform UK 대표 <strong>Nigel Farage</strong>는 22,239표(63.3%)로 의석을 되찾음</li>\n<li>코미디...<p></p></li></ul>",
-    "createdAt": "2026-08-14T19:32:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=32511",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Qwen 3.8 27B",
-    "content": "<ul>\n<li><strong>Qwen3.8-27B-FP8</strong>은 이미지·영상 이해와 장기 에이전트 작업을 지원하는 270억 파라미터 밀집형 모델로, 원본과 성능 지표가 거의 같은 세밀한 FP8 양자화 가중치를 제공함</li>\n<li>기본 활성화된 <strong>사고 모드</strong>는 요청별로 끌 수 있으며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">reasoning_effort</code>로 추론...<p></p></li></ul>",
-    "createdAt": "2026-08-14T18:33:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=32510",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "1910년의 『프린키피아 마테마티카』가 현대적으로 읽히는 이유",
-    "content": "<ul>\n<li>1910년에 출간된 <em>Principia Mathematica</em>는 <strong>참조 투명성</strong>과 타입, 자유·바인딩 변수, 치환, 스코프 등 현대 프로그래밍 언어의 핵심 개념을 이미 다룸</li>\n<li>명제 함수와 겉보기 변수(apparent variable)는 각각 <strong>람다 항과 바인딩 변수</strong>에 대응하며, 알파 동등성과...<p></p></li></ul>",
-    "createdAt": "2026-08-14T17:36:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32509",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "넓게 만들고, 좁게 배포하라",
-    "content": "<ul>\n<li>기존 개발 방식은 구현 전에 RFC를 쓰고 작업을 작은 이슈와 PR로 나눴지만, 이는 <strong>가장 정보가 부족한 시점에 구조적 경계까지 미리 결정</strong>해야 한다는 문제가 있음</li>\n<li>AI가 구현과 설계뿐 아니라 완성된 작업을 여러 PR로 다시 나누는 비용까지 낮추면서, 이제는 <strong>무엇을 만들지는...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-14T16:36:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=32507",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "안녕, 나. 오랜만이야",
-    "content": "<ul>\n<li>14년 만에 블로그로 돌아오며 돌아본 가장 큰 변화는, 어느새 <strong>모든 조용한 순간을 팟캐스트/오디오북/소셜 미디어로 채우는 습관</strong>이 생겼다는 것임</li>\n<li>운동하거나 요리하고 청소할 때조차 무언가를 틀다 보니, 예전에는 자연스럽게 하던 <strong>혼자 생각하고 자신과 대화하는 시간</strong></li></ul>",
-    "createdAt": "2026-08-14T16:36:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=32506",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 모델 고르기: 같은 프롬프트, 11개 모델, 매우 다른 결과",
-    "content": "<ul>\n<li>Netlify가 같은 커피숍 웹사이트 프롬프트를 <strong>11개 AI 모델에 각각 3번씩 실행</strong>해 보니, 결과물의 디자인/콘텐츠뿐 아니라 소비 크레딧까지 큰 차이를 보였으며 비용이 높다고 결과가 그만큼 좋아지는 것은 아니었음</li>\n<li>Claude Opus 5는 가장 풍부하고 세련된 결과를 만들었지만 한 실행에...<p></p></li></ul>",
-    "createdAt": "2026-08-14T16:34:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32505",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "모든 빌어먹을 웹사이트 (2020)",
-    "content": "<ul>\n<li>현대 웹사이트에 반복해서 등장하는 <strong>팝업과 안내창</strong>을 한 페이지에 모아 획일적인 사용자 경험을 풍자함</li>\n<li>페이지 상단에는 사용자가 읽지 않을 것이라고 전제한 <strong>COVID-19 안내문</strong>이 자리함</li>\n<li>가입 팝업은 쿠폰 코드 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">10PERCENTOFF</code>를 내세워 </li></ul>",
-    "createdAt": "2026-08-14T16:33:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=32504",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Flutter 3.47 - Material/Cupertino UI 분리와 데스크톱 Impeller 기본화",
-    "content": "<ul>\n<li>Flutter 3.47은 새 위젯 추가보다 <strong>Material/Cupertino 디자인 시스템의 SDK 분리</strong>와 <strong>데스크톱 Impeller 기본화</strong>처럼 구조와 기본값을 바꾸는 변화가 중심임</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">material_ui</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cupertino_ui</code>가 독립 패키지 1.0으로 출시돼 Flutter SDK 전체를 ...<p></p></li></ul>",
-    "createdAt": "2026-08-14T16:31:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=32503",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Opus 5는 왜 함께 작업하기 더 불편하게 느껴지는가?",
-    "content": "<ul>\n<li>Opus 5는 Opus 4.7·4.8보다 역량이 뛰어나고 벤치마크에서 Fable과 경쟁하지만, 실제 작업에서는 <strong>더 세밀한 감독</strong>이 필요해 이전 모델보다 불편하게 느껴짐</li>\n<li>Opus 4.7·4.8과 Fable은 의도가 불분명하면 질문하고 계획을 임의로 재해석하지 않지만, Opus 5는 이러한 <strong>확인 절차...<p></p></strong></li></ul>",
-    "createdAt": "2026-08-14T15:32:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=32502",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Nine PBS, 기록 데이터 접근을 차단한 Iron Mountain 제소",
-    "content": "<ul>\n<li>St. Louis의 <strong>Nine PBS</strong>는 Denver 데이터센터에 보관된 <strong>50TB 이상의 자료</strong>를 돌려받기 위해 7월 28일 Iron Mountain Data Centers를 제소함</li>\n<li>클라우드 저장업체 <strong>Open Source Storage(OSS)</strong> 가 3월 6일 예고 없이 접근을 차단한 뒤 사실상 운영을 중단했...<p></p></li></ul>",
-    "createdAt": "2026-08-14T13:38:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=32500",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -2120,17 +2131,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "[Korean FE Article] 포스트모템: TanStack npm 공급망 침해 사고",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Qj4g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Qj4g!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Qj4g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg\" data-attrs=\"{\" alt=\"post-thumbnail\" title=\"post-thumbnail\" srcset=\"https://substackcdn.com/image/fetch/$s_!Qj4g!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Qj4g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80e4595f-0e2d-4fa1-8651-2d0afb9af8cc_1616x654.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://velog.io/@surim014/npm-supply-chain-compromise-postmortem\" target=\"_blank\" rel=\"noopener noreferrer\">https://velog.io/@surim014/npm-supply-chain-compromise-postmortem</a></p></blockquote><p></p><h2><strong>소개</strong></h2><p>요즘 AI로 개발하면서 추천받은 패키지를 설치하거나 자동으로 생성된 워크플로우를 그대로 돌리는 일이 부쩍 많아졌는데요, 그만큼 공급망을 노린 보안 사고 소식도 자주 들려오는 것 같습니다.</p><p>이 글은 지난 달에 발생한 TanStack의 npm 패키지 42개가 한꺼번에 악성 코드로 게시됐던 사고를 TanStack 팀이 직접 정리한 포스트모템입니다. pull_request_target 패턴, GitHub Actions 캐시 포이즈닝, 러너 메모리에서의 OIDC 토큰 추출이라는 세 가지 취약점이 어떻게 연쇄적으로 엮여 패키지 게시 권한까지 넘어갔는지를 타임라인과 함께 구체적으로 보여줍니다.</p><p>특히 공격자가 위조한 커밋 신원이 하필 claude였고, 사용된 기법들도 새로 만든 게 아니라 이미 공개된 연구를 재조합한 것이었다는 점이 인상적이었는데요. AI 시대에 공격이 얼마나 쉽게 조합되고 빨라질 수 있는지 실감하게 되었던 것 같습니다.</p><p>특정 라이브러리만의 문제가 아니라 누구에게나 일어날 수 있는 일이라, 사고가 실제로 어떻게 벌어지는지 알아두고 싶은 분들에게 추천드립니다!</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>Q1. Tanstack도 보안 이슈를 제3자를 통해 처음 알게 되다니 신기하네요..!<br>요새 하도 보안이슈가 많이 터져서 그런지 보안에 대한 민감도가 낮아지는 것 같아요 😵‍💫</p><p>다들 이런 보안 이슈로부터 레포를 어떻게 관리하시는지 궁금합니다!</p></blockquote><p></p><p><strong>💬. 의견 1</strong></p><p>저희도 외부적으로 의존해서 사용하는 라이브러리에 보안 이슈가 생기면 누군가가 해당 소식을 공유해 줘서 알게 되고, 그 때 맞춰서 대응하는 식으로 관리합니다. 그리고 저희 쪽에서 시스템적으로 기본적인 보안 정책들 (e.g. 민감한 값을 github에 올리면 안된다라든지) 을 탐지하고 있어서 예전에 한 번 웹훅 URL을 그대로 git에 올렸는데 보안팀에서 바로 지라 티켓과 함께 수정 요청 메일이 온 적이 있어서 놀랐던 기억이 있습니다.</p><p></p><p><strong>💬. 의견 2</strong></p><p>레포 내에서는 dependabot이나 snyk, sonarqube 등을 CI/CD에 연동해서 보안 취약점 등을 탐지하는 편인 것 같고, 레포 외적으로는 사내 오픈 소스팀에 검수를 요청하거나, 좀 볼륨이 큰 기능의 경우 보안팀에 설계 검토 &amp; 코드 검토를 함께 요청하고 있습니다!</p><p></p><h2><strong>목차</strong></h2><ul><li><p>TL;DR</p></li><li><p>영향</p></li><li><p>타임라인</p></li><li><p>근본 원인</p></li><li><p>감지</p></li><li><p>배운 점</p></li><li><p>미해결 질문</p></li><li><p>참고 자료</p></li><li><p>부록 A - 영향받은 버전</p></li></ul><p></p>",
-    "createdAt": "2026-06-05T00:30:55.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-tanstack-npm",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
