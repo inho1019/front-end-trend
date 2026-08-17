@@ -1,5 +1,49 @@
 [
   {
+    "title": "Qwen 3.8 27B는 뛰어나지만 기본 설정에서 지나치게 오래 추론함",
+    "content": "<ul>\n<li>Alibaba Qwen 연구소의 <strong>Qwen 3.8 27B</strong>는 Apache 2 라이선스와 비전 기능, 262,144토큰 문맥을 갖췄으며, 17GB 양자화 파일로 노트북에서 코드 작성·도구 호출·이미지 분석을 수행함</li>\n<li>기본 추론 강도인 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">xhigh</code></strong> 는 단순 요청에도 과도하게 작동해, 자전거를...<p></p></li></ul>",
+    "createdAt": "2026-08-17T05:33:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=32578",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Stripe, 10.5조원 이상에 AI 기업 OpenRouter 인수",
+    "content": "<ul>\n<li>결제 처리 기업 Stripe가 <strong>AI 모델 전환 플랫폼</strong> OpenRouter를 70억 달러($7b) 이상에 인수하기로 최종 합의함</li>\n<li>OpenRouter는 수백 개의 AI 모델에 대한 접근을 제공해 개발자가 <strong>효율성과 비용</strong>에 맞춰 모델을 선택하도록 지원함</li>\n<li>이번 계약은 OpenRouter가 </li></ul>",
+    "createdAt": "2026-08-17T02:31:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=32575",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인재 밀도가 높은 팀을 만드는 법 - Cursor 인재 총괄 Adam Ward [유튜브]",
+    "content": "<ul>\n<li>전통적인 <strong>‘파멸의 퍼널(Funnel of Doom)’</strong> 은 많은 사람에게 연락한 뒤 응답한 사람을 <strong>단계별로 탈락</strong>시키는 구조라, 처음부터 최고의 후보자를 찾는 것이 아니라 우연히 연락에 응한 집단에서 <strong>마지막까지 남은 사람</strong>을 채용하게 됨</li>\n<li>대안은 모든 채...<p></p></li></ul>",
+    "createdAt": "2026-08-17T01:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=32573",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "프로덕트 매니저 역할의 새로운 정의",
+    "content": "<ul>\n<li>AI로 누구나 앱을 만들고 업무를 자동화할 수 있게 되어도 <strong>대부분의 사람과 기업은 도구를 만드는 방식으로 생각하지 않으며</strong>, 직접 만들려고 시도하거나 성공할 가능성도 높지 않음</li>\n<li>강한 프로덕트 매니저는 눈앞의 불편이나 아이디어에서 <strong>더 일반적이고 해결할 가치가 있는 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-17T01:23:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=32572",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Rust와 PostgreSQL로 확장 가능한 백엔드 서비스 구축하기",
     "content": "<ul>\n<li>Rust는 Go보다 백엔드 개발 생산성이 낮을 수 있지만, <strong>강한 타입 시스템/컴파일러가 보장하는 정확성</strong>과 zero-cost abstraction 덕분에 10K+ LOC/약 100개 엔드포인트 규모에서 비즈니스 로직 버그를 줄이거나 높은 성능이 필요한 서비스에 적합함</li>\n<li>HTTP 스택은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tokio</code> →...<p></p></li></ul>",
     "createdAt": "2026-08-17T00:54:01.000+00:00",
@@ -543,50 +587,6 @@
     "content": "<ul>\n<li>AI 텍스트 워터마크는 문자나 메타데이터가 아니라 다음 단어를 고르는 <strong>확률적 선택</strong>에 비밀 패턴을 심으며, Google은 2024년부터 Gemini 앱·웹에 적용했고 Claude 신형 모델도 2026년 8월부터 모델 수준에서 적용함</li>\n<li>비밀 키로 문맥마다 후보 단어를 임의로 구분한 뒤 특정 후보의 선...<p></p></li></ul>",
     "createdAt": "2026-08-15T00:43:26.000+00:00",
     "link": "https://news.hada.io/topic?id=32518",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아직 이해하지 못한 것에 대해 블로그를 써라",
-    "content": "<ul>\n<li>머릿속으로만 생각할 때는 이해했다고 착각하기 쉽지만, 실제 문장으로 옮기면 \"이게 정말 맞나?\"라는 빈틈이 드러남. <strong>글쓰기는 자신의 이해도를 검증하고 더 조사하게 만드는 방법</strong>이 됨</li>\n<li>게시하는 글마다 적어도 두 가지를 배우게 됨. 글을 쓰게 만든 최초의 발견과 집필하...<p></p></li></ul>",
-    "createdAt": "2026-08-15T00:40:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=32517",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "hubble.md - 사람과 에이전트를 위한 노트패드",
-    "content": "<ul>\n<li>Markdown과 HTML을 기반으로 하는 무료 오픈소스 <strong>노트 앱</strong>으로, 사람과 에이전트가 함께 사용하도록 설계</li>\n<li><strong>Notion/Apple Notes</strong>와 비슷한 작성 경험 제공, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/</code> 명령어/Markdown 단축키/프로퍼티/frontmatter 지원</li>\n<li><strong>에이전트 연동</strong>...<p></p></li></ul>",
-    "createdAt": "2026-08-15T00:36:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32516",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "uBlock Origin을 지원하는 마지막 메이저 브라우저, Firefox",
-    "content": "<ul>\n<li>Chromium 계열 브라우저가 <strong>Manifest V2 확장 기능을 단계적으로 퇴출</strong>하는 가운데 Firefox는 uBlock Origin 지원을 유지함</li>\n<li>Edge가 <strong>Manifest V3</strong>로 전환하면 광고 차단 확장 기능이 광고 식별·차단에 필요한 기능에 접근하지 못하게 됨</li>\n<li>Google이 Chrome/Chro...<p></p></li></ul>",
-    "createdAt": "2026-08-15T00:31:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=32515",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Qwen3.8-27B, 17~19GB 메모리에서 4-bit 로컬 실행 가능",
-    "content": "<ul>\n<li>Qwen3.8 Max에 이어, 개인 장비에서 돌릴 수 있는 <strong>27B 모델</strong>도 <strong>Unsloth GGUF/NVFP4</strong>로 공개돼 로컬에서 바로 실행 가능</li>\n<li>27B 밀집형(dense) 모델이면서 <strong>비전, 추론, 256K 컨텍스트</strong>를 지원하고, YaRN을 사용하면 컨텍스트를 1M까지 확장 가능</li>\n</ul>",
-    "createdAt": "2026-08-15T00:25:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32514",
     "author": "xguru",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
