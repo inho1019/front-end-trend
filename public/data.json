@@ -1,5 +1,49 @@
 [
   {
+    "title": "로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유",
+    "content": "<ul>\n<li>같은 모델 가중치라도 <strong>GPU 명령어·추론 소프트웨어·정밀도 설정</strong>이 다르면 다음 토큰 확률이 달라지고, 긴 문맥에서는 도구 호출 실패로 이어질 수 있음</li>\n<li>Qwen3.6-27B와 약 10만 토큰의 실제 에이전트 작업 문맥을 실험한 결과, vLLM의 <strong>어텐션 백엔드</strong> 차이는 후반부부...<p></p></li></ul>",
+    "createdAt": "2026-08-23T05:33:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=32791",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: CachyOS 와 Omarchy 의 혼종을 만들고 있습니다.",
+    "content": "<p>게이밍 피씨, 짭팀머신으로 쓰려고 구입한 미니 피씨에 게이밍 os를 표방하는 CachyOS 를 설치해서<br>\n가끔 스팀 열어서 사 놓은 게임이 잘 돌아가는지 확인하는 용도로 쓰던 차에<br>\n타일링 윈도우 매니저인 Hyprland가 쓰고 싶어서 기본 설정으로 쓰다 한껏 튜닝 된 Omarchy 까지 욕심이 생겼습니다.</p>\n<p></p>",
+    "createdAt": "2026-08-23T02:41:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=32789",
+    "author": "stadia",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Munder Difflin - 나를 복제한 직원들로 사무실을 운영하는 에이전트 하네스",
+    "content": "<ul>\n<li><strong>Munder Difflin</strong>은 기존 에이전트 CLI와 구독을 활용해 사용자의 업무 방식·도구·지식을 공유하는 여러 복제 에이전트를 로컬 컴퓨터에서 실행하는 무료 오픈소스 하네스임</li>\n<li>Claude Code, Codex, Copilot 등 <strong>12개 에이전트 CLI</strong>를 감싸며, 에이전트들이 기억과 맥락을...<p></p></li></ul>",
+    "createdAt": "2026-08-23T02:32:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=32788",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 일섬 — 일봉 거가중100 밀착·돌파 코인 스크리너",
+    "content": "<p>일봉 거래량가중이동평균(거가중100)에 붙다가 위로 닫는 코인을 매일 훑는 웹 스크리너입니다.<br>\n업비트와 바이낸스 공개 일봉만 씁니다.</p>\n<ul>\n<li>밀착 / 돌파 / 시도 / 접근 분류</li>\n<li>손절은 선 아래, 1·2차 익절은 매물·박스·R 배수</li>\n<li>지표·손익비를 합친 ‘오늘 매수 후보’와 추천 진입 구</li></ul>",
+    "createdAt": "2026-08-23T01:24:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=32787",
+    "author": "gogodeer",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "고철",
     "content": "<ul>\n<li>2006년 무렵, 수도와 난방도 작동하지 않는 <strong>Pittsburgh의 낡은 집</strong>을 한겨울에 수리하며 겪은 고철 수집상들과의 소동</li>\n<li>뒤뜰에 둔 무거운 주철 욕조가 24시간도 안 돼 사라지면서, 생활용품보다 <strong>원재료 금속을 노리는 수집 문화</strong>를 알게 됨</li>\n<li>이후 Ron과 Wade에...<p></p></li></ul>",
     "createdAt": "2026-08-23T00:32:17.000+00:00",
@@ -521,50 +565,6 @@
     "content": "<ul>\n<li><strong>Huzzah</strong>는 장문의 채팅 명령 대신, 개발자 의도를 담은 선언형 의사코드를 지속적으로 저장하고 실제 코드로 변환하는 실험적 편집기임</li>\n<li>기존 코딩 에이전트는 프롬프트가 쉽게 폐기되고 변경 절차를 반복해서 서술해야 해, <strong>인간 의도의 기록</strong>이 사라지고 토큰 사용도...<p></p></li></ul>",
     "createdAt": "2026-08-21T14:32:08.000+00:00",
     "link": "https://news.hada.io/topic?id=32735",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Linux 7.2 정식 출시",
-    "content": "<ul>\n<li>정규 일정에 맞춰 출시된 Linux 7.2는 6.7에 이어 역대 두 번째로 변경량이 많은 개발 주기로, <strong>CPU·GPU 스케줄링</strong>과 메모리 관리를 폭넓게 개선함</li>\n<li><strong>캐시 인식 스케줄링</strong>과 MGLRU 개선, sched_ext 하위 스케줄러, 여러 크기의 투명 거대 페이지 자동 생성이 포함됨</li></ul>",
-    "createdAt": "2026-08-21T14:26:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=32734",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Pixel 11 Pro Fold, 한 시대의 끝처럼 느껴지는 폴더블",
-    "content": "<ul>\n<li>경쟁사들이 더 얇고 넓은 폼팩터로 전환하는 가운데, <strong>Pixel 11 Pro Fold</strong>는 IP68·삼중 후면 카메라·Qi2 충전·탄탄한 소프트웨어를 갖추고도 두껍고 정사각형에 가까운 기존 설계를 유지함</li>\n<li>전작보다 $100 오른 <strong>$1,899</strong>에 Tensor G6, 최대 3,600니트 OLED, 더 큰 48MP ...<p></p></li></ul>",
-    "createdAt": "2026-08-21T14:24:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32733",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 오늘도 무료인 AI – 무료 조건까지 확인한 한국어 AI 도구 500개 탐색 서비스",
-    "content": "<p>AI 도구를 찾다 보면 ‘무료’라는 표시가 실제로는 서로 다른 의미인 경우가 많았습니다.</p>\n<p>7일 체험일 수도 있고, 가입 시 제공되는 일회성 크레딧일 수도 있고,<br>\n매월 다시 제공되는 무료 사용량이나 로컬 실행 방식일 수도 있습니다.</p>\n<p>결국 새로운 AI를 발견할 때마다 공식 가격 페이지를 다시 찾</p>",
-    "createdAt": "2026-08-21T13:54:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=32732",
-    "author": "eps159",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "턴(turn)은 라디안보다 낫다 (2022)",
-    "content": "<ul>\n<li>각도를 <strong>턴(turn)</strong> 으로 표현하면 한 바퀴를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">[0, 1]</code>로 다룰 수 있어, 삼각 함수 호출 전 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pi</code>나 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tau</code>를 곱하고 라이브러리 내부에서 다시 나누는 변환을 없앨 수 있음</li>\n<li>일반적인 고속 삼각 함수는 라디안 입력에 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">4/pi</code> 같은 상수를 곱...<p></p></li></ul>",
-    "createdAt": "2026-08-21T13:37:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=32731",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
