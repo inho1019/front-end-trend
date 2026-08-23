@@ -1,7 +1,62 @@
 [
   {
+    "title": "더 나은 작가가 되려면 가능한 한 많이 읽어라",
+    "content": "<ul>\n<li>작가마다 창작 방식은 달라 <strong>보편적인 집필 공식</strong>은 없지만, 폭넓고 꾸준한 독서는 모든 작가에게 통하는 원칙임</li>\n<li>좋은 책뿐 아니라 평범하거나 나쁜 책도 장르·인물·구조·문체를 익히게 하며, 기존 작가를 모방하는 과정은 자신만의 <strong>목소리</strong>를 만드는 데 도움을 줌...<p></p></li></ul>",
+    "createdAt": "2026-08-23T12:32:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=32797",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "NetBSD와 내 삶(2005)",
+    "content": "<ul>\n<li>영국의 한 대기업이 <strong>NetBSD 2.0.2 서버 29대</strong>로 원격 사용자를 포함한 4,800명 이상을 지원하면서, 잦은 장애와 호출 근무에 시달리던 관리자의 개인 생활도 개선됨</li>\n<li>반복되는 Windows 서버 장애를 계기로 MySQL·HTTP 서버 2대에서 NetBSD를 시험했고, Windows 서버가 재부팅되는 동안...<p></p></li></ul>",
+    "createdAt": "2026-08-23T12:01:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=32796",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Racket 친절한 입문",
+    "content": "<ul>\n<li><strong>Racket</strong>은 Lisp와 Scheme의 계보를 잇는 언어로, 코드와 데이터를 같은 구조로 다루며 문제에 맞는 언어와 문법까지 만들 수 있음</li>\n<li>모든 코드는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">(연산자 인수...)</code> 형태의 <strong>표현식</strong>이며, 별도의 연산자 우선순위 없이 괄호가 프로그램 구조 전체를 나타냄...<p></p></li></ul>",
+    "createdAt": "2026-08-23T08:32:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=32795",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "프론트엔드 상태 관리의 네 가지 난제",
+    "content": "<ul>\n<li>프론트엔드 생태계에는 다양한 상태관리 도구들이 존재하지만 아직 제대로 조명받지 못하는 난제들이 있음\n<ol>\n<li><strong>상태의 공유 범위를 바꾸기 어려움</strong>\n<ul>\n<li>우리는 흔히 지역 상태와 전역 상태만을 이야기 해왔지만,<br>\n사실 그 두가지 개념만으로는 깔끔하게 분류되지 않는 상태들이...<p></p></li></ul></li></ol></li></ul>",
+    "createdAt": "2026-08-23T08:00:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=32794",
+    "author": "disjukr",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "기억해 둘 만한 작은 네이티브 웹 기법",
+    "content": "<ul>\n<li>별도 라이브러리 없이 브라우저가 이미 제공하는 <strong>HTML/CSS/JS만으로 UI와 상호작용을 네이티브하게 구현하는 법</strong>을 정리한 레퍼런스 사이트</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:has()</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@scope</code>, Container Query처럼 컴포넌트 구조를 단순하게 만드는 CSS부터 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">dialog</code>, Popover, ...<p></p></li></ul>",
+    "createdAt": "2026-08-23T07:31:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=32793",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "로컬 LLM이 실제 성능보다 더 멍청하게 느껴지는 이유",
-    "content": "<ul>\n<li>같은 모델 가중치라도 <strong>GPU 명령어·추론 소프트웨어·정밀도 설정</strong>이 다르면 다음 토큰 확률이 달라지고, 긴 문맥에서는 도구 호출 실패로 이어질 수 있음</li>\n<li>Qwen3.6-27B와 약 10만 토큰의 실제 에이전트 작업 문맥을 실험한 결과, vLLM의 <strong>어텐션 백엔드</strong> 차이는 후반부부...<p></p></li></ul>",
+    "content": "<ul>\n<li>같은 모델이라도 <strong>GPU·추론 엔진·어텐션 구현·양자화 방식</strong>이 달라지면 계산 결과가 조금씩 달라지고, 긴 문맥에서는 그 차이가 실제 응답과 도구 호출 실패로 이어질 수 있음</li>\n<li>약 10만 토큰의 실제 에이전트 작업 문맥에서 Qwen3.6-27B를 비교한 결과, 어텐션 백엔드만 바꿔도 후반부에...<p></p></li></ul>",
     "createdAt": "2026-08-23T05:33:19.000+00:00",
     "link": "https://news.hada.io/topic?id=32791",
     "author": "neo",
@@ -510,61 +565,6 @@
     "content": "<ul>\n<li>자동 번호판 판독 카메라를 둘러싼 감시 논란이 커지는 가운데, 오하이오 대배심이 Cody Morelock을 <strong>기소하지 않기로 결정</strong>해 중범죄 기물 파손 혐의가 기각됨</li>\n<li>경찰은 Morelock이 6월 13일 Flock 카메라와 지지대·태양광 패널을 해체했다고 보고, 주변 영상과 <strong>신용카드·고객 ...<p></p></strong></li></ul>",
     "createdAt": "2026-08-21T16:41:35.000+00:00",
     "link": "https://news.hada.io/topic?id=32740",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Kagi, 검색 결과에서 유료벽 링크를 제외하는 설정 추가",
-    "content": "<ul>\n<li>2026년 8월 21일 Kagi Search에 <strong>유료벽 웹사이트 링크</strong>를 검색 결과에서 자동으로 제외하는 사용자 설정이 추가됨</li>\n<li>Stocks 위젯은 더 자주 노출되며 <strong>ETF 정보</strong>와 선택 기간의 가격 변동을 전체 흐름과 비교하는 애니메이션 차트를 지원함</li>\n<li>기본 Lens가 적용된...<p></p></li></ul>",
-    "createdAt": "2026-08-21T16:38:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=32739",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 기업이 실물 책을 파괴한다 — 너무 늦기 전에 희귀 도서를 스캔하자",
-    "content": "<ul>\n<li>여러 AI 기업이 2022년 이전의 <strong>기계가 건드리지 않은 학습 데이터</strong>를 얻으려 중고책 수백만 권을 매입해 스캔한 뒤 폐기하면서, 디지털 사본이 기업 서버에만 남을 수 있음</li>\n<li>Anthropic은 2024년 초 <strong>Project Panama</strong>를 비밀리에 시작해 수천만 달러로 종이책 수백만 권...<p></p></li></ul>",
-    "createdAt": "2026-08-21T15:32:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=32738",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인간의 판단은 소프트웨어 공장을 떠나지 않고 위치를 바꿈",
-    "content": "<ul>\n<li><strong>소프트웨어 공장</strong>이 코드 생성을 자동화해도 제품 의도·시스템 설계·품질 기준·최종 배포에는 인간의 판단과 책임이 필요함</li>\n<li>Claude Code나 Codex만으로 충분할 수 있지만, 작업을 <strong>이벤트 기반 큐</strong>로 반복 처리하고 에이전트 사이에 상태·맥락·증거를 안정적으로 넘겨...<p></p></li></ul>",
-    "createdAt": "2026-08-21T14:44:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=32737",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: AllThatConverter - 가입 없이 브라우저에서 바로 쓰는 파일 변환 및 웹 유틸리티 모음",
-    "content": "<p>안녕하세요.<br>\n평소 작업하면서 자주 필요한 다양한 변환 도구와 웹 유틸리티를 한곳에 모은 AllThatConverter를 만들어 공유합니다.</p>\n<ul>\n<li>서비스 링크: https://allthatconverter.web.app/ko/</li>\n</ul>\n<hr>\n<h4>1. 개발 배경</h4>\n<ul>\n<li>간단한 JSON 포맷팅, 이미지/텍스트 변환, 특수문자 검색</li></ul>",
-    "createdAt": "2026-08-21T14:34:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=32736",
-    "author": "kims172",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Huzzah - 의사코드로 AI 코딩을 제어하는 새로운 접근법",
-    "content": "<ul>\n<li><strong>Huzzah</strong>는 장문의 채팅 명령 대신, 개발자 의도를 담은 선언형 의사코드를 지속적으로 저장하고 실제 코드로 변환하는 실험적 편집기임</li>\n<li>기존 코딩 에이전트는 프롬프트가 쉽게 폐기되고 변경 절차를 반복해서 서술해야 해, <strong>인간 의도의 기록</strong>이 사라지고 토큰 사용도...<p></p></li></ul>",
-    "createdAt": "2026-08-21T14:32:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=32735",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
