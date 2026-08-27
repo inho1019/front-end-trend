@@ -1,5 +1,192 @@
 [
   {
+    "title": "CEO가 AI를 위한 자리를 만들려고 개발자를 해고하자, 개발자들이 오픈소스 AI CEO를 만들다",
+    "content": "<ul>\n<li><strong>Open Executive</strong>는 기업별 정보를 반영해 전략·재무·인사·법무·운영·마케팅·제품·이사회 업무를 지원하는 오픈소스 가상 경영진 시스템임</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">claude-sonnet-4-6</code> 기반 오케스트레이터가 8개 전문 에이전트를 병렬 호출하고, 결과를 내부 구조가 드러나지 않는 <strong>하나...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-27T07:32:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=32939",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: AIMediaWorker – Qwen3-ASR 기반 AI 자동자막/번역 동영상 플레이어",
+    "content": "<p>동영상을 보면서 바로 자막을 생성하고, 편집·번역까지 할 수 있는 Windows용 미디어 플레이어를 만들었습니다.</p>\n<p>WinUI 3 + .NET 10 기반이며, 영상 재생은 <strong>libmpv</strong>, 음성 인식은 <strong>Qwen3-ASR 1.7B + CrispASR</strong>, 자막 정렬은 <strong>Qwen3 Forced Aligner</strong>를 사용합니다</p>",
+    "createdAt": "2026-08-27T06:46:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=32937",
+    "author": "kirinonakar",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미 국무부, 이민 비자 신청 처리 중단",
+    "content": "<ul>\n<li>트럼프 행정부가 신청자 심사를 강화하기 위한 <strong>심층 교육</strong>을 진행하면서 이민 비자 신청 처리를 일시 중단하고, 미국 대사관/영사관의 예정된 인터뷰도 연기함</li>\n<li>새 지침과 교육은 신청자가 미국 법상 <strong>public charge</strong>가 되거나 미국의 취약 계층을 위한 정부 복지에 의...<p></p></li></ul>",
+    "createdAt": "2026-08-27T05:31:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=32936",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nvidia, Hugging Face 19.5조원 규모 인수 협상",
+    "content": "<ul>\n<li>Nvidia와 Hugging Face가 기업가치 <strong>약 130억 달러($13b) 이상</strong>을 전제로 인수를 논의 중이지만, 아직 합의하지 않았고 협상이 결렬될 가능성도 있음</li>\n<li>Nvidia는 이번 회계연도 남은 기간 <strong>지분 투자 180억 달러</strong>를 약정했으며, 이미 비상장 기업 지분 479억 달러를 보유...<p></p></li></ul>",
+    "createdAt": "2026-08-27T03:31:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=32933",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Engineerification - 전문직이 엔지니어처럼 변해간다",
+    "content": "<ul>\n<li>수학자, 디자이너, 분석가, 법률가 등 서로 다른 전문직에서 <strong>저장소, 에이전트, 테스트, 자동화, 형식 명세, 피드백 루프</strong>를 활용하는 작업 방식이 확산되고 있으며, 이를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">engineerification</code>이라 부를 수 있음</li>\n<li>핵심 변화는 모두가 코딩을 배우는 것이 아니라, 도메인 전...<p></p></li></ul>",
+    "createdAt": "2026-08-27T02:10:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32932",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "아무도 부탁하지 않은 것을 만들어라",
+    "content": "<ul>\n<li>직업 세계는 창작 아이디어에 <strong>대상 독자, 성과, 배포 계획</strong>을 요구하도록 훈련하지만, 어떤 작업은 무엇을 위한 것인지 설명할 수 있기 전에 먼저 존재해야 함</li>\n<li>유용한 작업의 제약은 완성, 배포, 사용자 행동, 시장 수요를 배우게 하지만, 모든 호기심에 처음부터 <strong>비즈니스 근...<p></p></strong></li></ul>",
+    "createdAt": "2026-08-27T01:42:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32931",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 하네스 기업의 ARR 배수",
+    "content": "<ul>\n<li>Harvey와 Legora는 <strong>법률 업무용 AI 플랫폼</strong>, Sierra는 기업의 고객 경험을 처리하는 <strong>AI 에이전트 플랫폼</strong>으로, 모두 기반 AI 모델 위에 특정 업무를 수행하는 제품/워크플로우 계층을 구축하는 이른바 <strong>AI 하네스 기업</strong></li>\n<li>Harvey, Legora, Sierra는 각각...<p></p></li></ul>",
+    "createdAt": "2026-08-27T01:36:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32930",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "요일 계산을 더 빠르게 만드는 방법",
+    "content": "<ul>\n<li>32비트 날짜 카운트에서 요일을 구하는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">% 7</code> 연산을 다시 설계해, 기존 구현보다 빠른 <strong>곱셈/덧셈/비트 시프트</strong> 기반 알고리듬들을 제시함</li>\n<li>핵심은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">7 = 2^3 - 1</code>인 <strong>메르센 수(Mersenne number)</strong> 특성을 이용해 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">% 7</code>을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">% 8...<p></p></code></li></ul>",
+    "createdAt": "2026-08-27T01:05:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32929",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 여전히 은탄환은 없습니다",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!rLMb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!rLMb!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 424w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 848w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 1272w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!rLMb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!rLMb!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 424w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 848w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 1272w, https://substackcdn.com/image/fetch/$s_!rLMb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b48037-c739-447e-8cae-3d6945c5ddbe_2048x1364.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://imnotadevleoper.tistory.com/390\" target=\"_blank\" rel=\"noopener noreferrer\">https://imnotadevleoper.tistory.com/390</a></p></blockquote><h2><strong>소개</strong></h2><p>AI가 코드를 작성하는 속도는 놀라울 정도로 빨라졌습니다. 그렇다면 AI는 소프트웨어 개발의 복잡성까지 해결해 줄 수 있을까요? 이 글은 프레드 브룩스(Fred Brooks)의 유명한 에세이 「No Silver Bullet」을 AI 시대의 관점에서 다시 살펴봅니다.</p><p>브룩스는 소프트웨어 개발의 어려움을 도구로 개선할 수 있는 우발적 복잡성(Accidental Complexity)과 문제 자체에서 비롯되는 본질적 복잡성(Essential Complexity)으로 구분했습니다. AI는 코드 작성이나 반복 작업처럼 우발적 복잡성을 크게 줄여주고 있지만, 무엇을 만들어야 하는지 결정하고 요구사항을 이해하며 적절한 설계를 선택하는 일까지 사라지지는 않습니다.</p><p>AI가 개발 방식을 빠르게 변화시키고 있는 지금, <strong>소프트웨어 개발에서 정말 어려운 일은 무엇인지</strong>, 그리고 개발자의 역할은 앞으로 어떻게 달라질지를 생각해 볼 수 있는 글입니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>저자의 주장에 공감하시는지 궁금하고, AI 시대에서 일을 할 때 모든 것을 AI에 맡기지 않고 의식적으로 사람이 작업하는 영역을 두신 지점들이 있다면 무엇인지 궁금합니다!</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>결국에는 AI를 잘 활용할 수 있는 설계자가 되어야 한다는 저자의 의견에 동의합니다. 같은 모델을 사용하더라도 누가, 어떻게 활용하느냐에 따라 결과물과 활용 방식이 달라지는 모습은 주변에서도 쉽게 볼 수 있는 것 같아요.</p><p>제가 의식적으로 사람의 영역으로 남겨두는 부분은 크게 세 가지 인것 같습니다. 문제를 구체화하는 일, AI가 작업하는 과정에서 제가 생각한 방향으로 가고 있는지 확인하는 일, 그리고 최종 결과물이 실제 문제를 해결하는 방향으로 잘 나왔는지 검증하고 해당 결과물의 개선을 반복하는 일입니다.</p><p>근데 AI 발전속도를 보면 이와같은 일도 AI가 하는게 더 나을 세상이 금방 올 수도 있을거같긴 하네요 ㅎㅎ</p><p><strong>💬. 의견 2</strong></p><p>잘 읽었습니다!</p><p>저 같은 경우에는 프로젝트의 전체 구조와 도메인 지식들, 공통 함수와 컴포넌트들을 초반에 직접 설계하는 것을 선호하는 편입니다. 프로젝트 특성 상 일정한 형태로 다수의 서비스가 배포되는 형태인 것들이 있어서 기반이 잘 만들어진 상태라면 새로운 서비스를 더 빠르게 시작하기 용이해서요.</p><p>저자의 의견처럼 모든 것을 AI에게 위임하는 것이 아니라 역할을 나눠서 사용하는게 좋을 것 같다고 생각합니다</p><p><strong>💬. 의견 3</strong></p><p>요즘 구현 자체는 AI agent에게 맡기는 경우가 대부분이다보니 확실히 설계자로서의 역할이 중요해진 것 같습니다.</p><p>제가 의식적으로 신경쓰는 부분은 기존 컨벤션이나 네이밍처럼, 팀이 오랫동안 쌓아온 맥락과 잘 이어지는지?인 것 같아요. 아직은 AI가 이런 방대한 컨텍스트를 종합적으로 파악하는 데는 한계가 있는 것 같아서, 아직 사람의 감각이 필요한 영역인 것 같습니다 ㅎㅎ</p><h2><strong>목차</strong></h2><ul><li><p>본질과 부소적 요소</p></li><li><p>그는 1986년에 이미 AI도 검토했습니다</p></li><li><p>거울</p></li><li><p>“코드는 결코 어려운 부분이 아니었습니다”</p></li><li><p>본질의 격차</p></li><li><p>프롬프터가 아니라 설계자를 키우세요</p></li></ul>",
+    "createdAt": "2026-08-27T00:30:32.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-32b",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "Corsair - AI 에이전트의 외부 서비스 연결과 권한을 관리하는 통합 레이어",
+    "content": "<ul>\n<li>AI 에이전트가 Gmail/Slack/GitHub/Notion/Stripe 같은 외부 서비스를 호출할 때 필요한 <strong>도구, 인증 정보, 실행 권한</strong>을 한곳에서 관리하는 TypeScript 라이브러리</li>\n<li>Corsair MCP를 에이전트에 연결하거나 SDK를 애플리케이션에 직접 넣어 사용할 수 있음</li>\n<li>모든 서비스를 자동으...<p></p></li></ul>",
+    "createdAt": "2026-08-27T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32927",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Git을 어떤 규모에서도 확장하는 법 - Cursor의 새 Git 저장 시스템 Continuity",
+    "content": "<ul>\n<li>Git은 로컬에서는 단순하지만 서버에서 대규모로 호스팅하면 <strong>packfile의 랜덤 접근 패턴, 강한 일관성 요구, 복제 비용</strong> 때문에 확장성과 운영 복잡도가 크게 올라감</li>\n<li>GitHub의 Spokes는 로컬 NVMe에 실제 Git 저장소를 두고 여러 복제본을 3-phase commit으로 동기화하는 방식으로 업...<p></p></li></ul>",
+    "createdAt": "2026-08-27T00:15:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=32926",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: html2design - 웹페이지를 편집 가능한 Figma 노드로 변환하는 크롬 확장",
+    "content": "<ul>\n<li>스크린샷을 붙이는 방식이 아니라 Chrome DevTools Protocol의 DOMSnapshot으로 DOM, 계산된 스타일, 레이아웃을 읽어 Figma 노드로 재구성한다</li>\n<li>flex/grid는 Auto Layout으로, 인라인 SVG는 편집 가능한 벡터로 변환. iframe과 shadow DOM은 병합해서 한 번에 캡처한다</li>\n<li>재현 범위는 위치와 크...<p></p></li></ul>",
+    "createdAt": "2026-08-27T00:12:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=32925",
+    "author": "doscm164",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모든 악의 근원의 근원",
+    "content": "<ul>\n<li>“premature optimization is the root of all evil”은 Donald Knuth의 1974년 논문 전체를 대표하는 원칙이 아니라, <strong>구조적 프로그래밍과 goto</strong>를 다룬 41쪽 논문의 짧은 효율성 절에서 나온 문구임</li>\n<li>Knuth는 실행 시간 대부분이 소스 코드의 약 <strong>3%인 핵심 구간</strong>에 ...<p></p></li></ul>",
+    "createdAt": "2026-08-27T00:04:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=32924",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "쿼리 가능한 실행 파일",
+    "content": "<ul>\n<li><strong>SELF</strong>는 프로그램을 SQLite 데이터베이스로 구성해 코드뿐 아니라 웹사이트, 라우트, 방문 기록, 애플리케이션 상태까지 <strong>하나의 파일</strong>에 저장함</li>\n<li>Linux의 <strong>binfmt_misc</strong>가 전용 인터프리터를 실행하면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">segments</code> 테이블을 메모리에 매핑하...<p></p></li></ul>",
+    "createdAt": "2026-08-26T21:34:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=32922",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "계속되는 Bambu Lab의 3D 프린터 AGPL 위반",
+    "content": "<ul>\n<li>Bambu Lab은 AGPLv3 기반 PrusaSlicer를 수정한 <strong>Bambu Studio</strong>를 배포하면서 완전한 대응 소스를 제공하지 않았고, Software Freedom Conservancy(SFC)는 대체 소프트웨어 개발과 법적 집행을 추진 중임</li>\n<li>일부 기능은 동적으로 불러오는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.so</code> 파일과 Bambu Lab 서버의 독점...<p></p></li></ul>",
+    "createdAt": "2026-08-26T21:32:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=32921",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tailcat - Tailscale 계정 없이 두 머신을 연결하는 netcat",
+    "content": "<ul>\n<li><strong>Tailscale의 오픈소스 데이터 평면</strong>을 이용해, Tailscale 계정이나 제어 서버 없이 두 머신을 연결하는 netcat 형태의 CLI·Go 라이브러리</li>\n<li>서버가 출력한 짧은 연결 토큰을 상대에게 전달하면 표준 입출력이나 TCP 포트를 <strong>WireGuard 암호화 터널로 연결</strong>할 수 있음</li></ul>",
+    "createdAt": "2026-08-26T21:29:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=32920",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nebula Sans",
+    "content": "<ul>\n<li><strong>Nebula Sans</strong>는 독립 크리에이터 스트리밍 서비스 Nebula가 디지털·인쇄 환경의 가독성을 높이기 위해 만든 현대적인 휴머니스트 산세리프 브랜드 서체임</li>\n<li>Paul D. Hunt가 Adobe Fonts에서 만든 <strong>Source Sans</strong>를 기반으로, 기존 브랜드 서체 Whitney SSm을 바로 대체할...<p></p></li></ul>",
+    "createdAt": "2026-08-26T21:25:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=32919",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "배우 팀 커리, 80세로 별세",
     "content": "<ul>\n<li>무대와 스크린을 넘나든 배우 <strong>팀 커리(Tim Curry)</strong> 가 로스앤젤레스 자택에서 80세로 평화롭게 세상을 떠났으며, 사인은 알려지지 않음</li>\n<li>1973년 무대에 오른 The Rocky Horror Show와 1975년 영화판에서 화려한 <strong>Dr Frank-N-Furter</strong>를 연기하며 이름을 알림</li>\n<li>L...<p></p></li></ul>",
     "createdAt": "2026-08-26T19:31:44.000+00:00",
@@ -66,8 +253,8 @@
     }
   },
   {
-    "title": "GLM-5.3-Flash",
-    "content": "<ul>\n<li>태양계 8개 행성을 <strong>수성부터 해왕성까지</strong> 평균 태양 거리, 크기, 공전 주기, 위성, 환경, 탐사 기록으로 정리한 20장 분량의 행성 자료임</li>\n<li>행성의 평균 거리는 수성 <strong>0.39 AU</strong>에서 해왕성 30.1 AU까지 로그 눈금으로 비교되며, 태양빛이 해왕성에 도달하는 데 약 4.2시...<p></p></li></ul>",
+    "title": "GLM-5.3-Flash: 프런티어급 지능, Flash급 비용",
+    "content": "<ul>\n<li>Z.ai가 GLM-5 시리즈 최초의 <strong>네이티브 멀티모달 모델</strong> GLM-5.3-Flash를 공개. 총 320B 파라미터 중 18B만 활성화, GLM-5.2보다 뛰어나지만 가격은 10분의 1 수준이고 코딩/에이전트에서는 Claude Opus 4.8에 근접</li>\n<li>출시 전 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ox-alpha</code>로 OpenCode/OpenRouter에서 익명 테스...<p></p></li></ul>",
     "createdAt": "2026-08-26T16:39:47.000+00:00",
     "link": "https://news.hada.io/topic?id=32912",
     "author": "neo",
@@ -77,7 +264,7 @@
     }
   },
   {
-    "title": "Qwen3.8-Flash-Next: 비용 효율을 높인 Qwen4 선행 아키텍처",
+    "title": "Qwen3.8-Flash-Next: 비용 효율을 높인 새로운 아키텍처",
     "content": "<ul>\n<li>Qwen4에 적용할 설계를 먼저 공개한 <strong>멀티모달 MoE 모델</strong>로, 125B 본체와 51B N-gram 임베딩 가운데 토큰당 6B 매개변수만 활성화함</li>\n<li><strong>GDN과 QSA</strong>로 과거 정보를 압축하고 중요한 문맥을 마이크로 블록 단위로 검색해, 1M 토큰에서 Attention Kernel의 Prefill과 Decode...<p></p></li></ul>",
     "createdAt": "2026-08-26T16:36:47.000+00:00",
     "link": "https://news.hada.io/topic?id=32911",
@@ -429,50 +616,6 @@
     }
   },
   {
-    "title": "OpenAI GPT-5.6 Sol 가격 인하, 최소 2026년 11월 21일까지",
-    "content": "<ul>\n<li>최소 2026년 11월 21일까지 적용되는 <strong>GPT-5.6 Sol 프로모션 가격</strong>은 Standard 단기 컨텍스트 기준 100만 토큰당 입력 $4·출력 $20임</li>\n<li>플래그십 모델 요금은 <strong>Standard·Batch·Flex·Fast mode</strong>로 나뉘며, Batch와 Flex는 Standard의 절반이고 Fast mode는 2배임</li>\n</ul>",
-    "createdAt": "2026-08-25T18:33:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=32882",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IPFS 유지보수 조직 Shipyard, 운영 종료 수순",
-    "content": "<ul>\n<li>Protocol Labs가 자금 지원을 갱신하지 않으면서 Shipyard의 <strong>IPFS 엔지니어링·유지보수·인프라 운영</strong>이 2026년 9월 30일 종료됨</li>\n<li><strong>Kubo·Helia·Boxo·Rainbow</strong> 등 Shipyard가 전담하던 주요 프로젝트는 신규 기능 개발, 버그 수정, 릴리스와 장기 관리를 맡을 주체가 필요...<p></p></li></ul>",
-    "createdAt": "2026-08-25T16:39:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=32881",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple, M5 Max·M5 Ultra를 탑재한 새로운 Mac Studio 공개",
-    "content": "<ul>\n<li>새 Mac Studio는 <strong>최대 4.3배 빨라진 AI 성능</strong>, 최대 512GB 통합 메모리, Thunderbolt 5와 Wi-Fi 7을 지원하면서 로컬 AI와 고사양 프로 워크로드에 초점을 맞춤</li>\n<li>M5 Max 모델은 18코어 CPU/최대 40코어 GPU/최대 128GB 통합 메모리를 제공하고, M5 Ultra 모델은 최대 36코어 CPU/80코어...<p></p></li></ul>",
-    "createdAt": "2026-08-25T16:36:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=32880",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple, 성능과 AI 연산을 크게 높인 M6·M5 Ultra 공개",
-    "content": "<ul>\n<li><strong>M6</strong>는 Apple 최초의 <strong>2나노미터 칩</strong>이며, <strong>M5 Ultra</strong>는 Apple Silicon 최초의 <strong>쿼드 다이 아키텍처</strong>를 적용. 온디바이스 AI부터 전문 3D·영상·과학 작업까지 데스크톱 연산 범위를 넓힘</li>\n<li>M6는 12코어 CPU/12코어 GPU/듀얼 16코어 Neural...<p></p></li></ul>",
-    "createdAt": "2026-08-25T15:32:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=32879",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "How to Steal an AI Model’s Private Thoughts",
     "content": "<h2><a href=\"https://fandf.co/4z5vsBK\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Secure AI and MCP with protocol-level access control (Sponsored)</span></a></h2><div><figure><a href=\"https://fandf.co/4z5vsBK\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!tQj0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 424w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 848w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 1272w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!tQj0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!tQj0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 424w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 848w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 1272w, https://substackcdn.com/image/fetch/$s_!tQj0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2671a1da-90b1-485d-93df-351978e2a5cf_512x269.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>Securing AI usually requires hardcoding permissions into application code for every MCP server, or using static API tokens for all-or-nothing access (and hoping your LLM doesn’t drift from intended actions).</span></p><p><span>Teleport eliminates these problems with zero-code MCP integration that applies the same zero trust security principles you use for human engineers:</span></p><ul><li><p><span>Least privilege access control that denies new tools by default</span></p></li><li><p><span>Just-in-time (JIT) access requests for high-risk tools</span></p></li><li><p><span>Logs for every action – with full audit and identity context</span></p></li><li><p><span>Zero trust agent access to MCP servers, databases, and Kubernetes clusters</span></p></li></ul><p><span>No need to write authorization code, rewrite MCP servers, or limit agent work.</span></p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://fandf.co/4z5vsBK\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Learn More</span></a></p><div><hr></div><p><span>When an AI model handles a difficult question, it produces three separate pieces of text:</span></p><ul><li><p><span>The first is the answer displayed on screen.</span></p></li><li><p><span>The second is a shorter block, usually labeled thinking or reasoning, that appears while the answer is being assembled.</span></p></li><li><p><span>The third is the model’s full reasoning process, which is never displayed.</span></p></li></ul><p><span>The second piece of text is a summary of the third. It is generated separately and shown in place of the original reasoning process. The full reasoning runs longer. It also contains material that the summary leaves out. Most major providers withhold it. However, in place of the complete process, an encrypted version is shared with the client during the conversation.</span></p><p><span>In August 2026, a team at MATS Research, the ELLIS Institute Tübingen, and the Max Planck Institute for Intelligent Systems wanted to test whether the encrypted reasoning blocks that Anthropic, OpenAI, and Google hand back to clients actually keep that reasoning private. They showed that the blocks can be replayed into a cheaper model in the same family, which will then print the hidden reasoning in plaintext. In other words, the AI model’s thoughts are stolen, exposing information that should ideally be hidden.</span></p><p><span>In this article, we will cover what the researchers found out:</span></p><ul><li><p><span>Reasoning traces, and how they differ from answers and summaries</span></p></li><li><p><span>Why providers withhold reasoning</span></p></li><li><p><span>The storage problem that creates, and the two ways to solve it</span></p></li><li><p><span>What the encrypted block contains, and what it authenticates</span></p></li><li><p><span>The three forms of compatibility that follow</span></p></li><li><p><span>The extraction method and its verification</span></p></li><li><p><span>The four attack vectors</span></p></li><li><p><span>Findings from a scan of published session logs</span></p></li><li><p><span>The proposed fixes, and the limit that remains</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Omyy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Omyy!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 424w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 848w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 1272w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Omyy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Omyy!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 424w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 848w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 1272w, https://substackcdn.com/image/fetch/$s_!Omyy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c0596d3-72d6-49f2-8789-12bd919cadbe_2734x1512.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><em><span>Disclaimer: This post is based on publicly shared details from various sources. References at the end. Please comment if you notice any inaccuracies.</span></em></p><h2><span>Reasoning Traces</span></h2><p><span>Modern frontier models first generate an extended internal sequence of text before producing a visible answer. For example, if we ask a model to solve a hard mathematics question, the model may generate two thousand words of exploration, dead ends, and corrections, which ultimately helps it write a clean two hundred-word answer. This longer sequence of exploration is the reasoning trace, which is also known as the chain of thought.</span></p><p><span>The trace holds intermediate hypotheses that the model may have tried and abandoned. It contains the raw output of any tools that were called, the user’s data as the model processed it, and whatever contextual secrets were present in the session. Unsurprisingly, this trace is much denser and more revealing than the final polished output.</span></p><p><span>For example, if we ask a coding agent to remove hardcoded credentials from a code repository, the agent has to read those credentials to do the work. In other words, the credentials pass through the reasoning trace before any answer is produced.</span></p><h2><span>Concealment Rationale</span></h2><p><span>Why do the model providers hide these reasoning traces?</span></p><p><span>There are two separate motivations:</span></p><ul><li><p><span>The first is commercial. A competitor can collect a large number of traces from a strong model to create training material for building a cheaper imitation of the strong model. This is because the final answer just provides the endpoint of a computation, whereas a trace provides the methodology behind the answer.</span></p></li><li><p><span>The second is safety-related. A model sometimes has to generate reasoning about a harmful topic to refuse. The filtering that turns a completed trace into a safe visible answer runs after the trace already exists. Publishing the trace skips that filter and lets that information be seen by the user.</span></p></li></ul><h2><span>State Management</span></h2><p><span>Withholding a trace from reaching the user does not mean that the trace is not needed. In a multi-turn conversation, the reasoning from an earlier turn has to be available on the next turn. For example, a request to a model API carries no memory of what came before. The continuity we see in a chat window is reconstructed by the client resending the full history with every message. However, the server is stateless, which means it stores nothing between requests.</span></p><p><span>This leaves us with two options:</span></p><ul><li><p><span>The first option keeps the state on the server. The provider stores the trace in its own database, returns a meaningless identifier to the client, and looks it up when the next message arrives. This is straightforward but expensive because it means storing state for every conversation from every user of a global service.</span></p></li><li><p><span>The second option encrypts the trace and returns it to the client, which stores the block and sends it back with each subsequent request. In this case, the provider stores nothing.</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!yjO5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!yjO5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 424w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 848w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 1272w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!yjO5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!yjO5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 424w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 848w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 1272w, https://substackcdn.com/image/fetch/$s_!yjO5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c0e1b7b-291f-4147-851f-d1a12364def7_2898x1560.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>Providers like OpenAI, Anthropic, and Google chose the second option. Confidentiality keeps competitors from reading the trace, integrity prevents an altered trace from being fed back, and statelessness removes the storage cost. As you can see, two of those are security goals, and the third is a cost goal.</span></p><h2><span>Envelope Structure</span></h2><p><span>So what is actually inside the block that gets sent back to the client?</span></p><p><span>It consists of a long string of base64 text, which is a way of writing binary data using ordinary letters and digits so that it survives inside JSON. Once decoded, it is an AEAD envelope. AEAD stands for Authenticated Encryption with Associated Data, and it accomplishes two tasks at once: hiding the content and proving that the content was not altered. The associated data portion holds extra fields that stay readable while remaining tamper-protected.</span></p><p><span>The envelope carries a header. Depending on the provider, it can include the model name, block type, version, and key identifier. Alongside that is a nonce, which is a random value used once per encryption so that identical content produces different-looking output each time, an authentication tag, and the ciphertext. The field carrying all of this is called signature at Anthropic, encrypted_content at OpenAI, and thinkingSignature at Google.</span></p><p><span>Authentication here proves that the contents came from the provider and were not modified afterward. The model name and version are covered by that proof. However, the account that generated the block and the conversation it belonged to are absent from the authenticated fields entirely. To make this clear, since no provider has published a description of the scheme, the researchers inferred this mainly from observable behaviour. The evidence points toward a single global key used across an entire ecosystem.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Q_3_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Q_3_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 424w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 848w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 1272w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Q_3_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Q_3_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 424w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 848w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 1272w, https://substackcdn.com/image/fetch/$s_!Q_3_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14b5c7a8-5c4b-4e94-9995-b550e3fca742_3022x1884.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><span>Trace Compatibility</span></h2><p><span>If the authenticated fields provide no information about the origin, a valid block stays valid everywhere. The researchers have described three forms of this, each more permissive than the last:</span></p><ul><li><p><span>Cross-session compatibility means a block can be replayed out of order, and blocks from earlier sessions work in new ones. This supports editing conversation history and trimming long sessions to fit a context window.</span></p></li><li><p><span>Cross-user compatibility means a block produced in one account is accepted when submitted from another.</span></p></li><li><p><span>Cross-model compatibility means a block from one model is accepted by a different one, which supports switching models mid-conversation and automatic rerouting.</span></p></li></ul><p><span>The researchers tested every source and target combination available in July 2026. Some of the findings were as follows:</span></p><ul><li><p><span>Claude accepted almost every combination, the exception being Fable 5, whose blocks were accepted only by Fable 5.</span></p></li><li><p><span>GPT was organised by generation. The GPT-5.6 series accepted blocks from all earlier generations, while older models accepted only their own.</span></p></li><li><p><span>Gemini accepted every combination across every generation.</span></p></li></ul><h2><span>Extraction Method</span></h2><p><span>Cross-model compatibility carries a lot of importance because protection inside a model family is uneven.</span></p><p><span>Flagship models such as Claude Opus 4.8 and GPT-5.6 Sol receive anti-distillation training aimed at preventing disclosure of their own reasoning. It is present behind input and output filters that check for verbatim matches. However, smaller models in the same family, such as Claude Haiku 4.5 and GPT-5.6 Luna, are optimised for cost and speed. As a result, they receive far less of that training. In other words, cross-model compatibility means the smaller model accepts blocks produced by the larger one.</span></p><p><span>The information extraction method is a direct result of this gap in training. Here’s what can happen:</span></p><ul><li><p><span>A question is asked of the strong model, and the response returns a visible answer and an encrypted reasoning block.</span></p></li><li><p><span>The answer is discarded, and the block is kept.</span></p></li><li><p><span>Next, a fresh conversation is opened with a weaker model in the same family.</span></p></li><li><p><span>The reasoning block is placed into it as prior context, and the request asks for the attached reasoning to be transcribed.</span></p></li><li><p><span>The weaker model outputs the stronger model’s reasoning in plaintext.</span></p></li></ul><p><span>In other words, the strong model was queried once, with an ordinary question, and was never asked to disclose anything. Therefore, its refusal training was never engaged, and its output filter received only a benign answer.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!FPAa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!FPAa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 424w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 848w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 1272w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!FPAa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!FPAa!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 424w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 848w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 1272w, https://substackcdn.com/image/fetch/$s_!FPAa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39d4d9dc-671b-4bc3-93b1-a7fe45ff185c_2860x1798.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>The researchers describe the weaker model as a fuzzy decoder, since it generates an approximation rather than performing exact decryption.</span></p><p><span>This results in a verification problem. Without access to the original trace, how do you establish that a reconstruction is faithful rather than a plausible invention? The researchers used billing records. API responses report the number of reasoning tokens consumed, and that figure is exact because the charge depends on it. Re-encoding the recovered text and counting its tokens produces a number that should match. Across 120 programming problems, the two counts tracked closely. It was roughly one to one for Claude.</span></p><p><span>The difficulty of this approach varied by provider. A single fixed prompt worked for Claude, while GPT required up to 50 candidate extractions per block and output chunked below roughly 50 tokens to avoid a rejection triggered by verbatim reproduction.</span></p><h2><span>Attack Vectors</span></h2><p><span>The research paper talks about four consequences of this gap. These are split based on who produced the original block.</span></p><p><span>Two of them use blocks the attacker generated:</span></p><ul><li><p><strong><span>Distillation:</span></strong><span> It involves training a copycat model on a target’s visible answers. Traces make it stronger, because a trace supplies the problem decomposition and the intermediate steps. For reference, earlier work using approximate traces raised the MATH500 accuracy of a fine-tuned model from 68.4 percent to 76.0 percent over answer-only training. Decoding 10,000 traces at Claude Haiku 4.5 pricing costs roughly $720, and where blocks come from public datasets, the frontier model is never queried.</span></p></li><li><p><strong><span>Jailbreaking:</span></strong><span> Models are trained to withhold harmful content from visible output. However, they are largely not trained to avoid generating reasoning about harmful topics, since constraining trace content is believed to degrade the usefulness of traces for safety monitoring. In one demonstration, a prompt drew out extended reasoning about vehicle theft while the visible answer stayed within a responsible write-up aimed at manufacturers. The recovered trace contained specific vulnerable makes and model years.</span></p></li></ul><p><span>The other two vectors use blocks produced by other people.</span></p><p><span>Developers publish agent session logs routinely, for reproducibility or by committing them accidentally, and they sanitise the visible text before publishing. However, they cannot sanitise the encrypted blocks, because they cannot read them either.</span></p><p><span>The researchers collected 6,708 public agent trajectories from GitHub and Hugging Face and decoded 315,320 reasoning blocks, filtering the results through an automated pipeline to remove placeholders and benchmark fixtures. Here are some findings:</span></p><ul><li><p><span>From genuine user sessions, 62 API keys, 33 passwords, 24 access tokens, 7 private keys, and 30 personal email addresses</span></p></li><li><p><span>Across all sources, 1,028 blocks holding at least one confirmed leak</span></p></li><li><p><span>328 of the 6,708 sessions leaking at least one item</span></p></li></ul><p><span>Sanitisation operates on plaintext only, so even if every user in that sample had scrubbed their visible text perfectly, all 62 API keys would have remained in the reasoning blocks. This was a non-exhaustive scan of public traces, and logs held locally or produced by live services are likely to contain more.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Qz_w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Qz_w!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 424w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 848w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 1272w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Qz_w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Qz_w!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 424w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 848w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 1272w, https://substackcdn.com/image/fetch/$s_!Qz_w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd93b34a9-6f49-4259-938e-853e41ef73b6_3014x1734.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>The fourth vector is prompt injection. Long agentic runs are expensive to repeat. Therefore, it makes sense to resume a published run. Encrypted blocks make that possible.</span></p><p><span>A block containing an instruction can be planted in a shared trace. When the session resumes, that block is processed as prior context. In one demonstration, a block carrying an instruction to upload PowerPoint files to an external address was ported into a conversation with GPT-5.6 Sol and paired with an unrelated slide-editing request. The resulting script added the requested slide and uploaded the presentation.</span></p><h2><span>Field Observations</span></h2><p><span>Recovering traces at this scale brought out findings unrelated to the vulnerability itself.</span></p><p><span>Summaries and traces sometimes diverge. On an AIME 2025 mathematics problem, the summary returned by the API described methodical work through the geometry using the law of cosines. The recovered trace opened by stating the answer from memory and then working backward toward a justification, with several wrong guesses along the way. The researchers did not measure how often this occurs. However, they note that a smaller model summarising a larger one will compress the original.</span></p><p><span>Recovered GPT traces are frequently not fluent English. They are made up of compressed telegraphic notes with articles dropped and grammar abandoned. This carries a direct consequence for oversight, because trace monitoring depends on traces being legible.</span></p><h2><span>Proposed Mitigations</span></h2><p><span>The research paper ultimately makes one strong point, which is the cause of the overall problem. The envelope we talked about earlier authenticates the content of a reasoning block, but it does not authenticate the context in which that block was produced or replayed.</span></p><p><span>The cheapest fix for this problem should address cross-user replay. This involves embedding an account identifier inside the authenticated data at issuance, allowing the API to compare it against the authenticated caller and reject any mismatch. This closes the attack vector entirely without the need for server-side storage.</span></p><p><span>Cross-session binding is harder, because some genuine features depend on the same portability. Users can fork conversations, compact old turns out of long sessions, and downgrade models mid-conversation. Binding each block to the complete transcript would break all three. The proposal is a hash chain tying each block to its session and to the fingerprint of its predecessor, combined with a Merkle tree that retains only root fingerprints once older blocks are pruned. This approach preserves ordering cheaply while still allowing integrity checks over any surviving stretch.</span></p><p><span>Blocks already published present a separate problem, since they were signed under a key encoding neither user nor session. The only retroactive remedy is to rotate those keys and refuse to decode anything signed under a retired key identifier. This also invalidates legitimate continuations of old sessions.</span></p><p><span>Other measures include moving to server-side storage entirely, configuring API gateways to reject envelopes from a different model version than the one queried, and training models to decline transcription requests regardless of framing.</span></p><h2><span>Conclusion</span></h2><p><span>We’ve now understood the key points in the research paper. Here are some of the main takeaways:</span></p><ul><li><p><span>This wasn’t a failure of cryptographic techniques. The guarantee made by the envelope remained throughout the flow. The missing piece was a binding between a block and the context that produced it, which is a decision about which fields go into the authenticated portion.</span></p></li><li><p><span>The summary displayed alongside an answer is a separate artifact from the trace it describes, and the two can diverge.</span></p></li><li><p><span>Sanitising a session log reaches the plaintext only. Encrypted blocks have to be removed rather than cleaned, since the person publishing them cannot inspect what they contain.</span></p></li><li><p><span>The security of a model family depends on its least protected member. Anti-distillation training on a flagship model provides limited benefits while a cheaper sibling model accepts the same blocks.</span></p></li></ul><p><strong><span>References:</span></strong></p><ul><li><p><a href=\"https://arxiv.org/abs/2608.09867\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Stealing Reasoning Traces from Proprietary LLM APIs</span></a></p></li><li><p><a href=\"https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Let’s talk about encrypted reasoning</span></a></p></li><li><p><a href=\"https://arxiv.org/abs/2603.07267\" target=\"_blank\" rel=\"noopener noreferrer\"><span>How to Steal Reasoning Without Reasoning Traces</span></a></p></li><li><p><a href=\"https://arxiv.org/abs/2506.15674\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers</span></a></p></li></ul>",
     "createdAt": "2026-08-25T15:31:09.000+00:00",
@@ -495,52 +638,8 @@
     }
   },
   {
-    "title": "Show GN: homebutler - 홈서버 관리에 필요한 걸 한 바이너리에 담고 AI까지 붙였습니다",
-    "content": "<p>홈서버 몇 대를 관리하면서 필요한 걸 하나씩 붙이다 보니<br>\nCLI, TUI, 웹 UI, MCP 서버가 한 바이너리에 다 들어갔습니다.<br>\nGo 단일 바이너리라 런타임 의존성은 없습니다.</p>\n<p>컨테이너 상태 확인, 재시작 감지, 백업 복원 검증, 포트 스캔, WoL 정도를 하고<br>\nMCP를 붙이면 AI가 같은 기능을 도구</p>",
-    "createdAt": "2026-08-25T14:30:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=32878",
-    "author": "swq115",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Galaxy Constellate - 사람과 관심사를 별자리로 연결하는 커뮤니티",
-    "content": "<p>안녕하세요.</p>\n<p>이번에는 제가 조금 특이한 형태의 커뮤니티를 하나 만들어봤습니다.</p>\n<p>이름은 <strong>은하계 커뮤니티(Galaxy Constellate)</strong> 입니다.</p>\n<p>이걸 처음 만들게 된 계기는 사실 거창하지 않았습니다.</p>\n<p>어느 날 우연히 옥상에 올라가서 이것저것 생각하고 있었는데, 밤하늘에 </p>",
-    "createdAt": "2026-08-25T10:53:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=32877",
-    "author": "kennethkang80",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Perspec 1.0 - 문서 사진의 원근을 보정하는 Haskell 데스크톱 앱",
-    "content": "<ul>\n<li>9년간 개발한 <strong>Perspec 1.0</strong>은 문서·영수증 사진의 원근을 자동 보정하고, 감지된 영역이 틀리면 사용자가 직접 조정할 수 있는 데스크톱 앱임</li>\n<li>직선 에지를 찾는 일반 스캐너 앱과 달리 사진을 문서와 배경으로 분할한 뒤 <strong>네 모서리를 직접 감지</strong>해, 구겨지거나 휘어진...<p></p></li></ul>",
-    "createdAt": "2026-08-25T09:02:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=32876",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 혼서가 - 정보가 낡으면 빌드가 실패하는 1인가구 생활정보 위키",
-    "content": "<p>정보 사이트의 진짜 문제는 틀린 걸 쓰는 게 아니라 <strong>낡는 것</strong>이라고 생각했습니다.<br>\n세법·복지 기준은 매년 바뀌는데, 검색해서 나오는 블로그 글은 언제 기준인지 안 적혀 있고<br>\n2년 전 숫자가 그대로 상위에 떠 있습니다. 읽는 사람은 그게 낡았다는 걸 알 방법이 없습니다.</p>\n<p>그래</p>",
-    "createdAt": "2026-08-25T08:35:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=32875",
-    "author": "jmineekim",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Why Your Website Should Never Stop Changing",
-    "content": "<p>This article is a sponsored by <a href=\"https://fimo.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Fimo</a></p>\n<p>Every website is at its best the day it ships. The final branch merges, the site goes live exactly as designed, and it is briefly perfect. It will never be this good again.</p>\n<p>Not because anything breaks. The site keeps working. But the market moves, the messaging shifts, a competitor launches something, and the careful thing you built slowly stops matching the company it represents. A year later, it is a period piece. Not broken, just <strong>behind</strong>. Every team knows this decay, and almost everyone treats it as a law of nature.</p>\n<p>It doesn’t have to be that way. A website could keep improving after launch instead of drifting away from its best day, <strong>quietly optimizing itself</strong> while the team that built it works on something else.</p>\n<p>Picture it working: while you sleep, an agent catches that last week’s design-system change never propagated to the pricing page, and fixes it. Another finds a set of images shipped uncompressed in a rushed release and optimizes them. A third flags an accessibility regression a new component introduced, and either fixes it or leaves it for you to check. You wake up to a site that is measurably better than the one you left, and a short list of the few decisions the agents wanted your eyes on. That is the version worth wanting.</p>\n<p>And the moment you take that promise seriously, you run into a problem that has nothing to do with the technology:</p>\n<blockquote>Almost nobody actually wants a website that changes entirely on its own.</blockquote>\n\n<p>Why “Just Make It Autonomous” Is The Wrong Goal</p>\n<p>The obvious move, once you have capable agents, is to hand them the whole site. Let them write, edit, optimize, and publish, and get out of the way. It sounds like the natural endpoint, and it is the first thing most people picture when they hear “autonomous website.”</p>\n<p>It is also the thing almost nobody wants once it is real in front of them.</p>\n<p>We learned this the way you learn most things worth knowing: by building the opposite first. Building <a href=\"https://fimo.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Fimo</a>, an autonomous website platform, we set out to make websites fully autonomous, assumed that was the goal, and then watched what people actually did with it. What they did was <strong>hesitate</strong>. Not because they distrusted the agents, but because a website has <strong>no single owner</strong>. Different parts belong to different people, and each one wants a different amount of autonomy. So the question was never whether to trust the agents. It was <strong>where to draw the line</strong>, and for whom.</p>\n<p>Once you ask it that way, the work splits cleanly into three kinds.</p>\n<p><img src=\"https://files.smashing.media/articles/why-website-should-never-stop-changing/fimo-agents.png\"></p>\n<p>And they don’t stay fixed. They learn from their tasks and from what you teach them, so the boundary you set last month isn't the one you’re stuck with. What you had to approve then, you can delegate now, not because you lowered your guard but because the agent earned it. The line is not a setting you configure once. It moves as trust is earned, in the direction of less work for you.</p>\nStart Narrow, and Widen As You Trust It\n<p>None of this means flipping a site to autonomous on day one. In practice it goes the other way. You delegate a little, watch how it does, and loosen.</p>\n<p>And you can actually watch. Every agent’s runs, its history, its logs, and a before-and-after of what it changed are there to inspect. Trust doesn’t grow because you got used to the idea; it grows because you can see what happened and compare. The first time an agent quietly fixes something you would have missed, and you can see exactly what it did, the next delegation gets easier.</p>\n<p>Deadlines keep you from becoming the bottleneck on what you have already handed over. If you don’t weigh in, the agent proceeds. You set the terms once, and you stop being the thing the whole site waits on.</p>\nThe Frozen Site Is The Real Risk\n<p>The worry people voice first is that an agent will change something on their site without them. Turn it around: <strong>the real risk is a site that never changes at all</strong>. A frozen site doesn’t stay safe. It just falls behind, slowly, in a way nobody notices until it represents a company that no longer exists.</p>\n<p>The point of autonomy was never to remove you from your website. It was to remove the decay.</p>\n<p>The point of autonomy is to keep the launch-day version from being the best version, and to let you spend your judgment on the handful of things that actually deserve it, while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.</p>\n",
+    "content": "<p>This article is a sponsored by <a href=\"https://fimo.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Fimo</a></p>\n<p>Every website is at its best the day it ships. The final branch merges, the site goes live exactly as designed, and it is briefly perfect. It will never be this good again.</p>\n<p>Not because anything breaks. The site keeps working. But the market moves, the messaging shifts, a competitor launches something, and the careful thing you built slowly stops matching the company it represents. A year later, it is a period piece. Not broken, just <strong>behind</strong>. Every team knows this decay, and almost everyone treats it as a law of nature.</p>\n<p>It doesn’t have to be that way. A website could keep improving after launch instead of drifting away from its best day, <strong>quietly optimizing itself</strong> while the team that built it works on something else.</p>\n<p>Picture it working: while you sleep, an agent catches that last week’s design-system change never propagated to the pricing page, and fixes it. Another finds a set of images shipped uncompressed in a rushed release and optimizes them. A third flags an accessibility regression a new component introduced, and either fixes it or leaves it for you to check. You wake up to a site that is measurably better than the one you left, and a short list of the few decisions the agents wanted your eyes on. That is the version worth wanting.</p>\n<p>And the moment you take that promise seriously, you run into a problem that has nothing to do with the technology:</p>\n<blockquote>Almost nobody actually wants a website that changes entirely on its own.</blockquote>\n\n<p>Why “Just Make It Autonomous” Is The Wrong Goal</p>\n<p>The obvious move, once you have capable agents, is to hand them the whole site. Let them write, edit, optimize, and publish, and get out of the way. It sounds like the natural endpoint, and it is the first thing most people picture when they hear “autonomous website.”</p>\n<p>It is also the thing almost nobody wants once it is real in front of them.</p>\n<p>We learned this the way you learn most things worth knowing: by building the opposite first. Building <a href=\"https://fimo.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Fimo</a>, <a href=\"https://fimo.ai/features/autonomous-agents\" target=\"_blank\" rel=\"noopener noreferrer\">an autonomous website platform</a>, we set out to make websites fully autonomous, assumed that was the goal, and then watched what people actually did with it. What they did was <strong>hesitate</strong>. Not because they distrusted the agents, but because a website has <strong>no single owner</strong>. Different parts belong to different people, and each one wants a different amount of autonomy. So the question was never whether to trust the agents. It was <strong>where to draw the line</strong>, and for whom.</p>\n<p>Once you ask it that way, the work splits cleanly into three kinds.</p>\n<p><img src=\"https://files.smashing.media/articles/why-website-should-never-stop-changing/fimo-agents.png\"></p>\n<p>And they don’t stay fixed. They learn from their tasks and from what you teach them, so the boundary you set last month isn't the one you’re stuck with. What you had to approve then, you can delegate now, not because you lowered your guard but because the agent earned it. The line is not a setting you configure once. It moves as trust is earned, in the direction of less work for you.</p>\nStart Narrow, and Widen As You Trust It\n<p>None of this means flipping a site to autonomous on day one. In practice it goes the other way. You delegate a little, watch how it does, and loosen.</p>\n<p>And you can actually watch. Every agent’s runs, its history, its logs, and a before-and-after of what it changed are there to inspect. Trust doesn’t grow because you got used to the idea; it grows because you can see what happened and compare. The first time an agent quietly fixes something you would have missed, and you can see exactly what it did, the next delegation gets easier.</p>\n<p>Deadlines keep you from becoming the bottleneck on what you have already handed over. If you don’t weigh in, the agent proceeds. You set the terms once, and you stop being the thing the whole site waits on.</p>\nThe Frozen Site Is The Real Risk\n<p>The worry people voice first is that an agent will change something on their site without them. Turn it around: <strong>the real risk is a site that never changes at all</strong>. A frozen site doesn’t stay safe. It just falls behind, slowly, in a way nobody notices until it represents a company that no longer exists.</p>\n<p>The point of autonomy was never to remove you from your website. It was to remove the decay.</p>\n<p>The point of autonomy is to keep the launch-day version from being the best version, and to let you spend your judgment on the handful of things that actually deserve it, while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.</p>\n",
     "createdAt": "2026-08-25T08:00:00.000+00:00",
     "link": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
     "author": "hello@smashingmagazine.com (Pierre Burgy)",
@@ -558,94 +657,6 @@
     "site": {
       "id": "28e36666-0179-437d-84da-3bddcca2d27e",
       "name": "개발자스럽다"
-    }
-  },
-  {
-    "title": "Show GN: Macchiato - 내 에이전트를 아이폰으로 원격 조종하는 앱",
-    "content": "<p>Claude Code 긴 작업을 걸어두고 책상 앞에 앉아있는 게 반복돼서 만들었습니다. 에이전트는 내 컴퓨터에서 돌아가고, 나는 아이폰으로 원격 조종합니다.</p>\n<p>공식 원격 제어는 터미널을 폰에 옮겨 놓은 느낌이었습니다. 이건 에이전트랑 대화하려고 만든 AI 네이티브 원격 조종입니다.</p>\n<p>텔레그램 봇도 썼습</p>",
-    "createdAt": "2026-08-25T07:07:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=32874",
-    "author": "jimmyhuang2002",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "애플, iCloud+ ‘나의 이메일 가리기’ 주소는 icloud.com에 유지하기로",
-    "content": "<ul>\n<li>커뮤니티 피드백을 반영해 <strong>iCloud+ ‘나의 이메일 가리기’</strong> 주소를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">icloud.com</code> 도메인에 유지함</li>\n<li>올해 말부터 새 <strong>Apple로 로그인</strong> 비공개 이메일 주소는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">private.icloud.com</code> 도메인으로 발급됨</li>\n<li>기존 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">privaterelay.appleid....<p></p></code></li></ul>",
-    "createdAt": "2026-08-25T06:31:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=32873",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Emacs 31.1 출시",
-    "content": "<ul>\n<li>확장 가능한 텍스트 편집기 <strong>Emacs 31.1</strong>의 소스 배포본을 GNU 미러에서 내려받을 수 있음</li>\n<li>배포 파일은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tar.gz</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tar.xz</code> 형식이며, 각각 <strong>PGP 서명 파일</strong>도 함께 제공됨</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gpg --verify</code>로 서명을 검증할 수 있으며, 공개...<p></p></li></ul>",
-    "createdAt": "2026-08-25T06:15:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=32872",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Firefox 157에 도입되는 JPEG XL",
-    "content": "<ul>\n<li>Mozilla가 <strong>Firefox 157</strong>에 Rust 디코더 기반 JPEG XL 지원을 추가하며, Chrome의 출시 계획과 Safari의 기존 구현을 합치면 <strong>2026년 말 이전</strong> 주요 브라우저에서 사용할 수 있게 됨</li>\n<li>기존 디코더는 10만 줄 규모의 멀티스레드 C++로 공격 표면이 우려됐지만, Google Re...<p></p></li></ul>",
-    "createdAt": "2026-08-25T05:01:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=32871",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: forge-harness — AI가 쓴 코드를 커밋 전에 막는 Claude Code 게이트 하네스 (오픈소스)",
-    "content": "<p>AI 에이전트에게 코드를 맡기면서 「이거 믿어도 되나」를 매번 손으로 확인하는 게 싫어서, 검증을 기계로 굳혀 두는 하네스를 만들고 있습니다. git 훅으로 커밋 직전에 도는 검사들이고, 통과 못 하면 커밋이 멈춥니다. 언어나 프레임워크를 가리지 않고 변경된 내용 자체를 봅니다. 설치 없이 npx @chrono-meta/f...</p>",
-    "createdAt": "2026-08-25T04:11:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=32868",
-    "author": "akaa1941",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "애플의 첫 폴더블 iPhone은 ‘마법’을 되살릴 것",
-    "content": "<ul>\n<li>Apple의 첫 폴더블 iPhone은 9월 9일 전후 공개될 예정이며, 최근 몇 년간 드물었던 새로운 제품군으로 <strong>스마트폰과 태블릿 사이를 오가는 사용성</strong>을 제공하면서 Apple 제품군 전체를 끌어올리는 초고가 플래그십 역할을 맡게 됨</li>\n<li>실제 기기를 사용해 본 사람들은 주머니에 들어가는 크...<p></p></li></ul>",
-    "createdAt": "2026-08-25T04:02:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=32867",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "San Francisco 전체를 비디오 게임으로 구현",
-    "content": "<ul>\n<li>San Francisco 전역을 이동하며 주변 거리 타일을 불러오는 <strong>도시 탐험 게임</strong>임</li>\n<li><strong>WASD 이동</strong>과 마우스 시점 조작, Space 점프, Shift 달리기를 지원함</li>\n<li>C로 카메라를 전환하고 H로 <strong>글라이더</strong>, V로 차량 기능을 제어할 수 있음</li>\n<li>이동 속...<p></p></li></ul>",
-    "createdAt": "2026-08-25T02:31:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=32865",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Vibe Tax - 바이브 코딩을 위해 모든 개발자가 치르는 토큰 비용",
-    "content": "<p>Vibe Tax - 바이브 코딩을 위해 모든 개발자가 치르는 토큰 비용</p>\n<ul>\n<li>맞춤형 할 일 앱의 개념 증명을 에이전트 <strong>Pol</strong>에 맡겼더니, 12시간 뒤 앱은 없고 주간 토큰 할당량만 모두 소진됐다는 가상의 상황에서 출발함</li>\n<li>저장소에는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tests</code> 폴더와 SHA-256 해시로 이름 붙인</li></ul>",
-    "createdAt": "2026-08-25T01:40:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=32864",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -2109,17 +2120,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "[Korean FE Article] 컴포넌트가 WCAG를 준수할 수 있을까요?",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!nyan!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!nyan!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!nyan!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!nyan!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!nyan!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!nyan!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!nyan!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!nyan!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!nyan!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!nyan!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F245df69f-893e-4414-af03-6c04eebc56d9_1024x1024.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://devowen.com/532\" target=\"_blank\" rel=\"noopener noreferrer\">https://devowen.com/532</a></p></blockquote><h2><strong>소개</strong></h2><p>이 글은 “접근성을 고려해 만든 UI 컴포넌트가 과연 WCAG를 준수한다고 말할 수 있는가?”라는 질문을 다룹니다.<br>WCAG 적합성은 컴포넌트 단위가 아니라 완전한 웹 페이지와 실제 사용자 흐름 안에서 판단해야 하며, 컴포넌트만으로 준수를 주장하면 과잉 약속이 될 수 있다고 설명합니다.<br>그럼에도 컴포넌트에 키보드 접근성, 시맨틱, 상태 관리, 사용자 선호 지원 등을 내장하고 문서화하는 일은 최종 제품의 접근성을 높이는 데 큰 가치가 있다고 강조합니다.</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>WCAG(Web Content Accessibility Guidelines, 웹 접근성)를 고려하면서 평소에 개발하시나요? 신규 개발이나 수정 작업을 할 때 WCAG를 지키면서 개발하기 위해서는 어떠한 시스템을 만들어 볼 수 있을까요?</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>저는 평소에는 접근성을 고려해서 제품을 개발하는 편은 아닌 것 같아요...! 제품이 릴리즈 되기 위해서 챙겨야 하는 많은 준비물중에 아무래도 후순위로 밀리다보니 그런 것 같다는 생각이 드는데요.</p><p>저는 WCAG를 지키면서 개발하기 위해서는 접근성을 잘 지키는 것이 성과로 인정받을 수 있도록 회사와 팀의 OKR에 있어야 현실적으로 가능하다는 생각해요!</p><p><strong>💬. 의견 2</strong></p><p>lint나 sonarqube 같은 도구가 감지해 주는 부분은 가능한 바로바로 수정하는 편입니다. 이외에도 접근성 가이드라인이 존재하기도 하고, 접근성 개선을 목적으로 하는 과제들이 있어서 그런 과제들이 있을 때 전체적으로 점검하고 개선해 나가고 있습니다.<br>lint, AI 등의 도구를 이용하고 시스템을 구축하는 것도 물론 중요하지만, 앞서 말씀해주신 것 처럼 접근성 개선을 하나의 과제로 추진하고 성과를 인정해 주지 않으면 지속하기 어렵지 않을까 싶습니다.</p><p></p><h2><strong>목차</strong></h2><ul><li><p>컴포넌트가 준수할 수 없는 이유</p></li><li><p>과잉 약속의 위험</p></li><li><p>실제 접근성을 포착하지 못하는 위험</p></li><li><p>내장할 수 있는 접근성</p></li><li><p>컴포넌트가 충족할 수 있는 스펙</p></li><li><p>마무리</p></li></ul><p></p>",
-    "createdAt": "2026-06-15T00:30:30.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-wcag",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
