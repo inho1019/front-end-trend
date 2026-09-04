@@ -1,7 +1,161 @@
 [
   {
-    "title": "GPT-6 Astra, 차세대 지능 모델",
-    "content": "<ul>\n<li>사전학습·강화학습·정렬 연구를 결합해 <strong>컴퓨터 사용부터 과학 연구까지</strong> 폭넓은 전문 업무를 수행하며, 사용자의 의도와 허가 범위를 더 안정적으로 따르도록 설계됨</li>\n<li><strong>컴퓨터 작업</strong>에서 OSWorld 2.0 점수 72.6%를 기록하면서 작업당 시간을 GPT-5.6 Sol의 약 75분에서...<p></p></li></ul>",
+    "title": "모든 CEO가 알아야 할 AI 거버넌스",
+    "content": "<ul>\n<li>AI가 의료·금융·운영 의사결정에 영향을 미치면서 결과의 무결성을 책임지는 <strong>AI 거버넌스</strong>는 법무·IT·CISO에게만 맡길 수 없는 <strong>CEO와 이사회의 책임</strong>이 되고 있음</li>\n<li>기존 보안이 데이터의 무단 접근을 막았다면, AI 거버넌스는 오염되거나 불법적으로 취득한 데이터가 ...<p></p></li></ul>",
+    "createdAt": "2026-09-04T01:59:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=33213",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "당신의 지능을 소유하라: 소버린 AI 실전 가이드",
+    "content": "<ul>\n<li>AI 애플리케이션 경쟁이 UI·워크플로·시장 진입을 넘어, 제품의 학습 방식과 성능을 좌우하는 <strong>지능 계층의 소유권</strong> 경쟁으로 확대되고 있음</li>\n<li><strong>Kimi K3·GLM 5.2</strong> 같은 오픈 웨이트 모델과 독립적인 사후 학습 기술이 발전하면서, 평가·하네스·온라인 학습을 결합해 특정...<p></p></li></ul>",
+    "createdAt": "2026-09-04T01:47:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=33211",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] ChatGPT 웹 리버스 엔지니어링, OpenAI는 10억 사용자를 위해 ChatGPT를 어떻게 만들었을까요?",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!K7-I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!K7-I!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 424w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 848w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!K7-I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg\" data-attrs=\"{\" alt=\"ChatGPT 웹 리버스 엔지니어링, OpenAI는 10억 사용자를 위해 ChatGPT를 어떻게 만들었을까요?\" title=\"ChatGPT 웹 리버스 엔지니어링, OpenAI는 10억 사용자를 위해 ChatGPT를 어떻게 만들었을까요?\" srcset=\"https://substackcdn.com/image/fetch/$s_!K7-I!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 424w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 848w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!K7-I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd6d7a2-53ab-4476-a7bb-a22e2bb31911_1024x575.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p><span>글 링크: </span><a href=\"https://emewjin.github.io/chatgpt-web\" target=\"_blank\" rel=\"noopener noreferrer\">https://emewjin.github.io/chatgpt-web</a></p></blockquote><h2><strong>소개</strong></h2><p>ChatGPT 웹은 무려 10억 명이 사용합니다. 그럼에도 경험이 매끄럽다고 느껴지죠. 리액트와 Tailwind, TanStack Query처럼 친숙한 스택으로 만들어졌는데, 어떻게 그런 경험을 만들어낼 수 있었을까요? 이 글은 그 이유를 chatgpt.com의 번들과 네트워크 요청을 직접 뜯어보며 추적합니다. UI 텍스트에 웹 폰트를 쓰지 않고, 기능 플래그를 서버에서 평가해 HTML에 넣고, 입력창이 활성화되기 전까지 나머지 코드 로딩을 미루는 식으로, 당연하게 여기던 기본값을 하나씩 뒤집은 결정들이 이어집니다. 같은 도구로 다른 결과를 만드는 방법이 궁금하시다면 한번쯤 읽어보시기를 추천드립니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>여러분들은 웹 앱 아키텍처를 설계할 때 중요하게 고려하시는 점이 있나요? 있다면 무엇인가요? 간략하게 1가지 정도만 답변해주셔도 풍부한 이야기가 될 것 같아요</p></blockquote><p><strong>💬. 의견 1</strong></p><p>각 레이어와 함수의 역할과 책임을 명확히 분리하는 것을 중요하게 생각하는 것 같아요. 예를 들어 기능과 도메인을 기준으로 모듈을 나누고, View는 표현을, 상태 관리 로직은 상태 변화를, 유틸 함수는 하나의 작업을 담당하도록 구성하면 코드의 응집도와 재사용성을 높일 수 있고 예측 가능한 코드를 짤 수 있다고 생각합니다. 또 상위 레이어가 하위 구현에 직접 의존하지 않도록 의존성 방향을 관리하면 기능 확장이나 변경에도 유연하게 대응할 수 있는것같아요.</p><p><strong>💬. 의견 2</strong></p><p>저는 웹 앱 아키텍처를 설계할 때 사용자와 지금 나에게 주어진 환경 (어떤 도구를 사용할 수 있고, 어떤 인프라를 사용할 수 있는지 등)을 중요하게 생각합니다. 예를 들면 사용자가 \"정확한\" 정보를 받는 것을 중요하게 여기는지, 조금 틀리더라도 \"빠르게\" 정보를 받는 것을 중요하게 여기는지 등에 따라서 통신 방식이나, 사용하는 도구가 바뀔 수 있다고 생각을 합니다. 그리고 지금 팀에서 잘 만들어 놓은 시스템이 어디까지이고, 그 것들 중에서 내가 어디까지 활용할 수 있는지도 파악해서 요구사항을 빠르게 전달하는 것에 집중하려고 하는 편입니다.</p><h2><strong>목차</strong></h2><ul><li><p>살펴볼 내용</p></li><li><p>제약 조건에서 시작하기</p></li><li><p>Next.js에서 리액트 라우터로 마이그레이션한 과정</p></li><li><p>화면을 그리는 가장 빠른 경로</p></li><li><p>10억 사용자 규모의 CSS</p></li><li><p>컴포넌트를 바닥부터 다시 만들지 않기</p></li><li><p>답변 하나하나가 렌더링 문제입니다</p></li><li><p>이제 입력할 수 있나요?</p></li><li><p>모든 것을 기능 플래그로 제어하기</p></li><li><p>낯선 사용자 10억 명을 받아들이기</p></li><li><p>첫 토큰까지 가는 가장 빠른 경로</p></li><li><p>ChatGPT와 Claude의 차이</p></li><li><p>ChatGPT 웹을 만드는 방식</p></li></ul><h2><strong>보너스</strong></h2><blockquote><p><a href=\"https://medium.com/daangn/%EC%9B%B9%EB%B7%B0-%EB%8B%A4%EC%9D%8C%EC%9D%98-%EB%A0%88%EC%9D%BC%EC%9D%84-%EA%B9%94%EB%8B%A4-%EB%8B%B9%EA%B7%BC%EC%9D%B4-lynx%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-34dd50abbfb7\" target=\"_blank\" rel=\"noopener noreferrer\">웹뷰 다음의 레일을 깔다: 당근이 Lynx를 선택한 이유</a></p></blockquote><p>그리고 오늘은 평소와 다르게, 국내 기술 아티클도 하나 소개해드립니다. 당근 프론트엔드 코어팀에서 일부 웹뷰 화면을 Lynx로 교체하고 있다는 이야기, 들어보셨나요? 그 배경에는 ‘사용자가 로딩을 느끼지 못하는 환경’을 만들기 위함이 있는데요. Lynx가 어떻게 그런 환경을 만들 수 있고, 검증 및 도입 과정은 어땠는지 자세히 소개하는 글입니다. 앱 내 웹뷰 개발을 하고 계시는 프런트엔드 개발자분들께 한번쯤 읽어보시기를 추천드립니다 ✨</p>",
+    "createdAt": "2026-09-04T01:30:39.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-chatgpt-openai",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "VC는 더 이상 VC가 아니다",
+    "content": "<ul>\n<li>소수의 초대형 투자사가 전통적인 스타트업 투자를 넘어 막대한 자산과 정치적 영향력을 축적한 현상을 <strong>Cancer Capital</strong>로 규정하고, 이들을 금융회사가 아닌 <strong>정치·사회 권력</strong>으로 봐야 한다고 주장</li>\n<li>규제 완화로 VC와 사모펀드를 결합한 종합 투자사가 등장했으며, 5...<p></p></li></ul>",
+    "createdAt": "2026-09-04T01:21:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33210",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google Antigravity의 서드파티 사용 금지와 계정 정지 약관 논란",
+    "content": "<ul>\n<li>Antigravity 약관은 OpenClaw 같은 <strong>서드파티 도구에서 Antigravity OAuth를 사용하는 행위</strong>를 위반으로 규정하고, Antigravity와 Gemini CLI 이용을 정지할 수 있다고 명시함</li>\n<li>최초 약관에는 제재 대상이 단순히 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">your account</code>로 적혀 있어 <strong>Google 계정 전체가 정...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-04T01:14:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=33209",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "K2 Horizon, 학습 전 과정을 공개하는 6개 AI 모델 제품군",
+    "content": "<ul>\n<li>IFM이 <strong>0.9B부터 375B-A23B까지 6개 모델</strong>을 공개해 웨어러블과 스마트폰, 로컬 워크스테이션, 기업 서버까지 하나의 제품군으로 연결함</li>\n<li><strong>최종 가중치</strong>만 제공하는 데 그치지 않고 <strong>학습 데이터 또는 구축법, 코드, 설정, 중간 체크포인트, 로그와 평가 결과를 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-04T00:35:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=33208",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nvidia, Hugging Face를 약 19조원에 인수하기로 공식 합의",
+    "content": "<ul>\n<li>GPU 중심의 Nvidia가 <strong>약 129억 달러($12.9b)에 Hugging Face를 인수하기로 공식 합의</strong>하며 AI 플랫폼으로 사업 영역을 확장함</li>\n<li>인수 후에도 Hugging Face를 전체 AI 생태계를 위한 <strong>개방형 플랫폼</strong>으로 유지하고, Nvidia 컴퓨팅을 사용하지 않아도 모델과 서비스를 자유...<p></p></li></ul>",
+    "createdAt": "2026-09-04T00:31:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=33207",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CLIProxyAPI - AI 구독 계정을 호환 API로 노출하는 프록시",
+    "content": "<ul>\n<li>ChatGPT Codex, Claude Code, Gemini, Grok Build, Antigravity 등의 <strong>OAuth 계정을 로컬 프록시에 연결해</strong>, 여러 표준 형식의 API로 제공</li>\n<li>별도의 API 키를 발급받지 않고도 기존 SDK, API 클라이언트와 코딩 에이전트에서 구독 계정의 모델을 호출할 수 있음</li>\n<li>OpenAI Respons...<p></p></li></ul>",
+    "createdAt": "2026-09-04T00:30:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=33206",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "브라우저의 메인 스레드는 비싸다",
+    "content": "<h2>브라우저 성능의 핵심은 ‘메인 스레드’를 어떻게 사용하는가에 달려 있다</h2>\n<ul>\n<li>프론트엔드 성능 문제는 단순히 코드가 느려서가 아니라, <strong>JavaScript·렌더링·이벤트 처리가 메인 스레드를 장시간 점유하기 때문에</strong> 발생하는 경우가 많음.</li>\n<li>해결책은 크게 <strong>메인 스레드 안에...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-04T00:21:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33205",
+    "author": "baeba",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jujutsu 0.45.0",
+    "content": "<ul>\n<li>Git 호환 버전 관리 시스템 Jujutsu 0.45.0에 분기된 커밋을 결합해 자동 해소하는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">jj converge</code></strong> 명령이 추가됨</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">jj converge</code>는 <strong>휴리스틱</strong>으로 대체 커밋을 만들며, 결과를 확정하기 어렵다면 사용자에게 묻거나 비대화형 모드에서 중단함...<p></p></li></ul>",
+    "createdAt": "2026-09-04T00:02:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=33204",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ChatGPT, Claude, Grok 동시다발 장애 발생, 확인된 원인과 복구 상태",
+    "content": "<ul>\n<li>한국시간 9월 3일 밤부터 4일 새벽 사이 <strong>Claude, Grok, ChatGPT와 Codex의 장애 시간이 겹쳤으며</strong>, 세 서비스 모두 현재는 복구됨</li>\n<li>Claude와 Grok은 오후 10시 30분 무렵부터 오류가 발생했고, ChatGPT와 Codex는 오후 11시 43분부터 일부 사용자에게 404와 요청 실패가 나타남</li>\n...<p></p></ul>",
+    "createdAt": "2026-09-03T23:32:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=33203",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GPT-6 Astra, ARC-AGI-3에서 99.9% 기록, 행동 효율은 인간을 넘어서다",
+    "content": "<ul>\n<li>명시적 지시 없이 낯선 환경을 탐색하고 규칙과 목표를 알아내는 <strong>ARC-AGI-3</strong>에서 Standard 하네스 62.7%, OpenAI의 문맥 관리 기능을 활용한 Provider Adapter 99.9%를 기록함</li>\n<li>Standard의 Astra(max)는 $26,098, Provider Adapter의 Astra(high)는 $18,817이 들었으며, <strong>높은 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-03T22:04:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=33202",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Qwen 3.8 27B, Cerebras에서 초당 1,500토큰으로 제공",
+    "content": "<ul>\n<li>Cerebras가 공개 API에 <strong>Qwen 3.8 27B</strong>를 추가해, 270억 매개변수 모델의 출력을 약 <strong>초당 1,500토큰</strong>으로 생성할 수 있게 함</li>\n<li>에이전트 코딩, 도구 사용, 리서치와 장시간 워크플로를 겨냥한 <strong>Dense 멀티모달 모델</strong>로 텍스트와 이미지 입력, 조절 가능한...<p></p></li></ul>",
+    "createdAt": "2026-09-03T21:23:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=33201",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Any Human Ever - 인류 역사상 살았던 1,000억 명 중 한 사람을 무작위로 만나기",
+    "content": "<ul>\n<li><strong>출생 연도, 지역, 생애와 이야기를 단계별로 따라가며</strong>, 역사 기록에서 사라진 평범한 사람의 삶을 통계로 그려보는 프로젝트</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">When → Where → Life → Story</code> 순서로 당시의 인구와 정착지 분포에서 시공간을 뽑고, 그곳의 생활 조건을 바탕으로 한 사람을 구성함</li>...<p></p></ul>",
+    "createdAt": "2026-09-03T20:37:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=33200",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, GPT-6 Astra 공개",
+    "content": "<ul>\n<li>사전학습, 강화학습과 정렬 연구를 결합해 <strong>코딩, 문서 제작, 과학 연구와 보안 작업까지</strong> 폭넓은 전문 업무를 수행하는 차세대 모델</li>\n<li>컴퓨터와 브라우저를 직접 조작하는 작업의 속도와 정확도를 높이고, 사용자의 의도와 <strong>허가된 범위</strong>를 더 안정적으로 따르도록 설계...<p></p></li></ul>",
     "createdAt": "2026-09-03T20:34:43.000+00:00",
     "link": "https://news.hada.io/topic?id=33199",
     "author": "neo",
@@ -22,8 +176,8 @@
     }
   },
   {
-    "title": ".name 3단계 도메인 종료",
-    "content": "<ul>\n<li>Verisign이 관리 단순화를 위해 <strong>.name 3단계 도메인 전체 폐지</strong>를 제안하고 ICANN이 승인하면서, 약 25년간 운영된 neil.fraser.name도 사라질 예정임\n-.name은 일반적인 하위 도메인 재판매와 달리 xxx.yyy.name을 등록기관에서 직접 등록하고 <strong>WHOIS 기록</strong>을 제공하도록 설계...<p></p></li></ul>",
+    "title": ".name 3단계 도메인 종료, 기존 2만 2천 개도 삭제 예정",
+    "content": "<ul>\n<li>Verisign이 이용 감소와 등록기관 지원 부족을 이유로 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.name</code> 3단계 도메인 등록 서비스를 종료</strong>하고, 신규 등록뿐 아니라 기존 약 2만 2천 개도 삭제하기로 함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.name</code>의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">firstname.lastname.name</code>은 개인 사업자가 재판매한 하위 도메인이 아니...<p></p></li></ul>",
     "createdAt": "2026-09-03T17:31:46.000+00:00",
     "link": "https://news.hada.io/topic?id=33197",
     "author": "neo",
@@ -44,8 +198,8 @@
     }
   },
   {
-    "title": "ChatGPT 페이지에서 404 오류 발생",
-    "content": "<ul>\n<li><strong>404 오류</strong>가 발생한 ChatGPT 페이지는 AI 대화 입력창과 사진·파일·웹 검색 기능을 제공함</li>\n<li>로그인하면 저장된 대화를 검색해 이전 작업을 이어가고 <strong>맞춤형 답변</strong>을 받을 수 있음</li>\n<li><strong>Deep research</strong>는 여러 단계로 조사하고 출처를 비교해 인용...<p></p></li></ul>",
+    "title": "ChatGPT와 Codex에서 404 오류 발생, 라우팅 문제로 확인",
+    "content": "<ul>\n<li>한국시간 9월 3일 밤 ChatGPT 페이지가 <strong>404 오류를 반환</strong>하고, Codex에서도 새 요청과 인증 관련 기능이 제대로 동작하지 않는 장애가 발생함</li>\n<li>Codex 앱과 CLI에서는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">chatgpt.com/backend-api/codex/responses</code> 요청이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">404 Not Found</code>로 실패했으며, 기존 세션...<p></p></li></ul>",
     "createdAt": "2026-09-03T16:33:34.000+00:00",
     "link": "https://news.hada.io/topic?id=33195",
     "author": "neo",
@@ -100,7 +254,7 @@
   },
   {
     "title": "Audacity 4.0 출시",
-    "content": "<ul>\n<li><strong>Qt 기반 인터페이스</strong>와 새로운 클립 편집 모델을 도입했으며, Audacity 3의 작업 흐름은 대부분 유지하지만 일부 제어 방식과 위치가 달라짐</li>\n<li>여러 클립을 직접 선택해 함께 이동·트리밍·시간 늘이기할 수 있고, <strong>클립 그룹화</strong>와 트랙 간 자유로운 이동, 겹친 영역 교체...<p></p></li></ul>",
+    "content": "<ul>\n<li>인터페이스를 <strong>Qt 기반으로 전면 재구축</strong>하고, 여러 클립을 직접 선택해 함께 편집하는 새로운 작업 흐름을 도입함</li>\n<li>클립을 그룹화하거나 모노와 스테레오 트랙 사이에서 자유롭게 옮길 수 있으며, 이동, 트리밍, 시간 늘이기를 여러 클립에 한꺼번에 적용 가능</li>\n<li>패널 배치를 바...<p></p></li></ul>",
     "createdAt": "2026-09-03T13:31:50.000+00:00",
     "link": "https://news.hada.io/topic?id=33192",
     "author": "neo",
@@ -492,149 +646,6 @@
     "site": {
       "id": "4016fc9a-4c0e-434d-951d-f64479332217",
       "name": "FE News"
-    }
-  },
-  {
-    "title": "Zuzai, AI를 쓰지 않았음을 나타내는 새로운 단어",
-    "content": "<ul>\n<li>AI로 만든 결과물이 급증했지만 AI를 쓰지 않았음을 간결하고 긍정적으로 나타낼 말은 부족해, <strong>zuzai</strong>라는 신조어가 필요해짐</li>\n<li>“<strong>Zuzai uses zero artificial intelligence</strong>”의 재귀적 두문자어로, 소문자로 쓰고 “zoo’s eye”처럼 발음함</li>\n<li>글과 이미지뿐 ...<p></p></li></ul>",
-    "createdAt": "2026-09-02T11:03:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=33151",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "클릭하우스(ClickHouse) – 기적의 데이터베이스 기술",
-    "content": "<ul>\n<li>차트메트릭 창업자 조성문이 ClickHouse를 도입하며 겪은 경험과 그 성능의 원리를 정리한 글</li>\n<li>기존 DB의 한계에서 출발\n<ul>\n<li>MySQL/PostgreSQL 같은 관계형 DB는 인덱스에 의존하는데, 모든 질문에 맞는 인덱스를 미리 만들 수 없음. 수십억 행 규모의 GROUP BY/ORDER BY 분석 쿼리는 수 분이 걸리...<p></p></li></ul></li></ul>",
-    "createdAt": "2026-09-02T08:06:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=33149",
-    "author": "zihado",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 스마트폰 없이도 결제하기 — 교내 매점에 지문인식 결제 시스템을 직접 만들어 배포한 이야기",
-    "content": "<h2>스마트폰 반입 금지로 QR 결제가 막혀서 지문인식 결제 단말을 직접 만들었습니다</h2>\n<ul>\n<li>디미페이는 한국디지털미디어고등학교에서 사용하는 인하우스 QR 간편결제 솔루션입니다.</li>\n<li>2026학년도부터 초·중등교육법 제20조의5에 따라 교내 스마트폰 소지가 제한되면서, 기존 QR 결제를 사용할 수 없게 ...<p></p></li></ul>",
-    "createdAt": "2026-09-02T07:48:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=33148",
-    "author": "yeonfish6040",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CSS 축소는 정말 필요한가? (2023)",
-    "content": "<ul>\n<li>공백과 주석만 제거하는 <strong>CSS 축소</strong>는 코드를 읽기 어렵게 만들지만, 다운로드와 파싱 성능에서는 체감할 만한 이점이 거의 없음</li>\n<li>Bootstrap은 gzip만으로 147KB에서 22KB까지 줄며, 축소 후 gzip을 적용해도 20KB여서 절감량은 <strong>2KB</strong>에 그침</li>\n<li>무작위 공백을 넣...<p></p></li></ul>",
-    "createdAt": "2026-09-02T06:01:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33147",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "소비자 핀테크의 언번들링 - 금융상품을 묶는 앱에서 모든 계좌를 관리하는 AI 에이전트로",
-    "content": "<ul>\n<li>Robinhood처럼 여러 금융상품을 한 앱에 묶는 번들링 전략은 강력했지만, AI가 상품 탐색과 계좌 이전을 대신하면 <strong>이 묶음이 다시 풀리는 언번들링(unbundling)</strong> 이 진행될 수 있음</li>\n<li><strong>차세대 AI 네이티브 소비자 핀테크</strong>는 모든 금융상품을 직접 판매하기보다 여러 기관...<p></p></li></ul>",
-    "createdAt": "2026-09-02T03:31:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=33145",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "평균만으로는 충분하지 않다, 딥테크 스타트업을 움직이는 운영체제 [유튜브]",
-    "content": "<ul>\n<li>Science CEO이자 Neuralink 공동창업자였던 Max Hodak은 딥테크 스타트업의 성패가 기술만이 아니라 구매, 예산, 채용, 평가를 연결하는 <strong>회사의 운영체제</strong>에 달려 있다고 봄</li>\n<li>Science는 사내 플랫폼 <strong>Helix</strong>로 구매, 제조, 품질 데이터를 연결해 실험 원가와 런웨이를 ...<p></p></li></ul>",
-    "createdAt": "2026-09-02T02:06:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=33144",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Uber 규모의 소프트웨어 팩토리를 효율적으로 운영하는 법",
-    "content": "<ul>\n<li>AI를 개발 전 과정에 적용한 결과, PR의 <strong>70% 이상</strong>을 로컬·클라우드 에이전트가 담당하고 3,600개가 넘는 에이전트 스킬이 하루 3만 회 이상 실행됨</li>\n<li>2026년 2월~8월 중순 주간 사용자는 <strong>7배</strong>, 에이전트 요청은 <strong>9.4배</strong> 늘었지만, 전방위 최적화로 4월...<p></p></li></ul>",
-    "createdAt": "2026-09-02T01:15:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33141",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "에이전틱 스킬 감쇠 : 숙련은 여전히 반복에서 나온다",
-    "content": "<ul>\n<li>AI 에이전트가 코딩 과정의 시행착오/디버깅/탐색을 건너뛰고 결과를 바로 만들면서, 예전에는 자연스럽게 쌓이던 <strong>반복 경험(reps)</strong> 을 이제는 의도적으로 만들어야 함</li>\n<li>좋은 에이전트 활용에는 문제 영역을 이해해 좋은 결과를 정의하는 <strong>깊은 전문성</strong>과, 맥락/제약/테...<p></p></li></ul>",
-    "createdAt": "2026-09-02T01:05:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33140",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Firefox를 놓지 마라",
-    "content": "<ul>\n<li>Firefox가 X에 계정을 운영한다는 이유로 브라우저를 버리면, 작은 불만을 피하려다 <strong>독립 브라우저 엔진과 시장 경쟁</strong>이라는 더 큰 가치를 잃게 됨</li>\n<li>대안으로 거론된 Vivaldi도 X뿐 아니라 Threads, Facebook, Instagram, YouTube에서 활동하며, 엔진 역시 Google의 <strong>Chromium을...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-02T00:33:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=33139",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "TrueForge - LLM을 실제 에이전트로 실행하는 오픈소스 하네스",
-    "content": "<ul>\n<li>모델 호출부터 도구 사용/샌드박스/승인/컨텍스트/세션까지 <strong>에이전트 실행 루프 전체를 관리</strong>하는 런타임</li>\n<li>에이전트를 직접 구현할 때 필요한 스트리밍, 대화 저장, MCP 연결, 권한 확인과 UI를 한곳에서 처리</li>\n<li>내장 채팅 화면과 HTTP API/TypeScript SDK, 애플리케이션에 넣을...<p></p></li></ul>",
-    "createdAt": "2026-09-02T00:30:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=33138",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ChatGPT/Codex 앱, macOS 런타임에 헤드리스 LibreOffice 포함",
-    "content": "<ul>\n<li>현재 ChatGPT로 이름이 바뀐 OpenAI Codex 데스크톱 앱은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~/.cache/</code> 아래에 <strong>1.7GB 규모의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">codex-primary-runtime</code></strong> 을 저장함</li>\n<li>런타임에는 Python과 Node.js 전체 설치본, Poppler, git과 약 430MB 규모의 <strong>헤드리스 LibreOffice</strong>가 포함됨...<p></p></li></ul>",
-    "createdAt": "2026-09-02T00:19:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=33137",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "iOS용 Firefox, 선택형 광고 차단 기능 도입",
-    "content": "<ul>\n<li>iOS용 Firefox에 <strong>Ad Blocker</strong>를 내장해 다수의 서드파티 광고와 광고 관련 추적기를 로드 전에 차단할 수 있게 됨</li>\n<li>Apple의 <strong>WebKit Content Blocker</strong>와 EasyList 필터를 사용하며, 별도 확장 없이 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Settings &gt; Browsing &gt; Ad Blocker</code>에서 활성화할 ...<p></p></li></ul>",
-    "createdAt": "2026-09-02T00:17:30.000+00:00",
-    "link": "https://news.hada.io/topic?id=33136",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "에이전트 메모리는 파이프라인이 아니라 파일 형식이어야 한다",
-    "content": "<ul>\n<li>기존 에이전트 메모리는 특정 하네스에 종속되거나 별도 LLM과 데이터베이스를 연결한 복잡한 파이프라인이 되기 쉬우므로, 메모리를 <strong>단순하고 이식 가능한 데이터 형식</strong>으로 다뤄야 함</li>\n<li><strong>Memoryfield</strong>는 에이전트가 직접 작성한 짧은 Markdown 문서와 선택적 YAML 메타...<p></p></li></ul>",
-    "createdAt": "2026-09-02T00:15:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33135",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -2098,17 +2109,6 @@
     "site": {
       "id": "3f543698-d4df-4f87-a794-d95235163ad3",
       "name": "토스 기술블로그"
-    }
-  },
-  {
-    "title": "[Korean FE Article] 팩토리 모델: 코딩 에이전트가 소프트웨어 엔지니어링을 어떻게 바꾸고 있는가",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!LOsO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!LOsO!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!LOsO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!LOsO!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!LOsO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5250c11-b399-47c4-8f50-50887489d6af_1536x1024.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p><span>글 링크: </span><a href=\"https://imnotadevleoper.tistory.com/386\" target=\"_blank\" rel=\"noopener noreferrer\">https://imnotadevleoper.tistory.com/386</a></p></blockquote><h2><strong>소개</strong></h2><p>AI 코딩 도구는 단순히 코드를 더 빨리 작성해주는 수준을 넘어, <strong>소프트웨어를 만드는 방식 자체를 바꾸고 있습니다.</strong> 이 글은 자동완성에서 시작해 자율 에이전트까지 이어지는 변화를 정리하며, 앞으로 개발자의 역할이 ‘코드를 작성하는 사람’에서 <strong>여러 AI 에이전트가 일하는 공장을 설계하고 운영하는 사람</strong>으로 변화하고 있다는 관점을 소개합니다.</p><p>흥미로운 점은, <strong>변한 것은 구현 방식이지 소프트웨어 엔지니어링의 본질은 아니라는 것</strong>입니다. 오히려 명확한 요구사항, 좋은 아키텍처, 테스트, 시스템 사고, 리뷰와 같은 기본기는 AI 시대에 더욱 큰 레버리지를 만들어내는 역량이 됩니다. 앞으로 AI를 어떻게 사용할 것인가보다, <strong>AI가 가장 잘 일할 수 있는 환경을 어떻게 설계할 것인가</strong>를 고민해보고 싶은 분들께 특히 추천드리는 글입니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>AI 시대에 개발자로서 어떤 역량을 향상시키는 데 집중하고 계신지 궁금합니다! (AI를 잘 사용하기 위한 것에 비중이 높은지, 프론트엔드 외에도 기획/디자인/백엔드 등의 영역까지 넓히고 있는지, 그 외의 영역을 공부하고 있다던지 등등)</p></blockquote><p><strong>💬. </strong>최근엔 AI가 발전하면서 저는 아래와 같은 방향으로 집중을 하고 있습니다.</p><ol><li><p>AI를 활용해서 토큰을 최적화하거나 더 좋은 품질의 서비스를 내는것</p></li><li><p>평소 팀이 겪는 이슈나 내가 겪는 이슈를 해결하기 위한 도구를 만드는것</p></li><li><p>개발 팀 뿐만아니라 팀 전체의 효율을 올릴 수 있는 AI 스킬 탐구 및 비개발자 분들 AI 활용교육</p></li></ol><p>약간 이것저것 좀 잡다한 느낌도 나는데요. 요약하자면 기존 하는 일을 더 빨리 잘할 수 있게하고 그로 인해 남는 시간을 다른 문제를 해결한다던가 팀 전체의 효율을 올릴 수 있는 방법을 고민하는것 같습니다!</p><p><strong>💬. </strong>요즘 AI에게 어떤 일을 맡길지 잘 정의하는 역량이 더 중요해지고 있다는 생각이 많이 들었습니다. 최근에는 요구사항을 명확하게 정리하거나 작업을 적절한 단위로 나누는 쪽에 더 신경 쓰게 되는 것 같아요.</p><p>프론트엔드 외 영역도 조금씩 넓혀야겠다는 생각을 하고 있습니다. 백엔드나 인프라를 깊게 전문적으로 다루지는 않더라도, API 설계나 데이터 흐름, 인증/권한 같은 부분을 이해하고 있어야 AI가 만든 결과물을 제대로 검토할 수 있더라고요.</p><p>추가적으로 가능한 빠르게 뭐든지 개선하고 시도해보려고 노력하고 있습니다! 이젠 생각에서 머물게 두기보다 금방 만들 수 있기 때문에 빠르게 시도하고 검증하는 방향을 추구하는거 같아요. 🚀</p><p><strong>💬. </strong>AI를 사용하기 시작한 초반에는 AI를 잘 사용해서 생산성을 높이는 것에 집중했었는데요. 근래에는 AI를 더 잘 쓰기 위한 노력과 더불어 “모든 개발이 AI로 이뤄지는 세상에서 여전히 내가 해결해야 하는 것은 무엇일까?”를 고민하고 있어요. 구현에 필요한 시간과 비용이 극적으로 낮아진 만큼, 기존의 프론트엔드 개발 직무 경계를 넘어서서 더 앞단의 (기획/디자인/BE) 업무나 더 뒷단의 (검증/데이터 분석) 업무로의 확장이 필요한 순간들도 종종 마주하고 있구요.</p><p>나아가 어떻게 하면 나와 내 동료가 업무에서 가지고 있는 비효율을 AI를 통해 제거할 수 있을까 하는 고민들도 전에 비해서 많이 하게 되는것 같습니다. 이를 위해 메타적으로 내 하루 일과를 바라보고 이를 프로세스화 하는 것을 시도해보고 있어요.</p><p><strong>💬. </strong>다른 분들도 비슷하네요. 저 또한 AI가 등장한 이유로 생산성 극대화를 위해 많은 관심을 기울였는데요. 기존에 인간이 반복적으로 검토하던일, 배포 과정을 수동으로 하나하나 수행하던일, 테스트를 위해 개발바가 직접 옆에서 시나리오를 설명하고 사용법을 알려주는 일 등 많은 비효율적인 업무들을 단계를 줄이거나 개발자의 도움이 필요하지 않은 환경을 만들도록 하고 있어요.</p><p>sdk 테스트와 서비스 버전 업데이트시 전수 테스트하는 환경을 구축하여 모두가 테스트 하는 환경을 구축하고, 신규 LLM 모델 등장 또는 기능 업데이트시 성능 검사를 확인할 수 있도록 검증 시스템을 구축하거나, 원클릭 테스트 검증 플러그인 개발 등 다양한 방법으로 AI를 사내 생산성 시스템으로 적용하고 있어요!</p><h2><strong>목차</strong></h2><ul><li><p>추상화의 역사</p></li><li><p>AI 코딩 도구의 3세대</p></li><li><p>팩토리라는 사고방식</p></li><li><p>신입 개발자 온보딩과 닮은 점</p></li><li><p>명세가 곧 레버리지다</p></li><li><p>변하지 않은 것들</p></li><li><p>왜 테스트가 그 어느 때보다 중요해졌는가</p></li><li><p>아직 해결되지 않은 문제는 생성이 아니라 검증이다</p></li><li><p>높은 레버리지를 만드는 엔지니어링의 새로운 모습</p></li><li><p>더 큰 그림은 무엇일까?</p></li></ul>",
-    "createdAt": "2026-06-22T00:30:51.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-77b",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
