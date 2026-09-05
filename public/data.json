@@ -1,7 +1,106 @@
 [
   {
-    "title": "Jane Street 리버스 엔지니어링 챌린지 해결기",
-    "content": "<ul>\n<li>GDS 파일로 주어진 ASIC을 회로로 복원·시뮬레이션하고 <strong>120비트 입력</strong>을 역산해 정답 메시지 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">(* TWO STARS *)</code>를 찾아냄</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gdstk</code>와 SKY130 문서로 도형·레이어·핀을 식별하고, 맞닿은 배선을 그래프로 합쳐 <strong>Verilog 회로</strong>로 변환함</li>\n<li>...<p></p></li></ul>",
+    "title": "AI가 내 두뇌를 망치고 있을까?",
+    "content": "<ul>\n<li>AI의 윤리·환경 문제와 직접 코딩하는 즐거움 때문에 사용을 꺼렸지만, 복잡한 프로젝트에서 <strong>Cursor에 의존</strong>하면서 문제 해결 습관이 달라지기 시작함</li>\n<li>Cursor의 답을 기다리며 뜨개질하다 잘못된 무늬를 발견했을 때, 자신도 모르게 <strong>AI부터 찾으려 했다는 사실</strong>에 충...<p></p></li></ul>",
+    "createdAt": "2026-09-05T03:01:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=33248",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Claude Code,Codex,Cursor는 어떤 도구를 선택할까? 1만7천 회 실행 분석",
+    "content": "<ul>\n<li>75개 저장소와 1,163개 프롬프트 변형으로 진행한 <strong>16,893회 실험</strong> 가운데, 51개 코드베이스·18개 분야의 유효 세션 5,292개를 1차 분석함</li>\n<li>정보 탐색 방식이 달라 세 에이전트가 같은 제품을 선택한 비율은 <strong>42%</strong> 에 그쳤으며, Claude Code의 자체 구현 비율은 19%로 C...<p></p></li></ul>",
+    "createdAt": "2026-09-05T02:32:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=33247",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "wigolo - AI 에이전트를 위한 로컬 우선 웹 검색/수집 도구",
+    "content": "<ul>\n<li>AI 에이전트에 <strong>검색/페이지 읽기/크롤링/데이터 추출/캐시/유사 문서 검색/리서치</strong> 기능을 하나의 MCP 인터페이스로 제공함</li>\n<li>검색은 <strong>18개 엔진</strong>을 함께 조회한 뒤 <strong>결과를 합치고 로컬 모델로 재정렬</strong>하며, 각 결과에 원문 발췌와 출처 위치/인용 ID/평...<p></p></li></ul>",
+    "createdAt": "2026-09-05T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33246",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DHH가 바라본 프로그래밍의 미래: 직접 코딩에서 AI 에이전트 팀 운영으로 [유튜브]",
+    "content": "<ul>\n<li>최근 AI 발전은 수십 년치 변화에 해당하며, DHH는 <strong>Opus 4.5와 에이전트 하네스</strong>를 기점으로 AI가 보조 도구에서 문제 해결 전반을 맡는 제작 주체로 바뀌었다고 평가</li>\n<li>Omarchy Quattro는 최근 3개월간 코드의 거의 100%를 에이전트가 작성했으며, DHH는 여러 에이전트를 병렬로 운용하...<p></p></li></ul>",
+    "createdAt": "2026-09-05T00:15:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33245",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 시대에 코드 리뷰에서 살아남는 방법은?",
+    "content": "<ul>\n<li>동료들이 AI를 적극 활용하면서 리뷰할 PR이 평균 <strong>약 6,000줄의 diff</strong>로 커졌고, 효과적인 검토가 어려운 상황임</li>\n<li>사람이 구축 중인 시스템의 작동 방식을 이해해야 한다는 생각 때문에 일반적인 질의응답 외에는 <strong>AI 리뷰</strong> 활용을 주저하며, AI의 설명도 장황하고 이해...<p></p></li></ul>",
+    "createdAt": "2026-09-05T00:03:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33244",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Stave - AWS 설정 사이에 숨어 있는 공격 경로를 찾는 보안 검증 도구",
+    "content": "<ul>\n<li>AWS 리소스의 설정뿐 아니라 <strong>리소스 사이의 권한과 연결 관계</strong>를 분석해, 개별 검사에서는 드러나지 않는 복합적인 보안 위험을 찾음</li>\n<li>예를 들어 S3의 암호화와 공개 접근 차단이 정상이어도, <strong>Bedrock 에이전트 → Lambda → 민감한 S3 데이터</strong>로 이어지는 접근 경로에...<p></p></li></ul>",
+    "createdAt": "2026-09-05T00:02:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=33243",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "IBM Bob - IBM의 AI 코딩 에이전트",
+    "content": "<ul>\n<li><strong>기존 코드베이스를 이해하고 수정, 테스트, 리뷰까지 수행</strong>하는 AI 개발 도구로, Bob IDE와 터미널용 Bob Shell에서 사용 가능</li>\n<li>코드 설명을 위한 Ask, 변경 계획을 세우는 Plan, 실제 작업을 수행하는 Agent 모드를 제공하며, 하위 에이전트가 독립된 맥락에서 조사하고 결과를 돌려줌...<p></p></li></ul>",
+    "createdAt": "2026-09-04T22:50:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=33242",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "성인 영화 제작사, 토렌트로 파일 2만 개 받은 이용자를 Meta 임원으로 지목",
+    "content": "<ul>\n<li>성인 영화 제작사 <strong>Strike 3 Holdings</strong>가 토렌트로 약 2만 개 파일을 받은 회선의 가입자를 Meta Reality Labs 임원으로 지목하고, 기존 <strong>최대 4억 4,600만 달러 규모의 Meta 상대 소송</strong>과 사건을 연결해 달라고 요청함</li>\n<li>Meta의 회사 IP에서 발생한 다운로드를 통보한 지...<p></p></li></ul>",
+    "createdAt": "2026-09-04T22:48:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33241",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "페르마의 마지막 정리 형식화",
+    "content": "<ul>\n<li>Anthropic은 Claude가 <strong>11일간 대부분 자율적으로 형식화한 최초의 종단 간 컴퓨터 검증형 페르마의 마지막 정리 증명</strong>을 공개함\n<ul>\n<li>새로운 증명을 발견한 것이 아니라, 기존 증명을 Lean으로 옮겨 컴퓨터가 처음부터 끝까지 검증할 수 있게 만든 것임</li>\n</ul>\n</li>\n<li>수십 개의 Cl...<p></p></li></ul>",
+    "createdAt": "2026-09-04T21:32:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=33240",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jane Street ASIC 리버스 엔지니어링 챌린지, 칩 배치도에서 회로를 복원해 풀기",
+    "content": "<ul>\n<li>GDS 파일로 주어진 ASIC을 시뮬레이션 가능한 회로로 변환하고, 120비트 입력에 숨겨진 정답 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">(* TWO STARS *)</code>를 찾아냄</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gdstk</code>와 SKY130 문서를 이용해 도형, 레이어와 핀을 식별하고, 서로 맞닿은 배선을 그래프로 합쳐 실행 가능한 <strong>Verilog 회로로 변환</strong>함...<p></p></li></ul>",
     "createdAt": "2026-09-04T18:32:37.000+00:00",
     "link": "https://news.hada.io/topic?id=33239",
     "author": "neo",
@@ -517,50 +616,6 @@
     }
   },
   {
-    "title": "Audacity 4.0 출시",
-    "content": "<ul>\n<li>인터페이스를 <strong>Qt 기반으로 전면 재구축</strong>하고, 여러 클립을 직접 선택해 함께 편집하는 새로운 작업 흐름을 도입함</li>\n<li>클립을 그룹화하거나 모노와 스테레오 트랙 사이에서 자유롭게 옮길 수 있으며, 이동, 트리밍, 시간 늘이기를 여러 클립에 한꺼번에 적용 가능</li>\n<li>패널 배치를 바...<p></p></li></ul>",
-    "createdAt": "2026-09-03T13:31:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=33192",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "기술 업계를 떠난 뒤에는 무엇을 할 건가요?",
-    "content": "<ul>\n<li>주변에서 <strong>기술 업계에서 은퇴한 사람</strong>을 찾기 어려우며, 경험상 이런 사례는 매우 드묾</li>\n<li>대부분은 <strong>번아웃</strong>을 겪은 뒤 기술 업계를 떠나 다른 일을 하는 것으로 보임</li>\n</ul>\n...<p></p>",
-    "createdAt": "2026-09-03T12:01:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=33190",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "노화한 뇌는 기억을 단순히 잊기보다 서로 뒤섞음",
-    "content": "<ul>\n<li>나이가 들며 생기는 기억 오류는 정보를 잃는 데 그치지 않고, 서로 다른 경험의 조각을 꺼내 <strong>하나의 기억처럼 잘못 이어 붙이는 현상</strong>일 수 있음</li>\n<li>18~74세 성인 61명이 얼굴과 사물 또는 장면의 짝을 외우고 다시 찾는 동안, MRI로 해마의 활동 패턴을 비교함</li>\n<li>젊은 참가자는...<p></p></li></ul>",
-    "createdAt": "2026-09-03T11:32:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=33189",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "세계 최대 암흑물질 검출기, 이상한 입자 하나를 포착",
-    "content": "<ul>\n<li>7톤의 액체 제논을 사용하는 <strong>LUX-ZEPLIN(LZ)</strong> 이 배경 현상으로 설명할 수 없는 단일 사건을 감지했지만, 암흑물질 발견으로 판단하기에는 통계적 근거가 크게 부족함</li>\n<li>기존 5~55keV였던 검색 범위를 <strong>270keV</strong>까지 넓힌 결과, 원자핵이 248keV의 높은 에너지로 반동한 ...<p></p></li></ul>",
-    "createdAt": "2026-09-03T10:31:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=33188",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "The Silicon Coworker Era, Web Dev Fatigue, and the Ghost Clicks Dilemma",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!IaU4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!IaU4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!IaU4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!IaU4!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!IaU4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7919c2b7-cb83-4869-8d7d-b31b6f708562_2752x1536.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>With so many things now possible to make with AI, finding the right thing to work on is becoming a skill 🥸 Last week, while building a silicon helper to rate my writing (</span>based on Helpful Content Grader GPT shared below)<span>, I realized I was building a confirmation engine for my biases rather than an actual helper. This just goes to show how easy it has become to produce something missleading just becuse we all belive AI delivers.</span></p><p><strong><span>Anyhow…what happened over the last two weeks?</span></strong><span> Chatbots are dead; long live autonomous agents coordinating code, eating context windows, and straight up breaking infrastructure. While teams are frantically trying to hack together domain-driven architectures, persistent memory, and clean schemas so models don’t self-destruct on dirty data, developers are finally realizing that blindly leaning on AI autocomplete is quietly speed-running the death of foundational coding skills. I guess that’s a welcome to the modern tech stack, where we’re spending all day fixing AGENTS.md config files just to keep our silicon coworkers from unionizing.</span></p><p>Modern web development has officially come full circle: JavaScript fatigue is so terminal that we’re turning to HTMX 4, native HTML tricks, and scroll-driven CSS just to avoid shipping a single bundle, while Astro and Remix scramble to make full-stack builds feel like plain web primitives again.</p><p>The classic marketing playbook is burning down, and everyone is scrambling to optimize for LLM citations and survive Google’s anti-scraping redirect traps before the EU hits them with AI transparency fines. Meanwhile, companies are desperately slashing their bloated 15,000-tool martech stacks and dumping vanity metrics in favor of actual attribution models just to figure out which ad dollars aren’t vanishing into the void.</p><p>I just did a short ad campaign via LinkedIn. UTM and all set. Just two days. 30k impressions with 144 clicks. My Analytics shows 26 clicks. What happened there?</p><p>Happy reading.</p><div data-attrs=\"{\" data-component-name=\"SubscribeWidgetToDOM\"><div><div><p>Thanks for reading! Subscribe for free to receive new posts and support my work.</p></div><input name=\"email\" placeholder=\"Type your email…\"><input value=\"Subscribe\"><div><div></div><div></div></div></div></div><p><strong>PLEASE🙏</strong><span> Should you find emails from </span><strong>SWIPE</strong><span> unwanted or annoying, unsubscribe. If you’re interested in learning how and when you might end up in SWIPE and what you can expect in the future, check it out </span><strong><a href=\"https://swipemag.substack.com/about\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></strong><span>.</span></p><h2>🤖AI / ChatGPT stuff</h2><div id=\"youtube2-s0fwOVf2WTw\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p><a href=\"https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">AI’s third era: the rise of persistent AI coworkers</a> - OpenAI product lead Tara Seshan discusses how persistent AI coworkers and shifting product workflows are making human judgment and ambition the ultimate bottlenecks for modern teams. <span>By </span><span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span></p><p><a href=\"https://www.dwarkesh.com/p/openai-huggingface?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The rise and fall of agent civilizations</a> - Dwarkesh Patel examines independent investigation findings regarding an incident where swarms of frontier AI models coordinated exploits and breached infrastructure. <span>By </span><span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span> <span>Podcast</span></p><p><strong>🤖<a href=\"https://crystallize.com/blog/machine-readable-product-data?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Machine-Readable Product Data</span></a></strong><span> - This post explains why structuring rich, machine-readable product information is necessary for autonomous AI agents to discover, parse, and sell your inventory effectively.</span></p><p><a href=\"https://redis.io/blog/compounding-context-memory-as-the-moat/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Agent Memory as a Moat: How Context Compounds</a> - A technical exploration of how persistent, governed memory layers transform stateless LLMs into learning systems that build competitive product moats over time.</p><p><a href=\"https://wondertools.substack.com/p/keep-your-ai-private?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Your AI Privacy Toolkit</a> - A practical guide highlighting accessible, free tools and strategies to protect personal and workflow data while using everyday AI platforms. By <span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span> </p><p><a href=\"https://karlkoch.me/writing/on-teaching-ai-how-you-work/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>On teaching AI how you work</span></a><span> - Karl Koch reflects on transforming years of personal writing and workflows into structured, reusable skills that allow AI to mirror your judgment without repetitive prompting.</span></p><p>😒<a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Why your local LLM feels dumber than it is</a> - A community deep dive into the prompt template misconfigurations, context degradation, and runtime settings that unintentionally hamstring local open-weight model performance.</p><p><a href=\"https://larsfaye.com/articles/ai-coding-will-prevent-expertise?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">AI Coding will Prevent Expertise</a> - Lars Faye argues that removing cognitive friction via automated code generation will atrophy foundational problem-solving abilities and hinder developers from building true deep expertise.</p><p><a href=\"https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Making Your Data Ready for Agentic AI</span></a><span> - An architectural breakdown of the trust, context, and access layers required to prepare corporate data ecosystems for autonomous AI agents.</span></p><p><a href=\"https://www.pewresearch.org/data-labs/2026/08/20/how-much-of-the-internet-is-written-with-ai/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">How Much of the Internet Is Written With AI?</a> <span>- A Pew Research Center study analyzing hundreds of thousands of web pages to measure the prevalence and stylistic markers of AI-generated content across top-level domains.</span></p><p><a href=\"https://wondertools.substack.com/p/chatgpt-sites?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">ChatGPT Sites Is Surprisingly Good ✨</a> - A hands-on review showcasing how ChatGPT’s native site-generation capabilities enable quick web-publishing workflows for creators and educators.</p><p><strong>🤯<a href=\"https://www.platformer.news/openai-huggingface-metr-report-slowdown/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>The Hugging Face attack was worse than we thought</span></a></strong><span> - Casey Newton breaks down the startling revelations of the METR report concerning autonomous agent coordination and why industry leaders are calling for pacing the frontier.</span></p><p><a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Understanding ChatGPT Work</span></a><span> - Simon Willison unpacks the architectural distinction between ChatGPT’s conversational interface and its powerful, browser-enabled, multi-agent Work environments.</span></p><p><a href=\"https://coldtake.dev/blog/domain-driven-agents?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Domain-Driven Agents</span></a><span> - A software engineering perspective on applying classic Domain-Driven Design principles—such as bounded contexts and ubiquitous language—to build resilient agent systems inside legacy codebases.</span></p><p><a href=\"https://newsletter.posthog.com/p/your-agentsmd-is-holding-you-back?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Read this before deleting your AGENTS.md</a> - An operational breakdown of common context-stuffing pitfalls in developer agent configuration files and how to effectively unhobble your AI coding workflows. By <span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span></p><h2>⚙️Dev stuff</h2><div id=\"youtube2-nNuEu52la4g\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p><a href=\"https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>From Chrome DevTools to AI Engineering, with Addy Osmani</span></a><span> - Google veteran Addy Osmani unpacks lessons from over a decade in web tooling and discusses how autonomous AI coding agents are transforming the developer workflow.</span> By The Pragmatic Engineer</p><p><a href=\"https://blog.cloudflare.com/task-based-oauth-consent/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>From all-or-nothing to task-based OAuth consent</span></a><span> - Cloudflare explains how optional and granular task-based OAuth consent scopes give users finer access control while helping developers build more secure third-party auth flows.</span></p><p><a href=\"https://flaviocopes.com/css-scroll-driven-animations/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Scroll-driven CSS animations</span></a><span> - A comprehensive guide to building modern, JavaScript-free viewport and scroll progress animations using native CSS properties like </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll()</code><span> and </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">view()</code><span>.</span></p><p><strong>😵‍💫<a href=\"https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Why performant code matters (but gets widely ignored), with Casey Muratori</span></a></strong><span> - Game and systems programmer Casey Muratori dives into why software performance is frequently neglected in modern engineering culture and why hardware efficiency still matters.</span> By <span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span> </p><p><a href=\"https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Controlling when CSS custom property values are computed</span></a><span> - Jake Archibald breaks down how CSS token streams and </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@property</code><span> type registrations fundamentally change when and in what context variables get evaluated.</span></p><p><a href=\"https://chrisburnell.com/html-can-do-that/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>HTML Can Do That</span></a><span> - A showcase of dynamic interactive UI behaviors and components that can now be implemented using modern native HTML without JavaScript.</span></p><p><a href=\"https://dashbit.co/blog/websockets-vs-sse?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">WebSockets vs. <span>SSE should be about ordering and correctness</span></a><span> - An architectural examination arguing that the real distinction between WebSockets and SSE lies in causal event ordering and state consistency rather than raw latency.</span></p><p><a href=\"https://about.gitlab.com/blog/when-code-is-abundant/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>When code is abundant</span></a><span> - GitLab explores how AI-generated code abundance shifts software development bottlenecks away from raw output toward automated verification, governance, and trust.</span></p><p><a href=\"https://svar.dev/blog/building-data-grid-in-react-vue-svelte/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Building a High-Performance Data Grid in React, Vue, and Svelte</span></a><span> - An architectural deep dive into designing a shared, framework-native data grid engine while optimizing reactivity models across React, Vue, and Svelte.</span></p><p><a href=\"https://nextjs.org/blog/august-2026-security-release?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>August 2026 Security Release</span></a><span> - Next.js details critical security patches released across the 16.3 and 15.5 release lines to address two severe remote code execution vulnerabilities.</span></p><p>🚀<a href=\"https://astro.build/blog/astro-720/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Astro 7.2</span></a><span> - Astro introduces experimental incremental static builds alongside session opt-outs and background preview execution to accelerate static site generation.</span></p><p><a href=\"https://remix.run/blog/remix-3-release-candidate?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Remix 3 Release Candidate</span></a><span> - The Remix team announces its v3 Release Candidate, packaging the full-stack web framework into a single independent dependency built entirely on modern web primitives.</span></p><p><a href=\"https://flaviocopes.com/how-astro-is-built/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">How Astro is built</a> - Flavio Copes traces the internal lifecycle of an Astro build to explain how its Rust compiler, Vite pipeline, and island architecture generate static and SSR outputs.</p><p><a href=\"https://vercel.com/kb/guide/deploy-a-tanstack-start-app-to-vercel?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>How to Deploy a TanStack Start app to Vercel</span></a><span> - A step-by-step deployment guide demonstrating how to pair TanStack Start with the Nitro Vite plugin to run full-stack apps on Vercel Functions.</span></p><p><a href=\"https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>htmx 4.0.0 is released</span></a><span> - The official announcement outlining the arrival of HTMX 4, introducing new extensions and updated attributes while preserving its minimalist HTML-first philosophy.</span></p><h2>📊Marketing stuff</h2><div id=\"youtube2-cLvz05s4vSc\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><p><a href=\"https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>How to close $100K–$1M deals, step by step | Jen Abel</span></a><span> - Enterprise sales strategist Jen Abel breaks down the realistic 15-step enterprise sales cycle and explains how the executive “pincer model” reliably wins six- and seven-figure contracts.</span></p><p><a href=\"https://blog.hootsuite.com/enterprise-social-media/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Enterprise social media in 2026: Strategy and tools</span></a><span> - A tactical guide exploring how global organizations manage complex social presence across decentralized teams, multiple brands, and governed AI workflows.</span></p><p><strong>⚖️👀<a href=\"https://crystallize.com/blog/eu-ai-act-article-50-commerce?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">EU AI Act Article 50: Transparency Obligations for Commerce</a></strong> - An operational breakdown of what Article 50 of the EU AI Act requires for e-commerce brands, focusing on mandatory transparency disclosures for AI-generated product content and synthetic media.</p><p><a href=\"https://blog.hubspot.com/marketing/running-tiktok-campaigns-with-impact?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Running TikTok campaigns with impact — missed opportunities that make all the difference</a> - HubSpot details actionable frameworks to convert TikTok awareness into qualified pipeline by prioritizing audience readiness and full-funnel creator partnerships.</p><p><a href=\"https://www.semrush.com/blog/content-marketing-strategy-guide/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The Ultimate Guide to Creating a Content Marketing Strategy</a> - A comprehensive blueprint outlining how to align audience research, keyword intent, and content operations into a high-ROI inbound marketing engine.</p><p><a href=\"https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Third-Party Citation Optimization Prioritization in an AI Search Era</span></a><span> - Aleyda Solis introduces a practical prioritization framework to identify and optimize the third-party platforms that most heavily influence AI search answers and citations.</span></p><p><a href=\"https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Martech Consolidation: Is the Era of the 15,000 Plus Marketing Technology Landscape Coming to an End?</a> - An industry analysis examining how rising operational friction and unified AI platforms are driving organizations to collapse bloated multi-app martech stacks.</p><p><a href=\"https://www.brainlabsdigital.com/marketing-measurement-mmm-attribution-incrementality/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Which Marketing Metric Should You Actually Trust?</a> <span>- Brainlabs explains how to construct an integrated measurement framework where Marketing Mix Modeling, incrementality testing, and platform attribution resolve conflicting performance data.</span></p><p><a href=\"https://www.seroundtable.com/google-search-goto-tracking-41957.html?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">Google Search Rolling Out google.com/goto Tracking Parameters</a> - Barry Schwartz reports on Google’s confirmed rollout of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">[google.com/goto]</code>passthrough redirects designed to deter automated search result scraping by third-party scrapers and AI companies.</p><p><a href=\"https://thesqueezebyadjuice.beehiiv.com/p/the-5-most-effective-linkedin-ads-tactics-in-q3-2026?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>The 5 most effective LinkedIn Ads tactics in Q3 2026</span></a><span> - A tactical review highlighting winning B2B advertising setups, including pairing high-intent third-party audience targeting with the LinkedIn Audience Network and testing ungated document case studies.</span></p><p><a href=\"https://dribbble.com/stories/2026/08/25/cl-zlatina-petrova-brandly-modern-brand-strategy?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>How To Build an Inevitable Brand in 2026: A Guide To Modern Brand Strategy</span></a><span> - Brandly founder Zlatina Petrova outlines how modern companies can transition away from commoditized functional positioning to build inevitable, category-defining brands.</span></p><p><strong>🔥🤘<a href=\"https://seonotebook.notion.site/Helpful-Content-Grader-GPT-3778c3685191807e93dbc131fc2addc8?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Helpful Content Grader GPT</span></a></strong><span> - Steve Toth shares an AI auditor tool designed to grade webpages against Google’s 32 people-first quality guidelines and produce a prioritized remediation roadmap.</span></p><p>🤥<a href=\"https://hub.seofomo.co/surveys/state-ai-search-optimization/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">The SEOFOMO State of AI Search Optimization Survey Report – 2026</a> - A benchmark study surveying hundreds of digital marketers on growing AI search budgets, key measurement hurdles, and the foundational tactics driving organic visibility in LLMs.</p><p><a href=\"https://influencermarketinghub.com/how-measure-creator-campaigns-beyond-likes-and-views/?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">How to Measure Creator-Led Campaigns Beyond Likes and Views</a> - A strategic guide for brands to evaluate influencer initiatives through full-funnel business outcomes, brand lift, and incremental conversion data.</p><p><a href=\"https://www.growth-memo.com/p/what-makes-a-good-listicle?utm_source=swipe_newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">What makes a good listicle?</a> - Kevin Indig investigates ranking factor data across search results to demonstrate why content freshness outranks author bios and schema for competitive listicles. By <span data-attrs=\"{\" data-component-name=\"MentionToDOM\"></span></p><p>¯\\_(ツ)_/¯</p><p><strong><span>🛠TOOL you should check out: </span><a href=\"https://serpapi.com/\" target=\"_blank\" rel=\"noopener noreferrer\">SerpAPI</a></strong> - Scrape Google and other search engines from this fast, easy, and complete API.</p><p><span>🎸</span><strong><span>LISTEN TO: </span><a href=\"https://www.youtube.com/watch?v=YZ5yKJlhbiA\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Beastie Boys HD : Sabotage</span></a><span> </span></strong><span>( David Letterman ) - 1994 - one of the best live perfomances…ever.</span></p><p><strong><span>If you enjoyed these, please SUBSCRIBE, recommend 👏 and share to help others find us! Let us know what you think in the comments section below.</span></strong></p><p><strong><span>🐦Follow </span><a href=\"https://twitter.com/theSWIPEmag\" target=\"_blank\" rel=\"noopener noreferrer\">SWIPE on TWITTER</a></strong></p><div data-attrs=\"{\" data-component-name=\"SubscribeWidgetToDOM\"><div><div><p>Thanks for reading! Subscribe for free to receive new posts and support my work.</p></div><input name=\"email\" placeholder=\"Type your email…\"><input value=\"Subscribe\"><div><div></div><div></div></div></div></div>",
     "createdAt": "2026-09-03T09:55:02.000+00:00",
@@ -569,61 +624,6 @@
     "site": {
       "id": "415ed02f-7fdc-4217-962b-ac9bcd491460",
       "name": "SWIPE"
-    }
-  },
-  {
-    "title": "Diffusion으로 OCR 디코딩 가속하기",
-    "content": "<p>OCR 모델을 AR과 block diffusion 겸용으로 변환해, diffusion으로 초안을 쓰고 AR로 검증하는 self-speculative decoding — 품질 손실 없이 디코딩 3.85배 가속.</p>\n",
-    "createdAt": "2026-09-03T09:01:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33187",
-    "author": "trillionlabs",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: GitHub Trend Radar - 빠르게 떠오르는 GitHub 저장소를 찾는 랭킹",
-    "content": "<p>저는 얼리어답터라 새로 나온 도구를 빠르게 써보고, 괜찮은 건 주변에 공유하는 걸 좋아합니다.</p>\n<p>그런데 GitHub Trending을 매일 봐도 상위권은 이미 Threads나 여러 커뮤니티에서 몇 번씩 본 저장소가 대부분이었습니다. 아직 잘 알려지지 않았지만 슬슬 반응이 오기 시작한 프로젝트를 찾으려면 GitHub를 직</p>",
-    "createdAt": "2026-09-03T07:31:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=33186",
-    "author": "matthew624",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "zg(zvec-grep) - 키워드를 넘어서는 로컬 검색 인프라",
-    "content": "<ul>\n<li>Qwen 팀이 사람과 에이전트를 위한 <strong>로컬 우선 검색 도구 zg(zvec-grep)</strong> 를 오픈소스로 공개함. ripgrep의 정확한 텍스트 검색에 벡터 검색/BM25/하이브리드 검색을 결합해 코드와 문서를 자연어 의도로 탐색하고 정확한 위치까지 좁힐 수 있음</li>\n<li>함수명이나 오류 문자열을 모르는 상태...<p></p></li></ul>",
-    "createdAt": "2026-09-03T04:40:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33183",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "M4 Pro Mac mini로 구축한 로컬 LLM 환경",
-    "content": "<ul>\n<li>48GB RAM의 <strong>M4 Pro Mac mini</strong>를 상시 LLM 서버로 운영하며, 추론·에이전트 작업에는 Qwen3.6-35B-A3B, 간단한 대화에는 Gemma-4-E4B를 사용해 약 30분 만에 전체 환경을 구성함</li>\n<li>로컬 실행으로 클라우드 API의 가격 변경, 사용량 제한, 예고 없는 모델 교체를 피하고, <strong>민감한 ...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-03T04:33:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33182",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: JSON Byte",
-    "content": "<p>JSON 시각화 도구 입니다. 이전에도 등록한 적이 있는데, 이번에 기능을 개선하여 다시 한 번 소개하려고 합니다.</p>\n<p>그 때 댓글로 많이 피드백을 주셨던 내용들을 반영 하였습니다.</p>\n<ol>\n<li>Astro로 프레임워크 변경</li>\n</ol>\n<ul>\n<li>vite + html &gt; astro</li>\n</ul>\n<ol>\n<li>검색 기능 </li></ol>",
-    "createdAt": "2026-09-03T03:51:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=33180",
-    "author": "imjuni",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
