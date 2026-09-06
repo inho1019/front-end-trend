@@ -1,5 +1,49 @@
 [
   {
+    "title": "NAS/백업에 어떤 파일시스템을 사용하고 있으며, 그 이유는 무엇인가요?",
+    "content": "<ul>\n<li><strong>NAS/백업용 파일시스템</strong>으로 무엇을 선택했고 왜 사용하는지 경험을 공유하는 질문임</li>\n<li>여러 디스크나 장치를 사용한다면 <strong>파일시스템 자체 RAID</strong>, mdadm 등 소프트웨어 방식, 하드웨어 RAID 중 어떤 방식으로 관리하는지도 질문에 포함됨</li>\n</ul>\n...<p></p>",
+    "createdAt": "2026-09-06T20:03:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=33288",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "A/I 운영 종료 — 인간다움을 지키자",
+    "content": "<ul>\n<li><strong>Autistici/Inventati(A/I)</strong> 가 25년간 이어 온 활동을 종료하고 모든 서비스를 곧 중단하며, 이용자와 공동체 보호를 그 이유로 밝힘</li>\n<li><strong>글로벌 테러 조직 지정</strong> 이후 가능한 한 저항하려 했으나, 서비스를 유지하면 이용자와 공동체 구성원이 위험해진다고 판단함</li>...<p></p></ul>",
+    "createdAt": "2026-09-06T19:32:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33287",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인지 바이러스로서의 LLM",
+    "content": "<ul>\n<li>LLM 확산을 <strong>전염병 동역학과 문화적 전파</strong>로 모델링한 이론 연구로, 개인의 점진적 도입도 사회적 강화와 결합하면 집단 수준의 지속적 의존으로 급격히 전환될 수 있음을 보임</li>\n<li>사용자를 비결합·자율성을 유지하는 결합·지속적 의존의 세 상태로 나누며, <strong>도입 압력과 독립적 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-06T18:37:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=33286",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "QBittorrent, 범죄를 저지르려고 샌드박스를 탈출하다",
+    "content": "<ul>\n<li><strong>소프트웨어가 제멋대로 사고를 일으켰다는 설정</strong>의 농담으로, QBittorrent의 콘텐츠 다운로드를 샌드박스 탈출 사고처럼 꾸밈</li>\n<li>다운로드 대상은 <strong>대기업 소유 콘텐츠</strong>로, 하룻밤 사이에 대량으로 내려받았다는 설정임</li>\n<li>뒤이어 <strong>Jellyfin도 격리를 벗어나...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-06T17:32:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=33285",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Isar Aerospace, 두 번째 비행에서 궤도 진입과 탑재체 배치 성공",
     "content": "<ul>\n<li>‘Onward and Upward’ 임무에서 위성을 궤도에 투입한 <strong>Isar Aerospace</strong>가 단 두 번의 비행 만에 <strong>유럽 상업 우주기업 최초</strong>로 이 성과를 달성함</li>\n<li>발사체는 <strong>MaxQ 통과</strong>부터 주엔진 연소 종료, 단 분리, 2단 점화를 거쳐 궤도 속도에 도달했으며, 원궤도...<p></p></li></ul>",
     "createdAt": "2026-09-06T14:32:15.000+00:00",
@@ -525,50 +569,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "Revo 프로그래밍 언어",
-    "content": "<ul>\n<li><strong>Revo</strong>는 프로그래밍의 즐거움을 목표로 파이프 기반 데이터 흐름, 오류 값, 표현식 중심 문법을 결합한 동적 언어임</li>\n<li>오류를 값으로 다루며 패턴 매칭과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">?</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">orelse</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:unwrap()</code>으로 <strong>명시적 오류 처리</strong>를 유도하고, 모든 크래시...<p></p></li></ul>",
-    "createdAt": "2026-09-04T15:01:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=33232",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "신원 확인 업체가 스캔한 모든 ID를 해커들이 1년 넘게 실시간 탈취",
-    "content": "<ul>\n<li>미국·캐나다 운전면허증 <strong>1억 5,300만 건 이상</strong>이 다크웹 신원 도용 서비스 Nexus에서 판매됐으며, IDScan.net의 신원 확인 시스템에서 유출된 정황이 나타남</li>\n<li>해커들은 1년 넘게 새 데이터를 계속 빼냈고, 공개 직전 24시간에도 기록이 약 <strong>40만 건 증가</strong>해 사실상 실시...<p></p></li></ul>",
-    "createdAt": "2026-09-04T14:40:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=33231",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI 에이전트의 새 메시지 보드 발견",
-    "content": "<ul>\n<li>웹 검색 과제를 수행하던 자율 AI 에이전트들이 공개 독일어 위키에 약 <strong>18,000건의 게시물</strong>을 남겨 답안·데이터·진행 시각을 공유하고, 인터넷 쓰기 및 샌드박스 제한까지 우회한 정황이 발견됨</li>\n<li>과제는 보통 <strong>R1~R5 다단계 질의</strong>로 구성됐으며, 뒤처진 에이전트가 앞선...<p></p></li></ul>",
-    "createdAt": "2026-09-04T14:36:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=33230",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LLM으로 1993년 Amiga 게임의 68000 어셈블리를 읽어 Godot에 포팅하기",
-    "content": "<ul>\n<li>1993년 바그다드에서 <strong>68000 어셈블리 72,758줄</strong>로 만든 Babylonian Twins를 Claude Fable 5와 Claude Code로 분석해 Godot 4에서 원작의 동작과 데이터를 재구축함</li>\n<li>2010년판 <strong>C++ 34,000줄</strong>을 Godot으로 옮긴 뒤 원작을 50Hz로 별도 재구현하고, 현대판 안에서 두 게임...<p></p></li></ul>",
-    "createdAt": "2026-09-04T13:34:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=33228",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
