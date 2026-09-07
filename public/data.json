@@ -1,7 +1,238 @@
 [
   {
+    "title": "Show GN: VIBE-GAME ( AI 에게 일 시키고 기다리면서 하기에 좋은 게임 )",
+    "content": "<p>요즘 AI 로 개발을 진행하다 보니 작업 시켜두고 기다리기에 지루한 시간들이 자주 생기더라구요.<br>\n앱을 다운로드 해서 하자니 뭔가 번거롭기도 하고 광고에 시달리기도 귀찮고 구형 폰이라서 최신 게임도 잘 안 돌아가고 해서 심심풀이로 Codex Sol Max 로 그냥 개발해보라고 했는데 퀄리티가 나름 괜찮아서 틈...</p>",
+    "createdAt": "2026-09-07T02:26:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=33311",
+    "author": "orson",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Alien Mind: 인간과는 다른, 낯선 지성",
+    "content": "<ul>\n<li>OpenAI는 추론 모델의 발전이 <strong>재귀적 자기개선(RSI)</strong> 으로 이어질 수 있다고 예상하며, 정렬과 감시 역량이 지능 향상을 따라가지 못하는 만큼 <strong>개발 속도를 안전성에 맞춰 제한</strong>해야 한다고 강조함</li>\n<li>AI는 사람이 설계한 규칙보다 대규모 최적화로 성장하는 시스템에 가...<p></p></li></ul>",
+    "createdAt": "2026-09-07T01:37:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33309",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "티빙 3,954만 계정 정보 유출…보상은 직접 신청해야 함",
+    "content": "<ul>\n<li>정부 조사에서 <strong>Tving 약 3,954만 계정의 정보와 소스코드 유출</strong>이 확인됐으며, 현재 이용 중인 계정뿐 아니라 휴면/탈퇴 등 비활성 계정도 포함됨</li>\n<li>이름, 휴대전화번호, 이메일, 생년월일, 결제이력 등 <strong>20개 항목, 70종의 정보</strong>가 유출됐고, 일부 개인정보는 암호화키...<p></p></li></ul>",
+    "createdAt": "2026-09-07T01:15:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33308",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GPT-6 Astra, 수능 벤치마크 첫 전 영역 만점",
+    "content": "<ul>\n<li>개인 개발자가 운영하는 <strong>2026학년도 수능 LLM 평가에서 GPT-6 Astra가 처음으로 종합 450점 만점</strong>을 기록함</li>\n<li>국어와 수학의 모든 선택과목, 영어, 한국사와 <strong>평가 대상 탐구 4과목을 모두 맞혔으며</strong>, 기존 모델들이 어려워했던 사회문화 8번도 해결함</li>\n<li>일반 모...<p></p></li></ul>",
+    "createdAt": "2026-09-07T01:05:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33307",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "기존 강자들이 몰려온다: 특화 AI 스타트업은 어디서 이길 수 있을까",
+    "content": "<ul>\n<li>Salesforce와 Docusign 같은 기존 소프트웨어 기업이 <strong>데이터를 보관하는 데서 업무를 직접 수행하는 AI로 확장</strong>하면서, 일부 업무는 기존 시스템과 범용 에이전트의 결합만으로 충분해질 수 있음</li>\n<li>그러나 계약서를 관리하는 것과 법률 사안을 해결하는 것은 다르며, 특화 AI 스타트업에...<p></p></li></ul>",
+    "createdAt": "2026-09-07T00:55:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33306",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Databasus - 실제 복원까지 검증하는 셀프 호스팅 데이터베이스 백업 도구",
+    "content": "<ul>\n<li>백업 일정과 저장 위치, 보관 기간을 관리하고 <strong>백업한 데이터가 실제로 복원되는지까지 자동으로 확인</strong>하는 도구</li>\n<li>PostgreSQL/MySQL/MariaDB/MongoDB의 논리 백업 지원</li>\n<li>PostgreSQL은 <strong>전체/증분 물리 백업과 특정 시점 복구(PITR)</strong> 도 가능\n<ul>\n<li>WAL 변경...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-09-07T00:40:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33305",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "브라운필드의 코끼리: AI로 개인은 빨라졌는데, 조직은 왜 그대로인가",
+    "content": "<ul>\n<li>기존 시스템과 조직 구조가 자리 잡은 <strong>브라운필드 기업</strong>의 AI 전환에는 기술뿐 아니라, <strong>자신의 역할과 팀의 권한을 정체성으로 여기는 문제</strong>가 걸려 있음</li>\n<li>AI로 담당 업무를 빠르게 처리해도 다른 팀의 승인과 백로그를 기다려야 한다면 <strong>조직 경계를 넘는 순간...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-07T00:35:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33304",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "M3 Mac을 지원하는 Asahi Linux",
+    "content": "<ul>\n<li><strong>Asahi Linux의 M3 지원 코드</strong>가 설치 프로그램에 병합되어, M3·M3 Pro·M3 Max 기반 MacBook과 iMac에서도 사용할 수 있음</li>\n<li><strong>M1·M2에서 지원하던 기능 대부분</strong>이 작동하며, 웹캠·내장 마이크·WiFi·Bluetooth·최대 USB 3 10Gb/s와 <strong>AV1 하드웨어 가속 디코딩</strong></li></ul>",
+    "createdAt": "2026-09-07T00:32:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33303",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLGo - C와 Python 라이브러리를 활용하는 LLVM 기반 Go 컴파일러",
+    "content": "<ul>\n<li><strong>Go로 코드를 작성하면서 C와 Python 생태계의 라이브러리를 함께 사용</strong>할 수 있도록 만든 컴파일러</li>\n<li>Go 소스를 LLVM으로 컴파일하며, C 라이브러리와는 <strong>C ABI 공통 호출 규약</strong>으로 연결</li>\n<li>C 함수를 직접 호출해 일반 Go의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cgo</code>에서 발생하는 스택과...<p></p></li></ul>",
+    "createdAt": "2026-09-07T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=33302",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GPT-6 Astra: 하네스가 곧 제품이다",
+    "content": "<ul>\n<li>같은 GPT-6 Astra도 ARC-AGI-3의 동일한 High 추론 설정에서 <strong>하네스에 따라 54.8%와 99.9%</strong> 를 기록함. 즉, 장기 실행 에이전트는 모델뿐 아니라 <strong>메모리, 도구, 문맥 관리, 제어 루프를 합친 시스템으로 평가해야 함</strong></li>\n<li>요청 사이에 <strong>이전 추론 상태를 보존하고...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-07T00:25:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33301",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "코드가 나빠지는 데는 한계가 없다",
+    "content": "<ul>\n<li>건물과 달리 소프트웨어에는 <strong>물리적 붕괴 한계가 없어</strong>, 시스템이 계속 작동하는 동안에도 복잡성과 성능 저하가 끝없이 누적될 수 있음</li>\n<li>Amazon 주문 처리 조직에서는 <strong>지식 소실과 미완료 재설계</strong>가 반복되면서, 기존 구조에 새 계층과 인력이 계속 남는 악순환이 이...<p></p></li></ul>",
+    "createdAt": "2026-09-07T00:02:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=33300",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 빵어전 – 재료를 조합해 빵 타워를 만드는 모바일 타워디펜스",
+    "content": "<p>안녕하세요. 빵어전을 만들고 있는 개발자입니다.</p>\n<p>반죽에 소금·버터·팥 같은 재료를 더해 빵 타워를 만들고, 밀려오는 안개 괴물에게서 작은 화덕을 지키는 세로형 픽셀 타워디펜스입니다. 같은 재료도 조합 순서에 따라 다른 빵이 되고, 적의 특성과 길을 보고 배치해야 합니다. 64종 빵 타워의 조합을 발견하</p>",
+    "createdAt": "2026-09-06T23:35:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=33299",
+    "author": "lkp0907",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "‘영원한 화학물질’의 재앙은 어떻게 비밀로 유지됐나",
+    "content": "<ul>\n<li><strong>3M</strong>은 1970년대부터 ‘영원한 화학물질’의 독성과 일반인 혈액 내 존재를 알고도 생산을 계속했으며, 전직 과학자 <strong>Kris Hansen의 증언과 내부 문서</strong>가 수십 년간 정보가 묻힌 과정을 드러냄</li>\n<li>변호사의 비공개 지시뿐 아니라 <strong>연구 결과에 대한 반복적인 불신과...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-06T23:34:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=33298",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nitter, 개발 지속 확정",
+    "content": "<blockquote>\n<p>업데이트: 법적 검토를 거쳐 Nitter 프로젝트의 지속 운영을 확정 지었습니다. 상세한 내용은 빠른 시일 내에 발표할 예정입니다.</p>\n</blockquote>\n<p>https://news.hada.io/topic?id=32995<br>\n지난달 x.com의 요구로 개발이 중단된 Nitter 프로젝트의 개발 지속이 확정되었습니다.</p>\n",
+    "createdAt": "2026-09-06T23:31:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=33297",
+    "author": "unsure4000",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "둠스크롤링으로 스스로를 죽음으로 몰아가는 우리",
+    "content": "<ul>\n<li>학생의 독해력과 성인·아동의 여가 독서가 함께 줄어드는 가운데, James Marriott의 <strong>《The New Dark Ages》</strong> 는 문해력 쇠퇴가 문화와 정치, 민주주의에 미치는 영향을 추적함</li>\n<li>변화는 스마트폰 이전의 <strong>텔레비전 확산</strong>에서 시작됨 — TV가 독서와 사회적 교류를 잠식한...<p></p></li></ul>",
+    "createdAt": "2026-09-06T22:42:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=33295",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nitter와 XCancel, 법률 자문 후 서비스 재개",
+    "content": "<ul>\n<li>X Corp.가 Nitter 인스턴스와 프로젝트 저장소의 영구 폐쇄를 요구한 가운데, Nitter는 <strong>법률 자문을 거쳐 프로젝트를 계속 진행</strong>하기로 함</li>\n<li>Nitter는 개인정보 보호와 성능에 초점을 둔 무료 오픈소스 Twitter 대체 프런트엔드로, <strong>모든 요청을 백엔드로 전달</strong>해 클라이...<p></p></li></ul>",
+    "createdAt": "2026-09-06T22:39:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=33294",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI로 도구를 만드는 것과 기업을 바꾸는 것은 다른 일이다",
+    "content": "<ul>\n<li>AI로 도구를 쉽게 만들거나 업무를 직접 처리할 수 있어도, <strong>어떤 도구가 필요한지 발견하고 조직 전체가 쓰게 만드는 일</strong>은 별개임</li>\n<li>기업 소프트웨어는 표준화한 전용 시스템과 Excel·이메일을 활용한 <strong>즉흥적 업무 처리 사이를 오가며</strong> 발전하고, AI는 이 구도를 없애...<p></p></li></ul>",
+    "createdAt": "2026-09-06T21:46:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=33293",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "로봇 팔을 제어하는 GPT-6 Astra",
+    "content": "<ul>\n<li>Robocurve가 카메라 영상을 보고 로봇 팔을 움직이도록 한 실험에서, Astra는 <strong>블록을 집어 그릇에 넣는 작업을 20회 중 19회 성공</strong>해 Claude Fable 5.1의 8회를 크게 앞섬</li>\n<li>블록 작업의 회당 평균 시간은 <strong>6.8분에서 2.5분</strong>, 추정 모델 호출 비용은 <strong>2.12달러에...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-06T21:40:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=33292",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Artificial Analysis, AAII v4.2 발표 - 실제 업무 평가 강화, 비공개 테스트 확대",
+    "content": "<ul>\n<li>AI 모델의 종합 성능을 비교하는 <strong>Intelligence Index v4.2</strong>를 공개하며, 복잡한 업무 수행과 장문 문서 분석을 평가에 추가함</li>\n<li>수천 개의 자료를 활용하는 <strong>에이전트 지식 업무</strong>와 여러 페이지에 흩어진 근거를 종합하는 <strong>전문 문서 추론</strong>을 평가하고, ...<p></p></li></ul>",
+    "createdAt": "2026-09-06T21:35:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=33291",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "UN, 지구 온난화 1.5°C 한계 초과 전망",
+    "content": "<ul>\n<li>UN 환경계획은 석탄·석유·가스 사용에 따른 온난화로 <strong>향후 몇 년 안에 산업화 이전 대비 1.5°C 한계를 넘을 것</strong>으로 전망하며, 초과 폭을 억제한 뒤 기온을 다시 낮추는 대응을 권고함</li>\n<li><strong>1.5°C 목표는 유지</strong>하되, 화석연료 사용 중단과 대기 중 이산화탄소 제거로 한계...<p></p></li></ul>",
+    "createdAt": "2026-09-06T21:34:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33290",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "당신의 지적 바지 지퍼가 열려 있습니다 (2025)",
+    "content": "<ul>\n<li>LinkedIn에서 <strong>LLM에 게시물 작성을 맡기면</strong> 글쓴이 고유의 목소리가 사라지고, 독자가 내용의 진정성까지 의심하게 될 수 있음</li>\n<li><strong>이모지, 한 문장짜리 문단, 반복적인 대조 구문, 긴 대시</strong>는 LLM 생성 글에 익숙한 독자에게 쉽게 눈에 띄어, 그럴듯한 글을 기대한 것과...<p></p></li></ul>",
+    "createdAt": "2026-09-06T20:33:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=33289",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "NAS/백업에 어떤 파일시스템을 사용하고 있으며, 그 이유는 무엇인가요?",
-    "content": "<ul>\n<li><strong>NAS/백업용 파일시스템</strong>으로 무엇을 선택했고 왜 사용하는지 경험을 공유하는 질문임</li>\n<li>여러 디스크나 장치를 사용한다면 <strong>파일시스템 자체 RAID</strong>, mdadm 등 소프트웨어 방식, 하드웨어 RAID 중 어떤 방식으로 관리하는지도 질문에 포함됨</li>\n</ul>\n...<p></p>",
+    "content": "<ul>\n<li>NAS와 백업에 <strong>어떤 파일시스템을 쓰고 왜 선택했는지</strong>, 여러 디스크는 파일시스템 내장 RAID나 별도 도구로 어떻게 관리하는지 묻는 lobsters의 질문글</li>\n<li><strong>ZFS</strong>는 오랜 운영 경험과 데이터 무결성, 스냅샷, 암호화된 원격 증분 복제를 이유로 많이 선택됐으며, Linux에서...<p></p></li></ul>",
     "createdAt": "2026-09-06T20:03:14.000+00:00",
     "link": "https://news.hada.io/topic?id=33288",
     "author": "neo",
@@ -324,237 +555,6 @@
     "createdAt": "2026-09-05T09:56:27.000+00:00",
     "link": "https://news.hada.io/topic?id=33254",
     "author": "randomwalk1225",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Anthills - 음악 아카이빙 &amp; 소셜 플랫폼",
-    "content": "<p>음악을 너무 좋아하는 1인입니다.<br>\n평소에 영화를 보고나면 Letterboxd에 평점과 리뷰를 남기고 모아두곤 하는데, 음악은 RYM이 있긴하지만 UI도 제 마음에는 들지 않고 뭔가 조금 더 재밌는 기능이 많았으면 좋겠다는 생각이 들더라구요.<br>\n그래서 그냥 제가 만들어봤습니다..!<br>\n아직 수익모델은 없구...</p>",
-    "createdAt": "2026-09-05T09:40:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=33253",
-    "author": "mo9ul",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Mullvad, 공개 암호화 DNS 종료하고 Quad9 지원으로 전환",
-    "content": "<ul>\n<li>Mullvad는 2022년부터 운영한 공개 <strong>DNS over HTTPS(DoH)</strong> 서버를 종료하고, 운영 자원을 <strong>Quad9 재정 지원</strong>에 투입함</li>\n<li>Mullvad VPN에서는 트래픽이 이미 암호화되고 내부 DNS가 모든 쿼리를 처리하므로 별도의 공개 DoH 서버가 필요하지 않음</li>\n<li>VPN 밖에서는 Mu...<p></p></li></ul>",
-    "createdAt": "2026-09-05T08:31:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=33252",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국인의 정부 부패 인식 89%, 20년 만에 최고치",
-    "content": "<ul>\n<li>2026년 미국 성인의 <strong>89%</strong> 가 정부 부패가 만연하다고 답해 20년 내 최고치를 기록했으며, 전년보다 10%포인트 상승함</li>\n<li>민주당 지지층의 응답률은 2024년 57%에서 2025년 76%, 2026년 <strong>91%</strong> 로 급등했고 무당파는 90%, 공화당 지지층은 83%를 기록함</li>\n<li>2025년 미...<p></p></li></ul>",
-    "createdAt": "2026-09-05T06:32:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=33251",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "NX 비트는 보안만을 위한 것이 아니다",
-    "content": "<ul>\n<li>ARM64 베어메탈 하이퍼바이저에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">CTR_EL0</code> 인터셉트를 켤 때 기기가 멈춘 원인은 <strong>분기 예측에 따른 추측적 명령어 인출</strong>이 실행 가능하게 매핑된 MMIO 영역에 접근했기 때문이었음</li>\n<li>직접 호출인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bl</code>은 작동하고 간접 호출인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">blr</code>은 실패했으며, ...<p></p></li></ul>",
-    "createdAt": "2026-09-05T06:02:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=33250",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Chrome, 실제 공격에 악용된 V8 코드 실행 취약점 수정",
-    "content": "<ul>\n<li>Google이 <strong>실제 공격에 악용된 V8 취약점 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">CVE-2026-85046</code></strong> 을 수정한 Chrome 보안 업데이트를 배포함</li>\n<li>조작된 HTML 페이지를 통해 <strong>브라우저 샌드박스 내부에서 임의 코드 실행</strong>이 가능한 취약점</li>\n<li>공격 복잡도가 낮고 사전 권한도 필요 없지만 사용...<p></p></li></ul>",
-    "createdAt": "2026-09-05T03:31:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=33249",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI가 내 두뇌를 망치고 있을까?",
-    "content": "<ul>\n<li>AI의 윤리·환경 문제와 직접 코딩하는 즐거움 때문에 사용을 꺼렸지만, 복잡한 프로젝트에서 <strong>Cursor에 의존</strong>하면서 문제 해결 습관이 달라지기 시작함</li>\n<li>Cursor의 답을 기다리며 뜨개질하다 잘못된 무늬를 발견했을 때, 자신도 모르게 <strong>AI부터 찾으려 했다는 사실</strong>에 충...<p></p></li></ul>",
-    "createdAt": "2026-09-05T03:01:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=33248",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Code,Codex,Cursor는 어떤 도구를 선택할까? 1만7천 회 실행 분석",
-    "content": "<ul>\n<li>75개 저장소와 1,163개 프롬프트 변형으로 진행한 <strong>16,893회 실험</strong> 가운데, 51개 코드베이스·18개 분야의 유효 세션 5,292개를 1차 분석함</li>\n<li>정보 탐색 방식이 달라 세 에이전트가 같은 제품을 선택한 비율은 <strong>42%</strong> 에 그쳤으며, Claude Code의 자체 구현 비율은 19%로 C...<p></p></li></ul>",
-    "createdAt": "2026-09-05T02:32:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=33247",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "wigolo - AI 에이전트를 위한 로컬 우선 웹 검색/수집 도구",
-    "content": "<ul>\n<li>AI 에이전트에 <strong>검색/페이지 읽기/크롤링/데이터 추출/캐시/유사 문서 검색/리서치</strong> 기능을 하나의 MCP 인터페이스로 제공함</li>\n<li>검색은 <strong>18개 엔진</strong>을 함께 조회한 뒤 <strong>결과를 합치고 로컬 모델로 재정렬</strong>하며, 각 결과에 원문 발췌와 출처 위치/인용 ID/평...<p></p></li></ul>",
-    "createdAt": "2026-09-05T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33246",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DHH가 바라본 프로그래밍의 미래: 직접 코딩에서 AI 에이전트 팀 운영으로 [유튜브]",
-    "content": "<ul>\n<li>최근 AI 발전은 수십 년치 변화에 해당하며, DHH는 <strong>Opus 4.5와 에이전트 하네스</strong>를 기점으로 AI가 보조 도구에서 문제 해결 전반을 맡는 제작 주체로 바뀌었다고 평가</li>\n<li>Omarchy Quattro는 최근 3개월간 코드의 거의 100%를 에이전트가 작성했으며, DHH는 여러 에이전트를 병렬로 운용하...<p></p></li></ul>",
-    "createdAt": "2026-09-05T00:15:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33245",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 시대에 코드 리뷰에서 살아남는 방법은?",
-    "content": "<ul>\n<li>동료들이 AI를 적극 활용하면서 리뷰할 PR이 평균 <strong>약 6,000줄의 diff</strong>로 커졌고, 효과적인 검토가 어려운 상황임</li>\n<li>사람이 구축 중인 시스템의 작동 방식을 이해해야 한다는 생각 때문에 일반적인 질의응답 외에는 <strong>AI 리뷰</strong> 활용을 주저하며, AI의 설명도 장황하고 이해...<p></p></li></ul>",
-    "createdAt": "2026-09-05T00:03:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=33244",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Stave - AWS 설정 사이에 숨어 있는 공격 경로를 찾는 보안 검증 도구",
-    "content": "<ul>\n<li>AWS 리소스의 설정뿐 아니라 <strong>리소스 사이의 권한과 연결 관계</strong>를 분석해, 개별 검사에서는 드러나지 않는 복합적인 보안 위험을 찾음</li>\n<li>예를 들어 S3의 암호화와 공개 접근 차단이 정상이어도, <strong>Bedrock 에이전트 → Lambda → 민감한 S3 데이터</strong>로 이어지는 접근 경로에...<p></p></li></ul>",
-    "createdAt": "2026-09-05T00:02:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=33243",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IBM Bob - IBM의 AI 코딩 에이전트",
-    "content": "<ul>\n<li><strong>기존 코드베이스를 이해하고 수정, 테스트, 리뷰까지 수행</strong>하는 AI 개발 도구로, Bob IDE와 터미널용 Bob Shell에서 사용 가능</li>\n<li>코드 설명을 위한 Ask, 변경 계획을 세우는 Plan, 실제 작업을 수행하는 Agent 모드를 제공하며, 하위 에이전트가 독립된 맥락에서 조사하고 결과를 돌려줌...<p></p></li></ul>",
-    "createdAt": "2026-09-04T22:50:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=33242",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "성인 영화 제작사, 토렌트로 파일 2만 개 받은 이용자를 Meta 임원으로 지목",
-    "content": "<ul>\n<li>성인 영화 제작사 <strong>Strike 3 Holdings</strong>가 토렌트로 약 2만 개 파일을 받은 회선의 가입자를 Meta Reality Labs 임원으로 지목하고, 기존 <strong>최대 4억 4,600만 달러 규모의 Meta 상대 소송</strong>과 사건을 연결해 달라고 요청함</li>\n<li>Meta의 회사 IP에서 발생한 다운로드를 통보한 지...<p></p></li></ul>",
-    "createdAt": "2026-09-04T22:48:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=33241",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "페르마의 마지막 정리 형식화",
-    "content": "<ul>\n<li>Anthropic은 Claude가 <strong>11일간 대부분 자율적으로 형식화한 최초의 종단 간 컴퓨터 검증형 페르마의 마지막 정리 증명</strong>을 공개함\n<ul>\n<li>새로운 증명을 발견한 것이 아니라, 기존 증명을 Lean으로 옮겨 컴퓨터가 처음부터 끝까지 검증할 수 있게 만든 것임</li>\n</ul>\n</li>\n<li>수십 개의 Cl...<p></p></li></ul>",
-    "createdAt": "2026-09-04T21:32:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=33240",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jane Street ASIC 리버스 엔지니어링 챌린지, 칩 배치도에서 회로를 복원해 풀기",
-    "content": "<ul>\n<li>GDS 파일로 주어진 ASIC을 시뮬레이션 가능한 회로로 변환하고, 120비트 입력에 숨겨진 정답 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">(* TWO STARS *)</code>를 찾아냄</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">gdstk</code>와 SKY130 문서를 이용해 도형, 레이어와 핀을 식별하고, 서로 맞닿은 배선을 그래프로 합쳐 실행 가능한 <strong>Verilog 회로로 변환</strong>함...<p></p></li></ul>",
-    "createdAt": "2026-09-04T18:32:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=33239",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 귀래당 앱 모음 - 설치도 로그인도 없이 브라우저에서 도는 작은 도구와 게임 84개",
-    "content": "<p>무엇인가<br>\n브라우저 안에서 바로 도는 도구와 게임을 모아 둔 곳입니다. QR 만들기, PDF 합치기와 나누기, 이미지 줄이기와 형식 바꾸기, 스도쿠와 오목 같은 하루 한 판 게임, 손없는날 달력, 비상장주식 양도세 계산기, 사고다발지역 조회 등 84개입니다.</p>\n<p>차별점</p>\n<ul>\n<li>설치와 로그인이 없습니다</li></ul>",
-    "createdAt": "2026-09-04T18:25:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=33238",
-    "author": "ok981111",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google AI Mode는 같은 제품을 기존 검색보다 21.6% 더 비싸게 보여줌",
-    "content": "<ul>\n<li>약 한달간 구글로 쇼핑 검색을 비교한 결과, <strong>동일 제품의 대표 가격</strong>에 대해 Google AI Mode가 기존 쇼핑 결과보다 평균 21.6% 높았음</li>\n<li>전체 가격 표시 상품으로 범위를 넓히면 중앙값은 AI Mode <strong>149달러</strong>, 기존 검색 100달러로 약 49% 차이가 났음</li>\n<li>기존 검색...<p></p></li></ul>",
-    "createdAt": "2026-09-04T17:32:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=33237",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "단순한 프로그램이 꼭 작은 것은 아니다",
-    "content": "<ul>\n<li>프로그램의 <strong>단순함</strong>은 코드나 도구의 크기가 아니라, 서로 다른 기능과 개념이 불필요하게 얽히지 않은 상태를 뜻함</li>\n<li>Unix 파이프라인은 작은 도구를 조합하지만 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sort | uniq --count</code>처럼 <strong>집계와 정렬이 결합</strong>돼, 출력 순서만 바꾸려 해도 임시 파일과 정...<p></p></li></ul>",
-    "createdAt": "2026-09-04T17:01:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=33236",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: FlowSuite - 노코드 화면 자동화, AI 파일 정리 등 윈도우 생산성 도구 모음",
-    "content": "<p>업무를 하면서 매일 반복되는 단순 웹/시스템 로그인, 엑셀 취합, 지루한 클릭 노가다와 어지러운 다운로드 폴더 정리에 피로감을 느껴 주말마다 틈틈이 직접 만들어 쓰던 윈도우 생산성 유틸리티들을 모아 웹사이트와 함께 정리해 보았습니다.</p>\n<p>기존 파이썬(PyAutoGUI)이나 AutoHotkey 스크립트는 창 크기나 위</p>",
-    "createdAt": "2026-09-04T16:43:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=33235",
-    "author": "imageflowyjc",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "NPC로 살고 싶다",
-    "content": "<ul>\n<li>NPC처럼 산다는 것은 자율성을 포기하는 대신, 타인의 기대에 휘둘리지 않고 <strong>자기 삶에 집중하는 방식</strong>일 수 있음</li>\n<li>게임 속 NPC는 플레이어의 행동과 무관하게 <strong>자기 할 일</strong>을 계속하며 주변 사건에 쉽게 동요하지 않음</li>\n<li><em>Skyrim</em>의 대장장이는 플레이어...<p></p></li></ul>",
-    "createdAt": "2026-09-04T16:32:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=33234",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인공 비버 댐 설치 후 어린 은연어 생존율이 8%에서 60%로 상승",
-    "content": "<ul>\n<li>북부 캘리포니아 하천에서 사라진 습지를 <strong>인공 비버 댐</strong>으로 복원하자 멸종위기 은연어(coho salmon)의 어린 개체 생존율이 크게 높아짐</li>\n<li>Scott River Watershed Council은 2015년 Sugar Creek에 댐 2개를 만들고, 3년 뒤 French Creek에도 여러 개를 추가함</li>\n<li>댐은 약 </li></ul>",
-    "createdAt": "2026-09-04T15:31:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=33233",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
