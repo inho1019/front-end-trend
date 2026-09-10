@@ -1,9 +1,174 @@
 [
   {
-    "title": "Apple, iPhone Duo 공개",
-    "content": "<ul>\n<li>Apple의 첫 폴더블 iPhone인 <strong>iPhone Duo</strong>는 7.6인치 내부 화면과 5.4인치 외부 화면을 갖추고, 펼쳤을 때 역대 iPhone 중 가장 얇은 두께를 구현함</li>\n<li>두 화면의 <strong>동일한 종횡비</strong>로 콘텐츠 전환의 연속성을 유지하며, iOS 27의 <strong>Split View</strong>로 두 앱이나 ...<p></p></li></ul>",
-    "createdAt": "2026-09-09T19:37:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=33451",
+    "title": "강남언니 개인정보 유출 후속 안내 - 피해자에 5만 포인트와 피해 보험 제공",
+    "content": "<ul>\n<li>약 22만 명의 개인정보가 유출된 강남언니가 <strong>2차 입장문과 보상안</strong>을 공개하고, 국내 피해 고객에게 1인당 <strong>5만 원 상당의 포인트</strong>를 지급하기로 함</li>\n<li>개인정보 유출에 따른 해킹/피싱 등 금융사기 피해를 <strong>1인당 최대 1,000만 원까지 보장하는 보험</strong>을 ...<p></p></li></ul>",
+    "createdAt": "2026-09-10T02:15:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=33468",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "KAIST-MS, 뇌파로 ‘그게 아닌데’를 감지해 AI의 목표와 행동을 교정하는 연구 발표",
+    "content": "<ul>\n<li>KAIST와 마이크로소프트연구소 아시아 공동연구진이 사람의 뇌파를 피드백으로 활용해 <strong>AI의 목표와 행동을 조정하는 신경 가치 정렬(NVA)</strong> 을 제안함</li>\n<li>같은 행동에도 여러 목적이 있을 수 있다는 한계에 주목해, 겉으로 드러난 행동뿐 아니라 <strong>예상과 다른 결과나 상황을 마주했...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-10T01:45:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33466",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "자율주행차가 생명을 구한다는 증거가 늘고 있다",
+    "content": "<ul>\n<li>자율주행차와 운전자 보조 기술이 <strong>사고와 부상을 줄인다는 연구 결과</strong>가 쌓이고 있으며, 논의의 초점도 기술의 가능성에서 실제 도로에서의 안전 효과로 옮겨가고 있음</li>\n<li>미국 고속도로안전보험협회(IIHS)가 4개 도시의 주행 기록을 비교한 결과, Waymo 무인 차량은 인간 운전자보다 </li></ul>",
+    "createdAt": "2026-09-10T01:34:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=33465",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "창업자는 월급을 얼마나 받아야 할까?",
+    "content": "<ul>\n<li>창업자 급여의 기준은 남들이 받는 금액이 아니라 <strong>자신과 가족의 생활을 지키면서 회사의 장기적 성공에 집중할 수 있는 수준</strong>이어야 함</li>\n<li>생활비를 지나치게 줄여 개인 부채와 가족 갈등을 떠안으면, 사업을 일찍 포기하거나 <strong>만족스럽지 않은 인수 제안을 받아들일 유인</strong></li></ul>",
+    "createdAt": "2026-09-10T01:32:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33464",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Proliferate - 여러 코딩 에이전트를 병렬로 실행하는 오픈소스 AI IDE",
+    "content": "<ul>\n<li>Claude Code/Codex/OpenCode/Cursor/Grok에 서로 다른 작업을 맡기고, <strong>진행 상황과 코드 변경을 한곳에서 확인</strong>하는 데스크톱 IDE</li>\n<li>작업마다 별도의 Git 브랜치와 작업 디렉터리(worktree)를 만들어, <strong>에이전트들이 서로의 파일을 덮어쓰지 않고 동시에 작업</strong>할 수 있음...<p></p></li></ul>",
+    "createdAt": "2026-09-10T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=33463",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Addy Osmani, Google 떠나 Anthropic 합류",
+    "content": "<ul>\n<li>웹 성능과 소프트웨어 개발 관련 글로 널리 알려진 <strong>Addy Osmani가 9월 8일 Anthropic 합류를 발표</strong>, Claude Code를 개발자들이 더 잘 사용할 수 있도록 개선하는 일을 맡는다고 밝힘</li>\n<li>Google에서 <strong>14년 이상 근무</strong>했으며, Chrome/DevTools/Lighthouse/Core Web Vitals의...<p></p></li></ul>",
+    "createdAt": "2026-09-10T00:20:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33462",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인간을 위한 소프트웨어",
+    "content": "<ul>\n<li><strong>clankerfree</strong>는 생성형 AI나 LLM 기술을 포함하거나 활용하지 않는다고 제작자가 자체 확인한 프로젝트를 모아, 인간이 작성한 소프트웨어를 찾을 수 있게 한 목록임</li>\n<li><strong>제작자의 AI 비사용 선언</strong>이 등재의 바탕이며, 사이트가 오픈소스로 인정하는 라이선스를 사용하고...<p></p></li></ul>",
+    "createdAt": "2026-09-10T00:13:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=33461",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2026년 9월 9일 Apple 이벤트",
+    "content": "<ul>\n<li><strong>iPhone Duo와 iPhone 18 Pro</strong>부터 Apple Watch Series 12·Ultra 4, AirPods 5까지 공개하며 디스플레이, 카메라, 건강 감지, 운동 추적, 음향 성능을 개선함</li>\n<li><strong>iPhone Duo</strong>는 역대 iPhone 중 가장 큰 디스플레이와 접거나 각도를 조절하고 세워둘 수 있는 구조를 갖추며...<p></p></li></ul>",
+    "createdAt": "2026-09-10T00:10:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=33460",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "나는 확률적 앵무새와 상호작용하고 싶지 않다",
+    "content": "<ul>\n<li>인간의 생각과 경험을 접할 시간도 부족하다는 이유로, <strong>AI 생성물과의 모든 상호작용을 거부</strong>하며 이를 전달하거나 논거로 사용하는 사람과의 교류도 중단한다는 개인 원칙을 세움</li>\n<li><strong>글쓰기는 생각을 정리하는 과정</strong>이므로, 매끄러운 생성문보다 오류가 있더라도 사람이...<p></p></li></ul>",
+    "createdAt": "2026-09-10T00:07:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=33459",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Rust: 빈 타입이 바닥 타입은 아닐 때",
+    "content": "<ul>\n<li>Rust의 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">never</code> 타입 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">!</code></strong> 을 모든 타입 표기에 허용하는 PR이 2026년 8월 25일 병합됐으며, Rust 1.100에 포함될 예정임 — 사용 범위가 넓어지는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">!</code>은 모든 타입의 하위 타입인 바닥 타입보다 <strong>빈 타입</strong>으로 이해하는 편이 정확함</li>\n</ul>",
+    "createdAt": "2026-09-09T23:04:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=33458",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "노 맨즈 스카이: 출시 10주년 Cosmos 업데이트 - 이제 우주 정거장까지 운영",
+    "content": "<ul>\n<li><strong>Cosmos 7.0</strong>은 심우주를 고정된 탐사 지점에 다시 방문할 수 있는 공간으로 확장하고, <strong>우주 정거장 운영·은하 동맹·궤도 기지 건설</strong>을 추가함</li>\n<li><strong>항성계 지도</strong>로 전초기지·소행성대·거대 난파선을 찾고, <strong>Gravitino Coil과 Tractor Beam</strong></li></ul>",
+    "createdAt": "2026-09-09T21:36:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=33457",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple Watch Series 12 공개 - 더 촘촘한 심박 측정과 운동 준비 상태 확인",
+    "content": "<ul>\n<li>새로운 심박 센서와 <strong>S11 칩</strong>으로 심박수를 온종일 <strong>5초마다 측정</strong>하고, 스트레스와 회복 상태를 파악하는 심박 변이 측정 빈도도 최대 24배 높임</li>\n<li>활동, 훈련량, 활력 징후와 수면을 분석한 <strong>‘준비 상태’ 점수</strong>로 운동을 이어갈지 회복에 집중할지 판...<p></p></li></ul>",
+    "createdAt": "2026-09-09T21:33:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=33456",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple Watch Ultra 4 공개",
+    "content": "<ul>\n<li>새로운 건강 감지 시스템과 <strong>S11 칩</strong>으로 심박수를 온종일 <strong>5초마다 측정</strong>하고, 스트레스와 회복 상태를 파악하는 심박 변이도 최대 24배 더 자주 측정함</li>\n<li>활동, 훈련량, 활력 징후와 수면을 종합한 <strong>‘준비 상태’ 점수</strong>로 운동을 이어갈지 회복에 집중...<p></p></li></ul>",
+    "createdAt": "2026-09-09T21:26:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=33455",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple, iPhone 18 Pro와 iPhone 18 Pro Max 공개",
+    "content": "<ul>\n<li><strong>iPhone 최초의 가변 조리개</strong>를 48MP Fusion 메인 카메라에 적용해 빛의 양과 초점이 선명하게 맞는 범위를 조절하며, 카메라 앱에서 조리개와 셔터 속도, 화이트 밸런스를 직접 설정할 수 있음</li>\n<li><strong>2나노미터 A20 Pro</strong>는 A19 Pro 대비 GPU 속도가 최대 40%, AI 처리 성능...<p></p></li></ul>",
+    "createdAt": "2026-09-09T21:14:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=33454",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Visa와 Mastercard는 무슨 일을 할까? 카드 네트워크 입문",
+    "content": "<ul>\n<li>Visa와 Mastercard는 카드를 발급하는 은행이 아니라, <strong>카드 소지자·발급사와 가맹점·매입사를 연결</strong>해 거래를 성사시키고 네트워크 참여를 늘리는 사업자임</li>\n<li>핵심 역할은 <strong>거래 메시지 전달</strong>, 은행 간 자금 정산, 이용을 유도하는 수수료 설정, 규칙 집행과 분쟁 해결의...<p></p></li></ul>",
+    "createdAt": "2026-09-09T20:42:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=33453",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple, AirPods 5 공개 - 기본 모델에도 노이즈 캔슬링 탑재",
+    "content": "<ul>\n<li>오픈형 이어폰 <strong>AirPods 5 두 모델 모두 액티브 노이즈 캔슬링(ANC)</strong> 을 탑재하며, Apple 발표 기준 AirPods 4 ANC 모델보다 최대 50% 더 많은 외부 소음을 제거함</li>\n<li>음향 구조와 <strong>적응형 EQ</strong>를 개선해 다양한 귀 형태에 맞춰 소리를 조정하며, 주변 환경에 따라 소음 차...<p></p></li></ul>",
+    "createdAt": "2026-09-09T20:39:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=33452",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -12,7 +177,7 @@
   },
   {
     "title": "Apple, 첫 폴더블 iPhone Duo 공개",
-    "content": "<ul>\n<li><strong>7.6인치 내부 화면과 5.4인치 외부 화면</strong>에 동일한 화면비를 적용해 접고 펼칠 때 콘텐츠가 자연스럽게 이어지며, 펼친 상태에서는 역대 iPhone 중 가장 얇은 디자인을 구현함</li>\n<li>iPhone 최초로 <strong>Split View에서 두 앱을 나란히 실행</strong>하고 앱 조합을 저장할 수 있으며, 조...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>19.3cm 내부 화면과 13.6cm 외부 화면</strong>을 갖추고, 펼쳤을 때 역대 가장 얇은 iPhone으로 설계됨. 두 화면의 비율이 같아 접거나 펼쳐도 콘텐츠를 자연스럽게 이어 볼 수 있음</li>\n<li>iPhone 최초로 <strong>Split View에서 두 앱을 나란히 실행</strong>하며, 같은 앱의 창 두 개도 열 수 있...<p></p></li></ul>",
     "createdAt": "2026-09-09T18:43:17.000+00:00",
     "link": "https://news.hada.io/topic?id=33450",
     "author": "neo",
@@ -422,171 +587,6 @@
     "content": "<ul>\n<li>완전히 프로그래밍 가능한 전자잉크 리더 <strong>Xteink X3</strong>에 프린터 서버를 구현해, 번거로운 파일 업로드 대신 MacBook의 인쇄 메뉴로 문서를 보내 화면에 표시하도록 함</li>\n<li><strong>IPP</strong>로 인쇄 기능 조회와 작업 처리를 지원하고, Bonjour로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">penguin</code>이라는 프린터를 ...<p></p></li></ul>",
     "createdAt": "2026-09-09T03:58:00.000+00:00",
     "link": "https://news.hada.io/topic?id=33408",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Emacs Bedrock 2.0",
-    "content": "<ul>\n<li>내장 옵션을 조정해 Emacs의 기본 사용성을 개선하는 <strong>최소 스타터 키트 Bedrock 2.0</strong>이 출시됨 — 기본 구성에는 서드파티 패키지가 없으며, 설정 파일을 복사한 뒤 직접 수정하는 방식임</li>\n<li><strong>Emacs 31</strong>을 요구하고 Emacs 29 호환성을 중단하지만, 전면 개편보다는 점진적...<p></p></li></ul>",
-    "createdAt": "2026-09-09T03:54:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=33407",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tao: AI가 수학의 미해결 문제를 재생 불가능한 자원처럼 채굴하고 있음",
-    "content": "<ul>\n<li>수학 문제는 무한히 만들 수 있지만 <strong>통찰을 낳는 좋은 미해결 문제</strong>는 다르며, 이를 재생 불가능한 방식으로 소모하면 유익한 연구 문제가 희소해질 수 있음</li>\n<li>좋은 문제를 고르려면 기존 기법으로 무엇이 쉽고 어렵고 불가능한지 보여주는 <strong>난이도 지형</strong>을 알아야 하지...<p></p></li></ul>",
-    "createdAt": "2026-09-09T03:51:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=33406",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Quiz Gate - PR을 만들면 git diff 기반으로 코드 변경점에 대한 문제를 풀어볼 수 있는 앱",
-    "content": "<p>얼마 전에 AWS에서 발표한 AI를 어떻게 활용하냐에 따라 팀의 생산성이 달라지는지에 대한 동영상을 보았습니다.</p>\n<p>저는 AI가 작성한 코드의 컨텍스트를 확실히 알고 있는 팀이 더 생산성이 높았다는 걸로 이해를 했기 때문에 이를 위한 간단한 깃허브 앱을 만들었습니다.</p>\n<p>머지 하기 전에 간단하게 코드 </p>",
-    "createdAt": "2026-09-09T03:06:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=33405",
-    "author": "pointless",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT-6 Astra를 위한 스킬과 프롬프트 다시 생각하기",
-    "content": "<ul>\n<li>코딩 에이전트의 성능 향상으로 과거에 필요했던 세세한 유도와 보조 절차의 필요성이 줄어들었으며, <strong>GPT-6 Astra</strong>에서는 누적된 Skills/AGENTS.md/작업 프롬프트를 재검토하는 일이 더욱 중요해짐</li>\n<li><strong>스킬 설명은 짧고 사용 조건이 명확해야 하며</strong>, 여러 작업 흐름을 다...<p></p></li></ul>",
-    "createdAt": "2026-09-09T03:00:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=33404",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Trey Parker와 Matt Stone, South Park의 이름을 South America로 변경",
-    "content": "<ul>\n<li><strong>South Park</strong>가 Emmy의 <strong>Outstanding Animated Program</strong> 부문 수상 이후 작품명 변경을 발표함</li>\n<li>제작자 <strong>Trey Parker와 Matt Stone</strong>이 직접 이름을 바꾼다고 밝힘</li>\n<li>발표문에 표기된 새 이름은 <strong>SOUTH AMERICA</strong>임</li>\n<li>이름을...<p></p></li></ul>",
-    "createdAt": "2026-09-09T02:55:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33403",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내 피드, 내 방식",
-    "content": "<ul>\n<li>호주 Albanese 정부가 소셜미디어 연령 제한에 이어 <strong>디지털 주의 의무(Digital Duty of Care) 법안 초안</strong>을 공개하고, 온라인 안전 기준과 이용자 선택권에 관한 이해관계자 의견 수렴에 나섬</li>\n<li><strong>My Feed, My Way</strong> 구상은 소셜미디어의 신규·기존 이용자 모두에게 기본 ...<p></p></li></ul>",
-    "createdAt": "2026-09-09T02:52:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33402",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "프로그래밍은 예술이다",
-    "content": "<ul>\n<li>프로그래밍의 동기는 <strong>제품과 수익을 얻기 위한 수단</strong>인지, <strong>코드를 쓰는 과정 자체의 즐거움</strong>인지에 따라 달라지며, 이 차이는 AI를 받아들이는 태도에도 영향을 줌</li>\n<li>제품 개발이 목적이라면 직접 코드를 쓰든 다른 사람에게 위임하든 중요하지 않지만, 프로그래밍 자체...<p></p></li></ul>",
-    "createdAt": "2026-09-09T02:49:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33401",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "벨기에 대중교통 실시간 지도",
-    "content": "<ul>\n<li>벨기에 대중교통 지도 페이지에 <strong>“Map unavailable” 오류</strong>가 표시되어 지도를 볼 수 없는 상태임</li>\n<li><strong>WebGL 초기화 실패</strong>로 지도에 필요한 WebGL 컨텍스트를 생성하지 못함</li>\n<li>진단 정보에는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">webglcontextcreationerror</code></strong> 와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">B...<p></p></code></li></ul>",
-    "createdAt": "2026-09-09T02:46:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33400",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SSD 4개에서 스트리밍해 MacBook Pro에서 Kimi K3(2.8T)를 초당 1토큰으로 실행",
-    "content": "<ul>\n<li><strong>ARGODRIVE Deltafin</strong>은 128GB 메모리의 M5 Max MacBook Pro 한 대에서 1.45TB의 전문가 가중치를 SSD 4개로부터 스트리밍해 2.8조 파라미터 Kimi K3를 실행하며, 512토큰 생성 구간에서 <strong>1.0015토큰/초</strong>를 기록함</li>\n<li>전문가를 제거하거나 전문가 가중치를 재인코딩해 속도...<p></p></li></ul>",
-    "createdAt": "2026-09-09T02:43:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=33399",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: CartCut - 오픈소스 영상편집기",
-    "content": "<p>기본 컷 편집부터 8k 편집, 키프레임 애니메이션까지 제공하는 오픈소스 영상편집 소프트웨어 입니다. 고급 영상 효과들부터 트렌지션까지 모두 제공합니다. 상용 영상편집 프로그램 수준의 퀄리티로 편집이 가능합니다.</p>\n<p>클로드 코드와의 연동으로 영상편집이 가능합니다. 클로드가 직접 소스를 인터넷에서 가</p>",
-    "createdAt": "2026-09-09T02:33:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=33398",
-    "author": "hyeongjun",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Copperhead — 회로 기판을 위한 Cursor",
-    "content": "<ul>\n<li>회로도와 문서가 따로 바뀌며 생기는 <strong>설계 불일치</strong>를 줄이기 위해, 오픈소스 AI 엔지니어링 플랫폼 <strong>Copperhead</strong>가 실제 KiCad 파일과 이를 참조하는 문서를 함께 수정함</li>\n<li>자연어 요구사항부터 제조 출력물·펌웨어·개발 계획까지 <strong>8단계 파이프라인</strong>으로...<p></p></li></ul>",
-    "createdAt": "2026-09-09T01:59:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=33397",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Qwen3.8 27B 양자화 벤치마크: 4비트는 성능 유지, 1비트는 붕괴",
-    "content": "<ul>\n<li>55GB인 Qwen3.8 27B를 <strong>4비트 양자화로 17GB까지 줄여도</strong>, 과학 문제, 지시 준수와 에이전트 코딩 평가에서 원본과 눈에 띄는 성능 차이가 없었음</li>\n<li>17GB 모델은 <strong>24GB RTX 4090에 약 64k 토큰 컨텍스트와 함께 올릴 수 있어</strong>, 소비자용 GPU에서도 원본에 가까운 작업 성...<p></p></li></ul>",
-    "createdAt": "2026-09-09T01:56:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=33396",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "붓다 이야기에서 탄생한 두 기독교 성인",
-    "content": "<ul>\n<li>기독교 성인 <strong>Barlaam과 Josaphat</strong>의 이야기는 궁전에 격리된 왕자가 질병·노년·죽음을 접한 뒤 수행에 나서는 <strong>고타마 붓다의 생애담</strong>에서 유래함</li>\n<li>기독교 전통에서는 <strong>10세기 조지아의 《Balavariani》</strong> 에 처음 나타나며, 아랍어판을 거쳐 전해진 것으...<p></p></li></ul>",
-    "createdAt": "2026-09-09T01:53:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=33395",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "소변이 튀지 않는 소변기 (2025)",
-    "content": "<ul>\n<li>사용자가 조준을 잘하도록 유도하는 대신, <strong>소변기 자체의 모양을 바꿔 튀는 현상을 줄이는</strong> 설계를 제안함</li>\n<li>소변 줄기가 표면에 정면으로 부딪히지 않고 <strong>약 30도 이하의 얕은 각도로 닿도록</strong> 곡면을 설계하는 것이 핵심</li>\n<li>미분방정식으로 두 가지 형태를 만들었...<p></p></li></ul>",
-    "createdAt": "2026-09-09T01:50:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=33394",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Broadcom의 VDDK 다운로드 제거로 VMware를 떠나기가 더 어려워짐",
-    "content": "<ul>\n<li>Azure Migrate, Red Hat Migration Toolkit, Nutanix Move 등 VMware 이전 도구가 의존하는 <strong>VDDK의 공개 다운로드 페이지</strong>가 사라지면서 다른 플랫폼으로 옮기는 데 장애가 생김</li>\n<li><strong>VDDK</strong>는 VMware 가상 디스크를 다루는 여러 이전·보호 도구의 핵심 의존성으로, 파일이...<p></p></li></ul>",
-    "createdAt": "2026-09-09T01:47:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=33393",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
