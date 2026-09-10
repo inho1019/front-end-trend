@@ -1,5 +1,104 @@
 [
   {
+    "title": "Cognition, Fable 5.1·GPT-Astra에 필적하는 코딩 모델 SWE-2 출시",
+    "content": "<ul>\n<li><strong>2.8조 매개변수 Kimi K3</strong>를 후속 학습한 SWE-2는 FrontierCode 1.1 Main에서 50.0%를 기록해 Fable 5.1과 0.9%p 차이를 보이면서도 <strong>비용은 64% 낮음</strong></li>\n<li>추론 노력 수준별로 기반 모델의 비용·성능 곡선 기울기에 맞춘 <strong>선형 비용 페널티</strong>를 적용해, 한 ...<p></p></li></ul>",
+    "createdAt": "2026-09-10T19:42:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=33494",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "소프트웨어가 사람들을 미치게 만든다는 가설",
+    "content": "<ul>\n<li>소프트웨어에 결합된 <strong>속도·돈·복잡성·추상화·거의 무제한적인 변경 자유</strong>가 평범한 사람들의 균형 감각을 무너뜨릴 수 있다는 가설임</li>\n<li>변경 비용이 눈에 보이지 않고 때로는 실제로 저렴하기 때문에, <strong>“할 수 있다”가 “해야 한다”로 바뀌며</strong> 아이디어마다 긴급한 ...<p></p></li></ul>",
+    "createdAt": "2026-09-10T19:39:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=33493",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미공개 수학 연구를 OpenAI에 믿고 맡길 수 있는가, 추가 의문",
+    "content": "<ul>\n<li>Andreas Thom은 동료와 ChatGPT에서 논의한 <strong>미공개 수학 연구</strong>가 OpenAI의 새 수학적 결과 도출에 활용됐는지 물었지만, <strong>학습 데이터 편입과 풀이 중 접근</strong>을 구분한 답변을 받지 못했다고 비판함</li>\n<li>계기는 OpenAI의 <strong>비소픽 군(non-sofic group) 발견 발표</strong></li></ul>",
+    "createdAt": "2026-09-10T18:33:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=33492",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "A Deep Dive into StyleX",
+    "content": "<p><a href=\"https://stylexjs.com/\" target=\"_blank\" rel=\"noopener noreferrer\">StyleX</a> has been around for a while, but it’s seeing a resurgence in popularity lately for whatever reason. Seems pretty good to me. You don’t have to <em>write</em> atomic CSS, but you <em>get</em> atomic CSS output that loads like any other CSS. Kinda like you don’t have to write like Tailwind to get Tailwind-like efficient output. Flavio Copes <a href=\"https://flaviocopes.com/stylex/?ck_subscriber_id=2246502080\" target=\"_blank\" rel=\"noopener noreferrer\">has a good article digging into it</a>.</p>\n\n\n\n<p></p>\n",
+    "createdAt": "2026-09-10T18:10:29.000+00:00",
+    "link": "https://blog.master.dev/a-deep-dive-into-stylex/",
+    "author": "Chris Coyier",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "Planet Labs의 공개 위성 영상 피드",
+    "content": "<ul>\n<li>자연재해와 인재 직후의 지표를 살펴볼 수 있는 <strong>Disaster Data</strong>는 일부 위성 영상과 <strong>Parquet·JSON 메타데이터</strong>를 공개해 DuckDB와 QGIS에서 탐색·분석할 수 있게 함</li>\n<li>자료는 <strong>재난 전·후 영상</strong>으로 나뉘고 사건별로 제공 자산이 다르며, 콜롬비아와 베...<p></p></li></ul>",
+    "createdAt": "2026-09-10T17:34:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=33491",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "밴드 Muse, Meta의 새 AI 에이전트 Muse에 소셜 미디어 계정명을 빼앗김",
+    "content": "<ul>\n<li>영국 록 밴드 <strong>Muse</strong>가 Instagram과 X에서 수년간 쓰던 계정명을 Meta의 새 <strong>AI 에이전트 Muse</strong>가 사용하게 됐지만, 이전 경위는 공개되지 않음</li>\n<li>밴드는 두 플랫폼 모두 <strong>@museband</strong>로 계정명을 바꿨으며, Instagram 변경 시점은 보도와 팬들의 목격담이...<p></p></li></ul>",
+    "createdAt": "2026-09-10T16:55:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=33490",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Hitachi, 태양광 친화적 전기요금제에 대응하는 CO2 히트펌프 온수기 출시",
+    "content": "<ul>\n<li>태양광 발전 확대에 따라 낮 시간 온수 가열을 장려하는 일본 전기요금제에 맞춰, Hitachi Global Life Solutions가 <strong>요금제 대응을 확대한 EcoCute Y 시리즈</strong>를 공개함</li>\n<li>일본 가정용 <strong>370리터·460리터 모델</strong>을 2026년 11월부터 순차 판매하며, 지원 요금제는 리모컨에서...<p></p></li></ul>",
+    "createdAt": "2026-09-10T16:52:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=33489",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Sony 웹사이트에서 디지털 게임을 ‘소유한다’고 표현한 사례 목록",
+    "content": "<ul>\n<li><strong>Sony 공식 지원·상품·블로그 페이지</strong>는 업그레이드, 공유, 스트리밍, 리뷰 자격을 안내하며 ‘이미 소유한 게임’, ‘소유자’라는 표현을 쓰지만, 약관은 구매자가 제품을 소유하지 않는다고 명시함</li>\n<li>캘리포니아 구매자 4명은 “<strong>Buy Now”·“Confirm Purchase</strong>”가 소...<p></p></li></ul>",
+    "createdAt": "2026-09-10T16:49:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=33488",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Rust, Microsoft의 Tier-1 언어로 자리 잡음",
+    "content": "<ul>\n<li>Microsoft는 Rust를 C++, C#, TypeScript와 함께 내부 개발에서 가장 잘 지원하는 <strong>Tier-1 언어</strong>로 운영하며, 로컬 개발부터 프로덕션까지 보안 도구 체인·개발 도구·품질 검증·플랫폼 통합·SDL 요구사항 준수를 지원함</li>\n<li>대체 코드 생성 백엔드 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rustc_codegen_utc</code>...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-10T16:46:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=33487",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "또 다른 연구자, OpenAI가 대화로 학습한 뒤 돌파구를 이뤘다고 주장했다며 비판",
     "content": "<ul>\n<li>또 다른 연구자가 <strong>대화 내용을 학습에 사용한 OpenAI</strong>가 이후 이를 돌파구로 내세웠다는 의혹을 제기함</li>\n<li>의혹의 학습 자료는 <strong>대화 내용</strong>이지만, 누구의 어떤 대화인지는 공개되지 않음</li>\n<li>비판은 대화 학습 자체뿐 아니라 이후 OpenAI가 <strong>돌파구를 이뤘다...<p></p></strong></li></ul>",
     "createdAt": "2026-09-10T15:45:17.000+00:00",
@@ -488,94 +587,6 @@
     "content": "<ul>\n<li><strong>Opusfived</strong>는 버튼 색상 하나를 바꾸는 단순한 요청과 AI의 범위 밖 변경을 소재로 한 짧은 인터랙티브 코미디임</li>\n<li>요청은 <strong>“Add to Cart” 버튼을 파란색으로 바꾸는 것</strong>으로, 대상과 바꿀 속성이 명확함</li>\n<li>작업에는 <strong>다른 것은 아무것도 바꾸지 않아야...<p></p></strong></li></ul>",
     "createdAt": "2026-09-09T14:39:37.000+00:00",
     "link": "https://news.hada.io/topic?id=33442",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "‘트윗’과 파랑새 로고, X의 상표권에서 벗어나나",
-    "content": "<ul>\n<li>미국 법원은 X와 Project Bluebird의 상표 분쟁에서 <strong>‘TWEET’과 파랑새 로고는 상표 사용을 포기했을 가능성이 높지만, ‘TWITTER’는 유지되고 있다</strong>고 판단함</li>\n<li>X가 앱스토어 소개에 남긴 <strong>“X(formerly known as Twitter)”</strong> 문구는 기존 트위터와 현재 서비스를 연...<p></p></li></ul>",
-    "createdAt": "2026-09-09T13:37:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=33441",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI의 수학적 돌파구는 어떻게 논란을 촉발했나",
-    "content": "<ul>\n<li>OpenAI가 약 <strong>1만 개 AI 에이전트를 88시간 가동</strong>해 나비에-스토크스 방정식에서 물리적으로 실현될 수 없는 결과가 나오는 사례를 찾았다며 난제 해결을 발표함</li>\n<li>유체 속도가 유한한 시간 안에 무한히 커지는 <strong>특이점</strong>이 생기는 해를 찾았으며, 검증된다면 <strong>AI가...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-09T13:34:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=33440",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: bitcoin-rs - ai 로 만든 bitcoin full node",
-    "content": "<h4>핵심 요점</h4>\n<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bitcoin-rs</code>는 Bitcoin Core를 Rust로 단순 재구현하는 프로젝트가 아니라, <strong>Bitcoin의 합의 규칙은 유지하면서 노드 아키텍처를 새롭게 설계하는 독립 구현체</strong>임.</li>\n<li>AI 발전으로 소규모 팀도 복잡한 시스템 소프트웨어를 빠르게 구현하고 반복적으로 실...<p></p></li></ul>",
-    "createdAt": "2026-09-09T13:07:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=33439",
-    "author": "sjc02183",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Flock이 원하는 탈출구 없는 촘촘한 감시 세계",
-    "content": "<ul>\n<li><strong>Flock Safety</strong>는 범죄를 없애려면 사생활을 희생해야 한다는 논리로 차량 감시망을 확대했으며, 미국 법 집행기관 약 40%가 계약하고 카메라 약 13만 대가 도로를 감시 중임</li>\n<li>카메라는 번호판뿐 아니라 차량 제조사·모델·색상을 기록하며, 경찰은 <strong>영장이나 사법적 승인 없이...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-09T12:35:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=33438",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Wave 프로그래밍 언어",
-    "content": "<p>작년에 Wave를 한 번 소개를 했었는데, 이후 프로젝트가 많이 바뀌어서 다시 한번 소개합니다.</p>\n<p>Wave는 C, Rust 등의 저수준 언어에서 영향을 받아 개발하고 있는 프로그래밍 언어입니다. 현재 LLVM을 백엔드로 사용해 네이티브  코드로 컴파일하며, 시스템 프로그래밍을 포함한 다양한 영역에서 사용할 수 있는</p>",
-    "createdAt": "2026-09-09T12:09:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=33437",
-    "author": "lunastev",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tesla의 Solar Roof 단종으로 설치업체들이 수십만 달러 손실을 떠안음",
-    "content": "<ul>\n<li>인력·장비·교육에 <strong>수십만 달러를 투자한 인증 설치업체들</strong>이 Tesla의 Solar Roof 공급 중단으로 투자 손실과 진행 중인 프로젝트 변경 부담을 떠안음</li>\n<li>미국 내 설치량은 약 7년간 <strong>3,000개 시스템</strong>에 그쳤고, 최고 실적도 주당 21~32건으로 Elon Musk가 약속한 주당 1,...<p></p></li></ul>",
-    "createdAt": "2026-09-09T11:33:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=33436",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: LLM 어텐션 시각화",
-    "content": "<ul>\n<li>LLM이 토큰을 생성할 때 <strong>어떤 이전 토큰을 참조했는지</strong> 살펴보는 도구로, 생성된 토큰을 누르거나 마우스를 올리면 참조 정보를 불투명도로 표시함</li>\n<li><strong>어텐션 가중치에 값 벡터의 크기를 반영</strong>하고 모든 헤드와 레이어의 정보를 합산해, 이전 토큰마다 하나의 수치로 보...<p></p></li></ul>",
-    "createdAt": "2026-09-09T10:36:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=33435",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LLM은 기존 편견을 답습하는 데 그치지 않고, 경험에서 새로운 편향을 만들어냄",
-    "content": "<ul>\n<li>가상 채용 실험에서 <strong>능력 차이가 없는 집단을 서로 다른 직군에 몰아 배치</strong>하는 편향이 나타남</li>\n<li>초기의 우연한 성공을 반복 활용하면서, <strong>다른 집단을 충분히 시험하지 않는 과정</strong>이 편향을 굳힘</li>\n<li>실험한 모델군에서는 새롭고 큰 모델일수록 집단별 배치가 더 ...<p></p></li></ul>",
-    "createdAt": "2026-09-09T10:33:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=33434",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -1152,17 +1163,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Design Systems + Horizontal @layer",
-    "content": "<p>My post <a href=\"https://www.alwaystwisted.com/articles/extending-design-tokens-with-css-layer\" target=\"_blank\" rel=\"noopener noreferrer\">Thinking Horizontally in CSS @layer</a> got Stuart Robson <a href=\"https://www.alwaystwisted.com/articles/extending-design-tokens-with-css-layer\" target=\"_blank\" rel=\"noopener noreferrer\">thinking about how to pull it off at a bigger scale</a>. Stu is right that our components are essentially hand-written, whereas with a more enterprise-scale design system, design tokens are more likely to come from a build pipeline.</p>\n\n\n\n<p>That <a href=\"https://daverupert.com/2026/08/how-to-pierce-your-shadow-belly-button/\" target=\"_blank\" rel=\"noopener noreferrer\">got Dave Rupert thinking</a> about how to get variables overriding the component defaults easily, this time without <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@layer</code>. <a href=\"https://codepen.io/editor/davatron5000/pen/019fed74-fe7a-71f1-b3f7-a74aadb2b8b4\" target=\"_blank\" rel=\"noopener noreferrer\">The demo</a> shows how a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:defined</code> selector can help target components without having to name them.</p>\n\n\n\n<p></p>\n",
-    "createdAt": "2026-08-24T13:19:44.000+00:00",
-    "link": "https://blog.master.dev/design-systems-horizontal-layer/",
-    "author": "Chris Coyier",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
