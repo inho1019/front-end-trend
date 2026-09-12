@@ -1,5 +1,71 @@
 [
   {
+    "title": "Navier-Stokes 관련 발표",
+    "content": "<ul>\n<li><strong>Clay Mathematics Institute(CMI)</strong> 는 Navier-Stokes 문제가 해결된 것으로 보인다는 발표에 전 세계 수학계와 함께 기대감을 표함</li>\n<li>해당 밀레니엄 문제는 <strong>3차원 유클리드 공간</strong>에서 Navier-Stokes 해의 <strong>존재성과 매끄러움</strong>을 묻는 문제임</li>\n<li>최...<p></p></li></ul>",
+    "createdAt": "2026-09-12T09:32:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33578",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "정신에 영향을 주는 약물이 안데스 문명의 부상에 핵심 역할을 함",
+    "content": "<p>정신에 영향을 주는 약물이 안데스 문명의 부상에 핵심 역할을 함</p>\n",
+    "createdAt": "2026-09-12T08:39:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=33577",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Pandas는 멸종해야 한다",
+    "content": "<ul>\n<li><strong>Pandas가 느리다는 이유만으로</strong> 복잡한 분산 쿼리 시스템으로 넘어갈 필요는 없음. 약 100GB 부근의 작업은 <strong>Polars와 DuckDB</strong> 같은 고성능 단일 머신 도구로 처리할 수 있음</li>\n<li>Amazon Redshift 통계에 행 크기와 처리량 가정을 적용하면, 테이블의 <strong>94.68%는 10...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-12T08:36:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=33576",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "뮤팟 개인정보 유출, 일부 회원은 계좌정보와 암호화된 주민번호도 포함",
+    "content": "<ul>\n<li>배경음악과 영상 소스를 제공하는 <strong>뮤팟에서 일부 회원의 개인정보가 유출</strong>됐으며, 정확한 피해 규모는 조사 중임</li>\n<li>일반회원은 <strong>이름, 이메일, 휴대전화번호</strong> 등이, 출금계좌 등록회원은 계좌정보와 개인/사업자 식별정보도 유출 항목에 포함됨</li>\n<li>주민등록번호와...<p></p></li></ul>",
+    "createdAt": "2026-09-12T06:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=33573",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google 검색, 목적지 주소를 바로 읽을 수 없는 리디렉션 링크 확대",
+    "content": "<ul>\n<li>검색 결과의 링크가 실제 주소 대신 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">google.com/goto?url=...</code> 형식</strong>으로 바뀌고 있으며, 클릭하면 Google을 거쳐 목적지로 이동함</li>\n<li>기존 리디렉션과 달리 <strong>링크 문자열만으로 목적지 주소를 복원할 수 없어</strong>, HTML에서 주소를 추출하던 수집 방식에 영향을...<p></p></li></ul>",
+    "createdAt": "2026-09-12T05:32:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=33571",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RTK는 토큰 절감을 보고하지만, 비용 벤치마크 결과는 다르다",
+    "content": "<ul>\n<li>터미널 출력을 압축하는 <strong>RTK</strong>를 Terminal-Bench 2.1에서 1,740회 비교한 결과, Fable의 총비용은 5% 줄고 DeepSeek은 5% 늘었지만 <strong>작업별 평균 비용</strong>은 각각 1%, 17% 증가함</li>\n<li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rtk gain</code></strong> 은 실제 청구 토큰이 아니라 명령 출력의 압축 전...<p></p></li></ul>",
+    "createdAt": "2026-09-12T03:34:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=33569",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Rune, 오픈 소스로 공개",
     "content": "<ul>\n<li>Go로 만든 네이티브 IDE <strong>Rune</strong>이 <strong>GPLv3</strong>로 소스를 공개하고, 참여 기여자에게 Unstable Build의 수익 일부를 배분하는 프로그램을 준비 중임</li>\n<li><strong>문자 격자 기반 GPU 가속 GUI</strong>와 터미널 중심 작업 환경을 바탕으로, gRPC 확장 API와 개발 머신을 연결하...<p></p></li></ul>",
     "createdAt": "2026-09-12T01:33:40.000+00:00",
@@ -510,72 +576,6 @@
     "content": "<ul>\n<li>Google이 핀란드 AI 인프라에 <strong>130억 유로</strong>를 투자해 데이터센터 3곳을 신설하고 기존 시설을 확장하며, 전력 확보를 위한 에너지 사업도 지원함</li>\n<li>핀란드 전력회사 <strong>Fortum과 22년 계약</strong>을 맺고 Loviisa 원자력발전소 생산 전력의 <strong>최대 50%</strong> 를 구매하기...<p></p></li></ul>",
     "createdAt": "2026-09-11T06:32:17.000+00:00",
     "link": "https://news.hada.io/topic?id=33521",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AX 시대의 FDE는 조직에 무엇을 남길까",
-    "content": "<p>AX 컨설턴트로 일하면서 팔란티어의 FDE 인터뷰를 읽고 든 생각을 적어봤습니다.</p>\n<p>현장에서 해결한 문제를 제품에 쌓아간다는 이야기가 인상적이었는데요. 제 일에 대입해보니, 우리가 일을 마친 뒤 고객 조직이 스스로 할 수 있는 일은 얼마나 늘어날까 하는 질문이 남았습니다.</p>\n<p>담당자가 반복 업무를 </p>",
-    "createdAt": "2026-09-11T05:58:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=33520",
-    "author": "panda",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "WordPress는 누구의 것인가",
-    "content": "<p>2026년 9월 9일 <a href=\"https://news.hada.io/topic?id=33476\" target=\"_blank\" rel=\"noopener noreferrer\">Automattic 이사회가 창업자이자 CEO인 Matt Mullenweg를 강제로 유급 휴직 처리</a>했습니다.<br>\nCFO였던 Mark Davies가 임시 CEO를 맡았고, Matt는 이사회에는 남지만 일상적인 경영에서는 물러납니다. 구체적인 이유는 공개되지 않았습니다.</p>",
-    "createdAt": "2026-09-11T04:38:26.000+00:00",
-    "link": "https://news.hada.io/article/who-owns-wordpress",
-    "author": "GeekNews",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: tapl - Codex의 작업 이력과 기억을 관리하는 로컬 워크플로 도구",
-    "content": "<p>대화가 길어지거나 세션이 바뀌면 이전에 어떤 결정을 했는지, 어디까지 구현했는지, 무엇을 검증했는지 다시 확인해야 합니다. TAPL은 이 과정에서 반복되는 설명과 탐색을 줄이기 위해 요청·계획·작업·발견 사항·완료 이력을 저장소의 SQLite에 기록합니다.</p>\n<p>MCP와 hook으로 Codex에 연결되며, 설치 후에는 </p>",
-    "createdAt": "2026-09-11T04:17:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=33517",
-    "author": "paragonnov",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI Agents API - Codex 기반 에이전트를 내 앱에 연결하기",
-    "content": "<ul>\n<li>애플리케이션에서 <strong>Codex의 에이전트 실행 기능을 API로 이용</strong>할 수 있으며, OpenAI가 세션 관리, 작업 조율, 문맥 압축과 복구를 맡음</li>\n<li>개발자가 도구와 실행 환경을 지정하면 에이전트가 <strong>코드 실행, 파일 편집, 외부 서비스 연결과 산출물 생성</strong>을 수행함</li>\n<li>같...<p></p></li></ul>",
-    "createdAt": "2026-09-11T03:33:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=33516",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google, Windows용 Gemini 앱 출시",
-    "content": "<ul>\n<li>구글이 9월 10일 <strong>Windows용 Gemini 데스크톱 앱을 출시</strong>했으며, Windows 10/11의 x64와 ARM64 환경에서 사용 가능</li>\n<li><strong>Alt + Space</strong>로 작업 중인 화면 위에 Gemini를 불러와 질문, 사실 확인, 문서 초안 작성 등을 요청하고 원래 작업으로 돌아갈 수 있음</li>\n<li>Gmail...<p></p></li></ul>",
-    "createdAt": "2026-09-11T02:55:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33515",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Xteink X4 Pro 리뷰",
-    "content": "<ul>\n<li><strong>MagSafe로 휴대전화 뒷면에 붙이는 전자책 리더</strong>로, 전용 독서 기기를 늘 휴대할 수 있어 실제 독서량을 늘리는 데 도움이 됐음</li>\n<li>반응성 좋은 터치스크린과 밝기·색온도를 세밀하게 조절하는 <strong>프런트라이트</strong>, 한 손 조작이 쉬운 페이지 버튼과 가벼운 무게가 장점임</li></ul>",
-    "createdAt": "2026-09-11T02:01:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=33514",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
