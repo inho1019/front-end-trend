@@ -1,5 +1,49 @@
 [
   {
+    "title": "Apple Neural Engine 역공학 하기: LLM의 병목은 연산보다 데이터 이동",
+    "content": "<ul>\n<li>신경망 전용 칩인 <strong>Apple Neural Engine(ANE)이 LLM 실행에서 GPU보다 불리해지는 이유</strong>를 내부 구조와 메모리 전송 실험으로 살펴봄</li>\n<li>M1 ANE의 연산기는 트랜스포머에 필요한 계산도 수행할 수 있지만, 주변 구조는 <strong>같은 가중치를 반복 사용하는 이미지 처리용 신경망(CNN)</strong></li></ul>",
+    "createdAt": "2026-09-12T14:35:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=33583",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "젠장, 그래도 만들자",
+    "content": "<ul>\n<li>프롬프트 하나로 도구와 게임을 만드는 시대가 되면서, <strong>수년간 어렵게 배운 기술과 직접 만든 결과물이 무슨 가치가 있는지</strong> 회의가 들 수 있음</li>\n<li>LLM이 코드를 잘 만든다는 사실과 <strong>그 도구로 프로그래밍하는 일이 즐거운지는 별개</strong>이며, 결과물이 내 것처럼 느껴지지 ...<p></p></li></ul>",
+    "createdAt": "2026-09-12T13:33:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=33582",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Litelm - 비대함을 덜어낸 LiteLLM",
+    "content": "<ul>\n<li><strong>litelm</strong>은 LiteLLM의 모델 라우팅과 메시지 변환 등 호출 경로만 추려, 약 <strong>2,900줄과 기본 의존성 2개</strong>인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">openai</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">httpx</code>로 구현한 라이브러리임</li>\n<li><strong>19개 제공자</strong>를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">provider/model</code> 형식으로 호출하며, 스트리밍...<p></p></li></ul>",
+    "createdAt": "2026-09-12T11:31:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=33580",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Λ Snap - 어린이와 성인 모두 친근하게 접근할 수 있는 컴퓨터 과학 학습용 프로그래밍 언어",
+    "content": "<ul>\n<li><strong>Snap!</strong> 은 어린이와 성인이 폭넓게 접근할 수 있는 프로그래밍 언어이자, 컴퓨터 과학을 깊이 있게 공부하기 위한 플랫폼임</li>\n<li>홈페이지에서 <strong>실행 환경</strong>, 예제 프로젝트와 학습 자료로 바로 이동할 수 있음</li>\n<li><strong>추천 프로젝트</strong>에는 게임, 퍼즐, 애...<p></p></li></ul>",
+    "createdAt": "2026-09-12T10:32:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=33579",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Navier-Stokes 관련 발표",
     "content": "<ul>\n<li><strong>Clay Mathematics Institute(CMI)</strong> 는 Navier-Stokes 문제가 해결된 것으로 보인다는 발표에 전 세계 수학계와 함께 기대감을 표함</li>\n<li>해당 밀레니엄 문제는 <strong>3차원 유클리드 공간</strong>에서 Navier-Stokes 해의 <strong>존재성과 매끄러움</strong>을 묻는 문제임</li>\n<li>최...<p></p></li></ul>",
     "createdAt": "2026-09-12T09:32:23.000+00:00",
@@ -12,7 +56,7 @@
   },
   {
     "title": "정신에 영향을 주는 약물이 안데스 문명의 부상에 핵심 역할을 함",
-    "content": "<p>정신에 영향을 주는 약물이 안데스 문명의 부상에 핵심 역할을 함</p>\n",
+    "content": "<ul>\n<li>페루 안데스의 3,000년 된 사원에서 <strong>향정신성 식물의 잔류물</strong>이 확인되면서, 약물을 활용한 의례가 종교적 권위와 문명 형성에 기여했다는 해석을 뒷받침함</li>\n<li>Chavín의 지도자들은 강렬한 소리와 빛 속에서 외부 엘리트에게 약물 의례를 제공하고, <strong>의식 상태의 변화</strong>를...<p></p></li></ul>",
     "createdAt": "2026-09-12T08:39:49.000+00:00",
     "link": "https://news.hada.io/topic?id=33577",
     "author": "neo",
@@ -532,50 +576,6 @@
     "content": "<ul>\n<li>웹페이지의 <strong>WebGPU 코드가 브라우저 탭뿐 아니라 Mac의 데스크톱 화면까지 멈추게 하는 문제</strong>로, 링크를 여는 것만으로 발생하며 재시작이 필요함</li>\n<li>macOS Tahoe를 실행하는 <strong>M 시리즈 MacBook에서 Chrome, Firefox, Safari 모두 재현</strong>됐으며, 다른 Mac의 영향 여부는 확...<p></p></li></ul>",
     "createdAt": "2026-09-11T09:33:28.000+00:00",
     "link": "https://news.hada.io/topic?id=33527",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "멕시코 학생, 수초 만에 불을 끄는 음향 소화기 개발",
-    "content": "<ul>\n<li>멕시코의 16세 학생 <strong>Ángela Karime Venegas Hernández</strong>가 물이나 입으로 부는 바람 없이 소리로 촛불을 끄는 학교 실험에서 출발해 <strong>Vortex Tech</strong>를 개발함</li>\n<li>장치는 <strong>12볼트 배터리와 주파수 발생기</strong>, 초당 30회 펄스를 내는 스피커로 구성됨</li>\n<li>...<p></p></li></ul>",
-    "createdAt": "2026-09-11T08:40:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=33525",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Astra로 코딩하기: 우리는 대체 왜 이러고 있는 걸까?",
-    "content": "<ul>\n<li>GPT-6 Astra는 컴퓨터 사용과 이미지 이해에서 뛰어난 능력을 보이지만, <strong>실제 소프트웨어 개발에서는 함께 일하기 더 어려워졌고</strong>, 높아진 비용에 걸맞은 성과도 체감하기 어려움</li>\n<li>가상 스레드와 렉시컬 스코프를 갖춘 Python을 만들도록 맡겼으나, <strong>35시간 동안 코드 7만 5,00...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-11T08:37:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=33524",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Forgejo 16.0.3 이하의 심각한 원격 코드 실행(RCE) 취약점",
-    "content": "<ul>\n<li>악성 템플릿 저장소로 <strong>Forgejo 호스트의 임의 데이터를 읽거나 프로세스를 실행</strong>할 수 있는 심각한 RCE 취약점이 <strong>16.0.4에서 수정됨</strong></li>\n<li>저장소 생성 중 <strong>변수 치환으로 재생성된 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.git</code> 폴더</strong>를 Git 초기화가 그대로 사용하는 문제였으며, 이...<p></p></li></ul>",
-    "createdAt": "2026-09-11T07:33:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=33523",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google, 핀란드 원자력발전소 한 곳의 생산 전력 최대 절반 구매 예정",
-    "content": "<ul>\n<li>Google이 핀란드 AI 인프라에 <strong>130억 유로</strong>를 투자해 데이터센터 3곳을 신설하고 기존 시설을 확장하며, 전력 확보를 위한 에너지 사업도 지원함</li>\n<li>핀란드 전력회사 <strong>Fortum과 22년 계약</strong>을 맺고 Loviisa 원자력발전소 생산 전력의 <strong>최대 50%</strong> 를 구매하기...<p></p></li></ul>",
-    "createdAt": "2026-09-11T06:32:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=33521",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
