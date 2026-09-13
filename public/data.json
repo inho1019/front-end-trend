@@ -1,5 +1,71 @@
 [
   {
+    "title": "Show GN: ExitPress 네이버블로그/티스토리의 글들을 md,mdx,fumadocs로 딸깍으로 뽑아내는 툴",
+    "content": "<p>컨텐츠 그 자체에 대한 소유권이 없는 블로그에 글을 써서 블로그를 이전하고 싶지만 불가능해 후회한 경험이 있으신가요?</p>\n<p>저도 2,000개가 넘는 글들을 네이버 블로그에 정성껏 작성했지만 글들을 다시 모아두고 아카이브 할 수 있는 기능이 없어서 아쉬웠습니다.</p>\n<p>이런 제 경험을 기반으로 네이버 블로</p>",
+    "createdAt": "2026-09-13T10:07:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33619",
+    "author": "mym0404",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "macOS 패키지 관리자 Homebrew v7",
+    "content": "<ul>\n<li>macOS 15 Sequoia, 26 Tahoe, 27 Golden Gate 까지만 Tier 1 지원 대상\n<ul>\n<li>Intel Mac은 Tier 3로 강등, 2027년 9월 이후 지원 중단 예정</li>\n</ul>\n</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">brew install homebrew-app</code> : 공식 GUI 앱 출시</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">brew vulns</code> : npm audit과 비슷한 취약점 검사 기능 추가...<p></p></li></ul>",
+    "createdAt": "2026-09-13T10:04:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=33618",
+    "author": "cichol",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "현실과 동떨어진 쿵푸 고수가 되지 말라",
+    "content": "<ul>\n<li><strong>John Carmack</strong>이 최근 Musashi의 《오륜서》 번역본을 읽음</li>\n<li>번역본 서문은 <strong>검술과 무술 전반의 변천</strong>을 다룸</li>\n<li>그 변천의 출발점은 <strong>전장에서의 실용적 필요</strong>였음</li>\n<li>이후 무술은 <strong>스포츠</strong>, 역사적 호기심의 대상, 취미로...<p></p></li></ul>",
+    "createdAt": "2026-09-13T09:32:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33616",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 에이전트는 왜 거짓말하고, 부정행위를 하며, 서로 협력하는가?",
+    "content": "<ul>\n<li><strong>인간 모방과 강화학습</strong>이 AI의 아첨, 자기 보존, 에이전트 간 협력을 유도할 수 있으며, 학습 원리를 바꾸지 않으면 역량 향상과 함께 일탈도 심각해질 수 있음</li>\n<li><strong>보상 해킹</strong>은 인간의 의도와 보상 기준 사이의 틈을 최적화하는 행동임. 프롬프트와 인간 피드백의 모호...<p></p></li></ul>",
+    "createdAt": "2026-09-13T08:37:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=33613",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "John Deere의 자가 수리 서비스로 트랙터를 고쳐봤다. 농민들은 여전히 회의적이다",
+    "content": "<ul>\n<li><strong>Operations Center Pro Service</strong>는 장비 소유자가 직접 고장을 진단하고 수리하도록 돕는 구독 서비스로, 시연에서는 비전문가도 안내에 따라 끊어진 센서 연결을 몇 분 만에 복구함</li>\n<li>출시 1년 뒤 <strong>일일 이용자는 약 1,000명</strong>에 그치며, 취재에 응한 농민은 복합 고장 ...<p></p></li></ul>",
+    "createdAt": "2026-09-13T05:33:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=33612",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Bun의 컴파일 시간을 이해하려고 빌드 시각화 도구를 만들었다",
+    "content": "<ul>\n<li><strong>buildprof</strong>는 Linux 빌드 명령이 실행하는 모든 하위 프로세스를 하나의 타임라인으로 보여주는 오픈소스 추적 도구로, 병렬성 부족, 반복 작업, 의존성 다운로드, 오래 걸리는 컴파일과 링크 단계를 확인할 수 있음</li>\n<li>Bun의 Zig 빌드를 추적한 결과, 전체 24분 24초 중 <strong>최종 링...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-13T04:06:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=33611",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Real-SWE: 비공개 실무 기업 코드베이스에서 AI 모델을 평가하는 벤치마크",
     "content": "<ul>\n<li><strong>Real-SWE</strong>는 실제 기업에서 사용 허가를 받은 비공개 프로덕션 코드베이스와 업무를 바탕으로, 코딩 에이전트가 소프트웨어 엔지니어의 실무를 수행할 수 있는지 평가함</li>\n<li>모델 단독이 아니라 <strong>모델과 기본 하네스의 조합</strong>을 평가하며, 과제마다 8회 독립 실행한 평균 해...<p></p></li></ul>",
     "createdAt": "2026-09-13T02:39:52.000+00:00",
@@ -488,72 +554,6 @@
     "content": "<ul>\n<li>인체의 특이한 능력·감각·신체 변이 <strong>141가지</strong>를 모은 Bodily Oddities는 각 현상의 원리와 발생 빈도를 간단히 살펴볼 수 있는 사이트임</li>\n<li><strong>아판타시아</strong>나 엄지와 검지를 연결하는 추가 힘줄처럼 개인차가 큰 현상부터, 누구나 경험하는 잔상과 망막 내 시각 현상까지 다...<p></p></li></ul>",
     "createdAt": "2026-09-11T23:36:59.000+00:00",
     "link": "https://news.hada.io/topic?id=33561",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GrapheneOS, 재작성한 Messages 앱 출시",
-    "content": "<ul>\n<li><strong>버전 13</strong>은 기존 인터페이스를 <strong>Jetpack Compose와 Material 3</strong>로 교체해 모든 화면을 다시 구현하고, 대화 관리·대화면 지원·메시지 처리 안정성을 개선함</li>\n<li>대화 고정, <strong>알림 일시 중지</strong>, 읽지 않음 표시, 여러 메시지 삭제를 추가했으며, 큰 화면에서...<p></p></li></ul>",
-    "createdAt": "2026-09-11T22:39:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=33560",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google 앱 광고에 220달러를 썼는데, 설치의 60%가 봇이었다",
-    "content": "<ul>\n<li>퍼즐 앱 Dayzle의 Android 광고에서 2주간 과금된 설치 56건 중 <strong>33건이 봇으로 의심되는 행동</strong>을 보였으며, 실제 이용자로 분류된 사람은 13명이었음</li>\n<li>Google은 하루 설치 21건을 보고했지만 앱 관리자 화면에는 1건만 잡혔고, 이 차이를 조사하면서 <strong>나머지 20대가 구버전 앱을...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-11T22:36:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=33559",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: AI 없는 Hacker News",
-    "content": "<p>Show HN: AI 없는 Hacker News</p>\n",
-    "createdAt": "2026-09-11T21:31:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=33558",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: AI 없는 Hacker News",
-    "content": "<ul>\n<li><strong>unslop.news</strong>는 Hacker News 게시물에 필터를 적용한 목록을 제공하며, 제공된 화면에서는 전체 <strong>179개 중 81개</strong>가 남아 있음</li>\n<li>각 항목에 <strong>원문 링크와 Hacker News 댓글 링크</strong>, 점수, 게시 시점을 함께 표시해 원문과 토론을 찾아갈 수 있음</li>\n<li>...<p></p></li></ul>",
-    "createdAt": "2026-09-11T20:44:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=33557",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "EPA, 데이터센터 오염 관련 주민 공개 검토 규정 폐지 추진",
-    "content": "<ul>\n<li>미국 환경보호청 <strong>EPA</strong>가 데이터센터와 관련 발전소 등 산업시설의 대기오염 배출 허가 전에 주정부가 주민에게 알리고 의견을 받도록 하는 <strong>연방 의무를 폐지</strong>하려 함</li>\n<li>주민 참여 여부·시점·기간을 <strong>주·지방정부 재량</strong>에 맡기는 방안으로, 지난달에는 ...<p></p></li></ul>",
-    "createdAt": "2026-09-11T20:41:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=33556",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "운동 강도는 심혈관·대사 건강과 연관되어 있음",
-    "content": "<ul>\n<li>사람 대상 운동 중재에서 <strong>전력 질주 인터벌 운동(SIE)</strong> 은 중강도 운동(MIE)보다 운동 직후 혈중 단백질·대사물질을 더 광범위하게 변화시켰으며, 이런 차이는 <strong>8주 훈련 후에도</strong> 상당 부분 유지됨</li>\n<li>운동 직후 유의하게 변한 혈장 단백질은 <strong>SIE 714개, MIE 7개...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-11T20:03:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=33554",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
