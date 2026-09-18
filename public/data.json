@@ -1,5 +1,115 @@
 [
   {
+    "title": "LLM과 함께 글 쓰는 법",
+    "content": "<ul>\n<li>LLM은 <strong>대필 작가가 아니라 교정 편집자</strong>로 활용해야 함. 글은 직접 쓰고, 좋은 모델에 초안을 넘겨 결함을 찾게 하는 방식임</li>\n<li>첫 번째 원칙은 <strong>LLM이 제안한 표현을 단 한 단어도 쓰지 않는 것</strong>임. 매력적인 문구라도 모델이 글의 개성을 획일화하는 방식을 모두 알아채...<p></p></li></ul>",
+    "createdAt": "2026-09-18T09:42:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33887",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 묻기 전에 먼저 움직이는 Slack AI 팀원",
+    "content": "<p>안녕하세요. Slack 으로 일하다 보면 나중에 “그래서 이거 누가 하기로 했지?”하는 일이 많더라고요.</p>\n<p>기존 AI 봇은 물어봐야 답해주다 보니, 정작 놓친 일은 계속 놓치게 됐습니다. 그래서 슬랙용 AI직원을 만들고 있습니다.</p>\n<p>지금 가입하면 $100 크레딧을 드리고 있습니다.</p>\n<p>써보시고 “이런 것</p>",
+    "createdAt": "2026-09-18T08:46:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=33886",
+    "author": "turbogara1",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 채널톡, intercom 에 지친 팀들을 위해,,  레닛(lenit)을 소개합니다.",
+    "content": "<p>Saas 나 웹 서비스를 운영하는 스타트업들은 채널톡이나 intercom 을 통해 CS 를 처리하고, 피드백 수집을 위해 featurebase 나 canny  도 많이 사용하고 있더라구요.</p>\n<p>하지만 이 서비스들을 사용하면 크게 두가지 문제를 직면할 수 있어요.</p>\n<ol>\n<li>\n<p>가격</p>\n</li>\n<li>\n<p>죽은 게시판</p>\n</li>\n</ol>",
+    "createdAt": "2026-09-18T08:40:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=33885",
+    "author": "sin1768",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Qwen 3.8 Omni Flash",
+    "content": "<ul>\n<li><strong>Qwen3.8-Omni-Flash</strong>는 텍스트, 이미지, 오디오, 비디오를 입력받아 콘텐츠 이해부터 작업 계획, 도구 호출, 결과물 제작까지 수행하는 네이티브 옴니모달 모델로, <strong>100만 토큰 컨텍스트</strong>를 지원함</li>\n<li>Qwen 공개 평가에서 이전 Qwen3.5-Omni-Plus보다 <strong>29개 평가 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-18T07:42:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33884",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: SQLBraid - SQL을 그대로 쓰는 TypeScript 라이브러리",
+    "content": "<h3>배경</h3>\n<p>저는 java 기반 자체 프레임워크를 쓰는 회사에서 프레임워크 코어 개발자 역할 겸임으로 일하고 있습니다. 해당 프레임워크는 내부적으로 mybatis/ibatis 와 비슷한 xml 문법으로 쿼리를 작성하고 여느 SI 회사처럼 수천줄 이상의 긴 SQL에 대부분의 로직을 작성합니다.</p>\n<p>개인프로젝트 할 때는 </p>",
+    "createdAt": "2026-09-18T05:50:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=33881",
+    "author": "click",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI 해킹",
+    "content": "<ul>\n<li>Hacktron이 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">libheif</code> 원격 코드 실행 취약점과 OpenAI SSO 설정 오류</strong>를 결합해 여러 OpenAI 직원의 ChatGPT 계정을 탈취하고, 연결된 Codex로 내부 저장소에 접근함</li>\n<li>공격은 <strong>포럼 이미지 업로드</strong>에서 시작됐지만, 다른 서비스로 접근이 확장된 원인은 Op...<p></p></li></ul>",
+    "createdAt": "2026-09-18T05:42:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33880",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사진작가 오스틴 만의 iPhone 18 Pro 카메라 리뷰",
+    "content": "<ul>\n<li>콜로라도 Dunton에서 일주일간 시험한 iPhone 18 Pro는 <strong>가변 조리개와 수동 제어</strong>로 얕은 심도, 모션 블러 등 의도적인 사진 표현의 자유를 넓힘</li>\n<li><strong>가변 조리개</strong>는 저조도 집광 능력을 50% 높이고 장면에 맞춰 심도를 조절함. 특별한 표현 목적이 없다면 자동 설정을 유...<p></p></li></ul>",
+    "createdAt": "2026-09-18T04:02:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33879",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "존 그루버의 iPhone 18 Pro 리뷰",
+    "content": "<ul>\n<li>전작보다 빠르고 카메라, 발열 관리와 배터리도 나아졌지만 <strong>새 제품이라는 설렘은 적음</strong>. 외형보다 내부 완성도를 높이던 과거 iPhone의 ‘S 세대’에 가까운 업그레이드</li>\n<li>메인 카메라의 <strong>가변 조리개</strong>로 들어오는 빛과 배경이 흐려지는 정도를 조절하며, 기본 Camera ...<p></p></li></ul>",
+    "createdAt": "2026-09-18T03:42:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=33878",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "일본의 100세 이상 인구, 10만 명 넘어",
+    "content": "<ul>\n<li>일본 후생노동성 집계에서 <strong>100세 이상 인구가 처음으로 10만 명을 넘어</strong> 10만 7,677명을 기록했으며, 이 가운데 88%가 여성임</li>\n<li>전문가들은 일본인의 장수 요인으로 <strong>건강한 식단과 활동적인 생활</strong>을 꼽으며, 고령층도 걷기, 대중교통 이용, 자전거 타기, 스트레칭을 꾸...<p></p></li></ul>",
+    "createdAt": "2026-09-18T03:42:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=33877",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사용자를 위해 일부러 어렵게 만드는 경험, 어디까지 괜찮을까?",
+    "content": "<div><p id=\"3dea360d-33e3-8097-9cf6-ce7344bf6ac5\"><span><span></span></span></p><p id=\"3dfa360d-33e3-8025-82d9-c268d5100308\"><span><span><span>안녕하세요. 토스뱅크에서 7세부터 17세까지, 미성년자를 위한 제품을 만들고 있는 Product Designer 오주연이에요. 저는 10대가 스스로 정한 목표를 달성할 수 있도록 돈을 빼내기 어렵게 하는 </span><span>저금통 잠그기 기능</span><span>을 만들었어요.</span></span></span></p><p id=\"3dfa360d-33e3-8035-aa58-e51578a62cae\"><span><span><span>이 글에서는 ‘사용자를 돕기 위해 일부러 어렵게 만드는 경험은 어디까지 괜찮을까?’를 고민했던 이야기를 나눠보려고 해요.</span></span></span></p><h2 id=\"3dfa360d-33e3-80cd-842d-fbb5ce65dab4\"><span><span><span>\"목표금액까지 못 채우면 못 꺼내게 해주세요\"</span></span></span></h2><p id=\"3dfa360d-33e3-802e-90b8-f0b3d05ad217\"><span><span><span>10대를 위한 제품을 만들며 여러 리서치를 했는데, 아이들의 용돈 생활에 공통적으로 나타난 패턴이 있었어요. </span><span>돈을 모으고 싶어 하지만 쓰고 늘 후회하는 경험을 반복하는 거였죠.</span></span></span></p><p id=\"3dfa360d-33e3-80ad-b6d3-e4076bc99d9f\"><span><span><span>저축을 결심해도 눈앞의 사고 싶은 것을 참기 어려웠고, 결국 열심히 모으던 돈을 써버리는 것이었어요. 이런 실패가 쌓이면서 ‘나는 돈을 잘 관리할 수 있다’는 감각도 낮아지고 있었고요.</span></span></span></p><p id=\"3dfa360d-33e3-80bf-9023-d3a7d1e14dbf\"><span><span><span>발달심리학에서는 이를 이중 시스템 모델로 설명하기도 해요. 무언가를 갖고 싶게 만드는 보상·감정 시스템은 사춘기 무렵 빠르게 발달하지만, 충동을 조절하는 전두엽은 20대 초중반까지 발달이 이어져요. 10대는 저축하고 싶은 마음은 충분히 크지만, 당장의 유혹을 참는 힘은 아직 자라는 중인 셈이죠. 그러니 저축에 실패한 건 단순히 의지가 약해서가 아니었어요.</span></span></span></p><p id=\"3dfa360d-33e3-8019-9523-e278657782c3\"><span><span><span>어느 날은 이런 피드백들이 올라왔어요.</span></span></span></p><blockquote id=\"3dfa360d-33e3-80ca-a3ea-ec492877c1d3\"><span><span><span>“목표금액까지 못 채우면 돈 못 꺼내는 저금통 만들어주세요ㅜㅜ 저를 못 믿겠어요.”</span></span></span></blockquote><p id=\"3dea360d-33e3-80bf-aec7-c71f8cbdc60e\"><span><span></span></span></p><figure id=\"3dea360d-33e3-80e3-8c7a-f76ed89bad09\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/2899b62e-4320-47ed-ad94-db94910cb609/유저_의견.png\" alt=\"\"></figure><p id=\"3dea360d-33e3-8086-9071-d568cd70a2ea\"><span><span></span></span></p><p id=\"3dfa360d-33e3-8026-8f3d-c6c1a50829e2\"><span><span><span>아이들은 이미 자신에게 어떤 도움이 필요한지 알고 있었어요. 저축하고 싶은 마음은 있지만, 마음이 흔들리는 순간 한 번 더 자신을 말려줄 무언가가 필요했던 거죠.</span></span></span></p><p id=\"3dfa360d-33e3-80b7-980c-d6c472677da2\"><span><span><span>이 목소리에서 잠금 저금통이 출발했어요.</span></span></span></p><h2 id=\"3dfa360d-33e3-804f-a151-defaff00e17c\"><span><span><span>잠금을 어떻게 풀 것인가</span></span></span></h2><p id=\"3dfa360d-33e3-8017-b01a-fe8ef2bd5ab5\"><span><span><span>그런데 목표금액을 채우지 않아도 결국에는 자신의 돈이기 때문에 원하면 돈을 꺼낼 수 있어야 해요. 그렇다면 얼마나 쉽게, 혹은 얼마나 어렵게 풀리게 해야 할까요? 이 난이도가 잠금 저금통의 가장 중요한 부분이라고 생각했어요. 그래서 팀원들과 삼삼오오 모여 아이디어를 모았고, 어느새 스레드에는 70개가 넘는 의견이 쌓였어요. 주사위를 굴려서 6이 나와야 열리는 것, 계좌번호를 외워서 입력해야 하는 것, 친구에게 허락을 받아야 열리는 것… 재미있는 아이디어가 정말 많았어요.</span></span></span></p><p id=\"3dea360d-33e3-803c-8032-d705b0a34880\"><span><span></span></span></p><figure id=\"3dea360d-33e3-803e-b7f2-f67bf2a624f3\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/6478ec8b-afb1-4a6e-ae04-60b1b61782a0/팀원_의견.png\" alt=\"\"></figure><p id=\"3dea360d-33e3-8011-9b28-c86fbc4a730c\"><span><span></span></span></p><p id=\"3dfa360d-33e3-8080-be9b-cb4b25e54aa2\"><span><span><span>그중 유독 반응이 좋았던 아이디어가 </span><span>‘돼지저금통 부수기’</span><span>였어요. 화면 속 저금통을 두드리면 쨍그랑 깨지면서 모은 돈이 쏟아지는 거예요. 설명하지 않아도 바로 이해할 수 있고, 어릴 때 게임에서 무언가를 신나게 부숴본 기억도 있잖아요. 팀 반응도 좋았고, 저도 처음에는 ‘이거다’ 싶었어요.</span></span></span></p><p id=\"3dfa360d-33e3-8003-bbd7-f76ca018225a\"><span><span><span>그런데 막상 디자인을 시작하니 마음 한구석이 계속 걸렸어요. 어릴 때 용돈을 모으던 돼지저금통을 깼던 날이 떠올랐거든요. 돈이 필요해서 어쩔 수 없이 깼는데, 동전을 하나씩 세는 내내 기분이 이상했어요.</span></span></span></p><p id=\"3dea360d-33e3-8036-a7ad-e46347bd1306\"><span><span></span></span></p><p id=\"3dea360d-33e3-8076-b632-cebc4d5c16b2\"><span><span></span></span></p><figure id=\"3dea360d-33e3-8056-98fd-da14e2d0aa3a\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/72c155fd-e261-4c5d-be28-a46af58239c3/piggybank_worried_1200x800.png\" alt=\"\"></figure><blockquote id=\"3dea360d-33e3-805f-98c6-d270dde5c1da\"><span><span><span>사고 싶은 걸 사는 건데, 왜 혼나는 기분이 들지?</span></span></span></blockquote><p id=\"3dea360d-33e3-80f9-a0de-d81a7535d7b5\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80f7-8f8e-d3e29f35b7bd\"><span><span><span>돌이켜보니 인터뷰에서 아이들이 저축에 실패했을 때 이야기했던 감정도 이와 크게 다르지 않았어요. 돈을 쓴 것 자체보다 ‘또 참지 못했다’는 아쉬움과 스스로에 대한 실망이 남는다는 이야기가 반복됐어요.</span></span></span></p><p id=\"3dfa360d-33e3-801a-acf4-d2cf1a216f1a\"><span><span><span>30대인 제 눈에는 돼지저금통을 부수는 게 재미있는 인터랙션이지만, 그걸 경험하는 10대에게는 ‘저축에 실패했다’는 낙인이 될 수도 있겠다는 생각이 들었어요. 돈을 꺼내는 건 잘못이 아닌데, ‘부순다’는 연출은 마치 잘못을 저지른 것 같은 기분을 남길 수 있으니까요. 만드는 사람에게 재미있는 경험이, 쓰는 사람에게는 상처가 될 수도 있었어요.</span></span></span></p><p id=\"3dea360d-33e3-809a-aecc-c568f28eb9d2\"><span><span><span>\n</span></span></span></p><hr><p id=\"3dea360d-33e3-8069-bdd8-f7730d0dee84\"><span><span></span></span></p><h2 id=\"3dea360d-33e3-8051-b4d4-df964970b787\"><span><span><span>재미보다 기준을 먼저 세우다\n</span></span></span></h2><p id=\"3dfa360d-33e3-80bc-a54b-fe02f50ea664\"><span><span><span>결국 저금통을 부수는 방식은 사용하지 않기로 했어요. 대신 </span><span>‘잠금을 푸는 경험은 어떤 모습이어야 하는가’</span><span>부터 다시 정의했어요.</span></span></span></p><p id=\"3dfa360d-33e3-8094-a7e2-ca96d57a6e71\"><span><span></span></span></p><p id=\"3dfa360d-33e3-807b-9207-f87a3b5f4142\"><span><span><span>하나. 누구에게나 공평하게 작동할 것</span></span></span></p><p id=\"3dfa360d-33e3-808f-ae3d-e823ce71cb13\"><span><span><span>인지능력, 문해력, 손재주, 반응 속도에 따라 난이도가 달라지면 안 돼요. 계좌번호를 외워 입력하는 방식은 17살에게는 재미있는 미션일 수 있지만, 어린 사용자에게는 훨씬 어려운 일이 될 수 있어요. 잠금은 저축을 돕기 위한 장치인데, 사용자의 능력에 따라 돈을 꺼낼 수 있는 정도가 달라져서는 안 된다고 생각했어요.</span></span></span></p><p id=\"3dfa360d-33e3-80a1-9444-d113287d1db7\"><span><span><span>둘. 죄책감을 느끼게 하지 않을 것. </span></span></span></p><p id=\"3dfa360d-33e3-8065-a088-dbed458b05db\"><span><span><span>미래의 목표를 다시 생각하게 만드는 건 괜찮지만, 지금의 기분을 나쁘게 만드는 방식은 피하기로 했어요. 저축을 지키게 만들겠다고 죄책감을 도구로 쓰는 순간, 그건 응원이 아니라 벌이 될 수 있으니까요. 그래서 돈을 꺼내는 순간을 실패처럼 보여주는 연출은 제외했어요. 돈을 꺼내면 저금통이 눈물을 흘린다던가, “목표를 지키지 못했어요” 말을 따라 쓰게 한다던가 하는 것들이요.</span></span></span></p><p id=\"3dfa360d-33e3-80e1-a304-ff91eca4d32a\"><span><span><span>셋. 아이의 돈은 아이의 것일 것. </span></span></span></p><p id=\"3dfa360d-33e3-80f3-b9bf-e5f69294129b\"><span><span><span>어떤 경우에도 스스로 자기 돈에 도달할 수 있는 경로가 있어야 했어요. 친구의 허락을 받아야 열리는 방식은 재미있는 소셜 요소처럼 보이지만, 내 돈을 꺼내는 데 다른 사람의 허락이 필요하다면 돈에 대한 주도권을 아이가 갖기 어려워져요.</span></span></span></p><hr><p id=\"3dea360d-33e3-8010-abb7-fc863f274272\"><span><span></span></span></p><h2 id=\"3dfa360d-33e3-80bd-800a-eeacb0eab75d\"><span><span><span>잠금이 응원이 되도록</span></span></span></h2><p id=\"3dfa360d-33e3-809f-8b57-dba23ae31823\"><span><span><span>가장 신경 쓴 건 ‘온도’였어요. 잠금은 자칫 ‘막힌 문’처럼 느껴질 수 있어요. 돈을 꺼내지 못하게 하는 장치니까요. 하지만 이 잠금은 아이가 스스로 원해서 건 것이잖아요. 그렇다면 아이를 가두는 장치가 아니라, 아이가 세운 결심을 지켜주는 장치여야 했어요.</span></span></span></p><p id=\"3dea360d-33e3-800b-8db8-ca783d961696\"><span><span></span></span></p><p id=\"3dea360d-33e3-8055-890e-ce96a00d0604\"><span><span></span></span></p><figure id=\"3dea360d-33e3-8063-a052-c3ffde575238\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/709e233f-f238-422b-8e15-f00fbbca55db/mockup_잠금풀기.mp4\"></video></figure><p id=\"3dea360d-33e3-80ed-a276-c968a3730e3c\"><span><span><span>그래서 해제 방식으로는 버튼을 몇 초간 지그시 누르고 있어야 잠금이 풀리는 방식을 택했어요. 돈을 꺼내기 전까지 잠깐의 ‘틈’을 만들어주니까요. 충동적으로 손이 가더라도, 버튼을 누르고 있는 그 몇 초가 ‘정말 지금 꺼낼까?’를 한 번 더 생각하게 해요. 이 과정을 통해 10대들이 충동을 인내하는 힘을 기를 수 있을 거라고 생각했어요.</span></span></span></p><p id=\"3dea360d-33e3-80f4-87a3-cf39d12f211a\"><span><span></span></span></p><p id=\"3dea360d-33e3-809b-b5ae-f52bec376948\"><span><span></span></span></p><figure id=\"3dea360d-33e3-80d6-b89d-ff0a0c36d57c\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/7598ca52-d0a9-4948-a566-47dc0846a0ce/mockup_잠그기_v4.mp4\"></video></figure><p id=\"3dfa360d-33e3-8006-add8-fdb2208a4718\"><span><span><span>그리고 잠금이 강제나 부담으로 느껴지지 않도록 UI와 인터랙션의 무게감을 조절했어요. 예를 들어 잠글 때 ‘철컹’ 하고 강하게 잠기는 느낌은 피하고 싶었어요. 비주얼 디자이너와 함께 부드러운 톤과 그라데이션을 사용해, 잠그는 순간조차 무겁게 느껴지지 않도록 했죠. 잠글 때도, 풀 때도 아이가 혼나는 기분보다 응원받는 기분을 느낄 수 있도록요.</span></span></span></p><p id=\"3dfa360d-33e3-800e-8cd4-f4a2c9b88dea\"><span><span><span>가장 오래 고민한 건 기술이나 화면보다는 ‘어떻게 하면 아이가 실패감 대신 성장의 경험을 갖게 할까?’를 가장 많이 고민했죠.</span></span></span></p><p id=\"3dfa360d-33e3-8050-ab0b-d0568749ee86\"><span><span><span>그래서 출시 후 들어온 이런 목소리가 유독 반가웠어요.</span></span></span></p><figure id=\"3dea360d-33e3-805b-83f9-cfc05b9fbfa9\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/298c2666-d572-4575-97a0-3a066825b853/출시_반응.png\" alt=\"\"></figure><p id=\"3dea360d-33e3-809c-af55-c69c7a558f7c\"><span><span><span>은행은 보통 계좌, 이자, 잔액처럼 돈을 관리하는 곳이라고 생각해요. 하지만 잠금 저금통을 만들면서, </span><span>은행이 사용자의 금융 경험을 함께 만들어가는 곳이 될 수도 있겠다는 생각을 하게 됐어요.</span><span> 이제 막 돈을 배우기 시작한 아이들에게는 특히 더 그렇고요.</span></span></span></p><p id=\"3dea360d-33e3-8094-8363-d4c647ff55f0\"><span><span></span></span></p><p id=\"3dea360d-33e3-8076-92a8-e8c9b662e82a\"><span><span></span></span></p><h2 id=\"3dea360d-33e3-807a-b081-d0a56f2ff220\"><span><span><span>적용해보기</span></span></span></h2><p id=\"3dfa360d-33e3-802b-98e7-eeae91231cd9\"><span><span><span>이 경험은 꼭 10대들의 저금통에만 해당하는 이야기는 아니라고 생각해요. 집중 모드, 앱 잠금, 사용 시간 제한처럼 사용자를 위해 일부러 무언가를 어렵게 만드는 제품은 많아요. 그럴 때 한 번쯤 이런 질문을 던져볼 수 있어요.</span></span></span></p><ul><li id=\"3dfa360d-33e3-8096-809b-d283c209a05f\"><span><span><span>나이와 이해도, 상황이 다른 사용자에게도 공평한 난이도일까?</span></span></span></li><li id=\"3dfa360d-33e3-80e5-a90d-f2ce1a536575\"><span><span><span>이 설계가 사용자에게 죄책감이나 실패감을 남기지는 않을까?</span></span></span></li><li id=\"3dfa360d-33e3-80e5-9b03-ca7b39b695d2\"><span><span><span>만드는 나에게 재미있는 것과, 쓰는 사람에게 좋은 것을 혼동하고 있지는 않을까?</span></span></span></li><li id=\"3dfa360d-33e3-80ae-9dde-f83265020c3f\"><span><span><span>사용자를 돕기 위해 만든 장치가 오히려 사용자의 선택권을 빼앗고 있지는 않을까?</span></span></span></li></ul></div><div id=\"tds-mobile-portal-container\"></div>",
+    "createdAt": "2026-09-18T03:41:00.000+00:00",
+    "link": "https://toss.tech/article/lockbank",
+    "author": "",
+    "site": {
+      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
+      "name": "토스 기술블로그"
+    }
+  },
+  {
     "title": "섹스, AI, 그리고 종말",
     "content": "<ul>\n<li>미국 AI 안전 논의를 이끄는 인물과 기관에는 <strong>합리주의 커뮤니티의 인적 관계와 자금망</strong>이 깊이 얽혀 있음. AI 멸종 경고의 타당성과 별개로, 이들의 판단과 감독 체계를 독립적으로 검증할 필요가 있음</li>\n<li>LessWrong, Harry Potter 팬픽, 교육 워크숍과 공동 의례는 <strong>인류를 구할...<p></p></strong></li></ul>",
     "createdAt": "2026-09-18T02:02:16.000+00:00",
@@ -489,105 +599,6 @@
     "createdAt": "2026-09-17T06:42:14.000+00:00",
     "link": "https://news.hada.io/topic?id=33828",
     "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "백업은 단순하지 않다",
-    "content": "<ul>\n<li>파일을 다른 곳에 복사하는 것으로 시작한 백업은, 실수와 랜섬웨어에 대비해 <strong>과거 상태를 보존하는 일</strong>까지 필요해짐. RAID 1처럼 현재 상태를 복제하는 것만으로는 충분하지 않음</li>\n<li>과거 상태를 계속 남기면 저장 공간이 늘어나므로 <strong>백업 주기와 보존 정책, 증분 백업과 중복...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-17T06:42:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=33827",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DeepMind Institute 출범 - AGI 시대의 안전과 사회 변화를 논의하는 플랫폼",
-    "content": "<ul>\n<li>Google과 Google DeepMind 연구자들이 <strong>AGI의 안전한 개발과 사회적 영향을 연구하고 토론하는 DeepMind Institute(DMI)</strong> 를 출범함</li>\n<li>기술 개발뿐 아니라 <strong>일자리와 경제 정책, 인간의 가치, 제도와 거버넌스</strong>까지 다루며, 외부 연구자와 인문학, 예술, 정부의 참여도 강...<p></p></li></ul>",
-    "createdAt": "2026-09-17T05:32:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=33825",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "블로그 글에 DOI를 발급받는 방법",
-    "content": "<ul>\n<li><strong>Rogue Scholar</strong>를 이용하면 개인 블로그에 글을 유지하면서 새 글마다 DOI를 자동 발급받을 수 있음</li>\n<li><strong>DOI</strong>는 특정 글을 가리키는 고유하고 지속적인 식별자로, 도메인이나 글의 주소가 바뀌어도 새 위치로 연결할 수 있어 학술 인용에 유용함</li>\n<li>등록하려면 </li></ul>",
-    "createdAt": "2026-09-17T05:12:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=33824",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Trawling - 해외 기술 소식을 모아보는 한국어 브리핑",
-    "content": "<p>https://trawling.dev/</p>\n<p>해외 기술 소식과 프로젝트를 여러 출처에서 모아 한국어 요약과 해설로 보여주는 Trawling을 만들었습니다.</p>\n<p>여러 사이트를 오가며 영어 제목과 본문을 확인하는 과정을, 한 목록에서 요약을 먼저 읽고 관심 있는 원문을 열어보는 흐름으로 묶었습니다. 개발 도구, 오픈소스, 하</p>",
-    "createdAt": "2026-09-17T04:58:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=33823",
-    "author": "coderred",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "3진 LLM의 1.58비트 장벽을 넘어서",
-    "content": "<ul>\n<li><strong>BITCOS</strong>는 3진 LLM 가중치의 0 비중을 활용해 저장량을 줄이는 형식으로, 조사한 29개 모델 중 26개에서 기존 5트릿 패킹보다 작고 기호만 계산하면 최소 <strong>가중치당 1.485비트</strong>를 달성함</li>\n<li>모든 가중치에 비영 여부를 나타내는 비트 1개를 배정하고, 0이 아닌 가중치의 ...<p></p></li></ul>",
-    "createdAt": "2026-09-17T04:42:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=33822",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "1.1.1.1은 이제 포스트퀀텀 DNSSEC 을 지원합니다.",
-    "content": "<p>• 알고리즘 지원: 클라우드플레어의 공인 DNS 리졸버 1.1.1.1이 NIST 표준화 포스트 양자 서명 알고리즘인 ML-DSA-44를 사용한 DNSSEC 서명 검증을 지원하기 시작함.<br>\n• 목표 시한: 클라우드플레어는 양자 컴퓨터 위협에 대응하여 2029년까지 완전한 포스트 양자 보안 달성을 계획하고 있음.<br>\n• 크기 문...</p>",
-    "createdAt": "2026-09-17T02:53:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=33821",
-    "author": "selene",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "호주, 캐나다처럼 EU와 관계를 강화할 수 있다고 밝혀",
-    "content": "<ul>\n<li>호주 통상장관 <strong>Don Farrell</strong>은 EU와 더 긴밀한 관계를 모색하는 캐나다와 같은 입장이라며, 캐나다의 행보를 관심 있게 지켜보겠다고 밝힘</li>\n<li>캐나다 총리 <strong>Mark Carney</strong>는 EU 정회원 가입이 아니라 “<strong>독자적인 동맹</strong>”을 추구한다고 명확히 함</li>\n</ul>",
-    "createdAt": "2026-09-17T02:33:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=33820",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": ".NET 11의 성능 개선",
-    "content": "<ul>\n<li><strong>.NET 11</strong>은 JIT와 라이브러리 전반에서 불필요한 할당, 경계 검사, 잠금, 복사를 줄임. JIT 최적화는 소스 수정이나 애플리케이션 재컴파일 없이도 이득을 주는 경우가 많음</li>\n<li><strong>런타임 비동기(runtime async)</strong> 는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">async</code>/<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">await</code> 변환을 컴파일러...<p></p></li></ul>",
-    "createdAt": "2026-09-17T01:48:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=33819",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 옆 팀 레포는 그쪽 Claude가 제일 잘 안다 — 세션 간 질의응답 브로커",
-    "content": "<p>서로 다른 머신에서 돌아가는 Claude Code 세션끼리 질문을 푸쉬하고 답을 받는 시스템입니다.<br>\nClaude Code의 Channels(리서치 프리뷰)를 사용했습니다.<br>\n사내에서 협업하다 발생한 게으름을 단순 아이디어로 사용하여, 클로드를 이용하여 100% 구현하였습니다.</p>\n<h3>문제</h3>\n<p>내 레포는 내가 잘 알</p>",
-    "createdAt": "2026-09-17T01:20:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=33818",
-    "author": "nugulhie",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -2186,17 +2197,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "누군가는 토스를 테스트하는 동안, 우리는 테스트하는 법을 만듭니다.",
-    "content": "<div><p id=\"38aa360d-33e3-80a7-b600-d69eb7b39bdb\"><span><span><span>매주 토스는 다시 태어납니다. 지난주의 토스와 이번 주의 토스는 같아 보여도 같지 않습니다. 누군가는 화면을 고치고, 누군가는 새 기능을 얹고, 누군가는 눈에 보이지 않는 코드 한 줄을 바꿉니다. 한 번 내보낼 때마다 평균 300~400건의 코드가 바뀝니다.</span></span></span></p><p id=\"38aa360d-33e3-80e8-9079-f11c0ad91b63\"><span><span><span>우리에게는 늘 있는 변경이지만, 사용자에게는 그렇지 않습니다. 급한 송금을 보내야 할 때도, 대출을 빠르게 비교해야 할 때도, 결제가 급한 순간도 있습니다. 그저 평범한 하루일 수도 있습니다. 그 순간 버튼 하나가 눌리지 않으면, 사용자의 하루가 통째로 어긋납니다.</span></span></span></p><p id=\"38aa360d-33e3-80ad-b392-cc22c1b4879f\"><span><span><span>토스에게 품질은 반드시 지켜야 하는 가치이며, 사용자와의 약속입니다.</span></span></span></p><p id=\"38aa360d-33e3-803b-9d79-c7d3afc47787\"><span><span><span>그래서 매주, 이 앱이 사용자 손에 닿기 전에 누군가는 멈춰 서서 묻습니다. \"이거, 정말 내보내도 괜찮을까?\"</span></span></span></p><p id=\"38aa360d-33e3-80c6-a1d0-d109474e083a\"><span><span><span>그 '누군가'가 바로 저희입니다. </span></span></span></p><p id=\"38aa360d-33e3-8014-9307-e90431cbbf8a\"><span><span><span>안녕하세요. 토스 QA Platform 팀입니다. 올해 수많은 제품을 검증해 왔지만, 정작 우리 이야기를 글로 꺼내는 건 이번이 처음입니다. 앞으로 걸어온 이야기와, 아직 풀지 못한 숙제들을 하나씩 풀어보려 합니다.</span></span></span></p><p id=\"38aa360d-33e3-8066-8b1f-c9a2f7e1d867\"><span><span></span></span></p><h2 id=\"38aa360d-33e3-8091-a35e-f4376972ec30\"><span><span><span>매주, 토스를 내보내기 전에 </span></span></span></h2><p id=\"38aa360d-33e3-80f9-866f-f1dca2180a4d\"><span><span><span>우리 일은 토스 앱 릴리즈를 책임지는 데서 시작합니다. 토스는 매주 새로운 버전을 배포하며, 각 버전에는 수백 개의 변경 사항이 담겨 있습니다. 그 변화 속에서도 사용자에게 안전하게 닿도록 품질을 챙기는 것이 일의 출발입니다.</span></span></span></p><p id=\"38aa360d-33e3-8033-bdb6-ce468308f940\"><span><span><span>한 주는 이렇게 흘러갑니다. 새 릴리즈 후보(Release Candidate)가 올라오면 먼저 </span><span>토스닥터(Toss Doctor)</span><span>로 </span><span>스모크 테스트(Smoke Test)</span><span>를 수행합니다. 로그인부터 탈퇴까지 핵심 기능이 제대로 도는지 빠르게 확인하고, 동시에 PR(Pull Request) 분석기가 짚어낸 변경 사항을 살피며 영향 범위를 중심으로 테스트합니다. 이후 </span><span>토스체커(Toss Checker)</span><span>로 </span><span>리그레션 테스트(Regression Test)</span><span>를 수행해, 이번 주 변경 사항이 기존에 안정적으로 동작하던 기능을 훼손하지 않았는지 서비스 전반을 점검합니다. </span></span></span></p><p id=\"38aa360d-33e3-8048-98bf-e54b25f832d4\"><span><span><span>출시 뒤에도 끝이 아닙니다. </span><span>크래시(Crash) 지표</span><span>를 지속적으로 모니터링하고, 문제가 발생하면 </span><span>핫픽스(Hotfix)</span><span>로 신속하게 대응할지, 다음 배포에서 더 안전하게 해결할지 판단합니다. 핫픽스는 사용자에게 또 한 번의 업데이트를 요구합니다. 그래서 우리는 ‘빨리’보다 ‘정말 지금 필요한가’를 먼저 묻습니다. 필요할 때는 즉시 대응하지만, 그렇지 않다면 더 안전한 해결 방법을 선택해야 합니다.&nbsp;같은 문제가 되풀이되지 않도록, 직접 만든 대시보드로 크래시와 핫픽스를 추적합니다.</span></span></span></p><p id=\"38aa360d-33e3-8084-a6d0-ec2f7deed767\"><span><span><span>우리의 일은 릴리즈에만 머물지 않습니다. 품질이 필요한 곳이라면 어디든 갑니다. 이제 막 QA를 시작한 제품 팀에는 무엇부터 봐야 할지 길을 잡아 주고, 팀원들이 매일 쓰는 사내 도구의 품질을 보증하고, QA 프로세스를 세우고 싶은 팀에는 그 체계를 함께 설계합니다. 특정 팀이 아니라 토스 전체의 품질을 끌어올리는 것. 그것이 우리가 있는 이유입니다.</span></span></span></p><p id=\"38aa360d-33e3-80de-9bf4-cc149b9e9f15\"><span><span><span>그래서 목표는 하나입니다. 누구나 쉽게 테스트 케이스(Test Case)를 만들고, 빠르고 정확하게 테스트할 수 있어야 한다. 그것이 토스 앱의 품질을 지키는 방법이라고 봅니다.</span></span></span></p><p id=\"38aa360d-33e3-8065-8d2a-c8ed9a4d9ff9\"><span><span></span></span></p><h2 id=\"38aa360d-33e3-80eb-b466-c385ccf4dad5\"><span><span><span>단순한 테스트를 넘는다는 것 </span></span></span></h2><p id=\"38aa360d-33e3-80f1-a9b0-dcd53d498bc8\"><span><span><span>팀에는 슬로건이 하나 있습니다. </span><span>\"단순 테스트를 넘어, 토스 품질의 표준을 세운다.\"</span><span> \n처음 들으면 광범위해서 잘 와닿지 않을 겁니다. 그런데 표준이란 게 왜 있어야 할까요?</span></span></span></p><p id=\"38aa360d-33e3-80c9-a688-ed7dec7d5e7e\"><span><span><span>토스 팀은 매주 사용자에게 새 기능을 내놓습니다. 그때마다 품질을 판단하는 기준이 사람마다 다르면 안 됩니다. 누가 보든, 언제 보든, 같은 기준으로 걸러져야 합니다. 그래서 표준을 이렇게 정의했습니다.</span></span></span></p><p id=\"38aa360d-33e3-8060-97f6-d3a65319b116\"><span><span><span>하나, </span><span>이번 주도 다음 주도 믿을 수 있게 배포하는 것(Reliable Releases, Every Time)</span><span>. 한 번 잘 배포하는 것은 누구나 할 수 있습니다. 어려운 것은 매주, 빠짐없이, 같은 수준의 신뢰를 사용자에게 전달하는 일입니다. </span></span></span></p><p id=\"38aa360d-33e3-8028-8226-e8f67bfd5933\"><span><span><span>둘, </span><span>결함을 예리하게 짚어내는 것(Ensure Test Quality)</span><span>. 테스트는 많이 한다고 좋은 게 아닙니다. 진짜 사고가 될 결함을 정확히 골라내는 것이 실력입니다. 그래서 '무엇을 놓쳤나'에 집중합니다.</span></span></span></p><p id=\"38aa360d-33e3-80f6-baba-c512a8e484eb\"><span><span><span>셋, </span><span>그걸 효율적으로 해내는 것(Assuring Quality Efficiently)</span><span>. 같은 일을 사람이 손으로 반복하는 방식만으로는 매주 쏟아지는 변화를 따라갈 수 없습니다. 그래서 우리는 ‘잘하는 것’만큼 ‘지치지 않는 것’도 중요한 표준으로 생각합니다.</span></span></span></p><p id=\"38aa360d-33e3-8085-b377-c8380bd98166\"><span><span><span>이 셋을 매주 빠짐없이 지켜내는 것. 그것이 우리가 말하는 토스 품질의 표준입니다.</span></span></span></p><p id=\"38aa360d-33e3-8089-87ac-d3c28b8374a4\"><span><span><span>그리고 올해, 여기서 한 발 더 나아가기로 했습니다. 테스트가 스스로 동작하는 범위를 넓혀가는 일입니다. 모든 걸 AI에 맡기겠다는 뜻은 아닙니다. 맡겨도 될 판단은 AI에 맡기고, 사람은 정말 사람이 봐야 할 곳에만 집중하기로 했습니다.</span></span></span></p><p id=\"38aa360d-33e3-8049-9906-e5e31e4cefbf\"><span><span></span></span></p><h2 id=\"38aa360d-33e3-808e-ab2e-d36890e3f7ea\"><span><span><span>우리만의 플레이그라운드 </span></span></span></h2><p id=\"38aa360d-33e3-8012-954d-c23cceaf8988\"><span><span><span>매주 테스트할 일은 늘어만 갔습니다. 사람 손으로 하나하나 따라가기엔 버거운 양이었습니다. 마침 그때 AI가 빠르게 발전했고, 그 AI를 테스트에 제대로 써 보고 싶었습니다.</span></span></span></p><p id=\"38aa360d-33e3-8056-938c-d5555f50c50d\"><span><span><span>그런데 상용 도구만으로는 한계가 있었습니다. 우리의 업무를 도구가 정해 놓은 방식에 맞춰야 했고, 새로 나온 AI 기능도 필요할 때 바로 붙여 보고, 아니면 과감히 떼어낼 만큼 유연하게 활용하기 어려웠습니다. 토스의 배포 속도와 일하는 방식에 맞추려 할수록, 늘 어딘가 어긋났습니다.</span></span></span></p><p id=\"38aa360d-33e3-8056-9d36-fb276fc48d6f\"><span><span><span>그래서 직접 만들었습니다. 우리만의 플랫폼, </span><span>토션(Tossion)</span><span>입니다.</span></span></span></p><p id=\"38aa360d-33e3-80ee-aa06-cfe0020e0c2b\"><span><span><span>토션은 QA Platform 팀의 정체성을 만들어가는 과정에서 시작됐습니다. QA인 우리가 더 효과적으로 일하고, 품질에 대한 이상을 온전히 구현하고 실험해볼 ‘우리만의 공간’이 있으면 좋겠다는 마음에서 출발했습니다.</span></span></span></p><p id=\"38aa360d-33e3-8094-a3e0-c80f3b87132a\"><span><span><span>토션의 첫 모습은 TestRail을 대체하는 일이었습니다. 기존 상용 도구에 있던 테스트의 전 과정, 케이스 작성부터 실행과 결과 기록까지를 토션으로 온전히 이관했습니다. 그 과정에서 제각각 쓰이던 여러 </span><span> 봇도 토션에 최적화된 하나의  봇</span><span>, 토스버틀러(Toss Butler)로 통합했습니다. 단순히 도구를 교체한 것이 아니라, 우리가 일하는 방식에 꼭 맞도록 새롭게 빚어낸 결과였습니다.</span></span></span></p><p id=\"38aa360d-33e3-8000-8e33-e3047139cedc\"><span><span><span>옮겨오고 나니, 더 필요한 것들이 보이기 시작했습니다.</span></span></span></p><figure id=\"38aa360d-33e3-80ca-9bce-e0868eba2adc\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/42eb36b6-dced-4124-8425-39be971928e0/스크린샷_2026-06-25_오후_3.37.15.png\" alt=\"\"></figure><p id=\"38aa360d-33e3-8086-92be-d38b78d78d17\"><span><span><span>가장 먼저, 매주 쏟아지는 PR을 전부 들여다볼 순 없으니 \"여기를 집중해서 보라\"고 짚어주는 PR 분석기(PRCheck)를 더했습니다. 개발자가 무엇을 왜 바꿨는지, 그 변경이 어디에 영향을 주고 무엇을 테스트해야 하는지를 버그 위험도와 테스트 우선순위까지 체계적으로 확인할 수 있게 했습니다.</span></span></span></p><p id=\"38aa360d-33e3-80f1-800a-ff78fa9a104d\"><span><span><span>규모가 큰 변경이나 새 기능이 들어올 때마다, 테스트 케이스를 높은 완성도로 더 빠르게 작성해야 한다는 갈증도 커졌습니다. 그래서 PRD와 디자인 문서, 곳곳에 흩어진 맥락 정보를 모아 테스트 케이스를 자동으로 만들어 주는 tcgen을 추가했습니다. 처음부터 손으로 쓰는 대신, 탄탄한 초안을 빠르게 받아 검토에 집중할 수 있도록 말입니다.</span></span></span></p><p id=\"38aa360d-33e3-808f-9167-d04cd4dcda1f\"><span><span><span>매뉴얼 테스트와 자동화 테스트의 결과를 한자리에서 보고 싶다는 바람으로, 자동화 테스트 플랫폼도 붙였습니다. 이제 같은 테스트 수행 페이지에서 두 결과를 나란히 확인할 수 있습니다.</span></span></span></p><p id=\"38aa360d-33e3-80f6-9594-e98bd5f8b626\"><span><span><span>핫픽스를 통제하기 위해 원인을 분류하고 '재발 방지' 대책을 남기는 데 초점을 둔 핫픽스 대시보드도 함께 마련했습니다.</span></span></span></p><figure id=\"38aa360d-33e3-80c8-99a2-f48e0adad9ea\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/2dd77db9-3687-41b1-a269-8d153ff0e8e7/데모-timeline.png\" alt=\"\"></figure><p id=\"38aa360d-33e3-8062-8948-e2f606248901\"><span><span><span>이렇게 적고 보니 생소한 도구가 참 많습니다. 그런데 이건 따로따로 만든 게 아닙니다. \"매주 쏟아지는 변화를 효율적으로 풀어내 보자\"는 하나의 의지에서 가지처럼 뻗어 나온 결과입니다.</span></span></span></p><p id=\"38aa360d-33e3-80f8-88cc-d55d5e8aedf6\"><span><span><span>다만 오늘은 여기서 멈추려 합니다. 도구 하나하나가 저마다의 사연을 갖고 있어서, 앞으로 이 시리즈에서 하나씩 차근차근 소개하려고 합니다.</span></span></span></p><p id=\"38aa360d-33e3-80e1-a158-d1a4ece138c9\"><span><span></span></span></p><h2 id=\"38aa360d-33e3-80fb-858d-d3d7e4ac17b5\"><span><span><span>우리가 놓친 진짜 속마음</span></span></span></h2><p id=\"38aa360d-33e3-80d6-b8e1-efa62c893c2e\"><span><span><span>이런 도구들을 만들면서, 한 가지 가설을 세웠습니다. 테스트 케이스를 빠르게 만들어 제공하면 사람들이 테스트를 훨씬 쉽게 하겠지, 테스트에 대한 허들이 낮아지겠지. </span></span></span></p><p id=\"38aa360d-33e3-806c-902f-e3aea27ae60c\"><span><span><span>실제로 현장에서는 이런 이야기를 자주 들었습니다. “테스트 케이스를 좀 더 쉽게 작성할 방법은 없나요?” 자주 들리는 이야기였기에, 그 불편함만 덜어드리면 많은 분들이 반길 것이라고 생각했습니다.</span></span></span></p><p id=\"38aa360d-33e3-808b-95bc-c1f62bd19f56\"><span><span><span>그래서 tcgen을 만들어 공개했습니다. 그런데 생각만큼 사람들은 관심을 가지지 않았습니다. 분명 필요하다는 목소리가 있었는데, 왜 안 쓸까?</span></span></span></p><figure id=\"38aa360d-33e3-8021-ae8f-f2ced63a7305\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/25180f73-886d-4d0d-ab5b-fdb4c251875f/QA_voices_chat.png\" alt=\"\"></figure><p id=\"38aa360d-33e3-805b-9b5d-cbf448e9f879\"><span><span><span>한참을 고민한 뒤에야 알았습니다. 사람들이 속으로 바란 건 '테스트를 쉽게 하는 것'이 아니었습니다. 누군가 빠르고 정확하게 테스트를 대신 해 주고, 그 품질까지 책임져 주는 것. 그게 진짜 속마음이었습니다.</span></span></span></p><p id=\"38aa360d-33e3-80ef-bc9a-fb48caf4746f\"><span><span><span>도구를 쥐어주는 건, 결국 \"이제 당신이 하세요\"라는 말이었던 거죠. 우리는 짐을 덜어 준다고 생각했는데, 받는 쪽에서는 새 숙제였던 겁니다. 좋은 삽을 줬다고 해서, 사람들이 각자 구덩이를 파고 싶어 하는 건 아니었습니다.</span></span></span></p><p id=\"38aa360d-33e3-80a2-8b4f-f2e17d6f3063\"><span><span><span>이 깨달음이 저희의 하반기 방향을 바꿨습니다.</span></span></span></p><p id=\"38aa360d-33e3-808e-a835-e4444b97e343\"><span><span><span>그래서 직접 핸들링하기로 했습니다. 사람이 매번 붙지 않아도 10X의 효율을 내고, 품질은 우리가 끝까지 책임지는 쪽으로. 어떻게 보면 더 험난한 길을 선택한 셈인데, 저희는 그게 맞다고 생각했습니다.</span></span></span></p><p id=\"38aa360d-33e3-80ef-9ad4-cf5c1aa9aa7c\"><span><span></span></span></p><h2 id=\"38aa360d-33e3-8036-9d6d-c2b35df9868a\"><span><span><span>그럼에도 계속 고민이 되는 이유  </span></span></span></h2><p id=\"38aa360d-33e3-80db-b23e-d6fadffbc0d6\"><span><span><span>AI로 많은 시도를 했고 많은 숙제를 풀었습니다. 그런데도 고민은 사라지지 않습니다.</span></span></span></p><p id=\"38aa360d-33e3-808a-bcb3-c533b92e64b6\"><span><span><span>가설은 늘 반은 맞고 반은 틀립니다. 앞서 말한 tcgen이 그랬습니다. 게다가 AI는 따라잡기 버거울 만큼 빠르게 바뀝니다. 어제의 최선이 오늘은 낡은 방식이 되기도 합니다. 그 속도 안에서 QA가 익숙한 방식을 고집하는 순간, 품질을 지키기 위해 만든 도구가 오히려 변화의 속도를 늦추기 시작합니다.</span></span></span></p><p id=\"38aa360d-33e3-8019-82c9-f80a3da011b4\"><span><span><span>그래서 ‘만들었다’에 안주하지 않기로 했습니다. 한번은 API 테스트를 쉽게 하려고 API Labs를 만들었지만, 맞지 않는 방향임을 알고 8시간 만에 걷어냈습니다. 공들여 만든 것도 아니다 싶으면 버리고, 방향은 언제든 바로 틀 수 있어야 합니다.</span></span></span></p><p id=\"38aa360d-33e3-8056-9397-d7e82ad40804\"><span><span><span>그래서 시스템도 그렇게 설계했습니다. 토션, 토스닥터와 토스체커, 직접 만든 스킬들은 완성된 결과물이 아닙니다. 더 나은 방법이 있다면 미련 없이 대체할  수 있도록, 처음부터 ‘언젠가 바뀔 것’을 전제로 만들었습니다.</span></span></span></p><p id=\"38aa360d-33e3-8073-a8b0-de31069659b9\"><span><span><span>AI는 다양한 문제를 해결해주지만, '무엇이 품질인지', '무엇을 끝까지 지켜야 하는지'까지는 정해주지 않습니다. 도구는 AI가 더 빨리 만들어 줄 수 있어도, 그 도구가 계속 쓸모 있도록 방향을 잡고 기준을 다시 세우는 일은 여전히 우리의 몫입니다.\n</span></span></span></p><h2 id=\"38aa360d-33e3-805b-8e94-f8cf65776e96\"><span><span><span>우리의 이야기를 시작합니다</span></span></span></h2><p id=\"38aa360d-33e3-8001-a07b-ffbb2b1b4a0a\"><span><span><span>지금까지 저희가 누구이고, 무엇을 만들었고, 무엇을 시도하며 배워왔는지 짧게 풀었습니다. 이제 그 하나하나를 제대로 꺼내려 합니다.</span></span></span></p><aside id=\"38aa360d-33e3-806b-b36a-c89fd9d9c038\"><div><ul><li id=\"38aa360d-33e3-8018-a143-fb721f0abda6\"><span><span><span>토션(Tossion)</span><span> : 우리만의 플랫폼은 어떻게 시작됐나</span></span></span></li><li id=\"38aa360d-33e3-8061-b97d-effc33cdb1b8\"><span><span><span>토스닥터(Toss Doctor)</span><span> : 배포 전 마지막 관문은 무엇을 지키나</span></span></span></li><li id=\"38aa360d-33e3-80df-9d58-fbac3ce01e09\"><span><span><span>토스체커(Toss Checker)</span><span> : 늘어나는 회귀를 어떻게 자동으로 감당하나</span></span></span></li><li id=\"38aa360d-33e3-80ed-8354-d983a06101a1\"><span><span><span>지능형 AI 봇</span><span> : 흩어진 도구를 한곳에서 어떻게 엮나</span></span></span></li></ul></div></aside><p id=\"38aa360d-33e3-80e1-8cc4-f3a67a77ca7f\"><span><span><span>다음 주에도 토스는 어김없이 다시 태어납니다. 화면이 또 바뀌고, 수백 개의 변경이 또 쌓일 것입니다. 그 앞에서 이번 주처럼 또 멈춰 서서 묻겠습니다. \"이거, 정말 내보내도 괜찮을까?\"</span></span></span></p><p id=\"38aa360d-33e3-80a4-86a6-d31c543d111c\"><span><span><span>누군가는 토스를 테스트합니다. 그리고 저희는 그 테스트하는 법을 만듭니다.\n</span></span></span></p><p id=\"38aa360d-33e3-801b-abe2-efa527c02b4c\"><span><span></span></span></p></div><div id=\"tds-mobile-portal-container\"></div>",
-    "createdAt": "2026-06-26T00:56:00.000+00:00",
-    "link": "https://toss.tech/article/50893",
-    "author": "",
-    "site": {
-      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
-      "name": "토스 기술블로그"
     }
   },
   {
