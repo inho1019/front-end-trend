@@ -1,5 +1,126 @@
 [
   {
+    "title": "Show GN: AutoRAG Agent - 컴퓨터에 있는 모든 것을 검색해주는 에이전트 (파일, 메신저 대화 기록, 이메일, 노션...",
+    "content": "<ul>\n<li>AutoRAG는 RAG 자동 최적화 프레임워크였으나, 에이전트 시대 고정된 하나의 RAG 파이프라인을 찾는 것보다는 진정한 RAG 에이전트 구축에 필요성을 느낌</li>\n<li>이에 AutoRAG 팀과 RAG 전문회사 브레인크루, 투이컨설팅이 컨소시엄을 이루어 'AutoRAG Agent'를 개발함</li>\n<li>AutoRAG Agent는 사용자의 컴...<p></p></li></ul>",
+    "createdAt": "2026-09-20T15:03:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=34003",
+    "author": "vkehfdl1",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "어떤 이미지가 AI로 생성됐는지 구별할 수 있나요?",
+    "content": "<ul>\n<li><strong>Reality Check</strong>는 이미지를 보고 실제 사진인지 AI 생성 이미지인지 맞히는 게임임</li>\n<li>한 라운드는 <strong>60초</strong>이며, 이미지 한 장당 최대 <strong>10초</strong> 안에 답해야 함</li>\n<li>정답은 기본 <strong>100점</strong>, 오답은 <strong>100점 감점</strong>이며, 연속...<p></p></li></ul>",
+    "createdAt": "2026-09-20T14:32:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=34002",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "다른 언어를 배우는 것이 뇌 건강을 유지하는 가장 좋은 방법 중 하나일 수 있음",
+    "content": "<ul>\n<li><strong>언어 학습</strong>은 기억, 소리 구별, 규칙 파악, 표현 인출을 동시에 요구하는 복합적인 정신 활동으로, 고령자를 포함한 성인의 인지 기능에 도움이 될 수 있음</li>\n<li>두 언어를 관리하며 주의력과 인지 통제력을 지속적으로 사용하는 과정은 노화나 뇌 손상에도 인지 기능을 유지하는 <strong>...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-20T13:42:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=34001",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI와 창작 공유지의 파괴",
+    "content": "<ul>\n<li><strong>LLM의 무차별적인 온라인 콘텐츠 수집</strong>은 저작권과 라이선스를 통해 유지해 온 개방과 보호의 균형을 깨뜨리고 있음</li>\n<li><strong>카피레프트</strong>는 파생 저작물에도 원래의 권리를 이어가도록 요구하지만, LLM의 결과물이 이를 지키는지는 불확실하고 법적 강제 의지도 거의 보이지 ...<p></p></li></ul>",
+    "createdAt": "2026-09-20T13:42:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=34000",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "StepFun, 차세대 플래그십 AI 모델 Step 5 Preview 공개",
+    "content": "<blockquote>\n<p>StepFun이 소프트웨어 엔지니어링과 금융 전문 업무에 특화한 차세대 플래그십 모델 Step 5 Preview를 공개하고 오는 10월 15일 가중치를 배포한다.</p>\n</blockquote>\n<h4>전문 번역</h4>\n<p>StepFun이 파레토 프론티어를 한 단계 넓힌 차세대 플래그십 모델 Step 5 Preview를 선보인다. 이 모델은 지능</p>",
+    "createdAt": "2026-09-20T13:30:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=33999",
+    "author": "recast7838",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "영어 6글자 단어 313개를 전수 집계해보니: 48%가 같은 글자를 반복한다",
+    "content": "<p>직접 만든 단어 게임의 6글자 정답 313개(글자 1,878개)를 전수 집계해봤습니다.</p>\n<ul>\n<li>153개(48%)가 같은 글자를 2번 이상 씁니다. 초반에 서로 다른 글자만 채워 넣는 일반적인 전략과 정면으로 어긋납니다. 네 자리를 맞춰놓고 남은 두 칸에 새 글자가 안 들어갈 때, 답은 대개 이미 가진 글자를 한 번 더 </li></ul>",
+    "createdAt": "2026-09-20T12:55:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=33998",
+    "author": "theplay5",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "블랙홀인가, 블랙홀 별인가? ‘작은 붉은 점’을 둘러싼 천문학자들의 논쟁",
+    "content": "<ul>\n<li>James Webb 우주망원경이 관측한 <strong>작은 붉은 점</strong> 가운데 특히 붉은 두 천체가, 중심에 블랙홀을 품은 거대한 수소 천체인 <strong>블랙홀 별</strong>일 수 있다는 가설이 나옴</li>\n<li>두 천체는 은하에 필적하는 밝기를 내면서도 <strong>약 5,000K의 항성 표면</strong>을 닮은 스펙트럼을 ...<p></p></li></ul>",
+    "createdAt": "2026-09-20T12:52:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33997",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Lemmings의 안타까운 후반기",
+    "content": "<ul>\n<li>1991년 대중적 성공을 거둔 <strong>Lemmings</strong>는 한 번의 결정적 실수보다 후속작의 복잡화, 캐릭터 사업화, 개발진의 의욕 저하가 누적되며 초기의 추진력을 잃음</li>\n<li><strong>Lemmings 2: The Tribes</strong>는 기존 팬에게 훌륭한 후속작이었지만, 늘어난 능력과 사라진 입문 단계 때문에 누구...<p></p></li></ul>",
+    "createdAt": "2026-09-20T12:42:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33996",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "초고속 APK 역컴파일러인 ASC를 새로 개발했다.",
+    "content": "<blockquote>\n<p>개발자 MG193_7는 Jadx보다 월등히 빠르고 병렬 분석이 가능한 역컴파일러 ASC를 개발해 실제 원격 코드 실행 취약점을 발견했으며, 해당 도구가 Black Hat Europe Arsenal에 채택되었다고 발표했다.</p>\n</blockquote>\n<h4>전문 번역</h4>\n<p>초고속 안드로이드 역컴파일러인 ASC를 새로 개발했다. 이 </p>",
+    "createdAt": "2026-09-20T12:05:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=33995",
+    "author": "recast7838",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Motif-3 전용 코딩 하네스, &quot;Motif-code&quot;",
+    "content": "<p>지난 8월 말, Motif Technologies가 독파모(독자파운데이션모델 사업) 2차 평가에서 탈락했습니다. 차관이 제시한 가장 큰 원인은 <strong>사용성</strong>이었습니다.</p>\n<p>하지만 사용성은 모델 가중치만의 문제가 아닙니다. UI/UX, 모델을 활용하는 방법론, 그리고 이를 연결하는 하네스가 실제 사용 경험에 지대</p>",
+    "createdAt": "2026-09-20T11:39:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=33994",
+    "author": "theoverstructure",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "웹 브라우저의 미래에 대한 생각",
+    "content": "<ul>\n<li>Firefox의 AI 통합이 확대되는 가운데, 여러 포크 프로젝트가 협력해 <strong>Mozilla로부터 독립된 공통 기반</strong>을 유지해야 한다는 구상에서 base browser 프로젝트가 출발함</li>\n<li><strong>base browser</strong>는 Firefox 153 ESR 기반 패치 모음으로, 사용자에게 적대적인 기능을 비활성화하는 ...<p></p></li></ul>",
+    "createdAt": "2026-09-20T11:12:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33993",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "스페인, Archive.today와 미러 사이트 차단 명령",
     "content": "<ul>\n<li>스페인 문화부 산하 <strong>지식재산위원회 제2부</strong>가 웹 아카이빙 서비스 Archive.today의 여러 도메인을 차단하도록 명령함</li>\n<li>스페인 인터넷 이용자 대부분은 해당 사이트에 접속하려 하면 <strong>정부 안내 페이지로 리디렉션</strong>됨</li>\n<li>안내 페이지는 “불법 웹사이트에 접속하려...<p></p></li></ul>",
     "createdAt": "2026-09-20T10:32:24.000+00:00",
@@ -429,17 +550,6 @@
     }
   },
   {
-    "title": "Stallman: 수천 명 사망, 수백만 명의 자유 박탈 (2001)",
-    "content": "<ul>\n<li>뉴욕과 워싱턴 테러 이후 의회가 자유를 빼앗는 예방 조치를 채택한다면, 공격에 대한 대응이 더 큰 <strong>2차 피해</strong>를 일으킬 수 있음</li>\n<li>무기만 확인하고 무기가 없는 사람의 기록을 남기지 않는 <strong>공항 검색</strong>과, 통화와 이메일 및 이동을 대상으로 하는 <strong>대규모 감시...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-19T17:42:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=33949",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "EP226: API Concepts Every Software Engineer Should Know",
     "content": "<h2><a href=\"https://go.bytebytego.com/Blitzy_091926\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Autonomous Software Development for the Enterprise (Sponsored)</span></a></h2><div><figure><a href=\"https://go.bytebytego.com/Blitzy_091926\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!h4Cs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!h4Cs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!h4Cs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!h4Cs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49bbba29-7067-40ba-93af-e37cf3877e8a_2048x1072.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>Blitzy is built for large, complex software projects that other coding agents cannot handle: new feature development, large-scale refactors, scaled vulnerability remediation, and undocumented legacy systems.</span></p><p><span>Blitzy’s Sandbox lets engineers evaluate Blitzy on their own software estate, at their own pace. Eligible organizations can connect real applications, reverse-engineer up to 1 million lines of code, generate up to 25,000 lines of E2E tested code, and surface prioritized security vulnerabilities across their software estate.</span></p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Blitzy_091926\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Try on your codebase today</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>API Concepts Every Software Engineer Should Know</p></li><li><p>5 Way to Defend Prompt Injection</p></li><li><p>New Course: <a href=\"https://go.bytebytego.com/youtubeai-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">Rebuild YouTube with AI Starts in a Week</a></p></li><li><p>12 AI Papers that Changed Everything</p></li><li><p>Monolithic vs Microservices vs Serverless</p></li><li><p>7 Key Load Balancer Use Cases</p></li></ul><div><hr></div><h2>API Concepts Every Software Engineer Should Know</h2><p>Most engineers use APIs every day. Sending a request and reading JSON is one thing. Designing an API that other people can rely on is something where things get complicated.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!U4gw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!U4gw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 424w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 848w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 1272w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!U4gw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!U4gw!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 424w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 848w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 1272w, https://substackcdn.com/image/fetch/$s_!U4gw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8297aa-f856-4b2b-af5d-986023db89e7_2508x3000.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>A lot of problems begin with basic HTTP details that seem small at first. Methods, status codes, request formats, and response structure can make an API feel clear and predictable, or confusing and inconsistent.</p><p>Then there are the bigger design choices. REST, GraphQL, gRPC, webhooks, and WebSockets each make sense in different situations. The challenge is knowing what actually fits the system and the use case.</p><p>A lot of API problems also comes from design decisions that do not get enough attention early on. Naming, pagination, versioning, error responses, and backward compatibility often decide whether an API is easy to work with or frustrating to maintain.</p><p>Security is another area where weak decisions can cause real problems. API keys, OAuth, JWTs, scopes, and permissions are easy to mention. Getting them right is harder, and mistakes here can be costly.</p><p>Reliability matters too. Timeouts, retries, idempotency, rate limits, and caching are often easy to ignore until the system is under pressure.</p><p>And once an API starts growing, the supporting work matters too. Clear documentation, solid specs, observability, and contract testing make it much easier for teams to trust the API and use it without guessing how it works.</p><p>Over to you: What’s the most overlooked API concept in your experience?</p><div><hr></div><h2>5 Way to Defend Prompt Injection</h2><p>Prompt injection tops the OWASP LLM Top 10 and there’s no single fix.</p><p>Instead, you stack defenses, each one catching what the others miss.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!gUOK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!gUOK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!gUOK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!gUOK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!gUOK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32f62036-5c89-4686-941e-57d84297de42_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Defenses come in two families: model-level and system-level.</p><p>Model-level defenses teach the model to resist injection.</p><ul><li><p>Spotlighting wraps untrusted text in control tags like ... and tells the model to treat anything inside as data, not instructions.</p></li><li><p>Instruction Hierarchy fine-tunes the model to rank the developer’s system prompt above the user’s message, and both above third-party content.</p></li></ul><p>System-level defenses build a system around the LLM that bounds the damage.</p><ul><li><p>Least-Privilege Tools: Give the agent the minimum tools it needs.</p></li><li><p>Human-in-the-Loop: Require explicit user approval before any sensitive action runs.</p></li><li><p>Planner / Executor Split: Two separate LLMs. The planner has tool access but never sees untrusted content. The executor reads untrusted content but has no tools.</p></li></ul><p>No single defense is enough. Production systems like Gmail stack them, and together they make indirect injection manageable.</p><p>Over to you: what’s the one defense you’ve seen work in production that isn’t on this list?</p><div><hr></div><h2><a href=\"https://go.bytebytego.com/youtubeai-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">New Course: Rebuild YouTube with AI starts in a Week </a></h2><div><figure><a href=\"https://go.bytebytego.com/youtubeai-c1-substack\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!SgKl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 424w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 848w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 1272w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!SgKl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!SgKl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 424w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 848w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 1272w, https://substackcdn.com/image/fetch/$s_!SgKl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f26257-c671-4338-8e32-75487c97d6b5_2296x806.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><strong>Rebuild YouTube with AI</strong> starts September 26 and runs through October 24, 2026.</p><h3>What you’ll build and learn</h3><ul><li><p><strong>Build a functional YouTube clone</strong> and ship it to production in five weeks.</p></li><li><p><strong>Understand how YouTube works</strong>, from its core product surfaces to how a real-world MVP can be scoped.</p></li><li><p><strong>Master AI-assisted development</strong> using Cursor agents to plan, implement, review, and recover from bad diffs or dead-end sessions.</p></li><li><p><strong>Turn AI-generated mockups into working pages</strong> and recreate YouTube’s core UI in React.</p></li><li><p><strong>Build the backend</strong> with Postgres, authentication, video uploads, CRUD tooling, and AI-generated seed data.</p></li><li><p><strong>Add semantic search and related videos</strong> using multimodal embeddings while learning how production recommender systems differ.</p></li><li><p><strong>Deploy to Vercel</strong>, track watch time in an admin dashboard, and test features with AI-driven Playwright checks.</p></li></ul><p><strong>📅 Course dates:</strong> September 26 – October 24, 2026</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/youtubeai-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join Rebuild YouTube with AI →</span></a></p><div><hr></div><h2>12 AI Papers that Changed Everything</h2><p>A handful of research papers shaped the entire AI landscape we see today.</p><p>The diagram below highlights 12 that we consider especially influential.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!KnQ8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!KnQ8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!KnQ8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!KnQ8!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!KnQ8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee2573be-59c6-4fd7-96e1-6d378f87dbe0_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>AlexNet (2012): Showed deep neural nets can see. Ignited the deep learning era</p></li><li><p>GANs (2014): Generate realistic image by having two networks compete</p></li><li><p>Transformer (2017): Google’s “Attention Is All You Need.” The architecture behind everything</p></li><li><p>GPT-3 (2020): OpenAI showed scale unlocks emergent abilities.</p></li><li><p>InstructGPT (2022): OpenAI introduced RLHF. Turned raw LLMs into useful assistants.</p></li><li><p>Scaling Laws (2020): Loss follows a clean power law</p></li><li><p>ViT (2020): Split images into patches and use a Transformer for vision tasks.</p></li><li><p>Latent Diffusion (2021): Denoising in compressed space. The design behind DALL·E.</p></li><li><p>DDPM (2020): Add noise, then learn to reverse it. The foundation behind diffusion models.</p></li><li><p>CLIP (2021): OpenAI connected images and text in one shared space.</p></li><li><p>Chain-of-Thought (2022): A simple prompt that unlocked complex reasoning.</p></li><li><p>RAG (2020): Retrieve real documents, then generate. Grounded LLMs in facts.</p></li></ol><p>Over to you: What paper is missing from this list?</p><div><hr></div><h2>Monolithic vs Microservices vs Serverless</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!OXGA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!OXGA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!OXGA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!OXGA!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!OXGA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6025205d-78d1-4aa9-b2ba-281d1b9fc57e_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>A monolith is usually one codebase, one database, and one deployment. For a small team, that’s often the simplest way to build and ship quickly. The problem arises when the codebase grows. A tiny fix in the cart code requires redeploying the whole app, and one bad release can take down everything with it.</p><p>Microservices try to solve that by breaking the system into separate services. Product, Cart, and Order run on their own, scale separately, and often manage their own data. That means you can ship changes to Cart without affecting the rest of the system.</p><p>But now you are dealing with multiple moving parts. You generally need service discovery, distributed tracing, and request routing between services.</p><p>Serverless is a different model. Instead of managing servers, you write functions that run when something triggers them, and the cloud provider handles the scaling. In many cases, you only pay when those functions actually run.</p><p>However, in serverless, cold starts can add latency, debugging across lots of stateless functions can get messy, and the more you build around one cloud’s runtime, the harder it gets to switch later.</p><p>Most production systems don’t use just one approach. There’s usually a monolith at the core, and over time teams spin up a few services where they need independent scaling or faster deploys. Serverless tends to show up later for things like notifications or background jobs.</p><div><hr></div><h2>7 Key Load Balancer Use Cases</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Qzor!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Qzor!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 424w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 848w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 1272w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Qzor!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!Qzor!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 424w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 848w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 1272w, https://substackcdn.com/image/fetch/$s_!Qzor!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0169578f-af50-4b3a-b8ed-542ee7ebf80f_2250x2814.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>Traffic Distribution: Load Balancers help evenly distribute traffic among multiple server instances.</p></li><li><p>SSL Termination: Load Balancers can offload the responsibility of SSL termination from the backend servers, thereby reducing their workload.</p></li><li><p>Session Persistence: Load Balancers ensure that all requests from a user hit the same instance to maintain session persistence.</p></li><li><p>High Availability: Improves the system’s availability by rerouting traffic away from failed or unhealthy servers to healthy ones.</p></li><li><p>Scalability: Load Balancers facilitate horizontal scaling when additional instances are added to the server pool to handle increased traffic.</p></li><li><p>DDoS Mitigation: Load Balancers can help mitigate the impact of DDoS attacks by rate limiting requests or distributing them across a wider surface.</p></li><li><p>Health Monitoring: Load Balancers also monitor the health and performance of server instances and remove failed or unhealthy servers from the pool.</p></li></ol><p>Over to you: Which other load balancer use case will you add to the list?</p>",
     "createdAt": "2026-09-19T15:31:06.000+00:00",
@@ -448,116 +558,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "OpenAI는 자체 LLM으로 Jalapeño 칩을 어떻게 설계했나",
-    "content": "<ul>\n<li>OpenAI는 <strong>자체 LLM으로 첫 AI 가속기 Jalapeño의 설계를 가속</strong>했으며, 초기 아키텍처 구상부터 첫 실리콘까지 20개월 미만, 첫 RTL부터 제조용 설계 확정까지 9개월이 걸림</li>\n<li>프로젝트 기간 평균 <strong>100명 미만의 OpenAI 팀</strong>이 시스템 설계를 맡고, <strong>Broadcom</strong></li></ul>",
-    "createdAt": "2026-09-19T14:42:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33945",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Laya - 직접 실행하고 학습할 수 있는 Jev의 오픈소스 대안",
-    "content": "<ul>\n<li>텍스트를 생성하는 대신 <strong>선택지별 확률, 점수, 참일 확률</strong>을 반환하는 비자기회귀형 의사결정 모델군으로, 하나의 입력에 대한 여러 질문을 한 번의 순전파로 처리</li>\n<li>고객 문의의 담당 부서 배정, 피싱 판별, 긴급도 평가처럼 <strong>긴 답변보다 빠른 판단이 필요한 작업</strong>에 ...<p></p></li></ul>",
-    "createdAt": "2026-09-19T13:52:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33944",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "수학이 증명 이상이라면, 증명 이외의 기여도 더 높이 평가해야 한다",
-    "content": "<ul>\n<li>수학의 목표가 <strong>인간의 이해를 넓히는 것</strong>이라면, 새로운 증명뿐 아니라 아이디어를 어떻게 떠올릴 수 있는지 밝혀 주는 설명에도 비슷한 수준의 학문적 인정을 부여해야 함</li>\n<li><strong>발상의 동기를 드러내는 설명(motivated explanation)</strong> 은 정의와 구성을 처음부터 주기보다...<p></p></li></ul>",
-    "createdAt": "2026-09-19T13:42:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33943",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT-6 Astra, 제1차 세계대전 독일 무선 암호 해독",
-    "content": "<ul>\n<li><strong>GPT-6 Astra</strong>가 1918년 11월 27일 송신된 독일의 <strong>ADFGVX 무선 암호문</strong>을 해독함. 다만 최초 해독인지는 확인되지 않았으며, 알려진 선행 해독 사례가 없다는 단서가 있음</li>\n<li>복원한 메시지는 <strong>영국 순양함의 세바스토폴 입항</strong>과 <strong>26일 연합국 함대...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-19T12:42:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33942",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: ARAM Emulator - WIPI·SKVM·Raptor 한국 피처폰 소프트웨어 에뮬레이터",
-    "content": "<p>안녕하세요. 2000년대 한국 피처폰 소프트웨어를 현대 환경에서 다시 실행하기 위한 ARAM Emulator를 만들고 있습니다.</p>\n<p>ARAM은 WIPI·SKVM·Raptor 계열의 피처폰 게임과 앱을 Windows, macOS, Linux, Android 및 웹 브라우저에서 실행하는 에뮬레이터입니다. 설치하지 않고 웹 버전을 먼저 실행해 볼 수 있으며</p>",
-    "createdAt": "2026-09-19T12:39:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=33941",
-    "author": "mirusu400",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "유닛 테스트는 버그를 잡는다기보다 영역 표시를 하는 것",
-    "content": "<ul>\n<li>버그를 잡는 데 그다지 효과적이지 않은 유닛 테스트가 왜 업계에서 유일하게 보편화된 테스트 방법이 됐는지를 분석한 글</li>\n<li>하드웨어 관점에서 소프트웨어 테스트는 끔찍해 보임 (저자는 하드웨어 개발 경험이 많은 프로그래머)</li>\n<li>소프트웨어는 \"나중에 고치면 된다\"는 문화로 버그투...<p></p></li></ul>",
-    "createdAt": "2026-09-19T12:35:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=33940",
-    "author": "kciter1",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI로 생성한 포스터가 꼭 형편없을 필요는 없다",
-    "content": "<ul>\n<li>AI 행사 포스터의 문제는 품질 자체보다 <strong>비슷한 스타일의 반복</strong>에 있음. ChatGPT에 구체적인 디자인 미학을 지정하면 획일적인 기본 결과에서 벗어날 수 있음</li>\n<li>‘깔끔하고 밝게’ 같은 지시만으로는 원하는 차이를 얻지 못했지만, 기존 결과를 피하고 <strong>완전히 다른 디자인 미학...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-19T11:42:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33939",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Warez: 불법 복제의 인프라와 미학 (2021)",
-    "content": "<ul>\n<li><strong>Scene</strong>은 음악, 영상, 게임, 소프트웨어를 공식 판매일 전에 입수하고, 서로 먼저 무료로 배포하려 경쟁하는 전 세계 지하 불법 복제 그룹 네트워크임</li>\n<li><strong>Warez</strong>는 이 하위문화를 다룬 최초의 학술 연구서로, Scene이 자체적으로 생산한 문서 자료를 통해 운영 방식과 인...<p></p></li></ul>",
-    "createdAt": "2026-09-19T10:42:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33937",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "C++26: 단순 무한 루프는 더 이상 미정의 동작이 아님",
-    "content": "<ul>\n<li><strong>C++26</strong>은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">while (true);</code>처럼 조건이 항상 참이고 본문이 비어 있는 <strong>단순 무한 루프(trivial infinite loop)</strong> 의 동작을 정의하며, 컴파일러가 미정의 동작을 근거로 이를 제거할 수 없게 함</li>\n<li>기존 <strong>전방 진행 보장(forward progress guarantee)...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-19T09:42:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=33936",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인간의 뇌는 서로 다른 두 기관, Stanford Medicine 주도 연구에서 확인",
-    "content": "<ul>\n<li>뇌 전체가 하나의 전구세포에서 발달한다는 기존 모델과 달리, <strong>전뇌/중뇌와 후뇌가 서로 다른 전구세포에서 시작</strong>해 독립적인 발달 경로를 따르는 것으로 나타남</li>\n<li>생쥐 배아에서 <strong>Otx2를 발현하는 전구세포</strong>는 전뇌/중뇌로, <strong>Gbx2를 발현하는 전구세포</strong>...<p></p></li></ul>",
-    "createdAt": "2026-09-19T09:42:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33935",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
