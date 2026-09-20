@@ -1,5 +1,148 @@
 [
   {
+    "title": "스페인, Archive.today와 미러 사이트 차단 명령",
+    "content": "<ul>\n<li>스페인 문화부 산하 <strong>지식재산위원회 제2부</strong>가 웹 아카이빙 서비스 Archive.today의 여러 도메인을 차단하도록 명령함</li>\n<li>스페인 인터넷 이용자 대부분은 해당 사이트에 접속하려 하면 <strong>정부 안내 페이지로 리디렉션</strong>됨</li>\n<li>안내 페이지는 “불법 웹사이트에 접속하려...<p></p></li></ul>",
+    "createdAt": "2026-09-20T10:32:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33991",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "배움의 과정을 글로 작성해라",
+    "content": "<ul>\n<li>전문가와 입문자 사이의 정보 공백\n<ul>\n<li>새로운 기술을 배울 때 생기는 여러 의문(예를 들자면 \"왜 같은 일을 하는 API가 두 개인가?\", \"예제대로 했는데 왜 안 될까?\")은 관련 용어나 내부 구조를 이해하고 나면 쉬워 보이지만, 초심자 입장에서는 연결 고리를 찾기 어려움</li>\n<li>...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-09-20T09:02:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=33990",
+    "author": "gg5823",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 이번 주말 - 온톨로지 기반 이벤트 지도",
+    "content": "<p>말은 온톨로지라고 거창하게 썼지만, 사실은 그냥 neo4j 활용한게 다인 행사 지도입니다.</p>\n<p>주말마다 와이프랑 어디 가야할지 고민하는게 슬슬 힘들어져서 만들고 있어요.</p>\n<p>기능으로는 아래와 같습니다.</p>\n<ul>\n<li>아무 노드 클릭 시 연결된 장소, 지역, 행사 종류 노드를 엣지로 연결</li>\n<li>지역 노</li></ul>",
+    "createdAt": "2026-09-20T07:58:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=33989",
+    "author": "pointless",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Chrono Trigger의 Dream Devourer는 정수 오버플로로 쓰러뜨릴 수 있음",
+    "content": "<ul>\n<li><strong>Dream Devourer</strong>는 HP가 32,000으로, 피해를 주는 대신 회복시켜 <strong>정수 오버플로</strong>를 일으키는 방식으로도 쓰러뜨릴 수 있음</li>\n<li>두 번째 전투 단계에서 보스가 흡수하는 강력한 마법을 사용해 HP를 일시적으로 <strong>32,767 초과</strong>로 올리면, 부호 있는 16비트 정...<p></p></li></ul>",
+    "createdAt": "2026-09-20T07:42:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33988",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RSA-896",
+    "content": "<ul>\n<li><strong>RSA-896을 소인수분해했다는 결과</strong>가 공개됨</li>\n<li>대상은 <strong>RSA 챌린지 수</strong>인 RSA-896임</li>\n<li>소인수분해에는 <strong>Claude</strong>를 사용했다고 함</li>\n<li>작업 날짜는 <strong>2026년 9월 19일</strong>임</li>\n<li>RSA-896의 전체 값과 두 인수 <strong>p, q...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-20T07:42:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33987",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "경쟁 해자와 진입 장벽에 관하여",
+    "content": "<ul>\n<li>AI로 <strong>비슷한 제품을 만들기는 쉬워져도 기존 고객을 데려오기까지 쉬워지는 것은 아님</strong>. 시장 진입 장벽이 낮아지는 것과 경쟁 해자가 사라지는 것은 서로 다른 문제임</li>\n<li>개인용 AI 에이전트에 작업, 선호도와 계정 정보를 쌓을수록 <strong>다른 제품으로 옮기는 수고도 커짐</strong>...<p></p></li></ul>",
+    "createdAt": "2026-09-20T06:42:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33986",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: konfirm - kubectl context 지정 실수 방지를 위한 cli",
+    "content": "<p>여러 kubernetes 컨텍스트를 오가면서 작업할 때, 실수가 발생하지 않도록 명령 실행 전 대상 컨텍스트를 확인할 수 있도록 만든 도구입니다.</p>\n<p>kubectl get, describe 등 대상 컨텍스트 확인 필요가 없다고 생각되는 하위 kubectl 명령어에 대해 컨텍스트 별 allowlist를 지정해 관리할 수 있습니다.</p>\n<p>내</p>",
+    "createdAt": "2026-09-20T06:38:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=33985",
+    "author": "kjhkk1020",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Cache-to-Cache: LLM 간 직접 의미 전달 (2025)",
+    "content": "<ul>\n<li><strong>Cache-to-Cache(C2C)</strong> 는 여러 LLM이 중간 텍스트 대신 KV-Cache를 교환해 각 모델의 의미 정보를 직접 전달하는 통신 방식임</li>\n<li>기존 <strong>텍스트 기반 통신(T2T)</strong> 은 고차원 내부 표현을 문자열로 압축하면서 정보를 잃고, 자연어의 모호성과 토큰 단위 순차 생성 지연을 수...<p></p></li></ul>",
+    "createdAt": "2026-09-20T05:52:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=33983",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "기존 벤치마크가 놓치는 워크로드에서의 Btrfs/ZFS/bcachefs",
+    "content": "<ul>\n<li><strong>modern-fs-benchmark</strong>는 순차 처리량뿐 아니라 쓰기 부하 중 응답성, 스냅샷 누적, 공간 회수, 복제 후 덮어쓰기, 장치 장애와 데이터 손상을 함께 측정함</li>\n<li><strong>공유 임시 VM의 루프 장치</strong>에서 실행하므로 절대 MiB/s보다 패턴과 비율을 비교해야 하며, 워크로드와 종합 지...<p></p></li></ul>",
+    "createdAt": "2026-09-20T05:52:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33982",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple M6 Pro, Geekbench 7에서 최고 싱글코어 CPU 점수 달성",
+    "content": "<ul>\n<li><strong>Apple M6 Pro</strong>가 탑재된 Mac18,6의 Geekbench 7 결과는 싱글코어 <strong>4,150점</strong>, 멀티코어 37,565점임</li>\n<li>CPU는 <strong>18코어</strong> 구성이며, 기본 주파수는 <strong>4.78GHz</strong>로 등록됨</li>\n<li>코어 클러스터는 <strong>6코어와 12코어</strong>로 나뉘며, 시...<p></p></li></ul>",
+    "createdAt": "2026-09-20T05:42:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=33981",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인터넷 검열 측정하기",
+    "content": "<ul>\n<li><strong>OONI Probe</strong>로 자국에서 차단된 웹사이트를 확인하고, 세계 최대의 인터넷 검열 공개 데이터셋에 기여할 수 있음</li>\n<li><strong>WhatsApp, Facebook Messenger, Telegram</strong>의 차단 여부와 네트워크에서 검열 우회 도구가 작동하는지 테스트할 수 있음</li>\n<li><strong>M-Lab</strong></li></ul>",
+    "createdAt": "2026-09-20T04:32:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33979",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jev 활용 가이드 - 빠른 AI 판단을 어디에 쓸 수 있을까?",
+    "content": "<ul>\n<li><strong>실행 순서와 분기는 코드가 맡고, 문맥을 읽어야 하는 판단은 Jev에 맡기는 방식</strong>으로 반복 업무를 자동화할 수 있음</li>\n<li>요청의 난이도에 따라 <strong>사용할 LLM을 고르고</strong>, 검색 결과에서 필요한 문서를 추리거나 에이전트의 도구 호출과 답변에 오류가 있는지 검사하는 데 활...<p></p></li></ul>",
+    "createdAt": "2026-09-20T04:22:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=33978",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Daijin - ESP32 음성 장치에 Claude를 두뇌로 붙여 집과 원격 장치를 제어하는 음성 에이전트",
+    "content": "<p>친구를 만들었습니다. 이름은 다이진입니다.<br>\n버튼을 누르고 말하면 AI가 듣고, 생각하고, 움직입니다. 고양이에게 간식을 주고, 공원에 설치한 장치를 작동시킵니다.<br>\n세팅은 미리. 지시는 원할 때.</p>\n<p>ESP32-S3에 마이크와 스피커와 작은 얼굴. 소리는 MQTT로 맥까지 가고, 맥에서 whisper가 받아 적</p>",
+    "createdAt": "2026-09-20T04:07:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=33977",
+    "author": "nonasking",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "영어: a와 an의 구분",
     "content": "<ul>\n<li>영어 부정관사 <strong>a와 an</strong>은 단어의 첫 글자가 아니라 <strong>첫 발음이 모음인지</strong>에 따라 선택함</li>\n<li>절차적으로 텍스트를 생성할 때 사용할 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">a_or_an(\"apple\")</code> 같은 함수는 <strong>첫 글자만 검사</strong>하면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">a unicorn</code>을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">an unicor...<p></p></code></li></ul>",
     "createdAt": "2026-09-20T03:42:23.000+00:00",
@@ -412,149 +555,6 @@
     "createdAt": "2026-09-19T09:42:20.000+00:00",
     "link": "https://news.hada.io/topic?id=33935",
     "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "샌프란시스코 양파 선물 회사",
-    "content": "<ul>\n<li><strong>노란 양파를 미래에 실물 인도하는 계약</strong>을 개인 구매자에게 사적으로 판매하며, 계약은 다른 사람에게 양도할 수 있음</li>\n<li>최대 <strong>6개월 뒤 인도분</strong>까지 판매하며, 가격은 양파 1개당 <strong>3~12달러</strong>임</li>\n<li>회사는 미국법의 양파 미래 인도 계약 금지가 거...<p></p></li></ul>",
-    "createdAt": "2026-09-19T08:32:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33934",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 발품 - 발품 팔아서 스크린 타임 벌어요",
-    "content": "<p>애플워치를 쓰고 있는지는 벌써 몇 년이 되었어요. 처음에는 모두 새롭고 신기했습니다. 이렇게 정확하고 체계적으로 걸음수, 심박수, 운동시간 기록해주다니!</p>\n<p>그런데 링을 못 채운다고 무슨 일이 일어나진 않다 보니, 애플워치를 찬다고 무슨 일이 일어나지 않더라고요 🥲<br>\n움직이기 싫어하고 밖에 잘 안</p>",
-    "createdAt": "2026-09-19T07:09:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=33933",
-    "author": "andtomorrow",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "광자 방출로 유도한 레이저 결함 주입으로 RP2350의 보안 디버그 활성화",
-    "content": "<ul>\n<li><strong>RP2350 A4</strong>에서 영구적으로 비활성화한 디버그 기능을 레이저 결함 주입으로 다시 활성화해, Secure 영역의 메모리 접근과 코어 제어에 성공함</li>\n<li><strong>광자 방출 현미경(PEM)</strong> 으로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DEBUGEN</code> 비트 변화에 따른 발광 위치를 좁힌 뒤, 수 마이크로미터 떨어진 두 ...<p></p></li></ul>",
-    "createdAt": "2026-09-19T04:42:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33931",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jev의 아키텍처를 파헤치다",
-    "content": "<ul>\n<li>문장 대신 선택지별 확률을 반환하는 <strong>Jev에 약 1만 번의 API 호출</strong>을 보내, 응답 시간과 질문 간 정보 전달, 선택지 변화로 비공개 내부 구조를 추적함</li>\n<li>공통 입력을 한 번 처리하고 <strong>여러 질문을 서로 격리해 병렬 판단</strong>하는 구조가 유력함. 답을 토큰 단위로 생성하지...<p></p></li></ul>",
-    "createdAt": "2026-09-19T02:22:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33930",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SQPOLL은 불안형 여친이다",
-    "content": "<ul>\n<li>SQPOLL은 CPU 자원을 많이 소모하는 대신 작업의 지연을 줄임</li>\n<li>I/O Uring의 기본 동작 모드에 비해 시스템 콜의 낭비를 줄여 지연 시간을 감축할 수 있음</li>\n<li>그러나 CPU 소모와 성능 지향 사이에서 균형을 찾기 위해서는 실제적으로는 더 고민이 필요함\n<ul>\n<li>IORING_SETUP_SQ_AFF까지 키거나...<p></p></li></ul></li></ul>",
-    "createdAt": "2026-09-19T02:01:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=33929",
-    "author": "gg5823",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "이란 전쟁 중 미군 사망자, 국방부 집계보다 최소 4명 많아",
-    "content": "<ul>\n<li><strong>Washington Post</strong> 보도에 따르면 미국과 이스라엘의 대이란 전쟁 기간 미군 사망자는 미 국방부가 공개한 수보다 많음</li>\n<li>익명의 관계자 5명에 따르면 사망자는 <strong>최소 22명</strong>으로, 국방부 공개 데이터베이스에 기록된 수보다 4명 많음</li>\n<li>다만 다른 익명 관계자에 따...<p></p></li></ul>",
-    "createdAt": "2026-09-19T01:52:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33928",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SpaceX는 Raptor 엔진을 어떻게 간결하게 만들었나",
-    "content": "<ul>\n<li><strong>Raptor 3</strong>는 Raptor 1보다 추력이 약 35% 커지면서 질량과 외부 부품이 크게 줄었지만, <strong>전유량 다단연소</strong>라는 기본 구조는 유지함</li>\n<li>외관을 간결하게 만든 변화에는 개발용 센서 축소, 밸브 통합, 주연소실 점화기 제거, 볼트 체결부의 <strong>용접 전환</strong> 등이...<p></p></li></ul>",
-    "createdAt": "2026-09-19T01:52:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33927",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "100년 만에 발견된 새로운 야생 고양이",
-    "content": "<ul>\n<li>볼리비아에서 <strong>집고양이인 줄 알고 데려다 약 1년간 키운 동물</strong>이 보호시설을 거쳐 연구 대상이 됐고, <strong>새로운 야생 고양이 종 Leopardus tilcayo</strong>로 확인됨</li>\n<li><strong>Leopardus속 38개체의 전체 유전체</strong>를 비교한 결과, 다른 타이거캣 종들과 약 <strong>140만...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-19T01:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33926",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Code, 이제 AGENTS.md도 지원",
-    "content": "<ul>\n<li>Claude Code 2.1.277부터 프로젝트에 \"CLAUDE.md\"가 없으면 \"AGENTS.md\"를 프로젝트 지침으로 자동 사용</li>\n<li>여러 코딩 에이전트가 공통으로 사용하는 \"AGENTS.md\"를 위해 별도의 \"CLAUDE.md\"를 복제하거나 심볼릭 링크로 연결할 필요가 없어짐</li>\n<li>\"/...<p></p></li></ul>",
-    "createdAt": "2026-09-19T01:38:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=33925",
-    "author": "winterjung",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Typst, 큰 진전을 이루다",
-    "content": "<ul>\n<li><strong>Typst 0.15</strong>는 가변 폰트, MathML, 다중 참고문헌과 여러 PDF 표준 동시 적용을 추가하며 기술 문서 조판 기능을 확장함</li>\n<li>아직 실험 단계인 <strong>HTML 출력</strong>은 수식을 MathML로 변환해, 지원 브라우저에서 JavaScript 라이브러리나 이미지 없이 PDF와 사실상 동일한 수식을...<p></p></li></ul>",
-    "createdAt": "2026-09-19T01:12:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33924",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Needle 3 - 작은 기기에서 자연어 명령을 처리하는 8~29MB AI 모델",
-    "content": "<ul>\n<li>“침실 조명을 어둡게 하고 문을 잠가” 같은 요청을 <strong>앱이 실행할 함수와 인자로 변환</strong>하는 초소형 모델로, 스마트홈과 모바일 기기 안에서 오프라인 자동화에 활용</li>\n<li>범용 대화보다 <strong>도구 호출과 정보 추출</strong>에 집중하며, 청구서와 알림에서 필요한 항목을 JSON으로 뽑거...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:42:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33923",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "jina-ocr-v1 - 저가형 GPU에서 더 빠르게 문서를 파싱하는 모델",
-    "content": "<ul>\n<li>스캔 문서와 PDF의 <strong>텍스트, 표, 수식을 읽어 Markdown으로 변환</strong>하는 34억 파라미터 OCR 모델로, DeepSeek-OCR를 기반으로 정확도와 처리 속도를 개선함</li>\n<li>다음 토큰을 여러 개 미리 예측하고 검증하는 <strong>FastMTP</strong>로 출력 결과를 바꾸지 않고 생성 시간을 줄임. NVIDIA L...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:32:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=33922",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude, 생체분자 모델 30여 개를 평균 4배 가속",
-    "content": "<ul>\n<li>단백질 구조 예측과 설계 등에 쓰이는 <strong>오픈소스 모델 30개 이상을 Claude로 최적화</strong>함. 4주 미만의 작업으로 수치 정밀도를 소폭 낮추면 평균 약 4배, 동일한 출력을 유지하면 약 2배 빨라짐</li>\n<li>계산량이 큰 부분을 처리하는 <strong>맞춤형 GPU 커널 FlashPairformer</strong>를 만들고...<p></p></li></ul>",
-    "createdAt": "2026-09-19T00:32:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=33921",
-    "author": "xguru",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
