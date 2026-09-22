@@ -1,5 +1,115 @@
 [
   {
+    "title": "나는 거부했지만 Apple은 허용했다",
+    "content": "<ul>\n<li>David Bushell은 <strong>Apple Intelligence &amp; Siri를 꺼둔 상태</strong>에서 macOS 15를 27로 업그레이드했지만, 관련 기능이 다시 활성화되고 기존 거부 스위치도 사라지는 일을 겪음</li>\n<li>macOS 27에서 <strong>Siri를 다시 꺼도</strong> 종료할 수 없는 여러 Siri 프로세스가 남아 메모리를 사용...<p></p></li></ul>",
+    "createdAt": "2026-09-22T10:32:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=34119",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "이름 있는 인자와 선택적 인자는 정말 멋지다",
+    "content": "<ul>\n<li>Rust에 <strong>이름 있는 인자와 선택적 인자</strong>를 도입하면, 인자 순서 착오를 줄이고 구조체나 빌더로 이를 우회하는 반복 코드를 줄일 수 있음</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">HashMap</code>은 선택적 설정 3개의 조합을 지원하기 위해 <strong>서로 다른 생성 함수 8개</strong>를 제공하며, 기본값을 지원하는 인...<p></p></li></ul>",
+    "createdAt": "2026-09-22T10:06:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=34118",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "자신의 하드웨어에서 실행하는 최첨단 AI",
+    "content": "<ul>\n<li>dlab은 <strong>로컬 추론, 에이전트 하네스, 자율 연구 시스템</strong>을 하나의 생태계로 묶어 공개할 예정임. 소수의 연구자와 GPU만으로 최첨단 연구소와 경쟁할 수 있는 시스템을 만드는 것이 목표임</li>\n<li>자체 추론 프레임워크는 <strong>125B 모델을 단일 24GB GPU</strong>에서 실행하고, 128GB 메...<p></p></li></ul>",
+    "createdAt": "2026-09-22T09:35:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=34116",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "방해하지 않고, 눈에 띌 수 있을까",
+    "content": "<div><p id=\"3dfa360d-33e3-8028-a6eb-cfc7f5cd7fef\"><span><span><span>안녕하세요. 토스뱅크 Visual Designer 김현지입니다. 오늘은 </span><span>자산관리 리포트</span><span> </span><span>기능</span><span>의 클릭률을 3배로 올리기까지의 과정, 그리고 그 안에서 얻은 러닝을 이야기해 보려고 해요.</span></span></span></p><h2 id=\"3dfa360d-33e3-80bd-8ffd-e62dd10f7646\"><span><span><span>유용한 추천인데 왜 누르지 않을까</span></span></span></h2><figure id=\"3dfa360d-33e3-808c-9c7b-c67309fc7361\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/b99a23cb-e98b-4a3a-8606-5448defc5455/기존_안.png\" alt=\"\"><figcaption><span>기존 입출금 영역 하단에 배치된 자산관리 리포트</span></figcaption></figure><p id=\"3dfa360d-33e3-80cb-81f2-f447af262a68\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80e1-90c8-d6bf2d5a9f5f\"><span><span><span>자산관리 리포트는 </span><span>사용자의 자산 상태를 분석해 알맞은 상품이나 서비스를 추천하는 기능</span><span>이에요. 토스뱅크 홈의 입출금 영역 아래에 배너로 노출하고 있었는데, 클릭률이 2%에 그쳤어요.</span></span></span></p><p id=\"3dfa360d-33e3-8075-be27-f86efb8fb83d\"><span><span><span>내 상황을 보고 해주는 추천인데, 왜 눌러보지 않을까요? 여러 가설을 세워본 끝에, 토스뱅크 홈에는 정보가 많다 보니 주변 정보와 충분히 구분되지 않아 그냥 지나칠 수 있겠다고 생각했어요.</span></span></span></p><p id=\"3dfa360d-33e3-8099-8d62-e649245e94b9\"><span><span><span>그래서 </span><span>리포트가 눈에 잘 띄면서도, 내 상황에 맞는 개인화된 추천이라는 점이 한눈에 느껴지도록 디자인</span><span>하는 것을 목표로 잡았어요.</span></span></span></p><p id=\"3dfa360d-33e3-8063-8dc0-ee8a9bd28021\"><span><span></span></span></p><p id=\"3dfa360d-33e3-802b-8bee-e22c5ab78ac5\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80c2-b028-f7c7b81b745a\"><span><span></span></span></p><hr><h2 id=\"3dfa360d-33e3-80fa-885c-ff321de699bd\"><span><span><span>표현을 바꿔도 화면은 여전히 복잡한 이유</span></span></span></h2><p id=\"3dfa360d-33e3-80ac-a3b7-cc196b047470\"><span><span><span>먼저 표현 방식을 바꿔봤어요. 말을 건네듯 제안하는 말풍선 형태, 사용자의 자산 상태를 먼저 보여준 뒤, 그에 맞는 상품을 차례로 제안하는 방식도 만들어봤죠. 직접 말해주는 것처럼 표현하면 추천이 더 와닿을 것 같았어요.</span></span></span></p><figure id=\"3dfa360d-33e3-8073-87a4-e70363ddb31f\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/ef270a65-de38-4f09-830c-8b104262398c/그렸던_시안5.png\" alt=\"\"><figcaption><span>그렸던 시안들</span></figcaption></figure><p id=\"3dfa360d-33e3-80b2-aa32-f9a62137d787\"><span><span><span>그런데 화면은 여전히 복잡했어요. 저마다의 목적으로 찾아온 화면 사이에 읽을거리를 하나 더 얹는 구조는 달라지지 않았거든요. </span></span></span></p><p id=\"3dfa360d-33e3-80fb-9d8f-ea712848a6b5\"><span><span><span>문제는 계좌 정보와 추천이 같은 자리에서 시선을 나누고 있다는 것이었어요. 계좌는 사용자의 정보이고, 리포트는 저희가 새롭게 건네는 제안이에요. 역할이 다른 둘이 한데 섞여 있다 보니, 리포트도 계좌 정보를 훑어보는 과정에서 함께 지나치기 쉬웠어요.</span></span></span></p><p id=\"3dfa360d-33e3-803a-bffe-fa95471b550c\"><span><span><span>그렇다고 리포트만 무작정 강조할 수도 없었어요. 계좌를 확인하려는 사람에게 리포트가 먼저 보이면, 정작 필요한 정보가 잘 보이지 않을 수 있었어요.</span></span></span></p><p id=\"3dfa360d-33e3-8003-aa73-e61e5e07749f\"><span><span><span>리포트를 발견하게 하면서도, 하려던 일을 방해하지 않는 방법을 찾아야 했어요. 그래서 리포트의 위치 자체를 다시 생각했어요. 계좌 정보와 한자리에서 경쟁하게 하는 대신, 아예 다른 자리에서 보여주면 어떨까 하고요.</span></span></span></p><p id=\"3dfa360d-33e3-8098-9b80-d16f56a1f904\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80cd-ba61-c7383644281a\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80c3-8ec5-c292154e2a22\"><span><span></span></span></p><hr><h2 id=\"3dfa360d-33e3-8043-b08f-d2a82e4338b5\"><span><span><span>툴팁에서 찾은 새로운&nbsp;영역</span></span></span></h2><p id=\"3dfa360d-33e3-80c1-8088-cf8ffaaf5a0a\"><span><span><span>떠올린 건 </span><span>웹사이트에서 마우스를 올렸을 때 나타나는 툴팁</span><span>이에요. 툴팁은 기존 화면을 가리지 않으면서, 필요한 정보를 그 위에 덧붙여 보여주잖아요.</span></span></span></p><p id=\"3dfa360d-33e3-8028-a111-e356f083ffe6\"><span><span><span>이 구조를 모바일에도 가져왔어요. 계좌 정보가 있는 기본 화면은 그대로 두고, 자산 상태에 대한 제안은 그 위에 떠 있는 플로팅 카드로 분리했어요. 같은 화면 안에서도 계좌 정보와 추천이 서로 다른 층에 놓이도록 한 거예요.</span></span></span></p><figure id=\"3e3a360d-33e3-809a-861c-df6f4bc930cb\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/ee06fbab-fc42-4a9a-9ea3-13ad66e68f0e/이거.png\" alt=\"\"></figure><p id=\"3dfa360d-33e3-805b-9a46-fdad187d2cb7\"><span><span><span>하지만 화면에 없던 영역을 새로 띄우는 건 또 다른 문제를 만들 수 있었어요. 사용자가 원하지 않았는데 갑자기 나타나면, 정보가 아니라 방해물처럼 느껴질 수 있으니까요. 광고처럼 보이거나, 내용을 읽기도 전에 닫기 버튼부터 찾게 될 수도 있고요.</span></span></span></p><p id=\"3dfa360d-33e3-806a-9401-c8340714c9a7\"><span><span><span>그래서 플로팅 카드가 사용자에게 자연스럽게 받아들여지려면 어떻게 해야 할지 하나씩 정해갔어요.</span></span></span></p><p id=\"3dfa360d-33e3-8054-b145-d1c0d2c29d68\"><span><span></span></span></p><h3 id=\"3dfa360d-33e3-80e7-9bd2-dc64f1b7bfaa\"><span><span><span>1 ) 내용이 먼저 보이는 첫인상 만들기</span></span></span></h3><p id=\"3dfa360d-33e3-80af-9572-edbde5f00c72\"><span><span><span>화면 위에 떠 있는 카드는 팝업 광고와 형태가 비슷했어요. 내용을 읽기도 전에 광고처럼 보일 수 있겠다는 걱정이 들었어요. </span></span></span></p><figure id=\"3dfa360d-33e3-803c-a03c-d0a5b9e0d25e\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/3143ccb5-19a5-42d9-8faa-dab46b0b8b6f/시안.png\" alt=\"\"></figure><p id=\"3dfa360d-33e3-8006-ab1c-c9db7030959e\"><span><span><span>그래서 광고와 기능이 사용자에게 어떻게 다르게 보이는지 토스 안의 배너를 비교해 봤어요. 광고는 큼직한 그래픽과 눈에 띄는 컬러로 시선을 끌고 있었고, 기능은 텍스트와 버튼을 중심으로 정보의 위계로 내용을 전하고 있었어요.</span></span></span></p><p id=\"3dfa360d-33e3-805f-b74b-defd75056da9\"><span><span><span>리포트도 기능처럼 느껴지게 하려면 비주얼적 요소보다 내용이 먼저 보여야 한다고 생각했어요. 그래서 그래픽과 컬러를 덜어내고, 내용에 시선이 먼저 닿도록 했어요.</span></span></span></p><p id=\"3dfa360d-33e3-8002-a502-db2775dc41c9\"><span><span><span>대신 디테일로 채웠어요. 모서리에는 코너 스무딩을 넣고, 반투명한 재질감을 더해 화면에 자연스럽게 어우러지도록 했어요. 버튼에는 미세한 그래디언트를 더해 밀도를 높였고요. 작은 디테일을 하나씩 쌓아 기능으로서의 완성도를 높여갔어요.</span></span></span></p><p id=\"3dfa360d-33e3-80e7-b438-ea23fac20da7\"><span><span></span></span></p><figure id=\"3dfa360d-33e3-803c-9f20-e715db4a7582\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/052e2026-b524-411d-ba86-e1c71f2389a9/image_converter_2026-09-15T15-47-09.webp\" alt=\"\"></figure><p id=\"3dfa360d-33e3-801e-8234-c367d1108073\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80fc-bff4-ef8bf11a3ffc\"><span><span></span></span></p><h3 id=\"3dfa360d-33e3-8047-8904-c06d528aaf2b\"><span><span><span>2 ) </span><span>스크롤 하면 작아지게</span></span></span></h3><p id=\"3dfa360d-33e3-8045-bacd-c904a2f87c56\"><span><span><span>리포트를 발견한 뒤에도 계속 시선을 요구하면 부담스러울 수 있었어요. 사용자는 추천을 읽고 싶을 수도 있지만, 당장은 다른 정보를 먼저 보고 싶을 때도 있으니까요.</span></span></span></p><p id=\"3dfa360d-33e3-80b6-b596-f60c1de0a251\"><span><span><span>그래서 스크롤을 시작하면 리포트가 작아지도록 했어요. 사용자가 화면을 둘러보기 시작하면 자리를 내어주고, 다른 콘텐츠를 편하게 볼 수 있게 한 거죠. 작아진 카드는 궁금할 때 다시 열어볼 수 있는 진입점으로 남아요.</span></span></span></p><p id=\"3dfa360d-33e3-8011-97bf-ef1a992c0d5b\"><span><span><span>리포트가 얼마나 눈에 띌지를 한 가지 상태로 고정하지 않고, 사용자의 행동에 따라 달라지게 했어요.</span></span></span></p><p id=\"3dfa360d-33e3-80b4-9c19-e0fce0ca9e12\"><span><span></span></span></p><figure id=\"3dfa360d-33e3-80a7-84be-ef2cdf55f239\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/26951d4b-0724-4be8-b07d-c276a4964aad/최소화.mp4\"></video></figure><p id=\"3dfa360d-33e3-80c6-a36b-da2b3411eb3f\"><span><span></span></span></p><p id=\"3dfa360d-33e3-8030-bae4-d0c38868747b\"><span><span></span></span></p><h3 id=\"3dfa360d-33e3-8075-99f0-e56855b51a0a\"><span><span><span>3 ) 말을 건네듯 펼쳐지게</span></span></span></h3><p id=\"3dfa360d-33e3-8044-8f33-fa85999e4a9a\"><span><span><span>홈에 들어오면 리포트는 닫힌 상태에서 시작해 펼쳐져요. 화면이 먼저 보인 뒤 카드가 열리면, 지금 내 자산 상태를 보고 건네는 제안처럼 느껴질 것이라고 생각했어요. 열리고 닫히는 과정을 자연스럽게 보여주면서, 언제든 다시 닫을 수 있다는 것도 전하고 싶었고요.</span></span></span></p><p id=\"3dfa360d-33e3-8060-9070-dfb601de9f48\"><span><span><span>그 느낌을 만들기 위해 움직임의 결도 여러 번 바꿔봤어요.</span></span></span></p><ul><li id=\"3dfa360d-33e3-8056-a2b7-e375533eece4\"><span><span><span>빠르게 나타나는 움직임:</span><span> 카드가 툭 튀어나오는 느낌이라 부담스러웠어요.</span></span></span></li><li id=\"3dfa360d-33e3-805b-9e1c-c7d687ac09fb\"><span><span><span>느리고, 약한 반동이 있는 움직임:</span><span> 부드럽지만 화면이 느리게 반응하는 것처럼 보였어요.</span></span></span></li><li id=\"3dfa360d-33e3-80d1-91d1-dda900e8b856\"><span><span><span>반동이 큰 움직임:</span><span> 경쾌하지만 자산 정보를 보여주기에는 다소 산만했어요.</span></span></span></li></ul><figure id=\"3dfa360d-33e3-8056-9dee-c0ca692bd5c4\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/7eadba8b-1ace-413a-b5d3-25518964b724/이거야_최종.mp4\"></video></figure><p id=\"3dfa360d-33e3-8034-9627-f9807092eda2\"><span><span><span>최종적으로는 빠르게 시작해 부드럽게 감속하고, 끝에 살짝 반동을 더한 이징을 골랐어요. 부드럽게 마무리해 부담을 덜고, 작은 반동으로 생기를 더했어요.</span></span></span></p><p id=\"3dfa360d-33e3-803e-b882-f34d6370f7b2\"><span><span><span>여기에 translate와 scale 모션의 시작점을 어긋나게 뒀어요. 두 모션이 동시에 시작되면 단순히 크기가 변하며 이동하는 것처럼 보이지만, 시작 시점을 조금 다르게 주면 곡선을 그리듯 움직이는 디테일을 만들 수 있어요.</span></span></span></p><p id=\"3dfa360d-33e3-8092-a5b8-f4dc772d8cf9\"><span><span></span></span></p><p id=\"3dfa360d-33e3-80a9-86d8-d774d1faeb6b\"><span><span></span></span></p><hr><h2 id=\"3dfa360d-33e3-80c2-a17e-ee122920e7a0\"><span><span><span>문제를 푼 건 표현이 아닌 구조</span></span></span></h2><figure id=\"3dfa360d-33e3-80fa-874f-ec8658ab1563\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/2a844604-a681-4009-b36a-88c672e07a6d/실험.mp4\"></video></figure><p id=\"3dfa360d-33e3-805e-b201-c095e540903a\"><span><span><span>기존 안, 인터랙티브 안, 플로팅 안으로 A/B 테스트를 진행했어요.</span></span></span></p><p id=\"3dfa360d-33e3-8025-8274-d0908cdcdae0\"><span><span><span>표현을 바꾼 인터랙티브 안은 CTR이 1.1배 오르는 데 그친 반면, </span><span>구조를 바꾼 플로팅 안은 CTR과 CVR이 모두 3배</span><span> 올랐어요.</span></span></span></p><p id=\"3dfa360d-33e3-801a-bf4d-cd9b91167bb2\"><span><span><span>특히 눈여겨본 건 CVR이었어요. 클릭만 늘었다면 리포트가 눈에 잘 띄어서 눌린 것일 수 있어요. 하지만 클릭 이후의 행동까지 함께 늘었다는 건, 리포트를 발견하는 것뿐 아니라 실제 추천까지 이어지는 경험도 달라졌다는 뜻이니까요.</span></span></span></p><p id=\"3dfa360d-33e3-8045-8a1e-daa70f4f4294\"><span><span><span>처음 세웠던 목표는 ‘나를 위한 제안’이라는 느낌을 주는 것이었어요. 결과적으로 단순히 표현을 바꾸는 것보다, 계좌 정보와 리포트의 역할을 분리한 구조가 이 목표에 더 가까운 결과를 만들었어요.</span></span></span></p><p id=\"3dfa360d-33e3-802a-9dc4-efd825c8c8df\"><span><span></span></span></p><p id=\"3dfa360d-33e3-805f-ac54-eccea87eaf0e\"><span><span></span></span></p><p id=\"3dfa360d-33e3-8041-9745-e42250f33dcf\"><span><span></span></span></p><hr><h2 id=\"3dfa360d-33e3-8064-9e23-eee149c08c6c\"><span><span><span>적용해보기</span></span></span></h2><p id=\"3dfa360d-33e3-800d-9f17-ca745ee85b51\"><span><span><span>저는 이번 작업에서 처음엔 형태와 색, 표현을 바꾸는 데 집중했어요. 그런데 아무리 다듬어도 문제가 풀리지 않았죠. 익숙한 디자인 문법 안에서만 답을 찾고 있었던 거예요.</span></span></span></p><p id=\"3dfa360d-33e3-8030-9c0c-c8d1c8ed295c\"><span><span><span>표현을 바꾸는 것만으로 해결되지 않는다면, 문제가 생기는 구조 자체를 다시 볼 필요가 있어요. \n비슷한 고민을 하고 있다면, 이런 질문부터 던져보세요.</span></span></span></p><ul><li id=\"3dfa360d-33e3-80f0-a6ae-cfe61d4903b4\"><span><span><span>표현을 바꾸는 것만으로 정말 문제가 해결될까?</span></span></span></li><li id=\"3dfa360d-33e3-8072-959b-d45d7d099345\"><span><span><span>구조를 바꿔야 하는 문제는 아닐까?</span></span></span></li><li id=\"3dfa360d-33e3-8063-a866-f449ce2c9b3e\"><span><span><span>사용자의 시선을 끄는 데서 그치지 않고, 이후의 경험까지 챙겼을까?</span></span></span></li></ul></div><div id=\"tds-mobile-portal-container\"></div>",
+    "createdAt": "2026-09-22T08:20:00.000+00:00",
+    "link": "https://toss.tech/article/asset_management",
+    "author": "",
+    "site": {
+      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
+      "name": "토스 기술블로그"
+    }
+  },
+  {
+    "title": "Jev 사용 후기",
+    "content": "<p>동료분의 초대를 받아 Jev를 직접 써봤습니다. 처음에는 “빠르고 저렴한 LLM이 나왔나 보다” 정도로 생각했는데, 몇 가지 사례를 따라가고 직접 호출해보니 조금 다르게 보이더라고요.</p>\n<p>Jev는 긴 답변을 만들어주는 모델이라기보다, 소프트웨어가 다음 행동을 선택할 수 있도록 판단을 반환하는 모델에 가까웠</p>",
+    "createdAt": "2026-09-22T08:17:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=34115",
+    "author": "panda",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CGNAT 환경에서 셀프 호스팅하기",
+    "content": "<ul>\n<li><strong>CGNAT</strong> 때문에 가정용 라우터의 포트 포워딩이 통하지 않는 환경에서도, 공인 인터넷에 연결된 <strong>VPS 브리지</strong>와 터널을 이용해 집의 서비스를 외부에 공개할 수 있음</li>\n<li>집의 서버가 <strong>WireGuard 터널을 먼저 연결</strong>하므로 가정에 고정 전용 IP가 필요하지 않...<p></p></li></ul>",
+    "createdAt": "2026-09-22T08:02:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=34114",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "800달러 이하 수입품에 대한 소액 면세(de minimis) 행정상 면제 중단",
+    "content": "<p>800달러 이하 수입품에 대한 소액 면세(de minimis) 행정상 면제 중단</p>\n",
+    "createdAt": "2026-09-22T07:31:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=34113",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: PocketPM - AI챗간 인수인계를 해주는 크롬확장",
+    "content": "<p>AI 대화중 첨부용량이 다하셨나요? PocketPM으로 스마트하게 우회하세요!</p>\n<p>저는 여러가지 프로젝트를 진행하는 PM이라 AI챗을 이용할 때마다 첨부한도 때문에 곤란한 적이 많았는데, 각 AI를 서핑하듯 연결하는 서비스는 없더군요. 그래서 제가 크롬 확장서비스로 만들었습니다.</p>\n<p>[이런 분들이라면]</p>\n",
+    "createdAt": "2026-09-22T07:06:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=34111",
+    "author": "chulr99",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: RouteMind – 인간의 개입은 RAG 성능을 얼마나 바꿀까?",
+    "content": "<p>RouteMind라는 Agentic RAG 프로젝트를 만들고 있습니다.</p>\n<p>일반적인 RAG가 문서를 chunking하고 embedding한 뒤 검색하는 방식이라면, RouteMind는 사람이 지식의 영역(Area)과 그 관계를 정의하고 Agent가 먼저 <strong>어디를 찾아야 하는지 routing한 뒤</strong> 해당 영역의 문서를 읽도록 합니다.</p>\n",
+    "createdAt": "2026-09-22T06:43:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34109",
+    "author": "pcs1645",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: ITLAND - 짧게 플레이하고 기록을 겨루는 웹 게임 플랫폼",
+    "content": "<p>게임을 좋아하는 학생이나 직장인이 게임을 시작하기 전에 가볍게 손을 풀고, 친구나 동료와 기록으로 내기할 수 있는 웹 플랫폼을 만들었습니다.</p>\n<p>처음에는 반응속도 게임 QUEUE ZERO로 시작했는데, 타자와 계산처럼 짧게 집중해서 즐길 수 있는 도구들을 하나씩 추가하면서 ITLAND라는 플랫폼으로 확장했습니</p>",
+    "createdAt": "2026-09-22T05:01:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=34106",
+    "author": "yunsell",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "AI 코딩으로 병목이 된 CI, 개발 속도에 맞춰 재설계함",
     "content": "<ul>\n<li>Linear는 연초 이후 테스트 스위트가 거의 <strong>4배</strong>로 늘어났는데도 PR의 CI 대기 시간을 6분 초과에서 5분 남짓으로 줄이고, 테스트당 러너 사용 시간을 약 절반으로 낮춤</li>\n<li>더 빠른 외부 러너와 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tsgo</code></strong> 로 전환하고 린트 규칙의 타입 정보 의존성을 제거해, ...<p></p></li></ul>",
     "createdAt": "2026-09-22T03:42:20.000+00:00",
@@ -499,105 +609,6 @@
     "content": "<ul>\n<li><strong>Resident Evil 4의 GameCube 디버그 빌드 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">G4BE08</code></strong> 를 디컴파일한 프로젝트로, 빌드하면 원본 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">main.dol</code>과 REL 오버레이 114개를 바이트 단위까지 동일하게 재현함</li>\n<li>총 <strong>1,083개 오브젝트와 15,641개 함수</strong>를 복원했으며, C/C++ 소스 약 55만 ...<p></p></li></ul>",
     "createdAt": "2026-09-21T07:39:26.000+00:00",
     "link": "https://news.hada.io/topic?id=34060",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "MCP는 처음부터 잘못된 아이디어였다",
-    "content": "<ul>\n<li>코드를 실행하고 API를 직접 호출할 수 있는 에이전트에는 <strong>기존 API를 다시 감싼 MCP 서버가 불필요해졌으며</strong>, 필요한 기능이 이미 있는 HTTP API와 CLI를 직접 사용하면 됨</li>\n<li>MCP 서버를 늘릴수록 도구 설명과 스키마가 <strong>컨텍스트를 과도하게 차지</strong>하고, 이를 해결하기...<p></p></li></ul>",
-    "createdAt": "2026-09-21T07:36:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=34059",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "활발히 유지보수되고 업데이트되는 Motif 포크가 실제로 존재함",
-    "content": "<ul>\n<li>수년간 정체된 Motif를 이어가기 위해 개발자들이 <strong>Motif 포크</strong>를 만들었으며, 시작한 지 1년 조금 넘는 동안 <strong>5차례 릴리스</strong>를 내놓음</li>\n<li>포크는 <strong>Motif와 X11 기술의 존속</strong>을 목표로 하며, 오랫동안 반영되지 않은 업스트림 수정 사항과 Gentoo의 수정 사...<p></p></li></ul>",
-    "createdAt": "2026-09-21T07:01:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=34058",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jev을 (형편없는) 챗봇으로 만들어 봄",
-    "content": "<ul>\n<li><strong>jevchat</strong>은 사용자 질문과 지금까지 쓴 답변을 바탕으로 Jev에 다음 기호의 확률을 묻고, 이를 반복 샘플링해 답변을 생성하는 실험임</li>\n<li>후보는 문자나 토큰으로 구성된 <strong>기호 집합과 STOP</strong>이며, Jev이 반환한 확률을 정규화해 다음 기호를 뽑고 STOP이 선택되면 생성을...<p></p></li></ul>",
-    "createdAt": "2026-09-21T06:32:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=34057",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Umtri.io - 프로젝트를 시각화하는 형상 관리 도구",
-    "content": "<h2>문제의식</h2>\n<ol>\n<li>프로젝트 개발, 특히 바이브 코딩 시 자신의 프로젝트가 어떻게 자라나는지 알기 어려움</li>\n<li>코드 베이스 내부에서 연결이나 종속성 문제가 있는 경우 단발적인 세션이 놓쳐 문제가 커지는 경우가 생김</li>\n<li>프롬프트를 통한 개발 명령의 프레임이 좁아서 장기적인 계획에서 잘못된...<p></p></li></ol>",
-    "createdAt": "2026-09-21T05:57:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=34055",
-    "author": "bepuljang",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "가장 별난 글자 W의 알아둘 만한 역사",
-    "content": "<ul>\n<li><strong>W는 로마 제국 붕괴 이후</strong>, 게르만어 이름에 들어 있는 /w/ 소리를 라틴어 문서에 적기 위해 탄생함</li>\n<li>6세기부터 필경사들이 <strong>U 두 개를 나란히 쓰기</strong> 시작했고, 늦어도 11세기에는 오늘날의 W로 합쳐짐</li>\n<li>고대 영어에서는 룬 문자 <strong>Ƿ(wynn)</strong> 도 ...<p></p></li></ul>",
-    "createdAt": "2026-09-21T05:35:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=34053",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Radius - Meetup.com 대안",
-    "content": "<ul>\n<li><strong>Radius</strong>는 그룹, 이벤트, 활동을 통해 지역 커뮤니티를 찾고 사람들과 연결하는 서비스임</li>\n<li>전 세계 도시의 <strong>수백 개 그룹</strong>을 둘러보고 가입하거나 직접 커뮤니티를 만들 수 있음</li>\n<li><strong>초근거리 탐색 기능은 베타</strong>로 제공되며, 관심사와 시간, 장소...<p></p></li></ul>",
-    "createdAt": "2026-09-21T04:32:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=34051",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "화폐의 위계",
-    "content": "<ul>\n<li><strong>화폐는 상대방이 채무의 최종 결제로 받아들이는 것</strong>이며, 개인에게 통하는 돈이 은행이나 다른 통화권에서도 돈으로 통하는 것은 아님</li>\n<li><strong>은행 예금과 은행권</strong>은 상위 기관의 지급 약속으로 개인 간 채무를 결제하게 해주며, 은행은 대출 자산과 예금 부채를 함께 늘려...<p></p></li></ul>",
-    "createdAt": "2026-09-21T03:47:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=34050",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CRT가 픽셀 아트에 미치는 영향(2024)",
-    "content": "<ul>\n<li>과거 픽셀 아트의 인상은 <strong>CRT의 흐릿함</strong>만으로 만들어지지 않았음. 팔레트 선택, 디더링, 안티앨리어싱과 하드웨어 제약을 극복하는 프로그래밍 기법도 똑같이 중요했음</li>\n<li><strong>디더링과 안티앨리어싱</strong>은 어떤 화면에서도 저해상도 그래픽의 품질을 높임. CRT의 약간의 흐릿...<p></p></li></ul>",
-    "createdAt": "2026-09-21T03:44:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=34049",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple iPhone 18 Pro 카메라 테스트",
-    "content": "<ul>\n<li><strong>DXOMARK 종합 172점</strong>을 기록했으며, 넓은 다이내믹 레인지와 개선된 대비 및 피부색, 효과적인 손떨림 보정, 균형 잡힌 디테일과 노이즈 처리가 강점임</li>\n<li><strong>가변 조리개</strong>가 단체 인물 사진에서 피사계 심도를 자동으로 확장해 여러 인물의 선명도를 유지하며, 수동 조절도...<p></p></li></ul>",
-    "createdAt": "2026-09-21T02:07:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=34047",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -1878,17 +1889,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "DS와 MLE가 함께 일하는 법",
-    "content": "<div><p id=\"3a4a360d-33e3-8038-96f9-d1f6158663bb\"><span><span><span>안녕하세요, 토스뱅크 Product Foundation ML Service Team, ML Engineer 김경윤입니다.</span></span></span></p><p id=\"3a4a360d-33e3-8084-a704-ffea710dce35\"><span><span><span>1년 전, 이런 일이 있었어요. DS(Data Scientist)가 노트북에서 모델을 다 만들었습니다. 정확도도 잘 나오고, 노트북에서는 완벽하게 돌았죠. 그래서 그 코드를 서빙으로 옮기려고 받았는데, 실행이 안 됐어요. 모델이 쓰는 라이브러리랑 설정 파일이 여기저기 흩어져 있어서 \"이 파일도 필요해요, 저것도요\"를 며칠 동안 주고받았습니다.</span></span></span></p><p id=\"3a4a360d-33e3-80e2-897b-cb7c9b516cb9\"><span><span><span>문제는 이게 한 번으로 끝나지 않았다는 겁니다. 새 모델을 올릴 때마다 비슷한 일이 반복됐어요.</span></span></span></p><p id=\"3a4a360d-33e3-808d-b492-ee12ad5797d2\"><span><span><span>ML 모델 하나가 서비스에 올라가려면, 모델을 만들고, 그 모델을 서빙하는 과정을 거치는데요. 보통 이 작업을 두 사람이 나눠서 합니다. 모델을 만드는 DS와, 그 모델을 서비스로 굳히는 MLE(ML Engineer)예요. 그런데 진짜 어려운 건 모델 자체가 아니라, 이 두 사람이 일을 어떻게 나누느냐였어요. 어디까지가 DS 몫이고, 어디부터가 MLE 몫일까요? 누가 어디까지 할지가 흐릿하면, 같은 모델을 두고 협업이 매끄럽지 않습니다.</span></span></span></p><p id=\"3a4a360d-33e3-8018-bf84-f204672f25bc\"><span><span><span>저희 팀은 1년 동안 이 일 나누는 방식을 세 번 다시 다듬었습니다. 오늘은 그 과정을 하나씩 정리해 볼게요.</span></span></span></p><p id=\"3aaa360d-33e3-8027-8720-e674c82dc759\"><span><span></span></span></p><h2 id=\"3a4a360d-33e3-80b5-b892-ef062f2ab197\"><span><span><span>왜 두 직군의 협업이 매끄럽지 않았을까요?</span></span></span></h2><p id=\"3a4a360d-33e3-80d5-96b0-e887f13b7633\"><span><span><span>토스뱅크는 다양한 분야에서 ML 서비스를 제공하고 있어요. 신분증 OCR 및 사후검증(</span><a href=\"https://toss.tech/article/secure-efficient-ai\" target=\"_blank\" rel=\"noopener noreferrer\">관련글</a><span>), 상담 음성을 텍스트로 바꾸는 STT, 문서를 읽는 OCR, 아이 얼굴 생성까지요. 서비스는 계속 늘어나는데, 새 모델을 올릴 때마다 DS와 MLE의 협업 과정이 매끄럽지 않았어요.</span></span></span></p><p id=\"3a4a360d-33e3-80d9-b09a-c504eb5d4d36\"><span><span><span>문제의 뿌리는 하나였어요. DS가 모델링 과정에서 작성했던 코드와, MLE가 비즈니스 로직과 함께 서빙에 알맞게 재작성했던 코드 사이에 명확한 약속이 없었던 거예요. 이 약속을 어떻게 잡았느냐에 따라 협업의 질이 완전히 달라졌어요.</span></span></span></p><p id=\"3a4a360d-33e3-80b1-829f-f7104313d109\"><span><span><span>그 과정을 세 단계(Phase)로 나눠서 볼 수 있어요. 각 단계에서 DS와 MLE가 일을 어디서 나눴는지를 같이 살펴볼게요.\n</span></span></span></p><h2 id=\"3a4a360d-33e3-801e-a5c7-e96a7f99ef6b\"><span><span><span>Phase 0: DS가 전달하면, MLE가 처음부터 다시</span></span></span></h2><p id=\"3a4a360d-33e3-803f-9813-cd8fce36c4d3\"><span><span><span>처음엔 일을 나누는 지점이 사실상 </span><span>사람과 사람 사이</span><span>에 있었어요.</span></span></span></p><figure id=\"3a4a360d-33e3-8058-8cc1-d72d789bebc6\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/a9600f91-3bf2-447d-a672-499eaf031d5a/01-phase0-styled.png\" alt=\"\"></figure><p id=\"3a4a360d-33e3-803d-b495-f2bcfb89ba97\"><span><span><span>DS는 주피터 노트북에서 모델을 학습하고, 추론(Inference, 학습된 모델로 예측을 뽑는 과정) 코드까지 노트북에 다 적어요. 그 노트북을 MLE에게 통째로 전달하면, MLE가 그걸 보고 서빙 코드를 처음부터 다시 작성했어요. 손에서 손으로 전달하는 방식이었죠.</span></span></span></p><p id=\"3a4a360d-33e3-802e-be5d-d63193b5022d\"><span><span><span>앞에서 말한 ‘실행이 안 되던’ 일도 바로 여기서 나왔어요.</span></span></span></p><blockquote id=\"3a4a360d-33e3-80bc-ac72-f4deea6144e0\"><span><span><span>그때 이런 대화가 오갔어요\n</span><span>- 받는 쪽에서 \"이 파일도 필요해요, 저 라이브러리 소스도 주세요\"를 하나하나 다시 요청했어요.\n- 결국 \"구동이 확인된 버전 그대로 통째로 전달해달라\"는 말이 오갔죠.</span></span></span></blockquote><p id=\"3a4a360d-33e3-80a4-910a-c2b966b43e33\"><span><span><span>노트북에서 도는 것과, 다른 사람 손에서 그대로 재현되는 것은 완전히 다른 문제였습니다. 이 ‘전달받아 맞추기’에만 많은 시간이 들었어요.</span></span></span></p><p id=\"3a4a360d-33e3-802e-b521-f9e453ee6f91\"><span><span><span>일을 나누는 기준이 코드에 있지 않고 사람 사이에 있으니, 협업이 매끄럽지 않았습니다.</span></span></span></p><aside id=\"3aaa360d-33e3-807f-a9c5-ca7f8deaed79\"><div><ul><li id=\"3a4a360d-33e3-80be-a8d5-d20c93d30f6a\"><span><span><span>의도가 안 맞아요</span><span> — DS가 짠 전처리를 MLE가 조금 다르게 해석해요.</span></span></span></li><li id=\"3a4a360d-33e3-808c-88e5-e9ff87f76f2e\"><span><span><span>\"노트북에서는 됐는데요\"</span><span> — 노트북에선 되던 게 서빙에선 안 돼요.</span></span></span></li><li id=\"3a4a360d-33e3-809b-a09d-ec56bf89df02\"><span><span><span>비용이 눈덩이처럼</span><span> — 모델이 늘어날수록 주고받는 소통이 계속 커져요.</span></span></span></li></ul></div></aside><p id=\"3a4a360d-33e3-8059-9bb6-e2bb66975e9e\"><span><span><span>초기에는 역할을 딱 나누니까 이 방식이 오히려 빨랐습니다. 그런데 모델이 5개, 6개로 늘면서 이 방식으로는 감당이 안되기 시작했어요.\n</span></span></span></p><h2 id=\"3a4a360d-33e3-80e0-a70e-f695318ef2b3\"><span><span><span>Phase 1: 일을 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.py 파일</span></code><span>에서 나누기</span></span></span></h2><p id=\"3a4a360d-33e3-8013-b099-dbdd0c5616e4\"><span><span><span>그래서 일 나누는 지점을 사람 사이에서 파일로 내렸습니다. DS가 노트북에 다 적지 말고, 핵심 추론 로직만 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.py</span></code><span> 파일로 따로 빼는 거예요.</span></span></span></p><figure id=\"3a4a360d-33e3-806f-909b-d37b81e62ef8\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/b2a8cdb7-6853-4377-ad18-ac25173d3685/02-phase1-styled.png\" alt=\"\"></figure><p id=\"3a4a360d-33e3-808c-9975-d423646479d8\"><span><span><span>노트북은 학습과 실험에만 집중하고, 실제 ML 로직은 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.py</span></code><span> 파일에 담았습니다. 이 파일은 MLE 리뷰와 CI(코드를 자동으로 검증하는 파이프라인)를 꼭 통과하게 했죠. 확실히 나아졌어요. 소통 비용이 줄고, DS가 의도한 모델이 그대로 유지됐습니다.</span></span></span></p><p id=\"3a4a360d-33e3-80c0-9f39-c50ef94a0309\"><span><span><span>하지만 이 방법도 최선의 정답은 아니었어요.</span></span></span></p><blockquote id=\"3a4a360d-33e3-80ab-9330-ea363a90c6bf\"><span><span><span>실제로 이런 일이 있었어요\n</span><span>- 한 모델의 노트북 코드에는 공용 추론 라이브러리의 전역 설정을 바꾸는 한 줄이 들어 있었어요. 노트북에서는 그 모델 하나만 도니까 아무 문제가 없었죠.\n- 그런데 서빙은 달라요. 여러 모델이 한 프로세스 안에 함께 올라가요. 이 한 줄을 그대로 옮기면, 같은 라이브러리를 쓰는 다른 서빙 모델까지 영향을 받을 수 있었어요.</span></span></span></blockquote><p id=\"3a4a360d-33e3-805f-9498-f3f76fcfc776\"><span><span><span>파일로 나눈 것은 맞았습니다. 하지만 그 파일이 ‘어떤 모양이어야 하는지’는 정하지 않아서, 문제가 남아 있었죠.</span></span></span></p><aside id=\"3aaa360d-33e3-80c7-a983-e54aa058127a\"><div><ul><li id=\"3a4a360d-33e3-8088-a260-ce1fd7d311c7\"><span><span><span>인터페이스가 제각각</span><span> — 모델마다 실행 함수 이름이 달랐어요. 어떤 건 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>predict()</span></code><span>, 어떤 건 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>run()</span></code><span>, 어떤 건 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>inference()</span></code></span></span></li><li id=\"3a4a360d-33e3-807d-94d5-c0df9a46238f\"><span><span><span>옮기면 또 고쳐야 해요</span><span> — </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.py</span></code><span>를 서빙 코드로 옮기면 환경이 달라서 늘 수정이 생겼어요.</span></span></span></li><li id=\"3a4a360d-33e3-80af-a939-c65b58e86cac\"><span><span><span>공통 기능을 못 붙여요</span><span> — 로깅, 메트릭, 에러 처리를 모든 모델에 한 번에 넣을 방법이 없었어요.</span></span></span></li></ul></div></aside><p id=\"3a4a360d-33e3-8079-b8cb-c8c7a1a35532\"><span><span><span>파일의 모양을 약속으로 정해두지 않으면, 결국 옮길 때마다 여전히 시간이 소요된다는 것을 깨달았어요.\n</span></span></span></p><h2 id=\"3a4a360d-33e3-8097-afe6-f075d636660f\"><span><span><span>Phase 2: 일을 '약속(인터페이스)'으로 나누기</span></span></span></h2><p id=\"3a4a360d-33e3-8096-9178-ff1e95cc2fad\"><span><span><span>그래서 마지막으로, 일 나누는 기준을 인터페이스로 바꿨습니다. 인터페이스는 \"이 코드는 이런 모양이어야 한다\"는 약속이에요. 이 약속을 코드로 정해두면 DS와 MLE의 역할 구분이 말이 아니라 계약이 됩니다.</span></span></span></p><p id=\"3a4a360d-33e3-809f-801e-fb82f51a742d\"><span><span><span>핵심은 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>commons-ml-model</span></code><span>이라는 패키지인데요. 여기에는 ‘모델이라면 이런 모양이어야 한다’는 추상화 클래스가 들어 있어요. 추상화 클래스에는 전처리, 추론, 후처리 메서드가 있습니다.</span></span></span></p><figure id=\"3a4a360d-33e3-80d2-80cb-c9387bcde1a2\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/2709bb49-c719-4874-af97-5a19f7dba522/03-phase2-styled.png\" alt=\"\"></figure><p id=\"3a4a360d-33e3-80b9-b14a-c82212c09356\"><span><span><span>이제 협업 방식이 확 달라집니다.</span></span></span></p><p id=\"3a4a360d-33e3-80a5-8c22-d4e1434321cd\"><span><span><span>DS는 전처리, 추론, 후처리 등 인터페이스의 구현체를 작성해 하나의 패키지로 만들고, MLE는 그 패키지를 설치해 서비스에 올립니다. 코드를 손으로 옮기지 않고, 라이브러리처럼 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>pip install</span></code><span>로 가져다 쓰는 거예요.</span></span></span></p><h3 id=\"3a4a360d-33e3-80d3-9cab-c655c278e8dd\"><span><span><span>추상화 클래스의 인터페이스 3개가 곧 ‘계약서’</span></span></span></h3><p id=\"3a4a360d-33e3-80a3-92ed-c7ce82e8e7d5\"><span><span><span>이게 협업 관점에서 가장 중요한 부분입니다. 추상화 클래스는 전처리, 추론, 후처리의 겉을 감싸고, DS는 그 안의 인터페이스를 구현해요. 그리고 감싼 부분에서 로그, 메트릭, 추적을 자동으로 남깁니다.</span></span></span></p><p id=\"3a4a360d-33e3-8063-a842-ee329a1008a5\"><span><span><span>이 코드가 바로 DS와 MLE의 계약서예요.</span></span></span></p><p id=\"3a4a360d-33e3-8016-b066-f2a70a8330b0\"><span><span><span>인터페이스(</span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>pre_process</span></code><span>, </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>inference</span></code><span>, </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>post_process</span></code><span>)는 DS 몫이라, 모델이 어떻게 동작하는지에만 집중하면 됩니다. 그 이외의 로그, 메트릭, 추적은 MLE 몫인데, 추상화 클래스가 자동으로 처리해주기 때문에 DS는 신경 쓸 필요가 없어요.</span></span></span></p><p id=\"3a4a360d-33e3-804e-90d2-cad430b29ee3\"><span><span><span>누가 무엇을 할지가 코드에 정해지니, 협업이 이렇게 달라졌어요.</span></span></span></p><p id=\"3a4a360d-33e3-8041-acc6-c0b6098396d7\"><span><span><span>DS는 \"로그를 어떻게 남기지?\"를 고민하지 않아도 되고, MLE는 \"이 모델은 함수 이름이 뭐지?\"를 물어볼 필요가 없어요. 새 관측 항목을 넣고 싶을 때도 추상화 클래스 한 곳만 고치면 모든 모델에 한 번에 적용됩니다.</span></span></span></p><blockquote id=\"3a4a360d-33e3-80e0-9980-d1cd8083fb66\"><span><span><span>실제로 이런 변화가 있었어요\n</span><span>- 예전에는 모델 하나를 서빙으로 옮기는 데 며칠씩 걸렸어요. \n- 지금은 DS가 패키지를 올리면, MLE는 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>pip install</span></code><span> 한 줄로 가져다 씁니다.\n- 실제로 새로 만든 서비스 하나는 첫 커밋을 찍은 날에 배포까지 마쳤어요. 앞에서 며칠씩 소요되던 ’전달받아 맞추기’가 사라진 순간입니다.</span></span></span></blockquote><h2 id=\"3a4a360d-33e3-80dd-a21a-cb22bf792156\"><span><span><span>\n같은 레포에서 함께 리뷰하기</span></span></span></h2><p id=\"3a4a360d-33e3-8017-b507-ce03694ee412\"><span><span><span>역할을 코드로 정했으면, 이제 어디서 함께 작업하느냐가 남습니다. 저희는 DS가 만든 모델 패키지들을 한 레포에서 함께 관리하기로 했어요.</span></span></span></p><figure id=\"3a4a360d-33e3-8068-a775-ce621b700c86\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/4d3c2230-f20e-4b30-ad44-5115f5a56a97/04-monorepo-styled.png\" alt=\"\"></figure><p id=\"3a4a360d-33e3-8072-b2fb-c7ea00175b93\"><span><span><span>이렇게 여러 패키지를 한 저장소에서 관리하는 방식을 모노레포(Mono Repository)라고 합니다. </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>uv</span></code><span>라는 도구의 워크스페이스 기능으로 묶여 있어요. DS와 MLE가 함께 일하기에 이 구조가 좋았습니다.</span></span></span></p><aside id=\"3aaa360d-33e3-8006-a09b-c6b99be845e6\"><div><ul><li id=\"3a4a360d-33e3-8007-9f72-eef4464df83f\"><span><span><span>추상화 클래스와 모델을 한 번에 고치기</span><span> — 추상화 클래스를 바꾸면서, 모델 패키지까지 한 번의 변경(하나의 PR)으로 같이 고쳐요.</span></span></span></li><li id=\"3a4a360d-33e3-8061-afba-fdbf3aa3c20c\"><span><span><span>같은 자리에서 리뷰</span><span> — DS가 올린 모델 패키지를 MLE가 같은 레포에서 바로 리뷰해요. 레포를 오갈 필요가 없어요.</span></span></span></li><li id=\"3a4a360d-33e3-805a-a266-f0b6d1a5137b\"><span><span><span>CI와 버전 정책이 하나</span><span> — 검증, 배포 규칙을 레포 하나에만 세팅하면 모든 모델에 적용돼요.</span></span></span></li></ul></div></aside><p id=\"3a4a360d-33e3-80b7-9b53-d4d75c120956\"><span><span><span>물론 대가도 있어요.</span></span></span></p><p id=\"3a4a360d-33e3-80ad-8145-df212c1dcbb5\"><span><span><span>공통 패키지를 건드리면 그 위 모델이 모두 영향권에 들기 때문에 더 신중해야 하고, 모델이 쌓일수록 레포가 무거워져 빌드도 느려졌어요. 그래서 패키지 매니저를 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>poetry</span></code><span>에서 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>uv</span></code><span>로 바꿔 빌드 속도를 3~5배 개선했습니다.\n</span></span></span></p><h2 id=\"3a4a360d-33e3-8020-ab54-d253e9a03da1\"><span><span><span>AI가 작성한 코드, 스타일까지 통일하기</span></span></span></h2><p id=\"3a4a360d-33e3-8006-aabe-d69899325985\"><span><span><span>여기까지가 ‘역할 나누기’를 맞추는 이야기였습니다. 그런데 최근에 </span><span>새로운 종류의 협업 문제</span><span>가 생겼어요.</span></span></span></p><p id=\"3a4a360d-33e3-8033-a074-c471e76ae829\"><span><span><span>요즘은 DS도 MLE도 </span><span>AI로 코드를 작성해요.</span><span> 예전에는 사람이 직접 작성하니까 팀 안에서 코드 스타일이 어느 정도 자연스럽게 수렴했어요. 그런데 각자 AI로 작성하니까, </span><span>같은 기능인데 코드 모양이 제각각</span><span>이 됐습니다.</span></span></span></p><p id=\"3a4a360d-33e3-8022-805c-c11b0f4c884b\"><span><span><span>누구는 예외 처리를 이렇게, 누구는 저렇게 하고, 누구는 고정된 값을 문자열로 쓰고 누구는 enum으로 쓰다 보니, 리뷰할 때마다 \"이건 우리 팀 방식이 아닌데\"가 반복됐어요.</span></span></span></p><p id=\"3a4a360d-33e3-80b7-baf1-c4837545f005\"><span><span><span>역할 나누기는 인터페이스로 맞췄지만, </span><span>코드의 결까지 맞춰지진 않았던</span><span> 것입니다. 그래서 팀 코딩 컨벤션을 </span><span>AI가 따르도록</span><span> 하는 규칙 모음, </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>pfmls-stylepack</span></code><span>을 도입했어요.</span></span></span></p><figure id=\"3a4a360d-33e3-8025-a2d9-d178dcf28d09\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/96e8da4b-019f-41f9-9b77-682b98d97098/05-stylepack-styled.png\" alt=\"\"></figure><p id=\"3a4a360d-33e3-8056-9a92-c1a86065c8af\"><span><span><span>Hook을 활용해서 네이밍, 예외 처리 방식, enum 쓰는 기준 같은 팀 컨벤션을 AI가 코드를 작성할 때부터 따르게 했고, 규칙을 적용한 자리에는 \"여기 이 규칙 때문에 이렇게 작성했어요\"라는 표시를 남겨 리뷰어가 왜 이렇게 작성했는지 바로 알 수 있게 했습니다.</span></span></span></p><p id=\"3a4a360d-33e3-804d-84a9-c7e72f010499\"><span><span><span>협업을 이렇게 </span><span>두 층위</span><span>로 나눠서 보게 됐습니다.</span></span></span></p><p id=\"3a4a360d-33e3-8017-9c34-fe76927e04e7\"><span><span><span>하나는 구조 통일로, 인터페이스로 '무엇을 어디까지 하나'를 맞추는 것이고, 다른 하나는 스타일 통일로, </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>pfmls-stylepack</span></code><span>으로 \"코드를 어떤 방식으로 작성하나\"를 맞추는 것입니다.</span></span></span></p><p id=\"3a4a360d-33e3-80f2-b91a-f971a74d4705\"><span><span><span>둘 다 맞춰야 리뷰가 진짜 매끄러워집니다. 인터페이스만 같고 코드 결이 제각각이면, 리뷰에서 또 어긋나거든요.</span></span></span></p><p id=\"3aaa360d-33e3-80ef-815b-ec5feb9dabd3\"><span><span></span></span></p><h2 id=\"3a4a360d-33e3-8088-a2ab-f93fa8f1fada\"><span><span><span>협업하며 배운 것들</span></span></span></h2><p id=\"3a4a360d-33e3-80f4-b9d4-da327975b641\"><span><span><span>아래 내용은 DS와 MLE가 일을 나누는 방식을 세 번 다듬으면서 배운 것들입니다.</span></span></span></p><h3 id=\"3a4a360d-33e3-802c-b1fa-d53e42698d9e\"><span><span><span>1️⃣</span><span> 일을 어디서 나눌지가 제일 어려워요</span></span></span></h3><p id=\"3aaa360d-33e3-8080-8d20-ce3ee3c9a1ad\"><span><span><span>전체적인 구조를 너무 엄격하게 만들면, DS가 커스터마이징 하기 어려울 수 있습니다. 반대로 너무 느슨하게 만들면, 다시 인터페이스가 제각각이 돼요. 이 사이의 적절한 지점을 찾는게 중요합니다.</span></span></span></p><h3 id=\"3a4a360d-33e3-80fd-840f-d6855b076952\"><span><span><span>2️⃣</span><span> 러닝 커브가 있을 수 있어요</span></span></span></h3><p id=\"3aaa360d-33e3-80bc-ac07-c133e41ec715\"><span><span><span>전체적으로 약속을 이해해야 모델 패키지를 만들 수 있습니다. 그래서 가이드 문서를 초기에 바로 만들고, 첫 모델은 DS와 MLE가 함께 페어로 작업했어요. 이후에는 기존 패키지가 좋은 참고 코드가 됐습니다. 그걸 참고하니 DS가 더 적은 러닝 커브로 작업할 수 있었어요.</span></span></span></p><h3 id=\"3a4a360d-33e3-800a-add5-d2f805e3179d\"><span><span><span>3️⃣</span><span> 공통 라이브러리를 공유하는 구조는 양날의 검이에요</span></span></span></h3><p id=\"3a4a360d-33e3-80c9-8e2f-dee2e920c93a\"><span><span><span>공통 라이브러리를 한 번 업데이트하면 같은 모노레포에 있는 다른 패키지들에 영향을 줍니다.\n하지만 뒤집으면, 공통 로직을 한 곳만 고쳐도 모든 패키지에 반영된다는 뜻이죠.</span></span></span></p><h3 id=\"3a4a360d-33e3-8011-8c45-ec9d8981841c\"><span><span><span>4️⃣</span><span> 최근에는 사람 뿐만 아니라 AI와의 협업 방식도 중요해요</span></span></span></h3><p id=\"3aaa360d-33e3-80ce-9ce4-df839b2704a1\"><span><span><span>인터페이스를 맞추는 것과 코드 스타일을 맞추는 건 다른 문제입니다.\nAI로 작성하는 시대에는 스타일을 맞추는 협업이 더 중요해졌어요.</span></span></span></p><h2 id=\"3a4a360d-33e3-80e3-8a46-c7d5f26f1d67\"><span><span><span>\n마무리</span></span></span></h2><p id=\"3a4a360d-33e3-802e-93c4-de29e0a7d02d\"><span><span><span>1년 전에는 DS가 노트북을 통째로 전달하고, MLE가 그걸 처음부터 다시 작성했습니다. 지금은 DS가 정해진 인터페이스를 구현해 패키지를 올리면, MLE가 설치해서 서비스에 올립니다. 나머지는 추상화 클래스가 알아서 처리하죠.</span></span></span></p><p id=\"3a4a360d-33e3-80db-a0a6-c20bdcb5a5e7\"><span><span><span>그리고 AI로 코드를 작성하게 되면서, 역할 나누기를 넘어 코드 스타일까지 맞추는 게 새로운 협업 과제가 됐습니다.</span></span></span></p><p id=\"3a4a360d-33e3-806e-9f31-da66069eae5d\"><span><span><span>재미있는 건, 협업 방식이 진화할수록 DS와 MLE의 역할이 더 섞이는 동시에 더 뚜렷해진다는 거예요. 하는 일은 섞이는데, 누가 책임지는지는 더 또렷해져요.</span></span></span></p><p id=\"3a4a360d-33e3-80b5-9588-df043261c855\"><span><span><span>이렇게 DS와 MLE가 매끄럽게 함께 일하는 방식을 같이 고민하고 싶으시다면, 토스뱅크에 합류해 주세요.</span></span></span></p><p id=\"3a4a360d-33e3-8019-a1d5-ed03638f2141\"><span><span><span>감사합니다.</span></span></span></p></div><div id=\"tds-mobile-portal-container\"></div>",
-    "createdAt": "2026-08-03T03:25:00.000+00:00",
-    "link": "https://toss.tech/article/ds-mle-cowork",
-    "author": "",
-    "site": {
-      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
-      "name": "토스 기술블로그"
     }
   },
   {
