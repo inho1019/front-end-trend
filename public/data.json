@@ -1,7 +1,150 @@
 [
   {
+    "title": "Snapdragon X2 Series에 Linux 지원이 도입될 예정",
+    "content": "<ul>\n<li>Qualcomm이 <strong>Snapdragon X2 Series의 Linux 지원</strong>을 추진하며, Windows와 Googlebook에 이어 개발자와 기기 제조사가 활용할 운영체제 선택지를 넓힘</li>\n<li><strong>Hexagon NPU와 Adreno GPU</strong>를 포함한 핵심 드라이버를 Linux 업스트림에 반영하고 있음</li>\n<li><strong>Debian은 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-24T02:33:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=34210",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Meta VR 안경",
+    "content": "<ul>\n<li><strong>Meta VR Glasses</strong>는 영상 감상, 업무, 게임을 지원하는 VR 안경으로, <strong>2027년 봄 1,299달러</strong>에 출시 예정임</li>\n<li><strong>마그네슘 합금</strong> 소재를 사용하며 무게는 <strong>100g</strong>이고, 주머니에 들어가는 소형 퍽이 구동을 담당함</li>\n<li><strong>3D 영화...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-24T01:32:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=34208",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Z80 REPL (2018)",
+    "content": "<p>Z80 REPL (2018)</p>\n",
+    "createdAt": "2026-09-24T00:39:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=34207",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Claude는 측정할 수 있는 것을 더 빠르게 만들 수 있다",
+    "content": "<ul>\n<li>claude.ai와 Claude 데스크톱 앱의 핵심 사용자 경험을 <strong>2주 만에 약 3배 빠르게</strong> 개선함. 사용자 활동의 95%를 차지하는 네 가지 이용 흐름에 집중했으며, 매일 수만 시간의 대기 시간을 줄인 것으로 추산함</li>\n<li><strong>Claude Tag</strong>가 병목 탐색, 벤치마크 구축, 최적화 구현, 배...<p></p></li></ul>",
+    "createdAt": "2026-09-24T00:36:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=34206",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tunnet - 관리 서버까지 직접 운영하는 오픈소스 Tailscale 대안",
+    "content": "<ul>\n<li><strong>Tailscale처럼 여러 컴퓨터를 하나의 암호화된 사설망으로 연결</strong>하고, SSH 접속과 내부 서비스 공유, 공개 터널, 파일 전송을 같은 계정과 접근 정책으로 관리</li>\n<li>장치에 설치하는 에이전트뿐 아니라 <strong>관리 서버, 대시보드와 릴레이까지 공개</strong>해, 외부 업체의 제어 서버에...<p></p></li></ul>",
+    "createdAt": "2026-09-24T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34204",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Modeleaf - 키보드 중심의 가벼운 macOS 읽기 전용 PDF 뷰어",
+    "content": "<p>키보드 위주로 PDF를 가볍게 읽고 싶어 개인적인 필요로 만든 macOS용 읽기 전용 PDF 뷰어 Modeleaf입니다.</p>\n<p>Vim 스타일 단축키로 조작할 수 있고, Vimium 스타일의 링크 힌트로 PDF의 내부 링크와 외부 URL에도 키보드만으로 접근할 수 있습니다. 논문을 읽을 때 본문과 참고문헌을 오가는 부담을 줄이기 위해</p>",
+    "createdAt": "2026-09-24T00:22:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=34203",
+    "author": "argus95",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "내가 바라는 GNOME의 LLM 정책",
+    "content": "<ul>\n<li>GNOME의 LLM 정책은 개발 작업 방식을 세세하게 관리하기보다, 공동체가 환영하고 거부하는 행동을 알리는 <strong>사회적 규범</strong>이어야 한다는 개인 제안임</li>\n<li>제안된 정책은 GNOME에 제출하거나 GNOME 인프라에 호스팅하는 모든 것을 <strong>LLM으로 생성하거나 수정하는 행위</strong>를 금지...<p></p></li></ul>",
+    "createdAt": "2026-09-24T00:13:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=34202",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사람을 위한 KDE",
+    "content": "<ul>\n<li>KDE 사용자와 기여자 모임이 <strong>KDE Plasma Desktop과 관련 구성 요소에서 생성형 AI를 금지하는 정책</strong> 채택을 요구함</li>\n<li>금지 요구는 개별 커밋의 AI 사용 비율을 정확히 가려내기보다, <strong>사람 중심의 공동체</strong>와 개인정보 보호, 통제권이라는 KDE의 가치를 지키는 데 초점을...<p></p></li></ul>",
+    "createdAt": "2026-09-24T00:10:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=34201",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Radicle: 네트워크 프로토콜 취약점 공개",
+    "content": "<ul>\n<li>Radicle 노드 간 통신에서 <strong>평문 전송</strong>과 <strong>피어 인증 결함</strong>이라는 두 가지 심각한 취약점이 확인됐으며, 공개 시점까지 출시된 모든 버전이 영향받음</li>\n<li>네트워크 경로상의 공격자는 전송 데이터를 읽고, 관찰한 <strong>Node ID를 사칭</strong>해 허용 목록으로 제한된 ...<p></p></li></ul>",
+    "createdAt": "2026-09-24T00:07:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=34200",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GitHub 위키는 안티패턴이다 (2022)",
+    "content": "<ul>\n<li>GitHub 프로젝트 문서는 위키보다 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/docs</code> 폴더</strong>에 코드와 함께 관리하고 <strong>GitHub Pages</strong>로 게시하는 방식을 권장함</li>\n<li>문서를 코드와 함께 버전 관리하면 <strong>이전 버전의 문서</strong>를 쉽게 찾을 수 있고, 저장소를 복제할 때 문서도 함께 내려받을 ...<p></p></li></ul>",
+    "createdAt": "2026-09-23T22:40:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=34199",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Stripe의 사내 업무용 AI 플랫폼, Kai",
+    "content": "<ul>\n<li>Stripe는 영업 전 고객 조사, 재무 분석, 규정 준수 검토 등을 돕는 <strong>사내 AI 플랫폼 Kai</strong>를 구축했으며, 발표 시점 기준 직원 <strong>83%가 매주 사용</strong>하고 있음</li>\n<li>기존 도구로 만든 <strong>4,000개 이상의 에이전트</strong>는 비슷한 프롬프트를 중복 작성하고 품질과 유지...<p></p></li></ul>",
+    "createdAt": "2026-09-23T22:37:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=34198",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "기업 채용 사이트 공고의 28%, 90일 넘게 게시 중",
+    "content": "<ul>\n<li>기업 자체 채용 사이트의 <strong>공고 약 61만 개</strong>를 조사한 결과, 게시일을 확인할 수 있는 공고의 <strong>28.3%가 90일 넘게 유지</strong>되고 있었음</li>\n<li><strong>6개월 넘게 남아 있는 공고도 16.3%</strong> 에 달하며, 게시 후 경과 기간의 중앙값은 36일임</li>\n<li>90일 초과 공고 비율...<p></p></li></ul>",
+    "createdAt": "2026-09-23T21:39:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=34197",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DoorDash가 Mamdani의 시장 당선을 막으려 140만 달러를 쓴 이유가 이제 드러났다",
+    "content": "<ul>\n<li><strong>DoorDash</strong>가 배달 노동자 26만 4,000명의 임금 과소 지급과 관련해 뉴욕시와 <strong>1억 3,150만 달러</strong> 규모의 합의에 도달함. 뉴욕시 역사상 최대 노동자 관련 합의임</li>\n<li>회사는 2025년 시장 선거에서 <strong>Zohran Mamdani 반대와 Andrew Cuomo 지지</strong>에 약 140만 달...<p></p></li></ul>",
+    "createdAt": "2026-09-23T21:36:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=34196",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Claude, CRISPR 유사 반복 서열을 가진 새로운 효소 시스템 발견",
-    "content": "<ul>\n<li>Claude가 대규모 DNA 데이터베이스를 탐색해, 역전사효소와 반복 서열 배열이 결합된 <strong>ART</strong> 효소 시스템을 발견함. 인간 연구진은 초기 지시와 실험실 작업을 맡음</li>\n<li><strong>약 950개 에이전트</strong>가 21시간 동안 2억 1,000만 토큰을 사용해 탐색했으며, 20만 개 이상의 역전사효소...<p></p></li></ul>",
+    "content": "<ul>\n<li>대규모 DNA 데이터베이스에서 <strong>이미 알려진 효소 주변의 반복 서열과 보조 단백질을 연결</strong>해, 이전에 규명되지 않았던 효소 시스템 <strong>ART</strong>를 찾아냄</li>\n<li>약 <strong>950개 Claude 에이전트가 21시간</strong> 동안 2억 1,000만 토큰을 사용해 역전사효소 20만 개 이상을 조사...<p></p></li></ul>",
     "createdAt": "2026-09-23T20:34:35.000+00:00",
     "link": "https://news.hada.io/topic?id=34195",
     "author": "neo",
@@ -11,8 +154,8 @@
     }
   },
   {
-    "title": "Gemini 3.8 텍스트 음성 변환",
-    "content": "<ul>\n<li>Google이 맞춤형 목소리 설계와 세밀한 연출에 초점을 맞춘 <strong>Gemini 3.8 Flash TTS</strong>, 대규모 음성 생성의 비용 효율성에 최적화한 <strong>Gemini 3.8 Flash-Lite TTS</strong>를 출시함</li>\n<li><strong>Flash TTS</strong>는 자연어로 새로운 목소리를 만들고, 2,000개 이상의 준비된 음성을...<p></p></li></ul>",
+    "title": "Google, 목소리를 만들고 연기까지 지시하는 Gemini 3.8 TTS 공개",
+    "content": "<ul>\n<li>원하는 목소리와 말투를 자연어로 만들고 대사별로 연기를 지시하는 <strong>Gemini 3.8 Flash TTS</strong>와, 대량 음성 생성의 비용 효율성을 높인 <strong>Flash-Lite TTS</strong>를 공개함</li>\n<li>Flash TTS는 <strong>2,000개 이상의 목소리</strong>를 제공하며, 새로운 목소리를 직접 설계하거나 사...<p></p></li></ul>",
     "createdAt": "2026-09-23T19:58:51.000+00:00",
     "link": "https://news.hada.io/topic?id=34194",
     "author": "neo",
@@ -22,8 +165,8 @@
     }
   },
   {
-    "title": "계량 과금하기엔 너무 저렴한 토큰",
-    "content": "<ul>\n<li>AI 사용 비용이 급격히 낮아지면서, 앞으로 <strong>토큰 수보다 품질과 접근성</strong>이 사용을 제약할 가능성이 있음</li>\n<li>최첨단 모델의 토큰당 가격이 일관되게 내려가는 것은 아니지만, <strong>과제 완료 비용</strong>은 크게 줄고 있으며 GPU와 추론 엔진의 효율 개선도 이어지고 있음</li>\n<li>...<p></p></li></ul>",
+    "title": "일일이 과금하기엔 너무 저렴한 토큰",
+    "content": "<ul>\n<li>AI 사용 비용이 계속 내려가면, <strong>토큰을 얼마나 쓰느냐보다 원하는 품질을 얻을 수 있느냐</strong>가 중요해지고 AI는 별도 제품을 넘어 컴퓨팅의 기본 인프라로 들어갈 수 있음</li>\n<li>최상위 모델의 토큰 단가가 항상 내려가는 것은 아니지만, 모델과 GPU, 추론 소프트웨어의 개선으로 <strong>같은...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T19:55:51.000+00:00",
     "link": "https://news.hada.io/topic?id=34193",
     "author": "neo",
@@ -67,7 +210,7 @@
   },
   {
     "title": "Hacker News는 왜 그런가?",
-    "content": "<ul>\n<li><strong>Hacker News의 정치적 편향</strong>은 단순한 이용자 성향 문제가 아니라, 운영 주체인 Y Combinator와 그 주변 인물들의 가치관 및 이해관계에 뿌리를 두고 있다는 비판을 받음</li>\n<li><strong>자동 관리와 신고 기능</strong>은 논쟁적인 주제의 노출을 줄이지만, 진보적 의견을 숨기는 데 주로 작...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>Drew DeVault가 Hacker News의 ‘비정치적’ 운영에 의문을 제기</strong>하며, 기술 기업의 성과는 자유롭게 논의하면서 그 기업의 정치적 영향과 윤리 문제는 배제하는 구조를 비판함</li>\n<li>Grok 출시 토론에서는 성능과 가격을 논의하는 댓글은 남았지만, <strong>Musk의 정치적 행보와 제품의 윤...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T18:39:03.000+00:00",
     "link": "https://news.hada.io/topic?id=34188",
     "author": "neo",
@@ -77,8 +220,8 @@
     }
   },
   {
-    "title": "GPT-6 Astra가 자동차를 운전할 능력을 갖추게 됨",
-    "content": "<ul>\n<li><strong>DrivingBench</strong>는 최신 언어 모델에 실제 Toyota Corolla의 조향, 가속, 제동 제어권을 주고 고정된 콘 코스에서 주행 능력을 평가함</li>\n<li><strong>GPT-6 Astra</strong>는 첫 시도에서 진행률 49%를 기록한 뒤 두 번째 시도에서 <strong>5분 22초</strong> 만에 코스를 완주함</li>\n<li>나...<p></p></li></ul>",
+    "title": "GPT-6 Astra, 실제 자동차를 운전해 주행 코스 완주",
+    "content": "<ul>\n<li><strong>DrivingBench</strong>는 범용 AI 모델에 실제 Toyota Corolla의 카메라 영상과 차량 상태를 제공하고, 도구 호출로 조향과 가감속을 제어하게 하는 주행 실험</li>\n<li>GPT-6 Astra는 첫 시도에서 코스의 49%까지 진행한 뒤, <strong>두 번째 시도에서 5분 22초 만에 완주</strong>했으며 비교한 네 모...<p></p></li></ul>",
     "createdAt": "2026-09-23T17:38:33.000+00:00",
     "link": "https://news.hada.io/topic?id=34187",
     "author": "neo",
@@ -111,7 +254,7 @@
   },
   {
     "title": "세부 사항은 듣고 싶지 않습니다",
-    "content": "<ul>\n<li>사고 뒤에는 원인을 납득하는 데서 멈추지 말고, <strong>같은 유형의 실패를 줄이기 위해 무엇을 바꿀지</strong> 물어야 함</li>\n<li>모두가 합리적으로 행동했다는 설명에 동의하면 <strong>변화의 긴급성</strong>이 사라질 수 있으며, 문제를 이해하는 것과 해결하는 것은 다름</li>\n<li>담당자 부재, 출시...<p></p></li></ul>",
+    "content": "<ul>\n<li>문제가 왜 생겼는지 모두가 납득해도 <strong>같은 일이 다시 일어나지 않도록 바뀐 것이 없다면 해결된 것은 아님</strong></li>\n<li>모두가 합리적으로 행동했다는 설명에 동의하면 <strong>변화의 긴급성</strong>이 사라질 수 있으며, 문제를 이해하는 것과 해결하는 것은 다름</li>\n<li>담당자 부재, 출시...<p></p></li></ul>",
     "createdAt": "2026-09-23T16:38:09.000+00:00",
     "link": "https://news.hada.io/topic?id=34183",
     "author": "neo",
@@ -122,7 +265,7 @@
   },
   {
     "title": "삼성, 소프트웨어 업데이트 실수로 스마트 냉장고 먹통",
-    "content": "<ul>\n<li>삼성이 한국에서 일부 스마트 냉장고의 작동 중단 신고를 받은 뒤 <strong>SmartThings 업데이트 배포를 중단</strong>함</li>\n<li>사용자들은 냉장고가 완전히 멈춰 <strong>음식이 상하는 피해</strong>를 보고했으며, 자동 문 열림 기능과 내부 조명 고장도 신고함</li>\n<li>삼성은 <strong>업데이트 테스트...<p></p></strong></li></ul>",
+    "content": "<ul>\n<li>국내 일부 삼성 스마트 냉장고가 <strong>SmartThings 업데이트 이후 작동을 멈춰 음식이 상하는 피해</strong>가 발생했으며, 자동 문 열림과 내부 조명 이상도 신고됨</li>\n<li>삼성은 <strong>9월 22일 업데이트 테스트 과정에서 오류가 발생</strong>해 일부 냉장고의 전원과 화면에 이상이 생겼다고 확인하...<p></p></li></ul>",
     "createdAt": "2026-09-23T16:35:09.000+00:00",
     "link": "https://news.hada.io/topic?id=34182",
     "author": "neo",
@@ -143,8 +286,8 @@
     }
   },
   {
-    "title": "Amazon, Meta의 새 Muse AI 에이전트가 amazon.com에서 쇼핑하지 못하도록 차단",
-    "content": "<p>Amazon, Meta의 새 Muse AI 에이전트가 amazon.com에서 쇼핑하지 못하도록 차단</p>\n",
+    "title": "Amazon, Meta의 새 Muse AI 에이전트가 아마존닷컴에서 쇼핑하지 못하도록 차단",
+    "content": "<ul>\n<li>Amazon이 Meta의 <strong>Muse</strong>가 Amazon.com에서 쇼핑하지 못하도록 차단하고, 이용자에게 무단 AI 에이전트의 지속적인 접근이 계정 <strong>이용약관 위반</strong>임을 고지함</li>\n<li>Perplexity의 Comet 접근을 금지했던 법원 명령이 항소심에서 취소된 뒤, 에이전트의 침입 여부 대신 <strong>...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T15:38:49.000+00:00",
     "link": "https://news.hada.io/topic?id=34181",
     "author": "neo",
@@ -155,7 +298,7 @@
   },
   {
     "title": "OpenAI, ‘세상에 이로운’ 기업으로 보이기 위해 인플루언서 군단 동원",
-    "content": "<ul>\n<li>OpenAI가 <strong>크리에이터 마케팅</strong>을 확대하며 ChatGPT의 업무와 일상 활용 사례를 홍보함. AI 안전 우려를 직접 해소하기보다는 ChatGPT가 매력적이고 세상에 이로운 일을 도울 수 있다는 메시지에 집중함</li>\n<li>HypeAuditor 집계에서 ChatGPT를 홍보하는 <strong>Instagram 협찬 게시물</strong></li></ul>",
+    "content": "<ul>\n<li>OpenAI가 <strong>크리에이터 마케팅</strong>을 확대하며 AI 안전 우려에 직접 답하기보다 <strong>육아, 운동, 사업 운영에 ChatGPT가 도움이 되는 모습</strong>을 보여주는 메시지에 집중하고 있음</li>\n<li>HypeAuditor 집계에서 ChatGPT를 홍보하는 <strong>Instagram 협찬 게시물은 6월 61개에서 8월 14...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T15:35:49.000+00:00",
     "link": "https://news.hada.io/topic?id=34180",
     "author": "neo",
@@ -176,8 +319,8 @@
     }
   },
   {
-    "title": "Claude Code는 텔레메트리가 켜져 있을 때만 AGENTS.md를 읽음",
-    "content": "<ul>\n<li>Claude Code 2.1.277에 추가된 <strong>AGENTS.md 지원</strong>은 원격 기능 플래그에 의존하며, 텔레메트리나 비필수 트래픽을 끄면 로컬 지침 파일을 경고 없이 건너뜀</li>\n<li>내장 플러그인 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">agents-md</code></strong> 는 원격 플래그를 가져오지 못하면 기본값 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code>를 사용...<p></p></li></ul>",
+    "title": "Claude Code, 텔레메트리를 끄면 AGENTS.md를 읽지 않는 문제 발견",
+    "content": "<ul>\n<li>사용 정보 전송을 끄면 <strong>프로젝트 지침 파일인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">AGENTS.md</code>도 경고 없이 읽지 않는 문제</strong>가 Claude Code에서 확인됨</li>\n<li>로컬 파일을 읽는 기능이 <strong>서버에서 받아오는 기능 활성화 설정</strong>에 묶여 있어, 텔레메트리나 비필수 통신을 차단하면 함께 비활성화되는 구...<p></p></li></ul>",
     "createdAt": "2026-09-23T14:33:28.000+00:00",
     "link": "https://news.hada.io/topic?id=34179",
     "author": "neo",
@@ -198,8 +341,8 @@
     }
   },
   {
-    "title": "이딴 짓거리는 이제 끝",
-    "content": "<p>이딴 짓거리는 이제 끝</p>\n",
+    "title": "이딴 짓은 이제 못 해 먹겠다",
+    "content": "<ul>\n<li>대기업에 합류한 지 보름 된 개발자의 경험담으로, <strong>명세와 코드, 테스트, 제품 요구사항, 티켓과 보고서까지 모두 Claude Code가 만드는 업무 환경</strong>에 대한 불만</li>\n<li>경영진은 “코드 작성이 더는 병목이 아닌데 왜 느리냐”고 재촉하고, 개발자들은 <strong>하루 12~13시간씩 AI에 지시하...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T13:44:02.000+00:00",
     "link": "https://news.hada.io/topic?id=34176",
     "author": "neo",
@@ -276,7 +419,7 @@
   },
   {
     "title": "Mac 기본 UI를 고집할 이유는 이제 거의 사라졌다",
-    "content": "<ul>\n<li><strong>Mac 기본 UI</strong>를 선택해 온 근거인 사용자 친숙도, 개발 부담 절감, Apple의 디자인 우위가 더는 충분히 성립하지 않는 것으로 보임</li>\n<li>사용자는 기본 UI인지 맞춤형 UI인지보다 <strong>앱을 이해하고 사용하는 데</strong> 관심이 있으며, Things처럼 표준 도구 막대를 쓰지 않는 앱도 ...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>NetNewsWire 개발자 Brent Simmons</strong>가 오랫동안 옹호해 온 Mac 기본 UI를 재고함. 사용자에게 익숙하고 개발 부담이 적으며 Apple의 디자인을 믿을 수 있다는 세 가지 근거가 흔들리고 있음</li>\n<li><strong>‘Mac답다’고 호평받는 Things도 기본 UI와는 상당히 다름</strong>. 사용자는 표준...<p></p></li></ul>",
     "createdAt": "2026-09-23T11:02:45.000+00:00",
     "link": "https://news.hada.io/topic?id=34169",
     "author": "neo",
@@ -286,8 +429,8 @@
     }
   },
   {
-    "title": "구독 취소를 시도하면 모든 사용자에게 상식 밖의 메시지를 보내는 Grammarly",
-    "content": "<p>구독 취소를 시도하면 모든 사용자에게 상식 밖의 메시지를 보내는 Grammarly</p>\n",
+    "title": "Grammarly, 구독 갱신 않겠다는 회사 직원들에게 “관리자를 설득해 달라”",
+    "content": "<ul>\n<li>한 기업의 시스템 관리자가 <strong>Grammarly 계약을 갱신하지 않겠다고 알린 뒤</strong>, 라이선스를 가진 직원 전원에게 이메일과 앱 내 팝업이 발송됐다는 사례를 공개함</li>\n<li>팝업은 구독 종료일을 알리면서 <strong>계속 사용하고 싶다면 상사나 팀장에게 업무에 도움이 된다고 말해 달라</strong>고...<p></p></li></ul>",
     "createdAt": "2026-09-23T10:37:01.000+00:00",
     "link": "https://news.hada.io/topic?id=34168",
     "author": "neo",
@@ -298,7 +441,7 @@
   },
   {
     "title": "Python 25줄로 구현한 Jev",
-    "content": "<ul>\n<li><strong>NobodyWho</strong>가 선택지가 담긴 프롬프트를 받아 확률을 출력하는 로컬 분류 예제로 Jev를 흉내 냄</li>\n<li><strong>Qwen3-0.6B-GGUF</strong>를 불러와 선택지 레이블의 로짓을 추출하고, 이를 정규화해 선택지별 확률로 변환함</li>\n<li>회사 소유가 아닌 로그인 페이지에서 비밀번호를 요구하...<p></p></li></ul>",
+    "content": "<ul>\n<li>새로운 AI 패러다임으로 주목받는 Jev의 <strong>“질문과 선택지를 받아 확률을 반환하는 기능”을 작은 로컬 모델과 Python 25줄로 구현</strong></li>\n<li><strong>Qwen3-0.6B</strong>에 질문과 A/B/C 선택지를 주고, 답변을 생성하는 대신 각 선택지 토큰의 점수를 꺼내 확률로 변환함</li>\n<li>수상한 급...<p></p></li></ul>",
     "createdAt": "2026-09-23T10:34:01.000+00:00",
     "link": "https://news.hada.io/topic?id=34167",
     "author": "neo",
@@ -309,7 +452,7 @@
   },
   {
     "title": "일반 텍스트 파일이 위기에 처해 있다",
-    "content": "<ul>\n<li><strong>일반 텍스트 파일</strong>은 다양한 인코딩과 형식을 아우르며, 지금까지 사실상 유일한 범용 데이터 인터페이스 역할을 해왔음</li>\n<li>파일시스템에 저장된 텍스트는 <strong>기본 텍스트 편집기</strong>만으로 읽고 수정할 수 있고, 클라우드 연결 없이 여러 애플리케이션에서 공유하고 활용할 수...<p></p></li></ul>",
+    "content": "<ul>\n<li>일반 텍스트 파일은 <strong>특정 앱이나 클라우드에 의존하지 않고</strong>, 기본 편집기만으로 읽고 고치며 여러 프로그램에서 함께 사용할 수 있는 범용 데이터 형식임</li>\n<li>스마트폰에서는 메모와 기록을 전용 앱에 맡기면서, <strong>파일을 직접 저장하고 다른 도구로 여는 방식</strong>이 일상에서...<p></p></li></ul>",
     "createdAt": "2026-09-23T09:02:55.000+00:00",
     "link": "https://news.hada.io/topic?id=34166",
     "author": "neo",
@@ -320,7 +463,7 @@
   },
   {
     "title": "전자담배에 중독된 사람들이 끊기 위해 시도하는 새 방법: 일반 담배",
-    "content": "<ul>\n<li>일부 <strong>전자담배 사용자</strong>가 전자담배를 끊기 위해 오히려 <strong>일반 담배</strong>를 피우는 방법을 시도하고 있음</li>\n<li>TikTok, Instagram, Reddit, Facebook에서는 <strong>전자담배 중단 방법</strong>과 중독 경험, 마지막 사용 이후 경과 일수를 공유하고 있음</li>\n<li>이 방법을 시...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>전자담배를 끊기 위해 일반 담배로 전환</strong>하는 일부 사용자들이 등장하고 있으며, 담배 냄새와 실외 흡연의 불편함이 사용을 줄이는 데 도움이 된다고 여김</li>\n<li>전자담배는 추운 날 밖으로 나가야 하는 번거로움이 없어 계속 사용하기 쉽고, 일부 사용자는 <strong>직접 담배를 말아 피우는...<p></p></strong></li></ul>",
     "createdAt": "2026-09-23T07:33:07.000+00:00",
     "link": "https://news.hada.io/topic?id=34164",
     "author": "neo",
@@ -341,8 +484,8 @@
     }
   },
   {
-    "title": "Unreal Agent",
-    "content": "<ul>\n<li><strong>Unreal Agent</strong>는 도구 호출을 완전히 비동기로 관리해, 모델이 대기와 폴링, 하트비트를 처리하는 데 쓰는 시간과 토큰을 줄이는 에이전트 하네스임</li>\n<li>도구 실행이 끝나기 전에도 <strong>사용자의 추가 지시</strong>를 받을 수 있으며, 오래 걸리는 작업과 코드 탐색, 웹 검색 등을 병...<p></p></li></ul>",
+    "title": "Unreal Agent - 비동기 도구 실행으로 비용을 줄이는 에이전트 하네스",
+    "content": "<ul>\n<li>도구 실행이 끝났는지 모델이 반복해서 확인하는 대신, <strong>실행 환경이 백그라운드 작업과 완료 통지를 관리</strong>해 불필요한 모델 호출과 토큰 사용을 줄임</li>\n<li>개발 환경을 설정하는 동안 코드 탐색과 웹 검색을 병렬로 진행하고, <strong>도구 실행 중에도 사용자의 추가 지시</strong>를 받을...<p></p></li></ul>",
     "createdAt": "2026-09-23T06:34:06.000+00:00",
     "link": "https://news.hada.io/topic?id=34163",
     "author": "neo",
@@ -374,8 +517,8 @@
     }
   },
   {
-    "title": "WordPress: 인증 없이 악용 가능한 경로 순회 취약점, 조건 충족 시 원격 코드 실행으로 이어짐",
-    "content": "<ul>\n<li>WordPress의 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">get_page_template()</code></strong> 에서 인증 없는 공격자가 활성 테마 디렉터리 밖의 읽기 가능한 로컬 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.php</code> 파일을 포함시킬 수 있는 취약점이 발견됨</li>\n<li><strong>원격 코드 실행(RCE)</strong> 으로 이어지려면 활성 테마의 디렉터리 구조와 서버의 파일 및...<p></p></li></ul>",
+    "title": "WordPress, 로그인 없이 원격 코드 실행 가능한 취약점 수정",
+    "content": "<ul>\n<li><strong>특정 테마와 서버 설정이 결합된 WordPress 사이트에서 로그인 없이 원격 코드를 실행할 수 있는 취약점</strong>이 발견돼 보안 업데이트가 배포됨</li>\n<li>페이지 템플릿을 찾는 과정에서 경로 검증이 누락돼, <strong>테마 폴더 밖에 있는 서버의 PHP 파일을 불러올 수 있는 문제</strong>임</li>\n...<p></p></ul>",
     "createdAt": "2026-09-23T02:42:55.000+00:00",
     "link": "https://news.hada.io/topic?id=34160",
     "author": "neo",
@@ -440,72 +583,6 @@
     }
   },
   {
-    "title": "Filament - 데이터베이스와 SaaS 데이터를 옮기고 동기화하는 오픈소스 도구",
-    "content": "<ul>\n<li>데이터베이스와 업무 서비스의 데이터를 다른 DB, 데이터 웨어하우스, 객체 스토리지로 옮기는 <strong>Go 기반 데이터 복제 엔진</strong></li>\n<li>전체 데이터를 한 번에 복사하거나, 변경된 데이터만 가져오거나, <strong>변경 데이터 캡처(CDC)</strong> 로 추가/수정/삭제를 반영하는 방식 지원</li>\n</ul>",
-    "createdAt": "2026-09-23T00:40:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=34152",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Drop - gVisor를 지원하는 루트 권한 없는 Linux 샌드박스",
-    "content": "<ul>\n<li><strong>Drop</strong>은 익숙한 작업 환경을 유지하면서 프로그램과 코딩 에이전트를 격리하는 Linux 샌드박스로, 기존 배포판과 설치된 프로그램을 그대로 사용함</li>\n<li>환경마다 <strong>별도의 홈 디렉터리</strong>를 제공하고 원래 홈은 숨김 처리해, 에이전트의 잘못된 삭제 명령이나 비밀 정보 접근...<p></p></li></ul>",
-    "createdAt": "2026-09-23T00:37:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=34151",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Fluree DB - 이력과 검증, 브랜치 병합을 갖춘 그래프 데이터베이스",
-    "content": "<ul>\n<li>데이터의 현재 상태뿐 아니라 <strong>변경 이력과 출처를 함께 관리하는</strong> Rust 기반 그래프 데이터베이스</li>\n<li>Git처럼 데이터베이스를 <strong>브랜치</strong>로 나누고 독립적으로 변경한 뒤 다시 <strong>병합</strong>할 수 있음</li>\n<li>시간에 따른 변경 내역을 질의하고 데이터의 검증 가...<p></p></li></ul>",
-    "createdAt": "2026-09-23T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34150",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Husky - MLX보다 최대 4.5배 빠른 모델 특화 추론 엔진",
-    "content": "<ul>\n<li>여러 모델을 지원하는 대신 <strong>4B 모델 Woof 하나에 최적화</strong>한 애플 실리콘 추론 엔진으로, 메일/일정 관리/회의록 요약을 기기에서 처리하는 <strong>맥용 개인 AI 비서 앱 Underdog</strong>에 적용됨</li>\n<li>M5 Max 비교에서 <strong>같은 가중치와 동일한 출력으로 16개 작업 모두 MLX보다 ...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-23T00:22:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=34149",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Java 클래스 파일은 왜 0xCAFEBABE로 시작할까?",
-    "content": "<ul>\n<li>Java 클래스 파일은 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0xCAFEBABE</code>라는 4바이트 식별값</strong>으로 시작하며, 1996년 이 값의 유래를 묻는 질문에 개발자들의 추측과 말장난이 이어짐</li>\n<li>커피를 연상시키지만, 초기 개발팀에 따르면 <strong>언어에 Java라는 이름이 붙기 전에 정한 값</strong>으로 재미있고 기억하...<p></p></li></ul>",
-    "createdAt": "2026-09-23T00:10:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34148",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인자를 둘러싼 논쟁",
-    "content": "<ul>\n<li><strong>코딩 에이전트</strong>가 코드를 작성하면서, Steve Klabnik의 Rust 이름 있는 매개변수 도입에 대한 오랜 반대가 조건부 수용으로 바뀜. 직접 입력하는 부담은 줄고 호출부의 명확성은 여전히 가치가 있음</li>\n<li><strong>이름 있는 인자</strong>는 같은 타입의 값 여러 개를 전달할 때 각 값의 역...<p></p></li></ul>",
-    "createdAt": "2026-09-23T00:07:46.000+00:00",
-    "link": "https://news.hada.io/topic?id=34147",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "This Week In React #298: Astro, Redux, img, Hotkeys, R3F, Next.js, AI, Redact | Reanimated, Worklets, Helix, Screens, SecondaryRuntime, Arrangement View, View Shot | TC39, Node, pnpm, Turborepo, jsdom, responsive iframes",
     "content": "<p>Hi everyone, <a href=\"https://x.com/sebastienlorber\" target=\"_blank\" rel=\"noopener noreferrer\">Seb</a> and <a href=\"https://x.com/jaworek3211\" target=\"_blank\" rel=\"noopener noreferrer\">Jan</a> here 👋!</p>\n<p>This week is rather quiet on the web side. Astro's React integration keeps ramping up. Redux is working on significant performance improvements for large apps.</p>\n<p>On mobile, we still have a steady flow of interesting releases. Reanimated enabled its new layout engine by default. Shopify presented Helix, its internal tool to move away from RN. Xcode project format is finally moving to JSON!</p>\n<p>We asked on 𝕏: <a href=\"https://x.com/sebastienlorber/status/2101990551457263880\" target=\"_blank\" rel=\"noopener noreferrer\">do average devs still care about React?</a> <br>\nThanks to everyone who answered our existential question! <br>\nIf fewer devs care about implementation details and React, <strong>what's the future of this newsletter</strong>? 🤷‍♂️ <br>\nReply by email and tell us how we can best serve you in this new AI-driven world.</p>\n<p>Let's dive in!</p>\n\n<p>As always, thanks for supporting us on your favorite platform:</p>\n<ul>\n<li>🦋 <a href=\"https://slo.im/last/b\" target=\"_blank\" rel=\"noopener noreferrer\">Bluesky</a></li>\n<li>✖️ <a href=\"https://slo.im/last/x\" target=\"_blank\" rel=\"noopener noreferrer\">X / Twitter</a></li>\n<li>👔 <a href=\"https://slo.im/last/l\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></li>\n<li>👽 <a href=\"https://slo.im/last/r\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a></li>\n</ul>\n<div><p><strong>Don't miss the next email!</strong></p><div>\n\n      <div data-style=\"clean\"><ul data-element=\"errors\" data-group=\"alert\"></ul><div data-element=\"fields\" data-stacked=\"false\"><div><input name=\"email_address\" aria-label=\"Email Address\" placeholder=\"Email Address\" required=\"\"></div><button data-element=\"submit\"><div><div></div><div></div><div></div></div><span>Subscribe now!</span></button></div></div>\n</div><div><div><figure><blockquote><a href=\"https://www.youtube.com/clip/UgkxDdNASo6xNS710ODcjMx0WW4HtTxIYbrA\" target=\"_blank\" rel=\"noopener noreferrer\">One of the few things I regularly read to keep up with the React world.</a></blockquote><figcaption><a href=\"https://twitter.com/theo\" target=\"_blank\" rel=\"noopener noreferrer\"><div><img alt=\"Theo Browne\" src=\"https://unavatar.io/twitter/theo?fallback=https://github.com/t3dotgg.png\"><div><strong><cite>Theo Browne</cite></strong><small>Founder of ping.gg - Youtuber</small></div></div></a></figcaption></figure></div></div></div>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"sponsor1\">💸 Sponsor<a href=\"https://thisweekinreact.com/newsletter/298#sponsor1\" aria-label=\"Direct link to 💸 Sponsor\" title=\"Direct link to 💸 Sponsor\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<p><a href=\"https://planetscale.com/?utm_source=this_week_in_react&amp;utm_medium=email&amp;utm_campaign=2026_q3_this_week_in_react&amp;utm_content=slot_1\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://thisweekinreact.com/emails/issues/298/planetscale.jpg\" alt=\"PlanetScale: The database that gets faster as you sleep\"></a></p>\n<p><strong><a href=\"https://planetscale.com/?utm_source=this_week_in_react&amp;utm_medium=email&amp;utm_campaign=2026_q3_this_week_in_react&amp;utm_content=slot_1\" target=\"_blank\" rel=\"noopener noreferrer\">PlanetScale: The database that gets faster as you sleep</a></strong></p>\n<p>Agents ship React features faster than ever. They also ship unindexed queries, N+1s, and schema decisions made at 2am by a model that will never get paged.</p>\n<p>Fortunately, agents can <em>fix</em> database problems too. They just need production data, and that's what the PlanetScale MCP server gives them. Hook up an agent, and the loop looks like this:</p>\n<ul>\n<li>PlanetScale flags a slow query</li>\n<li>The agent traces it back to the code in your repo</li>\n<li>The agent opens a PR with the fix</li>\n<li>You review and merge</li>\n</ul>\n<p>Run it once, or put it on a schedule.</p>\n<p>Underneath it all: the fastest, most scalable cloud Postgres and MySQL, with options like PlanetScale Metal when you need peak performance. Fast databases, fast React apps.</p>\n<p><a href=\"https://planetscale.com/docs/connect/self-improving-database/?utm_source=this_week_in_react&amp;utm_medium=email&amp;utm_campaign=2026_q3_this_week_in_react&amp;utm_content=slot_1\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Try the self-improving database</strong></a></p>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"react\">⚛️ React<a href=\"https://thisweekinreact.com/newsletter/298#react\" aria-label=\"Direct link to ⚛️ React\" title=\"Direct link to ⚛️ React\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<ul>\n<li>👀 <a href=\"https://react.dev/reference/react-dom/components/img\" target=\"_blank\" rel=\"noopener noreferrer\">React docs - New <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><img></code> API ref page</a> - The humble image component does more than just displaying images. It also generates preload hints during SSR by default, and integrates nicely with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> animations.</li>\n<li>👀 <a href=\"https://github.com/react/react/pull/37636\" target=\"_blank\" rel=\"noopener noreferrer\">React Flight PR - Server References for arbitrary object types</a> - Experimental Flight protocol feature, enabling Server References to point to an object and not just a function.</li>\n<li>🔐 <a href=\"https://nextjs.org/blog/nextjs-security-update-september-22-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Next.js 16.3.6 - Security Update</a> - Fixing a critical remote code execution vulnerability for those using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ImageResponse</code> with the Node runtime with dynamic user-controlled SVG inputs.</li>\n<li>🗓️&nbsp;<a href=\"https://reactadvanced.com/?utm_source=thisweekinreact\" target=\"_blank\" rel=\"noopener noreferrer\">React Advanced London</a>&nbsp;-&nbsp;🇬🇧&nbsp;London - 23 &amp; 26 Oct.&nbsp;Last call for London's most in-depth React conference! Two days, 50+ advanced sessions, next to Big Ben. Don't miss it—get 10% off with code \"TWIR.</li>\n<li>📜 <a href=\"https://brookslybrand.com/posts/do-frameworks-matter-anymore/\" target=\"_blank\" rel=\"noopener noreferrer\">Do Frameworks Matter Anymore?</a> - If LLMs are great at React but nobody reads the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.tsx</code> files anymore, why even use an abstraction? Will the industry stick with React forever, or is there room for platform primitives (Web Components) and new ideas (Remix 3)? Kinda related to my existential crisis. 😆</li>\n<li>📜 <a href=\"https://hackernoon.com/react-activity-when-a-render-no-longer-guarantees-an-effect\" target=\"_blank\" rel=\"noopener noreferrer\">React Activity: When A Render No Longer Guarantees an Effect</a> - Blindly replacing conditional rendering with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> can expose subtle bugs in legacy code relying on the render/Effect/cleanup sequence.</li>\n<li>📜 <a href=\"https://tj-zhang.com/blog/frontend-for-systems-engineers/\" target=\"_blank\" rel=\"noopener noreferrer\">Frontend for systems engineers</a> - Explains React through familiar systems concepts</li>\n<li>📦 <a href=\"https://docs.astro.build/en/guides/integrations-guide/react/#upgrading-the-react-integration-to-v700\" target=\"_blank\" rel=\"noopener noreferrer\">Astro React 7.0 - Replaces Babel with Oxc, upgrades to Vite Plugin React v6</a> - It now has opt-in support for the React Compiler through Oxc experimental support.</li>\n<li>📦 <a href=\"https://github.com/reduxjs/react-redux/releases/tag/v9.4.0-alpha.0\" target=\"_blank\" rel=\"noopener noreferrer\">React Redux 9.4 alpha - <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">useSignalSelector()</code> hook, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> component, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">react-redux/signals</code> entrypoint</a> - Drop-in optimization for large apps with thousands of connected components. Opt-in, but +7kB gzip. A proxy tracks selector state access, so only affected selectors re-run on dispatch.</li>\n<li>📦 <a href=\"http://releases/\" target=\"_blank\" rel=\"noopener noreferrer\">Redact 0.1 - Add React 19.3 APIs, improve runtime compatibility, keep sync rendering contract</a>- TanStack's lightweight, synchronous reimplementation of React is now on GitHub and ships its first minor.</li>\n<li>📦 <a href=\"https://github.com/pmndrs/react-three-fiber/releases/tag/v9.8.0\" target=\"_blank\" rel=\"noopener noreferrer\">React Three Fiber 9.8 - Support for React 19.3, roots configured synchronously, Strict Mode fixed</a> - For 3D enthusiasts, Poimandres also released <a href=\"https://github.com/pmndrs/glyph\" target=\"_blank\" rel=\"noopener noreferrer\">Glyph</a>, a GPU-first typography engine with R3F bindings.</li>\n<li>📦 <a href=\"https://github.com/TanStack/hotkeys/releases/tag/%40tanstack%2Freact-hotkeys%400.11.0\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack React Hotkeys 0.11 - Improved physical key support, recorder validation, conflict detection, cross-layout fixes</a></li>\n<li>📦 <a href=\"https://www.react-simple-maps.io/\" target=\"_blank\" rel=\"noopener noreferrer\">React Simple Maps 5.0 - Composable SVG map charts for data visualization in React</a></li>\n<li>📦 <a href=\"https://bsky.app/profile/bvaughn.me/post/3mvxpohs3vs2n\" target=\"_blank\" rel=\"noopener noreferrer\">React Resizable Panels 4.13 - Deferred panel resizing, panel expand/collapse threshold</a></li>\n<li>📦 <a href=\"https://github.com/BetterTyped/react-zoom-pan-pinch/releases/tag/v4.2.0\" target=\"_blank\" rel=\"noopener noreferrer\">react-zoom-pan-pinch 4.2 - Zooming, panning, pinching images and html elements, the easy way</a></li>\n</ul>\n<div><p><strong>Don't miss the next email!</strong></p><div>\n\n      <div data-style=\"clean\"><ul data-element=\"errors\" data-group=\"alert\"></ul><div data-element=\"fields\" data-stacked=\"false\"><div><input name=\"email_address\" aria-label=\"Email Address\" placeholder=\"Email Address\" required=\"\"></div><button data-element=\"submit\"><div><div></div><div></div><div></div></div><span>Subscribe now!</span></button></div></div>\n</div><div><div><figure><blockquote><a href=\"https://twitter.com/jherr/status/1666578571912171520\" target=\"_blank\" rel=\"noopener noreferrer\">People always ask how I keep up to date, it's This Week In React.</a></blockquote><figcaption><a href=\"https://twitter.com/jherr\" target=\"_blank\" rel=\"noopener noreferrer\"><div><img alt=\"Jack Herrington\" src=\"https://unavatar.io/twitter/jherr?fallback=https://github.com/jherr.png\"><div><strong><cite>Jack Herrington</cite></strong><small>Principal Engineer - Youtuber</small></div></div></a></figcaption></figure></div></div></div>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"sponsor2\">💸 Sponsor<a href=\"https://thisweekinreact.com/newsletter/298#sponsor2\" aria-label=\"Direct link to 💸 Sponsor\" title=\"Direct link to 💸 Sponsor\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<p><a href=\"https://revopush.org/react-native-ota-payloads-binary-diffs?utm_source=this_week_in_react\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://thisweekinreact.com/emails/issues/297/revopush.jpg\" alt=\"Your first React Native OTA can be a diff\"></a></p>\n<p><strong><a href=\"https://revopush.org/react-native-ota-payloads-binary-diffs?utm_source=this_week_in_react\" target=\"_blank\" rel=\"noopener noreferrer\">Your first React Native OTA can be a diff</a></strong></p>\n<p><a href=\"https://revopush.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Revopush OTA</a> reuses the hermes bundle and assets already in your IPA and APK.</p>\n<p>Even the first OTA after a native release can contain only the changes.</p>\n<p>In one production release, an 18 Mb full package became <strong>100 to 500 Kb</strong> patches.</p>\n<p>After the switch, the team released more often. Update downloads increased, yet egress fell 💰.</p>\n<ul>\n<li>SDK compatible with React Native and Expo</li>\n<li>Binary diff updates from the first OTA release</li>\n<li>Enterprise-grade security, with SOC 2 Type II</li>\n<li>Advanced release analytics</li>\n</ul>\n<p><a href=\"https://revopush.org/react-native-ota-payloads-binary-diffs?utm_source=this_week_in_react\" target=\"_blank\" rel=\"noopener noreferrer\">See the production results</a></p>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"react-native\">📱 React-Native<a href=\"https://thisweekinreact.com/newsletter/298#react-native\" aria-label=\"Direct link to 📱 React-Native\" title=\"Direct link to 📱 React-Native\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<ul>\n<li>💸 <a href=\"https://go.posthog.com/twir-sept23\" target=\"_blank\" rel=\"noopener noreferrer\">build mode - How much can you delegate to agents?</a></li>\n<li>👀 <a href=\"https://github.com/react-native-community/discussions-and-proposals/pull/1023\" target=\"_blank\" rel=\"noopener noreferrer\">React Native RFC - Secondary JavaScript runtimes in React Native</a> - Worklet maintainer requesting a first-class C++ API to create secondary Hermes runtimes. This should help make the integration with libraries such as Reanimated/Worklets more robust, address debugging/inspector/HMR pain points, and more.</li>\n<li>📜 <a href=\"https://shopify.engineering/helix\" target=\"_blank\" rel=\"noopener noreferrer\">Shopify Helix - The internal tool powering our native migration</a> - Agents are powerful, but getting consistent results is difficult. Their solution needed tooling and guardrails.</li>\n<li>📜 <a href=\"https://lynxjs.org/next/blog/reactlynx-instant-first-frame-rendering\" target=\"_blank\" rel=\"noopener noreferrer\">Deep Dive into ReactLynx: From Background Rendering to Instant First-Frame Rendering</a> - Start of the series to answer how Lynx runs React on two threads, enables IFR and Main Thread Script.</li>\n<li>📜 <a href=\"https://andrei-calazans.com/posts/2026-09-19-the-kmp-ios-scaling-problem-rust-uniffi-fixes/\" target=\"_blank\" rel=\"noopener noreferrer\">The KMP-on-iOS Scaling Problem That Rust UniFFI Fixes</a> - A follow-up to last week’s KMP post and its challenge of scaling on iOS and how Rust's UniFFI fixes it.</li>\n<li>📜 <a href=\"https://x.com/ryanlanciaux/status/2098434962915573971\" target=\"_blank\" rel=\"noopener noreferrer\">React Native in an Industry That's Changing</a> - A look into how working with agents changes the decision process on where to draw the line between native and cross-platform.</li>\n<li>📜 <a href=\"https://andrei-calazans.com/posts/2026-09-18-shared-business-logic-in-rust/\" target=\"_blank\" rel=\"noopener noreferrer\">What Does Shared Business Logic in Rust Look Like on iOS &amp; Android?</a></li>\n<li>📜 <a href=\"https://www.callstack.com/blog/exploring-jev-for-mobile-qa-with-agent-device\" target=\"_blank\" rel=\"noopener noreferrer\">Exploring Jev for AI-Driven QA with agent-device</a></li>\n<li>💸 <a href=\"https://patch.codemagic.io/?utm_source=newsletter&amp;utm_medium=referral&amp;utm_campaign=twir\" target=\"_blank\" rel=\"noopener noreferrer\">Codemagic Patch - Self-hosted OTA updates, complete with fingerprinting, release metrics and online dashboard</a></li>\n<li>📦 <a href=\"https://developer.apple.com/documentation/xcode/updating-your-xcode-project-configuration-file-format\" target=\"_blank\" rel=\"noopener noreferrer\">Xcode 27.2 beta - JSON project format <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.xcproj</code></a> - A new JSON format that’s more human-readable, editable by coding agents, and merge-friendly. Already the default for new projects.</li>\n<li>📦 <a href=\"https://swmansion.com/changelog/reanimated-4-7-0/\" target=\"_blank\" rel=\"noopener noreferrer\">Reanimated 4.7 - New layout animations engine by default, animated <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">backgroundImage</code>, more Android CSS transitions</a></li>\n<li>📦 <a href=\"https://swmansion.com/changelog/worklets-0-13-0/\" target=\"_blank\" rel=\"noopener noreferrer\">Worklets 0.13 - Networking module for Bundle Mode runtimes, OXC Babel plugin port, SPM support</a></li>\n<li>📦 <a href=\"https://swmansion.com/changelog/react-native-screens-5-0-0-alpha-3/\" target=\"_blank\" rel=\"noopener noreferrer\">Screens 5.0 alpha 3 - Stack v5 header customization on Android and iOS, FormSheet stacking, SPM support</a></li>\n<li>📦 <a href=\"https://github.com/rbayuokt/expo-infinite-media\" target=\"_blank\" rel=\"noopener noreferrer\">Expo Infinite Media - Native paged media feed, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">AVFoundation</code> on iOS, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Media3</code> on Android</a></li>\n<li>📦 <a href=\"https://github.com/AmatoGiulio/react-native-numeric-text\" target=\"_blank\" rel=\"noopener noreferrer\">Numeric Text - SwiftUI's <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">numericText</code> on iOS, frame-measured native renderer on Android</a></li>\n<li>📦 <a href=\"https://github.com/adnxy/react-native-secure-webview\" target=\"_blank\" rel=\"noopener noreferrer\">Secure Webview - Explicit origin allowlists. Native navigation enforcement. Blocked redirects. Deep-link protection. Fail-closed by default.</a> - Built for security-critical flows like payments, OAuth, authentication, and 3-D Secure.</li>\n<li>📦 <a href=\"https://github.com/DorianMazur/react-native-screen-choreography/releases/tag/v0.6.0\" target=\"_blank\" rel=\"noopener noreferrer\">Screen Choreography 0.6 - Declarative Enter/Exit reveals, duration-based springs, interactive gesture lifecycle</a></li>\n<li>📦 <a href=\"https://github.com/gre/react-native-view-shot/releases/tag/v6.0.0\" target=\"_blank\" rel=\"noopener noreferrer\">View Shot 6.0 - RN 0.80+ required, 0.87 Strict TypeScript API support, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">html2canvas-pro</code> optional on web</a></li>\n<li>📦 <a href=\"https://github.com/margelo/react-native-nitro-sqlite/releases/tag/v9.8.0\" target=\"_blank\" rel=\"noopener noreferrer\">Nitro SQLite 9.8 - iOS Application Support storage, performance mode, thread safety</a></li>\n<li>📦 <a href=\"https://github.com/getsentry/sentry-react-native/releases/tag/8.27.0\" target=\"_blank\" rel=\"noopener noreferrer\">Sentry 8.27 - Session Replay runtime controls, per-class masking, iOS hang workaround</a></li>\n<li>📦 <a href=\"https://github.com/mdjastrzebski/test-renderer/releases/tag/v1.3.0\" target=\"_blank\" rel=\"noopener noreferrer\">Test Renderer 1.3 - React 19.3 support</a></li>\n<li>📦 <a href=\"https://github.com/LegendApp/legend-list/releases/tag/v3.4.0\" target=\"_blank\" rel=\"noopener noreferrer\">Legend List 3.4 - Scroll readiness callback, end-following fixes, direction-aware row preparation</a></li>\n<li>📦 <a href=\"https://github.com/thiagobrez/react-native-arrangement-view\" target=\"_blank\" rel=\"noopener noreferrer\">Arrangement View 0.1 - Adaptive split/overlay panes and hinge observation for foldables, early iPhone Duo support, Android coming soon</a></li>\n<li>📦 <a href=\"https://github.com/ifeoluwak/react-native-skia-layout\" target=\"_blank\" rel=\"noopener noreferrer\">Skia Layout - Flexbox layouts for React Native Skia powered by Yoga</a></li>\n<li>📦 <a href=\"https://pulsar.swmansion.com/studio\" target=\"_blank\" rel=\"noopener noreferrer\">Pulsar Studio - Visual editor for custom haptic patterns, timeline design, audio and Lottie generation</a></li>\n<li>📦 <a href=\"https://github.com/software-mansion/enriched-markdown/blob/main/packages/enriched-markdown-ios/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">Enriched Markdown iOS 0.3 - LaTeX math, spoilers, highlights, GitHub alerts, better VoiceOver</a></li>\n<li>📦 <a href=\"https://github.com/callstack/agent-device/releases/tag/v0.21.12\" target=\"_blank\" rel=\"noopener noreferrer\">Agent Device 0.21.12 - Foldable simulator posing, recording contact sheets, Maestro permissions</a></li>\n<li>📦 <a href=\"https://github.com/delacournz/delacour-ui\" target=\"_blank\" rel=\"noopener noreferrer\">Delacour UI - shadcn-style component kit for RN: Uniwind styling, Reanimated interaction, Pulsar haptics</a></li>\n<li>🤖 <a href=\"https://apex.callstack.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Apex - Callstack's React Native coding model</a> - Based on Gemma 4, fine-tuned with SFT + GRPO on curated RN ecosystem data. Will be launched soon.</li>\n<li>🎥 <a href=\"https://www.youtube.com/watch?v=mK6QKSyPCvk\" target=\"_blank\" rel=\"noopener noreferrer\">Beto - What's new in Expo SDK 58</a></li>\n<li>🎥 <a href=\"https://www.youtube.com/watch?v=MUFlnOXi-o4\" target=\"_blank\" rel=\"noopener noreferrer\">Expo - Introduction to agentic self-healing apps</a></li>\n</ul>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"other\">🔀 Other<a href=\"https://thisweekinreact.com/newsletter/298#other\" aria-label=\"Direct link to 🔀 Other\" title=\"Direct link to 🔀 Other\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<ul>\n<li>👀 <a href=\"https://github.com/tc39/agendas/blob/main/2026/09.md\" target=\"_blank\" rel=\"noopener noreferrer\">TC39 - Agenda for the 116th meeting</a> - Happening next Tuesday. Many Iterator proposals will likely progress to stage 4. I’m particularly excited to see if Composites will progress to stage 2!</li>\n<li>📦 <a href=\"https://www.bram.us/2026/09/23/responsive-iframes/\" target=\"_blank\" rel=\"noopener noreferrer\">Chrome 154 - Responsive iframe resizing</a> - Iframes can now resize themselves based on the size of their embedded document 🤯. Haven't all widget/extension authors dreamed of this for years, as an alternative to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">postMessage()</code>?</li>\n<li>📦 <a href=\"https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/\" target=\"_blank\" rel=\"noopener noreferrer\">Edge 151-153</a> - My favorite newly-supported features are WebMCP (origin trial) and OpaqueRange to highlight in inputs/textarea (see my <a href=\"https://x.com/sebastienlorber/status/2099883816718323949\" target=\"_blank\" rel=\"noopener noreferrer\">syntax-highlighted textarea demo</a>).</li>\n<li>📦 <a href=\"https://pnpm.io/blog/releases/12.6\" target=\"_blank\" rel=\"noopener noreferrer\">pnpm 12.6 - Automatic dedupe, automatic type installation, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">file:/link</code> catalogs, and more</a> - You may not need to run <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pnpm dedupe</code> as part of your CI anymore! And wtf we had to figure out manually whether a lib has bundled types or is using DefinitelyTyped? Not anymore!</li>\n<li>📦 <a href=\"https://turborepo.dev/blog/2-11\" target=\"_blank\" rel=\"noopener noreferrer\">Turborepo 2.11 - Native support for Rust/Python/Go, faster startup, nub/aube support</a> - It’s interesting to see that both Turborepo and pnpm have become polyglot tools lately. Maybe the start of a new trend that AI now enables?</li>\n<li>📦 <a href=\"https://nodejs.org/en/blog\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js 26.9- &amp; 26.10 - Web Workers support, VFS improvements, enable <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ffi</code>, add <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bench</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">debounce/throttle</code></a> - Native support for throttle/debounce surprised me, RIP Lodash 😄</li>\n<li>📦 <a href=\"https://github.com/jsdom/jsdom/releases/tag/v30.1.0\" target=\"_blank\" rel=\"noopener noreferrer\">jsdom 30.1 - Major performance, memory, and correctness improvements</a></li>\n<li>📦 <a href=\"https://rstest.rs/blog/announcing-0-12\" target=\"_blank\" rel=\"noopener noreferrer\">Rstest 0.12 - Playwright E2E testing, Module Federation testing, faster jsdom tests, new JS API</a></li>\n<li>📦 <a href=\"https://github.com/trpc/trpc/releases/tag/v11.19.0\" target=\"_blank\" rel=\"noopener noreferrer\">tRPC 11.19 - Better request cancellation, TanStack Query <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">skipToken</code> fix</a></li>\n<li>📦 <a href=\"https://eslint.org/blog/2026/09/eslint-v10.11.0-released/\" target=\"_blank\" rel=\"noopener noreferrer\">ESLint 10.11 - Perf improvements: 20-25% faster initialization, faster rule execution</a></li>\n</ul>\n<div role=\"separator\"><img src=\"https://thisweekinreact.com/emails/separators/christmas.png\"></div>\n<h2 id=\"fun\">🤭 Fun<a href=\"https://thisweekinreact.com/newsletter/298#fun\" aria-label=\"Direct link to 🤭 Fun\" title=\"Direct link to 🤭 Fun\" target=\"_blank\" rel=\"noopener noreferrer\">​</a></h2>\n<p><a href=\"https://x.com/markjaquith/status/2101341256743813558\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://thisweekinreact.com/emails/issues/298/meme.jpg\" alt=\"alt\"></a></p>\n<p>See ya! 👋</p>",
     "createdAt": "2026-09-23T00:00:00.000+00:00",
@@ -528,28 +605,6 @@
     }
   },
   {
-    "title": "수학과 인공지능 자문그룹",
-    "content": "<ul>\n<li>AI 기업과 수학계의 소통, 수학 연구 결과의 <strong>책임 있는 발표와 공개</strong>를 자문하는 독립 그룹이 프린스턴의 Institute for Advanced Study를 거점으로 출범함</li>\n<li>현재는 <strong>OpenAI</strong>가 내부 모델로 산출했다고 밝힌 다수의 중요한 수학 연구 결과를 어떻게 조율해 공개할지 자...<p></p></li></ul>",
-    "createdAt": "2026-09-22T23:33:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=34144",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "“우리가 FBI를 해킹했다”, 해커 그룹이 FBI 전체 직원의 정보 탈취 주장",
-    "content": "<ul>\n<li>해킹 그룹 <strong>ShinyHunters</strong>가 여러 FBI 관련 서비스에 침입해 모든 직원과 지원자의 데이터를 훔쳤다고 주장함. 요원의 이름, 집 주소, 전화번호, 배우자 정보가 포함됐다고 밝힘</li>\n<li>404 Media가 확보한 <strong>직원 5,000명 규모의 샘플</strong>에서 일부 이름과 전화번호가 일치하고 미...<p></p></li></ul>",
-    "createdAt": "2026-09-22T22:33:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=34143",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Brighter Than White",
     "content": "<p>If you’ve got an HDR display, and use Chrome 137+ or Safari 26+ (even on iOS), perhaps you’ve seen images sometimes with colors that are so bright they seem to dim the rest of the screen. I find it a bit distracting, but I can see how it could be a fun technological gimick sometimes. The site <a href=\"https://www.soverybright.com/\" target=\"_blank\" rel=\"noopener noreferrer\">soverybright.com</a> helps you do it. <a href=\"https://codepen.io/editor/chriscoyier/pen/01a0cb0d-3c64-7f45-8699-725707b5bb8b\" target=\"_blank\" rel=\"noopener noreferrer\">It works!</a> </p>\n\n\n\n<blockquote>\n<p>For the web we add an ISO 21496-1 gain map — a second, tiny grayscale image that tells HDR-aware software how much brighter each pixel may go.</p>\n</blockquote>\n\n\n\n<p>You can make it work with text by using the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">background-clip: text</code> thing that everyone uses for gradient text.</p>\n",
     "createdAt": "2026-09-22T21:43:13.000+00:00",
@@ -558,61 +613,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "Claude Opus 5.5, 추론 설정별 성능과 비용 비교",
-    "content": "<ul>\n<li>AAII에서 <strong>최대 추론 설정의 Opus 5.5 max는 지능 지수 58점</strong>을 기록했으며, 이전 Opus 5의 최고점 51점과 Fable 5.1의 53점을 넘어섬</li>\n<li>추론 강도에 따라 <strong>medium 51점, high 54점, xhigh 56점, max 58점</strong>으로 성능이 올라가지만, 평가 과제당 비용도 함께 증가함</li>\n...<p></p></ul>",
-    "createdAt": "2026-09-22T21:35:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=34142",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "2027년 GrapheneOS가 사전 설치된 기기가 판매될 가능성이 높음",
-    "content": "<ul>\n<li><strong>Motorola Mobility(Lenovo)</strong> 가 GrapheneOS와 공식 파트너십을 맺고, 향후 출시할 일부 기기에 GrapheneOS를 지원하기 위해 협력 중임</li>\n<li>첫 <strong>GrapheneOS 지원 기기</strong>는 2027년 출시할 고급 플래그십으로 예정돼 있음</li>\n<li>지원 대상은 다른 기기로도 확대할 계획이며...<p></p></li></ul>",
-    "createdAt": "2026-09-22T20:41:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=34141",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미 국방부 조사, AI 과잉 의존이 이란 학교 미사일 공격에 일조",
-    "content": "<ul>\n<li>미 국방부 내부 조사 관계자들에 따르면, <strong>부실한 정보와 오래된 위성영상, AI 과잉 의존</strong>이 겹치면서 이란 Minab의 초등학교를 군사시설로 오인해 공격했으며, 어린이 최소 123명을 포함해 150명 넘게 사망함</li>\n<li>학교 부지는 과거 군사시설이었지만 용도 변경 흔적이 거의 10년 전부터 존...<p></p></li></ul>",
-    "createdAt": "2026-09-22T20:38:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=34140",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI가 Jev의 밥그릇을 빼앗을까?",
-    "content": "<ul>\n<li><strong>문장 대신 선택지별 확률과 판단을 반환하는 Jev</strong>가 인기를 얻고 있지만, OpenAI도 이미 도구 선택과 응답 종료 등에 토큰 확률을 활용하고 있어 비슷한 제품을 만들 기반을 갖추고 있음</li>\n<li>더 큰 경쟁은 독립적인 분류 API를 복제하는 것이 아니라, <strong>빠른 판단 기능을 LLM 내부에...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-22T18:42:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=34139",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT-6 Sol과 Luna 출시",
-    "content": "<ul>\n<li><strong>GPT-6 Astra의 코딩, 전문 업무, 컴퓨터 사용 능력을 더 빠르고 저렴한 모델로 확장</strong>하며, 사실 정확성과 사용자 지시를 따르는 능력도 개선함</li>\n<li>API 가격은 이전 GPT-5.6 프로모션 가격보다 <strong>절반 수준으로 낮아짐</strong>. 100만 토큰당 입력/출력 가격은 Sol이 <strong>2달러...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-22T18:39:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=34138",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
