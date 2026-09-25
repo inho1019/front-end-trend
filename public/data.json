@@ -1,7 +1,117 @@
 [
   {
-    "title": "예산별 최고의 LLM, 매일 업데이트",
-    "content": "<ul>\n<li><strong>Artificial Analysis Intelligence Index</strong> 점수와 API 가격을 비교해, 더 저렴하면서 성능이 같거나 높은 대안이 없는 모델을 <strong>가성비 경계선(value frontier)</strong> 으로 추림</li>\n<li>비용은 <strong>입력:출력 토큰 3:1</strong> 비율의 100만 토큰당 혼합 가격으로 비교하며, 캐...<p></p></li></ul>",
+    "title": "캘리포니아는 발 달린 부를 쫓고 있다",
+    "content": "<ul>\n<li>캘리포니아가 연간 200억 달러 확보를 목표로 <strong>억만장자 부유세안</strong>을 11월 주민투표에 부치지만, 이미 떠난 부유층 때문에 예상 세수를 확보하기 어렵다는 비판을 받음</li>\n<li>Center for Land Economics가 추산한 캘리포니아의 <strong>토지 가치 8조 1,400억 달러</strong>는 현실적으로 과...<p></p></li></ul>",
+    "createdAt": "2026-09-25T03:34:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=34252",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "깡통 AI들 때문에 두 번째 뇌를 만들게 됐다",
+    "content": "<ul>\n<li>Claude에 잊어버린 명령어 문법을 물었다가 <strong>존재하지 않는 옵션</strong>을 답하는 일을 겪으며, 이미 배운 지식을 직접 보관하는 <strong>개인 지식 관리(PKM)</strong> 시스템을 만들기로 함</li>\n<li>직접 노트를 쓰면 나중에 자신에게 맞는 답과 설명을 찾을 수 있고, 정보를 정리하는 과정에서 </li></ul>",
+    "createdAt": "2026-09-25T03:03:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=34251",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google Play와 결별하기: Conversations가 이제 무료인 이유",
+    "content": "<ul>\n<li>Android용 연합형 메신저 <strong>Conversations</strong>가 Google Play 매출에 대한 경제적 의존에서 벗어나 무료 배포 중심으로 전환함</li>\n<li>반복적인 업데이트 거절과 앱 삭제, 사람과 직접 소통하기 어려운 지원 체계가 결별의 배경이며, <strong>보안 업데이트도 심사 지연</strong>을 피할 수 없다는...<p></p></li></ul>",
+    "createdAt": "2026-09-25T02:02:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=34250",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "‘멜의 이야기(Story of Mel)’ 해부하기",
+    "content": "<ul>\n<li>초기 프로그래밍 일화 ‘<strong>Story of Mel</strong>’의 핵심 트릭을 RPC-4000 명령어 체계와 대조하면, 주소 오버플로로 명령을 바꾸는 방식은 가능하지만 일부 기술적 설명은 맞지 않음</li>\n<li><strong>Index 비트</strong>는 일화의 설명과 달리 주소와 연산 코드 사이가 아니라 명령어의 최하위 비트...<p></p></li></ul>",
+    "createdAt": "2026-09-25T01:40:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=34249",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Archify - 코드와 설명을 탐색 가능한 시스템 다이어그램으로 만드는 에이전트 스킬",
+    "content": "<ul>\n<li>코드베이스를 분석하거나 시스템을 말로 설명하면, <strong>구성 요소와 연결 관계를 직접 탐색할 수 있는 다이어그램</strong>을 생성</li>\n<li>Cursor/Claude Code/Codex CLI/OpenCode에서 사용하며, 저장소 없이 자연어 설명만으로도 시작 가능</li>\n<li><strong>아키텍처/워크플로/시퀀스/데이터 흐름/생명...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-25T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34248",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Mel의 이야기 (1983)",
+    "content": "<ul>\n<li>컴파일러도 어셈블리어도 마다하고 <strong>16진수 기계어를 직접 작성하던 프로그래머 멜</strong>과, 그가 남긴 블랙잭 프로그램을 고치려던 동료의 이야기</li>\n<li>회전하는 드럼 메모리의 타이밍까지 계산해 명령어를 배치했으며, <strong>직접 최적화한 코드는 최적화 어셈블러보다 빨랐음</strong></li>...<p></p></ul>",
+    "createdAt": "2026-09-25T00:01:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=34247",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Toyota, Corolla 전기차 출시 준비",
+    "content": "<ul>\n<li>1966년 출시 이후 <strong>전 세계에서 5,700만 대 이상 팔린 코롤라</strong>에 처음으로 <strong>순수 전기차와 플러그인 하이브리드 모델을 추가</strong>할 예정</li>\n<li>기존 가솔린과 하이브리드도 유지하며, <strong>하나의 플랫폼에서 여러 동력원을 지원</strong>하도록 차체 기반을 개편하고 외관과...<p></p></li></ul>",
+    "createdAt": "2026-09-24T23:33:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=34246",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Whiteboard - AI가 만든 코드를 이해하고 검토하는 오픈소스 캔버스",
+    "content": "<ul>\n<li>Claude Code와 Codex가 만든 코드의 <strong>구조와 변경 이유를 그림으로 살펴보는</strong> 데스크톱 앱으로, 기존 코딩 에이전트에 연결해 사용</li>\n<li>에이전트가 캔버스에 시퀀스 다이어그램과 데이터 관계 등을 그리며, <strong>그림에서 관련 코드로 바로 이동</strong>해 설명과 실제 구현을 함께 확...<p></p></li></ul>",
+    "createdAt": "2026-09-24T22:42:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=34245",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "간은 왜 유독 재생 능력이 뛰어날까?",
+    "content": "<ul>\n<li>신체의 낮은 재생 능력은 단순한 결함이 아니라 <strong>암 위험을 억제하는 대가</strong>일 수 있음. 다만 이는 여러 예외와 제약이 있는 추측적 생물학 통합 가설임</li>\n<li><strong>간</strong>은 장에서 들어오는 독소와 병원체에 먼저 노출되고 해독 과정에서도 손상되므로, 암 위험을 감수하더라도 강한...<p></p></li></ul>",
+    "createdAt": "2026-09-24T22:39:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=34244",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DHH의 Rails World 2026 개막 기조연설 [영상]",
+    "content": "<ul>\n<li>DHH는 <strong>AI 에이전트가 코드 작성의 경제성을 바꾸고 있다</strong>며, 개발자의 역할이 코드를 직접 쓰는 일에서 원하는 결과를 정의하고 만드는 일로 이동한다고 봄</li>\n<li><strong>37signals는 사람이 직접 코드를 쓰는 일을 예외로 취급</strong>하기 시작했으며, 에이전트가 원하는 결과를 내지 못...<p></p></li></ul>",
+    "createdAt": "2026-09-24T21:37:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=34243",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "API 가격대별 최고의 LLM 알아보기",
+    "content": "<ul>\n<li>여러 LLM의 <strong>성능과 API 가격을 한눈에 비교</strong>하고, 지불하려는 가격대에서 가장 높은 점수를 받은 모델을 찾는 웹사이트</li>\n<li>Artificial Analysis의 평가 데이터를 사용하며, <strong>종합 지능, 코딩, 수학</strong> 중 비교할 능력을 선택할 수 있음</li>\n<li>더 저렴하면서 성능도 같거...<p></p></li></ul>",
     "createdAt": "2026-09-24T20:38:33.000+00:00",
     "link": "https://news.hada.io/topic?id=34242",
     "author": "neo",
@@ -22,8 +132,8 @@
     }
   },
   {
-    "title": "대조 언어 모델",
-    "content": "<ul>\n<li><strong>Contrastive Language Models(CLM)</strong> 는 상태와 행동을 대조 학습으로 연결하는 시스템 1 모델로, 현재 상태와 후보 행동의 임베딩을 비교해 가장 높은 점수의 행동을 선택함</li>\n<li>공개한 <strong>CLM-8B</strong>는 컴퓨터 사용, 게임, 도구 호출 과제에서 Jev와 비슷한 성능을 내면서 지연...<p></p></li></ul>",
+    "title": "CLM - 문장을 생성하는 대신 다음 행동을 고르는 대조 언어 모델",
+    "content": "<ul>\n<li><strong>현재 상황과 후보 행동을 비교해 적절한 선택을 빠르게 반환</strong>하는 모델로, 도구 선택, 게임 조작, 고객 문의 분류와 여러 답변의 순위 매기기에 활용</li>\n<li>상황과 행동을 각각 벡터로 변환하고 <strong>올바른 조합은 가깝게, 잘못된 조합은 멀어지도록 학습</strong>하며, 문장을 길게 생...<p></p></li></ul>",
     "createdAt": "2026-09-24T19:43:21.000+00:00",
     "link": "https://news.hada.io/topic?id=34240",
     "author": "neo",
@@ -455,116 +565,6 @@
     "content": "<ul>\n<li>기업 자체 채용 사이트의 <strong>공고 약 61만 개</strong>를 조사한 결과, 게시일을 확인할 수 있는 공고의 <strong>28.3%가 90일 넘게 유지</strong>되고 있었음</li>\n<li><strong>6개월 넘게 남아 있는 공고도 16.3%</strong> 에 달하며, 게시 후 경과 기간의 중앙값은 36일임</li>\n<li>90일 초과 공고 비율...<p></p></li></ul>",
     "createdAt": "2026-09-23T21:39:10.000+00:00",
     "link": "https://news.hada.io/topic?id=34197",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DoorDash가 Mamdani의 시장 당선을 막으려 140만 달러를 쓴 이유가 이제 드러났다",
-    "content": "<ul>\n<li><strong>DoorDash</strong>가 배달 노동자 26만 4,000명의 임금 과소 지급과 관련해 뉴욕시와 <strong>1억 3,150만 달러</strong> 규모의 합의에 도달함. 뉴욕시 역사상 최대 노동자 관련 합의임</li>\n<li>회사는 2025년 시장 선거에서 <strong>Zohran Mamdani 반대와 Andrew Cuomo 지지</strong>에 약 140만 달...<p></p></li></ul>",
-    "createdAt": "2026-09-23T21:36:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=34196",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude, CRISPR 유사 반복 서열을 가진 새로운 효소 시스템 발견",
-    "content": "<ul>\n<li>대규모 DNA 데이터베이스에서 <strong>이미 알려진 효소 주변의 반복 서열과 보조 단백질을 연결</strong>해, 이전에 규명되지 않았던 효소 시스템 <strong>ART</strong>를 찾아냄</li>\n<li>약 <strong>950개 Claude 에이전트가 21시간</strong> 동안 2억 1,000만 토큰을 사용해 역전사효소 20만 개 이상을 조사...<p></p></li></ul>",
-    "createdAt": "2026-09-23T20:34:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=34195",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google, 목소리를 만들고 연기까지 지시하는 Gemini 3.8 TTS 공개",
-    "content": "<ul>\n<li>원하는 목소리와 말투를 자연어로 만들고 대사별로 연기를 지시하는 <strong>Gemini 3.8 Flash TTS</strong>와, 대량 음성 생성의 비용 효율성을 높인 <strong>Flash-Lite TTS</strong>를 공개함</li>\n<li>Flash TTS는 <strong>2,000개 이상의 목소리</strong>를 제공하며, 새로운 목소리를 직접 설계하거나 사...<p></p></li></ul>",
-    "createdAt": "2026-09-23T19:58:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=34194",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "일일이 과금하기엔 너무 저렴한 토큰",
-    "content": "<ul>\n<li>AI 사용 비용이 계속 내려가면, <strong>토큰을 얼마나 쓰느냐보다 원하는 품질을 얻을 수 있느냐</strong>가 중요해지고 AI는 별도 제품을 넘어 컴퓨팅의 기본 인프라로 들어갈 수 있음</li>\n<li>최상위 모델의 토큰 단가가 항상 내려가는 것은 아니지만, 모델과 GPU, 추론 소프트웨어의 개선으로 <strong>같은...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-23T19:55:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=34193",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "시애틀 시의회, 식료품 판매에서 감시 기반 가격 책정 금지 법안 가결",
-    "content": "<ul>\n<li>시애틀 시의회가 소비자 개인정보로 식료품과 기타 필수품 가격을 달리 정하는 행위를 금지하는 <strong>Fair Pricing and Transparency Act(CB 121267)</strong> 를 가결함</li>\n<li>금지 대상은 <strong>검색 이력, 실시간 위치, 소득 추정치</strong> 등 개인 데이터를 활용해 소비자에게 표시되는 가격을 바...<p></p></li></ul>",
-    "createdAt": "2026-09-23T19:52:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=34192",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "이탈리아 의회, 원자력 에너지 복귀에 찬성 표결",
-    "content": "<ul>\n<li>이탈리아 상원이 <strong>원자력 발전 재도입의 길을 여는 법안</strong>을 최종 승인함. 체르노빌 사고를 계기로 원자력을 포기한 지 약 40년 만임</li>\n<li>법률은 <strong>원자로 건설 허가가 아닌 규제 기반</strong>을 마련함. 정부는 향후 12개월 동안 인허가, 안전 기준, 폐기물 관리, 부지 선정 기준을...<p></p></li></ul>",
-    "createdAt": "2026-09-23T19:49:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=34191",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "시의회 회의에서 Flock에 관해 발언한 여성, 체포돼 끌려나가",
-    "content": "<ul>\n<li>미주리주 Springfield 시의회에서 <strong>Flock 차량번호판 인식 카메라</strong>에 반대하는 발언을 하던 Mia Heider가 마이크 차단 후 수갑을 찬 채 끌려나감</li>\n<li>시의회는 카메라 관련 계약 검토 결의안을 <strong>5대 3으로 위원회에 회부</strong>했고, 해당 사안에 대한 주민 발언은 진행하지 않음...<p></p></li></ul>",
-    "createdAt": "2026-09-23T18:42:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=34189",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Hacker News는 왜 그런가?",
-    "content": "<ul>\n<li><strong>Drew DeVault가 Hacker News의 ‘비정치적’ 운영에 의문을 제기</strong>하며, 기술 기업의 성과는 자유롭게 논의하면서 그 기업의 정치적 영향과 윤리 문제는 배제하는 구조를 비판함</li>\n<li>Grok 출시 토론에서는 성능과 가격을 논의하는 댓글은 남았지만, <strong>Musk의 정치적 행보와 제품의 윤...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-23T18:39:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=34188",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GPT-6 Astra, 실제 자동차를 운전해 주행 코스 완주",
-    "content": "<ul>\n<li><strong>DrivingBench</strong>는 범용 AI 모델에 실제 Toyota Corolla의 카메라 영상과 차량 상태를 제공하고, 도구 호출로 조향과 가감속을 제어하게 하는 주행 실험</li>\n<li>GPT-6 Astra는 첫 시도에서 코스의 49%까지 진행한 뒤, <strong>두 번째 시도에서 5분 22초 만에 완주</strong>했으며 비교한 네 모...<p></p></li></ul>",
-    "createdAt": "2026-09-23T17:38:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=34187",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Portobello 경찰서 시계 고치기",
-    "content": "<ul>\n<li>지역 공동체가 매입한 옛 <strong>Portobello 경찰서 시계탑</strong>에서 시간 설정법을 찾아 시계를 맞추고, 타종 장치의 작동 방식도 파악함</li>\n<li>시계는 모터와 기어로 <strong>세 개의 시계판</strong>을 구동하며, 기어의 걸쇠를 들어 올리자 축을 직접 돌려 시간을 맞출 수 있었음</li>\n<li>개조된 ...<p></p></li></ul>",
-    "createdAt": "2026-09-23T17:35:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=34186",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
