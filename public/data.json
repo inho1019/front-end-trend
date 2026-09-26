@@ -1,5 +1,126 @@
 [
   {
+    "title": "Johannes Doerfert를 추모하며",
+    "content": "<ul>\n<li>LLVM에 활발히 기여하며 존경받던 개발자 <strong>Johannes Doerfert</strong>가 암 투병 끝에 2026년 9월 17일, 36세로 별세함</li>\n<li>프로그램 전반의 함수와 인자 속성을 추론하고 전파하는 <strong>Attributor</strong>를 설계했으며, 이 프레임워크는 LLVM의 프로시저 간 최적화 인프라에서 중요한 역할...<p></p></li></ul>",
+    "createdAt": "2026-09-26T20:34:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=34334",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "급락하는 시험 성적은 서서히 진행되는 재앙이다",
+    "content": "<ul>\n<li>부유한 국가 학생들의 <strong>PISA 읽기, 수학, 과학 성적</strong>이 2000년 평가 시작 이후 최저 수준으로 떨어짐</li>\n<li><strong>코로나19 봉쇄</strong>는 수업에 큰 차질을 일으키고 PISA 성적 하락을 초래했지만, 이제 성적 부진을 전부 봉쇄 탓으로 돌릴 수는 없음</li>\n<li>팬데믹이 끝난 뒤에도 성...<p></p></li></ul>",
+    "createdAt": "2026-09-26T19:31:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=34333",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PipePipe - SponsorBlock을 구현한 NewPipe 하드 포크",
+    "content": "<ul>\n<li><strong>PipePipe</strong>는 개발 철학의 차이로 2022년 초 NewPipe에서 분리돼 독립 개발 중인 프로젝트로, NewPipe와 업데이트를 주고받지 않음</li>\n<li><strong>SponsorBlock</strong>으로 YouTube와 BiliBili의 스폰서 구간을 건너뛰고, ReturnYouTubeDislike로 YouTube 싫어요 수를 다시 표시함</li>\n</ul>",
+    "createdAt": "2026-09-26T18:39:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=34332",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "화제가 된 Giants 영상 속 엄마입니다. 제 남편 이야기를 들려드릴게요",
+    "content": "<ul>\n<li>San Francisco Giants 경기에서 아기와 음식을 함께 들고 있던 Erika의 영상이 퍼지면서 남편 Ramses에게 비난이 쏟아졌지만, <strong>실제 대화는 방송 해설과 달랐음</strong></li>\n<li>Ramses는 아기를 맡거나 음식을 들어주겠다고 여러 차례 제안했고, Erika는 이를 사양함. 시청자들은 <strong>부부의 대화...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-26T18:36:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=34331",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Floci - 모든 클라우드 서비스를 로컬에서 에뮬레이션",
+    "content": "<ul>\n<li><strong>Floci</strong>는 AWS, Azure, GCP, OCI 서비스를 실제 클라우드 계정 없이 로컬에서 실행하는 에뮬레이터 모음으로, 각 에뮬레이터를 독립적인 <strong>MIT 라이선스 바이너리</strong>로 제공함</li>\n<li>AWS용 <strong>floci</strong>는 119개 서비스를 지원하며, LocalStack과 동일한 4566 포트를 ...<p></p></li></ul>",
+    "createdAt": "2026-09-26T17:46:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=34330",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Topcoat, Rust로 서버 애플리케이션의 경계를 넓히다",
+    "content": "<ul>\n<li>풀스택 Rust 프레임워크 <strong>Topcoat 0.9</strong>가 공개됨. 서버 렌더링을 기본으로 삼으면서 브라우저 반응성과 서버 상태에 따른 실시간 UI 갱신을 함께 지원함</li>\n<li><strong>시그널과 shard</strong>로 브라우저 상태와 서버 렌더링을 연결함. 간단한 상호작용은 서버 왕복 없이 처리하고, 서버 데...<p></p></li></ul>",
+    "createdAt": "2026-09-26T17:43:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=34329",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Avast Antivirus 샌드박스에 진입하고 탈출하기, 2부",
+    "content": "<ul>\n<li>Avast 커널 드라이버의 <strong>CVE-2025-13032</strong>를 이용해 발견 당시 최신 Windows 11에서 로컬 권한을 <strong>SYSTEM</strong>으로 높이는 전체 공격 과정을 시연함</li>\n<li>사용자 입력의 길이를 여러 번 읽는 <strong>더블 페치(double-fetch)</strong> 결함으로 페이징 풀 오버플로를 일으키고, ...<p></p></li></ul>",
+    "createdAt": "2026-09-26T17:40:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=34328",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "비전 모델까지 지원하는 Jev 스타일 LLM 래퍼",
+    "content": "<ul>\n<li>일반 LLM을 <strong>긴 답변 대신 선택지별 확률과 점수를 반환하는 도구</strong>로 사용하는 Python 함수 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">score()</code>를 구현함</li>\n<li>질문과 A/B/C 선택지를 주고 답에 해당하는 문자만 생성하게 한 뒤, <strong>토큰별 확률을 읽어</strong> 분류 결과, 참일 확률, 단계별 점수를 계산함</li>\n...<p></p></ul>",
+    "createdAt": "2026-09-26T16:49:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=34327",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "연방 판사, 텍사스에 2029년 말까지 모든 교도소 냉방 설치 명령",
+    "content": "<ul>\n<li>연방 지방법원은 텍사스의 냉방 없는 교도소 환경이 잔혹하고 비정상적인 형벌을 금지하는 <strong>수정헌법 제8조를 위반</strong>한다며, 2029년 12월 31일까지 모든 주립 교도소에 냉방을 설치하도록 명령함</li>\n<li>텍사스 형사사법국(TDCJ) 산하 104개 시설 중 전체 냉방을 갖춘 곳은 9월 1일 기준 </li></ul>",
+    "createdAt": "2026-09-26T16:46:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=34326",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "알파 너드들의 보드게임 (2014)",
+    "content": "<ul>\n<li><strong>Diplomacy</strong>는 주사위나 카드의 운 대신, 다른 사람을 설득해 협력하게 만드는 <strong>협상</strong>이 승패를 좌우하는 7인용 전략 보드게임임</li>\n<li>모든 플레이어가 명령을 적어 <strong>동시에 실행</strong>하며, 그 전에 공개 또는 비공개로 협상함. 동맹이 필요하지만 약속을 지킬 의...<p></p></li></ul>",
+    "createdAt": "2026-09-26T16:43:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=34325",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "모든 패키지가 이미 설치되어 있다",
+    "content": "<ul>\n<li><strong>omnibin</strong>은 nixpkgs가 제공해 온 바이너리를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">$PATH</code>에서 바로 사용할 수 있게 하는 FUSE 파일시스템으로, 별도 설치나 빌드 없이 파일을 실제로 읽을 때 필요한 데이터를 가져옴</li>\n<li>2013~2026년의 <strong>바이너리 881,933개</strong>를 포함하며, 기본 이름은 최신 패키지...<p></p></li></ul>",
+    "createdAt": "2026-09-26T16:02:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=34324",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "AI 없이 보낸 한 달",
     "content": "<ul>\n<li>업무에서 <strong>AI 코딩 에이전트</strong>에 구현과 테스트, 커밋까지 맡기던 개발자가 코드에 대한 통제력을 잃었다고 느껴 사용을 중단하고, 한 달 동안 직접 개발하는 방식으로 돌아옴</li>\n<li>여러 에이전트를 병렬로 실행하자 코드 생성은 빨라졌지만, <strong>검토 부담과 문맥 전환</strong>이 쌓여...<p></p></li></ul>",
     "createdAt": "2026-09-26T15:36:43.000+00:00",
@@ -45,7 +166,7 @@
   },
   {
     "title": "허리와 어깨 수술은 종종 무익한 수준을 넘어 해로움",
-    "content": "<p>허리와 어깨 수술은 종종 무익한 수준을 넘어 해로움</p>\n",
+    "content": "<ul>\n<li>매년 시행되는 수백만 건의 수술이 <strong>불필요할 수 있다는 근거</strong>가 늘어나고 있으며, 절개에 따른 합병증 위험까지 고려하면 오히려 해로울 수 있음</li>\n<li>효과가 부족한 수술이 계속되는 주된 이유는 <strong>임상 데이터 부족</strong>으로, 신약과 달리 규제기관이 효과 입증을 요구하지 않...<p></p></li></ul>",
     "createdAt": "2026-09-26T13:33:44.000+00:00",
     "link": "https://news.hada.io/topic?id=34320",
     "author": "neo",
@@ -440,105 +561,6 @@
     }
   },
   {
-    "title": "Mercury 2.5 LLM, 초당 약 800토큰 출력",
-    "content": "<ul>\n<li>Inception의 추론 모델로, Artificial Analysis의 API 측정에서 <strong>초당 약 800토큰</strong>을 출력해 비슷한 가격대 모델의 중앙값인 약 112토큰을 크게 웃돎</li>\n<li>API 가격은 <strong>100만 토큰당 입력 0.25달러, 출력 0.75달러</strong>이며, 캐시된 입력에는 90% 할인을 적용</li>\n<li><strong>...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-25T18:40:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=34279",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "직접 만질 수 있는 Factorio",
-    "content": "<ul>\n<li>Wube가 Factorio의 게임 초반 요소를 실물로 만들 수 있는 <strong>3D 프린팅 모델</strong>을 공개함. 총 15개 모델 세트, 개별 모델 65개, STL 파일 247개를 다운로드할 수 있음</li>\n<li>운송 벨트와 구조물을 <strong>게임처럼 배치할 수 있는 격자 시스템</strong>을 설계했으며, 대부분의 모델은 끼워 맞...<p></p></li></ul>",
-    "createdAt": "2026-09-25T18:37:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=34278",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ink &amp; Switch의 인터랙티브 홈페이지",
-    "content": "<ul>\n<li>사고와 창작을 돕는 도구를 연구하는 <strong>Ink &amp; Switch</strong>가 설립 10주년을 기념해, 직접 가지고 놀 수 있는 인터랙티브 작품 <strong>Tenfold</strong>를 홈페이지에 공개함</li>\n<li>‘INK&amp;SWITCH’를 이루는 <strong>열 글자를 각각 작은 도구와 애니메이션으로 구현</strong>했으며, 클릭...<p></p></li></ul>",
-    "createdAt": "2026-09-25T17:45:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=34277",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "비행기에서 아기띠 사용을 허용하라",
-    "content": "<ul>\n<li>FAA는 추가 좌석 비용 때문에 부모가 더 위험한 자동차 여행을 택할 수 있다는 이유로 <strong>영아를 무릎에 안고 타는 것</strong>을 허용하지만, 지상 이동과 이착륙 중 <strong>아기띠 사용</strong>은 금지함</li>\n<li>금지 근거인 <strong>1994년 연구</strong>는 여러 아동 보호장치를 시험했으나, 착용...<p></p></li></ul>",
-    "createdAt": "2026-09-25T17:42:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=34276",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국 항소법원, Anthropic의 공급망 위험 지정 유지",
-    "content": "<ul>\n<li>워싱턴 D.C. 연방항소법원이 <strong>2대 1 판결</strong>로 국방부의 Anthropic 공급망 위험 지정을 유지하고, Claude 사용 금지가 자의적이고 권한을 벗어났으며 위헌이라는 회사 측 주장을 받아들이지 않음</li>\n<li><strong>공급망 위험 지정</strong>은 미군의 Anthropic 모델 사용을 금지하며, 방산 계약...<p></p></li></ul>",
-    "createdAt": "2026-09-25T17:39:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=34275",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Virtio-nvgpu - KVM 가상 머신에서 NVIDIA GPU를 네이티브에 가까운 성능으로 공유",
-    "content": "<ul>\n<li>GPU 한 장을 가상 머신 하나에 통째로 넘기는 대신, <strong>호스트가 GPU를 유지하면서 여러 KVM 가상 머신이 함께 사용</strong>하도록 하는 실험적 프로젝트</li>\n<li><strong>모니터 없이 화면을 만들어 전송하는 헤드리스 스트리밍</strong>을 목표로, 게스트 안에서 GPU 렌더링, 합성, 인코딩을 수행하고...<p></p></li></ul>",
-    "createdAt": "2026-09-25T16:54:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=34274",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "LLM으로 연금술 지식의 전파를 추적하고 17세기 편지를 해독하기",
-    "content": "<ul>\n<li><strong>GPT-6와 Opus 5.5</strong>를 역사 전문가의 지식과 결합해, 문서 전사를 넘어 사료의 출처와 지식 전파 경로를 찾는 초기 연구가 진행 중임</li>\n<li>유망한 대상은 <strong>암호 해독, 번역과 각색을 거친 텍스트 추적, 분산된 연구 성과 연결</strong>이며, 자료가 디지털화돼 있고 결과의 진위를 검...<p></p></li></ul>",
-    "createdAt": "2026-09-25T16:51:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=34273",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Git-bug - Git 저장소에 이슈를 보관하는 분산형 버그 추적기",
-    "content": "<ul>\n<li><strong>이슈와 댓글을 Git 저장소에 보관</strong>하고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">git bug push</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">git bug pull</code>로 다른 저장소와 동기화하는 분산형 버그 추적기</li>\n<li><strong>오프라인에서도 이슈를 읽고 작성</strong>할 수 있으며, 특정 호스팅 서비스에 의존하지 않고 이슈 데이터를 직접 보유할 수...<p></p></li></ul>",
-    "createdAt": "2026-09-25T16:48:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=34272",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Go의 플랫폼 독립적 SIMD",
-    "content": "<ul>\n<li>Go 1.27에 추가된 실험적 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">simd</code> 패키지</strong>로 어셈블리를 직접 작성하지 않고도 여러 데이터에 같은 연산을 한꺼번에 적용하는 <strong>SIMD 가속</strong>을 활용할 수 있음</li>\n<li>CPU마다 다른 명령어와 벡터 크기를 공통 API로 감싸, <strong>한 번 작성한 코드를 amd64, arm64...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-25T16:45:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34271",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Randomly Place an Element Along Edge of Another Element",
     "content": "<p>Let me show you what I saw that started my brain turning:</p>\n\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>\t<figure>\n\t\t<div> </div>\n\t\t<figcaption>This is from the website of the podcast <a href=\"https://podcasts.wbur.org/the-midnight-rebellion\" target=\"_blank\" rel=\"noopener noreferrer\">The Midnight Rebellion</a> on WBUR.</figcaption>\n\t\t\n\t</figure>\n\t\n</code></pre>\n<p>It’s a cute little crab that walks around on the top of an element! I love it! </p>\n\n\n\n<p>It reminded me of a very cool CSS combo I like:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>offset-path</span>: border-box;\n<span>offset-distance</span>: 20%; /* whatever */</code></span></pre>\n\n\n<p>I normally think of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">offset-path</code> as literally taking a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">path()</code> element (or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">rect()</code> or something) that sets up a path that you place items on. Then you animate the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">offset-distance</code> value, which moves the element along that path.</p>\n\n\n\n<p>But the path can just be the border of the parent element, which really simplifies things.</p>\n\n\n\n<p>Now that Safari has <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">random()</code> (and Chrome has it behind the Experimental Web Features flag), we could make that crab walk to randomized places, perhaps entirely within CSS. </p>\n\n\n\n<p>If you’re looking at the demos below in a non-supporting browser, you just won’t see the movement because the offset-distance is applied via CSS <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">random()</code> which will just be ignored. You could do an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@supports</code> fallback with hard-coded or JavaScript-generated values if you’re serious about shipping it.</p>\n\n\n\n<p>Let’s start simple.</p>\n\n\n\n<h2>Setting Up The Box</h2>\n\n\n\n<p>Just a box.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.box</span> {\n  <span>width</span>: <span>200px</span>;\n  <span>height</span>: <span>200px</span>;\n  <span>border</span>: <span>2px</span> solid black;\n  <span>position</span>: relative;\n}</code></span></pre>\n\n\n<p>Now let’s put something simple inside it.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>div</span> <span>class</span>=<span>\"box\"</span>&gt;</span>\n  <span>&lt;<span>div</span> <span>class</span>=<span>\"circle\"</span>&gt;</span>\n  <span>div</span>&gt;</code></span><code>\n<span>div</span>&gt;</code></pre>\n\n\n<h2>Put The Thing On The Box </h2>\n\n\n\n<p>Now I can place the simple circle on the path of the box. I usually think, oh, I’ll have to make a path the same size as the box like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">offset-path: rect(0 200px 200px 0);</code>, but no, you can just say to use the broder. </p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><span><span>.circle</span> {\n</span></span><span><span>  <span>width</span>: <span>20px</span>;\n</span></span><span><span>  <span>height</span>: <span>20px</span>;\n</span></span><span><span>  <span>border-radius</span>: <span>50%</span>;\n</span></span><span><span>  <span>background-color</span>: red;\n</span></span><mark><span>  <span>offset-path</span>: border-box;\n</span></mark><mark><span>  <span>offset-distance</span>: <span>20%</span>;\n</span></mark><span><span>}\n</span></span></code></span></pre>\n\n\n<p>Not having to use hard pixel values for the path also makes it all nicely responsive to size changes.</p>\n\n\n\n<h2>Move The Thing</h2>\n\n\n\n<p>Now let’s move the circle around the path, as that’s the whole thing we’re going for here:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><span>.circle {\n</span></span><span><span>  ...\n</span></span><mark><span>  animation: moveCircle 25s infinite alternate ease-in-out;\n</span></mark><span><span>}\n</span></span></code></span></pre>\n\n\n<p>You’d think we could just set some random positions:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@keyframes</span> moveCircle {\n  0%   { <span>offset-distance</span>: <span>random</span>(<span>0%</span>, <span>100%</span>); }\n  25%  { <span>offset-distance</span>: <span>random</span>(<span>0%</span>, <span>100%</span>); }\n  50%  { <span>offset-distance</span>: <span>random</span>(<span>0%</span>, <span>100%</span>); }\n  75%  { <span>offset-distance</span>: <span>random</span>(<span>0%</span>, <span>100%</span>); }\n  100% { <span>offset-distance</span>: <span>random</span>(<span>0%</span>, <span>100%</span>); }\n}</code></span></pre>\n\n\n<p>I can’t quite explain why that doesn’t work, but that doesn’t work. Maybe it’s the nature of the random function within one @keyframes block or something. I think all the numbers compute to the same value despite not using the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">element-shared</code> keyword to explicitly tell it to do that (maybe it’s implied in this context).</p>\n\n\n\n<p>But if we seed each function call with a unique seed it <em>does</em> work. I’ll make it go to 200% as well for more movement.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@keyframes</span> moveCircle {\n  0%   { <span>offset-distance</span>: <span>random</span>(--k1, <span>0%</span>, <span>200%</span>); }\n  25%  { <span>offset-distance</span>: <span>random</span>(--k2, <span>0%</span>, <span>200%</span>); }\n  50%  { <span>offset-distance</span>: <span>random</span>(--k3, <span>0%</span>, <span>200%</span>); }\n  75%  { <span>offset-distance</span>: <span>random</span>(--k4, <span>0%</span>, <span>200%</span>); }\n  100% { <span>offset-distance</span>: <span>random</span>(--k5, <span>0%</span>, <span>200%</span>); }\n}</code></span></pre>\n\n\n<p>Here we go:</p>\n\n\n\n<div></div>\n\n\n\n<p>If you only wanted it along the top, you’d randomize up to 25%. </p>\n\n\n\n<h2>A Glowing Orb &amp; Shadow </h2>\n\n\n\n<p>I was kind of mesmerized that this worked and detoured myself making other examples. For instance, we could put the circle in a track by building the “borders” with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">outline</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">box-shadow</code> instead. Then make the circle impossibly glowy. </p>\n\n\n\n<div></div>\n\n\n\n<p>But otherwise the same movement applies here. I figure someone could make this glowing orb go through a maze or something cool. </p>\n\n\n\n<p>The thing we’re moving doesn’t have to be a circle though of course, that element could be anything. I also thought I’d try making it just a big ol’ shadow and seeing how it feels watching that move around. </p>\n\n\n\n<div></div>\n\n\n\n<p>Or maybe a whole bunch of them moving differently:</p>\n\n\n\n<div></div>\n\n\n\n<h2>What about the little crab?</h2>\n\n\n\n<p>Well we can’t do a crab. It’s been done. It’s passé.</p>\n\n\n\n<p>We’ll have to do a doggie. </p>\n\n\n\n<p>This is more elaborate as it’s not just a “circle” anymore but a whole bunch of (animated) circles that make a dog. But the core concept isn’t any more complicated. It just moves the dog to random positions.</p>\n\n\n\n<div></div>\n\n\n\n<p>But there are enough little limitations and stuff, I found it satisfying to use a little JavaScript to calculate the new position pseudo-randomly and flip the doggie when necessary.</p>\n\n\n\n<div></div>\n\n\n\n<p>I’ll leave it as an exercise for the reader to make a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>.</p>\n\n\n\n<p></p>\n",
     "createdAt": "2026-09-25T16:03:35.000+00:00",
@@ -547,28 +569,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "M6 Mac Mini의 86Box에서 Voodoo 3와 함께 Pentium II 600MHz 에뮬레이션",
-    "content": "<ul>\n<li><strong>M6 Mac Mini</strong>가 86Box에서 Pentium II 600MHz와 Voodoo 3를 에뮬레이션하며, 테스트 내내 속도 100%와 끊김 없는 오디오를 유지함</li>\n<li>같은 구성에서 M4의 안정적 한계는 500MHz로, M6의 <strong>최고 통과 클럭은 20% 높음</strong>. M6도 650MHz에서는 오디오 끊김이 발생해 통과하지 못...<p></p></li></ul>",
-    "createdAt": "2026-09-25T15:38:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34270",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "마피아가 이탈리아로의 펜타닐 유입을 막고 있을 수도 있다",
-    "content": "<p>마피아가 이탈리아로의 펜타닐 유입을 막고 있을 수도 있다</p>\n",
-    "createdAt": "2026-09-25T15:35:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34269",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
