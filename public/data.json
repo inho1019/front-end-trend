@@ -1,5 +1,159 @@
 [
   {
+    "title": "충전식 자전거 조명의 오래된 배터리 교체하기",
+    "content": "<ul>\n<li>10년 전에 산 <strong>충전식 자전거 조명</strong>이 완충해도 약 5분 만에 꺼졌지만, 배터리를 교체한 뒤 다시 야간 주행에 사용할 수 있게 됨</li>\n<li>전자공학 지식이 거의 없는 상태에서 지역 <strong>퀴어 메이커스페이스</strong>의 인두와 주변 사람들의 도움을 받아 분해, 납땜 제거, 새 배터리 장착...<p></p></li></ul>",
+    "createdAt": "2026-09-27T20:38:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=34382",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "내 세상을 바꾼 코드 열 줄",
+    "content": "<ul>\n<li><strong>BASIC의 무한 인사부터 280자 CSS 시까지</strong>, 직접 작성하거나 자주 복사해 쓰고 웃거나 울게 했던 열 가지 코드에 컴퓨터와 소통해 온 경험이 담겨 있음</li>\n<li><strong>자기 수정 6502 어셈블리</strong>와 게임 메모리를 바꾸는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">POKE</code>는 실행 중인 코드도 조작할 수 있으며, 어...<p></p></li></ul>",
+    "createdAt": "2026-09-27T20:35:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=34381",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "효율적인 C++ 코드 작성하기(2013)",
+    "content": "<ul>\n<li>C++를 선택하는 것만으로 높은 성능이 보장되지는 않으며, <strong>데이터 배치와 메모리 접근 방식</strong>을 설계 단계부터 고려해야 하드웨어 성능을 충분히 활용할 수 있음</li>\n<li><strong>데이터 지향 설계(DOD)</strong> 는 저장할 데이터와 메모리 구조를 먼저 설계하고 그 위에서 수행할 연산을 정하...<p></p></li></ul>",
+    "createdAt": "2026-09-27T19:46:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=34380",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ember-1",
+    "content": "<ul>\n<li>Fireworks Research가 <strong>Kimi K3 기반 특화 모델 Ember-1</strong>을 공개함. 불필요한 추론을 줄이도록 학습해 K3 수준의 품질을 유지하면서 토큰 사용량을 <strong>40% 절감</strong>하는 모델임</li>\n<li>단순히 <strong>추론 강도를 낮추면 품질 손실</strong>이 커지는 문제를 별도 학습으로 해결함...<p></p></li></ul>",
+    "createdAt": "2026-09-27T19:43:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=34379",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SNL Weekend Update: Anthropic CEO Dario Amodei가 말하는 AI의 인류 위협 [영상]",
+    "content": "<p>SNL Weekend Update: Anthropic CEO Dario Amodei가 말하는 AI의 인류 위협 [영상]</p>\n",
+    "createdAt": "2026-09-27T19:40:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=34378",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "postmarketOS, Nura로 이름 변경",
+    "content": "<ul>\n<li>운영체제 프로젝트 <strong>postmarketOS가 Nura로 이름을 변경</strong>함. 약 1년 반의 선정 과정을 거쳐 자체 콘퍼런스에서 새 이름을 발표함</li>\n<li>기존 이름은 길고 여러 언어에서 발음하거나 기억하기 어려웠으며, 대소문자 표기도 혼란스러워 <strong>해커 커뮤니티 밖으로 알리는 데 어려움</strong></li></ul>",
+    "createdAt": "2026-09-27T18:43:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=34377",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "80달러짜리 모텔 방에서 이뤄진 생명의 기원을 밝힐 발견",
+    "content": "<p>80달러짜리 모텔 방에서 이뤄진 생명의 기원을 밝힐 발견</p>\n",
+    "createdAt": "2026-09-27T18:40:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=34376",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "‘통제를 벗어난’ AI 에이전트란 없다",
+    "content": "<ul>\n<li>AI가 일으킨 사고를 <strong>“에이전트가 통제를 벗어났다”</strong> 고 표현하면, 소프트웨어가 스스로 판단한 것처럼 보이게 하고 이를 개발·운영한 기업의 책임을 흐릴 수 있음</li>\n<li>OpenAI 에이전트가 데이터 수집 중 정부 사이트에 접근한 사건에서 물어야 할 것은 <strong>어떤 권한을 줬고, 위험한...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-27T18:37:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=34375",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CAPTCHA는 인간임을 증명하지 않는다, 미국인임을 증명한다 (2017)",
+    "content": "<ul>\n<li>인간 여부를 확인하는 <strong>CAPTCHA</strong>가 미국 문화에 대한 지식을 요구하면, 다른 문화권 이용자에게는 인간임을 증명하는 것과 별개의 장벽이 생김</li>\n<li><strong>IQ 테스트</strong>에서도 같은 문제가 나타나며, 미국 동전 이름을 모르는 7세 아이는 계산에 앞서 문제 자체를 이해할 수 없었음...<p></p></li></ul>",
+    "createdAt": "2026-09-27T17:45:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=34374",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인터넷이 TLA+를 발견했다. 이제 무엇을 할까?",
+    "content": "<ul>\n<li><strong>TLA+</strong> 는 시스템이 할 수 있는 동작과 항상 또는 언젠가 만족해야 할 속성을 명세하는 언어로, 에이전트 코딩에서도 형식 모델의 활용 가능성이 주목받고 있음</li>\n<li>시스템의 <strong>상태와 전이</strong>를 모델링하고, 잘못된 일이 발생하지 않는 안전성과 좋은 일이 결국 발생하는 활성...<p></p></li></ul>",
+    "createdAt": "2026-09-27T17:42:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=34373",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "설명할 수 없는 실패의 일상화",
+    "content": "<ul>\n<li>AI 기반 소프트웨어에서 더 우려스러운 문제는 실패 증가 자체보다, <strong>“가끔은 그냥 안 된다”가 원인 조사의 종착점</strong>으로 받아들여지는 것임</li>\n<li>판단과 확률을 빠르고 저렴하게 반환하는 <strong>Jev</strong>를 도입해도, 제대로 작동하는지 확인할 <strong>평가와 정답 데이터</strong></li></ul>",
+    "createdAt": "2026-09-27T17:39:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=34372",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: ReadSharp - 영어 기사를 한 문장씩 직접 번역하며 읽기",
+    "content": "<p>영어 기사를 번역기로 읽으면 내용은 빨리 파악되는데, 영어 실력은 그대로더라고요. 그렇다고 사전을 찾아가며 읽자니 몇 문단 못 가서 지치고요. 그래서 평소 읽고 싶던 기사로 영어 공부까지 할 수 있는 앱을 만들었습니다.</p>\n<p>번역기는 해석을 바로 보여 주고, 단어장 앱은 따로 모은 단어를 외우게 합니다. </p>",
+    "createdAt": "2026-09-27T16:47:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=34371",
+    "author": "tjalsrnek",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "슬롭 UI를 알아보는 10가지 단서",
+    "content": "<ul>\n<li><strong>Slop UI</strong>는 AI가 만든 인터페이스 중 어색하거나, 맥락에 맞지 않거나, 목적이 없거나, 지나치게 획일적인 UI를 뜻하며, 방향성 없는 바이브 코딩은 앱을 저렴해 보이고 쓰기 싫게 만들 수 있음</li>\n<li><strong>그라데이션과 색상 남용</strong>, 반복되는 카드 형태와 이모지 등은 사용 목적...<p></p></li></ul>",
+    "createdAt": "2026-09-27T16:39:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=34370",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "“그들에게는 사용자를 보호할 주의 의무라는 개념이 없었다”",
+    "content": "<ul>\n<li>약 2000년부터 Vim을 사용한 David Chisnall은 초기 <strong>NeoVim</strong>을 시험하다 기존 실행 취소 기록을 잃었고, 문제를 제기한 뒤 받은 응답 때문에 사용을 중단함</li>\n<li>Vim의 <strong>영구 실행 취소(persistent undo)</strong> 는 파일을 닫거나 컴퓨터를 재시작한 뒤에도 기록을 유지해, 오래전...<p></p></li></ul>",
+    "createdAt": "2026-09-27T16:36:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=34369",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Mistral CEO: “AI는 소프트웨어다. 통제할 수 있다”",
     "content": "<ul>\n<li>AI가 강력해질수록 통제도 정교해져야 하지만, <strong>사용자 의도에 맞춘 학습과 격리·감시·검증으로 다룰 수 있는 소프트웨어</strong>라는 것이 Mistral CEO 아르튀르 멘슈의 입장임</li>\n<li>미국 AI 기업들이 위험을 강조하며 <strong>소수 기업만 AI를 공급하는 규제</strong>를 유도하고, 오픈소스와 신...<p></p></li></ul>",
     "createdAt": "2026-09-27T15:41:28.000+00:00",
@@ -71,17 +225,6 @@
     "createdAt": "2026-09-27T13:03:03.000+00:00",
     "link": "https://news.hada.io/topic?id=34362",
     "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 7축 로봇팔 개발 프로젝트 - 스텝 드라이버 개발",
-    "content": "<p>개인 프로젝트인 7축 로봇팔의 모터 드라이버를 직접 설계, 제작한 이야기입니다.</p>\n<p>모든 회로는 직접 데이터시트 하나하나 읽고 소자 하나하나 비교하며 제작하였습니다..<br>\nAI 딸깍이 아니죠 후후</p>\n<p>아래는 드라이버가 제 역할을 하는 모습입니다.<br>\nhttps://youtube.com/shorts/RxuULWwEKII?fea</p>",
-    "createdAt": "2026-09-27T12:58:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=34361",
-    "author": "yeonfish6040",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -407,94 +550,6 @@
     }
   },
   {
-    "title": "Avast Antivirus 샌드박스에 진입하고 탈출하기, 2부",
-    "content": "<ul>\n<li>Avast 커널 드라이버의 <strong>CVE-2025-13032</strong>를 이용해 발견 당시 최신 Windows 11에서 로컬 권한을 <strong>SYSTEM</strong>으로 높이는 전체 공격 과정을 시연함</li>\n<li>사용자 입력의 길이를 여러 번 읽는 <strong>더블 페치(double-fetch)</strong> 결함으로 페이징 풀 오버플로를 일으키고, ...<p></p></li></ul>",
-    "createdAt": "2026-09-26T17:40:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=34328",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "비전 모델까지 지원하는 Jev 스타일 LLM 래퍼",
-    "content": "<ul>\n<li>일반 LLM을 <strong>긴 답변 대신 선택지별 확률과 점수를 반환하는 도구</strong>로 사용하는 Python 함수 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">score()</code>를 구현함</li>\n<li>질문과 A/B/C 선택지를 주고 답에 해당하는 문자만 생성하게 한 뒤, <strong>토큰별 확률을 읽어</strong> 분류 결과, 참일 확률, 단계별 점수를 계산함</li>\n...<p></p></ul>",
-    "createdAt": "2026-09-26T16:49:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=34327",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "연방 판사, 텍사스에 2029년 말까지 모든 교도소 냉방 설치 명령",
-    "content": "<ul>\n<li>연방 지방법원은 텍사스의 냉방 없는 교도소 환경이 잔혹하고 비정상적인 형벌을 금지하는 <strong>수정헌법 제8조를 위반</strong>한다며, 2029년 12월 31일까지 모든 주립 교도소에 냉방을 설치하도록 명령함</li>\n<li>텍사스 형사사법국(TDCJ) 산하 104개 시설 중 전체 냉방을 갖춘 곳은 9월 1일 기준 </li></ul>",
-    "createdAt": "2026-09-26T16:46:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=34326",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "알파 너드들의 보드게임 (2014)",
-    "content": "<ul>\n<li><strong>Diplomacy</strong>는 주사위나 카드의 운 대신, 다른 사람을 설득해 협력하게 만드는 <strong>협상</strong>이 승패를 좌우하는 7인용 전략 보드게임임</li>\n<li>모든 플레이어가 명령을 적어 <strong>동시에 실행</strong>하며, 그 전에 공개 또는 비공개로 협상함. 동맹이 필요하지만 약속을 지킬 의...<p></p></li></ul>",
-    "createdAt": "2026-09-26T16:43:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=34325",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "모든 패키지가 이미 설치되어 있다",
-    "content": "<ul>\n<li><strong>omnibin</strong>은 nixpkgs가 제공해 온 바이너리를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">$PATH</code>에서 바로 사용할 수 있게 하는 FUSE 파일시스템으로, 별도 설치나 빌드 없이 파일을 실제로 읽을 때 필요한 데이터를 가져옴</li>\n<li>2013~2026년의 <strong>바이너리 881,933개</strong>를 포함하며, 기본 이름은 최신 패키지...<p></p></li></ul>",
-    "createdAt": "2026-09-26T16:02:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=34324",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 없이 보낸 한 달",
-    "content": "<ul>\n<li>업무에서 <strong>AI 코딩 에이전트</strong>에 구현과 테스트, 커밋까지 맡기던 개발자가 코드에 대한 통제력을 잃었다고 느껴 사용을 중단하고, 한 달 동안 직접 개발하는 방식으로 돌아옴</li>\n<li>여러 에이전트를 병렬로 실행하자 코드 생성은 빨라졌지만, <strong>검토 부담과 문맥 전환</strong>이 쌓여...<p></p></li></ul>",
-    "createdAt": "2026-09-26T15:36:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=34323",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "보즈 오브 카시오(Boards of Casio)",
-    "content": "<ul>\n<li>웹 신시사이저 <strong>CZP-1</strong>에서 oliveoil22의 Casio CZ-101 패치 데이터를 불러와 Boards of Casio 사운드를 연주할 수 있음</li>\n<li>패치는 <strong>JSON 뱅크 파일</strong>로 제공되며, 화면 건반이나 컴퓨터 키보드, MIDI로 연결한 외부 키보드로 연주 가능함</li>\n<li>CZP-1에는 원본 패치의 ...<p></p></li></ul>",
-    "createdAt": "2026-09-26T14:38:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=34322",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "15년 만에 돌아보는 Apple Cards의 탄생 이야기",
-    "content": "<ul>\n<li><strong>Apple Cards</strong>는 iPhone에서 사진과 메시지를 넣은 카드를 만들면 Apple이 인쇄와 우편 발송까지 맡는 서비스로, Steve Jobs의 아이디어에서 출발해 2011년 출시됨</li>\n<li><strong>100% 면지와 깊게 눌러 찍는 인쇄 방식</strong>을 고수하면서 제작 난도가 높아졌고, 사진 인쇄까지 완료하려...<p></p></li></ul>",
-    "createdAt": "2026-09-26T14:35:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=34321",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "EP227: Top 9 Places to Use Jev",
     "content": "<h2><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\">[Webinar] How to stop babysitting your agents (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/Unblocked_092626\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops.</p><p>More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand.</p><p><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\">Join us for a FREE webinar on Oct 7</a> to see:</p><ul><li><p>Where teams get stuck on the AI maturity curve and why common fixes fall short</p></li><li><p>How a context layer solves for quality, efficiency, and cost</p></li><li><p>Live demo: the same coding task with and without a context layer</p></li></ul><p>If you want to maximize the value you get from AI agents, this one is worth your time.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Register now</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>Top 9 Places to Use Jev</p></li><li><p>LLM, RAG, AI Agent &amp; Agentic AI</p></li><li><p>Ex-YouTube Engineer Rebuilds YouTube in 45 Mins (Youtube)</p></li><li><p>MCP vs Function calling</p></li><li><p>If Claude Code is a burger...</p></li><li><p><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Rebuild Youtube Live Course Start Today</a></p></li></ul><div><hr></div><h2>Top 9 Places to Use Jev</h2><p>Jev is TypeSafe AI’s first System One Model. It is 100x faster and cheaper than frontier LLMs.</p><p>That opens up a lot of use cases people usually skip because the big models are too slow or too expensive for them.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!HL1C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 424w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 848w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg\" data-attrs=\"{\" alt=\"graphical user interface, application\" title=\"graphical user interface, application\" srcset=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 424w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 848w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Here are the top 9 places to use Jev instead of an LLM:</p><ol><li><p>Model routing. Jev takes the prompt as input and routes it to a proper LLM.</p></li><li><p>Guardrails. Detect security risks in the prompt first. Then pass it to the LLM.</p></li><li><p>Gating tool-calls. Classify agent tool calls into one of their permission categories.</p></li><li><p>Triage inbox. Classify lots of emails into categories (e.g., spam, urgent, archive).</p></li><li><p>Reranking. Score passages against a query (prompt) so we can rank them by relevance.</p></li><li><p>LLM evals. Evaluate an LLM’s output and return a score within a range.</p></li><li><p>Bulk labeling. Label lots of rows from a huge table fast and cheap (map-reduce style).</p></li><li><p>Real-time decisions. Use cases where a fast decision is needed in a loop (e.g., trading).</p></li><li><p>Confidence gate. Classify anything based on confidence and act properly.</p></li></ol><p>The bottomline is to use the LLM for generations and use Jev on the decisions around it.</p><p>What are other places to use Jev instead of an LLM?</p><div><hr></div><h2>LLM, RAG, AI Agent &amp; Agentic AI</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!u_CK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>LLM: An LLM takes a user prompt and generates a response from its learned parameters. It does so by predicting tokens one at a time. </p><p>RAG: In RAG, the user query goes to a retriever before the LLM. The retriever fetches relevant information from the indexed knowledge base and passes it to the LLM along with the query. The LLM generates a grounded response, but it does not guarantee correctness. </p><p>AI agent: It has a goal and keeps track of the current task state. It can plan about what to do next, call tools, get a result back, observe it, and repeat until the goal is met. This feedback loop allows the agent to observe the results and adjust its actions accordingly.</p><p>Agentic AI: Putting one or more AI agents to meet a shared objective is what makes an AI system agentic. It is achieved through planning, tool use, and feedback. You add an orchestration layer, which coordinates work across multiple agents and workflows. Agents read and write to shared task states and can access tools, data, and the environment.</p><div><hr></div><h2>Ex-YouTube Engineer Rebuilds YouTube in 45 Mins</h2><div id=\"youtube2-E5Ef_Kne17U\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><div><hr></div><h2>MCP vs Function calling</h2><p>MCP and function calling have a lot in common. This confuses a lot of engineers, so here is a side-by-side comparison.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!v7j_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Both MCP and function calling are mechanisms that allow an LLM to have access to tools. The agent runtime sends the prompt to the LLM, the LLM decides which tool to use and emits a tool call request. </p><p>The agent runtime then handles tool call execution and returns the results back to the LLM to continue. The LLM finally produces a final output shown to the user.</p><p>What is different between the two is where the function is implemented, and how the agent handles the execution. In local function calling, the functions are implemented locally on the user's machine. The agent runtime executes them and receives the results.</p><p>In MCP, the functions can be outside of the user's machine, on some remote server. The agent runtime follows the MCP protocol and calls the corresponding server, the execution happens remotely, and the results are sent back to the agent runtime. </p><p>This allows your agent to connect to hundreds of thousands of tools that are implemented publicly and hosted remotely.</p><p>Over to you: What are the best MCP resources out there?</p><div><hr></div><h2>If Claude Code is a burger...</h2><p>Before each model call, Claude Code assembles a context window from 9 distinct sources. </p><p>Think of it as a burger, each layer adds something different.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!DmZq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 424w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 848w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 424w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 848w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>System Prompt: Defines Claude's role, behavior, and tone. This sets the foundation.</p></li><li><p>Environment Info: Git status, branch info, and current date. Pulled in via getSystemContext()</p></li><li><p>CLAUDE.md: A four-level instruction hierarchy: managed → user → project → local. Plain-text Markdown, so users can read, edit, and version-control everything the model sees.</p></li><li><p>Auto Memory: Contextually relevant memory entries prefetched asynchronously. An LLM scans memory-file headers and surfaces up to 5 relevant files on demand.</p></li><li><p>Path-scoped Rules: Conditional rules that load lazily when the agent reads files</p></li><li><p>Tool Metadata: Skill descriptions, MCP tool names, and deferred tool definitions.</p></li><li><p>Conversation History: Carried forward across iterations. </p></li><li><p>Tool Results: File reads, command outputs, and subagent summaries.</p></li><li><p>Compact Summaries: When history grows too long, older segments are replaced by model-generated summaries.</p></li></ol><div><hr></div><h2><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Rebuild Youtube Live Course Start Today</a></h2><p>Rebuild YouTube with AI, taught by a former YouTube engineer, kicks off on Saturday, September 26. <strong><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Enrollment closes in 24 hours</a></strong>.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now →</span></a></p><div><figure><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 424w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 848w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1272w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png\" data-attrs=\"{\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 424w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 848w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1272w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><strong>What you will learn</strong></h2><ul><li><p><strong>Scope a realistic MVP. </strong>Decide which YouTube features to build and break the work into manageable tasks.</p></li><li><p><strong>Work with agents. </strong>Plan changes, review generated code, and recover from bad diffs or sessions that go off track.</p></li><li><p><strong>Build across the stack. </strong>Turn mockups into React pages and build a backend with Postgres, authentication, and video uploads.</p></li><li><p><strong>Add semantic search and related videos. </strong>Use multimodal embeddings and understand how this approach differs from production recommendation systems.</p></li><li><p><strong>Test and deploy your app. </strong>Check features with Playwright, deploy to Vercel, and track watch time in an admin dashboard.</p></li></ul><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now →</span></a></p>",
     "createdAt": "2026-09-26T14:31:13.000+00:00",
@@ -503,61 +558,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "허리와 어깨 수술은 종종 무익한 수준을 넘어 해로움",
-    "content": "<ul>\n<li>매년 시행되는 수백만 건의 수술이 <strong>불필요할 수 있다는 근거</strong>가 늘어나고 있으며, 절개에 따른 합병증 위험까지 고려하면 오히려 해로울 수 있음</li>\n<li>효과가 부족한 수술이 계속되는 주된 이유는 <strong>임상 데이터 부족</strong>으로, 신약과 달리 규제기관이 효과 입증을 요구하지 않...<p></p></li></ul>",
-    "createdAt": "2026-09-26T13:33:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=34320",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Microsoft, Copilot 개편으로 개인용 AI 챗봇 경쟁에서 철수",
-    "content": "<ul>\n<li>소비자용과 업무용 <strong>Copilot을 기업 고객 중심의 단일 제품으로 통합</strong>하며, ChatGPT·Gemini·Muse와 경쟁하던 ‘개인 AI 동반자’ 전략에서 물러남</li>\n<li>경영진은 사람들이 Microsoft에 원하는 것은 개인적인 동반자가 아니라 <strong>일을 끝내도록 돕는 도구</strong>라며, 사무 업무 자동...<p></p></li></ul>",
-    "createdAt": "2026-09-26T12:37:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34319",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Meta의 Muse, muse-special로 표시된 OpenAI 모델을 사용하는 것으로 보임",
-    "content": "<ul>\n<li>Muse의 VM 세션 로그는 대부분 Meta 내부 모델 <strong>Avocado</strong>를 사용했지만, 하위 에이전트 세션 하나는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">azure/muse-special</code></strong> 로 기록됨</li>\n<li>해당 세션의 서명과 도구 호출 ID는 <strong>OpenAI 계열 형식</strong>을 보여 Azure를 통한 OpenAI 모델 또는 Respon...<p></p></li></ul>",
-    "createdAt": "2026-09-26T12:34:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34318",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Lowent – 함수의 서명만 읽어도 무엇을 하는지 아는 시스템 프로그래밍 언어",
-    "content": "<p>Lowent(로우엔트)는 제가 만들고 있는 시스템 프로그래밍 언어와 그 컴파일러입니다. 목표는 하나입니다. <strong>함수의 머리(서명)만 읽어도 그 함수가 무엇을 받고, 무엇을 돌려주고, 바깥 세상에 무엇을 할 수 있는지 알 수 있게 하는 것</strong>입니다. 짐작할 자리가 적은 코드는 사람도 AI 도 덜 틀리게 읽고...</p>",
-    "createdAt": "2026-09-26T11:34:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=34317",
-    "author": "rubidus",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ask HN: 사업 운영에 꼭 필요해서 아직도 DOS 컴퓨터를 유지하는 분이 있나요?",
-    "content": "<ul>\n<li>당시 하드웨어에서 <strong>dBase/Clipper/CLARION/Paradox 등 DOS RAD 환경</strong>으로 업무를 처리하는 곳에서 현재 일하거나, 그런 사용자를 아는 사람의 경험을 찾고 있음</li>\n<li><strong>ISA 카드</strong>로 제어하는 CNC 밀링 머신/분광계/현미경 등 산업용 장비도 대상이며, 맞춤형 카드와 GPIB 같...<p></p></li></ul>",
-    "createdAt": "2026-09-26T11:34:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=34316",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
