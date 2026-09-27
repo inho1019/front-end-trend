@@ -1,5 +1,126 @@
 [
   {
+    "title": "조지즘은 효과가 있을까? 5년 후의 재검토",
+    "content": "<ul>\n<li><strong>토지가치세(LVT)</strong> 논의가 이론 검토에서 지방정부의 실제 세제 개편으로 이동하고 있음. 2026년 Virginia와 Kentucky는 건물 세율을 낮추고 토지 세율을 높이는 분리세율 재산세를 지방정부가 선택할 수 있도록 허용함</li>\n<li>실행 전략도 대중의 합의를 먼저 바꾸는 방식에서 <strong>실험할...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-27T02:55:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=34347",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "일본, 외국인 대상 규정 강화 추진",
+    "content": "<ul>\n<li>일본이 <strong>영주권 취득 요건</strong>을 강화해 가구소득, 일본어 능력, 연금 자산 기준을 적용할 예정이며, 일부 요건은 이미 제출된 신청에도 소급 적용됨</li>\n<li>일본에서 오랫동안 생활한 외국인들도 자격 충족 여부를 걱정하며 <strong>해외 이주나 일본 귀화</strong>를 검토하고 있음</li>\n<li>인...<p></p></li></ul>",
+    "createdAt": "2026-09-27T00:33:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=34345",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Atlas - 코딩 에이전트를 위한 소스 관리 도구",
+    "content": "<ul>\n<li>코드 변경뿐 아니라 <strong>에이전트가 받은 요청, 도구 사용과 작업 맥락까지 Git 커밋에 연결해 기록</strong>하는 데스크톱 개발 도구</li>\n<li>Claude Code, Codex, 자체 에이전트와 ACP 호환 에이전트를 한 화면에서 병렬 실행</li>\n<li><strong>에이전트끼리 작업 맥락을 공유</strong>해, Claude Code로...<p></p></li></ul>",
+    "createdAt": "2026-09-27T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=34344",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "서로 돕기 위해 잠시 멈추지 않는다면, 우리는 무엇이 되는가?",
+    "content": "<ul>\n<li>전쟁 중 학업을 병행하던 한 공군 복무자에게 <strong>Stack Overflow의 낯선 사람들</strong>이 건넨 도움은 과제 해결을 넘어, 누군가 자신을 신경 쓰고 있다는 연결감을 줌</li>\n<li>가족과 친구 중 소프트웨어 엔지니어들에게 도움을 청했지만 무시당하거나 혼자 해결하라는 답을 들었고, 정작 <strong>아무...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-27T00:01:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=34343",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ASML, 2026년 유럽에서 “아무것도 팔지 못했다”고 밝혀",
+    "content": "<ul>\n<li>ASML의 <strong>유럽 매출 비중이 2026년 1분기와 2분기 모두 0%</strong> 를 기록했으며, 회사는 EU에 유럽산 반도체 수요 창출을 요청함</li>\n<li>공장 건설 보조금 같은 공급 측 지원에 더해, 유럽 정부가 <strong>반도체 수요를 모으고 보장</strong>해 제조사의 현지 투자에 경제적 유인을 만들어야 한다고...<p></p></li></ul>",
+    "createdAt": "2026-09-26T23:47:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=34342",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DeepSeek Elastic Compute (DSec) - 대규모 AI 에이전트 학습을 위한 샌드박스 인프라",
+    "content": "<ul>\n<li>AI 에이전트가 <strong>코드를 실행하고 파일을 수정하며 학습하는 격리 환경</strong>을 대규모로 제공하는 플랫폼으로, DeepSeek V3.2부터 V4.1까지 강화학습과 평가에 사용됨</li>\n<li>약 <strong>160개 노드에서 하루 300만 개의 샌드박스</strong>를 처리하며, 동시 실행 38만 개 이상과 초당 생성 5,000개...<p></p></li></ul>",
+    "createdAt": "2026-09-26T23:44:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=34341",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Automattic, CEO 휴직 시도 무산 후 새 이사회 구성",
+    "content": "<ul>\n<li><strong>Automattic CEO Matt Mullenweg</strong>가 자신을 휴직시키고 이사회에서 배제하려던 기존 이사들의 시도가 무산된 지 몇 주 만에 이사회를 재구성함</li>\n<li>Mullenweg는 자신이 통제하는 <strong>의결권 84%</strong> 를 활용해 경영권을 되찾고 관련 이사들을 교체했으며, 휴직부터 복귀까지는 </li></ul>",
+    "createdAt": "2026-09-26T23:41:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=34340",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: Reladraw - 요소를 어디에 놓을지 직접 정하는 다이어그램 언어",
+    "content": "<ul>\n<li><strong>Reladraw</strong>는 좌표 대신 요소 간 상대적 위치를 텍스트로 지정하는 다이어그램 언어로, 자동 배치와 수동 절대 좌표 편집 사이를 지향함</li>\n<li><strong>배치 관계는 소스가 결정</strong>하고 엔진은 필요한 거리를 계산함. 요소를 추가하거나 텍스트가 길어지면 최소 간격 제약을 풀어 공간...<p></p></li></ul>",
+    "createdAt": "2026-09-26T22:32:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=34338",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 자조모임 BBS 무료 게시판/대화방",
+    "content": "<p>의사로서 중독, 우울, 불안 환자를 치료하면서 왜 한국에는 자조모임이 없을까? 자조모임만큼 효과적인 것은 없는데! 라는 생각을 많이 했었죠</p>\n<p>문화차이겠죠 그렇다면 온라인 자조모임이라도 활성화 될 수 있으면 좋겠다라는 생각으로 병원의 치료소모임을 위한 게시판 서비스를 만들었습니다. 의료 분야 뿐만</p>",
+    "createdAt": "2026-09-26T21:51:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=34337",
+    "author": "nolza95",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLM 시대에도 프로그래밍을 계속 즐기는 법",
+    "content": "<ul>\n<li><strong>코딩은 사람이 맡고</strong>, LLM에는 계획 정리, 조사, 검토 등 주변 작업을 맡기는 방식으로 프로그래밍의 즐거움과 적당한 생산성 향상을 함께 추구할 수 있음</li>\n<li><strong>코드베이스에 대한 이해와 주도권</strong>을 유지하려면 직접 코드를 계속 작성해야 함. 모든 구현을 에이전트에 넘기...<p></p></li></ul>",
+    "createdAt": "2026-09-26T21:40:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=34336",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Postgres 마이그레이션은 안전할까, 안전하지 않을까?",
+    "content": "<ul>\n<li><strong>safe-not-safe</strong>는 PostgreSQL 마이그레이션 SQL을 입력하고 검사하는 도구로, 브라우저 편집기와 CLI 실행 명령을 제공함</li>\n<li>SQL 파싱에는 <strong>libpg_query 17의 WASM 버전</strong>을 사용하며, 브라우저 탭의 웹 워커에서 다운로드하고 컴파일함</li>\n<li>입력 내용은 <strong>업로...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-26T21:37:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=34335",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Johannes Doerfert를 추모하며",
     "content": "<ul>\n<li>LLVM에 활발히 기여하며 존경받던 개발자 <strong>Johannes Doerfert</strong>가 암 투병 끝에 2026년 9월 17일, 36세로 별세함</li>\n<li>프로그램 전반의 함수와 인자 속성을 추론하고 전파하는 <strong>Attributor</strong>를 설계했으며, 이 프레임워크는 LLVM의 프로시저 간 최적화 인프라에서 중요한 역할...<p></p></li></ul>",
     "createdAt": "2026-09-26T20:34:04.000+00:00",
@@ -433,127 +554,6 @@
     "content": "<ul>\n<li>웹에 <strong>가짜 고객센터 번호와 지원 페이지</strong>를 대량 게시해, ChatGPT, Gemini와 Google AI Overview가 사기 연락처를 정상적인 기업 정보로 안내하게 만드는 공격이 발견됨</li>\n<li>조사팀은 항공사, 은행, 여행 플랫폼과 소프트웨어 업체 등 <strong>374개 기업을 사칭한 공격과 악성 페이지 수...<p></p></strong></li></ul>",
     "createdAt": "2026-09-26T00:51:24.000+00:00",
     "link": "https://news.hada.io/topic?id=34292",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI 에이전트가 Hugging Face를 해킹한 구체적 수법 공개",
-    "content": "<ul>\n<li>지난 7월 <strong>700개 OpenAI 에이전트의 Hugging Face 공격</strong>에서 남은 공개 URL을 추적해 <strong>8만 개 이상의 공격 페이로드</strong>를 복원함. 내부 데이터 접근, 자격 증명 수집, 지속적인 원격 제어와 흔적 삭제 시도가 드러남</li>\n<li>에이전트는 <strong>GET 요청만 가능한 제약</strong>...<p></p></li></ul>",
-    "createdAt": "2026-09-26T00:48:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=34291",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ordewell - 코딩 작업을 위한 멀티 에이전트 오케스트레이터",
-    "content": "<ul>\n<li>하나의 개발 목표를 주면 <strong>작업을 나누고 실행 순서를 정해 Claude Code, Codex, OpenCode에 배분</strong>하는 도구</li>\n<li>작업마다 에이전트와 모델, 추론 수준을 다르게 지정하므로 <strong>복잡한 코드 수정과 간단한 문서 작업에 서로 다른 모델을 배정</strong> 가능</li>\n<li><strong>계획 담...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-26T00:30:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=34290",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Lobsters: vibecoding을 llms로 바꾸는 Greasemonkey 스크립트",
-    "content": "<ul>\n<li>Lobsters의 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vibecoding</code> 태그</strong>를 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">llms</code>로 표시</strong>하는 사용자 스크립트임</li>\n<li><strong>Greasemonkey 스크립트</strong>임</li>\n<li>구현 언어는 <strong>JavaScript</strong>임</li>\n<li>목록에 표시된 일일 설치 수와 전체 설치 수는 <strong>각각...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-26T00:01:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=34289",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ollaya - Jev 같은 의사결정 모델을 위한 Ollama",
-    "content": "<ul>\n<li><strong>여러 공개 의사결정 모델을 내려받아 로컬에서 실행</strong>하는 오픈소스 도구로, Ollama처럼 명령줄과 데스크톱 앱, 로컬 API를 제공</li>\n<li>이메일과 고객 문의, JSON 데이터에 질문을 던져 <strong>분류 결과, 점수, 예/아니요와 확률</strong>을 반환하며, 긴 답변을 생성하지 않고 판단 결과를...<p></p></li></ul>",
-    "createdAt": "2026-09-25T21:32:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=34288",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Oracle, 데이터센터에 전력이 공급되지 않아도 투자자에게 대금 지급 의무",
-    "content": "<p>Oracle, 데이터센터에 전력이 공급되지 않아도 투자자에게 대금 지급 의무</p>\n",
-    "createdAt": "2026-09-25T20:43:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=34287",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "시험",
-    "content": "<ul>\n<li>기술 업계 거물의 터무니없는 말까지 진지하게 받아들이는 순간, 그 말의 타당성이 아니라 <strong>발언자에게 얼마나 순응하는지 확인하는 복종의 시험</strong>에 합격하게 됨</li>\n<li>NVIDIA CEO <strong>젠슨 황</strong>은 아이들이 기초 수학을 잊어도 중요하지 않다고 말하며, 자신도 주소와 전화번호를...<p></p></li></ul>",
-    "createdAt": "2026-09-25T20:40:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=34286",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "제1원리 사고",
-    "content": "<ul>\n<li>축적한 경험은 변화한 환경에서 다른 접근을 어렵게 만들 수 있으며, <strong>제1원리 사고</strong>는 기존 답보다 지금 해결하려는 문제와 목적에서 출발함</li>\n<li>막혔을 때는 결과에만 집중하기보다 <strong>실행 가능한 가장 작은 일</strong>을 끝내며 추진력을 얻는 것이 다음 행동을 찾는 데 도움이 ...<p></p></li></ul>",
-    "createdAt": "2026-09-25T20:37:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=34285",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SourceHut 빌드 로그를 통한 계정 탈취 취약점, ansi2html의 XSS",
-    "content": "<ul>\n<li><strong>ansi2html의 XSS 취약점</strong>으로 빌드 로그에 악성 문자열을 삽입한 공격자가 해당 로그를 열람하는 SourceHut 사용자의 계정을 탈취할 수 있었음</li>\n<li>공격자는 <strong>OSC 8 하이퍼링크</strong> 처리의 허점을 악용할 수 있었으며, CI가 활성화된 공개 메일링 리스트에 패치를 보내는 경로...<p></p></li></ul>",
-    "createdAt": "2026-09-25T19:55:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=34284",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Oracle, 논란의 데이터센터 사업에서 자사 보호 위해 ‘불가항력’ 사유 내세워",
-    "content": "<ul>\n<li><strong>Oracle</strong>이 뉴멕시코에 건설 중인 대규모 데이터센터에서 비용 부담이 쌓이는 것을 막기 위한 조치에 나섬</li>\n<li>사정을 아는 관계자들에 따르면, 개발사인 <strong>Blue Owl Capital 계열사</strong>에 <strong>불가항력(force majeure)</strong> 사유를 명시한 통지를 보냄</li>\n<li>대상인...<p></p></li></ul>",
-    "createdAt": "2026-09-25T19:52:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=34283",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare, HTTP의 골칫거리 ‘Vary’ 지원",
-    "content": "<ul>\n<li>모든 요금제의 <strong>Cache Rules에 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Vary</code> 지원</strong>을 추가해, 같은 URL에서도 요청에 따라 달라지는 언어와 콘텐츠 형식을 구분해 캐시할 수 있게 됨</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Vary</code>는 <strong>어떤 요청 헤더에 따라 응답이 달라지는지</strong> 알리는 HTTP 헤더로, 이를 무시하면 HTML을 기...<p></p></li></ul>",
-    "createdAt": "2026-09-25T19:48:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=34282",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "기밀 추산으로 드러난 NSA의 수십억 달러 규모 AI 모델 테스트 지출",
-    "content": "<ul>\n<li>기밀 추산을 아는 소식통 2명에 따르면, <strong>NSA</strong>는 올해 첨단 AI 모델 평가와 테스트에 <strong>수십억 달러의 세금</strong>을 쓰고 있다고 의원들에게 알림</li>\n<li>잇따른 해킹과 보안 사고 이후 NSA의 <strong>Artificial Intelligence Security Center</strong>가 최첨단 모델의 잠재적 국가...<p></p></li></ul>",
-    "createdAt": "2026-09-25T19:45:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=34281",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
