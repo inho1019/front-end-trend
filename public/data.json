@@ -1,7 +1,205 @@
 [
   {
+    "title": "Rust에서 Arc 다운캐스팅을 갈망하며",
+    "content": "<ul>\n<li>동시성 캐시의 큰 값을 매번 복제하는 대신 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Arc</code></strong> 를 사용하면, 전체 데이터를 복제하지 않고 읽기 접근이 가능한 소유 값을 저렴하게 복제할 수 있음</li>\n<li>하지만 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Arc</code> 내부의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">String</code></strong> 을 패턴 매칭으로 꺼내 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Ar...<p></p></code></li></ul>",
+    "createdAt": "2026-09-30T04:04:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=34532",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 내일쓰기 - 글 없이 감정과 깊이만 골라도 기록할 수 있는 감정 일기 앱",
+    "content": "<p>안녕하세요. 감정 일기 앱 ‘내일쓰기’를 만들고 있습니다.</p>\n<p>상담을 받으며 매일 감정을 적어보라는 권유를 받았는데, 정작 힘든 날에는 한 줄도 쓰기 어려웠습니다. 쓸 말이 없어서가 아니라 문장으로 정리할 기운이 없었습니다. 그런 날에도 기록을 남길 수 있으면 좋겠다는 생각으로 시작했습니다.</p>\n<p></p>",
+    "createdAt": "2026-09-30T03:48:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=34531",
+    "author": "kyo3553",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Conn - AI와 함께 쓰고, 언제든 내가 끼어드는 터미널",
+    "content": "<p>회사 사내망에서는 GitHub Copilot만 쓸 수 있어 터미널을 연결해 작업을 맡겨봤습니다. 원치 않는 스크립트를 실행하는데, 위험한 명령을 막거나 중간에 끼어들기가 어렵더군요.</p>\n<p>iTerm MCP도 고려했지만, 제가 필요했던 건 명령에 규칙을 정하고 언제든 직접 개입할 수 있는 터미널이었습니다. 그래서 Conn을</p>",
+    "createdAt": "2026-09-30T03:39:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=34530",
+    "author": "eggplantiny",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, Jev와 경쟁할 Luna 기반 Decision API 공개",
+    "content": "<ul>\n<li>OpenAI가 DevDay에서 소형 모델 Luna 기반의 Decision API를 공개</li>\n<li>개발자가 질문, 답변 후보, 맥락을 입력하면 미리 정한 답변 후보에 신뢰도 점수를 제공하는 방식</li>\n<li>주요 활용처는 콘텐츠 분류, 요청 라우팅, AI 에이전트의 다음 행동 선택</li>\n<li>OpenAI 발표 기준 응답 시간은 <strong>1...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-30T03:27:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=34528",
+    "author": "stevenk",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Barracks - macOS에서 여러 Claude/ChatGPT 앱 돌리기",
+    "content": "<p>Claude(Code) &amp; ChatGPT(Codex)를 CLI 대신 앱으로 쓰기 시작한 지 좀 됐는데 두 앱 모두 앱 내 계정 스위치를 지원하지 않아 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--user-data-dir</code>를 설정해서 띄우는 방식으로 여러 인스턴스를 띄워 사용했으나 관리가 귀찮고 앱 업데이트 때마다 다른 앱을 끄기 전까지 업데이트가 되지 않거나 앱이 튕...</p>",
+    "createdAt": "2026-09-30T03:03:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=34527",
+    "author": "ssssut",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: KeyHue — 타이핑하기 전에, 지금 한글인지 영문인지 화면 하단에 색으로 알려주는 macOS 메뉴바 앱",
+    "content": "<p>한/영을 오가며 작업하다 보면 터미널 명령이나 검색어를 엉뚱한 언어로 쳐서 다시 입력하는 일이 잦아서 만들었습니다. 메뉴바의 입력 소스 표시는 작아서 잘 안 보이더라고요.</p>\n<p>KeyHue는 macOS에서 실제로 선택된 입력 소스를 화면 가장자리의 얇은 색 라인으로 표시하는 메뉴바 앱입니다. 한/영 키를 눌렀는</p>",
+    "createdAt": "2026-09-30T02:47:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=34525",
+    "author": "sanaes",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 우편수사 당국, 위조 우편요금 라벨 판매 웹사이트 폐쇄",
+    "content": "<ul>\n<li>미국 우편수사국과 협력 연방기관이 <strong>LabelsBank.com의 도메인을 압류하고 사이트를 폐쇄</strong>했으며, 운영 혐의를 받는 파키스탄 국적자를 기소함</li>\n<li>이 사이트는 USPS의 판매 허가 없이 소포의 무게, 크기, 목적지와 관계없이 통상 <strong>장당 2달러</strong>에 위조 우편요금 라벨을 판매...<p></p></li></ul>",
+    "createdAt": "2026-09-30T02:32:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=34522",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI중심대학 18곳 출범, 전교생 AI 기초교육 의무화",
+    "content": "<ul>\n<li>정부가 <strong>AI중심대학 18곳과 AX대학원 15곳</strong>의 사업을 시작해, 대학 교육 전반의 AI 전환과 산업 현장에 필요한 AI 융합인재 양성을 추진</li>\n<li>AI중심대학은 <strong>전교생 AI 기초교육을 의무화</strong>하고, AI 전공교육 강화와 각 전공에 AI를 접목한 융합교과목 신설을 추진</li>\n<li>...<p></p></li></ul>",
+    "createdAt": "2026-09-30T02:15:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34521",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "메타·네이버, AI 안경에 네이버지도 도보 길안내 연내 도입",
+    "content": "<ul>\n<li><strong>레이밴 메타와 오클리 메타 AI 안경</strong>에 네이버지도 기반 실시간 도보 길안내를 연내 도입할 예정</li>\n<li>네이버지도 앱에 안경을 연결하면 <strong>스마트폰 화면을 수시로 보지 않고도</strong> 안경의 오픈이어 스피커로 이동 경로를 안내받을 수 있음</li>\n<li>이동 방향뿐 아니라 </li></ul>",
+    "createdAt": "2026-09-30T02:05:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34520",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Livenerf - Opus 5.5는 벌써 성능이 하향됐을까?",
+    "content": "<ul>\n<li>“출시 직후보다 모델이 나빠졌다”는 체감이 실제 성능 변화인지 확인하기 위해, <strong>같은 문제를 매일 풀게 하고 결과를 비교</strong>하는 벤치마크</li>\n<li>원시 API가 아니라 <strong>Claude Code 구독으로 사용하는 Opus 5.5</strong>를 측정해, 실제 구독 환경에서의 변화를 추적함</li>\n<li>프롬프...<p></p></li></ul>",
+    "createdAt": "2026-09-30T01:33:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=34519",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "9인조 다람쥐 아이돌을 데뷔시켰습니다",
+    "content": "<div><p id=\"3eaa360d-33e3-80e6-b9bb-d039d4fd3e62\"><span><span><span>안녕하세요, 토스뱅크 Visual Designer 고명은입니다. 오늘은 키워봐요 적금의 9가지 다람쥐 캐릭터와, 다람쥐가 돋보이는 화면을 만든 과정을 이야기해 보려고 해요.</span></span></span></p><p id=\"3eaa360d-33e3-8065-87e9-cfde8f036f8f\"><span><span></span></span></p><h2 id=\"3eaa360d-33e3-80b5-a53d-fdcc49728dbd\"><span><span><span>매일 찾아와야 자라는 적금</span></span></span></h2><figure id=\"3eaa360d-33e3-807b-9127-ccb97a6c1d30\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/21b88571-8f63-46cb-9b4c-2dc5a3b53018/1.캐릭터와_이자.mp4\"></video></figure><p id=\"3eaa360d-33e3-8057-851a-dd9f2c08d322\"><span><span><span>키워봐요 적금은 캐릭터를 직접 키우면서 저금하는 적금이에요. 키우고 싶은 캐릭터를 정할 수 있고, 저금할 때마다 자라서 만기 때는 최종 형태로 진화하죠.</span></span></span></p><p id=\"3eaa360d-33e3-80f6-91d7-d160ca7b509a\"><span><span><span>초기 버전은 가입만 하면 그 뒤로는 사용자가 앱에 오지 않아도 자동이체를 통해 캐릭터가 알아서 자랐어요. 시간이 지날수록 리텐션이 떨어졌죠. 매일 들여다볼 이유가 없으니, 가입한 뒤 점점 잊히는 적금이 된 거예요.</span></span></span></p><p id=\"3eaa360d-33e3-8059-8d80-cabb104cbc2c\"><span><span><span>그래서 새로운 버전에서는 정반대로 설계하고자 했어요. 자동이체 없이 사용자가 직접 저금해야만 캐릭터와 이자가 자라도록요.</span><span> 이 구조가 효과적이려면 두 가지가 필요했어요. 첫 번째, 캐릭터 자체가 매력적이어서 키우고 싶어야 할 것. 두 번째, 내가 직접 키우고 있다는 감각이 전달될 것. 저는 최종 진화 단계의 다람쥐 9마리와 이 다람쥐들을 키우는 화면을 만드는 일을 담당하게 됐어요.</span></span></span></p><p id=\"3eaa360d-33e3-800c-a11e-ebc2d67cf841\"><span><span></span></span></p><h2 id=\"3eaa360d-33e3-8072-89b3-fcb53a84d51c\"><span><span><span>101명의 연습생에서 9명의 데뷔조까지</span></span></span></h2><p id=\"3eaa360d-33e3-80b2-9e08-e7c5ce6b8865\"><span><span><span>짧은 시간 안에 최대한 많은 시안을 만들어보고 좋은 캐릭터를 찾아야 했기 때문에 AI를 적극적으로 활용했어요. </span></span></span></p><p id=\"3eaa360d-33e3-8061-88c9-f41876f303ee\"><span><span></span></span></p><p id=\"3eba360d-33e3-80f5-93d9-ced218394d73\"><span><span><span>9마리가 저마다 다른 매력을 갖게 하고 싶었어요.</span><span> 성공한 9인조 아이돌처럼, 누구에게 물어봐도 최애가 갈릴 만큼 멤버의 개성이 뚜렷하면서도 한데 모아놓으면 한 팀처럼 보이길 바랐죠.</span></span></span></p><p id=\"3eba360d-33e3-80d5-83ab-e3abe91259d2\"><span><span><span>그런데 이 다람쥐들은 단순히 9가지 캐릭터를 만드는 게 아니었어요. </span><span>31일 동안 쌓인 매력·지혜·힘 스탯에 따라 최종 모습이 결정되는 구조</span><span>였거든요. 그래서 캐릭터를 먼저 그리기보다, </span><span>각 스탯이 쌓였을 때 어떤 성격과 매력을 가진 다람쥐가 나와야 할지부터 정했어요.</span><span> 귀여운 애, 초현실적인 애, 강인한 애처럼 각자 어떤 개성을 가질지 정하고, 그에 맞춰 캐릭터의 콘셉트를 만들어갔어요.</span></span></span></p><figure id=\"3eaa360d-33e3-80b5-96ae-dd1a580eac53\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/2d172961-0f03-468c-b74c-d10d893f13d4/2.캐릭터_컨셉.mp4\"></video></figure><p id=\"3eba360d-33e3-80ab-a81a-f52419d31560\"><span><span></span></span></p><p id=\"3eba360d-33e3-80f7-9e99-d3508e2c79ba\"><span><span><span>예를 들어 지혜와 힘이 함께 쌓이면 똑똑하면서도 강인한 우주비행사로, 매력만 쌓이면 무대 위의 아이돌로 표현하는 식이었어요. </span><span>캐릭터마다 어떤 모습과 이야기를 가질지 정하고 나니, 프롬프트에 담아야 할 요소도 자연스럽게 정해졌어요.</span><span> 표정과 의상, 소품부터 조명까지 모두 캐릭터의 설정에서 가져왔죠.</span></span></span></p><p id=\"3eba360d-33e3-80d1-8a1c-e29865e51398\"><span><span><span>처음부터 잘 짜인 프롬프트가 있었던 건 아니에요. 노드 기반 AI 이미지 툴에서 여러 번 테스트하면서, 모든 캐릭터에 공통으로 들어가는 고정 문장과 캐릭터마다 바꿔 넣는 빈칸으로 나눈 뼈대를 만들었어요.</span></span></span></p><p id=\"3eba360d-33e3-8047-a011-e714d652101b\"><span><span></span></span></p><figure id=\"3eaa360d-33e3-8075-80f4-c5f59ed8476b\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/1c61cf95-b20c-49fd-ad0a-b8a011decab5/3.노드.png\" alt=\"\"></figure><p id=\"3eaa360d-33e3-806b-8aae-dff682b92c4c\"><span><span><span>뼈대가 잡히자 속도가 확 빨라졌어요. 서핑 다람쥐를 아이돌 다람쥐로 바꾸고 싶으면 새 프롬프트를 쓸 필요 없이 빈칸만 갈아 끼우면 됐거든요. 처음에는 백 장을 뽑아야 쓸 만한 하나가 나왔다면, 나중에는 서른 장, 더 나중에는 두세 장만으로도 그럴싸한 다람쥐 연습생을 캐스팅할 수 있었어요.</span></span></span></p><p id=\"3eaa360d-33e3-8064-8842-e842e68e6ec3\"><span><span></span></span></p><p id=\"3eaa360d-33e3-8002-b01d-c105ffa1af5a\"><span><span></span></span></p><p id=\"3eaa360d-33e3-801d-9490-ccf4e740431e\"><span><span></span></span></p><p id=\"3eaa360d-33e3-80f0-b0ce-fea6b0c27f60\"><span><span></span></span></p><p id=\"3eaa360d-33e3-80bf-b65e-cf477c1b9e11\"><span><span><span>AI가 만들어준 캐릭터는 바로 데뷔시킬 정도로 완성도가 높지는 않았어요.</span></span></span></p><p id=\"3eaa360d-33e3-804a-9d6a-cf05a9afe3e4\"><span><span><span>캐릭터를 조금이라도 만져본 분이라면 아실 거예요. </span><span>표정의 작은 픽셀 하나, 캐릭터가 입은 옷과 손에 든 아이템 하나가 캐릭터의 인상을 크게 좌우해요.</span></span></span></p><p id=\"3eaa360d-33e3-80d1-89be-e72c2d629b7d\"><span><span><span>게다가 이 다람쥐들은 손바닥만 한 앱 화면 한가운데에 작게 들어가요. 작게 들어가는 리소스일수록 디테일이 뭉개지기 쉽고, 뭉개진 디테일은 곧 뭉개진 인상이 돼요. 결국 이 작업은 처음부터 끝까지 디테일 싸움이었어요.</span></span></span></p><figure id=\"3eaa360d-33e3-800e-81fe-cb1f8dcaf3c9\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/e20bfa2b-2277-48f5-812c-6a54b8edb9a5/4.캐릭터_수정과정.webp\" alt=\"\"></figure><p id=\"3eba360d-33e3-801a-b8d4-e88ac5ee3646\"><span><span><span>처음에는 좋은 부분들을 하나씩 얹으며 작업했어요. 질감과 장식, 소품을 겹겹이 쌓을수록 캐릭터는 화려해졌죠. 그런데 실제 앱 화면에 들어가는 크기로 줄여보면 오히려 인상이 흐려지는 경우가 많았어요. 요소들이 서로를 가려서, 뭉개지는 정도가 아니라 하나로 뭉쳐 보였거든요.</span></span></span></p><p id=\"3eba360d-33e3-80e0-9333-f51c784e7f9c\"><span><span><span>그래서 어느 순간부터 ‘무엇을 더 넣을지’보다 ‘무엇을 남길지’를 먼저 생각했어요.</span></span></span></p><p id=\"3eba360d-33e3-80ec-81f0-c18c3a8121da\"><span><span><span>작은 화면에서도 가장 먼저 보여야 하는 표정과 실루엣은 남기고, 캐릭터의 인상을 흐리는 장식이나 디테일은 덜어냈어요. 많이 넣는 것보다 작은 화면에서도 캐릭터의 매력이 선명하게 보이는 것이 더 중요했으니까요.</span></span></span></p><p id=\"3eba360d-33e3-805c-b3d8-e46b77e8ce62\"><span><span><span>AI로 수많은 캐릭터를 빠르게 만들어볼 수 있었지만, 그중에서 무엇을 남기고 어떻게 다듬을지는 결국 디자이너가 판단해야 했어요.</span></span></span></p><p id=\"3eaa360d-33e3-801e-aa23-ed46d7b52d0f\"><span><span></span></span></p><p id=\"3eaa360d-33e3-8014-845c-e6e9c6590951\"><span><span><span>다람쥐는 31일 동안 여러 단계를 거쳐 자라고, 마지막에야 아홉 가지 모습 중 하나로 진화해요. 최종 진화형은 혼자 존재하는 그림이 아니라, 이전 단계의 다람쥐에서 이어지는 마지막 장면이었던 거예요.</span></span></span></p><figure id=\"3eaa360d-33e3-809a-ad85-cd51e177c13b\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/848ba1b7-8933-47e5-a3ca-a5e06afe8f5d/5.계승한_것.mp4\"></video></figure><p id=\"3eba360d-33e3-8047-ae07-c2d2ef811d48\"><span><span><span>여기서 어려웠던 건 </span><span>‘내가 키우던 다람쥐’라는 느낌과 ‘드디어 진화했다’는 느낌을 동시에 만드는 것</span><span>이었어요. 이전 단계와 너무 비슷하면 진화한 느낌이 없고, 너무 다르면 전혀 다른 캐릭터처럼 보이니까요.</span></span></span></p><p id=\"3eba360d-33e3-80bb-afff-dbea36d3fd90\"><span><span><span>그래서 몸의 비율과 귀, 꼬리, 일부 이목구비의 모양은 그대로 가져갔어요. 대신 피부색과 옷, 아이템처럼 캐릭터의 성격을 보여주는 요소는 크게 바꿨어요. 익숙한 형태는 이어가면서도, 31일 동안 키운 결과는 확실히 느껴지도록 한 거죠.</span></span></span></p><p id=\"3eaa360d-33e3-8080-8a81-d1b3dea3eb5f\"><span><span></span></span></p><figure id=\"3eaa360d-33e3-8015-ad95-ccf3374c800b\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/25fd626f-b930-4105-94fe-40c127ab47d0/6.최종캐릭터.png\" alt=\"\"></figure><p id=\"3eba360d-33e3-803e-9413-f9a88a8eb767\"><span><span><span>그렇게 디테일까지 다듬은 아홉 마리를 나란히 놓아봤어요. 한 팀으로 보이면서도 각자의 개성은 분명했어요. 팀에 공유했을 때도 다들 서로 다른 다람쥐를 최애로 꼽았고요.</span></span></span></p><p id=\"3eba360d-33e3-80ac-8d35-c013ddc5a011\"><span><span><span>그렇게 9명의 데뷔조가 확정됐어요.</span></span></span></p><p id=\"3eaa360d-33e3-80ca-a02e-dc95daccf295\"><span><span></span></span></p><h2 id=\"3eaa360d-33e3-8029-9303-cb235f4f05cd\"><span><span><span>캐릭터가 주인공인 무대 만들기</span></span></span></h2><p id=\"3eba360d-33e3-8081-a0d1-d14a28dffe50\"><span><span><span>다람쥐가 완성됐다고 끝이 아니었어요. 일반적인 적금 화면에 다람쥐를 올려보니 캐릭터만 스티커처럼 붕 떠 보였어요. 반대로 게임처럼 배경의 밀도를 높이면 캐릭터에 집중하기 어렵고 화면이 오히려 올드해 보였고요.</span></span></span></p><p id=\"3eba360d-33e3-80ba-b21c-ea7aedefbfa2\"><span><span><span>기존의 UI 문법 위에 캐릭터만 얹어서는, 다람쥐가 주인공인 화면을 만들 수 없었어요. 다람쥐는 다람쥐대로, UI는 UI대로 따로 놀았죠.</span></span></span></p><p id=\"3eba360d-33e3-80c0-a6d9-f1e66677289b\"><span><span><span>그래서 이 적금만을 위한 작은 디자인 시스템과 UI 프로토타입을 새로 만들었어요. 진행 바와 선택 영역부터 레벨과 스탯을 보여주는 캐릭터 상태창까지, 캐릭터를 중심으로 화면의 구조와 디테일을 다시 잡았어요.</span></span></span></p><figure id=\"3eaa360d-33e3-805f-a0e8-d8b32326272d\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/c233b2cd-adcf-439b-b64e-ccfbf114e8e6/7.ui디테일.mp4\"></video></figure><ul><li id=\"3eba360d-33e3-80a3-ae1d-e2ab34313644\"><span><span><span>모은 돈은 가장 위에, 가장 크게</span></span></span><div><p id=\"3eba360d-33e3-80f7-8bbe-fb1c732637ed\"><span><span><span>게임처럼 보여도 이건 적금이에요. 그래서 계좌에 모인 금액은 화면 맨 위에 가장 큰 숫자로 뒀어요. 캐릭터를 키우다가도 눈을 들면 내가 모은 돈이 얼마나 되는지 바로 알 수 있게 했어요.</span></span></span></p></div></li><li id=\"3eba360d-33e3-8049-9d0b-d79c21f68c04\"><span><span><span>그림자로 공간감을 줬어요</span></span></span><div><p id=\"3eba360d-33e3-80b7-afd4-c93fbdb125ce\"><span><span><span>캐릭터가 허공에 떠 보이지 않도록 발밑에 그림자를 깔았어요. 말풍선에도 은은한 그림자를 넣어 영역을 구분하고, 화면에 깊이감을 더했어요.</span></span></span></p></div></li><li id=\"3eba360d-33e3-8004-8bbf-d9fcd8de27f8\"><span><span><span>상태창 하나에 필요한 정보를 담았어요</span></span></span><div><p id=\"3eba360d-33e3-803a-9818-ccb259849120\"><span><span><span>레벨과 이름, 세 가지 스탯, 다음 진화까지 남은 날을 하나의 상태창에 묶었어요. 진행 바에는 발자국 아이콘을 넣어 다람쥐가 지금까지 걸어온 길처럼 읽히게 했고요.</span></span></span></p></div></li><li id=\"3eba360d-33e3-8018-a9e2-d8eb866490c8\"><span><span><span>선택지와 스탯을 같은 언어로 연결했어요</span></span></span><div><p id=\"3eba360d-33e3-80ad-a395-f4755744dd29\"><span><span><span>설명을 읽지 않아도 ‘이걸 고르면 이 스탯이 오른다’는 걸 알 수 있도록, 선택지 옆의 매력·지혜·힘 아이콘과 상태창의 스탯 아이콘을 같은 모양으로 만들었어요.</span></span></span></p></div></li></ul><p id=\"3eaa360d-33e3-80f1-ba7d-f0103de48fcb\"><span><span></span></span></p><p id=\"3eba360d-33e3-8054-805a-c53f8997d5d2\"><span><span><span>캐릭터와 말풍선 사이의 간격, 스탯과 진행 바의 정렬도 픽셀 단위로 맞췄어요. 하나만 보면 티가 나지 않지만, 이런 요소가 조금씩 어긋나면 화면 전체가 조립한 것처럼 보이거든요.</span></span></span></p><p id=\"3eba360d-33e3-8048-9a68-fa60549b7be7\"><span><span><span>캐릭터를 UI에 올려놓는 것이 아니라, UI 전체가 캐릭터를 하나의 주인공으로 만들어주는 것.</span><span> 그게 이 화면을 만들면서 가장 중요하게 생각한 부분이었어요.</span></span></span></p><p id=\"3eaa360d-33e3-80ca-bbd6-db9af22e4958\"><span><span></span></span></p><p id=\"3eaa360d-33e3-80ba-9169-cc35253d8530\"><span><span></span></span></p><h2 id=\"3eaa360d-33e3-8004-927f-ee1cfaeae0dd\"><span><span><span>매일 찾아오게 만드는 인터랙션</span></span></span></h2><p id=\"3eba360d-33e3-80f8-8f01-ed08db265c10\"><span><span><span>무대 세팅까지 끝! 다음 단계는 다람쥐와 사용자 사이의 인터랙션을 설계하는 것이었어요.</span></span></span></p><p id=\"3eba360d-33e3-8004-a5bb-fb2f47bb28dd\"><span><span><span>다람쥐와 무대가 아무리 매력적이어도, 오늘 저금한 일이 별다른 경험으로 남지 않으면 금방 지루해질 수 있어요. </span><span>키우고 싶은 마음은 31일 뒤의 최종 모습이 아니라, 오늘 한 번의 저금에서도 생겨야 했어요.</span><span> 그래서 선택지를 고르는 그 한 번의 탭에 화면 전체가 대답하도록 만들었어요.</span></span></span></p><p id=\"3eba360d-33e3-809d-8091-c5b00e160c9a\"><span><span><span>단순히 캐릭터를 잘 만드는 데서 끝내지 않고, 이 캐릭터를 어떻게 보고, 키우고, 다시 만나게 할지까지 고민한 거예요.</span></span></span></p><figure id=\"3eaa360d-33e3-80db-a864-f4fc1fe80827\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/66b17616-8d90-4165-af49-a8ff16db471e/8.인터랙션.mp4\"></video></figure><p id=\"3eba360d-33e3-8050-8785-c1fa0b793e4d\"><span><span><span>탭하는 순간 저금액과 스탯 숫자가 함께 올라가요. 오늘 넣은 돈이 그대로 다람쥐의 성장으로 이어지는 걸 한눈에 볼 수 있게 했어요.</span></span></span></p><p id=\"3eba360d-33e3-80a6-b8b9-e9d4eacba6b4\"><span><span><span>숫자만 변하는 것도 아니에요. 성장 단계마다 여러 가지 캐릭터 모션을 만들어, 저금할 때마다 다람쥐가 다르게 반응하도록 했어요. 내가 한 행동에 캐릭터가 바로 반응하니, 다람쥐와 함께 무언가를 쌓아가는 느낌이 들도록 한 거죠.</span></span></span></p><figure id=\"3eaa360d-33e3-8048-8c31-d68918617793\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/7ed1c2d3-88d5-412f-8d95-9d0d3f6031f4/9.캐릭터_모션_에셋들.mp4\"></video></figure><figure id=\"3eaa360d-33e3-809d-8981-edea4977c4b5\"><video muted=\"\" loop=\"\" autoplay=\"\" playsinline=\"\"><source src=\"https://static.toss.im/ipd-tcs/toss_core/live/b03c0890-e11e-4a43-a0f8-441ec8b2e321/10._내일의_기대.mp4\"></video></figure><p id=\"3eba360d-33e3-804e-b92a-dba90b1e7297\"><span><span><span>오늘의 보람만으로 매일 다시 들어올 이유를 만들기는 어려웠어요. 다음 진화까지 얼마나 남았는지도 보여줘야 했어요.</span></span></span></p><p id=\"3eba360d-33e3-8093-a420-c54b44e7f84a\"><span><span><span>그래서 오늘의 대화를 마치면 다람쥐가 걸어가듯 발자국 아이콘이 진행 바를 채워요. 남은 날짜를 단순히 숫자로 보여주는 대신, 다람쥐가 다음 모습에 한 걸음씩 가까워지는 장면으로 표현했어요.</span></span></span></p><p id=\"3eba360d-33e3-8038-bad0-c546b6daccdd\"><span><span><span>오늘 쌓인 저금액과 스탯은 </span><span>오늘의 보람</span><span>이 되고, 다음 진화에 가까워진 모습은 </span><span>내일 다시 들어올 이유</span><span>가 돼요.</span></span></span></p><p id=\"3eba360d-33e3-8008-9514-d8f643bfe2d2\"><span><span><span>매일의 저금이 통장에서 ‘빠져나간 돈’으로만 남는 게 아니라, 다람쥐와 함께 ‘쌓인 뿌듯함’으로 느껴졌으면 했어요.</span></span></span></p><p id=\"3eaa360d-33e3-80b2-9f89-e4f06ede9a9f\"><span><span></span></span></p><p id=\"3eaa360d-33e3-80a8-8ce1-e01243dec06c\"><span><span></span></span></p><p id=\"3eaa360d-33e3-800d-926d-ce9b45573632\"><span><span></span></span></p><p id=\"3eaa360d-33e3-8073-911f-f6b13039bb7b\"><span><span></span></span></p><h2 id=\"3eaa360d-33e3-8038-b4c5-d7a572cbfaf4\"><span><span><span>적용해보기</span></span></span></h2><p id=\"3eba360d-33e3-80e7-804a-c9c34af14568\"><span><span><span>키워봐요 적금을 만들면서 제가 계속 붙들었던 질문들이에요. 캐릭터를 중심으로 서비스를 만들고 있거나, 캐릭터의 매력을 화면과 인터랙션으로 어떻게 보여줄지 고민하고 있다면 이런 질문을 던져보세요.</span></span></span></p><ul><li id=\"3eba360d-33e3-80fc-b153-c789b2a552b9\"><span><span><span>캐릭터의 매력을 화면 전체에서 보여주고 있나요?</span></span></span><div><p id=\"3eba360d-33e3-8077-b3eb-f857fe76437f\"><span><span><span>캐릭터만 바꾸는 게 아니라, 주변의 UI도 캐릭터에 맞게 달라져야 화면 전체가 하나의 경험으로 읽혀요.</span></span></span></p></div></li><li id=\"3eba360d-33e3-8033-91ec-e796ce78f636\"><span><span><span>작은 화면에서 정말 남아야 할 것은 무엇인가요?</span></span></span><div><p id=\"3eba360d-33e3-8082-82c5-f92da56573a2\"><span><span><span>좋은 요소를 계속 더하기보다, 작은 화면에서도 캐릭터의 인상을 가장 잘 보여주는 요소를 남기는 게 중요해요.</span></span></span></p></div></li><li id=\"3eba360d-33e3-8005-84f4-ead484d4cfb9\"><span><span><span>캐릭터와 사용자의 행동이 연결되어 있나요?</span></span></span><div><p id=\"3eba360d-33e3-80a6-a780-f3209cea65a6\"><span><span><span>사용자의 행동에 캐릭터가 바로 반응해야, 캐릭터를 보는 경험이 실제 행동과 자연스럽게 이어져요.</span></span></span></p></div></li></ul><p id=\"3eba360d-33e3-80af-9b51-c6a4becce3a5\"><span><span></span></span></p><p id=\"3eba360d-33e3-80af-8d60-db30238fd5e7\"><span><span></span></span></p></div><div id=\"tds-mobile-portal-container\"></div>",
+    "createdAt": "2026-09-30T01:29:00.000+00:00",
+    "link": "https://toss.tech/article/chipmunk",
+    "author": "",
+    "site": {
+      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
+      "name": "토스 기술블로그"
+    }
+  },
+  {
+    "title": "LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB",
+    "content": "<ul>\n<li>데이터 사이의 <strong>관계 탐색, 의미가 비슷한 문서 검색, 키워드 검색을 하나의 로컬 DB 파일에서 처리</strong>하는 오픈소스 데이터베이스</li>\n<li>별도 서버나 설정 없이 애플리케이션 안에서 실행하며, 데이터베이스를 단일 파일로 보관하고 이동 가능</li>\n<li><strong>벡터 검색으로 비슷한 문서 조...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-30T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34517",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SPA 자동화 테스트를 작성한 경험",
+    "content": "<ul>\n<li>React 기반 오디오 플레이어를 <strong>Playwright와 실제 브라우저로 테스트</strong>하며, 개별 동작보다 가입부터 주요 기능 사용까지 이어지는 전체 사용자 여정을 중시함</li>\n<li>테스트마다 서버와 DB를 따로 띄우는 대신 <strong>같은 DB에서 각자 데이터를 생성</strong>하고, 다른 테스트의 데이터는...<p></p></li></ul>",
+    "createdAt": "2026-09-30T00:08:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=34516",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CoW - Wayland용 스태킹 윈도 매니저",
+    "content": "<ul>\n<li><strong>CoW</strong>는 River를 컴포지터로 사용하는 Wayland용 스태킹 윈도 매니저임</li>\n<li><strong>FVWM과 MWM의 1990년대 룩앤필</strong>을 재현하면서 현대적인 스타일도 허용하는 것을 목표로 함</li>\n<li>직접 실행하는 명령과 설정 파일의 명령이 같으며, 외부 애플리케이션에서 <strong>IPC 스크립...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-30T00:05:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=34515",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "스태프 엔지니어를 위한 일감 발굴 가이드",
+    "content": "<ul>\n<li>엔지니어링 주도 플랫폼 팀에서는 <strong>다음에 무엇을 만들지 스스로 찾아야 하며</strong>, 시스템, 사용자, 조직, 업계에서 개선할 일의 단서를 얻을 수 있음</li>\n<li>장애, 비용, 반복적인 운영 작업은 개선 대상을 드러내지만, <strong>가장 시끄럽고 최근에 발생한 문제</strong>가 가장 큰 기회는 아...<p></p></li></ul>",
+    "createdAt": "2026-09-29T23:41:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=34513",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Anthropic, “GLM-5.3의 익스플로잇 개발 능력은 Mythos Preview에 근접”",
+    "content": "<ul>\n<li>누구나 내려받을 수 있는 공개 가중치 모델 <strong>GLM-5.3가 제한 공개된 Claude Mythos Preview에 근접한 익스플로잇 개발 능력</strong>을 기록함. Anthropic 평가에서 취약점을 찾아 실제 작동하는 공격 코드를 완성함</li>\n<li>Chrome V8 취약점 평가에서 <strong>410회 중 50회 성공</strong>해 Mythos ...<p></p></li></ul>",
+    "createdAt": "2026-09-29T23:38:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=34512",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "America.gov - 미국 정부의 29,000개 웹사이트를 연결하는 AI 안내 서비스",
+    "content": "<ul>\n<li>여권 신청, 사업 등록, 복지 자격처럼 <strong>미국 정부 서비스에 관한 질문</strong>에 답하고, 필요한 절차와 준비물, 방문할 곳을 안내하는 AI 서비스</li>\n<li><strong>29,000개 정부 웹사이트의 정보를 한곳에서 찾도록</strong> 하며, 연방·주·지방 정부의 공식 자료만 답변 출처로 사용하고 원문 링크를...<p></p></li></ul>",
+    "createdAt": "2026-09-29T22:32:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=34511",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ChatGPT, 월 500달러 Pro 요금제 추가…기존 Pro 200 사용량 축소",
+    "content": "<ul>\n<li>월 <strong>500달러의 ChatGPT Pro 500</strong>을 추가해 Pro 요금제를 100달러·200달러·500달러의 세 등급으로 구성함</li>\n<li>Pro 500은 <strong>Plus 대비 25배의 사용량과 Astra Ultrafast</strong>를 제공하며, Ultrafast는 Codex에서 토큰 생성을 최대 8배 빠르게 처리함</li>\n<li><strong>Pro 200 신규...<p></p></strong></li></ul>",
+    "createdAt": "2026-09-29T22:28:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=34510",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "AI, 데이터센터 투자 붐 정당화하려면 연 매출 6조 달러 필요",
-    "content": "<ul>\n<li>Bain은 AI 인프라 투자를 뒷받침하려면 <strong>2031년 연 매출 6조 달러</strong>가 필요하다고 추산함. 연간 인프라 지출이 1조 5,000억 달러에 이르고, 이를 업계 매출의 약 25%로 유지한다는 조건임</li>\n<li>가장 큰 매출원은 <strong>신제품 개발</strong>로, 검색, 광고, 자율화, 물리적 AI 등의 혁신이...<p></p></li></ul>",
+    "content": "<ul>\n<li>AI 인프라 투자를 지속하려면 <strong>2031년 연 매출 6조 달러</strong>가 필요하다는 Bain의 추산으로, 연간 인프라 지출 1조 5,000억 달러를 매출의 25%로 유지한다는 계산임</li>\n<li>필요한 매출 가운데 가장 큰 몫은 <strong>신제품·서비스에서 약 4조 2,000억 달러</strong>이며, 검색·광고·자율화·물리...<p></p></li></ul>",
     "createdAt": "2026-09-29T21:49:36.000+00:00",
     "link": "https://news.hada.io/topic?id=34509",
     "author": "neo",
@@ -11,8 +209,8 @@
     }
   },
   {
-    "title": "PS5 Relapse 익스플로잇",
-    "content": "<ul>\n<li><strong>PS5 Relapse Exploit</strong>은 브라우저 단계와 커널 단계를 연결해 커널 읽기/쓰기 권한을 확보하며, 펌웨어 <strong>7.00~13.60</strong>을 지원함</li>\n<li>브라우저 단계는 <strong>JSC 정보 유출</strong>과 구조화된 복제 객체 풀의 불일치를 이용해 typedarray를 손상시킴</li>\n<li>커널 단계...<p></p></li></ul>",
+    "title": "Relapse - PS5 펌웨어 7.00~13.60용 커널 익스플로잇 공개",
+    "content": "<ul>\n<li>PS5 펌웨어 <strong>7.00~13.60에서 커널 메모리를 읽고 쓰는 기능</strong>을 확보하는 공개 익스플로잇으로, 브라우저 취약점과 커널 취약점을 연결함</li>\n<li>브라우저 단계에서 <strong>JavaScriptCore의 메모리 취약점</strong>을 이용하고, 커널 단계에서 해제된 메모리에 다시 접근하는 경쟁 조건을 악...<p></p></li></ul>",
     "createdAt": "2026-09-29T21:46:36.000+00:00",
     "link": "https://news.hada.io/topic?id=34508",
     "author": "neo",
@@ -385,50 +583,6 @@
     }
   },
   {
-    "title": "MicroLLM Lab - 브라우저에서 초소형 LLM 7개 체험하기",
-    "content": "<ul>\n<li>별도 설치나 계정 없이 <strong>소형 언어 모델 7개를 브라우저에서 실행</strong>하고, 직접 대화하며 답변과 속도를 비교하는 실험 도구</li>\n<li>PetitGPT, SmolLM2, MiniMind2, GPT-2 등을 제공하며, <strong>모델 크기는 약 15~216MB</strong>로 선택한 모델을 내려받아 브라우저에 저장함</li>\n<li></li></ul>",
-    "createdAt": "2026-09-29T02:33:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=34468",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "글 쓰다가 막혔을 때 대처법",
-    "content": "<ul>\n<li>제텔카스텐 같은 방법론으로 글의 재료와 구성은 쉬워져도, 디테일하게 쓰는 건 여전히 어려움. 좋은 글은 결국 디테일에서 갈림</li>\n<li>글이 막히면 불편함과 불안감 때문에 모니터만 쳐다보거나 SNS로 도피하게 됨. 이를 <strong>Writer's block</strong>이라고 부름</li>\n<li>여러 해결법을 읽고 실험해 보...<p></p></li></ul>",
-    "createdAt": "2026-09-29T01:10:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=34466",
-    "author": "jeinu95",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "업데이트된 Google Maps에 드러난 라파 도시의 파괴",
-    "content": "<ul>\n<li><strong>Google Maps</strong>가 업데이트되면서 가자 지구의 파괴된 모습이 지도에 나타남</li>\n<li>공개된 지역은 <strong>가자 지구의 라파(Rafah)</strong> 에 해당함</li>\n<li>업데이트된 지도에서 <strong>라파 도시의 파괴</strong>를 확인할 수 있음</li>\n<li>게시물에 나온 범위는 <strong>라파의 일부...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-29T00:37:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=34465",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Flock, 자사 감시 카메라의 가장 상세한 지도 사이트 폐쇄 요구",
-    "content": "<ul>\n<li>보안 연구자 Joshua Michael이 Flock 자체 데이터베이스를 바탕으로 <strong>감시 장치 약 30만 대의 위치 지도</strong>를 공개했으며, Flock을 대리한다고 밝힌 업체가 <strong>상표권 침해를 이유로 사이트 폐쇄</strong>를 요청함</li>\n<li>지도에는 <strong>카메라 17만 대 이상</strong>과 보조 장치 13만...<p></p></li></ul>",
-    "createdAt": "2026-09-29T00:34:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=34464",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "[Korean FE Article] Next.js에서 낙관적 업데이트 조정하기",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!YQNs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!YQNs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!YQNs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!YQNs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!YQNs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18484d0d-ca60-4422-85b0-1066bcfb660b_1536x1024.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://imnotadevleoper.tistory.com/393\" target=\"_blank\" rel=\"noopener noreferrer\">https://imnotadevleoper.tistory.com/393</a></p></blockquote><h2><strong>소개</strong></h2><p>사용자의 액션에 즉각적으로 반응하는 Optimistic UI는 더 나은 사용자 경험을 만드는 대표적인 방법입니다. 하지만 여러 액션이 연속해서 발생하기 시작하면 이야기가 조금 복잡해집니다. 화면에는 아직 서버에서 확정되지 않은 상태가 먼저 반영되고, 서버의 응답은 각 요청이 처리되는 순서에 따라 뒤늦게 도착하기 때문입니다.</p><p>이 글에서는 React의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">useOptimistic</code>과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">useActionState</code>를 활용해 이러한 문제를 어떻게 다룰 수 있는지 살펴봅니다. 단순히 낙관적 업데이트를 구현하는 방법을 넘어, <strong>사용자에게 즉시 보여주는 상태와 서버에서 실제로 확정된 상태를 각각 어떻게 관리하고 다시 하나의 상태로 수렴시킬 수 있는지</strong>를 코드와 함께 설명합니다.</p><p>Optimistic UI를 구현하면서 상태 관리가 예상보다 복잡해졌거나, React가 제공하는 새로운 상태 관리 API들이 각각 어떤 역할을 하는지 궁금했다면 도움이 될 만한 내용입니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p><strong>Q. 낙관적 업데이트를 보통 어떤 경우에 적용하시는지, 그리고 실제로 개발을 하시면서 적용하셨던 경험이 궁금해요!</strong></p></blockquote><p><strong>💬. 의견 1 </strong></p><p>낙관적 업데이트라는 게 실제 성공/실패 여부와 상관없이 일단 성공한 시나리오를 보여주는 전략이다보니, 그랬을 때 리스크가 크지 않고 &amp;&amp; 즉각적인 인터랙션이 더 중요한 케이스에 대해서만 제한적으로 적용했던 기억이 있네요. 북마크 등록이라거나... 엄청 헤비하게 다뤄본 경험은 없네요 🤔</p><p><strong>💬. 의견 2</strong></p><p>이전에 Q&amp;A 서비스에서 답변 좋아요 기능에 적용해본 경험이 있는데요, 비교적 간단한 기능인데 api 응답을 기다린뒤 UI를 업데이트하면 유저 입장에서 답답할 것 같아서 적용했습니다 ㅎㅎ<br>저는 주로 실패율이 낮은 경우에 낙관적 업데이트를 적용하는 것 같습니다. 실패가 잦으면 롤백되는 과정 자체가 오히려 UX에 불편함을 줄 수 있다고 생각해서요~</p><p><strong>💬. 의견 3</strong></p><p>저 같은 경우에는 알림 컴포넌트 구현시에 사용했던 경험이 있는데요, API 결과 처리를 기다리지 않고 페이지 인터렉션을 지속할 수 있어서 사용성 개선에 도움이되었다고 생각합니다. 다만 성공/실패의 결과에 따른 이후 프로세스가 중요도한 경우에는 이 방식이 적합한 것 같지는 않을 것 같네요!</p>",
     "createdAt": "2026-09-29T00:30:26.000+00:00",
@@ -440,50 +594,6 @@
     }
   },
   {
-    "title": "NobodyWho - 앱과 게임에 로컬 AI를 넣는 온디바이스 추론 엔진",
-    "content": "<ul>\n<li>클라우드 API 대신 <strong>사용자의 기기에서 AI 모델을 실행</strong>해, 앱과 게임에 대화·이미지 이해·음성 기능을 넣는 오픈소스 추론 엔진</li>\n<li>모델을 내려받으면 <strong>인터넷 연결이나 API 키 없이 실행</strong>할 수 있으며, 사용자 입력을 외부 서버로 보내지 않고 처리 가능</li>\n<li>Pytho...<p></p></li></ul>",
-    "createdAt": "2026-09-29T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34463",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "전문가가 덧붙이는 별표 주석",
-    "content": "<ul>\n<li>초보자의 질문에 답하면서 학습자의 능력이나 필요와 동떨어진 세부사항을 덧붙이는 ‘<strong>전문가의 별표 주석(Expert Asterisk)</strong>’은 도움을 주려는 의도에서 비롯되지만 학습자의 주의를 분산시킬 수 있음</li>\n<li><strong>Git 입문자</strong>에게 프로젝트를 바꿀 때 작업 디렉터리를 변경한다...<p></p></li></ul>",
-    "createdAt": "2026-09-29T00:15:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=34462",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "그들을 뒤로하고",
-    "content": "<ul>\n<li>David Bushell이 AI 정책을 “현재 전문 업무에 AI를 사용하지 않는다”에서 “<strong>AI를 사용하지 않으며 앞으로도 사용하지 않겠다</strong>”로 변경함</li>\n<li>AI 산업이 노동을 <strong>비인간화하고 상품화</strong>하도록 설계돼 있다고 비판하며, AI와 관련된 어떤 일에도 가치 있는 경력이 없다고...<p></p></li></ul>",
-    "createdAt": "2026-09-29T00:12:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=34461",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Lisp는 왜 읽기 어려울까?",
-    "content": "<ul>\n<li>Lisp가 읽기 어려운 이유는 단순히 <strong>익숙함의 문제</strong>만이 아니라, 괄호 배치가 시각적 그룹화와 작업 기억에 주는 부담에도 있을 수 있음</li>\n<li>C 스타일의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">함수(인자)</code>는 관련 요소를 가까이 묶지만, Lisp의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">(함수 인자)</code>는 <strong>함수 이름까지 괄호 안에 넣어...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-29T00:09:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=34460",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "A-ha's Take on Me, recreated in pure JavaScript",
     "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​804 — September 29, 2026</p></td>\n<td><p><a href=\"https://javascriptweekly.com/link/190985/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td></td></tr></tbody></table>\n    \n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code><table><tbody><tr><td><p>JavaScript Weekly</p></td></tr></tbody></table>\n</code></pre>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/190938/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/holotoxy8ll41zticmyu.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190938/rss\" title=\"claude.dev\" target=\"_blank\" rel=\"noopener noreferrer\">How Anthropic Made Claude's Apps 3x Faster in Two Weeks</a></span> — A grab bag of performance lessons from a sprint that cut p75 'time-to-typeable' from 3.1s to 0.55s. Em dashes (<em>the irony!</em>) pushed V8 onto a slower regex path, a stray <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">location.reload()</code> caused half a million hidden reloads a day, and more.</p>\n  <p>Wang, Attard, and G (Anthropic) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/190937/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/da313728.png\"></a>\n  <p><span><a href=\"https://javascriptweekly.com/link/190937/rss\" title=\"www.meticulous.ai\" target=\"_blank\" rel=\"noopener noreferrer\">Still Writing Tests? Meticulous Is Here</a></span> — Notion, Dropbox and Wiz are now using a testing paradigm they can’t ship without. Built by former Palantir engineers, Meticulous creates an evolving suite of deterministic E2E UI tests, delivering exhaustive coverage with zero developer&nbsp;effort.</p>\n  <p>Meticulous AI <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190939/rss\" title=\"voidzero.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Vite+ 1.0: One CLI for Your Entire JavaScript Toolchain</a></span> — The single <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vp</code> command can now manage your Node runtime (if you wish), package manager, dev server, linting, formatting, testing, builds and task running, configured from <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vite.config.ts</code>. <a href=\"https://javascriptweekly.com/link/190940/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">vp migrate</code></a> can be used to bring existing Vite, Vitest, ESLint, tsup, and similar setups into&nbsp;Vite+.</p>\n  <p>VoidZero </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 Evan You also <a href=\"https://javascriptweekly.com/link/190941/rss\" target=\"_blank\" rel=\"noopener noreferrer\">looks back at four months of VoidZero at Cloudflare</a>, including work on the Oxc React Compiler, Vitest 5, stable type-aware linting, and&nbsp;more.</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>The <a href=\"https://javascriptweekly.com/link/190942/rss\" target=\"_blank\" rel=\"noopener noreferrer\">latest TC39 meeting</a> is taking place in Tokyo now, and three iterator proposals have already advanced to stage 4: <a href=\"https://javascriptweekly.com/link/190943/rss\" target=\"_blank\" rel=\"noopener noreferrer\">chunking</a>, <a href=\"https://javascriptweekly.com/link/190944/rss\" target=\"_blank\" rel=\"noopener noreferrer\">join</a> and <a href=\"https://javascriptweekly.com/link/190945/rss\" target=\"_blank\" rel=\"noopener noreferrer\">includes</a> (the latter just <a href=\"https://javascriptweekly.com/link/190946/rss\" target=\"_blank\" rel=\"noopener noreferrer\">shipped in Chrome&nbsp;154</a>).</p>\n</li>\n<li>\n<p>Jarred Sumner shared <a href=\"https://javascriptweekly.com/link/190947/rss\" target=\"_blank\" rel=\"noopener noreferrer\">𝕏 a preview of Bun compiling JavaScript ahead of time</a>: 24% faster startup and 48% less memory for Claude Code, but ~2x binary&nbsp;size.</p>\n</li>\n<li>\n<p>🎉 Cloudflare <em>finally</em> has <a href=\"https://javascriptweekly.com/link/190948/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a single CLI for all of its APIs</a>. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cf</code> is written in TypeScript and covers everything, whereas Wrangler only ever covered a&nbsp;subset.</p>\n</li>\n<li>\n<p>The Angular team is <a href=\"https://javascriptweekly.com/link/190949/rss\" target=\"_blank\" rel=\"noopener noreferrer\">building a partly Rust-powered compiler</a>, because TypeScript 7's Go port lacks APIs the current one relies&nbsp;on.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>RELEASES:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190950/rss\" target=\"_blank\" rel=\"noopener noreferrer\">MSW (Mock Service Worker) 3.0</a> – The popular API mocking library is now ESM-only, adds a Vite plugin, supports GraphQL subscriptions, and can intercept page navigations and form&nbsp;submissions.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190951/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Vinext 1.0</a> – Cloudflare's Vite-based Next.js reimplementation now supports the Pages and App Routers, and offers a migration path for existing&nbsp;apps.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190952/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Mermaid 12.0</a> – The diagramming tool now defaults to the ELK layout engine for flowchart, class, state and similar diagrams, so existing ones will look different unless you set <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">layout: dagre</code>. Also adds <a href=\"https://javascriptweekly.com/link/190953/rss\" target=\"_blank\" rel=\"noopener noreferrer\">UML use case&nbsp;diagrams</a>.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190954/rss\" target=\"_blank\" rel=\"noopener noreferrer\">pnpm 12.8</a>, <a href=\"https://javascriptweekly.com/link/190955/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Angular 22.2</a>, <a href=\"https://javascriptweekly.com/link/190956/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TinyBase 10</a>, <a href=\"https://javascriptweekly.com/link/190957/rss\" target=\"_blank\" rel=\"noopener noreferrer\">QUnit 3.0</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>📖&nbsp; Articles and Videos</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/190958/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/q97l6jlstbu4nz3us8ex.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190958/rss\" title=\"dev.to\" target=\"_blank\" rel=\"noopener noreferrer\">The Grand Unifying Architecture of Frontend</a></span> — SolidJS's creator argues that HTMX, React, LiveView, and friends differ mostly in how they split the same three jobs (navigation, content, and instant UI feedback) between client and server. He then shows how <a href=\"https://javascriptweekly.com/link/190959/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Solid 2.0</a> aims to cover the whole&nbsp;spectrum.</p>\n  <p>Ryan Carniato </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190960/rss\" title=\"jobs.fidelity.com\" target=\"_blank\" rel=\"noopener noreferrer\">Build Products That Help People Build Their Lives</a></span> — Fidelity technologists can change the way our clients invest - for the better and for&nbsp;everyone.</p>\n  <p>Fidelity Careers <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190961/rss\" title=\"adventures.nodeland.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Optimizing Objects with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">null</code> Prototypes</a></span> — In V8, objects created with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">{&nbsp;__proto__: null }</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Object.create(null)</code> start in a slower 'dictionary mode'. Matteo shows how creating a plain object and then setting its prototype to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">null</code> preserves fast&nbsp;properties.</p>\n  <p>Matteo Collina </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 If you fancy going deeper, <a href=\"https://javascriptweekly.com/link/190962/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Fast properties in V8</a> is the V8 team's 2017 explainer of how objects switch between fast and 'dictionary'&nbsp;mode.</p></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190963/rss\" title=\"flaviocopes.com\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js Built-ins That Replace npm Packages</a></span> — A tour of 12 Node built-ins that replace common ecosystem packages along with their stability levels and some gotchas that might keep you using the established&nbsp;alternatives.</p>\n  <p>Flavio Copes </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://javascriptweekly.com/link/190964/rss\" target=\"_blank\" rel=\"noopener noreferrer\">JavaScript's Greatest Pun? <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">${{ }}</code></a> – Looks like Mustache, but <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">${{ name }}</code> passes an object using shorthand properties to a tag function, preserving both the variable's name and value. <cite>Nishant Shukla</cite></p>\n<p>📄 <a href=\"https://javascriptweekly.com/link/190965/rss\" target=\"_blank\" rel=\"noopener noreferrer\">How GitHub Improved Performance by Moving Off CSS-in-JS</a> <cite>Josh Black and Marie Lucca (GitHub)</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp;Code &amp; Tools</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/190966/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/yvxogbuz6gl1ubyguxml.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190966/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">Size Limit: A JavaScript Performance Budgeting Tool</a></span> — Set a size or load-time budget for your code and this tool can fail CI (or flag a PR) if a change goes over it. You can also do one-off checks and see visualizations of where the bytes are. Framework-agnostic and doesn’t care which bundler or CI you&nbsp;use.</p>\n  <p>Andrey Sitnik </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190967/rss\" title=\"www.tigerdata.com\" target=\"_blank\" rel=\"noopener noreferrer\">Your UI Gets Blamed for a Slow Query</a></span> — TimescaleDB extends Postgres so the query behind your UI returns fast as data grows. <a href=\"https://javascriptweekly.com/link/190967/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Get $1000 credit to&nbsp;start</a>.</p>\n  <p>Tiger Data (creators of TimescaleDB) <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://javascriptweekly.com/link/190968/rss\" title=\"blog.cloudflare.com\" target=\"_blank\" rel=\"noopener noreferrer\">EmDash 1.0: Cloudflare's <em>WordPress</em> 'Successor' is Now Stable</a></span> — An Astro-based alternative to WordPress, now with a decentralized AT Protocol-based plugin registry and plugins that run in sandboxes. It’s not Cloudflare-only, either, as it also runs on&nbsp;Node.js.</p>\n  <p>Buscemi, Kane, and Pham (Cloudflare) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><span>📝</span>&nbsp;<a href=\"https://javascriptweekly.com/link/190969/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">DOCX 9.8: Generate Word <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.docx</code> Files from JavaScript</a></span> — A comprehensive library for generating <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">docx</code> files. It’s only a few months since we linked to it, but this is a <em>big</em> release with support for charts, shapes and watermarks, plus more math notation support. (<a href=\"https://javascriptweekly.com/link/190970/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Homepage</a>.)</p>\n  <p>Dolan Miu </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p>🔊 <a href=\"https://javascriptweekly.com/link/190971/rss\" target=\"_blank\" rel=\"noopener noreferrer\">wavesurfer 8.0</a> – Popular audio waveform renderer and player. Refactored for better efficiency, with numerous bug&nbsp;fixes.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190972/rss\" target=\"_blank\" rel=\"noopener noreferrer\">pretty-bytes 7.2</a> – Convert byte quantities into human readable&nbsp;strings.</p>\n</li>\n<li>\n<p>✉️ <a href=\"https://javascriptweekly.com/link/190973/rss\" target=\"_blank\" rel=\"noopener noreferrer\">postal-mime 4.0</a> – An email parsing library that works&nbsp;everywhere.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190974/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Typia 15.0</a> – Turn pure TypeScript types into runtime&nbsp;validators.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n\t<p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>The future of mobile development is agentic. For years, mobile shipped slower than the web. Now, agents are coding/testing/shipping <a href=\"https://javascriptweekly.com/link/190975/rss\" target=\"_blank\" rel=\"noopener noreferrer\">all on Expo</a>.</p>\n \n<p>🤖 Blocking all bots breaks AI agents. Blocking none invites fraud. <a href=\"https://javascriptweekly.com/link/190976/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Fingerprint</a> tells verified agents from bad&nbsp;actors.</p>\n \n<p><a href=\"https://javascriptweekly.com/link/190977/rss\" target=\"_blank\" rel=\"noopener noreferrer\">SurveyJS</a>: Build complex forms faster with a drag-and-drop builder for any JavaScript app. Self-hosted and&nbsp;backend-agnostic.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>📢&nbsp; Elsewhere in the ecosystem</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://javascriptweekly.com/link/190978/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/jilmudkfxkr6xbomw3gi.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p>🎵 Tonny Espeset has <a href=\"https://javascriptweekly.com/link/190978/rss\" target=\"_blank\" rel=\"noopener noreferrer\">recreated the '80s hit <em>Take on Me</em> by A-ha in pure JavaScript</a> (<strong>along with synthesized vocals!</strong>), running through the always-entertaining <a href=\"https://javascriptweekly.com/link/190979/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Dittytoy</a> online JavaScript music playground.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190980/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Git 2.56</a> has just been released. It adds <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">git add --resolved</code> to safely stage merge conflict fixes, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">git branch --delete-merged</code> for bulk branch cleanup, and more. All explained&nbsp;within.</p>\n</li>\n<li>\n<p>TanStack's Tanner Linsley <a href=\"https://javascriptweekly.com/link/190981/rss\" target=\"_blank\" rel=\"noopener noreferrer\">built Redact</a>, <em>'an alternative logical projection of React'</em> aiming for full API compatibility with a simpler implementation, smaller bundles and better performance. It's now <a href=\"https://javascriptweekly.com/link/190982/rss\" target=\"_blank\" rel=\"noopener noreferrer\">on GitHub</a>.</p>\n</li>\n<li>\n<p><a href=\"https://javascriptweekly.com/link/190983/rss\" target=\"_blank\" rel=\"noopener noreferrer\">A quick history of why certain port numbers</a> like 3000 and 8080 are commonly used in&nbsp;development.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</div>\n  </td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://javascriptweekly.com/open/804/rss\">",
     "createdAt": "2026-09-29T00:00:00.000+00:00",
@@ -492,105 +602,6 @@
     "site": {
       "id": "7ebcc135-24dc-431c-adf7-9dcfa6b5c8e8",
       "name": "Javascript Weekly"
-    }
-  },
-  {
-    "title": "Jeff - 집에서 학습한 Jev 호환 0.8B 의사결정 모델",
-    "content": "<ul>\n<li><strong>Jeff</strong>는 상황과 선택지를 자연어로 입력하면 <strong>문장을 생성하지 않고 선택지별 확률을 반환</strong>하는 소형 의사결정 모델로, 고객 문의 분류·사용자 의도 파악·음성 명령 처리 등에 활용할 수 있음</li>\n<li>Qwen3.5와 Gemma 4를 미세조정했으며, <strong>0.8B 모델은 M4 Max에서 28...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-28T22:43:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34459",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "페이페이 리의 World Labs, AMD에 합류",
-    "content": "<ul>\n<li><strong>공간과 물리적 세계를 이해하는 AI를 개발하는 World Labs</strong>가 AMD 합류를 위한 본계약을 체결했으며, 규제 승인 등을 거쳐 2026년 말까지 거래를 마칠 예정임</li>\n<li>공동창업자 <strong>페이페이 리(Fei-Fei Li)</strong> 는 AMD 수석부사장 겸 최고과학자로 합류해 CEO 리사 수와 직접 협력...<p></p></li></ul>",
-    "createdAt": "2026-09-28T22:40:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34458",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "칼 뉴포트: AI 연구소를 조사할 때다",
-    "content": "<ul>\n<li>미국 의회가 <strong>OpenAI와 Anthropic의 연구 활동</strong>을 대상으로, 무엇을 어떻게 어떤 목적으로 연구하는지 공개적으로 사실관계를 조사해야 함</li>\n<li>두 회사는 자사 기술의 위험을 강조하면서도 개발 중단 대신 <strong>정부가 잠재적 경쟁자를 견제하고 선도 연구소에 개발 주도권을 맡기는 방...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-28T22:37:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34457",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DuckDB 2.0이 더 빠른 이유",
-    "content": "<ul>\n<li><strong>DuckDB 2.0 알파</strong>는 S3 데이터 읽기, 깊은 계층 탐색, JSON 형태 데이터 조회를 개선하며, 각각 <strong>비동기 I/O·재귀 CTE 엔진 재작성·VARIANT 필드 분리 저장</strong>을 활용함</li>\n<li><strong>S3 읽기</strong>는 데이터를 미리 다운로드하면서 CPU 연산을 병행해 대기 시간을 줄임. ...<p></p></li></ul>",
-    "createdAt": "2026-09-28T22:24:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=34456",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "인덱스 하나 더의 참을 수 없는 가벼움",
-    "content": "<ul>\n<li>코딩 에이전트가 만든 PostgreSQL 인덱스는 개별 쿼리에는 적절했지만, <strong>쓰기가 집중되는 테이블에 누적되는 비용</strong>을 충분히 고려하지 못함</li>\n<li>고객 지원 도구의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">tickets</code> 벤치마크에서 인덱스가 16개인 생성 스키마는 수작업 기준 스키마보다 <strong>WAL을 1.8배 기록하고,...<p></p></strong></li></ul>",
-    "createdAt": "2026-09-28T22:20:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=34455",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Diskless Kafka: 브로커가 데이터를 소유하지 않으면 무엇이 달라질까?",
-    "content": "<ul>\n<li><strong>Diskless Kafka</strong>는 Kafka 클라이언트 API를 유지하면서 메시지를 브로커의 로컬 디스크 대신 S3 같은 <strong>공유 객체 스토리지에 저장</strong>하는 방식임</li>\n<li>메시지 복제를 저장 서비스에 맡겨 <strong>가용 영역 간 트래픽과 저장 비용을 줄이고</strong>, 브로커를 늘리거나 교체...<p></p></li></ul>",
-    "createdAt": "2026-09-28T22:14:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=34454",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "대부분의 기술 혁명은 직원들의 일을 더 힘들게 만들었다. AI는 예외가 될 수 있다",
-    "content": "<ul>\n<li>PC, 이메일, 스마트폰은 업무 속도와 접근성을 높였지만, 절약한 시간은 직원에게 돌아오기보다 <strong>더 높은 업무 기대치</strong>로 바뀌는 패턴을 보였음</li>\n<li>AI는 업무를 빠르게 연결하는 데 그치지 않고 <strong>일부 업무를 직접 수행</strong>한다는 점에서 다르며, 속도 향상으로 새로 생기는 ...<p></p></li></ul>",
-    "createdAt": "2026-09-28T22:08:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=34453",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "제대로 된 AI 제품은 어떤 모습이어야 할까?",
-    "content": "<ul>\n<li><strong>“AI는 실수할 수 있으니 확인하세요”라고 요구한다면, 확인할 도구도 제공해야 함</strong>. 오류 검증은 작은 면책 문구가 아니라 제품의 핵심 기능이어야 함</li>\n<li>답변보다 <strong>원문 인용과 데이터 출처</strong>를 앞세우고, 원본 자료·API에서 가져온 데이터와 모델이 생성하거나 가공한...<p></p></li></ul>",
-    "createdAt": "2026-09-28T21:37:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=34452",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: HN.watch - 모든 Hacker News 게시물을 영상으로",
-    "content": "<ul>\n<li><strong>HN.watch</strong>는 Hacker News 첫 페이지의 각 게시물에 짧은 설명 영상을 제공하는 서비스임</li>\n<li>게시물 <strong>제목을 클릭</strong>하면 해당 영상을 시청할 수 있음</li>\n<li>목록에서 <strong>영상, 원문, Hacker News 댓글</strong>로 각각 이동할 수 있음</li>\n<li>각 게시물에 </li></ul>",
-    "createdAt": "2026-09-28T20:31:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=34451",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1768,17 +1779,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "토스의 속도와 품질, 상용 도구로 충분한가 — 토션(Tossion)",
-    "content": "<div><p id=\"3b4a360d-33e3-80df-9a1e-c7b348c02623\"><span><span><span>안녕하세요. 토스 QA Platform 팀 리더 이정성입니다.</span></span></span></p><p id=\"3b4a360d-33e3-80fa-8cbc-e0ed6ed884e6\"><span><span><span>지난 글에서 저희가 누구이고 무엇을 만들어 왔는지 짧게 소개해 드렸는데요. 오늘은 그 첫 번째 이야기, 저희만의 플랫폼 토션(Tossion)을 소개합니다.</span></span></span></p><hr><h2 id=\"3b4a360d-33e3-80ab-ba56-da5e94ea6118\"><span><span><span>\"이 기능, 지난번에 테스트 결과 어땠었죠?\"</span></span></span></h2><p id=\"3b4a360d-33e3-806e-9af1-eb20b6f94356\"><span><span><span>QA라면 릴리즈 직전에 이 질문을 한 번쯤 받아 보셨을 겁니다. 저희도 받았고, 답을 드리는 데 시간이 걸리곤 했습니다. 자동화 테스트(Automation Test) 결과, 매뉴얼 테스트(Manual Test) 결과와 테스트 케이스(Test Case) 그리고 각 테스트의 판단 근거가 저마다 다른 곳에 흩어져 있었기 때문입니다.</span></span></span></p><p id=\"3b4a360d-33e3-807e-b7a7-c773f0cbfd41\"><span><span><span>아쉬움은 또 있었습니다. 쓰고 있던 상용 TCM(Test Case Management System)은 기능을 추가하거나 더 나은 방식으로 개선하고 싶어도, 쌓여 있는 QA 데이터를 활용하고 싶어도 저희가 직접 손댈 수 없는 도구였습니다. 개발을 요청하면 오래 걸리거나 아예 반영되지 않는 경우가 많았고, 기다리다 포기하곤 했습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80af-89af-cd89d9876535\"><span><span><span>그래서 이 문제들을 해결하기 위해 토션(Tossion)을 만들었습니다.</span></span></span></p><h3 id=\"3b4a360d-33e3-804c-9bcb-c9a4718b30e0\"><span><span><span>지난 테스트 결과는 그대로 남고, 필요한 건 바로 올립니다</span></span></span></h3><p id=\"3b4a360d-33e3-80c4-9dcb-eeedfc4cc01e\"><span><span><span>가장 먼저 만든 건 아주 평범한 것이었습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8008-bd17-f0f12bb7a01e\"><span><span><span>자동화 테스트 결과, 매뉴얼 테스트 결과와 테스트 케이스, 그리고 그렇게 판정한 근거. 흩어져 있던 이 세 가지를 한 행에 모으는 일이었습니다. 셋이 각각 다른 곳에 있으면 \"지난번엔 어땠나요\"라는 질문이 나올 때마다 세 군데를 확인해야 했습니다.</span></span></span></p><figure id=\"3b8a360d-33e3-80e1-b0cd-cd865ff51338\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/9d52f0c7-d91b-47b4-8a87-60b273a7c4ef/fig1-v8.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-8023-b061-ecc8d64c28fa\"><span><span><span>토션의 구조는 </span><span>프로젝트(Project) → 스위트(Suite) → 섹션(Section) → 테스트 케이스(Test Case)</span><span>입니다. 섹션이 트리로 이어지고 테스트 케이스가 그 끝에 놓입니다. 여기까지는 상용 TCM과 다르지 않습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80fa-9401-f710e0123e53\"><span><span><span>테스트 케이스는 제품을 따라 계속 바뀝니다. 기능이 바뀌면 고치고, 없어진 화면의 것은 지웁니다. 반면 테스트 런(Test Run)은 그 옆에 따로 쌓입니다. 테스트 케이스가 어떻게 바뀌든 지난달에 무엇으로 검증했는지는 남아야 하니까요.</span></span></span></p><p id=\"3b4a360d-33e3-8021-8804-e4a4ba90ca09\"><span><span><span>그래서 테스트 런을 만들 때 테스트 케이스를 참조만 하지 않습니다. Assignee와 Test Step, Description까지 </span><span>그 시점의 값을 복사해</span><span> 테스트 런 안에 한 행으로 새로 만듭니다. 그 행은 상태가 바뀔 때마다 History에 한 줄씩 쌓입니다. 누가 언제 어느 Version에서 그렇게 판단했는지가 테스트 케이스 옆이 아니라 그 테스트 런의 그 행에 남습니다.</span></span></span></p><figure id=\"3b8a360d-33e3-80aa-b5d5-d52c3e623b8c\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/b395fc7c-054c-446b-944a-a9397ffeeb4e/tossion-fig2-v5.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-805d-9344-e31354223837\"><span><span><span>테스트 런에 담을 때는 트리에서 섹션을 고릅니다. Type이나 Platform으로 한 번 추려 담을 수도 있는데, 규칙을 하나 뒀습니다. 사람이 직접 지정한 테스트 케이스에는 필터를 적용하지 않습니다. 명시적인 선택이 조건보다 우선해야 하니까요.</span></span></span></p><p id=\"3b4a360d-33e3-809e-b604-e798741984cb\"><span><span><span>테스트 런은 Active → Completed → Closed로 갑니다. Closed하면 그 시점의 테스트 케이스와 코멘트, 자동화 결과를 스냅샷으로 저장해 고정합니다. 원본 테스트 케이스를 나중에 지워도 Close된 테스트 런의 화면과 리포트는 그대로 열립니다.</span></span></span></p><p id=\"3b4a360d-33e3-80ab-a0f8-ff93d151fffa\"><span><span><span>여기까지가 뼈대입니다. 직접 만들어서 달라진 건 그다음이었습니다. 사용자가 \"이거 매번 하기 번거로운데요\", \"이런 것도 되면 좋겠는데요\", \"너무 느려서 사용성이 떨어져요\"라고 하면 그걸 바로 만들어 반영할 수 있게 됐습니다. 상용 도구를 쓸 때는 요청을 넣고 기다리다 잊어버리던 일입니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8082-96a9-d99b6e04a344\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/419f4fb2-9222-4adb-8a23-134620427455/fig13-fastloop.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-8084-ad1e-ed5397580305\"><span><span><span>Assignee별 진척도 차트가 그렇게 나왔습니다. 테스트가 한창일 때는 \"지금 누가 얼마나 남았죠\"를 서로 물어보게 되는데, 그때마다 표를 Assignee로 나눠 세고 있었습니다. 지금은 테스트 런 한 곳에서 사람별로 몇 건 중 몇 건이 남았는지가 한눈에 보입니다.</span></span></span></p><p id=\"3b4a360d-33e3-80e8-b7e5-d89031e2cb10\"><span><span><span>표에 들어가는 항목도 마찬가지입니다. Status, Type, Assignee, Version, Platform, RNR, History는 필요하다는 말이 나오면 그때 넣고, 안 쓰이면 뺐습니다. 덕분에 안 쓰는 칸이 쌓이지 않고, 실제로 쓰는 것만 남은 상태로 유지됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-80f5-a8f3-f945c96deb80\"><span><span><span>여러 명이 같은 테스트 런을 동시에 채우는 일도 흔합니다. 그래서 지금 이 화면을 누가 같이 보고 있는지가 위쪽에 아바타로 표시되고, 사람마다 색이 하나씩 붙습니다. 누가 테스트 케이스나 Description을 편집하기 시작하면 그 항목이 잠기면서 편집 중이라는 표시가 나타나고, 그 사람이 창을 닫거나 연결이 끊기면 잠금은 자동으로 풀립니다. 다른 사람이 바꾼 Status는 새로고침 없이 바로 적용됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-80a5-a5fd-d22cd583f2cf\"><span><span><span>하나하나 놓고 보면 큰 기능은 아닙니다. 중요한 건 요청에서 반영까지가 짧다는 겁니다. 로드맵에 올려 두고 기다리는 게 아니라, 바로 개발해서 적용하고 활용할 수 있게 되었습니다.</span></span></span></p><p id=\"3b8a360d-33e3-803f-af97-d9fc6c9f1288\"><span><span></span></span></p><h2 id=\"3b4a360d-33e3-801c-b264-cf616b26852e\"><span><span><span>토스의 속도와 품질, 상용 TCM으로 충분한가</span></span></span></h2><p id=\"3b4a360d-33e3-80b2-aba1-e11b7d26d613\"><span><span><span>토스는 속도감이 남다른 조직입니다. 품질을 지키는 방식도 그 속도를 따라가야 하고, 품질이 속도의 트레이드오프가 되어서는 안 됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-808c-9b8f-f5491d81174b\"><span><span><span>이 문제를 해결하기 위한 결정적인 역할을 할 수 있는 건 AI라고 판단했습니다. 저희는 테스트 케이스 생성부터 PR 분석, 회귀 테스트 자동화 작성부터 수행까지 QA의 수많은 일을 AI로 효율화할 계획이었고, 이건 기능 하나를 기다리는 문제가 아니라 일하는 방식 자체를 계속 실험하고 바꿔 나가는 일이었습니다.</span></span></span></p><p id=\"3b4a360d-33e3-803e-baf0-c943e2edd764\"><span><span><span>기능이 아쉬운 거라면 더 좋은 도구로 교체하면 됩니다. 하지만 도구는 만든 사람이 정한 것만 할 수 있습니다. 비슷한 기능이 어느 도구의 로드맵에 있더라도 그건 그 회사가 정한 모양이고, 저희가 원하는 모양과 속도는 저희 손으로 만들 때 나옵니다. 저희에게 필요했던 건 새로운 요구를 그때그때 바로 추가할 수 있는 </span><span>플랫폼</span><span>이었고, 그런 건 사서 쓸 수 있는 것이 아니었습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8068-8019-f3e934b8efd6\"><span><span><span>토션을 만들고 직접 사용하다 보니, 더 하고 싶은 일들이 보이기 시작했습니다.</span></span></span></p><aside id=\"3b4a360d-33e3-8055-8c66-f403d5f07b9a\"><div><ul><li id=\"3b4a360d-33e3-805d-8675-f8733f8ff2c9\"><span><span><span>릴리즈마다 들어온 PR(Pull Request) 400여 건을 전부 검토해서, </span><span>이번에 무엇을 봐야 하는지를 QA 관점에서 짚어 내고</span><span> 싶었습니다.</span></span></span></li><li id=\"3b4a360d-33e3-807f-bb38-cc8e14533575\"><span><span><span>테스트 케이스를 사람이 아니라 </span><span>AI가 만들어서 올리게</span><span> 하고 싶었습니다.</span></span></span></li><li id=\"3b4a360d-33e3-8070-ac42-cffdb87a9070\"><span><span><span>토션에서 QA 서버에 붙은 실기기로 </span><span>회귀 테스트(Regression Test)를 바로 실행하고</span><span>, 그 결과에 저희가 필요한 정보를 담고 싶었습니다.</span></span></span></li><li id=\"3b4a360d-33e3-8048-95fb-dad02410bbe7\"><span><span><span>자동화가 실행한 결과를 별도 리포트가 아니라 </span><span>수동 테스트 케이스 한 줄 한 줄에</span><span> 적어 넣고 싶었습니다.</span></span></span></li></ul></div></aside><p id=\"3b4a360d-33e3-8045-b288-eef96fb008b0\"><span><span><span>이번에는 누군가에게 요청하고 기다리지 않고 네 가지 전부 저희 손으로 토션 위에 추가했습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8064-b4ba-dcb7d4bf37ed\"><span><span><span>모두 토션을 처음 만들 때는 목록에 없던 것들이고, 앞으로도 다섯 번째, 여섯 번째 요구가 계속 나올 겁니다. 그때마다 새로 만드는 게 아니라 </span><span>이미 있는 구조 위에 추가할 수 있어야</span><span> 했습니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8042-aa20-ede5c6b8f414\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/48dd7d91-4bfd-469c-a478-7da486eb8eb9/fig3-v6.png\" alt=\"\"></figure><h3 id=\"3b4a360d-33e3-8039-85f6-d537feaa7716\"><span><span><span>이번 릴리즈, 무엇부터 봐야 할까요?</span></span></span></h3><p id=\"3b4a360d-33e3-808f-bd2a-f9b3745f1a63\"><span><span><span>시작은 RC 빌드가 배포된 직후입니다. QA 라벨이 붙은 PR은 어차피 봅니다. 정말 위험한 건 개발자가 \"이건 QA 안 봐도 됩니다\"라고 분류해 둔 나머지입니다. 대부분은 실제로 안 봐도 되지만, 가끔 한 건이 섞여 있고 그 한 건이 해당 Sprint를 흔듭니다. 저희가 만든 PR 분석기의 존재 이유는 새 기능을 요약하는 게 아니라 </span><span>그 분류를 한 번 더 감사하는 것</span><span>에 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-803b-87b2-f5542c240111\"><span><span><span>릴리즈 마일스톤(Milestone)이나 RC(Release Candidate) 태그를 선택하면 그 릴리즈에 들어간 PR을 전량 수집해, QA 라벨 유무로 두 갈래로 나눠 분석합니다. 라벨이 붙은 쪽은 검증 관점을 정리하고, 안 붙은 쪽은 \"정말 안 봐도 되는가\"를 따집니다. 마지막에 릴리즈 전체를 한 장으로 요약한 뒤 \"이번에 꼭 봐야 할 것\"만 따로 추려 올립니다.</span></span></span></p><p id=\"3b4a360d-33e3-802b-b83e-f1cf79695fe5\"><span><span><span>그런데 분석하는 주체가 토션이 아닙니다.</span></span></span></p><p id=\"3b4a360d-33e3-80d4-8532-cdeb2b919c79\"><span><span><span>QA 서버에서 동작하는 작은 프로그램이 하나 있습니다. 저희는 이걸 에이전트(Agent)라고 부르는데, 하는 일은 단순합니다. 토션에 자기를 등록해 두고 몇 초마다 \"제가 할 일 있나요\"를 물어보다가, 작업을 받으면 </span><span>그 서버에 이미 로그인돼 있는 AI를 직접 실행</span><span>합니다.</span></span></span></p><p id=\"3b4a360d-33e3-80a6-8053-c9e10ef52158\"><span><span><span>여기서 공들인 건 정확도보다 </span><span>빠뜨리지 않는 것</span><span>입니다.</span></span></span></p><p id=\"3b4a360d-33e3-802a-927f-e8f4e643bcd5\"><span><span><span>한 릴리즈에 PR이 400건이면 한 번에 다 읽힐 리가 없어서, 분석을 한 덩어리로 수행하지 않습니다. 수집한 PR을 </span><span>한 묶음에 적절한 수만큼 나눠 담은 뒤</span><span>, 묶음마다 AI를 따로 실행해 동시에 진행합니다. 많은 PR을 얇게 보는 것보다 적은 PR을 깊게 보는 쪽이 낫다고 판단했습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80cc-8e91-c7b29d8e1acd\"><span><span><span>문제는 그다음입니다. AI에게 수백 건을 시키면 그럴듯하지만 내용이 없는 문장이 섞입니다. \"관련 화면이 영향받아요\" 같은 것들이요. 그래서 </span><span>어떤 문장이 부적합인지를 규칙으로 정해 두고</span><span>, 결과가 그 규칙에 어긋나는지를 사람이 보기 전에 먼저 걸러냅니다. 화면명도 조건도 없는 모호한 문장, PR 제목을 그대로 옮긴 요약, 함수명이 그대로 남은 설명, 그리고 테스트 케이스가 </span><span>재현 단계 · 기대 결과 · 실패 증상 · 판단 근거</span><span> 네 칸을 채우지 못한 것. 이 가운데 하나라도 해당하면 부적합입니다. 부적합으로 판정된 PR은 AI에게 다시 분석하게 합니다.</span></span></span></p><p id=\"3b4a360d-33e3-80d6-97f7-e15771a7a403\"><span><span><span>마지막은 숫자 대조입니다. 병합할 때 들어간 PR 수와 나온 분석 수를 맞춰 보고, 빠진 게 있으면 그 PR만 다시 분석해 채웁니다.</span></span></span></p><figure id=\"3b8a360d-33e3-80c8-ae8a-d8d1828a5b5b\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/5f97c939-c85a-4883-8bb7-c8718e85ea8f/fig10-v6.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-80d1-b0d6-dd2b5c5bf812\"><span><span><span>여기에 과거 장애 이력이 함께 들어갑니다.</span></span></span></p><p id=\"3b4a360d-33e3-8066-93fd-c6442794d9b3\"><span><span><span>핫픽스가 나면 그걸 고친 PR이 어떤 파일을 건드렸는지 기록해 둡니다. 다음 분석 때 그 목록을 같이 넣어 주고, 이번 PR이 같은 파일을 건드린 경우에만 \"여기 예전에 장애가 있었습니다\" 표시가 붙고 위험도가 한 단계 올라갑니다. 겹치지 않는데 붙은 표시는 뒤따르는 검사가 다시 제거합니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8078-bfba-d742d3a29d72\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/e8d6c946-68ee-45b4-82f6-f43fffcc3848/tossion-fig4.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-8037-b484-dcf8b2aa7e00\"><span><span><span>이 분석은 두 시간이 걸리기도 해서, 다 끝난 뒤에 저장하지 않고 묶음 하나가 끝날 때마다 Agent가 그때까지 분석한 것을 토션에 올립니다. 덕분에 Agent가 중간에 멈춰도 이미 올라간 분석은 토션에 남습니다. 토션은 그 실행을 실패로 정리해 두었다가, 나중에 같은 릴리즈를 다시 실행하면 남아 있던 결과를 이어받아 이미 분석한 PR은 건너뛰고 아직 보지 않은 것만 분석합니다.</span></span></span></p><p id=\"3b4a360d-33e3-800d-8b10-df85796c5005\"><span><span><span>이렇게 나온 ‘이번에 꼭 봐야 할 것’ 목록이, 해당 Sprint 테스트 런의 범위 근거가 됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-80da-a0e4-cd90e511d1fe\"><span><span></span></span></p><h3 id=\"3b4a360d-33e3-80b0-ab3b-fefd2757d378\"><span><span><span>테스트 케이스를 만드는 일이 사람 손을 떠날 때</span></span></span></h3><p id=\"3b4a360d-33e3-808c-bc04-c927b394f771\"><span><span><span>이번엔 Sprint 밖으로 나가보겠습니다.</span></span></span></p><p id=\"3b4a360d-33e3-801c-9750-c3291a9c7a1d\"><span><span><span>새 기능이 개발되면 QA에게 테스트 요청이 들어옵니다. 그때마다 테스트 케이스를 새로 써야 하는데, 기능이 쏟아지는 속도만큼 사람이 다 쓸 수는 없습니다. 그래서 AI가 테스트 케이스를 만들어 토션에 올리게 했습니다. 여기서 지켜야 할 것은 두 가지, 테스트 케이스 트리의 구조와 결과에 대한 신뢰였습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80de-9638-fce5a9f97aec\"><span><span><span>구조는 AI에게 맡기지 않았습니다. AI는 ‘자산 &gt; 계좌 연결 &gt; 은행 선택’ 같은 </span><span>평평한 경로 문자열만</span><span> 내놓습니다. 그걸 실제 트리로 펼치고 중간에 없는 단계를 만들어 붙이는 건 토션입니다. 덕분에 이미 테스트 케이스가 많은 스위트에도 알맞은 자리로 들어갑니다. 같은 이름의 섹션이 이미 있으면 그 안에 넣고, 없으면 새로 만듭니다.</span></span></span></p><figure id=\"3b8a360d-33e3-802d-91bd-e3b92964df58\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/323055dc-c3f3-4e7b-ae63-07162868b132/tossion-fig5-v2.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-8080-89af-e6d9c04bc2b8\"><span><span><span>신뢰는 세 겹으로 걸었습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80f1-87c2-e0ef476e063e\"><span><span><span>첫째는 AI가 자기 결과를 다시 보게하는 겁니다. 빠진 분기, 놓친 에러 상황, 경계값 같은 걸 항목별로 살펴 더 나올 게 없을 때까지 반복합니다.</span></span></span></p><p id=\"3b4a360d-33e3-80b8-b0a8-daaef861e9ca\"><span><span><span>둘째는 미리 정해 둔 규칙에 맞는지 보는 겁니다. 문장 표기부터 테스트 케이스 번호, 화면이 하나도 안 빠졌는지, 요구사항이 전부 테스트 케이스로 옮겨졌는지까지 스크립트가 확인합니다. 여기서 어긋나면 </span><span>토션에 올리는 것 자체가 막힙니다.</span></span></span></p><p id=\"3b4a360d-33e3-80f4-bef9-ee182388e58f\"><span><span><span>셋째는 다른 AI에게 테스트 케이스가 아니라 </span><span>테스트 계획</span><span>을 세우게 하는 겁니다. 같은 기획서를 주되 순서를 반대로 갑니다. 테스트 케이스부터 쓰는 대신 이번 검증 범위가 어디까지인지, 무엇이 위험한지, 어떤 기법으로 테스트 케이스를 도출해야 하는지를 ISTQB·ISO/IEC 29119 기준으로 먼저 정리하게 합니다. 이때 앞에서 만든 테스트 케이스는 </span><span>보여 주지 않습니다.</span><span> </span></span></span></p><p id=\"3b4a360d-33e3-80c2-9127-f476795346ee\"><span><span><span>그리고 마지막에 양쪽을 맞춰 봅니다. 계획에는 있는데 테스트 케이스에 없으면 누락, 테스트 케이스에는 있는데 계획에 없으면 범위 밖입니다. 이 겹을 둔 진짜 이유는 따로 있습니다. 테스트 케이스는 보통 화면을 따라 만들어집니다. 그런데 어떤 기능은 화면이 아니라 </span><span>상태</span><span>로 갈립니다. 같은 화면이어도 직전에 무엇을 했느냐에 따라 다르게 동작하죠. 화면만 보고 도출하면 이 축이 통째로 비는데, 개수는 오히려 많아서 비었다는 것이 드러나지 않습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8000-9e6b-f3d9a6f78762\"><span><span><span>계획을 먼저 세우는 쪽은 \"이 기능은 상태 전이로 도출해야 한다\"를 앞에서 정해 둡니다. 무엇을 어디까지 볼지, 그걸 어떤 기법으로 도출할지가 테스트 케이스보다 먼저 정해져 있는 거죠. 그래서 맞춰 보면 비어 있는 축이 목록으로 나오고, 그대로 테스트 케이스를 채웁니다. 화면을 다 덮었는지와 필요한 기법을 다 썼는지, 둘 다 채워져야 끝납니다.</span></span></span></p><p id=\"3b4a360d-33e3-8007-9551-f6c8e0a4c325\"><span><span><span>세 번째 겹은 한 번 더 보는 게 아니라 </span><span>다른 눈으로 보는 겁니다.</span></span></span></p><p id=\"3b4a360d-33e3-809b-9784-edbbf020a694\"><span><span><span>만들어진 테스트 케이스는 CLI를 거쳐 토션에 올라갑니다. AI가 토션에 손을 대는 통로를 화면이 아니라 명령줄로 둔 것인데, 어디에 두어도 실행되는 단일 실행 파일 하나로 만들었습니다. 사람마다 개발 환경이 다른 탓에 패키지 설치도, 런타임 버전도, 경로도 전부 실패 지점이 되니까요.</span></span></span></p><p id=\"3b4a360d-33e3-809d-b197-d1ba8e3930e1\"><span><span><span>이렇게 만든 테스트 케이스로 신규 기능을 검증하고, 그중 안정된 것들이 회귀 테스트 케이스로 편입됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-8064-a90d-e73687ae3df3\"><span><span></span></span></p><h3 id=\"3b4a360d-33e3-8009-9e8a-ecf68c4c2fb1\"><span><span><span>버튼 하나에서 실제 기기까지</span></span></span></h3><p id=\"3b4a360d-33e3-80c7-9866-d0742f3cac85\"><span><span><span>신규 기능은 사람이 봅니다. 화면을 처음 보는 눈이 필요하니까요. 자동화가 맡는 건 그렇게 쌓인 회귀 테스트 케이스입니다.</span></span></span></p><p id=\"3b4a360d-33e3-807c-bef6-c1bab58d2cf9\"><span><span><span>시작은 토션 화면입니다. 실행 버튼을 누르면 모달이 하나 열리는데, 실행에 필요한 게 전부 거기 있습니다. 어느 기기에서, 어느 빌드로, 어느 범위를 실행할지, 그리고 결과를 어느 테스트 런에 이어 붙일지까지요. 기록을 보던 화면이 그대로 시키는 화면이 됩니다.</span></span></span></p><figure id=\"3b8a360d-33e3-80cd-adb8-c930ab838560\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/2a519964-624d-4e13-b956-387bce98777f/fig6-v4.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-809c-a5f9-eae6ab991db0\"><span><span><span>러너는 QA 서버에 연결된 안드로이드·iOS 실기기에서 토션이 넘긴 실행을 처리합니다. 켜지면 스스로 토션에 등록되지만 관리자 승인 전에는 아무 작업도 받지 못합니다.</span></span></span></p><p id=\"3b4a360d-33e3-8052-ad46-e358776a0586\"><span><span><span>먼저 </span><span>환경을 맞춥니다.</span><span> 러너가 30초마다 자기 상태와 지금 붙어 있는 실기기 목록을 보고하기 때문에, 실행을 걸 때 기기 선택 목록이 화면에 이미 표시돼 있습니다. 앱도 각자 준비하는 게 아니라 토션이 발급한 빌드를 내려받아 설치한 뒤에 시작합니다. 어느 빌드에서 나온 결과인지가 흔들리면 안 되니까요.</span></span></span></p><p id=\"3b4a360d-33e3-806c-a955-eeadf24892ed\"><span><span><span>그다음 </span><span>시킨 범위만 실행합니다.</span><span> 회귀 전체일 수도 있고, 특정 화면 아래만일 수도 있습니다. 모달에서 고른 범위가 그대로 실행 경로 필터가 됩니다.</span></span></span></p><p id=\"3b4a360d-33e3-8040-81f0-c847f17f08f7\"><span><span><span>실행하는 동안에는 </span><span>진행 상황이 그대로 보입니다.</span><span> 시나리오 하나가 끝날 때마다 어느 섹션의 무슨 테스트가 몇 초 만에 통과했는지, 실패했으면 어떤 메시지였는지가 토션에 바로 쌓입니다. 두 시간짜리 회귀를 끝날 때까지 기다려야 알 수 있는 게 아닙니다. 실행이 다 끝나면 완료 알림이 따로 옵니다.</span></span></span></p><p id=\"3b4a360d-33e3-8056-b442-e275e179bef8\"><span><span><span>결과에는 무엇을 담았을까요? 저장 단위를 시나리오가 아니라 </span><span>스텝</span><span>으로 잡았습니다. 스텝마다 상태와 소요 시간, 에러 메시지가 남고 그 시점 스크린샷이 붙으며, 시나리오에는 영상이 따로 붙습니다. ‘실패했다’ 다음에는 어느 스텝에서 멈췄는지, 그때 화면은 어땠는지를 묻게 되는데, 거기에 바로 답하기 위해서입니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8078-a0cf-d42315350643\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/30f15299-92ab-441b-9477-91a3d2d59a13/fig7-v4.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-80eb-9b24-fbae8adeadce\"><span><span><span>실행을 걸 때 테스트 런을 지정하면, 그 결과가 사람이 쓰던 기록으로 합류합니다. 버튼 하나가 실기기에서 테스트를 실행하고, 그 결과가 해당 Sprint의 테스트 런에 테스트 케이스 한 줄 한 줄로 들어가는 겁니다.</span></span></span></p><p id=\"3b4a360d-33e3-8015-ac5d-fd3b004607f8\"><span><span></span></span></p><h3 id=\"3b4a360d-33e3-80b1-bfe6-da609f879362\"><span><span><span>그 자동화가 통과시킨 건, 정확히 어느 테스트 케이스인가요?</span></span></span></h3><p id=\"3b4a360d-33e3-8016-ba55-dc2e45abb12d\"><span><span><span>결과를 아무리 잘 담아도, 별도 리포트에 고립돼 있으면 소용이 없습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80d9-8436-e27ea3a31198\"><span><span><span>\"이 테스트 케이스는 자동화로 커버되나요?\"에 답하려면 결과가 </span><span>테스트 케이스 한 건 단위까지</span><span> 내려와야 합니다. 그런데 보통 연동은 리포트 단위에서 멈춥니다. \"회귀 200건 중 3건 실패\"까지는 알려 주는데, 그 3건이 수동 테스트 케이스 목록의 어느 줄인지는 사람이 눈으로 맞춰야 하죠. 사람이 그 대조를 하지 않아도 되게 하려면 테스트 케이스를 자동화 코드로 내보내는 것과, 자동화 결과를 다시 테스트 케이스에 적어 넣는 것 두 방향이 필요했습니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8025-8823-fa9e9251408b\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/4bc084b3-4b78-4905-8b4b-cead3f547660/tossion-fig8-v3.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-80be-a128-cd2f13c18637\"><span><span><span>테스트 케이스가 자동화 코드가 되는 쪽부터 보겠습니다. 스위트 화면에서 </span><span>자동화 코드 생성</span><span>을 누르면 자동화 코드 스캐폴드가 나옵니다. 스위트 전체를 한 번에 내보낼 수도 있고, 섹션 하나를 골라 그 아래만 내보낼 수도 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8059-8b51-fa6aa5debf76\"><span><span><span>이 스캐폴드는 저희가 토스체커에 설계해 둔 프레임워크를 그대로 따릅니다. 시나리오 파일, 플랫폼별 스텝 파일, 화면 요소를 모아 둔 로케이터 파일이 각자 자리에 놓여 나와서, 받아서 저장소에 넣으면 바로 동작합니다. 다만 전부 채워진 코드는 아닙니다. 시나리오와 스텝 함수, 로케이터 목록까지는 이름과 설명이 붙어 나오는데, </span><span>화면 요소를 실제로 가리키는 값은 비어 있습니다.</span><span> 그 값이 없으니 그걸 누르고 확인하는 동작 코드도 형태만 잡혀 있습니다. 그 빈칸은 테스트 케이스를 실행 코드로 바꿔 주는 또 다른 AI 스킬이 채웁니다.</span></span></span></p><p id=\"3b4a360d-33e3-802b-94f5-d2e6adf9837a\"><span><span><span>내보내는 행위 자체가 ‘이 시나리오 파일은 이 섹션의 것’이라는 연결을 만들어 토션에 저장합니다.</span></span></span></p><p id=\"3b4a360d-33e3-80b9-a493-c4e38bbce9f2\"><span><span><span>자동화 결과가 테스트 케이스로 돌아오는 쪽은 그 반대입니다. 실행이 끝나면 결과가 테스트 케이스 한 건 한 건에 나뉘어 들어갑니다. 사람이 수행한 항목과 자동화가 수행한 항목이 같은 테스트 런 안에 나란히 놓입니다. 자동화가 수행한 항목은 Assignee가 ‘토스체커’이고, History에 실행 번호와 Version이 함께 남습니다. 자동화가 맡은 섹션에는 자동화 표시가 붙어서, 어디까지가 자동으로 채워지는 범위인지가 목록에서 그대로 보입니다.</span></span></span></p><figure id=\"3b8a360d-33e3-80e1-9568-f2f6b5f9679f\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/a11ba3d9-dde4-41a0-ac1b-3627cb13d8b7/fig11-run-rows.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-808f-905d-d4973e44b097\"><span><span><span>그리고 </span><span>자동화가 실행하지 않은 테스트 케이스의 결과는 변경하지 않습니다.</span><span> 그래서 iOS만 실행해도 Android 전용 테스트 케이스는 목록에 그대로 남아 있고, 사람이 손으로 배정해 둔 Assignee도 지워지지 않습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80c7-9e58-dfd8d091bf67\"><span><span><span>그 자동화 표시를 누르면 화면 옆으로 결과 창이 열립니다. 자동화 페이지로 넘어가지 않아도 그 자리에서 모두 확인할 수 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-804e-a23c-f25b369cb51e\"><span><span><span>창 위에는 그 테스트 케이스의 누적 결과가 있습니다. 지금까지 몇 번 실행됐는지, 통과율이 얼마인지, 평균 몇 초가 걸리는지가 함께 보입니다. 결과가 자주 바뀌는 테스트 케이스에는 Flaky 표시가 붙습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80ea-9898-c5c2867b5184\"><span><span><span>그 아래가 이번 실행입니다. 스텝이 순서대로 펼쳐지고, 스텝마다 상태와 소요 시간, 실패했다면 에러 메시지와 그 시점 스크린샷이 함께 붙습니다. 시나리오 전체를 녹화한 영상도 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-80e0-bddc-d049cb12ff67\"><span><span><span>여기에 더해 </span><span>그 스크린샷을 AI가 한 번 더 봅니다.</span><span> 레이아웃이 깨졌는지, 텍스트가 잘리거나 겹쳤는지, 이미지가 표시되지 않았는지, 로딩 에러가 남아 있는지를 보고 판정과 확신도를 스텝에 붙입니다. 자동화 코드가 보는 건 \"눌렀더니 다음 화면으로 갔는가\"까지라, 갔는데 화면이 깨져 있으면 코드는 그대로 통과로 처리합니다. 그 빈틈을 메우려고 덧붙였습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8025-985a-d78c38ff6f62\"><span><span><span>맨 아래에는 같은 테스트 케이스가 지난번엔 어땠는지가 이력으로 쌓입니다.</span></span></span></p><figure id=\"3b8a360d-33e3-8041-b0f4-ffab816a15c8\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/0152afa3-6c27-4cd9-8eae-d16d42e67b28/fig9-v5.png\" alt=\"\"></figure><p id=\"3b4a360d-33e3-80b3-ab1c-fb518bb8e528\"><span><span><span>테스트 런을 닫으면 연결된 자동화 실행도 같이 닫힙니다. 그때의 자동화 결과가 스냅샷으로 함께 봉인되기 때문에, 나중에 열어도 스텝과 스크린샷이 그대로 남아 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-802a-b0a0-e895bc253255\"><span><span></span></span></p><h3 id=\"3b4a360d-33e3-8080-990b-c381bb4ed83c\"><span><span><span>그래서, 지난번 테스트 결과는요?</span></span></span></h3><p id=\"3b4a360d-33e3-8057-8d57-fb5a129d4b7b\"><span><span><span>이제 그 답이 한곳에 모여 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-8076-96f0-c20ac4d18fab\"><span><span><span>이번 릴리즈에서 무엇을 봐야 하는지가 목록으로 나와 있고, 그걸 어떤 테스트 케이스로 검증했고, 결과가 어땠고, 마지막으로 언제 실행됐고, 사람이 한 건지 자동화가 한 건지, 어느 빌드에서 그랬는지가 한 행에 있습니다. 답을 드리는 데 시간이 걸리던 질문이었는데, 지금은 하나의 플랫폼에서 확인할 수 있습니다.</span></span></span></p><p id=\"3b4a360d-33e3-804a-820b-c56e56d4cd33\"><span><span><span>\"지난번 결과가 어땠죠\"를 찾는 데 쓰던 시간을, 이제는 \"다음엔 무엇을 더 만들까\"에 사용합니다.</span></span></span></p><p id=\"3b4a360d-33e3-80cb-a368-de65651aed9b\"><span><span></span></span></p><p id=\"3b2a360d-33e3-8026-97a2-e85f6735810a\"><span><span></span></span></p></div><div id=\"tds-mobile-portal-container\"></div>",
-    "createdAt": "2026-08-11T01:00:00.000+00:00",
-    "link": "https://toss.tech/article/tossion",
-    "author": "",
-    "site": {
-      "id": "3f543698-d4df-4f87-a794-d95235163ad3",
-      "name": "토스 기술블로그"
     }
   },
   {
