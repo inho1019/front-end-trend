@@ -1,7 +1,139 @@
 [
   {
-    "title": "‘할 수 있는 일’과 ‘해야 할 일’ 구분하기: Netflix 제품팀은 어떻게 수천 명의 창작자가 AI 전환을 신...",
-    "content": "<ul>\n<li>Netflix는 최신 모델의 기능보다 <strong>회원에게 제공할 경험과 현장의 문제</strong>에서 출발해 AI 전환을 설계함. 콘텐츠 품질과 창작자의 전문성을 훼손하지 않으면서 제작과 배포 규모를 확대하는 것이 전제였음</li>\n<li>창작자의 업무를 관찰하고 공개 설문과 찬반 토론을 진행한 뒤, <strong>현재와 ...<p></p></strong></li></ul>",
+    "title": "Linux 커널에서 여러 취약점 발견",
+    "content": "<ul>\n<li>Linux 커널에서 <strong>권한 상승, 서비스 거부, 정보 유출</strong>로 이어질 수 있는 여러 취약점이 발견됨</li>\n<li>Debian은 <strong>DSA-6528-1</strong> 보안 공지를 통해 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">linux</code> 패키지의 보안 업데이트를 안내함</li>\n<li>안정 배포판 <strong>trixie</strong>에서는 <strong>6.12.111-1...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-02T03:31:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=34652",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Brief - AI Slop이 만든 기——인 글을 GeekNews 요약처럼 만들어 주는 Mac 앱",
+    "content": "<ul>\n<li>AI가 만든 긴 글을 사람이 읽기 쉬운 요약으로 만들어 줌 (Meat Proxy에서 벗어나기 위한 몸부림)</li>\n<li>단축키(기본 ⌃X)를 누르면 어떤 앱에서든 바로 동작. 브라우저, 채팅 앱, 터미널 모두</li>\n<li>AI 답변, 장문의 리포트, 미팅 기록, 채팅 대화, PR 설명을 요약 (PR은 \"무엇이 바뀌었나 + 무엇을...<p></p></li></ul>",
+    "createdAt": "2026-10-02T02:40:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=34651",
+    "author": "ssowonny",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SvelteKit 3",
+    "content": "<ul>\n<li>Svelte 공식 애플리케이션 프레임워크 <strong>SvelteKit 3.0</strong>이 출시됨. 기존 구조를 유지하면서 완성도와 타입 안전성을 높이고 불필요한 요소를 줄임</li>\n<li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sv migrate</code></strong> 가 가능한 코드를 자동으로 마이그레이션하고, 나머지 작업은 TODO 목록으로 생성함. 메이저 ...<p></p></li></ul>",
+    "createdAt": "2026-10-02T02:32:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=34650",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: oh-my-jev - Jev-Style 판단 모델을 벤치마크하고 테스트하고 직접 파인튜닝까지 가능한 오픈소스 도구",
+    "content": "<p>소개</p>\n<ul>\n<li>판단 모델이란 \"어느 팀으로 보낼까\", \"규정 위반인가\" 같은 정해진 질문에 문장 대신 선택지별 확률로 답하는 모델임. TypeSafe의 Jev가 대표적이고, 공개 이후 오픈 복제 모델이 빠르게 늘어남</li>\n<li>oh-my-jev는 이런 모델을 한곳에서 서빙, 비교, 학습하는 CLI와 웹 UI</li></ul>",
+    "createdAt": "2026-10-02T00:56:22.000+00:00",
+    "link": "https://news.hada.io/topic?id=34649",
+    "author": "iamupd",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RacketCon이 토요일에 열림",
+    "content": "<ul>\n<li><strong>제16회 RacketCon</strong>이 2026년 10월 3~4일 미국 캘리포니아주 Oakland에서 열리며, Racket에 관심 있는 누구나 참여할 수 있음</li>\n<li><strong>등록이 시작</strong>됐으며 9월 13일 이전에는 조기 등록 할인을 받을 수 있음</li>\n<li>토요일에는 <strong>타입 추론, 저수준 프로그래밍, 매크로...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-02T00:41:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=34648",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "웹 개발 교육의 죽음",
+    "content": "<ul>\n<li><strong>생성형 AI</strong>로 학습 수요가 이동하면서 웹 개발 강좌, 전자책, 튜토리얼로 생계를 이어온 독립 교육자들이 매출 급감과 사업 중단을 겪고 있음</li>\n<li><strong>교육 콘텐츠의 수익 기반</strong>이 무너져 Axel Rauschmayer의 도서 판매 수입은 0으로 떨어졌고, Josh W. Comeau와 동료 강좌 제...<p></p></li></ul>",
+    "createdAt": "2026-10-02T00:38:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=34647",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 참조 안정성을 타입으로 만들기",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!ZANs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!ZANs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!ZANs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ZANs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!ZANs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa97bcfd8-bba4-4968-98a0-feb7dcb505f1_1672x941.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://www.yeongseo-blog.site/blog/referential-stability-types\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yeongseo-blog.site/blog/referential-stability-types</a></p></blockquote><h2><strong>소개</strong></h2><p>리액트에서 불필요한 리렌더링을 줄이려면 객체·배열·함수의 참조 안정성을 신경 써야 합니다.<br>이 글은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Stable</code>라는 타입을 활용해, 안정적인 참조가 필요하다는 요구 사항을 컴포넌트의 <strong>최적화 계약</strong>으로 표현하는 방법을 다룹니다. 참조 안정성을 구현 세부 사항에 머물게 하지 않고 컴포넌트 사이의 명시적인 계약으로 드러낸다는 관점이 흥미로워 소개합니다.<br><br>타입스크립트와 리액트·Preact를 사용하며 메모이제이션 경계를 관리하거나, 재사용 컴포넌트의 성능 요구 사항을 명확히 전달하는 방법을 고민해 본 개발자분들이라면 흥미롭게 읽으실 수 있을 것 같습니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>타입이 복잡해지거나 타입 단언으로 우회할 수 있다는 단점이 있더라도, 컴포넌트 간 경계가 더 명확하고 안전해졌던 경험이 있다면 궁금합니다!</p></blockquote><p><strong>💬. 의견 1</strong></p><p>저도 메모이제이션이나 불필요한 리렌더링을 줄이는 과정에서 비슷한 고민을 살짝 했던적은 있지만, 참조 안정성을 타입으로까지 드러내야겠다고 느낀 경험은 많지 않았습니다. 생각해 보면 참조 안정성은 대부분 컴포넌트 내부의 최적화 수단이라, 다른 컴포넌트와 반드시 공유해야 하는 계약으로 느껴지지 않았기 때문인 것 같은데요. 그래서 일반적인 props나 콜백까지 모두 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Stable</code>처럼 다루면, 실제 문제를 해결하기보다 타입 복잡도에 가까운 얘기니 우선순위가 낮아졌던 것 같습니당.</p><p>하지만, 매번 새 객체나 함수를 넘겨 최적화를 반복해서 무너뜨리는 경계라면 “이 값은 안정적인 참조여야 한다”는 의도를 타입으로 명시해 호출자에게도 책임을 분명히 하는 방식이 의미가 있을 것 같긴합니다. 의도를 드러냄으로써 더 명확해지는 지점이 생기니까요. (다만 완벽하게 하기가 어렵다는게...)</p><p><strong>💬. 의견 2</strong></p><p>리액트에서는 현재 컴포넌트에서 함수나 값을 메모이제이션 했더라도 만약 그 과정에서 props로 받은 값을 사용했더라면 메모이제이션이 깨지지 않는지를 판단하거나 유지보수 하는 것이 prop drilling의 뎁스가 깊어질수록 매우 어려워진다고 생각하는데요. 또 메모이제이션 된 컴포넌트에 항상 참조가 안정된 값을 넘기는 것도 매번 검증하기는 어렵구요. 근데 이를 타입 레벨에서 막으려는 시도가 되게 좋다는 생각이 들었어요.</p><p>원문에서는 컴포넌트가 Stable 타입의 데이터를 받는 형태를 optimization contract라고 표현하고 있는데, 컴포넌트 입장에서 데이터가 참조 안정성이 갖춰져야만 이 컴포넌트가 의도한 대로 동작한다고 하면, 이걸 최적화를 위한 계약이라는 개념으로 외부에 노출하는 것이 유용할 것 같아요. 다만 꼭 필요한 경우에만 Stable 타입을 사용해주는 것이 좋은 인터페이스를 가진 컴포넌트를 만들 수 있게 될 것 같네요!</p><h2><strong>목차</strong></h2><ul><li><p>타입</p></li><li><p>훅은 유지하고 import만 바꾸기</p></li><li><p>리액트가 이미 보장하는 값은 인정하기</p></li><li><p>컨텍스트에서는 효과가 빠르게 드러납니다</p></li><li><p>Preact</p></li><li><p>이 방식으로 해결할 수 없는 것</p></li><li><p>에이전트를 위한 가드레일로서의 타입 오류</p></li><li><p>더 넓은 아이디어</p><p></p></li></ul><h2>보너스</h2><blockquote><p><a href=\"https://medium.com/miridih/%EC%82%AC%EB%9E%8C%EB%8F%84-%EA%B8%B0%EA%B3%84%EB%8F%84-%EC%9D%BD%EB%8A%94-%EA%B7%9C%EC%95%BD-%EC%98%88%EC%B8%A1-%EA%B0%80%EB%8A%A5%ED%95%9C-ai-%EC%A0%9C%ED%92%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-81cfaedd024f\" target=\"_blank\" rel=\"noopener noreferrer\">사람도 기계도 읽는 규약: 예측 가능한 AI 제품 만들기</a></p></blockquote><p>오늘은 미리디에서 AI의 응답 안정성과 효율을 높인 노하우를 담은 글을 소개드리려합니다. 통제하기 어려운 AI 출력을 스키마와 런타임 검증을 통해 예측 가능한 계약으로 바꿨는데요. 사람과 AI의 역할을 나누고, 구조화된 응답과 명확한 검증으로 프로덕션에서 쓸 수 있는 AI 응답을 만드는 방법을 이야기합니다. 실제 제품에 AI를 도입하거나 안정적인 출력을 다루고 싶으신 개발자에게 추천드립니다 🚀</p>",
+    "createdAt": "2026-10-02T00:31:25.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-962",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "AI-Infra-Guard - AI 인프라와 에이전트를 점검하는 오픈소스 레드팀 플랫폼",
+    "content": "<ul>\n<li>Tencent가 개발한 <strong>AI 보안 점검 플랫폼</strong>으로, 서버의 알려진 취약점부터 에이전트의 도구 오용·정보 유출, LLM 탈옥 공격까지 검사</li>\n<li>실행 중인 Ollama, ComfyUI, vLLM, n8n 등의 <strong>서비스 주소를 입력하면 구성요소와 버전을 식별</strong>하고 알려진 취약점을 탐지\n<ul>\n<li>v...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-10-02T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=34645",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI에 대한 파스칼의 내기: 지금 거부해도 나중에 받아들일 수 있다",
+    "content": "<ul>\n<li>오픈소스 프로젝트는 당분간 <strong>AI 생성 기여를 거부하는 편이 실용적임</strong>. 나중에 받아들이기는 쉽지만, 이미 들어온 코드를 제거하고 통제권을 되찾기는 어려울 수 있음</li>\n<li><strong>사람의 검토를 요구하는 중립적 정책</strong>도 생성 코드의 유입을 막지 못한다면, 장기적으로는 속도만...<p></p></li></ul>",
+    "createdAt": "2026-10-02T00:08:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=34644",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "example.com이 바뀐 이유를 설명한 IANA의 이메일",
+    "content": "<ul>\n<li><strong>IANA</strong>는 example.com의 변경 이유를 묻는 이메일에, 사이트를 수시로 수정하는 목적은 대체로 <strong>대역폭 사용량 감소</strong> 또는 유용성 개선이라고 답함</li>\n<li>이번 주에는 페이지를 <strong>기본 콘텐츠와 별도 JavaScript 파일</strong>로 나눴으며, 추가 콘텐츠는 JavaScript 파...<p></p></li></ul>",
+    "createdAt": "2026-10-02T00:05:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=34643",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Automatic Transmission - 커넥티드 차량의 데이터 프라이버시 연구",
+    "content": "<ul>\n<li>Consumer Reports와 협력해 차량 21대와 연동 모바일 앱 30개를 조사한 결과, <strong>차량 19대가 Wi-Fi로 제3자 서버에 접속</strong>했으며 접속 대상에는 광고 및 추적 도메인도 포함됨</li>\n<li><strong>앱 7개가 민감한 식별정보</strong>를 광고 및 추적 관련 업체에 전송했으며, 5개는 차대번호(VIN)와...<p></p></li></ul>",
+    "createdAt": "2026-10-01T23:33:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=34642",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Pi Durable - 중단된 작업을 이어가는 AI 에이전트 하네스",
+    "content": "<ul>\n<li><strong>장시간 실행되는 AI 에이전트 애플리케이션</strong>을 만들기 위한 실험적 하네스로, 터미널 코딩 에이전트 Pi 1.0과 별도로 공개</li>\n<li>작업 상태를 저장해 <strong>프로세스가 종료돼도 중단된 지점부터 재개</strong>하며, 도구 호출은 재실행해도 안전하다고 지정한 경우에만 자동으로 반복함...<p></p></li></ul>",
+    "createdAt": "2026-10-01T22:35:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=34641",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Netflix는 어떻게 창작자들이 AI 전환을 신뢰하게 했나",
+    "content": "<ul>\n<li>Netflix는 <strong>AI로 할 수 있는 일보다 회원과 창작자에게 필요한 일</strong>에서 출발함. 콘텐츠 품질과 창작 통제를 지키면서 제작·배포 규모를 늘리는 것이 목표였음</li>\n<li>창작자의 업무를 직접 관찰하고 찬반 의견을 들은 뒤, <strong>AI 도입 전후에 자신의 일이 어떻게 달라지는지</strong> 구체...<p></p></li></ul>",
     "createdAt": "2026-10-01T22:06:29.000+00:00",
     "link": "https://news.hada.io/topic?id=34640",
     "author": "xguru",
@@ -12,20 +144,9 @@
   },
   {
     "title": "AI 네이티브 회사에서 일한다는 것",
-    "content": "<ul>\n<li><strong>Lovable</strong>에서는 AI가 개별 업무의 생산성을 높이는 데 그치지 않고, 직무 경계와 의사결정, 정보 흐름, 일을 잘한다는 기준까지 바꾸고 있음</li>\n<li>세분화된 직급 대신 <strong>IC, Lead, Head</strong>만 두며, 정보 공개와 자율성을 바탕으로 회의와 승인 절차에 대한 의존도를 낮춤</li>...<p></p></ul>",
+    "content": "<ul>\n<li><strong>Lovable</strong>에서는 AI가 개별 업무의 생산성을 높이는 데 그치지 않고, 직무 경계와 의사결정, 정보 흐름, 일을 잘한다는 기준까지 바꾸고 있음</li>\n<li>세분화된 직급 대신 <strong>실무자·리드·총괄 책임자</strong>만 두며, 정보를 널리 공유하고 각자가 판단해 실행하도록 해 회의와 승인 절...<p></p></li></ul>",
     "createdAt": "2026-10-01T22:01:13.000+00:00",
     "link": "https://news.hada.io/topic?id=34639",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "진지한 AI 제품은 어떤 모습이어야 할까?",
-    "content": "<ul>\n<li>연구와 개발을 돕는 AI 제품이라면 오류 가능성을 작은 면책 문구로 알리는 데 그치지 않고, <strong>주장 검증과 출처 확인</strong>을 기본 작업 흐름으로 제공해야 함</li>\n<li>답변보다 <strong>원문 인용과 데이터 출처</strong>를 앞세우고, 사용자가 검증한 내용과 AI가 생성한 내용을 구분할 수 있어야...<p></p></li></ul>",
-    "createdAt": "2026-10-01T21:57:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=34638",
     "author": "xguru",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -78,7 +199,7 @@
   },
   {
     "title": "소프트웨어를 만드는 여러분께",
-    "content": "<ul>\n<li>YouTube가 제작자에게 영상의 여러 버전을 게시하고 성과를 비교하는 <strong>A/B 테스트 기능</strong>을 제공하려 하지만, 같은 링크로 같은 영상을 본다는 공동체의 경험을 깨뜨릴 수 있음</li>\n<li>시청자의 <strong>실험 참여 여부</strong>, 댓글 작성자끼리 본 내용의 일치 여부, 타임스탬프 링크의 작동...<p></p></li></ul>",
+    "content": "<ul>\n<li>YouTube가 같은 영상의 여러 버전을 비교하는 <strong>A/B 테스트 기능</strong>을 도입하려 하지만, 같은 링크를 공유해도 서로 다른 내용을 보게 되면 <strong>함께 같은 영상을 본다는 경험</strong>이 깨질 수 있음</li>\n<li>조회수와 시청 유지율을 최적화하다 보면, 지표에 도움이 되지 않는 <strong>창의...<p></p></strong></li></ul>",
     "createdAt": "2026-10-01T20:41:34.000+00:00",
     "link": "https://news.hada.io/topic?id=34633",
     "author": "neo",
@@ -88,8 +209,8 @@
     }
   },
   {
-    "title": "Pi 1.0",
-    "content": "<ul>\n<li><strong>Pi 1.0</strong>이 출시됨. 매주 전 세계 수십만 명이 사용하는 최소주의 기반의 확장 가능한 에이전트 하네스로, 수개월간 사용자 피드백을 반영해 안정성을 강화함</li>\n<li><strong>Codemode</strong>를 통해 MCP와 Jev 같은 비LLM 모델, 이미지 모델을 기본 지원하며, 확장 기능에서 <strong>가상 ...<p></p></strong></li></ul>",
+    "title": "Pi 1.0 출시 - 미니멀한 터미널 코딩 에이전트",
+    "content": "<ul>\n<li>여러 AI 모델을 지원하는 <strong>터미널 코딩 에이전트 Pi가 1.0을 출시</strong>함. 매주 수십만 명이 사용하며, 수개월간의 피드백을 반영해 안정성을 개선</li>\n<li><strong>Codemode</strong>에서 JavaScript로 여러 도구 호출을 조합하며, MCP 도구와 Jev 같은 의사결정 모델, 이미지 모델을 함께 사용할...<p></p></li></ul>",
     "createdAt": "2026-10-01T20:38:34.000+00:00",
     "link": "https://news.hada.io/topic?id=34632",
     "author": "neo",
@@ -122,7 +243,7 @@
   },
   {
     "title": "Cloudflare K2 - 서버리스 이벤트 스트림",
-    "content": "<ul>\n<li>Cloudflare가 <strong>K2 공개 베타</strong>를 출시함. 생산자와 소비자를 분리하고 이벤트를 내구성 있는 순서형 로그에 저장해, 여러 소비자가 각자의 속도로 데이터를 처리할 수 있음</li>\n<li><strong>R2 객체 스토리지</strong> 위에 분할 로그를 구현하고 복제와 합의를 스토리지 계층에 맡김. 컴퓨팅과...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>이벤트를 저장하고 여러 서비스가 각자의 속도로 처리하도록 하는 서버리스 서비스</strong>로, Cloudflare가 공개 베타를 출시함. 주문 완료 이벤트를 분석과 부정 거래 탐지 시스템에 함께 전달하는 데 활용 가능</li>\n<li><strong>클러스터를 직접 운영하거나 확장할 필요 없이</strong>, R2 객체 스...<p></p></li></ul>",
     "createdAt": "2026-10-01T19:53:14.000+00:00",
     "link": "https://news.hada.io/topic?id=34629",
     "author": "neo",
@@ -143,8 +264,8 @@
     }
   },
   {
-    "title": "Git 3.0의 SHA-256 기본값 전환은 큰 대가를 치를 실수가 될 것",
-    "content": "<ul>\n<li>Git 3.0은 기본 콘텐츠 해시를 <strong>SHA-1에서 SHA-256으로 변경할 계획</strong>이지만, 실질적인 보안 이익에 비해 저장소와 도구 생태계의 전환 비용이 지나치게 크다는 비판을 받음</li>\n<li><strong>암호학적 무결성과 신뢰는 다름</strong>: 해시 충돌을 만들 수 있어도 피해자가 악성 객체를 받아 실...<p></p></li></ul>",
+    "title": "Git 3.0의 SHA-256 기본값 전환은 값비싼 실수다",
+    "content": "<ul>\n<li>Git 3.0은 새 저장소의 기본 해시를 <strong>SHA-1에서 SHA-256으로 바꿀 계획</strong>이며, GitHub 공동 창업자 Scott Chacon은 보안상 이익보다 생태계의 전환 비용이 지나치게 크다는 이유로 반대함</li>\n<li><strong>해시가 콘텐츠의 무결성을 확인하는 것과 코드의 출처를 신뢰하는 것은 다름</strong>. ...<p></p></li></ul>",
     "createdAt": "2026-10-01T19:47:14.000+00:00",
     "link": "https://news.hada.io/topic?id=34627",
     "author": "neo",
@@ -166,7 +287,7 @@
   },
   {
     "title": "메모리 기업들이 소비자 시장을 파괴했다",
-    "content": "<ul>\n<li>메모리 제조사들이 소수 대형 고객과 <strong>장기공급계약(LTA)</strong> 을 확대하면서, 소비자용 RAM과 SSD 공급보다 데이터센터 수요를 우선하는 구조가 굳어지고 있음</li>\n<li>주요 제조사는 <strong>3~5년 계약</strong>으로 생산량의 50~70%를 대형 고객에 배정하는 방향으로 움직이고 있음. 기존 호황...<p></p></li></ul>",
+    "content": "<ul>\n<li>메모리 제조사들이 <strong>소수 대형 고객과 장기공급계약을 확대</strong>하면서, 소비자용 RAM과 SSD보다 AI·데이터센터 수요를 우선하는 구조가 굳어지고 있음</li>\n<li>계약 기간뿐 아니라 <strong>미리 배정하는 생산 물량도 확대</strong>되고 있음. 삼성은 전체 생산능력의 60~70%를 장기계약에 배정할...<p></p></li></ul>",
     "createdAt": "2026-10-01T19:01:49.000+00:00",
     "link": "https://news.hada.io/topic?id=34625",
     "author": "neo",
@@ -456,116 +577,6 @@
     "createdAt": "2026-10-01T09:55:28.000+00:00",
     "link": "https://news.hada.io/topic?id=34597",
     "author": "roxycodes93",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: SSGOI – 모바일 웹을 네이티브 앱처럼 만드는 페이지 전환 라이브러리",
-    "content": "<p>모바일 웹앱을 개발하면서 페이지가 넘어갈 때 네이티브 앱처럼<br>\n전환이 되길 원했고, 그래서 SSGOI를 만들었습니다.<br>\n어떤 웹 프레임워크와도 함께 쓸 수 있고, 제가 운영하는 회사 서비스에서도 사용 중입니다.</p>\n<p>이걸 바탕으로 모바일용 UI 컴포넌트도 만들었습니다:<br>\nhttps://library.comwit</p>",
-    "createdAt": "2026-10-01T08:40:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34596",
-    "author": "anseotmd555",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: query-inspector - 소스 코드 내 SQL/ORM 쿼리를 추출해 튜닝 리포트를 작성하는 Claude Code 스킬",
-    "content": "<p>query-inspector는 프로젝트의 소스 코드에 있는 SQL과 ORM(JPA 파생 메서드, @Query, QueryDSL, Kotlin JDSL, MyBatis 등)이 생성하는 쿼리를 추출해, 인덱스 누락 / N+1 문제 / 안티패턴 등을 진단하여 결과와 튜닝 가이드를 리포팅해 주는 Claude Code 플러그인입니다.</p>\n<p>git 변경분에서만 추출하여 incremen</p>",
-    "createdAt": "2026-10-01T08:27:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=34595",
-    "author": "jogakdal",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "56k.rip - 1996년 전화 접속 인터넷 체험",
-    "content": "<ul>\n<li><strong>56k.rip</strong>는 데스크톱에서 전화 접속 네트워킹을 열고 모뎀 연결을 거쳐 홈페이지를 읽는 1996년 인터넷 경험을 브라우저에서 재현함</li>\n<li><strong>14.4/28.8/56k</strong> 중 선택한 속도에 맞춰 페이지 전송 바이트를 제한하므로, 느린 회선을 선택하면 같은 페이지도 실제로 더 오래 걸림...<p></p></li></ul>",
-    "createdAt": "2026-10-01T07:36:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=34593",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "무료 앱 하나 배포하는데, Android 개발자 인증까지 해야 하나?",
-    "content": "<ul>\n<li>Android 게임을 만들려고 개설한 <strong>Google Play 개발자 계정이 미활동을 이유로 폐쇄</strong>됐으며, 새 앱을 완성한 뒤에도 기존 계정을 복구하지 못함</li>\n<li>새 계정을 만들라는 안내만 받고 생성 방법을 찾지 못하자, <strong>Play Store 대신 F-Droid로 APK를 배포하는 방법</strong>을 고려함...<p></p></li></ul>",
-    "createdAt": "2026-10-01T07:33:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=34592",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 믹스독 — 같은 구독으로 더 많이 쓰는 오픈소스 코딩 에이전트",
-    "content": "<p>구독 한도를 아끼고 API 비용을 줄이기 위한 자체 AI 하네스, 믹스독을 만들었습니다.</p>\n<p>간단한 튜토리얼로 설정을 마치고 여러 구독과 API 모델을 한곳에서 사용할 수 있습니다. 도구 설계와 캐시 관리를 통해 불필요한 사용량을 줄이는 데 집중했습니다.</p>\n<p>주요 기능은 다음과 같습니다.</p>\n<p>여러 제공</p>",
-    "createdAt": "2026-10-01T06:52:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=34591",
-    "author": "tempest1033",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Netlify, Edge Functions를 Firecracker MicroVM으로 전환해 5배 가속",
-    "content": "<ul>\n<li>Netlify가 외부 실행 서비스에 맡기던 <strong>Edge Functions를 자체 네트워크의 Firecracker MicroVM으로 이전</strong>해, 외부 네트워크 왕복 없이 함수를 실행하도록 변경</li>\n<li>준비된 실행 환경을 사용하는 <strong>웜 호출의 중앙값 지연 시간이 25~40ms에서 약 5~6ms로 감소</strong>했으며, p99 호...<p></p></li></ul>",
-    "createdAt": "2026-10-01T06:34:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=34590",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "F/OSS Comics #11: BSD 유닉스 1화 – UC 버클리로 간 유닉스 코드",
-    "content": "<p>드디어 BSD 유닉스에 대한 이야기가 시작됩니다.</p>\n<p>웹툰 스타일에서 만화책 처럼 스타일 바꾸고 있습니다.<br>\n보시고 어떤 스타일이 좋은지 피드백 주시면 고맙겠습니다.</p>\n",
-    "createdAt": "2026-10-01T06:19:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=34589",
-    "author": "joone",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "제미나이 4 아르곤(Argon): 프론티어 인텔리전스의 새로운 시대",
-    "content": "<p>구글이 장시간·다단계 작업 수행에 초점을 맞춘 새 프론티어 모델 <strong>Gemini 4 Argon</strong>을 공개</p>\n<ul>\n<li>실제 소프트웨어 엔지니어링, 법률·금융 등 지식 업무와 사이버 보안처럼 <strong>복잡하고 긴 워크플로우를 지속적으로 수행하는 능력</strong>에 초점을 둔 모델</li>\n<li>우선 Google DeepMi</li></ul>",
-    "createdAt": "2026-10-01T06:14:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=34588",
-    "author": "choam2426",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "청동기 시대는 왜 붕괴했는가",
-    "content": "<ul>\n<li>기원전 1200년 무렵 제국들이 무너진 뒤 수백 년간 비슷한 규모로 재건되지 못한 이유는 <strong>철제 무기의 확산</strong>에서 찾을 수 있음. 지역 무기 생산이 제국 중심부의 군사적 우위를 약화했을 가능성이 있음</li>\n<li>청동에 필요한 <strong>주석은 희귀하고 장거리 교역에 의존</strong>했으므로 공...<p></p></li></ul>",
-    "createdAt": "2026-10-01T05:37:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34587",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "놀라울 만큼 복잡한 파동이 뇌의 내부 작동 방식을 드러내다",
-    "content": "<ul>\n<li>사람의 대뇌피질에서 한 지점으로 모이거나 퍼지는 파동과 회전하는 나선형 파동이 관찰됐으며, <strong>기억 과제에 따라 파동 패턴이 달라짐</strong></li>\n<li><strong>진행파(traveling wave)</strong> 는 신경 활동의 부산물을 넘어, 뇌가 행동에 맞춰 정보 처리를 실시간으로 재조직하는 수단일 가능성이...<p></p></li></ul>",
-    "createdAt": "2026-10-01T04:34:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=34585",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -1823,17 +1834,6 @@
     "site": {
       "id": "fea6242a-6856-473f-968e-c4b9ea5eed35",
       "name": "Ones To Watch For FrontEnd"
-    }
-  },
-  {
-    "title": "[Korean FE Article] Fetch 스트림은 훌륭하지만, 업로드/다운로드 진행 상황 측정에는 적합하지 않습니다",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!PrEo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!PrEo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!PrEo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!PrEo!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!PrEo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cf13e26-0ece-4117-b80c-7b088b8f8fb5_1536x1024.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://devowen.com/543\" target=\"_blank\" rel=\"noopener noreferrer\">https://devowen.com/543</a></p></blockquote><h2><strong>소개</strong></h2><p>이 글은 <strong>Fetch API의 스트림 기능이 데이터를 청크 단위로 받아 즉시 처리하는 데는 유용하지만, 업로드·다운로드 진행률을 측정하는 용도로는 정확하지 않다</strong>는 점을 설명합니다. </p><p>다운로드에서는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Content-Length</code>가 gzip·Brotli 등으로 <strong>압축된 데이터의 크기</strong>를 나타내는 반면, 스트림에서 읽는 청크는 압축 해제된 데이터일 수 있어 진행률이 100%를 넘는 등 오차가 발생할 수 있습니다.</p><p>업로드에서도 스트림의 청크가 Fetch에 전달된 시점만 알 수 있을 뿐, 그 데이터가 실제로 네트워크를 통해 서버에 전송된 시점은 알 수 없기 때문에 신뢰할 만한 진행률을 계산하기 어렵습니다.</p><p>따라서 현재 정확한 업로드·다운로드 진행 상황이 필요하다면 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">XMLHttpRequest</code>의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">progress</code> 이벤트를 사용하는 것이 적절하며, 앞으로는 Fetch 자체에 진행률 이벤트를 추가하는 API가 대안으로 제안되고 있습니다. </p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>큰 데이터를 주고 받는데는 시간이 오래 걸리고 이걸 기다리는 경험을 좋아하는 사용자는 없습니다. 큰 데이터 주고 받을 때 프론트엔드 개발자의 관점에서 사용자 경험을 좋게 하거나, 기술적으로 나은 방향을 고민해 본 적이 있으신가요?</p></blockquote><p><strong>💬. 의견 1 </strong></p><p><span>큰 데이터를 주고 받는 경우에 타임아웃 에러가 발생하는 경우가 종종 있었는데요. 이 경우에 일반적인 에러와 다른 에러 문구를 보여주고 최대한 에러 범위를 격리하는 작업을 했던 적이 있었어요.</span><br><span>또 서버에서 처리가 오래 걸리는 경우는 비동기 API나 SSE를 통해서 작업이 완료된 것을 확인하는 방식으로 작업하기도 했었어요!</span></p><p></p><h2><strong>목차</strong></h2><ul><li><p>응답 스트림</p></li><li><p>요청 스트림</p></li><li><p>업로드 진행 상황 측정 방법</p></li></ul><p></p>",
-    "createdAt": "2026-08-10T00:30:27.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-fetch",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
