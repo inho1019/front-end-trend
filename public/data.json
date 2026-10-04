@@ -1,5 +1,148 @@
 [
   {
+    "title": "Big Balls, 이제 최소 6개 주에서 중대한 형사 기소 가능성에 직면",
+    "content": "<ul>\n<li>DOGE 출신 <strong>Edward Coristine</strong>, 일명 Big Balls가 DOGE의 3억 명 이상 사회보장 기록 복사 의혹을 다룬 <strong>내부고발에 실명으로 등장</strong>함. 기록을 기관 보안 감시 밖의 클라우드로 옮긴 프로젝트에 참여하고 서버에 접근할 예정이었다는 자료를 토대로 주법상 기소 가능성이 거론됨...<p></p></li></ul>",
+    "createdAt": "2026-10-04T20:54:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=34777",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "전직 SR-71 엔지니어가 말하는 NASA의 Blackbird 부활 프로그램",
+    "content": "<ul>\n<li>NASA의 <strong>SR-71 Tail 844</strong>가 전시 장소에서 사라진 가운데, 과거 추진계통 책임자 Tim Conners는 기체 육안 검사가 끝났으며 곧 외부 전원을 연결하는 시험에 들어간다고 전함</li>\n<li>Conners는 복원 목적이 <strong>고속 엔진 시험 플랫폼</strong>일 가능성에 무게를 둠. 공기역학은 전산 모...<p></p></li></ul>",
+    "createdAt": "2026-10-04T20:51:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=34776",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "VGHF 디지털 아카이브, 잡지 5,000권 돌파와 향후 계획",
+    "content": "<ul>\n<li>Video Game History Foundation의 디지털 아카이브가 <strong>잡지 5,000권</strong>을 넘어섰으며, 연구용으로 무료 열람하고 본문을 검색할 수 있는 컬렉션이 출시 당시보다 3배 이상 커짐</li>\n<li>현재 컬렉션은 <strong>1981~2026년의 46년</strong>을 아우르는 약 60만 페이지로, 지금까지 목록화한 실물...<p></p></li></ul>",
+    "createdAt": "2026-10-04T20:48:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=34775",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: macOS의 모든 사진과 동영상의 모든 프레임을 위한 AI 검색",
+    "content": "<ul>\n<li><strong>SCM(Screen Memories)</strong> 은 macOS 폴더의 사진과 동영상을 자연어로 검색하는 로컬 우선 앱으로, 계정이나 업로드 없이 Mac에서 추론을 실행함</li>\n<li><strong>Files, Scenes, OCR, Dialogue, LLMs</strong>의 다섯 검색 모드를 제공하며, 시각적 의미 검색과 화면 속 문자 검색, 정확한 대사...<p></p></li></ul>",
+    "createdAt": "2026-10-04T19:37:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=34774",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "메타데이터를 일찍 출력하면 Rust 빌드와 검사가 최대 두 배 빨라짐",
+    "content": "<ul>\n<li><strong>headstart</strong>는 의존 크레이트의 인터페이스 검사가 끝나면 메타데이터를 먼저 출력해, 함수 본문 검사가 끝나기 전에 후속 크레이트의 컴파일을 시작하게 함</li>\n<li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cargo check</code></strong> 는 초기 메타데이터만으로 검사를 완료하며, <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">cargo build</code>...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-04T19:34:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=34773",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: LunarIQ — AI 번역이 되는 익명 텔레그램 채팅 봇",
+    "content": "<p>안녕하세요. LunarIQ를 만들고 있는 개발자입니다. 텔레그램에서 익명으로 대화할 수 있는 챗봇입니다. 상대와 언어가 달라도 AI가 실시간으로 번역해 줘서, 같은 방에서 자연스럽게 이야기할 수 있습니다. - 봇: https://t.me/Lunariqbot - 사이트: https://lunariqbot.com - <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/search</code>로 상대를 찾고 </p>",
+    "createdAt": "2026-10-04T19:06:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=34772",
+    "author": "lunariq",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "영재 아동과 이중 예외 아동의 거절 민감성",
+    "content": "<ul>\n<li><strong>거절 민감성</strong>은 중립적이거나 모호한 상황에서도 거절이나 비판을 감지하고 예상하며 강하게 반응하는 경향임. 영재성과 ADHD, 자폐 등 다른 특성이 함께 있는 <strong>이중 예외 아동(2e)</strong> 에게는 여러 기제가 겹쳐 반응이 더 강하고 예측하기 어려울 수 있음</li>\n<li><strong>거절 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-04T18:36:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=34771",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Meta가 Muse에서 잘한 것",
+    "content": "<ul>\n<li><strong>Muse</strong>는 새로운 에이전트 기술보다 기존 기능을 이해하기 쉬운 제품으로 묶는 데 강점이 있으며, 일반 소비자가 에이전트 AI를 받아들이는 첫 계기가 될 가능성이 있음</li>\n<li>모델 선택과 작업 모드 전환 같은 복잡성을 <strong>하나의 채팅</strong> 뒤로 숨기고, ‘자기 컴퓨터를 가진 개...<p></p></li></ul>",
+    "createdAt": "2026-10-04T17:40:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=34770",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "자동차는 바퀴 달린 스마트폰이다. 누가 귀 기울이고 있을까",
+    "content": "<ul>\n<li>미국 시장의 차량 21대와 연동 앱 30개를 조사한 결과, <strong>차량 19대가 Wi-Fi로 제3자와 통신</strong>했으며 접속 대상에는 광고 및 추적 도메인도 포함됨</li>\n<li>연동 앱 30개 중 <strong>7개가 민감한 식별정보</strong>를 광고 및 추적 관련 업체에 전송했으며, 5개는 차량 식별번호(VIN)와 다른 개...<p></p></li></ul>",
+    "createdAt": "2026-10-04T17:37:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=34769",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "암호화폐를 통한 해외 원조금 유용",
+    "content": "<ul>\n<li>세계은행 원조금 지급 시점을 분석한 결과, <strong>지급 당월에 암호화폐 활동이 급증</strong>했다가 증가세가 빠르게 사라지는 현상이 나타남</li>\n<li>활동 급증은 조세피난처 거래소와 일반 거래소 모두에서 <strong>익명 지갑과 신규 생성 지갑</strong>이 주도했으며, 블록체인에서는 전통적인 자금세탁...<p></p></li></ul>",
+    "createdAt": "2026-10-04T16:46:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=34768",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "여러분도 쓰레기통에 초광대역 무선 장치쯤은 달아 두셨겠죠?",
+    "content": "<ul>\n<li><strong>BinRange</strong>는 고정 UWB 앵커 1대와 배터리 태그 6개로 쓰레기통의 이동을 감지하고, Home Assistant의 수거 일정과 결합해 실제로 밖에 내놓았는지 확인하는 취미 프로젝트임</li>\n<li>신호 세기로 거리를 추정하던 Bluetooth 방식 대신 <strong>전파 이동 시간</strong>을 측정하며, 새 거리 측...<p></p></li></ul>",
+    "createdAt": "2026-10-04T16:43:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=34767",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Pi pod - 자체 서버의 샌드박스에서 pi 코딩 에이전트 실행하기",
+    "content": "<ul>\n<li><strong>pi pod</strong>는 직접 운영하는 서버에서 pi 세션을 격리된 샌드박스인 <strong>pod</strong>로 실행하며, 조합 가능한 환경을 지원하는 오픈소스 프로젝트임</li>\n<li>기존에 사용자가 다듬어 온 <strong>pi 하네스</strong>의 사용 경험을 유지하면서, 최소한의 엄선된 도구로 샌드박스 실행에 필요...<p></p></li></ul>",
+    "createdAt": "2026-10-04T16:40:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=34766",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 안 쓰던 태블릿에 ChatGPT Dots가 사는 방을 만들었습니다 (Dots Room)",
+    "content": "<p>안녕하세요. <strong>안 쓰던 Android 태블릿에 ChatGPT Dots가 사는 작은 픽셀 공간</strong>, Dots Room을 만들었습니다.</p>\n<p>처음에는 작업 중 답변을 놓치지 않도록, 새 메시지가 오면 태블릿 화면을 켜서 보여주는 용도로 만들었습니다. 꺼진 화면이 켜지며 Dots가 말을 거는 경험이 좋아서, 쉬고 책을 읽고 </p>",
+    "createdAt": "2026-10-04T16:36:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=34765",
+    "author": "sleeplesshan",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "gVisor, CNCF에 기증 추진",
     "content": "<ul>\n<li>Google이 <strong>gVisor의 이름과 상표를 포함한 프로젝트를 CNCF에 기증</strong>하며, Google 단독 통제에서 벗어나는 거버넌스 전환을 추진함</li>\n<li>기증 신청은 승인됐으며, 향후 수주 안에 <strong>Sandbox 단계와 유지관리자 중심 운영</strong>으로 전환하고 Google 외부 유지관리자에게도 병합 권한...<p></p></li></ul>",
     "createdAt": "2026-10-04T16:02:52.000+00:00",
@@ -418,127 +561,6 @@
     }
   },
   {
-    "title": "에티오피아 전쟁의 격화",
-    "content": "<ul>\n<li>에티오피아 북부에서 <strong>TPLF와 암하라 파노 민병대</strong>가 연방정부 및 정부와 연대한 티그라이 세력과 대규모 교전을 재개함. 정부 전복을 목표로 한 반군 연합의 공세가 2022년 평화협정 이후의 질서를 흔들고 있음</li>\n<li>전쟁의 원인은 <strong>Abiy Ahmed 개인을 넘어선 구조적 문제</strong>...<p></p></li></ul>",
-    "createdAt": "2026-10-03T19:42:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=34725",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 5달러 시계에 Claude·Codex 사용량을 띄워봤습니다",
-    "content": "<p>알리에서 약 5달러에 산 시계에 Claude·Codex 사용량을 띄워봤습니다. 책상에 두니 생각보다 귀엽네요.<br>\n시계 펌웨어는 그대로이고, 켜 둔 컴퓨터가 화면을 갱신합니다.<br>\n<a href=\"https://github.com/click6067-ship-it/token-tv\" target=\"_blank\" rel=\"noopener noreferrer\">코드</a> · </p>",
-    "createdAt": "2026-10-03T19:33:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=34724",
-    "author": "click6067",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 오픈소스 LEGO AI 생성기를 만들었습니다",
-    "content": "<ul>\n<li><strong>ldraw-nova</strong>는 사용자가 모델 아이디어를 주고 제작을 안내하면 AI 에이전트가 실제 LDraw 부품으로 LEGO 모델을 설계하는 오픈소스 프로젝트임</li>\n<li>에이전트가 직접 기하 계산을 수행하기보다 <strong>설계 계획과 Python 생성 스크립트</strong>를 만들고, 이를 실행해 LDraw 소스를 생...<p></p></li></ul>",
-    "createdAt": "2026-10-03T18:32:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=34723",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ICE, 시위 참가자 사진을 Palantir 데이터베이스에 쌓아 와",
-    "content": "<p>ICE, 시위 참가자 사진을 Palantir 데이터베이스에 쌓아 와</p>\n",
-    "createdAt": "2026-10-03T17:37:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=34722",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Linux 및 Windows용 Orion 개발 현황 안내",
-    "content": "<ul>\n<li>Kagi가 <strong>Linux 및 Windows용 Orion의 직접 개발을 종료</strong>하고, 커뮤니티가 이어갈 수 있도록 두 버전의 소스 코드를 공개할 예정임</li>\n<li>소수 개발자로 구성되고 전적으로 Kagi 사용자들의 자금으로 운영되는 팀의 역량을 <strong>macOS 및 iOS용 Orion에 집중</strong>하기로 함</li>\n<li>오...<p></p></li></ul>",
-    "createdAt": "2026-10-03T17:34:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=34721",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "tmux를 OS로 만들자",
-    "content": "<ul>\n<li>터미널에서 작업을 유지하고 다시 이어가는 <strong>tmux의 경험을 일반 사용자용 데스크톱으로 확장</strong>하는 구상으로, 창을 일일이 옮기기보다 하던 일을 그대로 이어가는 환경을 지향함</li>\n<li>데스크톱을 <strong>옆으로 스크롤하는 무한 캔버스</strong>로 만들고, 모니터를 연결하거나 분리해도 창...<p></p></li></ul>",
-    "createdAt": "2026-10-03T17:13:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34720",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare, 사용자 IP를 숨기는 OHTTP 게이트웨이 공개",
-    "content": "<ul>\n<li>앱 서버가 <strong>사용자 IP를 알지 않고 요청을 처리</strong>할 수 있도록 Cloudflare가 관리형 OHTTP Gateway의 비공개 베타를 시작함</li>\n<li>서로 다른 운영자가 맡는 <strong>릴레이는 사용자 IP만, 게이트웨이는 요청 내용만</strong> 보도록 분리해, 어느 한쪽도 누가 무엇을 요청했는지 함께 알 수 ...<p></p></li></ul>",
-    "createdAt": "2026-10-03T17:10:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34719",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "하네스가 곧 회사다",
-    "content": "<ul>\n<li>SaaS 기업의 개발·기획·영업을 <strong>AI 에이전트가 수행</strong>하게 되면, 회사는 모델에 업무 지식과 도구, 권한, 검토 절차를 제공하는 <strong>하네스</strong>로 바뀔 수 있음</li>\n<li>사람이 에이전트에게 일을 시키는 단계에서, <strong>에이전트가 먼저 일을 찾아 수행하고 사람이 결과를 검토하는...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-03T17:07:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34718",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "베네치아의 콘스탄티노폴리스 원정 실패가 최초의 채권시장으로 이어지다",
-    "content": "<ul>\n<li>베네치아는 콘스탄티노폴리스에 맞설 함대를 마련하려고 시민에게 <strong>강제 차입</strong>했으나, 원정 실패로 원금을 갚지 못하면서 긴급 대출이 사실상 영구적인 국가부채가 됨</li>\n<li>차입 증서인 <strong>prestiti</strong>는 다른 사람에게 매각할 수 있었고, 정부는 원금을 상환하지 못해도 </li></ul>",
-    "createdAt": "2026-10-03T17:04:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34717",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Kolibri - 독일의 소버린 AI 모델은 어떻게 작동하는가",
-    "content": "<ul>\n<li>Aleph Alpha가 독일·핀란드 인프라에서 처음부터 학습한 <strong>독일어·영어 모델</strong>로, 가중치를 <strong>Apache-2.0으로 공개</strong>해 조직이 자체 서버에서 데이터와 모델 운영을 통제할 수 있음</li>\n<li><strong>전문가 혼합(MoE)</strong> 구조로 전체 781억 파라미터 중 토큰당 약 35억만 사용...<p></p></li></ul>",
-    "createdAt": "2026-10-03T17:01:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34716",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 독일의 새로운 소버린 AI 모델 Kolibri",
-    "content": "<ul>\n<li>Aleph Alpha가 독일어와 영어용 <strong>오픈 웨이트 모델 Kolibri</strong>를 공개함. 독일과 핀란드의 인프라에서 처음부터 학습했으며, 조직이 자체 서버에서 데이터와 모델 운영을 통제할 수 있음</li>\n<li><strong>전문가 혼합(MoE)</strong> 구조로 전체 781억 개 파라미터 중 토큰당 34.6억 개만 활성화...<p></p></li></ul>",
-    "createdAt": "2026-10-03T15:37:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34715",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "EP228: How SSH Works",
     "content": "<h2><a href=\"https://go.bytebytego.com/BSA_100326\" target=\"_blank\" rel=\"noopener noreferrer\">Get a state-of-the-art, fully assembled agent harness. (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/BSA_100326\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Strands harness is the open-source, state-of-the-art, fully assembled agent harness. It’s a complete, production-ready agent the moment you install it. Across six benchmarks it matched or beat other harnesses on accuracy while using 28% fewer tokens.</p><p>You get shell, file, and web tools, plus context management, memory, and subagents, all tuned and ready to use. Every default is yours to change. Run it as a library or from the strands CLI, on any model and any cloud. It’s built on the open-source Harness SDK, so you can extend or replace anything.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/BSA_100326\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Get started</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>How SSH Works</p></li><li><p>Top 6 Techniques to Make Your AI System Efficient</p></li><li><p>The Anatomy of an AI Agent</p></li><li><p>How do you know if your AI app actually works?</p></li><li><p><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">🚀 New Course: AI Evals in Practice Starts on Oct. 7</a></p></li></ul><div><hr></div><h2>How SSH Works</h2><p>Secure shell is a method to access a remote machine securely over an unsecured network. It starts with a TCP connection from the SSH client to the remote machine (SSH server).</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!BK7k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><p>Both the machines exchange the SSH versions and negotiate crypto algorithms, and each side runs a key exchange protocol. The SSH server sends the public key and a signature, which the client machine verifies. That host key is then checked against the known_hosts file.</p><p>Both the machines then derive session keys on their end and do not share them over the network. Same keys, computed separately, never put on the wire. Then the SSH client starts authentication by sending the public key for login. </p><p>The SSH server matches the public key in the authorized_keys, and the SSH client also signs the auth request with the private key and sends the digital signature to the SSH server.</p><p>The private key never leaves your machine. The server will verify the signature with the client public key. This completes the SSH authentication, and now the session is open for communication.</p><div><hr></div><h2>Top 6 Techniques to Make Your AI System Efficient</h2><p>Serving LLMs at scale is expensive. These 6 popular techniques reduce latency and cost, and make your system more efficient. </p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!8hIH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>Streaming: The model sends each token as soon as it becomes ready. This changes the user’s perceived latency to time-to-first-token.</p></li><li><p>Quantization: Convert the model's weights to lower precision like FP8. This conversion leads to less memory usage, which translates to faster and cheaper serving.</p></li><li><p>Continuous batching: With this technique, new requests are added to the batch once a slot becomes available. Therefore, the GPU is less idle.</p></li><li><p>Prefix caching: This technique caches internal calculations for given input prompts. At runtime, if the prompt has a cached prefix, those calculations are skipped.</p></li><li><p>Paged KV cache: This technique stores the cache in fixed-size blocks instead of one contiguous chunk. At runtime, blocks are allocated as the sequence grows, so memory is not reserved up front.</p></li><li><p>Speculative decoding: Here, a small model (speculator) proposes multiple tokens. After that, the main model verifies them in one forward pass.</p></li></ol><p>Over to you: what is missing from this list?</p><div><hr></div><h2><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\">[Webinar] How to stop babysitting your agents (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/Unblocked_100326\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops.</p><p>More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand.</p><p><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\">Join us for a FREE webinar on Oct 7</a> to see:</p><ul><li><p>Where teams get stuck on the AI maturity curve and why common fixes fall short</p></li><li><p>How a context layer solves for quality, efficiency, and cost</p></li><li><p>Live demo: the same coding task with and without a context layer</p></li></ul><p>If you want to maximize the value you get from AI agents, this one is worth your time.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Register Now</span></a></p><div><hr></div><h2>The Anatomy of an AI Agent</h2><p>An AI agent can be thought of as a simple While-loop.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!lOfS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>It uses an LLM to select an action, executes that action, evaluates the result, and repeats the process until the task is complete. Let’s take a closer look at each of these components:</p><ul><li><p>Brain: The LLM is the core. It reads the situation, thinks, and decides what to do next. The big shift from chatbot to agent: the model isn’t writing text anymore, it’s making choices.</p></li><li><p>Planning: Hard tasks need more than one step. Agents break them down using methods like Chain of Thought (think step by step), Tree of Thoughts (try options, pick the best), or<br>Reflexion (learn from mistakes and retry). Planning turns a fuzzy goal into clear actions.</p></li><li><p>Tools: An LLM without tools is a brain in a jar. Tools are functions the model can call, like web search, code execution, APIs, files, or browsers (often using the MCP standard). The model requests a tool, the system runs it, and the result comes back.</p></li><li><p>Memory: Without memory, every turn starts from zero. Short-term memory is the context window. Long-term memory lives in vector stores, files, and knowledge bases. When the window fills up, agents summarize old turns and carry the summary forward.</p></li><li><p>Loop: All four pieces work together in a cycle. The agent looks at the current state, decides what to do, uses a tool, sees the result, and repeats. It keeps going until it gives a final answer.</p></li><li><p>Guardrails: Not strictly anatomy, but important. Sandboxing, human checks, token limits, output validation, and scope limits keep autonomy from turning into expensive chaos. The more autonomy you give, the more these matter.</p></li></ul><p>Over to you: when you build an agent, which of these five takes the most work to get right?</p><div><hr></div><h2>How do you know if your AI app actually works?</h2><p>You evaluate it. But most teams skip this step (or do it wrong) because “eval” feels vague. It’s not.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!6I0C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Every good eval is a 3-step recipe.</p><p>Step 1: Pick a task. AI systems have different capabilities and dimensions to evaluate. For LLMs, it can be safety or math capability, in RAGs it can be grounding and retrieval, Pick one.</p><p>Step 2: Collect eval data. For every task, gather inputs paired with the right answer or expected behavior. A safety set pairs risky prompts with “refuse.”</p><p>Step 3: Develop a grader. How do you decide if the output is good?</p><ul><li><p>Use code-based graders (if/else, unit tests) for things with a clear correct answer and patch passing unit-tests.</p></li><li><p>Use model-based graders (LLM-as-judge) for subjective tasks like safety.</p></li><li><p>Use human graders for edge cases and anything where nuance matters more than throughput.</p></li></ul><p>Most production evals combine all three. Code-based for what’s cheap to check. Model-based for scale. Human-based for what matters most.</p><p>Over to you: what’s the hardest thing about your task to grade, and which grader type do you use for it?</p><div><hr></div><h2><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">🚀 New Course: AI Evals in Practice Starts on Oct. 7</a></h2><p>ByteByteGo has teamed up with Manjeet Singh, Senior Director at Salesforce, to bring you a live and hands-on course on building reliable evaluation systems for production AI agents.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p><div><figure><a href=\"https://go.bytebytego.com/aievals-c1-substack\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 424w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 848w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1272w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 424w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 848w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1272w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>You’ll learn how to:</p><ul><li><p>Design evals for quality, safety, reliability, cost, and latency</p></li><li><p>Build and validate LLM-as-a-Judge systems</p></li><li><p>Red-team agents for prompt injection and jailbreaks</p></li><li><p>Create meaningful eval datasets from real and synthetic data</p></li><li><p>Evaluate tool use, RAG, multi-step execution, and multi-agent handoffs</p></li><li><p>Run evals in CI/CD and production to catch regressions and drift</p></li><li><p>Turn failures into permanent regression tests</p></li></ul><p>If you’re building AI agents and asking, “How do I know this is actually ready to ship?” — this course is for you.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p>",
     "createdAt": "2026-10-03T15:30:39.000+00:00",
@@ -547,28 +569,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "GLM 5.3 Flash로 한 달간 코딩하기",
-    "content": "<ul>\n<li><strong>GLM 5.3 Flash만으로 한 달간 개발</strong>하는 실험에서 Wagtail과 웹사이트 개발, UI 작업, 문서 작성 등을 수행했으며, 해당 모델 사용 비용은 <strong>68달러</strong>였음</li>\n<li><strong>100만 토큰 컨텍스트와 이미지 이해</strong>로 긴 코딩 작업과 스크린샷 기반 개발을 처리했지만, 서비...<p></p></li></ul>",
-    "createdAt": "2026-10-03T14:34:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=34714",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "에이전트 코딩의 묵시록 4기사",
-    "content": "<ul>\n<li>에이전트 코딩은 매우 유용하지만, <strong>슬롭, 소외, 숙련도 저하, 팀 관계 약화</strong>라는 네 가지 문제를 낳으며 개발자의 호기심, 장인정신, 사회적 연결에 큰 대가를 요구함</li>\n<li><strong>LLM 생성 코드 특유의 스타일</strong>은 사람이 코드베이스를 읽고 익숙해지기 어렵게 만들며, 에이전트가...<p></p></li></ul>",
-    "createdAt": "2026-10-03T14:03:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=34713",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
