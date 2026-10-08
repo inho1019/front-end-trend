@@ -1,5 +1,126 @@
 [
   {
+    "title": "Cleo(수학자)",
+    "content": "<ul>\n<li><strong>Cleo</strong>는 Mathematics Stack Exchange에서 복잡한 적분 문제에 풀이 과정 없이 정확한 답을 올리던 계정으로, 2025년 1월 개발자이자 수학자인 <strong>Vladimir Reshetnikov</strong>가 자신의 계정임을 확인함</li>\n<li>2013년 11월부터 2015년 12월까지 <strong>39개의 답변</strong>을 게시...<p></p></li></ul>",
+    "createdAt": "2026-10-08T09:38:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=35005",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Jonathan, 지구에서 가장 오래 산 현존 육상동물",
+    "content": "<ul>\n<li>약 <strong>194세인 알다브라코끼리거북 Jonathan</strong>의 유전체를 처음으로 해독한 연구에서 극단적인 장수와 관련될 수 있는 유전적 특징을 확인함</li>\n<li>연구진은 볼 안쪽에서 채취한 시료를 다른 거북의 유전체와 비교해 <strong>DNA 복구, 인슐린 조절, 미토콘드리아 기능</strong> 등 여러 노화 경...<p></p></li></ul>",
+    "createdAt": "2026-10-08T09:35:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=35004",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "C에서 이름을 쓰지 않고 함수 호출하기",
+    "content": "<ul>\n<li>학교의 C 코드 자동 채점 환경에서 <strong>허용 함수 검사</strong>를 우회해 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">execve</code> 심볼을 직접 쓰지 않고 셸을 실행하는 개념 증명에 성공함</li>\n<li><strong>ASLR</strong>은 메모리 배치 주소를 바꾸지만 같은 세그먼트 안의 함수 간 상대 위치는 유지하므로, 허용된 함수의 주소와 미리 알...<p></p></li></ul>",
+    "createdAt": "2026-10-08T09:02:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=35003",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "빅토리아 시대 엘리트는 왜 그렇게 유능했을까?",
+    "content": "<ul>\n<li>빅토리아 시대 영국 엘리트는 엄격한 학업이나 장시간 사무 노동보다 <strong>대인관계 역량, 집단 결속, 인맥 형성</strong>에 많은 시간을 썼음에도 자신들의 기준에서 큰 성공을 거둠</li>\n<li>엘리트 학교와 대학은 실용 지식보다 <strong>인격 형성과 공동체 의식</strong>을 중시했으며, 기숙 생활과 스포...<p></p></li></ul>",
+    "createdAt": "2026-10-08T08:40:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=35002",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "if는 위로, for는 아래로: 관용 패턴과 그 대수, 그리고 한계",
+    "content": "<ul>\n<li><strong>조건 분기는 호출자에, 반복문은 배치 처리 함수 내부에</strong> 배치하면 제어 흐름을 중앙화하고 핵심 처리 로직을 단순화할 수 있음</li>\n<li>호출자가 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">None</code>을 처리하고 함수가 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Option</code> 대신 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Walrus</code>를 받게 하면</strong>, 입력 타입...<p></p></li></ul>",
+    "createdAt": "2026-10-08T07:34:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35001",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google Playground - 나만의 게임을 만들고 플레이하는 플랫폼",
+    "content": "<ul>\n<li>Google이 <strong>코딩 경험 없이</strong> 텍스트 프롬프트로 게임을 제작하고 플레이하며 공유할 수 있는 실험적 플랫폼 <strong>Playground</strong>를 출시함</li>\n<li><strong>대화형 인터페이스</strong>로 게임을 만든 뒤 바로 테스트할 수 있으며, 물리 동작, 규칙, 캐릭터, 환경도 요청으로 수정 가능...<p></p></li></ul>",
+    "createdAt": "2026-10-08T06:38:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=35000",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Terence Tao, OpenAI의 수학 성과 공개에 응답하다",
+    "content": "<ul>\n<li>AI로 미해결 문제의 답만 대량 확보하는 방식은 <strong>증명의 이해와 후속 연구</strong>, 연구 공동체의 성장을 충분히 동반하지 못하고 있음</li>\n<li>전통적인 <strong>Math 1.0</strong>에서는 획기적인 증명이 강연, 워크숍, 협업과 연구자 유입으로 이어지고, 이 과정에서 증명이 정리되어 다음 세대의...<p></p></li></ul>",
+    "createdAt": "2026-10-08T06:35:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=34999",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: aside-remote - 데스크톱 Aside를 폰에서 쓰기",
+    "content": "<p>aside-remote는 맥의 <a href=\"https://aside.com\" target=\"_blank\" rel=\"noopener noreferrer\">Aside</a>를 폰이나 다른 컴퓨터의 브라우저에서 쓸 수 있게 해 주는 웹 앱입니다.<br>\n맥에 설치된 Aside CLI를 감싸서, 웹 채팅 화면에서 Aside에게 일을 시키고 진행 과정을 볼 수 있게 했습니다.</p>\n<p>밖에 있을 때도 폰으로 Aside에 일을 맡기고 싶어서 만</p>",
+    "createdAt": "2026-10-08T06:22:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=34998",
+    "author": "esc5221",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "기계는 어떻게 정밀함을 배웠나",
+    "content": "<ul>\n<li>산업혁명기의 공작기계는 <strong>평면 기준, 단단한 공구 지지대, 정확한 나사, 정밀 측정</strong>을 결합하면서 작업자의 손으로는 만들기 어려운 정확도를 확보함</li>\n<li>Watt의 증기기관에 필요한 실린더는 <strong>양끝에서 지지한 보링 바</strong>로 가공하면서 크게 개선됐으며, 1776년 제작품은 크...<p></p></li></ul>",
+    "createdAt": "2026-10-08T05:37:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=34996",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "순수 Rust로 Adobe Photoshop을 클린룸 재구현한 오픈소스",
+    "content": "<ul>\n<li><strong>PhotoCraft</strong>는 레이어, 마스크, 텍스트, 벡터, 브러시와 PSD 편집을 지원하는 오프라인 네이티브 이미지 편집기로, 공개 명세와 관찰한 동작만으로 Photoshop을 재구현함</li>\n<li><strong>PSD 호환성</strong> 테스트에서 psd-tools 파일 309개 중 307개는 열고 다시 저장한 뒤에도 렌더링 결...<p></p></li></ul>",
+    "createdAt": "2026-10-08T05:07:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=34995",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "프로그램 상태를 전달하는 터미널 프로토콜 OSC 7501",
+    "content": "<ul>\n<li><strong>OSC 7501</strong>은 프로그램이 대기, 실행, 사용자 개입 필요, 완료, 실패 상태와 그 이유를 터미널에 직접 알리는 새 이스케이프 시퀀스 명세임</li>\n<li>화면이나 창 제목으로 상태를 추측하는 대신 <strong>프로그램이 자신의 상태를 보고</strong>하며, 별도 소켓 API와 달리 기존 pty를 통해 SS...<p></p></li></ul>",
+    "createdAt": "2026-10-08T05:04:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=34994",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "SQLite의 확장은 더 큰 DB가 아니라 더 많은 DB",
     "content": "<p>사실 <a href=\"https://news.hada.io/topic?id=26449\" target=\"_blank\" rel=\"noopener noreferrer\">Postgres 하나면 대부분의 애플리케이션을 만들 수 있습니다</a>.<br>\n여러 사용자가 동시에 데이터를 수정하고, 여러 서버와 도구가 하나의 상태를 공유하는 데 이미 검증된 선택입니다.<br>\n저도 특별한 이유가 없다면 Postgres로 시작하는 게 자연스럽다고...</p>",
     "createdAt": "2026-10-08T04:17:37.000+00:00",
@@ -470,127 +591,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "Show GN: 바로화장실 - 주변 공공화장실 검색과 운영시간·편의시설 확인",
-    "content": "<p>안녕하세요. 바로화장실을 만든 Toris입니다.</p>\n<p>현재 위치나 지역을 기준으로 주변 공공화장실을 찾는 Android 앱입니다.</p>\n<ul>\n<li>지도 탐색과 주소·운영시간·편의시설 확인</li>\n<li>카카오맵·Google 지도 등 외부 길찾기 연결</li>\n<li>로그인 없이 기기에 즐겨찾기 저장</li>\n<li>이메일 로그인 후 정보</li></ul>",
-    "createdAt": "2026-10-07T15:19:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=34949",
-    "author": "torisdev",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: SymvaCAS – CAS, 그래프, 통계, 확률, Python을 한곳에 넣은 오픈소스 공학용 계산기",
-    "content": "<p><strong>SymvaCAS</strong>는 Android와 웹에서 사용할 수 있는 오픈소스 계산기입니다. Python/SymPy 기반이며 계산은 로컬에서 처리합니다.</p>\n<p>주요 기능은 다음과 같습니다.</p>\n<ul>\n<li>수치 계산 + CAS 심볼릭 연산</li>\n<li>미분, 적분, 극한, 급수, 방정식/연립방정식</li>\n<li>함수, 음함수, 매개변수, </li></ul>",
-    "createdAt": "2026-10-07T15:04:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=34948",
-    "author": "kirinonakar",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "2026년 노벨 화학상, Henri B. Kagan과 Kenso Soai 수상",
-    "content": "<ul>\n<li>Henri B. Kagan과 Kenso Soai가 <strong>비대칭 유기 합성의 비선형 효과와 자기촉매 작용</strong>을 발견한 공로로 2026년 노벨 화학상 수상자로 선정됨</li>\n<li>두 사람의 발견은 거울상 관계인 두 분자 중 한쪽만 존재하는 <strong>단일 손잡이성(homochirality)</strong> 이 어떻게 자발적으로 나타날 수...<p></p></li></ul>",
-    "createdAt": "2026-10-07T14:32:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=34947",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Chrome에 JPEG XL 지원 도입",
-    "content": "<ul>\n<li><strong>Chrome 155</strong>부터 JPEG XL(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.jxl</code>) 이미지 디코딩을 지원함. JPEG 대비 30~50% 더 나은 압축률과 무손실 압축, 내장 HDR 지원, JPEG 무손실 트랜스코딩을 제공함</li>\n<li><strong>AVIF와 JPEG XL을 모두 시험</strong>해 최적의 결과를 선택할 것을 권장함. JPEG XL은 특히 사진의 ...<p></p></li></ul>",
-    "createdAt": "2026-10-07T13:42:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=34946",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Brut - Unix 도구를 위한 Brutal Router",
-    "content": "<ul>\n<li><strong>Brut</strong>은 약 120줄의 단일 POSIX 셸 스크립트로, 실행 파일 이름과 명령 인자를 바탕으로 개별 실행 파일에 작업을 전달하는 Git CLI 스타일의 명령행 프런트엔드임</li>\n<li><strong>POSIX.1-2024 기본 유틸리티</strong> 외에는 자체 런타임 의존성이 없으며, 큰 셸 프로그램을 독립적으로 테...<p></p></li></ul>",
-    "createdAt": "2026-10-07T13:05:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34945",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Norm Macdonald 관련 게시물 때문에 2년간 55차례 스와팅을 당한 부부",
-    "content": "<ul>\n<li>Milwaukee의 Patrick Tomlinson과 Niki Robinson 부부가 허위 강력범죄 신고로 무장 경찰이 반복 출동한 사건과 관련해 시로부터 <strong>미화 57만 5,000달러의 합의금</strong>을 받게 됨</li>\n<li>Tomlinson에 따르면, Norm Macdonald가 웃기지 않다는 2018년 게시물 이후 온라인 괴롭힘이 이어졌으며, 결국...<p></p></li></ul>",
-    "createdAt": "2026-10-07T12:44:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34944",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ESP32-C3 광고 차단기",
-    "content": "<ul>\n<li><strong>2달러 ESP32-C3</strong>에서 PSRAM 없이 동작하는 Pi-hole 방식의 DNS 광고 차단기로, 차단 목록을 RAM 대신 플래시에 저장해 RAM 사용량을 약 50KB로 줄임</li>\n<li>도메인을 정렬된 <strong>40비트 해시</strong>로 저장하고 이진 탐색함으로써, 14만 개 이상의 도메인을 약 0.7MB에 담고 WiFi 왕복...<p></p></li></ul>",
-    "createdAt": "2026-10-07T12:41:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34943",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "클래식 Commodore 64 키캡 사진으로 재현한 폰트",
-    "content": "<ul>\n<li><strong>C64 Keyboard</strong>는 클래식 Commodore 64 키캡 사진을 바탕으로 글자 형태를 다듬고 비례를 일관되게 맞춘 폰트임</li>\n<li>화면의 비트맵 폰트가 아니라 <strong>키캡에 인쇄된 문자와 기호</strong>를 재현하며, 소문자를 입력해도 대문자로 표시함</li>\n<li>대문자, 숫자, 문장부호, 화살표, £...<p></p></li></ul>",
-    "createdAt": "2026-10-07T12:38:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34942",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 해외 직구한 내 소포, 어디쯤 있을까요?",
-    "content": "<p>먼 나라에서 날아 오는 소포, 어디있을지 상상만 하며 우편함을 열어 보셨나요?</p>\n<p>하염없이 우체국 홈페이지만 새로고침하며 기다리셨나요?</p>\n<p><strong>국제 배송, 지금 어디쯤 왔는지 궁금할 때. 송장 번호 하나면 됩니다.</strong></p>\n<h3>DB에 기반합니다</h3>\n<p>많은 예측 서비스들은 LLM에게 정보를 </p>",
-    "createdAt": "2026-10-07T10:33:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=34940",
-    "author": "gg5823",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "x32에서 실행한 Janet: 32비트 포인터, 64비트 속도, RAM 25% 절감",
-    "content": "<ul>\n<li><strong>Linux x32 ABI</strong>는 64비트 명령어 집합을 유지하면서 32비트 포인터를 사용함. Janet 실험에서는 RAM 사용량이 평균 21% 줄었으며, 실행 속도는 작업에 따라 느려지거나 빨라짐</li>\n<li>일반 32비트 빌드인 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-m32</code>와 x32 빌드인 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-mx32</code>는 다름</strong>. Arch에...<p></p></li></ul>",
-    "createdAt": "2026-10-07T10:09:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=34939",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "노트북 도둑과 함께 일했던 때 (2025)",
-    "content": "<ul>\n<li>IT 부서 재정비 중 새로 주문한 MacBook의 재고가 맞지 않는 사실을 발견했고, 조사 끝에 계약직 직원이 약 1년간 <strong>노트북 30대 이상을 훔친 사실</strong>이 드러남</li>\n<li>계약직 직원은 누락된 기기를 초기 불량으로 수리 보냈다고 했지만, <strong>Apple 수리 기록과 배송 정보</strong>를 확인하...<p></p></li></ul>",
-    "createdAt": "2026-10-07T10:06:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=34938",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
