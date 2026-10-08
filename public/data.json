@@ -1,5 +1,258 @@
 [
   {
+    "title": "Theranos.world",
+    "content": "<ul>\n<li><strong>Elizabeth Holmes의 책상</strong>을 재현한 인터랙티브 시뮬레이션으로, MacBook과 iPhone, Edison 기기를 조작할 수 있음</li>\n<li>문자와 이메일은 모두 <strong>실제 재판 자료</strong>에서 가져왔으며, Extend로 파싱함</li>\n<li><strong>의자를 클릭하거나 탭해 앉고</strong>, 드래그로 주변을...<p></p></li></ul>",
+    "createdAt": "2026-10-08T22:31:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=35033",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "왜 AI 업계는 DeepSeek 4.1 Flash에 긴장하지 않는가?",
+    "content": "<ul>\n<li><strong>DeepSeek 4.1 Flash를 약 한 달간 12개 프로젝트에서 집중적으로 사용한 경험상</strong>, 대화와 작업 결과, 속도에서 Opus와 차이를 체감하기 어려웠지만 비용은 훨씬 낮았음</li>\n<li>일상적인 개발 작업에는 이미 충분한 성능을 제공하므로, 최신 최고급 모델을 좇기보다 <strong>같은 일을 얼마나...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-08T21:38:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35032",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "일러스트레이터에게 우리 집 그림을 의뢰했다. 이제 그 그림이 Home Assistant 대시보드다",
+    "content": "<ul>\n<li><strong>실제 집을 그린 인터랙티브 대시보드</strong>를 만들어, 기존 Home Assistant 앱을 쓰려 하지 않던 가족들도 기기를 직접 제어하게 됨</li>\n<li>벽난로의 불꽃, 정원 조명, 에어컨의 바람을 그림에 반영하며, 기기 상태에 따라 정지 이미지와 <strong>애니메이션 WebP</strong>를 바꿔 표시함</li>\n</ul>",
+    "createdAt": "2026-10-08T21:35:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35031",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SynthID Detector - AI 생성 미디어 워터마크 탐지 도구",
+    "content": "<ul>\n<li>Google의 <strong>SynthID Detector</strong>는 이미지, 영상, 오디오를 업로드해 AI 생성 또는 편집 과정에서 삽입된 SynthID 워터마크를 확인하는 도구임</li>\n<li>이미지에서는 워터마크 존재 여부를, <strong>영상과 오디오에서는 워터마크가 있는 구간</strong>을 탐지함</li>\n<li>Google DeepMind가 개발...<p></p></li></ul>",
+    "createdAt": "2026-10-08T20:37:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35030",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "스마트 커피 머신, 열흘간 트래픽 1TB 발생 - 대부분 집 안 네트워크 통신",
+    "content": "<ul>\n<li>부모님 집의 네트워크를 관리하다가 <strong>Keurig 스마트 커피 머신에서 열흘간 약 1TB의 트래픽</strong>이 발생한 것을 발견함</li>\n<li>처음에는 대규모 업로드에 놀랐지만, 추가 확인 결과 <strong>트래픽 대부분은 외부 인터넷으로 나가지 않고 집 안 네트워크에 머물렀음</strong></li>\n<li>외부 전송량...<p></p></li></ul>",
+    "createdAt": "2026-10-08T20:34:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35029",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI 연환산 매출, 앞서 시사한 수준보다 200억 달러 적어",
+    "content": "<ul>\n<li><strong>OpenAI</strong>가 투자자에게 전달한 9월 말 연환산 매출은 약 <strong>500억 달러</strong>로, 앞서 널리 알려진 680억 달러보다 낮음</li>\n<li>관계자에 따르면 <strong>680억 달러에는 파트너사의 총매출이 포함</strong>돼 있었으며, 이는 경쟁사 Anthropic과 더 직접적으로 비교하기 위한 수치임...<p></p></li></ul>",
+    "createdAt": "2026-10-08T19:38:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35028",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Whistle - 16.9 MB로 구현한 음성 텍스트 변환",
+    "content": "<ul>\n<li><strong>Whistle</strong>은 16.9 MB 단일 파일로 배포되는 공개 음성 인식 모델로, 별도 의존성 없이 CPU에서 실행되며 7개 언어의 음성을 기기 내에서 텍스트로 변환함</li>\n<li><strong>전사, 단어별 타임스탬프, 음성 임베딩</strong>을 지원하며, 16 kHz 모노 오디오를 한 번에 최대 30초까지 처리함</li>...<p></p></ul>",
+    "createdAt": "2026-10-08T19:35:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35027",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Anne Carson, 2026년 노벨문학상 수상",
+    "content": "<ul>\n<li>캐나다 시인이자 에세이스트 <strong>Anne Carson</strong>이 2026년 노벨문학상 수상자로 선정됨. 스웨덴 한림원은 고전 전통과의 유희적 대화를 통해 현대 문학의 새로운 형식을 창조한 작품 세계를 높이 평가함</li>\n<li><strong>시, 산문, 번역의 경계를 넘나드는 작업</strong>이 특징이며, 고대 그리스 문...<p></p></li></ul>",
+    "createdAt": "2026-10-08T18:38:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35026",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "4시간 배터리 저장장치, 전 세계에서 가스터빈보다 설치 비용 저렴해져",
+    "content": "<ul>\n<li>Wood Mackenzie의 <strong>균등화발전비용(LCOE)</strong> 분석에서 4시간 배터리 저장장치가 두 기술을 함께 모델링한 <strong>43개 시장 모두에서 개방형 사이클 가스터빈보다 저렴</strong>해짐</li>\n<li><strong>가스터빈 공급 부족과 연료 가격 변동성</strong>은 피크 수요 대응 발전 비용을 높이는 반면...<p></p></li></ul>",
+    "createdAt": "2026-10-08T18:35:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35025",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, 수학 결과 3건 철회",
+    "content": "<ul>\n<li>OpenAI 수학 GitHub 저장소에 <strong>새 Lean 형식화 6건</strong>, 수정 19건, 철회 3건이 반영됨</li>\n<li><strong>철회된 수학 결과 3건</strong>의 구체적인 대상이나 사유는 게시물에 명시되지 않음</li>\n<li>저장소의 <strong>주요 결과 약 42%</strong> 가 현재 형식화된 상태임</li>\n<li>앞으로도 </li></ul>",
+    "createdAt": "2026-10-08T17:40:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35024",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DVD 메뉴의 아름다움 - 재생 화면을 넘어 영화 속 세계로",
+    "content": "<ul>\n<li>2000년대의 <strong>DVD 메뉴</strong>는 단순한 재생 화면을 넘어, 작품 속 공간과 전용 애니메이션, 숨겨진 콘텐츠와 게임으로 영화 감상의 재미를 확장함</li>\n<li>《스쿠비 두 2》는 메뉴 곳곳에서 단서를 찾는 게임을, 《해리 포터와 아즈카반의 죄수》는 달리는 버스와 신문을 본뜬 메뉴를, 《슈렉 2》는...<p></p></li></ul>",
+    "createdAt": "2026-10-08T17:37:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35023",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "오래가는 소프트웨어가 천천히 만들어지는 과정 - Zotero의 탄생",
+    "content": "<ul>\n<li><strong>Zotero</strong>는 연구 자료의 수집·정리·주석·인용·공유를 돕는 무료 오픈소스 도구로, 역사학자들의 협업에서 출발해 출시 20년 만에 <strong>2,000만 명 이상</strong>이 사용하는 소프트웨어로 성장함</li>\n<li>초기 시제품까지 <strong>5분이 아니라 약 5년</strong>이 걸렸음. 처음부터 원하는...<p></p></li></ul>",
+    "createdAt": "2026-10-08T16:46:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=35022",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국, Microsoft·Adobe 등 8개사의 취업 영주권 노동인증 중단",
+    "content": "<ul>\n<li>미국 정부가 <strong>Microsoft·Adobe와 IT 서비스 기업 6곳의 취업 영주권 노동인증(PERM) 절차를 중단</strong>한다고 발표함</li>\n<li>대상 기업의 <strong>신규 신청을 받지 않고, 이미 접수된 신청의 처리도 중단</strong>하며, 제도 남용 의혹과 진행 중인 연방 조사를 이유로 제시함</li>\n<li><strong>P...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-08T16:43:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=35021",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tell HN: 탄자니아 농촌 주민 한 명의 교육비를 10년째 지원하고 있습니다",
+    "content": "<ul>\n<li>10년 전 19세에 탄자니아 Njombe 고지대의 Ibumila 마을에서 여름을 보내며, 머물던 집의 11세 딸 <strong>Anwarite의 학비 지원</strong>을 시작함. 마을에는 학교가 없고 한 시간 거리의 기숙학교는 연간 수백 달러로 대부분의 가정이 감당하기 어려웠지만, 당시 여름 아르바이트 2주 치 수입으로 지원할 수 ...<p></p></li></ul>",
+    "createdAt": "2026-10-08T16:40:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=35020",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "고전 PC 데모씬 작품을 브라우저에서 실행하기",
+    "content": "<ul>\n<li><strong>Second Reality, Unreal, Crystal Dream 2 등 고전 PC 데모를 브라우저에서 실행</strong>하는 프로젝트로, 녹화 영상이 아니라 원래 프로그램의 코드가 동작함</li>\n<li><strong>데모씬은 제한된 컴퓨터 성능으로 실시간 그래픽과 음악을 구현하는 창작 문화</strong>이며, 1992~1995년 작품 네 편을 ...<p></p></li></ul>",
+    "createdAt": "2026-10-08T15:32:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=35019",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "How Software Boundaries Are The Most Important Skill for Developers",
+    "content": "<p>No matter how big a software system gets, it will still have a boundary. This boundary separates things inside the system from those outside it. In fact, you’d have noticed that dividing a large system into multiple components can have some great benefits. However, deciding how the system should be divided requires skill and understanding. Experience is the best teacher in such cases. But there are also some strategies that can help.</p><p>But what exactly does a boundary do?</p><p>A good software boundary keeps an application’s responsibilities, its rules, and the details needed to apply those rules together. Parts of the system outside this boundary can talk to things inside the boundary only through a clear pathway. This means that the skill of deciding boundaries requires you to have an idea of which responsibilities should be bunched together. Also, which dependencies should exist between them.</p><p>In this article, we’ll learn some key strategies that can help a developer make the right boundary-related decisions for the systems they are working on.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>What Does a Software Boundary Control</h2>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/how-software-boundaries-are-the-most\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
+    "createdAt": "2026-10-08T15:31:01.000+00:00",
+    "link": "https://blog.bytebytego.com/p/how-software-boundaries-are-the-most",
+    "author": "ByteByteGo",
+    "site": {
+      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
+      "name": "ByteByteGo Newsletter"
+    }
+  },
+  {
+    "title": "Show GN: 반도체부터 전세·보험까지, 시뮬레이터를 만지며 배우는 무료 웹 교과서 시리즈",
+    "content": "<p>2022년 Bartosz Ciechanowski의 <a href=\"https://ciechanow.ski/mechanical-watch/\" target=\"_blank\" rel=\"noopener noreferrer\">Mechanical Watch</a>를 보고 신선한 충격을 받았습니다. 그 뒤로 제가 관심 있는 분야도 저렇게 직접 만져 보며 이해하는 웹 페이지로 만들고 싶다는 생각이 늘 있었는데, AI가 발전한 덕분에 이제는 혼자서도 만들 수 있게 되었습...</p>",
+    "createdAt": "2026-10-08T15:27:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=35018",
+    "author": "geniuskey",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "빈과 베이징에서 가동을 시작한 최초의 (thorium) nuclear clocks",
+    "content": "<p>빈과 베이징에서 가동을 시작한 최초의 (thorium) nuclear clocks</p>\n",
+    "createdAt": "2026-10-08T14:48:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=35015",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "제2차 세계대전 폭탄을 해체하는 기술",
+    "content": "<ul>\n<li>2026년 1월 14일 영국 Plymouth 건설 현장과 Exmouth 항구에서 각각 <strong>50kg, 250kg 불발탄</strong>이 발견돼, 육군과 해군이 동시에 처리 작전에 나섬</li>\n<li>영국 군 폭발물 처리팀의 연평균 출동 약 2,500건 가운데 <strong>약 2,000건이 전쟁 잔존 폭발물</strong> 때문이며, 더 깊게 굴착하는 건설...<p></p></li></ul>",
+    "createdAt": "2026-10-08T14:45:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=35014",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Opus 5.5에 프롬프트 하나와 6시간을 주고 『보이지 않는 도시들』을 시각화하게 해봤다",
+    "content": "<ul>\n<li><strong>Claude Opus 5.5</strong>와 <strong>GPT-6 Astra</strong>에 같은 프롬프트를 주고, Italo Calvino의 『보이지 않는 도시들』에 등장하는 모든 도시를 추가 질문 없이 인터랙티브 시각화하도록 실험함</li>\n<li>과제는 <strong>three.js와 pnpm</strong>을 사용하고, 걸작이 될 때까지 주어진 </li></ul>",
+    "createdAt": "2026-10-08T14:42:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=35013",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Porch - 클로드코드·코덱스로 한 일을 프로젝트별로 정리하는 맥 메뉴바 앱",
+    "content": "<p>클로드코드와 코덱스로 한 일을 프로젝트별로 하루·한 주·한 달 단위로 정리해 주는 맥 메뉴바 앱을 직접 만들었습니다. <strong>오픈소스</strong>이고 가입 없이 쓸 수 있습니다.</p>\n<p>여러 터미널에서 세션을 돌리다 보니 하루동안 어떤 작업에 시간을 썼는지, 스스로 에이전트 활용이나 세션들을 어떻게 얼마나</p>",
+    "createdAt": "2026-10-08T13:51:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=35010",
+    "author": "bearjb",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "인터넷을 떠받치는 사람들",
+    "content": "<ul>\n<li>휴대전화·브라우저·서버가 의존하는 <strong>오픈소스 프로젝트 23개 중 11개는 최근 1년간 정기적으로 코드를 변경한 사람이 한두 명뿐</strong>이었음</li>\n<li><strong>40억 대 휴대전화의 시간대를 관리하는 Paul Eggert</strong>, core-js의 Denis Pushkarev, sudo의 Todd Miller처럼 일상의 디지털 기능이...<p></p></li></ul>",
+    "createdAt": "2026-10-08T13:40:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=35009",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, 수학 논문 3편 철회",
+    "content": "<ul>\n<li><strong>부호 오류</strong>로 분할 아벨 8차원 다양체의 Weil 클래스에 관한 논문의 논증과 이를 사용하는 다른 두 논문의 구성이 무효화되어, OpenAI가 <strong>원고 3편을 철회함</strong></li>\n<li>철회 대상은 <strong>Weil 클래스의 대수성</strong>, K3 곡면의 Kuga–Satake 대응의 대수성, K3 곡면의 곱...<p></p></li></ul>",
+    "createdAt": "2026-10-08T13:37:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=35008",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Cleo(수학자)",
     "content": "<ul>\n<li><strong>Cleo</strong>는 Mathematics Stack Exchange에서 복잡한 적분 문제에 풀이 과정 없이 정확한 답을 올리던 계정으로, 2025년 1월 개발자이자 수학자인 <strong>Vladimir Reshetnikov</strong>가 자신의 계정임을 확인함</li>\n<li>2013년 11월부터 2015년 12월까지 <strong>39개의 답변</strong>을 게시...<p></p></li></ul>",
     "createdAt": "2026-10-08T09:38:06.000+00:00",
@@ -55,8 +308,8 @@
     }
   },
   {
-    "title": "Google Playground - 나만의 게임을 만들고 플레이하는 플랫폼",
-    "content": "<ul>\n<li>Google이 <strong>코딩 경험 없이</strong> 텍스트 프롬프트로 게임을 제작하고 플레이하며 공유할 수 있는 실험적 플랫폼 <strong>Playground</strong>를 출시함</li>\n<li><strong>대화형 인터페이스</strong>로 게임을 만든 뒤 바로 테스트할 수 있으며, 물리 동작, 규칙, 캐릭터, 환경도 요청으로 수정 가능...<p></p></li></ul>",
+    "title": "Google Playground - 코딩 없이 AI와 대화로 게임을 만들고 공유하는 플랫폼",
+    "content": "<ul>\n<li>Google이 <strong>코딩 없이 텍스트 프롬프트로 게임을 제작·플레이·공유하는</strong> 실험적 플랫폼 <strong>Playground</strong>를 출시함</li>\n<li>원하는 게임을 대화로 만든 뒤 <strong>바로 플레이하고 수정</strong>할 수 있으며, 물리 동작·규칙·캐릭터·배경도 요청으로 변경 가능</li>\n<li><strong>...<p></p></strong></li></ul>",
     "createdAt": "2026-10-08T06:38:57.000+00:00",
     "link": "https://news.hada.io/topic?id=35000",
     "author": "neo",
@@ -66,8 +319,8 @@
     }
   },
   {
-    "title": "Terence Tao, OpenAI의 수학 성과 공개에 응답하다",
-    "content": "<ul>\n<li>AI로 미해결 문제의 답만 대량 확보하는 방식은 <strong>증명의 이해와 후속 연구</strong>, 연구 공동체의 성장을 충분히 동반하지 못하고 있음</li>\n<li>전통적인 <strong>Math 1.0</strong>에서는 획기적인 증명이 강연, 워크숍, 협업과 연구자 유입으로 이어지고, 이 과정에서 증명이 정리되어 다음 세대의...<p></p></li></ul>",
+    "title": "테렌스 타오: AI가 수학 문제를 푸는 것만으로는 충분하지 않다",
+    "content": "<ul>\n<li><strong>수학의 발전은 미해결 문제를 푸는 데서 끝나지 않음</strong>. 증명을 이해하고 다듬는 강연·워크숍·협업을 거쳐 새로운 연구와 다음 세대의 지식으로 이어짐</li>\n<li>AI로 문제를 푼 뒤 <strong>결과를 충분히 이해하지 못하거나 해당 분야에 관심을 두지 않는 사례</strong>가 늘면서, 해답에 뒤따...<p></p></li></ul>",
     "createdAt": "2026-10-08T06:35:57.000+00:00",
     "link": "https://news.hada.io/topic?id=34999",
     "author": "neo",
@@ -99,8 +352,8 @@
     }
   },
   {
-    "title": "순수 Rust로 Adobe Photoshop을 클린룸 재구현한 오픈소스",
-    "content": "<ul>\n<li><strong>PhotoCraft</strong>는 레이어, 마스크, 텍스트, 벡터, 브러시와 PSD 편집을 지원하는 오프라인 네이티브 이미지 편집기로, 공개 명세와 관찰한 동작만으로 Photoshop을 재구현함</li>\n<li><strong>PSD 호환성</strong> 테스트에서 psd-tools 파일 309개 중 307개는 열고 다시 저장한 뒤에도 렌더링 결...<p></p></li></ul>",
+    "title": "PhotoCraft - Rust로 Photoshop을 재구현한 오픈소스 이미지 편집기",
+    "content": "<ul>\n<li><strong>레이어, 마스크, 텍스트, 벡터, 브러시와 PSD 편집</strong>을 지원하는 오프라인 이미지 편집기로, Photoshop에 익숙한 메뉴·단축키·패널 배치를 지향함</li>\n<li><strong>Rust 엔진과 egui UI</strong>로 구현해 Electron이나 웹뷰 없이 실행하며, GPU 합성과 멀티스레드 필터로 이미지 처리 속도를 ...<p></p></li></ul>",
     "createdAt": "2026-10-08T05:07:40.000+00:00",
     "link": "https://news.hada.io/topic?id=34995",
     "author": "neo",
@@ -323,248 +576,6 @@
     "content": "<ul>\n<li><strong>PSP Web Recomp</strong>는 PSP 게임의 MIPS 기계어를 미리 C++로 변환하고 WebAssembly로 컴파일해 브라우저에서 실행함. PSP 운영체제와 그래픽 칩의 필요한 기능을 재구현하고 WebGL2로 화면을 그림</li>\n<li>첫 적용작인 <strong>God of War: Chains of Olympus</strong>는 부팅부터 메뉴, 컷신, 전...<p></p></li></ul>",
     "createdAt": "2026-10-07T23:41:36.000+00:00",
     "link": "https://news.hada.io/topic?id=34973",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "15m 지하 터널이 있는 주택, 30만에 매물로 나와",
-    "content": "<p>15m 지하 터널이 있는 주택, 30만에 매물로 나와</p>\n",
-    "createdAt": "2026-10-07T23:38:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=34972",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apollo 프로그램의 소프트웨어 개발을 이끈 Margaret Hamilton 별세",
-    "content": "<ul>\n<li>NASA Apollo 프로그램에서 MIT의 소프트웨어 엔지니어링 팀을 이끈 <strong>Margaret Hamilton</strong>이 9월 30일 <strong>90세</strong>로 별세함</li>\n<li>Apollo 11의 달 착륙 직전 컴퓨터에 과부하가 발생했지만, 팀이 개발한 <strong>우선순위 기반 소프트웨어</strong>가 임무 필수 작업을 우선 처리해...<p></p></li></ul>",
-    "createdAt": "2026-10-07T23:35:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=34971",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Gooo - 작은 모델로 코드를 조립하고 이어 만드는 언어",
-    "content": "<p>요즘 Gooo라는 언어를 만들고 있습니다. 작은 모델로 코드를 조립해 보고, 그걸 쓰다가 불편한 부분이 나오면 언어도 고쳐 가는 식으로 작업하고 있어요.</p>\n<p>제가 해보고 싶은 건 코드가 덜 만들어진 상태에서도 어디까지 됐는지 알고 이어가는 겁니다. 열 개 중 여섯 개가 맞았다면, 나머지 네 개가 뭔지 남아 있</p>",
-    "createdAt": "2026-10-07T23:12:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=34970",
-    "author": "asketeddy",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Wikipedia를 바탕으로 만든, 걸어 다니며 관람하는 3D 미술사 박물관",
-    "content": "<ul>\n<li><strong>A Walkable History of Art</strong>는 Wikipedia를 바탕으로 만든 미술사 박물관으로, 작가의 작품을 <strong>3D 갤러리</strong> 안에서 걸어 다니며 살펴볼 수 있음</li>\n<li><strong>타임라인에서 시대를 선택</strong>하고 작가를 고른 뒤, “Enter the Gallery”를 눌러 전시장에 입장하는 방식임...<p></p></li></ul>",
-    "createdAt": "2026-10-07T22:43:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34969",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Docker Agent - YAML로 AI 에이전트 팀을 만들고 실행하는 오픈소스 도구",
-    "content": "<ul>\n<li><strong>YAML에 모델·지침·도구를 정의해 AI 에이전트를 만들고 실행</strong>하는 Docker 공식 CLI 플러그인으로, 별도의 프로그램 작성 없이 업무별 에이전트 구성 가능</li>\n<li>여러 전문 에이전트를 팀으로 묶고 <strong>작업을 자동으로 위임하는 멀티 에이전트 오케스트레이션</strong> 지원</li>\n<li>내...<p></p></li></ul>",
-    "createdAt": "2026-10-07T22:40:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34968",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "수학의 아포칼립스 - AI가 평생의 연구 문제를 풀어버린 뒤",
-    "content": "<ul>\n<li>“엄마가 평생 연구한 문제를 로봇이 풀었다며?”라는 <strong>아홉 살 아들의 놀림이 현실이 됨</strong>. OpenAI가 공개한 수학 성과에는 Dana Moshkovitz가 오랫동안 연구한 <strong>유일 게임 추측(UGC)</strong> 의 증명도 포함됨</li>\n<li><strong>AI가 증명을 내놓는 것과 사람이 이해하는 것은 다름</strong></li></ul>",
-    "createdAt": "2026-10-07T22:37:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34967",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: ZST - 1분에 한 장, 제목 한 줄과 4–6줄로 생각을 꺼내는 iOS 메모 앱",
-    "content": "<p>생각이 많아 머리가 무거울 때 쓰려고 만든 iPhone·iPad 메모 앱입니다. 지금 마음에 걸리는 것을 제목 한 줄로 쓰고, 떠오르는 대로 4–6줄을 1분 안에 씁니다. 하루 10장까지 쓰고, 3개월·6개월 뒤에 앱이 그 장을 다시 꺼내 줍니다. 아카바 유지의 『0초 사고』에 나오는 A4 메모법을 휴대폰으로 옮긴 것입니다....</p>",
-    "createdAt": "2026-10-07T21:56:31.000+00:00",
-    "link": "https://news.hada.io/topic?id=34966",
-    "author": "yyc9920",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Meta·Microsoft, 사내 Claude 사용 줄이고 자체 AI 도구로 전환",
-    "content": "<ul>\n<li>Meta와 Microsoft가 <strong>직원들의 Claude 사용을 줄이고 자체 AI 도구 사용을 확대</strong>하고 있음. 늘어난 내부 AI 비용을 통제하고 자사 제품을 활용하려는 움직임</li>\n<li>Microsoft는 <strong>연간 10억 달러 이상으로 예상했던 사내 Anthropic 지출을 3분의 1 이상 축소</strong>하고, GitHub Cop...<p></p></li></ul>",
-    "createdAt": "2026-10-07T21:32:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=34964",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gentoo, Chromium 소스 패키지 유지보수 중단 절차 돌입",
-    "content": "<ul>\n<li>Linux 배포판 <strong>Gentoo가 Chromium 소스 패키지의 유지보수 중단 절차에 들어감</strong>. 복잡한 빌드와 잦은 업데이트, 반복되는 사용자 불만으로 담당자들이 소진됨</li>\n<li>Gentoo는 사용자가 <strong>기능과 의존성을 선택해 직접 컴파일</strong>할 수 있지만, 한 컴퓨터에서 빌드에 성공했다고 다...<p></p></li></ul>",
-    "createdAt": "2026-10-07T21:03:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=34963",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "개발 블로그 글쓰기의 안티패턴",
-    "content": "<ul>\n<li>개발 블로그에서 가장 흔한 실수는 <strong>본론에 도달하기까지 너무 오래 걸리는 것</strong>임. 제목과 첫 세 문장 안에 누구를 위한 글인지, 읽으면 무엇을 얻는지 알려야 함</li>\n<li><strong>독자가 자신과 같은 지식을 가졌다고 가정하지 않아야 함</strong>. 실제 친구나 동료를 기준 독자로 정하고, 그...<p></p></li></ul>",
-    "createdAt": "2026-10-07T19:46:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=34962",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Bigwords.page - 어떤 화면이든 안내판으로, URL 자체가 앱",
-    "content": "<ul>\n<li><strong>Bigwords.page</strong>는 링크 하나로 전체 화면 안내판, 타이머, 메시지를 만드는 서비스로, 계정이나 별도 앱 없이 사용할 수 있음</li>\n<li><strong>화면 구성이 URL에 담기는 방식</strong>이라 링크를 공유하거나 북마크할 수 있으며, 메시지는 브라우저가 서버로 보내지 않는 URL 프래그먼트에 ...<p></p></li></ul>",
-    "createdAt": "2026-10-07T19:43:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=34961",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, GPT‑6 확대 적용과 더 똑똑한 대화형 UI 도입",
-    "content": "<ul>\n<li>OpenAI가 ChatGPT에 <strong>GPT‑6와 대화형 인터페이스 ‘Intelligent UI’</strong> 를 도입해, 텍스트 답변뿐 아니라 버튼·폼·차트·조작 가능한 도표를 대화 안에서 제공함</li>\n<li>여행 경로를 지도에 표시하거나, <strong>인원수를 바꾸면 장보기 수량이 달라지는 요리 계획</strong>을 만드는 등 질문...<p></p></li></ul>",
-    "createdAt": "2026-10-07T19:40:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=34960",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "번역 과정에서 의미를 잃은 Navier-Stokes",
-    "content": "<ul>\n<li><strong>Lean 검증 통과</strong>는 생성된 형식 증명의 타당성을 확인하지만, 그 증명이 원래 자연어 논증을 충실하게 옮겼거나 자연어 증명 자체가 올바르다는 보장은 아님</li>\n<li><strong>자동 형식화</strong>에는 이미 정확히 형식화된 정리의 증명을 생성하는 작업과, 정의부터 증명까지 수학적 의미를...<p></p></li></ul>",
-    "createdAt": "2026-10-07T18:46:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=34959",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Haiku 5.5 출시 - 평균 실행 비용 75% 절감, Max·Team에 API 크레딧 제공",
-    "content": "<ul>\n<li>Anthropic이 <strong>더 빠르고 저렴한 소형 모델 Claude Haiku 5.5</strong>를 출시함. 요약, 문맥 압축, 데이터베이스 질의, 분류와 코딩 보조 에이전트처럼 대량으로 반복하는 작업에 최적화</li>\n<li>프롬프트 <strong>10만 토큰 이하에서 입력·출력 가격을 Haiku 4.5 대비 90% 인하</strong>함. 100만 토큰...<p></p></li></ul>",
-    "createdAt": "2026-10-07T18:43:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=34958",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "웹 페이지용 애니메이션 ASCII 아트",
-    "content": "<ul>\n<li><strong>ascii.rest</strong>는 웹 페이지용 애니메이션 ASCII 아트를 소개하는 프로젝트임</li>\n<li><strong>doom fire</strong>와 <strong>fireworks</strong>는 각각 불 확산 효과와 여러 형태로 터지는 폭죽을 구현함</li>\n<li><strong>matrix rain</strong>은 문자가 줄지어 떨어지는 효과이며, 선두는 짙...<p></p></li></ul>",
-    "createdAt": "2026-10-07T18:40:25.000+00:00",
-    "link": "https://news.hada.io/topic?id=34957",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Visa, Mastercard와 주요 은행들, ‘반경쟁적’ 수수료로 새로운 소송에 직면",
-    "content": "<p>Visa, Mastercard와 주요 은행들, ‘반경쟁적’ 수수료로 새로운 소송에 직면</p>\n",
-    "createdAt": "2026-10-07T17:32:22.000+00:00",
-    "link": "https://news.hada.io/topic?id=34956",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "해커들, Google과 다른 대형 서비스의 위조 TLS 인증서 확보",
-    "content": "<ul>\n<li>공격자들이 <strong>국가 코드 최상위 도메인(ccTLD) 3개</strong>를 장악하고 DNS 레코드를 조작해 Google과 여러 대형 온라인 서비스의 TLS 인증서를 무단 발급받음</li>\n<li><strong>권한 DNS 레코드와 네임서버 위임</strong>을 변경해 자동화된 도메인 통제권 검증을 통과했으며, 피해 도메인 소유자의 인...<p></p></li></ul>",
-    "createdAt": "2026-10-07T16:37:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=34955",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "GitHub의 Git 작업, Pull Requests, Actions 장애",
-    "content": "<ul>\n<li>GitHub 서비스에서 <strong>2026년 10월 7일 15:06~15:16 UTC</strong> 사이 광범위한 장애가 발생했으며, 이후 서비스별 복구와 안정성 확인이 진행됨</li>\n<li>영향 범위는 <strong>Git Operations, Pull Requests, Actions</strong>뿐 아니라 Webhooks와 Issues까지 포함됨</li>\n<li><strong>Git Operations...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-07T16:34:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=34954",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Boxdawn - 에이전트 트레이스 파일 하나 올리면 멀티에이전트가 같은 일을 두 번 한 지점을 찾습니다",
-    "content": "<p>멀티에이전트를 돌리면 에이전트 A가 읽은 파일을 B가 또 읽고 C가 또 읽습니다. 각자는 자기 할 일을 정상적으로 한 것이라 개별 로그로는 아무 문제가 없어 보입니다. 비용은 그 사이에서 나옵니다. 그 지점을 찾는 오픈소스를 만들고 있습니다.</p>\n<p>왜 만들었나</p>\n<ul>\n<li>트레이스를 눈으로 훑다가 같은 파</li></ul>",
-    "createdAt": "2026-10-07T15:58:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=34953",
-    "author": "qlcla123",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Codemode란 무엇인가 - AI의 도구 호출을 코드로 묶기",
-    "content": "<ul>\n<li><strong>Codemode는 AI가 도구를 하나씩 호출하는 대신, 여러 호출을 묶는 코드를 작성해 실행하는 방식</strong>임. 반복·병렬 처리와 결과 가공을 코드에 맡기고, 필요한 결과만 모델에 전달함</li>\n<li>도구가 반환한 데이터를 모두 <strong>컨텍스트 창에 넣지 않고 처리</strong>할 수 있으며, 중간 결과를...<p></p></li></ul>",
-    "createdAt": "2026-10-07T15:46:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34952",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "유타주, 사람의 감독 없이 AI가 환자를 진찰하고 약물을 처방하도록 허용 예정",
-    "content": "<ul>\n<li>유타주에서 <strong>Nolla Health의 AI 진찰/처방 프로그램</strong>이 시작됨. 직접적인 사람의 감독 없이 진료하는 방식으로 전환할 예정이지만, 현재는 <strong>1년간 경증~중등도 여드름 환자</strong>만 대상으로 함</li>\n<li>환자가 <strong>월 4.99달러 앱</strong>으로 얼굴을 스캔하고 병력과 개인정보...<p></p></li></ul>",
-    "createdAt": "2026-10-07T15:43:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34951",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "캘리포니아, 몬태나 번호판을 이용한 세금 회피 허점 차단",
-    "content": "<ul>\n<li>캘리포니아가 <strong>SB 1406</strong>을 2026년 9월 30일 법률로 확정해, 타주 유령회사 명의로 차량을 등록하고 캘리포니아 세금을 피하는 수법을 차단함</li>\n<li>기존에도 캘리포니아 거주자가 주 안으로 반입한 차량은 등록지와 무관하게 과세 대상이었지만, <strong>사업체 명의 차량</strong>에는 별도...<p></p></li></ul>",
-    "createdAt": "2026-10-07T15:40:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=34950",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -1317,17 +1328,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "Do LLMs Have the Memory of a Goldfish?",
-    "content": "<h2><a href=\"https://go.bytebytego.com/Unblocked_091526\" target=\"_blank\" rel=\"noopener noreferrer\"><span>[Webinar] How to stop babysitting your agents (Sponsored)</span></a></h2><div><figure><a href=\"https://go.bytebytego.com/Unblocked_091526\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!ajI7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!ajI7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ajI7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ajI7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d29741c-9645-43c9-9103-4b75de979090_1600x900.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops.</span></p><p><span>More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand.</span></p><p><a href=\"https://go.bytebytego.com/Unblocked_091526\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join us for a FREE webinar on Sep 23</span></a><span> to see:</span></p><ul><li><p><span>Where teams get stuck on the AI maturity curve and why common fixes fall short</span></p></li><li><p><span>How a context layer solves for quality, efficiency, and cost</span></p></li><li><p><span>Live demo: the same coding task with and without a context layer</span></p></li></ul><p><span>If you want to maximize the value you get from AI agents, this one is worth your time.</span></p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Unblocked_091526\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Register now</span></a></p><div><hr></div><p><span>An LLM can analyze a 100-page document, follow a complicated programming discussion, and refer back to something discussed several messages ago. However, as soon as we open a new chat where the earlier conversation is not present, it immediately forgets everything. It appears that LLMs have the memory of a goldfish.</span></p><p><span>This observation is indeed true. LLMs usually have no personal or persistent memory of previous interactions. So, how is it able to refer to what we’ve said in the past?</span></p><p><span>In truth, an LLM doesn’t remember a conversation like human beings do. However, it receives information about the conversation so far with each new message that we send to the LLM. All of this is handled by the application that is built around the model and not by the model itself. For example, a chat application might store messages, maintain summaries of earlier discussions, retrieve relevant memories, and maintain a user profile. It can then place some of that information in front of the model as needed. From the user’s perspective, the model appears to remember. But technically, the surrounding application is doing most of the remembering.</span></p><p><span>This difference between the model and the application around the model is the key to understanding LLM memory.</span></p><p><span>This design has important consequences. As a conversation grows, the application must keep processing more text, thereby increasing cost and latency. Eventually, the conversation ends up turning too large to fit inside the model’s context window. At that point, older information must be removed, summarized, or stored somewhere else.</span></p><p><span>In this article, we will learn how LLMs handle memory so that they are useful to end users in performing complex tasks that require conversation and holding context.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!0eDu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!0eDu!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 424w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 848w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 1272w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!0eDu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!0eDu!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 424w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 848w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 1272w, https://substackcdn.com/image/fetch/$s_!0eDu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44340ecb-27c9-4256-9827-845909b4f9a6_3948x1882.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><span>What Does “memory” Mean for an LLM?</span></h2><p><span>In the context of LLMs, the word “memory” is used for several different things that should not be confused. Let’s look at each type in detail.</span></p><h3><span>Trained Memory</span></h3><p><span>During training, an LLM learns patterns from enormous amounts of data. These patterns are encoded in billions of numerical values called parameters or weights.</span></p><p><span>This is why a model can explain JavaScript, recognize a common historical event, or write an email without receiving that knowledge in the current prompt.</span></p><p><span>But this is not personal memory. If a user tells the model, “My preferred programming language is TypeScript,” a normal API response does not rewrite the model’s weights. The base model does not permanently learn that fact from the conversation.</span></p><h4><span>Working Memory</span></h4><p><span>The model’s temporary working memory is its context window. This contains everything the model can consider while generating its current response.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!6GJS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!6GJS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 424w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 848w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 1272w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!6GJS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6GJS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 424w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 848w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 1272w, https://substackcdn.com/image/fetch/$s_!6GJS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5fb5a60-ebad-461f-a5cf-5512bb643165_3342x1554.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>It can include:</span></p><ul><li><p><span>System and developer instructions</span></p></li><li><p><span>The current user message</span></p></li><li><p><span>Previous messages in the conversation</span></p></li><li><p><span>Retrieved documents</span></p></li><li><p><span>Tool descriptions and tool results</span></p></li><li><p><span>Saved user preferences</span></p></li><li><p><span>Summaries of older conversations</span></p></li><li><p><span>Space required for the model’s output</span></p></li></ul><p><span>The context window is closer to a desk than a human memory. The model can work with whatever documents have been placed on the desk. Once the desk is cleared, the model cannot recover those documents unless the application places them there again.</span></p><h3><span>Persistent Application Memory</span></h3><p><span>Persistent memory normally lives outside the model in a database, file, vector store, or profile service. When the model needs that information, the application retrieves it and inserts it into the current context.</span></p><p><span>Therefore, the model doesn’t possess persistent memory. It receives persistent information from another system.</span></p><div><hr></div><h2><strong><a href=\"https://go.bytebytego.com/LangChain_090126\" target=\"_blank\" rel=\"noopener noreferrer\">Build and scale a winning AI agent strategy (Sponsored)</a></strong></h2><div><figure><a href=\"https://go.bytebytego.com/LangChain_090126\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!SJtL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 424w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 848w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 1272w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!SJtL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png\" data-attrs=\"{\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!SJtL!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 424w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 848w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 1272w, https://substackcdn.com/image/fetch/$s_!SJtL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21fb72c6-1e79-42e0-8804-9217f2102310_1080x1080.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Shipping agents to production is the easy part. Keeping them reliable, governable, and improving over time is where most enterprise AI programs stall.</p><p>How do top teams do it? They use an Agentic Operating Model (AOM), a step-by-step framework for aligning people, process, and technology so enterprise agents improve as they scale.</p><p>In LangChain’s latest guide, you’ll learn:</p><ul><li><p>Why AI agents don’t break like traditional software</p></li><li><p>The engineering stack that covers the entire agent lifecycle</p></li><li><p>Shifting from “build and deploy” to “operate and continuously improve”</p></li></ul><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/LangChain_090126\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Learn more</span></a></p><div><hr></div><h2><span>What Happens During a Basic API Call?</span></h2><p><span>Consider the simplest possible API request:</span></p><div data-attrs=\"{\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>{\n  “messages”: [\n    {\n      “role”: “user”,\n      “content”: “My name is Adam.”\n    }\n  ]\n}</code></pre></div><p><span>The model might answer: “Nice to meet you, Adam.”</span></p><p><span>Suppose the next request contains only this:</span></p><div data-attrs=\"{\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>{\n  “messages”: [\n    {\n      “role”: “user”,\n      “content”: “What is my name?”\n    }\n  ]\n}</code></pre></div><p><span>The model can’t reliably answer because the second request doesn’t include the name. The earlier request has already finished. And there is no private diary that exists inside the model that is kept updated.</span></p><p><span>For the conversation to work, the application must send the earlier exchange again:</span></p><div data-attrs=\"{\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>{\n  “messages”: [\n    {\n      “role”: “user”,\n      “content”: “My name is Adam.”\n    },\n    {\n      “role”: “assistant”,\n      “content”: “Nice to meet you, Adam.”\n    },\n    {\n      “role”: “user”,\n      “content”: “What is my name?”\n    }\n  ]\n}</code></pre></div><p><span>Now the model answers “Adam” because the name is visible in the current input.</span></p><p><span>Most model providers have a stateless Messages API that requires the conversation history to be supplied for a multi-turn conversation.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!dHMu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!dHMu!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 424w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 848w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 1272w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!dHMu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!dHMu!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 424w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 848w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 1272w, https://substackcdn.com/image/fetch/$s_!dHMu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc23a7df2-9066-4600-abac-d43b8c412914_2886x1498.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><span>Does Every API Call Really Start From Zero?</span></h2><p><span>A new model invocation doesn’t typically start without any knowledge. The model still has several things:</span></p><ul><li><p><span>Its trained weights</span></p></li><li><p><span>Its general language abilities</span></p></li><li><p><span>Knowledge acquired during training</span></p></li><li><p><span>Safety and behavioral instructions supplied by the platform</span></p></li><li><p><span>Everything included in the current context</span></p></li></ul><p><span>What it lacks is an automatically updated memory of this particular user or conversation.</span></p><p><span>A better way to put it is that every response is generated from the model’s existing weights plus the context made available for that response. Information from the conversation history is not available unless the surrounding system carries it forward.</span></p><p><span>Some APIs offer server-managed conversation state. In such a case, we don’t need to resend every message manually. We can provide a conversation identifier, and the server locates the previous messages based on that identifier to reconstruct the necessary context. This makes the API easier to use, but it doesn’t mean that the model has developed a personal memory.</span></p><h2><span>How AI Chatbots Create the Illusion of Memory</span></h2><p><span>Suppose a conversation contains five user messages and five assistant responses.</span></p><p><span>When the user sends the next message, the application may construct an input that contains the following details:</span></p><div data-attrs=\"{\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>System instructions\n\n<p>User message 1\nAssistant response 1</p>\n<p>User message 2\nAssistant response 2</p>\n<p>User message 3\nAssistant response 3</p>\n<p>User message 4\nAssistant response 4</p>\n<p>User message 5\nAssistant response 5</p>\n</code><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">New user message</code></p></pre></div><p><span>The model receives all of this as one large input. For example, in the earlier conversation, the user may have mentioned a database problem, selected PostgreSQL, and asked for TypeScript examples. Therefore, it can continue the answers based on this path in a more natural manner.</span></p><p><span>To the user, this might feel like the model has remembered things from earlier. However, from the perspective of the model, those details are simply present in the text that is being processed right now. We can’t simply call it “fake memory” because there is real continuity at the application level. A better term for this is reconstructed memory or context-based memory.</span></p><h2><span>The Context Window is a Working-Memory Budget</span></h2><p><span>A context window of an LLM is measured in tokens. Tokens are small pieces of text. A short word may be one token, while a longer or unusual word may be split into several tokens.</span></p><p><span>The context window normally contains more than the visible conversation. It may also contain hidden instructions, tool definitions, search results, documents, and space for the answer. Imagine a hypothetical model with a 100K-token context window. An application might need to fit the following into that space:</span></p><ul><li><p><span>System instructions: 3,000 tokens</span></p></li><li><p><span>Tool definitions: 8,000 tokens</span></p></li><li><p><span>Conversation history: 55,000 tokens</span></p></li><li><p><span>Retrieved documents: 20,000 tokens</span></p></li><li><p><span>Current question: 1,000 tokens</span></p></li><li><p><span>Remaining response budget: 13,000 tokens</span></p></li></ul><p><span>Once the available space is exhausted, the application can’t just keep adding information indefinitely. It must remove, compress, or replace something.</span></p><p><span>A large context window also doesn’t guarantee perfect recall. As the amount of information grows, it can become harder for the model to differentiate important facts from irrelevant, repetitive, or contradictory material. This degradation is also known as “context rot”. We need to select useful context even if we have a very large context window at our disposal. Therefore, the context window is both a capacity limit and an attention-management problem.</span></p><h2><span>Why Long Conversations Become Expensive</span></h2><p><span>LLM APIs commonly charge for the number of input and output tokens processed. Let’s say each completed conversational round adds approximately 1000 tokens.</span></p><ul><li><p><span>Request 1 processes approximately 1,000 tokens.</span></p></li><li><p><span>Request 2 processes approximately 2,000 tokens.</span></p></li><li><p><span>Request 3 processes approximately 3,000 tokens.</span></p></li><li><p><span>Request 10 processes approximately 10,000 tokens.</span></p></li></ul><p><span>Across those ten requests, the application has processed approximately 55K tokens of input.</span></p><p><span>The visible conversation contains only about 10,000 tokens, but earlier parts have been processed repeatedly. A long system prompt, large tool definitions, and retrieved documents can increase this cost even further.</span></p><p><span>Longer contexts also increase latency. This is because more information needs to be processed before the model starts to answer.</span></p><p><span>Techniques like prompt caching can help alleviate costs, but they don’t create memory.</span></p><p><span>Providers can cache a repeated prefix such as the system prompt and previous conversation history. When the next request begins with the same content, the provider may reuse previously computed information. This can reduce cost and latency. However, cached tokens consume part of the context window. Caching merely changes how efficiently repeated context is processed. It doesn’t give the model unlimited memory.</span></p><p><span>Prompt caching is therefore an optimization, not a memory architecture.</span></p><h2><span>What Happens When the Context Window Fills Up?</span></h2><p><span>There is no single universal behavior that LLMs perform when the context window fills up. Depending on the API and application, several things may happen.</span></p><ul><li><p><span>The API may reject the request because it is too large.</span></p></li><li><p><span>The application may remove the oldest messages.</span></p></li><li><p><span>A chat product may manage history using a rolling window.</span></p></li><li><p><span>The system may replace old material with a compact summary.</span></p></li><li><p><span>Some APIs also provide server-side compaction mechanisms.</span></p></li></ul><p><span>Compaction is carrying forward important state in a smaller representation so that long-running interactions continue with lower context usage. This means a very long chat may not contain every original sentence in its active context. The model may instead receive something like:</span></p><p><span>Conversation summary:</span></p><p><span>The user is building an invoice service in TypeScript.</span></p><p><span>PostgreSQL was selected as the database.</span></p><p><span>The API uses Express and Prisma.</span></p><p><span>The current problem concerns duplicate invoice creation.</span></p><p><span>Previous attempts involving application-level checks failed under concurrency.</span></p><p><span>The summary preserves the central state while discarding greetings, repeated explanations, abandoned ideas, and low-value details. The tradeoff is that summarization is lossy. A small detail that seemed unimportant during summarization may become important later.</span></p><h2><span>The Main Techniques to Extend Memory</span></h2><p><span>Real applications usually combine several techniques to extend memory instead of relying on one. Let’s look at a few techniques in detail.</span></p><h3><span>Sliding-window Memory</span></h3><p><span>A sliding window keeps only the most recent portion of the conversation. When new messages arrive, the oldest ones are removed.</span></p><p><span>For example, the application might always retain:</span></p><ul><li><p><span>The system instructions</span></p></li><li><p><span>The latest 20 conversational turns</span></p></li><li><p><span>The current user message</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!dtos!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!dtos!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 424w, https://substackcdn.com/image/fetch/$s_!dtos!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 848w, https://substackcdn.com/image/fetch/$s_!dtos!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 1272w, https://substackcdn.com/image/fetch/$s_!dtos!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!dtos!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!dtos!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 424w, https://substackcdn.com/image/fetch/$s_!dtos!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 848w, https://substackcdn.com/image/fetch/$s_!dtos!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 1272w, https://substackcdn.com/image/fetch/$s_!dtos!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe930c454-b3ce-4f13-9a50-dbaea4295f63_3172x1456.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>This approach is simple, fast, and predictable. It works well when recent messages matter much more than older ones.</span></p><p><span>Its weakness is that once an old fact leaves the context window, it disappears. If the user mentioned an important requirement 30 turns earlier, the model may no longer be able to address it.</span></p><h3><span>Conversation Summarization</span></h3><p><span>Summarization periodically compresses older messages into a much shorter description. The summary stays in the context while the original messages are removed.</span></p><p><span>A common structure is:</span></p><ul><li><p><span>System instructions</span></p></li><li><p><span>Conversation summary</span></p></li><li><p><span>Recent unsummarized messages</span></p></li><li><p><span>Current user message</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Oi_K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Oi_K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 424w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 848w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 1272w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Oi_K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Oi_K!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 424w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 848w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 1272w, https://substackcdn.com/image/fetch/$s_!Oi_K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060bde03-14bc-4392-82b1-701b90b599c4_3638x1548.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>This helps preserve the general direction of the conversation much more efficiently than retaining every original message.</span></p><p><span>However, a summary is more of an interpretation. It omits nuance, simplifies uncertainty, or accidentally turns an assumption into a fact. If we repeatedly summarize previous summaries, it can gradually distort the meaning of the conversation, much like repeatedly copying a photocopy. Therefore, it’s a much better approach to store important facts separately rather than trusting them to be retained in a simple narrative summary.</span></p><h3><span>Structured Entity Extraction</span></h3><p><span>Instead of remembering the conversation as prose, the application can extract specific facts into structured fields. For example:</span></p><div data-attrs=\"{\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>{\n  “preferred_language”: “TypeScript”,\n  “database”: “PostgreSQL”,\n  “framework”: “Express”,\n  “current_project”: “invoice service”,\n  “confirmed_decisions”: [\n    “Use optimistic concurrency control”,\n    “Do not introduce Redis”\n  ]\n}</code></pre></div><p><span>This is more reliable than searching through a long summary when the application needs exact project state.</span></p><p><span>Structured memory is really useful for the following types of information:</span></p><ul><li><p><span>User preferences</span></p></li><li><p><span>Names and identifiers</span></p></li><li><p><span>Confirmed technical decisions</span></p></li><li><p><span>Current tasks</span></p></li><li><p><span>Workflow status</span></p></li><li><p><span>Dates and deadlines</span></p></li><li><p><span>Product configuration</span></p></li></ul><p><span>However, structured entity is doesn’t work well for subtle, narrative information that cannot be expressed neatly into predefined fields.</span></p><h3><span>Vector-store-backed Memory</span></h3><p><span>In this approach, a vector store supports semantic retrieval. Instead of putting the entire conversation history into every request, the application divides past conversations into small pieces and creates an embedding for each piece.</span></p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!qCk3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!qCk3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 424w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 848w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 1272w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!qCk3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!qCk3!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 424w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 848w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 1272w, https://substackcdn.com/image/fetch/$s_!qCk3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa63cbe78-13af-4d59-86ec-30efab5f306b_3952x1674.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>An embedding is a numerical representation of meaning. This means that texts concerning similar ideas receive similar representations even when they don’t use exactly the same words.</span></p><p><span>For example, let’s say the user asks: “Why did we reject Redis for the invoice service?” The memory system searches for past passages semantically related to “Redis,” “invoice service”, and “rejected architecture decisions.”</span></p><p><span>It may retrieve information such as “we decided against Redis because the deployment environment does not provide a managed Redis service, and PostgreSQL advisory locks already cover the required coordination.”</span></p><p><span>Only the retrieved passage is added to the current context. Here’s how the process works roughly:</span></p><ul><li><p><span>Store selected pieces of earlier conversations.</span></p></li><li><p><span>Convert those pieces into embeddings.</span></p></li><li><p><span>Convert the new question into an embedding.</span></p></li><li><p><span>Find semantically similar memories.</span></p></li><li><p><span>Filter and rank the candidates.</span></p></li><li><p><span>Insert the best candidates into the model’s prompt.</span></p></li></ul><p><span>This doesn’t enlarge the context window. It selects which memories deserve space inside it.</span></p><p><span>However, vector retrieval can also sometimes fail. It may retrieve something similar but irrelevant. It can miss a memory because it was phrased strangely. It can also come up with an outdated decision. Metadata such as user ID, project ID, date, and memory type is therefore essential to make sense of this data.</span></p><h3><span>Long-term User Profiles</span></h3><p><span>A long-term profile stores durable facts that may be useful across many conversations. For example, this could include things like:</span></p><ul><li><p><span>The user generally prefers beginner-friendly technical explanations.</span></p></li><li><p><span>Examples should use TypeScript where practical.</span></p></li><li><p><span>Explanations should use complete paragraphs rather than fragmented bullets.</span></p></li></ul><p><span>A profile should contain stable preferences, not every passing statement. For example, “I am testing Python today” is probably session information. On the other hand, “I use Python for all data projects” may be a durable preference if repeatedly confirmed.</span></p><p><span>We also need to update profiles. This is because preferences can change over time. Good systems attach timestamps, sources, and sometimes confidence scores to memory entries.</span></p><h2><span>How Cross-session Memory Works</span></h2><p><span>Cross-session memory means that information survives after one chat ends and can influence another chat.</span></p><p><span>A typical implementation works like this:</span></p><ul><li><p><span>During or after a conversation, a memory process identifies potentially durable information.</span></p></li><li><p><span>It stores that information in a user-level, project-level, or organization-level memory store.</span></p></li><li><p><span>A future conversation starts.</span></p></li><li><p><span>The application selects memories relevant to the new conversation.</span></p></li><li><p><span>Those memories are inserted into the new conversation’s context.</span></p></li><li><p><span>The model generates its response using the supplied memories.</span></p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!RmrE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!RmrE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 424w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 848w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 1272w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!RmrE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!RmrE!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 424w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 848w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 1272w, https://substackcdn.com/image/fetch/$s_!RmrE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b98d8e8-7ae0-4002-b4c6-5721492991f7_3342x1706.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><span>The important step is number five. The new model call still needs the remembered information placed into its current context.</span></p><h2><span>Conclusion</span></h2><p><span>In this article, we’ve looked at LLM memory in detail. The key takeaways are as follows:</span></p><ul><li><p><span>Model weights contain general knowledge learned during training.</span></p></li><li><p><span>The context window contains information available for the current response.</span></p></li><li><p><span>Conversation storage holds previous messages.</span></p></li><li><p><span>Long-term memory stores selected facts, preferences, and past events.</span></p></li><li><p><span>The memory manager decides what to retrieve and place on the desk.</span></p></li></ul><p><span>It can be said that LLMs, along with the application surrounding them, don’t have the memory of a goldfish. They can process an enormous amount of information at once. But they don’t automatically carry personal experiences from one call to the next.</span></p><p><span>What appears to be memory is a carefully constructed system of context reconstruction, summarization, retrieval, and persistent storage. The quality of an LLM application’s memory depends at least as much on the surrounding architecture as it does on the model itself.</span></p><p></p>\n",
-    "createdAt": "2026-09-15T15:31:12.000+00:00",
-    "link": "https://blog.bytebytego.com/p/do-llms-have-the-memory-of-a-goldfish",
-    "author": "ByteByteGo",
-    "site": {
-      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
-      "name": "ByteByteGo Newsletter"
     }
   },
   {
