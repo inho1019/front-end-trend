@@ -1,5 +1,148 @@
 [
   {
+    "title": "Show HN: LED 필라멘트로 유연한 ‘네온’ 티셔츠 만들기",
+    "content": "<ul>\n<li>회사의 네온 테마 행사에 맞춰 <strong>유연한 LED 필라멘트</strong>를 티셔츠에 꿰매고, USB 보조배터리로 구동하는 의상을 며칠 만에 제작함</li>\n<li>필라멘트는 <strong>길이를 잘라 조절할 수 없어</strong>, Inkscape에서 연속 경로를 그린 뒤 보유한 부품 길이에 맞춰 도안 크기를 조정함</li>\n<li>부드...<p></p></li></ul>",
+    "createdAt": "2026-10-09T03:41:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35048",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 남성, 봇으로 음악 스트리밍 횟수를 조작해 징역형 선고받음",
+    "content": "<ul>\n<li><strong>Michael Smith</strong>가 AI 생성곡을 봇으로 반복 재생해 수백만 달러의 로열티를 챙긴 혐의로 <strong>징역 18개월</strong>을 선고받음</li>\n<li>2017년부터 2024년 체포될 때까지 부정하게 벌어들인 <strong>로열티 800만 달러</strong>도 몰수됨</li>\n<li>최대 <strong>1만 개의 허위 계정</strong></li></ul>",
+    "createdAt": "2026-10-09T03:38:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35047",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DuckDB DuckLake",
+    "content": "<ul>\n<li><strong>DuckLake</strong>는 SQL과 Parquet 기반의 개방형 레이크하우스 형식이며, DuckDB 확장을 통해 데이터를 직접 읽고 쓸 수 있음</li>\n<li><strong>메타데이터는 카탈로그 데이터베이스</strong>, 실제 데이터는 Parquet 파일에 나누어 저장함</li>\n<li>DuckLake 데이터베이스를 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ATTACH...<p></p></code></strong></li></ul>",
+    "createdAt": "2026-10-09T03:35:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35046",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "곧장 본론으로 들어가지 않는 것의 가치 (2015)",
+    "content": "<ul>\n<li><strong>잡담과 대화의 의례</strong>는 불필요한 우회가 아니라, 민감한 이야기를 꺼낼 만큼 편안함과 신뢰를 쌓는 과정임</li>\n<li>음식과 음료는 대화 내내 무언가 말해야 한다는 부담을 덜어주며, 가벼운 이야기는 <strong>불편한 주제로 넘어가기 위한 준비</strong>가 될 수 있음</li>\n<li>언어는 감정을...<p></p></li></ul>",
+    "createdAt": "2026-10-09T02:32:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=35045",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "How an accessibility designer adds keyboard shortcuts to a web app",
+    "content": "<p>Eric Bailey explains the thinking and research that go into <a href=\"https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/\" target=\"_blank\" rel=\"noopener noreferrer\">adding just a few custom keyboard shortcuts to a web app</a>. There’s an absolute ton to consider and test, and plenty of challenges can come from your own team. </p>\n",
+    "createdAt": "2026-10-09T01:38:59.000+00:00",
+    "link": "https://blog.master.dev/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/",
+    "author": "Chris Coyier",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "시스템으로 사고하고, 반복 루프로 출시하기",
+    "content": "<ul>\n<li>소프트웨어 엔지니어링의 중심이 직접 코드를 작성하는 일에서 <strong>AI가 대규모로 올바른 코드를 작성하도록 시스템을 설계하는 일</strong>로 옮겨감</li>\n<li><strong>Artemis는 플랫폼의 모든 코드를 에이전트가 작성</strong>하며, 엔지니어는 시스템 설계·제약 설정·결과 검토를 맡음</li>\n<li>Grok 팀...<p></p></li></ul>",
+    "createdAt": "2026-10-09T01:25:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35043",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI는 디자인을 어떻게 바꾸고 있는가?",
+    "content": "<ul>\n<li>현업 디자이너들과의 대화에서 AI는 <strong>제작 속도와 탐색 범위를 늘렸지만, 작업 품질이 좋아졌다고 답한 사람은 없었음</strong></li>\n<li><strong>원하는 결과가 명확할수록 AI를 다루기 어려워지는 역설</strong>이 나타남. 열린 탐색에는 유용하지만, 숙련자가 가진 정밀한 의도를 구현할 때는 오히려...<p></p></li></ul>",
+    "createdAt": "2026-10-09T01:15:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35042",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 시대에 SaaS 기업을 피벗하는 방법",
+    "content": "<ul>\n<li>AI 코딩 도구로 기능 개발과 복제가 저렴해지면서, <strong>경쟁사와 같은 기능에 몇 가지를 더하는 전략</strong>만으로는 SaaS의 경쟁력을 유지하기 어려워짐</li>\n<li>코드보다 <strong>안정적인 운영 역량</strong>이 중요한 인프라와, 기존 고객·뉴스레터·커뮤니티 같은 <strong>고객에게 도달할 기반</strong></li></ul>",
+    "createdAt": "2026-10-09T01:05:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35041",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "5년 계획을 세우지 말고, 대신 이렇게 하라",
+    "content": "<ul>\n<li><strong>5년 뒤의 모습을 정하기보다, 그때 선택할 수 있는 길을 넓혀야 함</strong>. 지금 가진 경험만으로 미래를 계획하면 기존 경력의 조금 다른 버전만 떠올리기 쉬움</li>\n<li><strong>새로운 역량을 배우고, 사람을 만나고, 다른 환경에 들어가면</strong> 이전에는 상상하지 못했던 진로와 기회가 열림...<p></p></li></ul>",
+    "createdAt": "2026-10-09T00:55:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35040",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "일주기 리듬 장애로서의 ADHD: 근거와 시간치료의 시사점(2025)",
+    "content": "<ul>\n<li>ADHD 환자의 상당수에서 <strong>일주기 리듬 지연</strong>이 나타나며, 이를 조절하는 치료가 표준 ADHD 치료의 보완 수단이 될 수 있음. 다만 모든 환자에게 해당하지 않으며, 증상과의 관계는 복잡하고 양방향적임</li>\n<li>불면과 수면 장애는 ADHD 성인의 최대 <strong>80%</strong>, 아동의 최대 </li></ul>",
+    "createdAt": "2026-10-09T00:39:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35039",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "tinyjs - JavaScript로 약 6MB 데스크톱 앱을 만드는 경량 프레임워크",
+    "content": "<ul>\n<li><strong>프런트엔드와 백엔드를 모두 JavaScript로 작성</strong>하는 데스크톱 앱 프레임워크로, 배포 크기는 약 <strong>6MB</strong></li>\n<li><strong>Electron·Node.js·Chromium을 앱에 포함하지 않고</strong>, txiki.js 백엔드와 운영체제의 WebView를 조합\n<ul>\n<li>macOS는 WebKit, Windows는 WebView...<p></p></li></ul></li></ul>",
+    "createdAt": "2026-10-09T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35038",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "내 웹사이트가 Google 검색 색인에서 삭제됐다",
+    "content": "<ul>\n<li>AI와 끊임없는 스크래핑을 이유로 개인 블로그의 <strong>검색 엔진 색인 제외</strong>를 추진했고, 마지막 설정 변경 후 최소 3개월이 지나 확인했을 때 Google 색인에서 삭제된 상태였음</li>\n<li>처음에는 <strong>robots.txt</strong>에서 모든 봇의 접근을 차단했지만, 몇 주 동안 기다리며 확인해도 색인...<p></p></li></ul>",
+    "createdAt": "2026-10-09T00:01:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=35037",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Orkut.com",
+    "content": "<ul>\n<li>Orkut이 <strong>실제 사람, 진정한 연결, 소속감</strong>을 중심으로 인터넷을 다시 만들자는 운동을 제안하고 참여를 요청함</li>\n<li>지난 20년간 소셜 미디어가 사람 사이의 연결보다 <strong>관심과 참여도 최적화</strong>에 집중했으며, 아이들을 중독시키고 분열시키는 알고리듬이 외로움과 불안을 키...<p></p></li></ul>",
+    "createdAt": "2026-10-08T23:34:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35034",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Theranos.world",
     "content": "<ul>\n<li><strong>Elizabeth Holmes의 책상</strong>을 재현한 인터랙티브 시뮬레이션으로, MacBook과 iPhone, Edison 기기를 조작할 수 있음</li>\n<li>문자와 이메일은 모두 <strong>실제 재판 자료</strong>에서 가져왔으며, Extend로 파싱함</li>\n<li><strong>의자를 클릭하거나 탭해 앉고</strong>, 드래그로 주변을...<p></p></li></ul>",
     "createdAt": "2026-10-08T22:31:28.000+00:00",
@@ -429,72 +572,6 @@
     }
   },
   {
-    "title": "Show GN: sysone_trans - 선택형 AI가 문자·자모를 골라 만드는 번역 실험",
-    "content": "<p>TypeSafe의 Jev나 OpenAI Decisions처럼 정해진 선택지 중 하나를 고르는 모델로도 번역문을 만들 수 있을까 궁금해서 직접 만든 CLI입니다. 한 번에 문장 전체를 생성하는 대신, 다음 문자나 한글 자모를 하나씩 선택하고 이어 붙입니다.</p>\n<h4>어떻게 동작하나요?</h4>\n<p>매 결정마다 원문 전체와 지금까지 만든</p>",
-    "createdAt": "2026-10-08T01:08:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=34984",
-    "author": "gaon12",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "에이전트에도 네트워크 효과가 생길까?",
-    "content": "<ul>\n<li><strong>다른 사람도 같은 에이전트를 써야 내 에이전트가 더 유용해질까?</strong> 서로 다른 에이전트도 이메일·메시지·API로 소통할 수 있으므로, 지능형 개인 비서만으로는 승자독식 시장이 만들어지지 않을 수 있음</li>\n<li>에이전트가 <strong>문서·행사·웹사이트·그룹 채팅을 만들고 주변 사람의 참여...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-08T01:06:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34983",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아이폰 Duo를 준비하는 개발자를 위한 가이드",
-    "content": "<ul>\n<li><strong>접고 펼치는 동안 앱의 크기가 바뀌는 폴더블 iPhone</strong>에 대응하려면, 고정된 화면 크기나 기기 종류 대신 <strong>현재 앱에 주어진 공간</strong>을 기준으로 레이아웃을 구성해야 함</li>\n<li>외부·내부 화면과 여러 접힘 상태에서도 <strong>작업 상태와 기능을 유지</strong>하며, 넓어진 ...<p></p></li></ul>",
-    "createdAt": "2026-10-08T01:05:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34982",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "pg-jev - 자연어 조건으로 데이터를 검색하고 분류하는 PostgreSQL 확장",
-    "content": "<ul>\n<li>SQL 안에 <strong>“고객이 화가 났는가”, “어느 팀이 처리해야 하는가” 같은 자연어 조건</strong>을 넣어 행을 필터링하고 분류하거나 점수순으로 정렬하는 확장</li>\n<li>자연어를 SQL로 바꾸는 도구가 아니라, <strong>각 행의 내용을 TypeSafe의 Jev 모델이 판단</strong>하고 그 결과를 SQL에서 사용하...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:50:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34981",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "a16z의 2026년 소비자 AI 앱 Top 100",
-    "content": "<ul>\n<li><strong>ChatGPT가 웹·모바일 이용량과 미국 소비자 지출에서 선두</strong>를 유지하며, Claude는 웹 3위로 올라 DeepSeek와 Perplexity를 앞섬</li>\n<li>소비자 지출 분석을 처음 추가했으며, <strong>상위 1%의 월평균 AI 지출은 903달러</strong>로 유료 이용자 중앙값인 25달러와 큰 차이를 보임</li>\n</ul>",
-    "createdAt": "2026-10-08T00:45:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=34980",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "전 세계에서 소셜 미디어가 민주주의를 해친다고 보는 사람이 늘어남",
-    "content": "<ul>\n<li>Pew Research Center의 <strong>37개국 조사</strong>에서, 과거와 비교 가능한 국가 대부분은 소셜 미디어가 민주주의에 해롭다고 보는 비율이 2022년 또는 2023년보다 유의하게 높아짐</li>\n<li>부정적 평가는 대체로 <strong>고소득 국가</strong>에서 강하지만, 조사 대상 전체의 국가별 중앙값은 여전히 긍...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:38:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=34979",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "AI 학습부터 GPU 운영까지 한 곳에서, GPU Live",
     "content": "<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerGPULive202609900.png\" alt=\"NHN Cloud_meetup banner_GPULive_202609_900.png\"></a></p>\n<h2>들어가며</h2>\n<p>오늘날 대규모 언어 모델 학습, 이미지 생성, 강화 학습 등 AI 워크로드가 빠르게 확산되면서 학습과 추론을 뒷받침할 GPU 인프라의 중요성도 함께 커졌습니다. 많은 조직이 GPU 클러스터를 구축하거나 확장하고 있지만, GPU 클러스터를 운영한다는 것은 단순히 하드웨어를 확보하는 데서 끝나지 않습니다. 이것은 자원을 누구에게 얼마나 배분할지, 학습 작업을 어떻게 실행하고 관리할지, 사용 이력을 어떻게 추적하고 통제할지까지 포함하는 일입니다.</p>\n<p>그런데 이 과정에서 여러 가지 문제에 부딪히게 됩니다.</p>\n<p>학습을 돌리려면 환경 구성부터 실행, 결과 저장, 자원 반환까지 사용자가 직접 챙겨야 합니다. 학습 도중 실패하면 처음부터 다시 해야 하고, 분산 학습에 필요한 GPU를 한 노드 안에서 확보하지 못하면 클러스터에 자원이 남아 있어도 대기해야 합니다. 한쪽 팀은 GPU가 모자라 대기열에 작업을 쌓아두는데, 다른 팀의 GPU는 며칠째 유휴 상태입니다. 여러 팀이 자원을 공유하면 누가 얼마나 썼는지 추적해야 하고, 공공·금융처럼 감사가 중요한 환경에서는 모든 변경 이력을 증빙할 수 있어야 합니다. 팀 간 자원과 권한을 격리하면서도 전체 활용률은 높여야 하는, 서로 충돌하는 요구사항이 동시에 존재하는 것입니다.</p>\n<p>이 문제들은 어느 하나만 풀어서는 해결되지 않습니다. GPU 클러스터 운영은 자원 배분, 학습 실행, 운영 가시성, 접근 통제가 맞물려 돌아가기 때문입니다. NHN Cloud의 GPU Live는 이 문제들을 하나의 솔루션 안에서 풀려는 시도입니다.</p>\n<p>GPU Live는 설치형 멀티테넌트 올인원 솔루션으로, AI 학습 실행(단일·분산)과 GPU 자원 운영·관리를 하나의 콘솔에서 처리하며, 온프레미스와 클라우드 어디에나 설치할 수 있습니다. 망분리가 필수인 공공·금융 환경부터 다수 팀이 GPU를 공유해야 하는 기업·연구기관까지, GPU를 쓰는 조직이라면 누구나 사용할 수 있습니다.</p>\n<p>여기에서는 GPU Live의 동적 할당 기술, 학습 실행 자동화, 운영·통제 도구, 솔루션 구조, 그리고 실제 사용 흐름까지 살펴보고자 합니다.</p>\n<br>\n\n\n\n<h2>학습 실행</h2>\n<h3>워크로드 End-to-End 자동 실행</h3>\n<p>GPU Live에서 워크로드는 학습에 필요한 컨테이너 이미지, GPU 자원, 실행 방식을 하나로 묶은 작업 단위입니다. 하나의 워크로드는 하나 이상의 인스턴스로 구성됩니다. 사용자가 하는 일은 이 워크로드를 정의하는 것뿐입니다. 인프라 할당, 학습 실행, 결과 저장, 자원 반환까지의 전체 라이프사이클을 솔루션이 자동으로 처리합니다.</p>\n<h3>노드 구성과 실행 방식</h3>\n<p>워크로드는 노드 구성과 실행 방식의 조합으로 나뉩니다.</p>\n<p>노드 구성은 <strong>단일</strong>과 <strong>분산</strong> 중 선택합니다. 단일은 GPU 1대로 작업하므로 설정이 간단하고 디버깅이 쉽습니다. 분산은 여러 GPU로 대규모 분산 학습을 실행하며, 노드 간 통신이 수반됩니다.</p>\n<p>실행 방식은 <strong>인터랙티브</strong>와 <strong>배치</strong> 중 선택합니다. 인터랙티브는 Jupyter·SSH로 접속해 코드를 직접 작성하고 실행하는 방식으로, 모델 실험·데이터 탐색에 적합합니다. 배치는 학습 스크립트를 등록해 실행 후 자동 종료하는 방식으로, 검증된 학습이나 평가 작업을 자동으로 돌리는 데 적합합니다.</p>\n<p>|구분 | 인터랙티브 | 배치 |</p>\n<p>|---|---|---|</p>\n<p>| <strong>단일</strong> | GPU 1대로 Jupyter/SSH 접속하여 작업 | GPU 1대로 스크립트 실행 후 자동 종료 |</p>\n<p>| <strong>분산</strong> | 여러 GPU로 분산 환경 구성, SSH 접속 | 여러 GPU로 분산 스크립트 실행 후 자동 종료 |</p>\n<h3>학습 효율을 높이는 장치</h3>\n<p>학습 설정에 드는 시간을 줄이기 위한 장치도 마련되어 있습니다. 실행 중인 단일 워크로드는 스냅샷을 저장해 동일 환경으로 새 워크로드를 만들 수 있고, 기존 워크로드의 설정을 복사해 빠르게 재사용할 수도 있습니다. 워크로드 생성 시 자동 재실행을 켜두면 학습이 실패했을 때 최대 3회까지 자동으로 다시 실행되므로, 새벽에 끊긴 작업을 아침에 사람이 직접 재투입하지 않아도 됩니다. 학습 데이터는 Web SFTP를 통해 대용량 파일도 업로드·다운로드할 수 있습니다.</p>\n<br>\n\n\n\n<h2>자원 운영</h2>\n<h3>GPU 1장 단위 동적 할당과 빈패킹</h3>\n<p>GPU 클러스터 운영에서 가장 흔한 방식은 정적 할당입니다. 팀이나 프로젝트 단위로 GPU를 고정 배정하는 방식입니다. 운영이 단순하고 예측 가능하다는 장점이 있지만, 구조적으로 자원 낭비를 피할 수 없습니다. 학습 작업의 디버깅·휴지 시간, 부서 간 사용 패턴 차이 때문에 클러스터 어딘가에는 항상 놀고 있는 GPU가 있고, 그 GPU를 다른 팀에 넘겨줄 수 있는 방법은 없습니다.</p>\n<p>동적 할당은 이 문제를 해결합니다. GPU를 공통 풀로 관리하고, 워크로드가 발생할 때 온디맨드로 자원을 배정하고 끝나면 회수하는 방식입니다. 같은 물리 자원으로 더 많은 워크로드를 처리할 수 있습니다. 다만 동적 할당이 제대로 동작하려면 스케줄링, 쿼터 관리, 유휴 자원 회수, 장애 시 워크로드 안정성 유지 등 여러 요소가 함께 갖춰져야 합니다.</p>\n<p>GPU Live는 Kubernetes 표준 인터페이스(Device Plugin, Topology Manager 등)와 검증된 오픈소스 컴포넌트를 기반으로 동적 할당을 구현하되, 그 위에 GPU 워크로드에 최적화된 자원 배분 정책을 자체적으로 설계한 구조입니다. 멀티테넌시 격리, 쿼터 관리, 유휴 자원 회수, 라이프사이클 정책까지 <strong>GPU 워크로드 운영에 맞춰 설계된 자원 배분 정책</strong>을 지원합니다.</p>\n<p>GPU Live는 GPU를 노드별로 고정 배정하지 않고 단일 풀로 관리합니다. 워크로드가 요청되면 GPU를 동적으로 할당하고, 끝나면 즉시 회수합니다. 여기서 핵심은 빈패킹(Bin Packing) 정책입니다. 신규 워크로드를 이미 GPU가 사용 중인 노드에 우선 배치해 빈 노드를 보존합니다. 분산 학습 작업은 한 노드 안에서 다수 GPU를 한 번에 확보해야 하기 때문입니다. 빈패킹 없이는 클러스터에 가용 GPU가 충분해도 분산 학습이 대기열에 머무는 상황이 발생할 수 있습니다.</p>\n<blockquote>\n<p> GPU Live의 동적 할당 기술에 대한 더 자세한 내용은 <a href=\"https://info.nhncloud.com/factoryx-whitepaper?utm_source=meetup&amp;utm_medium=post&amp;utm_campaign=meetup&amp;utm_content=1008_xwhitepaper\" target=\"_blank\" rel=\"noopener noreferrer\">NHN FactoryX 기술 백서</a>에서 확인할 수 있습니다.</p>\n</blockquote>\n<h3>분산 학습을 위한 갱 스케줄링(Gang Scheduling)</h3>\n<p>멀티 노드 분산 학습에서 가장 흔한 문제는 인스턴스의 절반만 시작되고 나머지는 대기하는 상황입니다. 동기식 분산 학습은 모든 인스턴스가 동시에 시작해야 의미가 있는데, 일부만 스케줄링되면 이미 할당된 GPU는 동기화 지점에서 무한 대기하며 자원만 점유합니다. GPU Live는 갱 스케줄링을 적용해 모든 인스턴스가 동시에 가용할 때만 일괄 스케줄링합니다. 부분 시작으로 인한 자원 낭비를 구조적으로 차단하는 것입니다.</p>\n<h3>유휴 GPU 자동 회수</h3>\n<p>GPU를 할당받아 놓고 실제로 사용하지 않는 경우는 생각보다 많습니다. GPU Live는 GPU 사용률과 유지 시간을 기준으로 유휴 워크로드를 자동 회수합니다. 워크로드 정상 종료 시 즉시 회수, 일정 시간 이상 GPU 사용량이 임곗값 이하인 워크로드의 정책 기반 회수, 프로젝트 만료나 자원 정책 위반 시 강제 회수까지 자동으로 수행됩니다. 회수된 자원은 즉시 풀로 반환되어 다른 워크로드에 배정됩니다. 콘솔에는 회수 조건을 충족한 워크로드마다 회수까지 남은 잔여 시간이 표시되므로, 사용자는 회수 전에 상태를 확인할 수 있습니다.</p>\n<h3>시스템·조직·프로젝트 계층 격리와 역할 기반 접근 제어</h3>\n<p>하나의 GPU 클러스터를 여러 조직과 프로젝트가 공유할 때, 가장 먼저 드는 걱정은 '내 자원을 남이 가져가면?'입니다. GPU Live는 시스템(System)→조직(Organization)→프로젝트(Project) 3계층 구조로 자원 쿼터, 멤버 권한, 워크로드 가시성을 독립적으로 격리합니다. 역할은 SuperAdmin부터 Project Viewer까지 6개로 나뉘며, 실행·승인·감독·조회 권한이 분리됩니다. 금융·공공 환경에서 요구하는 직무 분리(SoD)를 기본으로 충족합니다.</p>\n<p>| 역할 | 범위 | 대표 권한 |</p>\n<p>|---|---|---|</p>\n<p>| SuperAdmin | 전체 | 모든 권한, 조직/프로젝트 쿼터 설정, 강제 삭제 |</p>\n<p>| Org Manager | 조직 | 조직 설정, 멤버 관리, 프로젝트 생성/삭제, 프로젝트 쿼터 설정 |</p>\n<p>| Org Viewer | 조직 | 조직 내 조회 전용 |</p>\n<p>| Project Manager | 프로젝트 | 프로젝트 설정, 멤버·워크로드·스토리지 관리 |</p>\n<p>| Project Member | 프로젝트 | 워크로드 생성·실행 |</p>\n<p>| Project Viewer | 프로젝트 | 프로젝트 조회 전용 |</p>\n<p>소속마다 다른 역할을 부여할 수 있고, 상위 역할은 하위 역할의 권한을 자동으로 상속합니다.</p>\n<h3>감사 로그 — 수정 불가, 자동 마스킹</h3>\n<p>모든 변경 사항이 자동 기록되며 수정이 불가능합니다(Append-only). '누가 언제 무엇을 했는가'를 감사 시점에 즉시 제출할 수 있습니다. 탈퇴한 사용자의 개인정보는 자동 마스킹되어 개인정보 보호 요건도 함께 충족합니다. 감사 로그는 조직 또는 프로젝트 기준으로 SuperAdmin이 CSV로 내려받을 수 있습니다(1회 최대 1개월 범위).</p>\n<h3>모니터링·미터링·알림</h3>\n<p>GPU Live는 자원 모니터링, 미터링, 알림을 하나의 콘솔에 통합합니다. 자원 모니터링은 NVIDIA DCGM 표준 지표를 기반으로 실시간 상세 지표를 제공하며, 조직·프로젝트·워크로드 계층별로 화면이 분리되어 있습니다. 미터링은 5분 주기로 사용량을 수집하고, SuperAdmin 또는 Org Manager가 일별 CSV로 내려받아 과금 근거나 내부 정산 자료로 활용할 수 있습니다.</p>\n<p>알림은 콘솔 화면을 보고 있지 않아도 상황을 놓치지 않도록 설계되어 있습니다. 워크로드 시작·종료 시 이메일이 발송되고, 워크로드 상태 변경이나 스토리지 마운트·유실·삭제는 웹 실시간 알림으로 전달됩니다. 노드 점검이 발생하면 영향받는 프로젝트에 1분 이내로 이메일이 발송됩니다.</p>\n<br>\n\n\n\n<h2>GPU Live 시작하기</h2>\n<p>GPU Live에서 학습을 실행하는 흐름은 6단계입니다. 사용자는 학습 설정에만 집중하고, 인프라 배정·반환은 솔루션이 자동으로 처리합니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpuliveuserscenarioflow.png\" alt=\"gpulive_user_scenario_flow.png\"></p>\n<h3>1. 회원가입·로그인</h3>\n<p>GPU Live 콘솔에 접속해 계정을 만들고 로그인합니다.</p>\n<ol>\n<li><p>로그인 화면 하단의 <strong>회원가입</strong>을 클릭해 계정을 생성합니다.</p>\n</li>\n<li><p>가입한 계정의 이메일과 비밀번호를 입력한 뒤 <strong>로그인</strong>을 클릭해 콘솔에 접속합니다.</p>\n</li>\n</ol>\n<blockquote>\n<ul>\n<li>가입 후 관리자가 조직 또는 프로젝트에 멤버로 추가해야 콘솔을 이용할 수 있습니다.</li>\n</ul>\n</blockquote>\n<blockquote>\n<ul>\n<li>로그인 5회 실패 시 계정이 자동 차단됩니다. 비밀번호를 잊었거나 계정이 차단된 경우, <strong>비밀번호 재설정</strong>을 클릭해 비밀번호를 새로 설정한 뒤 로그인할 수 있습니다.</li>\n</ul>\n</blockquote>\n<h3>2. 작업 영역 선택</h3>\n<p>로그인하면 '어디서 시작할까요?' 시작 화면이 표시됩니다. 좌측 상단의 선택기에서 소속된 조직 또는 프로젝트를 선택하면 해당 영역의 자원과 워크로드가 열립니다.</p>\n<p>조직 영역에서는 전체 자원 현황을 조회하고, 프로젝트 영역에서 실제 워크로드를 생성·실행합니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpulivescopeselector400.png\" alt=\"gpulive_scope_selector_400.png\"></p>\n<blockquote>\n<p>조직 영역 접근 권한이 없는 계정은 조직 항목에 <strong>접근 권한 없음</strong>으로 표시되며, 소속 프로젝트만 선택할 수 있습니다.</p>\n</blockquote>\n<h3>3. 데이터 준비</h3>\n<p>워크로드에 마운트할 스토리지를 생성하고, 학습에 사용할 데이터를 스토리지에 올립니다.</p>\n<ol>\n<li><p><strong>스토리지 생성</strong>을 클릭해 스토리지를 생성합니다. 생성 직후 상태가 <strong>연결됨</strong>으로 표시되면 워크로드에 마운트할 수 있습니다.</p>\n</li>\n<li><p>스토리지 상세에서 <strong>Web SFTP 연결</strong>을 클릭하면 브라우저에서 바로 파일을 업로드·다운로드할 수 있습니다. 별도 클라이언트를 설치할 필요가 없습니다.</p>\n</li>\n</ol>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpulivestorage.png\" alt=\"gpulive_storage.png\"></p>\n<blockquote>\n<p>워크로드 내부 볼륨(루트 디스크)에 저장한 데이터는 보존이 보장되지 않습니다. 워크로드 종료 시는 물론, 실행 중에도 내부 볼륨 용량이 한도를 넘으면 데이터가 사라질 수 있습니다. 학습 데이터·체크포인트 등 보존이 필요한 파일은 반드시 스토리지에 저장합니다.</p>\n</blockquote>\n<h3>4. 워크로드 생성</h3>\n<p>워크로드는 독립적으로 연산을 실행하는 환경 단위입니다. GPU &amp; 리소스 설정 → 추가 설정 → 검토 단계를 거쳐 생성할 수 있습니다.</p>\n<p>워크로드 화면에서 <strong>워크로드 생성</strong>을 클릭하면 3단계 폼이 시작됩니다.</p>\n<ol>\n<li><p><strong>워크로드 생성</strong>을 클릭합니다.</p>\n</li>\n<li><p><strong>01 GPU &amp; 리소스</strong> 탭에서 워크로드의 기본 정보와 GPU 및 워크로드의 유형, 워크로드에서 사용할 인스턴스 또는 GPU 개수를 설정합니다.</p>\n</li>\n<li><p><strong>02 추가 설정</strong> 탭에서 스토리지 마운트, 환경 변수 등을 설정합니다. 워크로드 실행 방식을 배치로 선택한 경우 이 단계에서 실행 스크립트를 입력합니다.</p>\n</li>\n<li><p><strong>03 검토</strong> 탭에서 앞서 설정한 구성을 최종 확인한 뒤 생성합니다.</p>\n</li>\n</ol>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpuliveworkloadcreate.png\" alt=\"gpulive_workload_create.png\"></p>\n<blockquote>\n<p>분산 워크로드는 필요한 GPU가 모두 확보되어야 생성·실행됩니다. 자원이 부족하면 확보될 때까지 대기합니다(갱 스케줄링).</p>\n</blockquote>\n<h3>5. 접속·실행</h3>\n<p>워크로드의 상태가 <strong>실행 중</strong>이 되면 접속해 학습을 진행할 수 있습니다. 앱 연결(Jupyter)·SSH·SFTP 방식으로 접속할 수 있으며, 필요한 정보는 모두 <strong>인스턴스 상세</strong>에서 확인할 수 있습니다.</p>\n<ul>\n<li><p><strong>Jupyter</strong>: 인스턴스 상세에서 Jupyter Notebook 또는 JupyterLab의 <strong>열기</strong>를 클릭합니다.</p>\n</li>\n<li><p><strong>SSH</strong>: <strong>PEM 키 다운로드</strong>를 클릭해 키 파일을 받고, 표시된 SSH 명령어를 그대로 복사해 접속합니다.</p>\n</li>\n<li><p><strong>SFTP</strong>: SSH와 동일한 접속 정보로 FileZilla 등 SFTP 클라이언트에서 워크로드 인스턴스에 파일을 전송할 수 있습니다.</p>\n</li>\n</ul>\n<h3>6. 확인·정리</h3>\n<p>학습이 끝나면 결과를 확인하고 자원을 정리합니다. 워크로드가 종료되면 GPU는 자동으로 반환되므로 별도 반납 절차는 없습니다.</p>\n<ul>\n<li><p><strong>모니터링</strong>: GPU 사용률 등 실시간 지표를 시계열로 확인합니다. 조직 영역에서는 프로젝트별 필터로 비교할 수 있고, 프로젝트 영역에서는 해당 프로젝트 범위로 고정됩니다.</p>\n</li>\n<li><p><strong>작업 이력</strong>: 워크로드 생성·수정·삭제 등 주요 작업이 작업 일시·유형·대상·작업자 단위로 기록됩니다. 감사 추적이 필요한 환경에서 증빙으로 활용할 수 있습니다.</p>\n</li>\n</ul>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpulivelogs.png\" alt=\"gpulive_logs.png\"></p>\n<h3>관리자 시점</h3>\n<p>관리자는 일반 사용자와 동일하게 회원가입·로그인, 작업 영역 선택을 거친 뒤 역할에 따라 할 수 있는 작업이 달라집니다.</p>\n<ul>\n<li><p><strong>조직 관리자</strong>: 조직 오버뷰에서 GPU 유형별 분포와 활용 현황을 확인하고, 프로젝트를 생성해 GPU·스토리지 쿼터를 분배하며, 조직 멤버를 초대하고 역할을 부여하고, 자원 회수 규칙과 조직 설정을 관리합니다.</p>\n</li>\n<li><p><strong>프로젝트 관리자</strong>: 프로젝트 오버뷰에서 워크로드 현황과 종료 사유 분포를 확인하고, 프로젝트 멤버 초대·역할 부여, 워크로드·스토리지·이미지 저장소 관리, 자원 회수 규칙과 프로젝트 설정을 담당합니다.</p>\n</li>\n</ul>\n<p>두 관리자 모두 모니터링·작업 이력으로 현황 점검과 감사 추적을 수행합니다.</p>\n<br>\n\n\n\n<h2>솔루션 전체 구조</h2>\n<p>GPU Live의 아키텍처는 4계층으로 구성됩니다.</p>\n<p><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/gpulivesolutionarchitecture.png\" alt=\"gpulive_solution_architecture.png\"></p>\n<p>사용자가 콘솔에서 워크로드 유형을 선택해 워크로드를 생성하면 GPU Live가 내부적으로 GPU 자원을 할당하고 네트워크·스토리지 리소스를 준비해 실행 환경을 제공합니다. 이 과정에서 역할 기반 권한 처리, 실시간 모니터링은 물론 유휴 GPU 자원에 대한 자동 회수까지 솔루션이 일괄 처리하므로 사용자는 인프라 운영을 신경 쓰지 않고 학습에만 집중할 수 있습니다.</p>\n<br>\n\n\n\n<h2>마치며</h2>\n<p>이 글에서는 GPU 클러스터를 운영할 때 마주할 수 있는 문제들을 짚은 뒤, GPU Live가 이를 어떻게 풀어내는지 살펴보았습니다. 워크로드 라이프사이클을 자동으로 처리하는 학습 실행, 빈패킹·갱 스케줄링·유휴 자원 회수로 같은 물리 자원에서 더 많은 워크로드를 소화하는 동적 할당, 3계층 격리와 6개 역할 RBAC·감사 로그로 멀티테넌트 환경의 통제 요건을 충족하는 운영 도구, 그리고 이 모든 것이 하나로 맞물리는 솔루션 구조까지, GPU Live는 AI 학습 실행과 GPU 자원 운영을 하나의 콘솔에서 완결합니다.</p>\n<p>GPU Live는 NHN Cloud의 AI 풀스택 브랜드 NHN FactoryX에서 플랫폼 영역을 담당하고 있습니다. NHN FactoryX는 NHN Cloud가 7년 이상의 GPU 인프라 운영 경험을 바탕으로 만든 AI 워크로드를 위한 풀스택 환경으로, 수랭식 데이터 센터부터 HPC 클러스터, GPUaaS 플랫폼, 그 위의 AI 서비스까지를 하나의 통합 운영 모델로 제공합니다. GPU 운영을 위한 플랫폼뿐만 아니라 인터커넥트·냉각·스토리지 등 인프라 설계에 대한 정보가 필요하거나, 이 글에서 간략하게 다룬 동적 할당 기술에 대한 보다 자세한 구현 원리가 궁금하다면 <a href=\"https://info.nhncloud.com/factoryx-whitepaper?utm_source=meetup&amp;utm_medium=post&amp;utm_campaign=meetup&amp;utm_content=1008_xwhitepaper\" target=\"_blank\" rel=\"noopener noreferrer\">NHN FactoryX 기술 백서</a>를 참고할 수 있습니다.</p>\n<p>긴 글을 읽어 주셔서 감사합니다.</p>\n<blockquote>\n<p> <a href=\"https://info.nhncloud.com/factoryx-whitepaper?utm_source=meetup&amp;utm_medium=post&amp;utm_campaign=meetup&amp;utm_content=1008_xwhitepaper\" target=\"_blank\" rel=\"noopener noreferrer\">NHN FactoryX 기술 백서 다운로드</a></p>\n</blockquote>\n<blockquote>\n</blockquote>\n<blockquote>\n<p> <a href=\"https://info.nhncloud.com/factoryxbrochure?utm_source=meetup&amp;utm_medium=post&amp;utm_campaign=meetup&amp;utm_content=1008_xwhitepaper\" target=\"_blank\" rel=\"noopener noreferrer\">NHN FactoryX 소개서 다운로드</a></p>\n</blockquote>\n<blockquote>\n</blockquote>\n<blockquote>\n<p> 도입 문의: <a href=\"https://www.nhncloud.com/kr/support\" target=\"_blank\" rel=\"noopener noreferrer\">NHN Cloud 고객지원</a></p>\n</blockquote>\n<p><a href=\"https://www.nhncloud.com/kr\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterdarkgray202609900.png\" alt=\"NHN Cloud_meetup banner_footer_darkgray_202609_900.png\"></a></p>\n",
     "createdAt": "2026-10-08T00:36:39.000+00:00",
@@ -506,28 +583,6 @@
     }
   },
   {
-    "title": "나무용 테이프 (2004)",
-    "content": "<ul>\n<li>네 살 <strong>Guy</strong>가 ‘나무용 테이프’를 사려던 것은, 나무 위 집에서 체커 게임을 할 <strong>체커판 테이블</strong>을 만들기 위해서였음</li>\n<li>아버지는 아들이 직접 직원을 찾아 물건을 묻도록 하며 <strong>쇼핑을 주도하게 했지만</strong>, 프로젝트의 전체 목적은 이해하지 못한 채 따라...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:35:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=34978",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "WorldCrafter - 이미지 한 장으로 탐색하고 돌아올 수 있는 AI 세계 만들기",
-    "content": "<ul>\n<li>Tencent ARC Lab과 베이징대학교가 개발한 <strong>영상 월드 모델</strong>로, 이미지 한 장이나 텍스트 설명에서 시작해 카메라를 움직이며 탐색하는 장면을 생성</li>\n<li>시선을 돌렸다 돌아왔을 때 <strong>앞서 본 사물과 공간을 기억해 복원</strong>하며, 분 단위로 이어지는 탐색에서도 장면의 일관성...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:35:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=34977",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "[Korean FE Article] 여러분의 모듈은 거짓말을 하고 있습니다",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!9Yqi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!9Yqi!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!9Yqi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!9Yqi!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!9Yqi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4feeebda-15be-4972-a4e0-88361f2438ac_1672x941.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><blockquote><p>글 링크: <a href=\"https://handhand.tistory.com/entry/your-modules-are-lying-to-you\" target=\"_blank\" rel=\"noopener noreferrer\">https://handhand.tistory.com/entry/your-modules-are-lying-to-you</a></p></blockquote><p></p><h2><strong>소개</strong></h2><p>ESM과 CJS를 둘 다 다루면서도, 이 둘이 구조적으로 어떤 차이가 있는지, 함께 사용할 때 어떤 부분을 조심해야 하는지까지는 미처 생각이 닿지 않을 수 있습니다.</p><p>이 글은 거의 똑같이 생긴 코드가 서로 다른 값을 출력하는 예제에서 시작해, 그 차이가 어디서 비롯되는지를 끝까지 따라갑니다. 왜 어떤 패키지는 번들러를 바꾸면 깨지는지, 왜 순환 의존성이 한쪽에서는 조용히 넘어가고 다른 쪽에서는 에러를 던지는지가 모두 같은 뿌리에서 설명됩니다.</p><p>그동안 당연하게 여겼던 동작들을 다시 확인해보기 좋은 글이라 소개합니다.</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>저같은 경우 사내 공통 패키지를 구성하면서 CJS &amp; ESM 듀얼 패키지 전략에 대한 고민이 있었는데요, 아티클에 소개된 내용들 중에 실제 트러블 슈팅에 활용했던 경험이나 노하우가 있다면 자유롭게 의견을 나눠보면 좋을 것 같습니다!</p></blockquote><p></p><p><strong>💬. 의견 1 </strong></p><p>저는 예전에 사내 패키지를 ESM과 CJS에서 모두 사용할 수 있도록 작업하면서, 로컬에서는 정상적으로 동작했지만 실제 배포된 패키지를 CJS 환경에서 require()했을 때 ESM 엔트리포인트를 참조하면서 오류가 발생한 적이 있습니다.</p><p>당시 두 결과물의 확장자를 명확하게 구분하고, 조건부 exports를 명확하게 정리하는 방식으로 해결했던 경험이 있네요. 이후에는 빌드 성공 여부만 확인하지 않고, 실제 패키징된 결과물을 기준으로 import와 require 경로를 각각 검증하고 있습니다.</p><p></p><p><strong>💬. 의견 2</strong></p><p>최근에 제가 직접 처리한 건 아니지만, 회사에서 비슷한 일이 있었습니다. ESM 패키지가 내부적으로 CommonJS 형태의 모듈을 내보내고 있었는데, 기존에는 번들러가 interop shim을 만들어줘서 문제없이 동작했습니다.<br>이후에 명시적인 \"exports\"가 추가되면서 Vite가 새로운 ESM 엔트리 포인트를 선택했고, 기존처럼 모듈을 불러오지 못하는 문제가 생겼습니다. 같은 팀원 분께서 기존 CommonJS 구현을 ESM에서도 사용할 수 있도록 다시 노출하는 레이어를 만들어 해결해주셨는데 번들러가 암묵적으로 모듈 간 차이를 처리해 주는 것과 패키지 자체에서 CJS·ESM 경계를 지원하는 것은 다르구나 생각했던 것 같습니다.</p><p></p><p><strong>💬. 의견 3</strong></p><p>저도 사내 공통 패키지에서 CJS/ESM 듀얼 패키징을 할 때, 두 엔트리 포인트가 서로 다른 모듈 인스턴스가 될 수 있다는 점을 간과했던 경험이 있습니다.</p><p>특히 클래스나 싱글턴 상태를 공유해야 하는 경우, import와 require 가 각각 다른 빌드 파일을 선택하면 instanceof 비교가 실패하거나 설정이 분리되는 문제가 발생했습니다. 이후로는 exports 맵에서 “import”와 “require”가 같은 구현을 참조하도록 하거나, 상태 자체를 한쪽 (보통 CJS) 에 두고 ESM 은 이를 재노출하는 구조로 변경했습니다.</p><p></p><h2><strong>목차</strong></h2><ul><li><p>바인딩, 값, 객체</p></li><li><p>평가 순서와 캐싱</p></li><li><p>순환 의존성과 부분 초기화</p></li><li><p>CommonJS와 ESM 경계 넘나들기</p><ul><li><p>ESM에서 CommonJS 임포트하기</p></li><li><p>CommonJS에서 ESM 로드하기</p></li><li><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.default</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">__esModule</code>이 나타나는 이유</p></li></ul></li><li><p>두 모듈 시스템 모두를 위한 배포</p><ul><li><p>각 파일의 형식 선언하기</p></li><li><p>조건부 익스포트</p></li><li><p>이중 패키지 인스턴스 위험</p></li><li><p>설치된 패키지를 테스트하기</p></li></ul></li><li><p>모듈 경계를 위한 실전 규칙</p></li><li><p>실전 디버깅 체크리스트</p></li><li><p>결론</p></li></ul><h2></h2>",
     "createdAt": "2026-10-08T00:30:40.000+00:00",
@@ -536,50 +591,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "Lemma - 사람과 AI 에이전트가 한 팀으로 일하는 오픈소스 작업 공간",
-    "content": "<ul>\n<li>여러 사람이 <strong>같은 AI 동료와 업무 데이터·문서·작업 흐름을 공유</strong>하며 일하는 오픈소스 플랫폼</li>\n<li>Claude Code, Codex, Cursor, OpenCode에 원하는 업무를 설명하면 <strong>앱 화면부터 데이터 테이블, 에이전트, 워크플로와 권한까지 함께 구성</strong></li>\n<li>팀의 수정과 피드백을...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=34976",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "COSMIC DE가 KDE Plasma를 압도하고 있나?",
-    "content": "<ul>\n<li><strong>COSMIC</strong>은 KDE Plasma만큼 광범위한 맞춤 설정을 제공하지는 않지만, 외형 설정을 단순하게 구성하고 변경 결과를 즉시 반영하는 사용성에서 강점을 보임</li>\n<li><strong>모서리 곡률과 인터페이스 밀도</strong>, 색상과 반투명 효과를 직접 조절할 수 있으며, Plasma에서는 일부 변경에 테...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:10:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=34975",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "소프트웨어 개발자들은 괜찮지 않다",
-    "content": "<ul>\n<li><strong>AI가 개발의 미래라는 말을 믿고 받아들였던 개발자들조차 업계를 떠나고 있음</strong>. 직접 사용해 본 뒤, 그 미래가 더는 즐겁지 않고 자신에게 해롭다고 느끼기 때문임</li>\n<li>AI는 직접 작업을 돕는 전동 공구보다 <strong>다른 사람에게 제작을 맡기는 방식</strong>에 가까움. 결과물과의 거...<p></p></li></ul>",
-    "createdAt": "2026-10-08T00:07:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=34974",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "PSP용 God of War, WebAssembly로 재컴파일해 브라우저에서 실행",
-    "content": "<ul>\n<li><strong>PSP Web Recomp</strong>는 PSP 게임의 MIPS 기계어를 미리 C++로 변환하고 WebAssembly로 컴파일해 브라우저에서 실행함. PSP 운영체제와 그래픽 칩의 필요한 기능을 재구현하고 WebGL2로 화면을 그림</li>\n<li>첫 적용작인 <strong>God of War: Chains of Olympus</strong>는 부팅부터 메뉴, 컷신, 전...<p></p></li></ul>",
-    "createdAt": "2026-10-07T23:41:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=34973",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1031,17 +1042,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "100 Devs",
-    "content": "<p>Kevin Powell is <a href=\"https://bsky.app/profile/asked100devs.bsky.social\" target=\"_blank\" rel=\"noopener noreferrer\">doing</a> game-show-style (specifically Family Feud) shorts where, using data from a survey of 100 devs, he asks another dev what the most popular answers were. Here’s:</p>\n\n\n\n<ul>\n<li><a href=\"https://bsky.app/profile/kevinpowell.co/post/3mtmtqfzjs22q\" target=\"_blank\" rel=\"noopener noreferrer\">Adam Argyle guessing the most popular frameworks</a></li>\n\n\n\n<li><a href=\"https://bsky.app/profile/kevinpowell.co/post/3mvpv4i4wel2i\" target=\"_blank\" rel=\"noopener noreferrer\">Alex Trost guessing the most popular units</a></li>\n\n\n\n<li><a href=\"https://bsky.app/profile/asked100devs.bsky.social/post/3mumm373al22a\" target=\"_blank\" rel=\"noopener noreferrer\">Michael Warren guessing the most-looked-up properties</a></li>\n</ul>\n",
-    "createdAt": "2026-09-24T13:46:01.000+00:00",
-    "link": "https://blog.master.dev/100-devs/",
-    "author": "Chris Coyier",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
@@ -3077,17 +3077,6 @@
     "site": {
       "id": "f9658a19-baf6-4c33-87c0-cf1c813e3ed2",
       "name": "AWS Front-End Web & Mobile"
-    }
-  },
-  {
-    "title": "A beginner-friendly guide to view transitions in CSS",
-    "content": "<p>Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.</p>\n",
-    "createdAt": "2025-10-09T00:00:00.000+00:00",
-    "link": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/",
-    "author": "yash-raj-bharti",
-    "site": {
-      "id": "59aa16a6-e649-455d-a3db-b4f5b0bca471",
-      "name": "MDN Blog"
     }
   }
 ]
