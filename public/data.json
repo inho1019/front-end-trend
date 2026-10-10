@@ -1,5 +1,280 @@
 [
   {
+    "title": "파나마에서 규모 7.6 지진 발생",
+    "content": "<ul>\n<li>USGS는 파나마 Pitaloza Arriba 서남서쪽 12km에서 발생한 지진을 <strong>규모 7.7</strong>, 깊이 <strong>12.6km</strong>로 기록했으며, HN 제목의 규모 7.6과 차이가 있음</li>\n<li>약 <strong>460만 명</strong>이 MMI V~VIII의 흔들림을 경험했으며, USGS는 흔들림의 영향과 재난 피해가 광범위할 가능성...<p></p></li></ul>",
+    "createdAt": "2026-10-10T04:31:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=35107",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "usAge - Claude·Codex·Cursor 등 AI 서비스의 사용량·잔여 한도·초기화 시각을 확인하는 앱",
+    "content": "<p>안녕하세요. 여러 AI 서비스의 사용량과 남은 한도를 한곳에서 확인할 수 있는 앱, usAge를 만들었습니다.</p>\n<p>Claude, Codex, Cursor 등을 함께 쓰는 분들이 각 서비스의 대시보드를 따로 열지 않고도 얼마나 사용했는지, 언제 한도가 초기화되는지 확인할 수 있도록 만든 앱입니다. 앱 화면뿐 아니라 홈 화면 위</p>",
+    "createdAt": "2026-10-10T04:21:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=35106",
+    "author": "chen2he",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "REA Reverse - 무엇이든 리버스 엔지니어링하기",
+    "content": "<ul>\n<li><strong>REA</strong>는 코딩 에이전트가 프로그램 자체를 검사하고 동작을 설명하도록 도구를 제공하며, 분석한 기능을 변경하거나 재구현하는 데 활용할 수 있음</li>\n<li>사용자가 자연어로 질문하면 REA가 <strong>명령어, 디컴파일 코드, 호출 관계</strong> 등을 제공하고, 에이전트가 적용되는 분기와 계...<p></p></li></ul>",
+    "createdAt": "2026-10-10T03:32:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35105",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "코딩 에이전트는 왜 이렇게 멍청할까?",
+    "content": "<ul>\n<li>AI 지원 개발은 발전했지만, <strong>모델을 코드베이스와 시스템에 연결하는 에이전트</strong>는 작업 관리, 위임, 소통에서 여전히 병목으로 남아 있음</li>\n<li>작업을 하위 과제로 나눠도 <strong>병렬 실행과 모델별 위임</strong>이 미흡해, 간단한 작업까지 느리고 비싼 모델에 맡기거나 사람이 직접 모...<p></p></li></ul>",
+    "createdAt": "2026-10-10T03:03:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35104",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "StepFun의 100만 토큰 컨텍스트 MoE 모델 Step 5 Preview, OpenRouter에 등장",
+    "content": "<ul>\n<li><strong>Step 5 Preview</strong>는 대규모 코드베이스와 문서를 다루며 도구 사용과 여러 단계의 결과 개선을 수행하도록 설계한 StepFun의 에이전트 작업용 주력 모델임</li>\n<li><strong>희소 MoE</strong> 구조로 전체 6,000억 개 파라미터 중 270억 개를 활성화하며, <strong>100만 토큰 컨텍스트</strong></li></ul>",
+    "createdAt": "2026-10-10T02:48:41.000+00:00",
+    "link": "https://news.hada.io/topic?id=35103",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": ".lan 신규 gTLD 신청",
+    "content": "<ul>\n<li><strong>Coffee Danger, LLC</strong>가 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.lan</code>을 신규 일반 최상위 도메인(gTLD)으로 신청함</li>\n<li>신청 상태는 <strong>활성(Active)</strong> 임</li>\n<li>현재는 <strong>평가 전 처리 단계(Pre-Evaluation Processing)</strong> 임</li>\n<li>신청자 소재지는 <strong>미국</strong>, 지역 구...<p></p></li></ul>",
+    "createdAt": "2026-10-10T02:45:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=35102",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI 학습용 생물학 데이터 구축에 전 세계 약 2.7조원 투입 약속",
+    "content": "<ul>\n<li><strong>Biohub, 미국 에너지부(DOE), 국립보건원(NIH)</strong> 과 민간 파트너가 생물학 예측 AI를 위한 공개 데이터 구축 협력을 확대함. 총 <strong>18억 달러($1.8b) 규모</strong>로, 신규 자금뿐 아니라 기존 투자로 구축한 데이터, 연산 자원, 측정 기술을 포함함</li>\n<li>목표는 세포의 작동과 개입에...<p></p></li></ul>",
+    "createdAt": "2026-10-10T02:42:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=35101",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Microsoft-Decision-1, 빠른 의사결정을 위한 Microsoft의 모델",
+    "content": "<ul>\n<li>Microsoft가 라우팅, 분류, 우선순위 지정, 검증, 워크플로 제어를 위한 <strong>Microsoft-Decision-1</strong>을 출시함. 정해진 선택지마다 보정된 확률을 반환해 소프트웨어가 바로 의사결정에 활용할 수 있음</li>\n<li><strong>Qwen3.5-9B를 사후 학습</strong>해 한 번의 처리로 선택지를 평가하도록 설계...<p></p></li></ul>",
+    "createdAt": "2026-10-10T02:39:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=35100",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "학생들에게 무엇을 말해줘야 할까?",
+    "content": "<ul>\n<li>AI의 발전 때문에 수학 진로를 포기하기보다, <strong>수학에 대한 열정과 전문성을 쌓으려는 목표</strong>를 기준으로 박사과정 진학을 결정해야 함</li>\n<li>AI가 인간의 수학 연구 능력을 넘어설지는 <strong>아직 알 수 없음</strong>. 현재의 낙관론도 틀릴 수 있으며, 종신재직 교수와 고용이 불안정한 ...<p></p></li></ul>",
+    "createdAt": "2026-10-10T01:51:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=35099",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "‘월리스와 그로밋’, 90%를 혼자 만들다",
+    "content": "<ul>\n<li>Nick Park는 첫 <strong>Wallace and Gromit</strong> 영화인 <strong>A Grand Day Out</strong>을 졸업작품으로 시작해, 자신의 추산으로 약 90%를 혼자 제작함</li>\n<li>제작비와 인력의 제약 속에서 캐릭터도 달라짐. Gromit은 애니메이션 작업의 어려움 때문에 대사를 없애면서 <strong>눈만으로 감정을 드...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-10T01:48:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=35098",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "국제형사재판소에 대한 제재 부과",
+    "content": "<ul>\n<li>미국은 미국인에 대한 기소를 허용하지 않겠다는 방침에 따라 <strong>국제형사재판소(ICC)를 제재 대상에 지정</strong>함</li>\n<li>제재는 <strong>ICC와의 거래 금지</strong>를 통해 자원을 차단하고 운영 능력을 마비시키는 것을 목표로 함</li>\n<li>미국 정부는 미국과 미국 국민이 <strong>ICC 관할권의...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-10T01:45:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=35097",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "이란의 공작, ChatGPT로 만든 가짜 기사를 실제 미국 매체에 게재",
+    "content": "<ul>\n<li>이란 내 <strong>ChatGPT 사용자들</strong>이 AI로 생성한 가짜 기사를 미국 언론 매체에 게재함</li>\n<li>OpenAI에 따르면 <strong>최소 20개 언론 매체</strong>에 AI 생성 기사 약 100건이 실림</li>\n<li>플로리다의 소규모 주간지 <strong>Port St. Joe Star</strong>에도 이란 전쟁의 비용을 경고하는 AI...<p></p></li></ul>",
+    "createdAt": "2026-10-10T01:42:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=35096",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "a16z의 2026년 기술 시장 분석 - 소프트웨어에서 AI 인프라로 이동하는 투자",
+    "content": "<ul>\n<li>기술 산업이 시장 전체의 성장과 투자 흐름을 주도하며, 2026년 S&amp;P 500 이익 증가분의 <strong>약 76%</strong> 를 차지함. 대형 클라우드 기업의 연간 설비투자는 <strong>약 8,000억 달러</strong>, 2027년부터는 <strong>1조 달러 이상</strong>으로 예상됨</li>\n<li>AI 투자금은 GPU뿐 아니라 </li></ul>",
+    "createdAt": "2026-10-10T00:55:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=35094",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "독일, 옛 탄광을 유럽 최대 호수 지대로 전환",
+    "content": "<ul>\n<li>독일 동부 <strong>Lusatian Lakeland</strong>에서 폐탄광을 호수로 바꾸는 수십 년간의 사업이 진행 중이며, 마지막 주요 구성 요소인 <strong>Lake Sedlitz</strong>가 2026년 4월 말 수영과 보트 이용객에게 개방될 예정임</li>\n<li>인공호수 23개와 총 수면적 <strong>1만 4,000헥타르</strong>를 아우르는...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:51:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=35093",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "MXC - 샌드박스 코드 실행 시스템",
+    "content": "<ul>\n<li><strong>MXC(Microsoft eXecution Container)</strong> 는 모델 출력, 플러그인, 도구 등 신뢰할 수 없는 코드를 Windows, Linux, macOS에서 격리 실행하는 시스템임</li>\n<li>애플리케이션에 내장하는 <strong>SDK</strong> 형태로 동작하며, OS 네이티브 프로세스 샌드박스부터 전체 VM까지 여러 백엔드를 통...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:48:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=35092",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Yandex 데이터센터, 48시간 내 두 번째 피격",
+    "content": "<ul>\n<li>러시아 칼루가 지역의 <strong>Yandex 데이터센터</strong>가 드론 공격을 받아 여러 모듈의 가동이 완전히 중단됐다고 러시아 국영 통신사 TASS가 회사 발표를 인용해 전함</li>\n<li>칼루가 시설은 <strong>Yandex의 러시아 최대 데이터센터</strong>로 설계됐으며, 2023년 하반기에 가동을 시작함</li>\n<li>계...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:45:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=35091",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: Carrier-Explode - iPhone, Pixel, Galaxy의 통신사 설정을 디코딩하는 서비스",
+    "content": "<ul>\n<li><strong>Carrier-Explode</strong>는 iPhone, Pixel, Galaxy 펌웨어의 통신사 설정을 디코딩해 조회하고 비교할 수 있는 서비스임</li>\n<li>각 휴대전화의 통신사별 <strong>APN, VoLTE, Wi-Fi Calling, 5G</strong> 설정을 확인할 수 있음</li>\n<li>필요한 <strong>기능을 기준으로 통신사를 찾고</strong>, 두...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:42:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=35090",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TypeSafe AI, 기업가치 약 11.3조원으로 약 1.3조원 투자 유치",
+    "content": "<ul>\n<li><strong>TypeSafe AI</strong>가 Andreessen Horowitz 주도로 기업가치 75억 달러($7.5b)에 <strong>8억 7,000만 달러($870m) 규모 시리즈 A</strong> 투자를 유치함</li>\n<li>Sequoia Capital, 기존 투자자 DCVC, 엔젤 투자자들이 참여했으며 <strong>Martin Casado</strong>가 이사회에 합류함</li>\n<li>개발...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:39:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=35089",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "vgpu - 브라우저와 Node.js에서 같은 코드로 쓰는 경량 WebGPU 라이브러리",
+    "content": "<ul>\n<li>셰이더 효과, 3D 장면, GPU 연산과 시각화를 만드는 개발자를 위한 <strong>TypeScript 기반 WebGPU 라이브러리</strong></li>\n<li>브라우저, 화면 없이 실행하는 Node.js, 테스트 환경에서 <strong>동일한 공개 API로 코드 재사용 가능</strong></li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.wgsl</code> 셰이더 파일을 모듈처럼 가져오고...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=35088",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "프로그래밍은 특별하지 않다",
+    "content": "<ul>\n<li><strong>프로그래밍도 예술이며, 기능적인 결과물을 만든다는 이유로 다른 창작 분야와 달리 AI 사용을 정당화할 수는 없음</strong></li>\n<li>예술은 초월적인 작품에만 한정되지 않으며, 광고 문구와 일상적인 코드처럼 <strong>실용적인 창작 노동도 같은 기술과 연습을 바탕으로 함</strong></li>\n<li>비동...<p></p></li></ul>",
+    "createdAt": "2026-10-10T00:02:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=35087",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "누구도 섬이 아니다 - AI가 지적 공동체를 해체할 때",
+    "content": "<ul>\n<li><strong>개인의 지적 활동을 오래 지속하려면 인간 공동체가 필요하며, AI가 공동체를 해체하면 혼자 배우고 만드는 활동도 줄어듦</strong></li>\n<li>AI 에이전트에 업무를 맡기고 취미로 프로그래밍을 계속하리라는 기대와 달리, 함께 읽고 배우고 만들어갈 공동체가 약해지면 개인의 즐거움만으로 활동을 이...<p></p></li></ul>",
+    "createdAt": "2026-10-09T23:52:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35086",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Python 3.15 정식 출시 - 지연 임포트, 불변 딕셔너리, UTF-8 기본 인코딩 도입",
+    "content": "<ul>\n<li><strong>Python 3.15.0 정식 출시</strong>로 UTF-8을 기본 인코딩으로 사용하고, 불변 딕셔너리 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">frozendict</code>와 고유한 표식 값을 만드는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sentinel</code> 내장 타입 추가</li>\n<li><strong>명시적 지연 임포트</strong>로 모듈을 처음 사용하는 시점까지 로딩을 미뤄 시작 시간을 줄일 수 있...<p></p></li></ul>",
+    "createdAt": "2026-10-09T23:49:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35085",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "유튜버, 경찰 추적용 Flock 방식 카메라를 만들자 경찰이 찾아왔다고 밝혀",
+    "content": "<ul>\n<li>캐나다 소프트웨어 엔지니어이자 유튜버인 <strong>Anthony Sistilli</strong>가 경찰차 동선을 추적하는 <strong>자동 번호판 인식(ALPR) 카메라</strong>를 직접 제작해 설치함</li>\n<li>Sistilli에 따르면 <strong>Peel Regional Police</strong> 소속 경찰관 2명이 집을 방문해 수집한 데이터를 어떤 목적으...<p></p></li></ul>",
+    "createdAt": "2026-10-09T23:46:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35084",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국, 전직 ICC 판사의 노벨평화상 수상 몇 시간 뒤 ICC 제재",
+    "content": "<ul>\n<li><strong>Trump 행정부</strong>가 전직 국제형사재판소(ICC) 판사의 노벨평화상 수상 몇 시간 뒤 재판소 자체에 제재를 부과하며 유럽 동맹국들과 외교적 충돌을 빚음</li>\n<li>기존 검사와 판사 개인에 대한 제재를 넘어 <strong>ICC와의 거래를 금지</strong>하는 조치로, 재판소에 서비스를 제공하는 기업까...<p></p></li></ul>",
+    "createdAt": "2026-10-09T23:43:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35083",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AAA 지뢰찾기",
+    "content": "<p>AAA 지뢰찾기</p>\n",
+    "createdAt": "2026-10-09T23:40:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35082",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Let’s Encrypt, 2027년 2월부터 기본 인증서 유효기간을 64일로 단축",
     "content": "<ul>\n<li><strong>Let’s Encrypt가 2027년 2월 10일부터 기본 인증서 유효기간을 90일에서 64일로 단축</strong>하며, 이미 발급된 유효한 인증서를 폐기하지는 않음</li>\n<li>자동 갱신과 <strong>ACME Renewal Info(ARI)</strong> 를 지원하는 클라이언트를 사용하면 별도 준비 없이 전환 가능하며, ARI가 인증기관에...<p></p></li></ul>",
     "createdAt": "2026-10-09T16:01:13.000+00:00",
@@ -66,8 +341,8 @@
     }
   },
   {
-    "title": "AI 에이전트가 화면에 큰 화살표, 상자, 텍스트를 그리게 하세요",
-    "content": "<ul>\n<li><strong>big-arrow-on-the-screen</strong>은 AI 에이전트가 사람의 조작이 필요한 버튼이나 창을 화면 위에서 가리키도록 하는 macOS CLI와 에이전트 스킬임</li>\n<li>권한 승인, 2FA, 결제 확인처럼 <strong>사람이 직접 결정하고 수행해야 하는 단계</strong>를 시각적으로 안내하며, 자체적으로 클릭하거나...<p></p></li></ul>",
+    "title": "big-arrow-on-the-screen - AI 에이전트가 Mac 화면에서 클릭할 곳을 가리키는 도구",
+    "content": "<ul>\n<li><strong>AI 에이전트가 사람의 조작이 필요한 버튼과 창을 Mac 화면 위의 큰 화살표와 안내 문구로 가리키는 CLI</strong>로, Claude Code와 Codex용 스킬 제공</li>\n<li>권한 승인, 2FA, 결제 확인, 서명처럼 사람이 처리할 단계를 안내하며, 도구 자체는 클릭하거나 입력하거나 화면을 캡처하지 않음</li>\n</ul>",
     "createdAt": "2026-10-09T13:41:39.000+00:00",
     "link": "https://news.hada.io/topic?id=35071",
     "author": "neo",
@@ -77,8 +352,8 @@
     }
   },
   {
-    "title": "지금 회의 중입니다",
-    "content": "<ul>\n<li><strong>Fleeting</strong>은 가상의 회의 녹음을 배경으로 재생해, 주변 사람이 사용자를 회의 중이라고 여기게 하는 서비스임</li>\n<li>회의는 각각 <strong>약 12분</strong> 길이이며 임의의 지점에서 시작해 같은 첫 대사를 연속으로 듣지 않도록 함</li>\n<li>\"<strong>Leave\"</strong> 또는**&amp;...<p></p></li></ul>",
+    "title": "Fleeting - “지금 회의 중입니다”를 위한 가짜 회의 재생 서비스",
+    "content": "<ul>\n<li><strong>가상의 회의 음성과 화상회의 화면을 재생해 회의 중인 것처럼 보이게 하는 웹 서비스</strong>로, 주변의 방해 없이 시간을 확보하는 용도</li>\n<li>개발팀 스탠드업, API 설계 검토, 보안 검토, 장애 대응, 고객 영업 통화 등 여러 회의 시나리오 제공</li>\n<li>회의는 각각 <strong>약 12분</strong></li></ul>",
     "createdAt": "2026-10-09T13:38:39.000+00:00",
     "link": "https://news.hada.io/topic?id=35070",
     "author": "neo",
@@ -286,17 +561,6 @@
     }
   },
   {
-    "title": "곧장 본론으로 들어가지 않는 것의 가치 (2015)",
-    "content": "<ul>\n<li><strong>잡담과 대화의 의례</strong>는 불필요한 우회가 아니라, 민감한 이야기를 꺼낼 만큼 편안함과 신뢰를 쌓는 과정임</li>\n<li>음식과 음료는 대화 내내 무언가 말해야 한다는 부담을 덜어주며, 가벼운 이야기는 <strong>불편한 주제로 넘어가기 위한 준비</strong>가 될 수 있음</li>\n<li>언어는 감정을...<p></p></li></ul>",
-    "createdAt": "2026-10-09T02:32:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=35045",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "How an accessibility designer adds keyboard shortcuts to a web app",
     "content": "<p>Eric Bailey explains the thinking and research that go into <a href=\"https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/\" target=\"_blank\" rel=\"noopener noreferrer\">adding just a few custom keyboard shortcuts to a web app</a>. There’s an absolute ton to consider and test, and plenty of challenges can come from your own team. </p>\n",
     "createdAt": "2026-10-09T01:38:59.000+00:00",
@@ -305,83 +569,6 @@
     "site": {
       "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
       "name": "Frontend Masters Boost"
-    }
-  },
-  {
-    "title": "시스템으로 사고하고, 반복 루프로 출시하기",
-    "content": "<ul>\n<li>소프트웨어 엔지니어링의 중심이 직접 코드를 작성하는 일에서 <strong>AI가 대규모로 올바른 코드를 작성하도록 시스템을 설계하는 일</strong>로 옮겨감</li>\n<li><strong>Artemis는 플랫폼의 모든 코드를 에이전트가 작성</strong>하며, 엔지니어는 시스템 설계·제약 설정·결과 검토를 맡음</li>\n<li>Grok 팀...<p></p></li></ul>",
-    "createdAt": "2026-10-09T01:25:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35043",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI는 디자인을 어떻게 바꾸고 있는가?",
-    "content": "<ul>\n<li>현업 디자이너들과의 대화에서 AI는 <strong>제작 속도와 탐색 범위를 늘렸지만, 작업 품질이 좋아졌다고 답한 사람은 없었음</strong></li>\n<li><strong>원하는 결과가 명확할수록 AI를 다루기 어려워지는 역설</strong>이 나타남. 열린 탐색에는 유용하지만, 숙련자가 가진 정밀한 의도를 구현할 때는 오히려...<p></p></li></ul>",
-    "createdAt": "2026-10-09T01:15:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35042",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 시대에 SaaS 기업을 피벗하는 방법",
-    "content": "<ul>\n<li>AI 코딩 도구로 기능 개발과 복제가 저렴해지면서, <strong>경쟁사와 같은 기능에 몇 가지를 더하는 전략</strong>만으로는 SaaS의 경쟁력을 유지하기 어려워짐</li>\n<li>코드보다 <strong>안정적인 운영 역량</strong>이 중요한 인프라와, 기존 고객·뉴스레터·커뮤니티 같은 <strong>고객에게 도달할 기반</strong></li></ul>",
-    "createdAt": "2026-10-09T01:05:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35041",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "5년 계획을 세우지 말고, 대신 이렇게 하라",
-    "content": "<ul>\n<li><strong>5년 뒤의 모습을 정하기보다, 그때 선택할 수 있는 길을 넓혀야 함</strong>. 지금 가진 경험만으로 미래를 계획하면 기존 경력의 조금 다른 버전만 떠올리기 쉬움</li>\n<li><strong>새로운 역량을 배우고, 사람을 만나고, 다른 환경에 들어가면</strong> 이전에는 상상하지 못했던 진로와 기회가 열림...<p></p></li></ul>",
-    "createdAt": "2026-10-09T00:55:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35040",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "일주기 리듬 장애로서의 ADHD: 근거와 시간치료의 시사점(2025)",
-    "content": "<ul>\n<li>ADHD 환자의 상당수에서 <strong>일주기 리듬 지연</strong>이 나타나며, 이를 조절하는 치료가 표준 ADHD 치료의 보완 수단이 될 수 있음. 다만 모든 환자에게 해당하지 않으며, 증상과의 관계는 복잡하고 양방향적임</li>\n<li>불면과 수면 장애는 ADHD 성인의 최대 <strong>80%</strong>, 아동의 최대 </li></ul>",
-    "createdAt": "2026-10-09T00:39:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35039",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "tinyjs - JavaScript로 약 6MB 데스크톱 앱을 만드는 경량 프레임워크",
-    "content": "<ul>\n<li><strong>프런트엔드와 백엔드를 모두 JavaScript로 작성</strong>하는 데스크톱 앱 프레임워크로, 배포 크기는 약 <strong>6MB</strong></li>\n<li><strong>Electron·Node.js·Chromium을 앱에 포함하지 않고</strong>, txiki.js 백엔드와 운영체제의 WebView를 조합\n<ul>\n<li>macOS는 WebKit, Windows는 WebView...<p></p></li></ul></li></ul>",
-    "createdAt": "2026-10-09T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35038",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내 웹사이트가 Google 검색 색인에서 삭제됐다",
-    "content": "<ul>\n<li>AI와 끊임없는 스크래핑을 이유로 개인 블로그의 <strong>검색 엔진 색인 제외</strong>를 추진했고, 마지막 설정 변경 후 최소 3개월이 지나 확인했을 때 Google 색인에서 삭제된 상태였음</li>\n<li>처음에는 <strong>robots.txt</strong>에서 모든 봇의 접근을 차단했지만, 몇 주 동안 기다리며 확인해도 색인...<p></p></li></ul>",
-    "createdAt": "2026-10-09T00:01:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=35037",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -396,182 +583,6 @@
     }
   },
   {
-    "title": "Orkut.com",
-    "content": "<ul>\n<li>Orkut이 <strong>실제 사람, 진정한 연결, 소속감</strong>을 중심으로 인터넷을 다시 만들자는 운동을 제안하고 참여를 요청함</li>\n<li>지난 20년간 소셜 미디어가 사람 사이의 연결보다 <strong>관심과 참여도 최적화</strong>에 집중했으며, 아이들을 중독시키고 분열시키는 알고리듬이 외로움과 불안을 키...<p></p></li></ul>",
-    "createdAt": "2026-10-08T23:34:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35034",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Theranos.world",
-    "content": "<ul>\n<li><strong>Elizabeth Holmes의 책상</strong>을 재현한 인터랙티브 시뮬레이션으로, MacBook과 iPhone, Edison 기기를 조작할 수 있음</li>\n<li>문자와 이메일은 모두 <strong>실제 재판 자료</strong>에서 가져왔으며, Extend로 파싱함</li>\n<li><strong>의자를 클릭하거나 탭해 앉고</strong>, 드래그로 주변을...<p></p></li></ul>",
-    "createdAt": "2026-10-08T22:31:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=35033",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "왜 AI 업계는 DeepSeek 4.1 Flash에 긴장하지 않는가?",
-    "content": "<ul>\n<li><strong>DeepSeek 4.1 Flash를 약 한 달간 12개 프로젝트에서 집중적으로 사용한 경험상</strong>, 대화와 작업 결과, 속도에서 Opus와 차이를 체감하기 어려웠지만 비용은 훨씬 낮았음</li>\n<li>일상적인 개발 작업에는 이미 충분한 성능을 제공하므로, 최신 최고급 모델을 좇기보다 <strong>같은 일을 얼마나...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-08T21:38:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=35032",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "일러스트레이터에게 우리 집 그림을 의뢰했다. 이제 그 그림이 Home Assistant 대시보드다",
-    "content": "<ul>\n<li><strong>실제 집을 그린 인터랙티브 대시보드</strong>를 만들어, 기존 Home Assistant 앱을 쓰려 하지 않던 가족들도 기기를 직접 제어하게 됨</li>\n<li>벽난로의 불꽃, 정원 조명, 에어컨의 바람을 그림에 반영하며, 기기 상태에 따라 정지 이미지와 <strong>애니메이션 WebP</strong>를 바꿔 표시함</li>\n</ul>",
-    "createdAt": "2026-10-08T21:35:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=35031",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SynthID Detector - AI 생성 미디어 워터마크 탐지 도구",
-    "content": "<ul>\n<li>Google의 <strong>SynthID Detector</strong>는 이미지, 영상, 오디오를 업로드해 AI 생성 또는 편집 과정에서 삽입된 SynthID 워터마크를 확인하는 도구임</li>\n<li>이미지에서는 워터마크 존재 여부를, <strong>영상과 오디오에서는 워터마크가 있는 구간</strong>을 탐지함</li>\n<li>Google DeepMind가 개발...<p></p></li></ul>",
-    "createdAt": "2026-10-08T20:37:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35030",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "스마트 커피 머신, 열흘간 트래픽 1TB 발생 - 대부분 집 안 네트워크 통신",
-    "content": "<ul>\n<li>부모님 집의 네트워크를 관리하다가 <strong>Keurig 스마트 커피 머신에서 열흘간 약 1TB의 트래픽</strong>이 발생한 것을 발견함</li>\n<li>처음에는 대규모 업로드에 놀랐지만, 추가 확인 결과 <strong>트래픽 대부분은 외부 인터넷으로 나가지 않고 집 안 네트워크에 머물렀음</strong></li>\n<li>외부 전송량...<p></p></li></ul>",
-    "createdAt": "2026-10-08T20:34:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35029",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI 연환산 매출, 앞서 시사한 수준보다 200억 달러 적어",
-    "content": "<ul>\n<li><strong>OpenAI</strong>가 투자자에게 전달한 9월 말 연환산 매출은 약 <strong>500억 달러</strong>로, 앞서 널리 알려진 680억 달러보다 낮음</li>\n<li>관계자에 따르면 <strong>680억 달러에는 파트너사의 총매출이 포함</strong>돼 있었으며, 이는 경쟁사 Anthropic과 더 직접적으로 비교하기 위한 수치임...<p></p></li></ul>",
-    "createdAt": "2026-10-08T19:38:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=35028",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Whistle - 16.9 MB로 구현한 음성 텍스트 변환",
-    "content": "<ul>\n<li><strong>Whistle</strong>은 16.9 MB 단일 파일로 배포되는 공개 음성 인식 모델로, 별도 의존성 없이 CPU에서 실행되며 7개 언어의 음성을 기기 내에서 텍스트로 변환함</li>\n<li><strong>전사, 단어별 타임스탬프, 음성 임베딩</strong>을 지원하며, 16 kHz 모노 오디오를 한 번에 최대 30초까지 처리함</li>...<p></p></ul>",
-    "createdAt": "2026-10-08T19:35:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=35027",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Anne Carson, 2026년 노벨문학상 수상",
-    "content": "<ul>\n<li>캐나다 시인이자 에세이스트 <strong>Anne Carson</strong>이 2026년 노벨문학상 수상자로 선정됨. 스웨덴 한림원은 고전 전통과의 유희적 대화를 통해 현대 문학의 새로운 형식을 창조한 작품 세계를 높이 평가함</li>\n<li><strong>시, 산문, 번역의 경계를 넘나드는 작업</strong>이 특징이며, 고대 그리스 문...<p></p></li></ul>",
-    "createdAt": "2026-10-08T18:38:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=35026",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "4시간 배터리 저장장치, 전 세계에서 가스터빈보다 설치 비용 저렴해져",
-    "content": "<ul>\n<li>Wood Mackenzie의 <strong>균등화발전비용(LCOE)</strong> 분석에서 4시간 배터리 저장장치가 두 기술을 함께 모델링한 <strong>43개 시장 모두에서 개방형 사이클 가스터빈보다 저렴</strong>해짐</li>\n<li><strong>가스터빈 공급 부족과 연료 가격 변동성</strong>은 피크 수요 대응 발전 비용을 높이는 반면...<p></p></li></ul>",
-    "createdAt": "2026-10-08T18:35:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=35025",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI, 수학 결과 3건 철회",
-    "content": "<ul>\n<li>OpenAI 수학 GitHub 저장소에 <strong>새 Lean 형식화 6건</strong>, 수정 19건, 철회 3건이 반영됨</li>\n<li><strong>철회된 수학 결과 3건</strong>의 구체적인 대상이나 사유는 게시물에 명시되지 않음</li>\n<li>저장소의 <strong>주요 결과 약 42%</strong> 가 현재 형식화된 상태임</li>\n<li>앞으로도 </li></ul>",
-    "createdAt": "2026-10-08T17:40:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35024",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DVD 메뉴의 아름다움 - 재생 화면을 넘어 영화 속 세계로",
-    "content": "<ul>\n<li>2000년대의 <strong>DVD 메뉴</strong>는 단순한 재생 화면을 넘어, 작품 속 공간과 전용 애니메이션, 숨겨진 콘텐츠와 게임으로 영화 감상의 재미를 확장함</li>\n<li>《스쿠비 두 2》는 메뉴 곳곳에서 단서를 찾는 게임을, 《해리 포터와 아즈카반의 죄수》는 달리는 버스와 신문을 본뜬 메뉴를, 《슈렉 2》는...<p></p></li></ul>",
-    "createdAt": "2026-10-08T17:37:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35023",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "오래가는 소프트웨어가 천천히 만들어지는 과정 - Zotero의 탄생",
-    "content": "<ul>\n<li><strong>Zotero</strong>는 연구 자료의 수집·정리·주석·인용·공유를 돕는 무료 오픈소스 도구로, 역사학자들의 협업에서 출발해 출시 20년 만에 <strong>2,000만 명 이상</strong>이 사용하는 소프트웨어로 성장함</li>\n<li>초기 시제품까지 <strong>5분이 아니라 약 5년</strong>이 걸렸음. 처음부터 원하는...<p></p></li></ul>",
-    "createdAt": "2026-10-08T16:46:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=35022",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국, Microsoft·Adobe 등 8개사의 취업 영주권 노동인증 중단",
-    "content": "<ul>\n<li>미국 정부가 <strong>Microsoft·Adobe와 IT 서비스 기업 6곳의 취업 영주권 노동인증(PERM) 절차를 중단</strong>한다고 발표함</li>\n<li>대상 기업의 <strong>신규 신청을 받지 않고, 이미 접수된 신청의 처리도 중단</strong>하며, 제도 남용 의혹과 진행 중인 연방 조사를 이유로 제시함</li>\n<li><strong>P...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-08T16:43:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=35021",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tell HN: 탄자니아 농촌 주민 한 명의 교육비를 10년째 지원하고 있습니다",
-    "content": "<ul>\n<li>10년 전 19세에 탄자니아 Njombe 고지대의 Ibumila 마을에서 여름을 보내며, 머물던 집의 11세 딸 <strong>Anwarite의 학비 지원</strong>을 시작함. 마을에는 학교가 없고 한 시간 거리의 기숙학교는 연간 수백 달러로 대부분의 가정이 감당하기 어려웠지만, 당시 여름 아르바이트 2주 치 수입으로 지원할 수 ...<p></p></li></ul>",
-    "createdAt": "2026-10-08T16:40:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=35020",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "고전 PC 데모씬 작품을 브라우저에서 실행하기",
-    "content": "<ul>\n<li><strong>Second Reality, Unreal, Crystal Dream 2 등 고전 PC 데모를 브라우저에서 실행</strong>하는 프로젝트로, 녹화 영상이 아니라 원래 프로그램의 코드가 동작함</li>\n<li><strong>데모씬은 제한된 컴퓨터 성능으로 실시간 그래픽과 음악을 구현하는 창작 문화</strong>이며, 1992~1995년 작품 네 편을 ...<p></p></li></ul>",
-    "createdAt": "2026-10-08T15:32:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=35019",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "How Software Boundaries Are The Most Important Skill for Developers",
     "content": "<p>No matter how big a software system gets, it will still have a boundary. This boundary separates things inside the system from those outside it. In fact, you’d have noticed that dividing a large system into multiple components can have some great benefits. However, deciding how the system should be divided requires skill and understanding. Experience is the best teacher in such cases. But there are also some strategies that can help.</p><p>But what exactly does a boundary do?</p><p>A good software boundary keeps an application’s responsibilities, its rules, and the details needed to apply those rules together. Parts of the system outside this boundary can talk to things inside the boundary only through a clear pathway. This means that the skill of deciding boundaries requires you to have an idea of which responsibilities should be bunched together. Also, which dependencies should exist between them.</p><p>In this article, we’ll learn some key strategies that can help a developer make the right boundary-related decisions for the systems they are working on.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Zm5w!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!Zm5w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171b63d-5db7-4514-9167-317ca785303f_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>What Does a Software Boundary Control</h2>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/how-software-boundaries-are-the-most\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-10-08T15:31:01.000+00:00",
@@ -580,17 +591,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Show GN: 반도체부터 전세·보험까지, 시뮬레이터를 만지며 배우는 무료 웹 교과서 시리즈",
-    "content": "<p>2022년 Bartosz Ciechanowski의 <a href=\"https://ciechanow.ski/mechanical-watch/\" target=\"_blank\" rel=\"noopener noreferrer\">Mechanical Watch</a>를 보고 신선한 충격을 받았습니다. 그 뒤로 제가 관심 있는 분야도 저렇게 직접 만져 보며 이해하는 웹 페이지로 만들고 싶다는 생각이 늘 있었는데, AI가 발전한 덕분에 이제는 혼자서도 만들 수 있게 되었습...</p>",
-    "createdAt": "2026-10-08T15:27:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=35018",
-    "author": "geniuskey",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
