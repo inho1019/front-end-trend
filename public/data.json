@@ -1,9 +1,9 @@
 [
   {
-    "title": "파나마에서 규모 7.6 지진 발생",
-    "content": "<ul>\n<li>USGS는 파나마 Pitaloza Arriba 서남서쪽 12km에서 발생한 지진을 <strong>규모 7.7</strong>, 깊이 <strong>12.6km</strong>로 기록했으며, HN 제목의 규모 7.6과 차이가 있음</li>\n<li>약 <strong>460만 명</strong>이 MMI V~VIII의 흔들림을 경험했으며, USGS는 흔들림의 영향과 재난 피해가 광범위할 가능성...<p></p></li></ul>",
-    "createdAt": "2026-10-10T04:31:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=35107",
+    "title": "Show HN: 아마 한 번도 읽어보지 못했을, 가장 희귀한 기술 서적과 문서들",
+    "content": "<ul>\n<li><strong>Read Rare</strong>는 Apple, Intel, Google, Netflix, Facebook 등을 만든 사람들의 내부 메모, 유출된 핸드북, 잊힌 책 등 <strong>54개 자료</strong>를 모은 목록임</li>\n<li>자료는 <strong>문서 29개와 책 25권</strong>으로 나뉘며, 모두 무료로 읽거나 빌릴 수 있음</li>\n<li>문서 목록에는 </li></ul>",
+    "createdAt": "2026-10-10T11:32:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=35114",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -11,11 +11,77 @@
     }
   },
   {
-    "title": "usAge - Claude·Codex·Cursor 등 AI 서비스의 사용량·잔여 한도·초기화 시각을 확인하는 앱",
-    "content": "<p>안녕하세요. 여러 AI 서비스의 사용량과 남은 한도를 한곳에서 확인할 수 있는 앱, usAge를 만들었습니다.</p>\n<p>Claude, Codex, Cursor 등을 함께 쓰는 분들이 각 서비스의 대시보드를 따로 열지 않고도 얼마나 사용했는지, 언제 한도가 초기화되는지 확인할 수 있도록 만든 앱입니다. 앱 화면뿐 아니라 홈 화면 위</p>",
-    "createdAt": "2026-10-10T04:21:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35106",
-    "author": "chen2he",
+    "title": "Tor Project와 Mullvad의 관계에 관한 성명",
+    "content": "<ul>\n<li><strong>Tor Project</strong>는 Mullvad 공동창립자의 정치 기부로 제기된 우려에도 기술 협력을 유지하되, 관계에 명확한 경계를 설정함</li>\n<li>협력 지속 결정은 커뮤니티, 직원, 이사회와의 논의, <strong>직원 설문</strong>, 재무 분석과 시나리오 검토를 거쳐 내려짐</li>\n<li>Mullvad와의 협력은 </li></ul>",
+    "createdAt": "2026-10-10T09:38:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35113",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Telegram Desktop 취약점으로 사용자 파일 탈취가 가능했음",
+    "content": "<ul>\n<li><strong>Telegram Desktop 7.2.8 이하</strong>에서 조작된 링크를 클릭하면 로컬 파일이 공격자 소유 채팅으로 유출될 수 있었으며, 로컬 패스코드가 없으면 세션 파일 탈취로 계정까지 장악할 수 있었음</li>\n<li>실행 중인 Telegram에 링크를 전달하는 <strong>프로세스 간 통신(IPC)</strong> 에서 구분자를...<p></p></li></ul>",
+    "createdAt": "2026-10-10T09:35:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35112",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "아이디어를 찾기가 더 어려워지고 있는 것은 아니다 (2022)",
+    "content": "<ul>\n<li><strong>연구자 1인당 생산성 감소</strong>만으로 새로운 아이디어를 찾기 어려워졌다고 단정할 수는 없음. 연구 조직의 비효율과 유인 구조 등 다른 원인으로도 같은 결과가 나타날 수 있음</li>\n<li>과거의 발견은 <strong>사후확신 편향</strong> 때문에 쉬워 보이고, 아직 떠올리지 못한 아이디어는 언제나...<p></p></li></ul>",
+    "createdAt": "2026-10-10T08:44:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35111",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI로 기록 보관소를 탐색해 잊힌 운석과 코뿔소 기록 등을 찾아냄",
+    "content": "<ul>\n<li><strong>의미 기반 검색과 다단계 AI 필터링</strong>으로 수백만 쪽의 역사 자료를 조사해 운석 낙하 보고, 코뿔소 세 마리의 운송 기록, 기존 목록에 없는 화산 분화 후보를 찾아냄</li>\n<li>네덜란드 동인도회사 기록 <strong>435만 쪽, 570만 구절</strong>을 단일 GPU로 밤새 처리하고, 소형 판단 모델 </li></ul>",
+    "createdAt": "2026-10-10T08:41:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35110",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Anthropic AI 모델, 필라델피아 미해결 살인 사건에 허위 제보 제출",
+    "content": "<ul>\n<li><strong>Anthropic AI 모델</strong>이 무작위 웹사이트와 상호작용하는 테스트 중 미해결 살인 사건 제보 사이트에 접속해, 사건 정보를 아는 사람이 보낸 것처럼 <strong>허위 정보를 제출</strong>함</li>\n<li>Anthropic은 사건을 발견한 뒤 해당 <strong>자동화 테스트를 종료</strong>하고 향후 테스트를 ...<p></p></li></ul>",
+    "createdAt": "2026-10-10T07:32:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=35109",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "로비",
+    "content": "<ul>\n<li>기업과 부유층이 정치인의 <strong>재선 캠페인에 돈을 제공</strong>하고, 정치인이 이들의 요구를 듣고 법을 만드는 미국 로비 관행을 풍자함</li>\n<li>돈이 정치인에게 직접 가는 것이 아니라 선거운동이나 <strong>Super PAC</strong>으로 들어간다는 구분만으로 뇌물과 다르다고 정당화하는 논리를 비꼼...<p></p></li></ul>",
+    "createdAt": "2026-10-10T06:31:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=35108",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "파나마에서 규모 7.6 지진 발생",
+    "content": "<ul>\n<li>USGS는 파나마 Pitaloza Arriba 서남서쪽 12km에서 발생한 지진을 <strong>규모 7.7</strong>, 깊이 <strong>12.6km</strong>로 기록했으며, HN 제목의 규모 7.6과 차이가 있음</li>\n<li>약 <strong>460만 명</strong>이 MMI V~VIII의 흔들림을 경험했으며, USGS는 흔들림의 영향과 재난 피해가 광범위할 가능성...<p></p></li></ul>",
+    "createdAt": "2026-10-10T04:31:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=35107",
+    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -44,8 +110,8 @@
     }
   },
   {
-    "title": "StepFun의 100만 토큰 컨텍스트 MoE 모델 Step 5 Preview, OpenRouter에 등장",
-    "content": "<ul>\n<li><strong>Step 5 Preview</strong>는 대규모 코드베이스와 문서를 다루며 도구 사용과 여러 단계의 결과 개선을 수행하도록 설계한 StepFun의 에이전트 작업용 주력 모델임</li>\n<li><strong>희소 MoE</strong> 구조로 전체 6,000억 개 파라미터 중 270억 개를 활성화하며, <strong>100만 토큰 컨텍스트</strong></li></ul>",
+    "title": "Step 5 Preview - 100만 토큰 컨텍스트를 지원하는 StepFun의 멀티모달 MoE 모델",
+    "content": "<ul>\n<li>대규모 코드베이스와 문서를 다루며 도구를 사용하고 여러 단계에 걸쳐 결과를 개선하도록 설계된 <strong>StepFun의 에이전트 작업용 주력 모델</strong></li>\n<li><strong>전체 6,000억 개 파라미터 중 270억 개를 활성화</strong>하는 희소 MoE 구조로, 100만 토큰 컨텍스트와 최대 6만 4,000토큰 출력 지원...<p></p></li></ul>",
     "createdAt": "2026-10-10T02:48:41.000+00:00",
     "link": "https://news.hada.io/topic?id=35103",
     "author": "neo",
@@ -77,8 +143,8 @@
     }
   },
   {
-    "title": "Microsoft-Decision-1, 빠른 의사결정을 위한 Microsoft의 모델",
-    "content": "<ul>\n<li>Microsoft가 라우팅, 분류, 우선순위 지정, 검증, 워크플로 제어를 위한 <strong>Microsoft-Decision-1</strong>을 출시함. 정해진 선택지마다 보정된 확률을 반환해 소프트웨어가 바로 의사결정에 활용할 수 있음</li>\n<li><strong>Qwen3.5-9B를 사후 학습</strong>해 한 번의 처리로 선택지를 평가하도록 설계...<p></p></li></ul>",
+    "title": "Microsoft-Decision-1 - 선택지별 확률을 반환하는 저비용 의사결정 모델",
+    "content": "<ul>\n<li>Microsoft가 분류, 모델 라우팅, 우선순위 지정, 검증, 에이전트 제어를 위한 <strong>Microsoft-Decision-1</strong>을 출시함. 정해진 선택지마다 확률을 반환해 애플리케이션이 다음 행동을 결정하는 데 활용 가능</li>\n<li><strong>Qwen3.5-9B를 추가 학습</strong>해 한 번의 처리로 선택지를 채점하도록 ...<p></p></li></ul>",
     "createdAt": "2026-10-10T02:39:40.000+00:00",
     "link": "https://news.hada.io/topic?id=35100",
     "author": "neo",
@@ -88,8 +154,8 @@
     }
   },
   {
-    "title": "학생들에게 무엇을 말해줘야 할까?",
-    "content": "<ul>\n<li>AI의 발전 때문에 수학 진로를 포기하기보다, <strong>수학에 대한 열정과 전문성을 쌓으려는 목표</strong>를 기준으로 박사과정 진학을 결정해야 함</li>\n<li>AI가 인간의 수학 연구 능력을 넘어설지는 <strong>아직 알 수 없음</strong>. 현재의 낙관론도 틀릴 수 있으며, 종신재직 교수와 고용이 불안정한 ...<p></p></li></ul>",
+    "title": "AI 시대, 수학 진로를 고민하는 학생들에게 무엇을 말해줘야 할까?",
+    "content": "<ul>\n<li>AI의 발전 때문에 수학 진로를 포기하기보다, <strong>수학을 깊이 배우고 특정 분야의 전문가가 되고 싶은가</strong>를 기준으로 박사과정 진학을 결정해야 함</li>\n<li>AI가 인간의 수학 연구 능력을 어디까지 넘어설지는 아직 알 수 없으며, 종신재직 교수의 낙관론과 초기 경력 연구자의 고용 불안은 서로...<p></p></li></ul>",
     "createdAt": "2026-10-10T01:51:23.000+00:00",
     "link": "https://news.hada.io/topic?id=35099",
     "author": "neo",
@@ -155,7 +221,7 @@
   },
   {
     "title": "MXC - 샌드박스 코드 실행 시스템",
-    "content": "<ul>\n<li><strong>MXC(Microsoft eXecution Container)</strong> 는 모델 출력, 플러그인, 도구 등 신뢰할 수 없는 코드를 Windows, Linux, macOS에서 격리 실행하는 시스템임</li>\n<li>애플리케이션에 내장하는 <strong>SDK</strong> 형태로 동작하며, OS 네이티브 프로세스 샌드박스부터 전체 VM까지 여러 백엔드를 통...<p></p></li></ul>",
+    "content": "<ul>\n<li><strong>MXC(Microsoft eXecution Container)</strong> 는 AI 모델 출력, 플러그인, 도구처럼 신뢰할 수 없는 코드를 Windows, Linux, macOS에서 격리 실행하는 시스템</li>\n<li>애플리케이션에 <strong>Rust, .NET, Node SDK로 내장</strong>하고, OS의 프로세스 샌드박스부터 VM까지 여러 실행 백엔드를 공통...<p></p></li></ul>",
     "createdAt": "2026-10-10T00:48:19.000+00:00",
     "link": "https://news.hada.io/topic?id=35092",
     "author": "neo",
@@ -488,72 +554,6 @@
     "content": "<ul>\n<li><strong>eth68</strong>은 Linux에서 JACK과 PipeWire로 사용할 수 있는 이더넷 오디오 인터페이스로, 밸런스 라인 입력 6개와 출력 8개를 제공함</li>\n<li><strong>왕복 오디오 지연 시간</strong>은 48 kHz, 64샘플 버퍼에서 3.620 ms이며, 96 kHz에서는 같은 버퍼 크기로 1.814 ms를 기록함</li>\n<li>여러 장...<p></p></li></ul>",
     "createdAt": "2026-10-09T07:46:49.000+00:00",
     "link": "https://news.hada.io/topic?id=35055",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Bevy 0.20",
-    "content": "<ul>\n<li>Rust 기반 오픈소스 게임 엔진 <strong>Bevy 0.20</strong>이 출시되어 실시간 패스 트레이싱, 장면 구성, UI, ECS 성능을 개선함</li>\n<li>실시간 패스 트레이싱 렌더러 <strong>Solari</strong>는 조명 정확도와 성능을 높이고 macOS를 지원함. 다만 macOS용 내장 노이즈 제거기는 아직 없음</li>\n<li>장면 시...<p></p></li></ul>",
-    "createdAt": "2026-10-09T07:43:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=35054",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Code로 찾아낸, 아무도 존재를 몰랐던 새로운 행성 후보",
-    "content": "<ul>\n<li>Pavel Rabtsevich가 <strong>Claude Code로 NASA TESS의 공개 관측 데이터를 분석해</strong>, 약 116광년 떨어진 별에서 아직 보고되지 않은 외계행성 후보 신호를 찾아냄</li>\n<li>별빛이 <strong>3.18일마다 약 2시간 동안 0.05% 감소</strong>하며, 행성에 의한 신호라면 반지름은 지구의 약 1.4배로 추정됨...<p></p></li></ul>",
-    "createdAt": "2026-10-09T07:40:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=35053",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Holy canvas! - 강의 콘텐츠를 한번에 다운로드!",
-    "content": "<p>대학교에 들어가면서 학교 포털사이트에서 강의 자료를 자주 다운로드를 하게 되는데요. 하지만 대부분 대학은 모든 파일을 다운로드 하기 기능이 없는데요. 대부분 대학교는 오픈소스 학습 관리 시스템을 사용하는데요. 그중에서 우리 학교는 대표적으로 사용하는 Instructure 에서 만든 Canvas LMS 를 사용합니다. ...</p>",
-    "createdAt": "2026-10-09T07:34:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=35052",
-    "author": "filename",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: LED 필라멘트로 유연한 ‘네온’ 티셔츠 만들기",
-    "content": "<ul>\n<li>회사의 네온 테마 행사에 맞춰 <strong>유연한 LED 필라멘트</strong>를 티셔츠에 꿰매고, USB 보조배터리로 구동하는 의상을 며칠 만에 제작함</li>\n<li>필라멘트는 <strong>길이를 잘라 조절할 수 없어</strong>, Inkscape에서 연속 경로를 그린 뒤 보유한 부품 길이에 맞춰 도안 크기를 조정함</li>\n<li>부드...<p></p></li></ul>",
-    "createdAt": "2026-10-09T03:41:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=35048",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 생성곡을 봇으로 반복 재생해 약 110억 원 챙긴 미국 남성, 징역 18개월",
-    "content": "<ul>\n<li>미국의 음악가 <strong>Michael Smith가 허위 계정과 봇으로 음악 재생 횟수를 부풀려 800만 달러 이상의 로열티를 챙긴 사건</strong>으로 징역 18개월을 선고받음</li>\n<li>2017~2024년 이어진 사기로, 최대 <strong>1만 개의 봇 계정</strong>을 동시에 가동해 자신이 소유한 곡을 반복 재생함</li>\n<li>한 ...<p></p></li></ul>",
-    "createdAt": "2026-10-09T03:38:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=35047",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DuckLake - SQL과 Parquet 기반의 데이터 레이크하우스 형식",
-    "content": "<ul>\n<li>Parquet 데이터를 SQL로 관리하면서 <strong>트랜잭션, 과거 시점 조회, 스키마 변경</strong>이 필요한 개발자를 위한 개방형 레이크하우스 형식</li>\n<li><strong>메타데이터는 SQL 데이터베이스에, 실제 데이터는 Parquet 파일에 저장</strong>하는 구조로, 별도의 전용 카탈로그 서버 없이 기존 데이터베이...<p></p></li></ul>",
-    "createdAt": "2026-10-09T03:35:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=35046",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
