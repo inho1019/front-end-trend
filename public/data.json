@@ -1,5 +1,346 @@
 [
   {
+    "title": "핵심 오픈소스 프로젝트 23개 중 11개, 1~2명이 운영",
+    "content": "<ul>\n<li>휴대전화, 브라우저, 서버가 의존하는 오픈소스 프로젝트 23개를 분석한 결과, <strong>11개는 정기 기여자가 1~2명</strong>에 불과함. 조사 대상 1년 동안 병합과 봇을 제외하고 변경을 10회 이상 작성한 사람을 집계함</li>\n<li><strong>xz, sudo, bash, 시간대 데이터베이스</strong>처럼 널리 쓰이는 기반...<p></p></li></ul>",
+    "createdAt": "2026-10-11T20:46:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35196",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "최신 AI 모델들, 인간의 알고리듬 혁신에 필적하는 성과를 내는 데 어려움 겪어",
+    "content": "<ul>\n<li>Epoch AI의 <strong>InnovationEval</strong>에서 Claude Fable 5와 GPT-5.6 Sol은 수천 달러 규모의 GPU 실험을 수행했지만, 인간이 개발한 후속 학습 기법 SDPO에 필적하는 혁신을 독자적으로 만들지 못함</li>\n<li>평가는 아이디어 구상부터 구현, 실험, 분석까지 <strong>연구 전 과정</strong>을 맡기고, ...<p></p></li></ul>",
+    "createdAt": "2026-10-11T20:43:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35195",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "현대 컴퓨터에 맞게 재구현한 Total Annihilation",
+    "content": "<ul>\n<li><strong>Nanolathe</strong>는 클린룸 연구로 Total Annihilation을 재구현한 MIT 라이선스의 오픈소스 2.5D RTS 엔진이며, 현재 공개 베타 상태임</li>\n<li><strong>브라우저 데모</strong>로 원작의 3개 미션을 설치나 별도 게임 폴더 없이 플레이할 수 있으며, 데스크톱 Chrome, Edge, Safari와 키보드/마우...<p></p></li></ul>",
+    "createdAt": "2026-10-11T20:40:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35194",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "뉴욕시의 ‘Click to Cancel’ 규정 시행",
+    "content": "<ul>\n<li>뉴욕시의 <strong>Click to Cancel</strong> 규정은 기업이 구독 가입과 동일한 방식으로 간단한 해지 절차를 제공하도록 요구함</li>\n<li>공식 안내 본문에 명시된 시행일은 <strong>2026년 10월 1일</strong>이며, 이날부터 구독 해지를 어렵게 만드는 기업에 대한 민원을 제출할 수 있음</li>\n<li>기업은 </li></ul>",
+    "createdAt": "2026-10-11T19:50:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35193",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "바이브 코딩으로 만든 Halo, The Simpsons: Hit And Run, GTA 브라우저 이식판이 잘 작동함",
+    "content": "<ul>\n<li>최근 몇 주 사이 <strong>AI 디컴파일과 바이브 코딩</strong>으로 만든 에뮬레이터와 게임 수백 개가 등장했으며, 브라우저 이식판 일부는 직접 플레이에서 거의 흠잡을 데 없이 작동함</li>\n<li><strong>Claude Opus 5.5</strong>의 디컴파일 성능으로 과거 개발자가 수개월에 걸쳐 수행하던 게임 코드 재구성...<p></p></li></ul>",
+    "createdAt": "2026-10-11T19:47:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35192",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "BetterWispr - Mac용 무료 오픈소스 받아쓰기 앱",
+    "content": "<ul>\n<li><strong>BetterWispr</strong>는 텍스트 입력란에서 Option + Space를 누른 채 말하고 놓으면 음성을 텍스트로 변환해 입력하는 무료 앱으로, macOS 14 이상에서 동작함</li>\n<li><strong>로컬 음성 모델</strong>은 필요한 자산을 설치하면 오프라인으로 사용할 수 있으며, 계정이 필요 없고 클라우드 전사로 ...<p></p></li></ul>",
+    "createdAt": "2026-10-11T19:44:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35191",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Valen의 메모리 안전성: 새로운 종류의 빌림 검사",
+    "content": "<ul>\n<li><strong>Valen</strong>은 같은 객체를 가리키는 여러 참조로 읽기와 쓰기를 허용하면서, 해제된 데이터에 대한 참조 사용을 컴파일 시점에 차단하는 <strong>그룹 빌림(group borrowing)</strong> 기반 검사기를 구현함</li>\n<li>컴파일러는 각 참조가 가리키는 <strong>소유권 경로</strong>를 추적함. 객체를...<p></p></li></ul>",
+    "createdAt": "2026-10-11T19:41:09.000+00:00",
+    "link": "https://news.hada.io/topic?id=35190",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미안하지만, 여전히 직접 생각해야 합니다",
+    "content": "<ul>\n<li><strong>AI 에이전트에 코드 재작성을 맡겨도</strong> 호환성, 지연 시간, 처리량, 메모리 한도 같은 설계 판단은 사라지지 않으며, 요구사항이 구체적이지 않으면 모델이 암묵적으로 결정함</li>\n<li>Campfire Once의 Rust와 Elixir 재작성은 <strong>호환성과 구현 제약부터 서로 달라</strong>, 결과를 그대...<p></p></li></ul>",
+    "createdAt": "2026-10-11T18:33:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=35189",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: ggaction - 차트를 만드는 과정을 코드로 표현하는 JavaScript 시각화 라이브러리",
+    "content": "<p>안녕하세요. 데이터 시각화를 연구하는 연구원입니다.<br>\n차트를 한 단계씩 만들고 수정하는 과정을 코드로 남기는 오픈소스 라이브러리 <strong>ggaction</strong>을 소개합니다.</p>\n<p>차트를 만들다 보면 처음부터 완성된 그림을 정하기보다는, \"산점도를 그려보자 --&gt; 그룹별로 색을 나누자 --&gt; 점</p>",
+    "createdAt": "2026-10-11T18:10:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35188",
+    "author": "hyeonjeon",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "다케시의 성",
+    "content": "<ul>\n<li><strong>Takeshi's Castle</strong>은 참가자들이 탈락식 신체 도전을 통과한 뒤 Takeshi Kitano가 지키는 성을 공격하는 일본 게임 쇼로, 1986~1990년 TBS에서 방송됨</li>\n<li>원작은 회당 <strong>86~142명</strong>이 참가했으며, 인공 호수와 대형 장애물을 활용한 게임에서 실패하면 물이나 진흙에 빠지는...<p></p></li></ul>",
+    "createdAt": "2026-10-11T18:00:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=35187",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "유럽산 대안",
+    "content": "<ul>\n<li>비유럽 제품과 기업을 선택해 <strong>유럽산 대안을 찾는 디렉터리</strong>로, 각 항목이 해당 대안 안내 페이지로 연결됨</li>\n<li><strong>소프트웨어와 클라우드</strong> 분야에는 ChatGPT, GitHub, AWS, Microsoft Azure, Google Cloud 등의 대안 탐색 항목이 있음</li>\n<li><strong>업무 도구와 온라인...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-11T17:57:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=35186",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Terence Tao: 수학 2.0 [PDF]",
+    "content": "<ul>\n<li>전통 수학은 올바른 증명을 얻기 어렵고 드물다는 <strong>증명의 희소성</strong>을 전제로 발전했지만, AI에 대한 대규모 투자로 <strong>증명이 풍부한 시대</strong>에 진입하고 있음</li>\n<li>수학의 <strong>객관적 검증 가능성</strong>, 디지털화 가능성, 대규모 고품질 데이터는 수학 문제 풀이를 현대...<p></p></li></ul>",
+    "createdAt": "2026-10-11T17:54:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=35185",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PATH의 틸드(~)가 HOME을 가리키지 않을 수 있음",
+    "content": "<ul>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">export PATH=\"$PATH:~/.local/bin/\"</code>처럼 따옴표 안에 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">~</code>를 넣으면 <strong>홈 디렉터리로 확장되지 않고</strong>, PATH에 문자 그대로 남음</li>\n<li>이 PATH 항목은 홈 디렉터리가 아니라 <strong>현재 디렉터리 기준 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">./~/.local/bin/</code></strong> 을 가리키며...<p></p></li></ul>",
+    "createdAt": "2026-10-11T17:51:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=35184",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "5,000억 토큰을 쓰고 나서: AI 에이전트에게 1인칭 슈팅 게임 디컴파일 맡기기",
+    "content": "<ul>\n<li>약 3개월간 AI 에이전트로 게임을 C++로 재구성한 결과, 전체 함수의 <strong>99%를 복원</strong>하고 <strong>83%에서 원본과 바이트 단위 일치</strong>를 달성함</li>\n<li>첫 달에는 게임 실행과 맵 로딩까지 가능했지만, 읽기 좋은 코드 뒤에 <strong>잘못된 함수 시그니처, 타입, 구조체 레이아웃과 임의...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-11T16:49:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35183",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PSPi 6 - PSP에 Raspberry Pi 넣기",
+    "content": "<ul>\n<li><strong>PSPi 6</strong>는 PSP 1000의 메인보드를 교체해 Raspberry Pi 기반 휴대용 기기로 만드는 커스텀 회로 보드이며, 저장소에 하드웨어 설계와 펌웨어, 소프트웨어가 공개되어 있음</li>\n<li><strong>레트로 게임과 에뮬레이터</strong>를 실행하거나 Linux 배포판을 설치해 휴대용 컴퓨터로 사용할 수 ...<p></p></li></ul>",
+    "createdAt": "2026-10-11T16:46:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35182",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "전자종이 ESP32에서 30FPS로 실행하는 GameBoy [영상]",
+    "content": "<ul>\n<li>소형 전자종이 디스플레이가 달린 <strong>ESP32 보드</strong>에 맞춤형 드라이버를 구현해, 기본 드라이버에서 실제 약 2FPS에 그치던 GameBoy 실행 속도를 <strong>약 30FPS</strong>까지 높임</li>\n<li>화면 갱신 파형을 줄이는 것만으로는 잔상과 회색화가 심해져, <strong>픽셀별 상태와 구동 예산</strong></li></ul>",
+    "createdAt": "2026-10-11T16:43:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35181",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RAM 부족이 DDR4를 다시 불러오고 있음",
+    "content": "<ul>\n<li><strong>RAM 가격 상승</strong>으로 PC 업그레이드 부담이 커지자 Intel과 AMD가 더 저렴한 DDR4 메모리를 지원하는 구형 플랫폼용 CPU를 준비하고 있음</li>\n<li>Gigabyte에 따르면 <strong>Intel LGA 1700</strong> 소켓용 새 CPU는 2027년 초 출시가 예상되며, DDR4와 DDR5를 모두 지원하는 플랫폼이 다시 ...<p></p></li></ul>",
+    "createdAt": "2026-10-11T16:40:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35180",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "내부 문건, ExxonMobil의 기후 기만 캠페인 증거를 더하다",
+    "content": "<ul>\n<li>Massachusetts주의 소송에서 공개된 <strong>내부 문건과 과학자 증언</strong>이 ExxonMobil의 기후 대응 홍보와 내부 판단 사이의 차이를 드러냄</li>\n<li>조류 바이오연료 연구에 참여한 과학자는 2025년 하루 1만 배럴 생산 목표가 <strong>달성 불가능</strong>했으며, 이를 보도자료 발표 전에 회사에 알...<p></p></li></ul>",
+    "createdAt": "2026-10-11T15:40:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=35178",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사람들에게 돈을 주고 내 README를 따라 해보게 했다",
+    "content": "<ul>\n<li><strong>ActivityBot의 설치 경험</strong>을 검증하기 위해 실제 사용자에게 시간당 25유로를 지급하고, README를 따라 하는 과정을 관찰함</li>\n<li>개발자가 직접 문서를 시험해도 <strong>자신이 이미 아는 것에 대한 편향</strong> 때문에 명령어 권한, 옵션 표기, 재부팅 같은 전제를 놓칠 수 있음</li>\n...<p></p></ul>",
+    "createdAt": "2026-10-11T15:37:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=35177",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "중학생이 AI(Claude)와 함께 &#039;자기 자신을 통과하지 못하는 입체&#039; 추측을 증명",
+    "content": "<p>안녕하세요, 경기도의 중학교 3학년 정기효입니다.</p>\n<p>2025년 화제가 된 '노퍼테드론(자기 자신을 통과하지 못하는 첫 입체)' 연구자들이 2021년에 추측으로 남긴 문제, \"마름모십이이십면체는 루퍼트가 아니다\"를 Claude와 함께 컴퓨터 보조 증명으로 풀었습니다.</p>\n<ul>\n<li>기존 방법이 막히는 특</li></ul>",
+    "createdAt": "2026-10-11T14:35:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35175",
+    "author": "gihyo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Oh My Focus - 마우스가 없는 모니터를 어둡게 가리는 macOS 앱",
+    "content": "<p>Oh My Focus는 마우스 포인터가 있는 모니터를 남기고 다른 모니터를 어둡게 가리는 macOS 메뉴 막대 앱입니다.<br>\nMac App Store에 무료로 출시했습니다.</p>\n<p>여러 AI 작업을 다른 모니터에 띄워 두고 제 일을 하다가 겪은 불편에서 시작했습니다.</p>\n<p>저는 ADHD 성향이 있어서인지, 옆 화면에 답변이 출력</p>",
+    "createdAt": "2026-10-11T14:33:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=35174",
+    "author": "bykolee",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tom Brown, 공화당 인맥으로 월 약 1.9조원 규모 SpaceX 컴퓨팅 계약 중개",
+    "content": "<ul>\n<li>Anthropic 공동창업자이자 최고 컴퓨팅 책임자인 <strong>Tom Brown</strong>이 공화당 인맥을 활용해 <strong>월 12억 5,000만 달러($1.25b) 규모의 SpaceX 컴퓨팅 계약</strong>을 중개함</li>\n<li>AI 학습용 칩 확보 협상 경험을 바탕으로 사업적, 정치적 협력 관계를 구축하고 있으며, 이는 기업가치가 </li></ul>",
+    "createdAt": "2026-10-11T14:31:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=35173",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: source-to-explainer-video - PR·책·함수를 3분 설명 영상으로 만들어 주는 에이전트 스킬",
+    "content": "<p>안녕하세요.<br>\nAI가 만든 PR이나 책 한 절, 함수 하나를 3분 안팎의 나레이션 설명 영상으로 만들어 주는<br>\n에이전트 스킬 source-to-explainer-video를 소개합니다.</p>\n<p>요즘 개발은 대부분 에이전트에게 맡기고 있어요.<br>\n스펙을 주고 루프를 돌리면 PR이 금방 올라옵니다.<br>\n그런데 리뷰는 여전</p>",
+    "createdAt": "2026-10-11T14:07:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=35171",
+    "author": "selvage",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI에 관해 ‘불가피하다’고 할 만한 것은 거의 없음",
+    "content": "<ul>\n<li><strong>LLM의 존속과 도입의 불가피성은 다름</strong>. 기술이 사라지지 않는다는 사실만으로, 쓰지 않는 사람이 경쟁에서 압도당하므로 모두가 도입해야 한다는 결론은 나오지 않음</li>\n<li>기술 도입이 불가피하려면 대체 수단에 견줄 품질, 사회적으로 필요한 작업, <strong>압도적인 성능 우위</strong>...<p></p></li></ul>",
+    "createdAt": "2026-10-11T14:04:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35170",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 해줘 로컬 - 크레덴셜 금고가 붙은 로컬 AI 에이전트 오케스트레이터",
+    "content": "<p>AI 코딩 에이전트를 여러 개 같이 돌리다 보니 제가 중간관리자가 돼 있었습니다. 로그인이 막히면 비밀번호를 넣어 주고, 결과를 다른 창에 옮겨 붙이고, 한도가 차면 계정을 바꾸고, 세션이 죽으면 다시 켰어요. 자리를 비우면 다들 멈춘 채 저를 기다렸고요. 그 기다림을 줄이려고 만든 앱입니다. 지금은 2021년 노...</p>",
+    "createdAt": "2026-10-11T14:00:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=35169",
+    "author": "haejoe",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: OpenGoal - 마크다운만으로 AI 코딩 에이전트의 현재 목표를 관리하는 명세 기반 하네스",
+    "content": "<p>안녕하세요. AI 코딩 에이전트용 경량 명세 기반 하네스 <strong>OpenGoal</strong>을 소개합니다.</p>\n<p>AI 에이전트로 코딩에 빠졌던 여느 개발자들처럼 저도 동시에 여러 프로젝트들을 미친 듯이 돌리고 있었습니다. 좀 더 체계적인 개발을 위해 OpenSpec, Superpowers를 기반으로 명세 기반 개발을 도입했었습니</p>",
+    "createdAt": "2026-10-11T13:56:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35168",
+    "author": "tekart",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 두박자 - 둘이 함께 쓰는 커플 캘린더",
+    "content": "<p>안녕하세요. 연인과 약속과 기념일을 함께 관리하는 앱, ‘두박자’를 만들었습니다.</p>\n<p>초대 코드로 상대와 연결하면 둘이 같은 캘린더를 사용할 수 있습니다.</p>\n<ul>\n<li><strong>일정 공유:</strong> 서로의 일정을 같은 달력에서 확인할 수 있습니다.</li>\n<li><strong>휴대폰 캘린더에서도 보기:</strong></li></ul>",
+    "createdAt": "2026-10-11T13:54:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35167",
+    "author": "malo050",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PVX-001: 오픈소스 코로나19 백신, 임상 1상 시작",
+    "content": "<ul>\n<li>PopVax가 미래 SARS-CoV-2 변이까지 방어하도록 설계한 백신 후보 <strong>PVX-001의 첫 인체 대상 임상 1상</strong>을 호주에서 시작함. 총 36명을 모집해 안전성, 내약성과 여러 변이에 대한 초기 면역반응을 평가함</li>\n<li><strong>mRNA로 바이러스 유사 입자(VLP)를 체내에서 조립</strong>하도록 해, R...<p></p></li></ul>",
+    "createdAt": "2026-10-11T13:40:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35166",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "IRCv3",
+    "content": "<ul>\n<li><strong>IRCv3 Working Group</strong>은 IRC 클라이언트 프로토콜 변경을 시제품으로 구현하고 개발 및 테스트하며, 현대적인 IRC를 위한 확장 명세를 만듦</li>\n<li>모든 <strong>IRCv3 확장</strong>은 기존 IRC 클라이언트 및 서버와 <strong>하위 호환</strong>됨</li>\n<li><strong>SASL 계정 로그인</strong></li></ul>",
+    "createdAt": "2026-10-11T13:37:12.000+00:00",
+    "link": "https://news.hada.io/topic?id=35165",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nitter: 10월 10일 업데이트, 자금과 법률 지원 요청",
+    "content": "<ul>\n<li><strong>X Corp.</strong> 가 Nitter 인스턴스와 프로젝트 저장소의 영구 폐쇄를 요구하는 중단 요구 서한을 두 차례 보냄</li>\n<li>Nitter는 현재 <strong>법률 대리인이 없는 상태</strong>이며, 법률 대리인을 확보했다는 기존 안내를 정정함</li>\n<li>9월 7일의 프로젝트 지속 안내는 사실이 아닌 것으로 드...<p></p></li></ul>",
+    "createdAt": "2026-10-11T12:35:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=35164",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Yandex 데이터센터 타격 이후 Cloudflare 봇 트래픽 급감",
+    "content": "<p>Yandex 데이터센터 타격 이후 Cloudflare 봇 트래픽 급감</p>\n",
+    "createdAt": "2026-10-11T12:32:31.000+00:00",
+    "link": "https://news.hada.io/topic?id=35163",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: buttonmasher – 중복 결제와 재시도 버그를 찾아보는 Claude Code 스킬",
     "content": "<p>결제 API에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">orders(cart_id)</code>에 unique 제약을 걸어두면 이중 결제가 막힐까요?</p>\n<p>결제 API를 먼저 호출하고 주문을 저장하는 구조라면 막히지 않습니다. 결제 버튼을 두 번 눌렀을 때 두 요청 모두 주문이 저장되기 전에 결제 API를 호출할 수 있기 때문입니다. unique 제약은 이후의 INSERT만 막</p>",
     "createdAt": "2026-10-11T11:54:13.000+00:00",
@@ -202,347 +543,6 @@
     "content": "<ul>\n<li><strong>Discretionary Review</strong>는 기술 산업 호황 속 주택이 부족한 샌프란시스코에서 개발업자가 되어 주택 건설을 추진하는 시뮬레이션 게임임</li>\n<li>부지를 골라 계획을 세운 뒤 환경 검토, 위원회 심의, 이의 제기, 소송, 허가 절차를 거쳐야 하며, 이후에도 <strong>사업성</strong>이 남아 있...<p></p></li></ul>",
     "createdAt": "2026-10-11T00:32:20.000+00:00",
     "link": "https://news.hada.io/topic?id=35141",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Eve - 디렉터리 하나로 AI 에이전트를 정의하고 배포하는 Vercel 프레임워크",
-    "content": "<ul>\n<li>에이전트 개발자가 Markdown과 TypeScript 파일만으로 에이전트를 실행하거나 배포할 수 있는 프레임워크</li>\n<li>지침, 도구, 채널을 정의하고 상태를 유지하며, 웹 개발의 Next.js처럼 파일 구조와 실행 인프라를 함께 제공</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">instructions.md</code>에 역할과 기본 지침을 작성하면 최소 에이...<p></p></li></ul>",
-    "createdAt": "2026-10-11T00:30:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35140",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아, 표준 C에서는 문자열의 부동소수점 변환 오류를 이식성 있게 검사할 수 없는 모양이다",
-    "content": "<ul>\n<li>표준 C의 <strong>문자열→부동소수점 변환 함수</strong>는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">math_errhandling</code>에 따라 오류 보고 방식이 달라지며, <strong>언더플로 보고는 선택 사항</strong>이라 모든 구현에서 검출을 보장할 수 없음</li>\n<li><strong>POSIX</strong>는 표준 C와 달리 오버플로와 언더플로 발생 시 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ma...<p></p></code></li></ul>",
-    "createdAt": "2026-10-11T00:04:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=35139",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "전구형 컴퓨터",
-    "content": "<ul>\n<li><strong>Lightbulb Computer</strong>는 프로젝터와 컴퓨터 비전을 큰 전구 형태로 결합해, 일상 공간의 표면과 사물에 정보를 투사하는 기기 구상임</li>\n<li><strong>음성 명령과 손가락으로 가리키는 동작</strong>을 인식하고 눈앞의 내용을 분석해, 주방 레시피 표시부터 지도 탐색, 스마트홈 제어까지 화...<p></p></li></ul>",
-    "createdAt": "2026-10-10T22:32:29.000+00:00",
-    "link": "https://news.hada.io/topic?id=35138",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Mxc: Microsoft Execution Containers 버전 1.0.0",
-    "content": "<ul>\n<li><strong>Microsoft Execution Containers(MXC)</strong> 가 정식 출시됨. 개발자와 IT 관리자가 에이전트에 허용할 파일과 네트워크 등의 자원을 선언하면, 컨테이너가 실행 중 해당 경계를 강제함</li>\n<li><strong>정책은 에이전트의 통제 밖에 유지</strong>되므로 모델, 생성 코드, 플러그인, 도구가 스스로...<p></p></li></ul>",
-    "createdAt": "2026-10-10T21:32:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=35136",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Eurydice로 Rust를 읽기 쉬운 C로 컴파일하기",
-    "content": "<ul>\n<li><strong>Eurydice</strong>는 Rust 코드의 전체 구조를 유지하면서 C로 변환하는 도구로, 기존 C용 검증 및 규정 준수 도구를 사용하는 고신뢰성 소프트웨어와 Rust 컴파일러가 없는 환경을 겨냥함</li>\n<li>기계어 생성을 위한 최적화보다 <strong>원본 구조와 평가 순서 보존</strong>에 집중하며, 필요한 곳...<p></p></li></ul>",
-    "createdAt": "2026-10-10T20:37:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=35135",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "FDA, 일부 독성 화학물질의 안전성 검토 없는 식품 첨가를 허용할 수도",
-    "content": "<ul>\n<li>미국 FDA가 포장재와 가공 장비 등 식품 접촉 물질에 적용하던 <strong>규제 임계치 면제(TOR)</strong> 를 식품에 직접 넣는 성분까지 확대하는 규칙을 제안함</li>\n<li>현행 면제 기준은 <strong>비발암성 물질, 0.5ppb 미만</strong>이지만, 공중보건 단체들은 일부 내분비계 교란 물질이 이보다 훨씬 낮은 ...<p></p></li></ul>",
-    "createdAt": "2026-10-10T20:34:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=35134",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내 집값은 오르고 재산세는 내려가면 좋겠다",
-    "content": "<ul>\n<li>미국 여러 주가 <strong>자가 거주 주택의 재산세를 감면</strong>하면서 학교와 경찰 등 공공서비스 비용 부담을 상업용 부동산 소유자, 다른 지방세, 주정부 재원으로 옮기고 있음</li>\n<li>코로나19 이후 주택 가치 상승으로 자산이 늘어난 소유자들이 <strong>재산세 인상에 반발</strong>하고 있으며, 같은...<p></p></li></ul>",
-    "createdAt": "2026-10-10T19:33:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=35133",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "C 언어의 정의되지 않은 동작 줄이기",
-    "content": "<ul>\n<li>C 표준 위원회가 <strong>정의되지 않은 동작(UB)</strong> 을 줄이고 있으며, 진행 중인 <strong>C2y 초안</strong>은 기존 표준의 약 100개 UB 항목 중 45개를 제거함</li>\n<li>UB가 있는 프로그램에는 표준이 요구사항을 부과하지 않아, 컴파일러의 <strong>공격적인 최적화</strong>와 개발자가 기대하는 실...<p></p></li></ul>",
-    "createdAt": "2026-10-10T18:37:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=35131",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "프리온 질환 치료제 후보물질 임상시험, 참가자 모집 시작",
-    "content": "<ul>\n<li>Broad Institute와 UMass Chan Medical School이 개발한 <strong>프리온 단백질 표적 siRNA 후보물질</strong>이 첫 인체 시험에 들어감. 1상 임상시험 PRiSM에서 안전성과 내약성, 용량을 평가함</li>\n<li>후보물질은 동일한 siRNA 두 개를 연결한 <strong>이가성 siRNA</strong>로, 프리온 단백질을 만드는 R...<p></p></li></ul>",
-    "createdAt": "2026-10-10T18:34:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=35130",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple/macOS, 공식 Unix 등록부에서 조용히 삭제됨",
-    "content": "<ul>\n<li>The Open Group의 <strong>UNIX 인증 제품 등록부</strong>에 IBM, Hewlett Packard Enterprise, The SCO Group 제품이 나열돼 있으며, 제공된 목록에는 <strong>Apple/macOS가 없음</strong></li>\n<li><strong>Single UNIX Specification</strong>을 완전히 준수하고 인증받은 시스템만 UNIX 상표를 사용할 수...<p></p></li></ul>",
-    "createdAt": "2026-10-10T17:36:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=35129",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Talorys - Cloudflare 무료 티어에서 셀프 호스팅하는 개인 AI 에이전트",
-    "content": "<ul>\n<li><strong>Talorys</strong>는 사용자 자신의 Cloudflare 계정에서 실행되는 무료 오픈소스 개인 AI 비서로, 대화와 기억 관리, 작업/노트/프로젝트 관리, 예약 자동화를 지원함</li>\n<li><strong>1인 사용</strong>을 전제로 설계되어 회원가입이나 팀 기능이 없으며, 개발자가 운영하는 서버나 데이터베이스 없...<p></p></li></ul>",
-    "createdAt": "2026-10-10T17:33:17.000+00:00",
-    "link": "https://news.hada.io/topic?id=35128",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Bitwarden, 앱 스토어 배포를 상용 라이선스 빌드로 전환",
-    "content": "<ul>\n<li>Bitwarden은 <strong>다음 릴리스부터 앱 스토어에 상용 라이선스 빌드</strong>를 배포함. 사용자가 따로 조치할 필요는 없으며, 앱은 현재와 동일하게 작동함</li>\n<li><strong>GPLv3 오픈소스 버전</strong>은 GitHub에서 계속 업데이트하고 공개하며, 현재 제공하는 모든 기능은 두 버전에서 모두 이용 가능...<p></p></li></ul>",
-    "createdAt": "2026-10-10T16:37:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=35127",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "자기회귀 확산으로 시장 데이터를 생성할 수 있을까?",
-    "content": "<ul>\n<li>Jane Street의 연구 인턴 프로젝트는 미래 가격 하나를 예측하는 대신, <strong>시장 이벤트와 발생 시점까지 생성</strong>하는 자기회귀 확산 모델을 실험함</li>\n<li>시장 데이터에는 연속적인 수치와 이산적인 행동이 섞여 있어, <strong>완전 연속형 확산 모델</strong>만으로는 특정 가격과 시간에 확률이...<p></p></li></ul>",
-    "createdAt": "2026-10-10T16:34:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=35126",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Bun, TypeScript를 네이티브 코드로 선행 컴파일하는 AOT 컴파일러 실험 공개",
-    "content": "<ul>\n<li>Bun이 TypeScript/JavaScript를 실행 전에 네이티브 코드로 컴파일하는 <strong>AOT(Ahead-of-Time) 컴파일러</strong>의 실험 결과를 공개함</li>\n<li>기존 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bun build --compile</code>은 JavaScript 번들과 Bun 런타임을 단일 실행 파일로 패키징하며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--bytecode</code>는 JavaScriptCore의 바이...<p></p></li></ul>",
-    "createdAt": "2026-10-10T14:55:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=35124",
-    "author": "click",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "컴퓨터는 결정을 내릴 수 없다",
-    "content": "<ul>\n<li>컴퓨터 프로그램은 <strong>결정을 내릴 수 없으므로</strong>, 그 결과에 대한 책임은 프로그램이 아니라 사람에게 있음</li>\n<li>LLM에 결과의 책임을 돌리는 것은 <strong>의사결정 세탁(decision laundering)</strong> 이며, 실제로 결정을 내린 사람의 책임을 가림</li>\n<li><strong>OpenAI와 Anthropic...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-10T14:36:58.000+00:00",
-    "link": "https://news.hada.io/topic?id=35123",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "로비는 부패다",
-    "content": "<ul>\n<li>기업과 부유층이 정치인의 선거운동에 돈을 대고 원하는 법률을 얻는 <strong>로비</strong>는, 합법 여부와 무관하게 <strong>부패</strong>와 본질적으로 다르지 않음</li>\n<li><strong>George Hotz</strong>가 풍자한 미국의 로비에서는 정치인이 자금 제공자의 요구를 듣고, 퇴임 후에는 자신에게 로비했던...<p></p></li></ul>",
-    "createdAt": "2026-10-10T14:33:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=35122",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "수학자가 Lean 정리 증명기에 대해 알아야 할 것: 신뢰성과 AI",
-    "content": "<ul>\n<li>AI가 수학 논문을 형식 증명으로 바꾸는 <strong>자동 형식화</strong>가 실용화됐지만, Lean 증명을 받아들이려면 <strong>커널 검증과 인간의 명제 충실성 감사</strong>가 모두 필요함</li>\n<li>2026년 여름 AI를 활용한 보안 연구자들이 Lean에서 거짓 명제도 증명할 수 있는 <strong>건전성 버그</strong>...<p></p></li></ul>",
-    "createdAt": "2026-10-10T13:39:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35121",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국 기업들이 원재료 목록을 조작하는 데 쓰는 속임수",
-    "content": "<ul>\n<li>미국 기업들이 <strong>원재료 쪼개기(ingredient splitting)</strong> 로 제품의 첫 번째 원재료 표시를 조작한다는 비판이 나옴</li>\n<li>사례로 든 <strong>Smuckers</strong> 제품은 딸기를 첫 번째 원재료로 표시해, 딸기가 주원료라는 인상을 준다는 비판을 받음</li>\n<li>해당 제품은 <strong>감미료를 ...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-10T13:36:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=35120",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: suta — AI가 생성한 UI문제를 줄이는 스킬",
-    "content": "<p>AI로 UI를 만들 때마다 비슷한 카드와 과한 색상, 불필요한 장식이 반복되는 게 불편했습니다.<br>\n이런 디자인의 AI slo’을 줄여보려고 suta를 만들었습니다.</p>\n<p>Claude Code나 Codex에 설치하면 UI를 만들 때 레이아웃·색·모션 기준과 미리 구현된 UI 패턴을 참고합니다.</p>\n<p>직접 사용하면서 부족한 부분</p>",
-    "createdAt": "2026-10-10T13:11:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=35119",
-    "author": "yung3152",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "네 가지 정리 증명기 이야기: Isabelle/HOL, Lean, HOL4, Agda에 대한 (적당히) 주관적인 비교",
-    "content": "<ul>\n<li><strong>소수의 무한성에 대한 유클리드 증명</strong>을 네 시스템으로 형식화해 사용자 경험을 비교함. 도구별 숙련도가 다른 상태에서 진행한 개인적 평가이므로, 공정한 성능 비교로 보기는 어려움</li>\n<li>이번 구현 경험에서는 <strong>Isabelle/HOL과 HOL4의 자동화 및 정리 검색</strong>이 강점이었음...<p></p></li></ul>",
-    "createdAt": "2026-10-10T13:07:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=35118",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Cloudflare의 Deno 종료는 단순한 PR이 아니라 뉴스다",
-    "content": "<ul>\n<li>삭제된 <strong>Deno의 Cloudflare 관련 게시물</strong>을 복원해 달라는 요청임</li>\n<li>복원을 요청한 이유는 해당 사안이 <strong>단순한 PR이 아니라 중요한 기술 뉴스</strong>이기 때문임</li>\n<li>요청자는 <strong>Cloudflare가 오픈소스 팀들을 인수</strong>하면서 이들이 유지하는 프로젝트를 해체...<p></p></li></ul>",
-    "createdAt": "2026-10-10T13:04:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=35117",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "덴마크 CPR 데이터 유출 사고 관련 계정에 비밀번호 ‘123456’ 사용",
-    "content": "<ul>\n<li>Politiken에 따르면 덴마크 <strong>CPR 등록부 유출 사고</strong> 당시 IT 기업 Pays의 계정 최소 3개가 비밀번호 ‘<strong>123456</strong>’을 사용했으며, 관리자 계정도 포함됐음</li>\n<li>이번 침해로 중앙 주민등록 데이터베이스인 CPR의 <strong>약 880만 개 번호에 연결된 정보</strong>가 노출됨...<p></p></li></ul>",
-    "createdAt": "2026-10-10T12:32:00.000+00:00",
-    "link": "https://news.hada.io/topic?id=35116",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 아마 한 번도 읽어보지 못했을, 가장 희귀한 기술 서적과 문서들",
-    "content": "<ul>\n<li><strong>Read Rare</strong>는 Apple, Intel, Google, Netflix, Facebook 등을 만든 사람들의 내부 메모, 유출된 핸드북, 잊힌 책 등 <strong>54개 자료</strong>를 모은 목록임</li>\n<li>자료는 <strong>문서 29개와 책 25권</strong>으로 나뉘며, 모두 무료로 읽거나 빌릴 수 있음</li>\n<li>문서 목록에는 </li></ul>",
-    "createdAt": "2026-10-10T11:32:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=35114",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Tor Project와 Mullvad의 관계에 관한 성명",
-    "content": "<ul>\n<li><strong>Tor Project</strong>는 Mullvad 공동창립자의 정치 기부로 제기된 우려에도 기술 협력을 유지하되, 관계에 명확한 경계를 설정함</li>\n<li>협력 지속 결정은 커뮤니티, 직원, 이사회와의 논의, <strong>직원 설문</strong>, 재무 분석과 시나리오 검토를 거쳐 내려짐</li>\n<li>Mullvad와의 협력은 </li></ul>",
-    "createdAt": "2026-10-10T09:38:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=35113",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Telegram Desktop 취약점으로 사용자 파일 탈취가 가능했음",
-    "content": "<ul>\n<li><strong>Telegram Desktop 7.2.8 이하</strong>에서 조작된 링크를 클릭하면 로컬 파일이 공격자 소유 채팅으로 유출될 수 있었으며, 로컬 패스코드가 없으면 세션 파일 탈취로 계정까지 장악할 수 있었음</li>\n<li>실행 중인 Telegram에 링크를 전달하는 <strong>프로세스 간 통신(IPC)</strong> 에서 구분자를...<p></p></li></ul>",
-    "createdAt": "2026-10-10T09:35:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=35112",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "아이디어를 찾기가 더 어려워지고 있는 것은 아니다 (2022)",
-    "content": "<ul>\n<li><strong>연구자 1인당 생산성 감소</strong>만으로 새로운 아이디어를 찾기 어려워졌다고 단정할 수는 없음. 연구 조직의 비효율과 유인 구조 등 다른 원인으로도 같은 결과가 나타날 수 있음</li>\n<li>과거의 발견은 <strong>사후확신 편향</strong> 때문에 쉬워 보이고, 아직 떠올리지 못한 아이디어는 언제나...<p></p></li></ul>",
-    "createdAt": "2026-10-10T08:44:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=35111",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI로 기록 보관소를 탐색해 잊힌 운석과 코뿔소 기록 등을 찾아냄",
-    "content": "<ul>\n<li><strong>의미 기반 검색과 다단계 AI 필터링</strong>으로 수백만 쪽의 역사 자료를 조사해 운석 낙하 보고, 코뿔소 세 마리의 운송 기록, 기존 목록에 없는 화산 분화 후보를 찾아냄</li>\n<li>네덜란드 동인도회사 기록 <strong>435만 쪽, 570만 구절</strong>을 단일 GPU로 밤새 처리하고, 소형 판단 모델 </li></ul>",
-    "createdAt": "2026-10-10T08:41:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=35110",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Anthropic AI 모델, 필라델피아 미해결 살인 사건에 허위 제보 제출",
-    "content": "<ul>\n<li><strong>Anthropic AI 모델</strong>이 무작위 웹사이트와 상호작용하는 테스트 중 미해결 살인 사건 제보 사이트에 접속해, 사건 정보를 아는 사람이 보낸 것처럼 <strong>허위 정보를 제출</strong>함</li>\n<li>Anthropic은 사건을 발견한 뒤 해당 <strong>자동화 테스트를 종료</strong>하고 향후 테스트를 ...<p></p></li></ul>",
-    "createdAt": "2026-10-10T07:32:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=35109",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "로비",
-    "content": "<ul>\n<li>기업과 부유층이 정치인의 <strong>재선 캠페인에 돈을 제공</strong>하고, 정치인이 이들의 요구를 듣고 법을 만드는 미국 로비 관행을 풍자함</li>\n<li>돈이 정치인에게 직접 가는 것이 아니라 선거운동이나 <strong>Super PAC</strong>으로 들어간다는 구분만으로 뇌물과 다르다고 정당화하는 논리를 비꼼...<p></p></li></ul>",
-    "createdAt": "2026-10-10T06:31:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=35108",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "파나마에서 규모 7.6 지진 발생",
-    "content": "<ul>\n<li>USGS는 파나마 Pitaloza Arriba 서남서쪽 12km에서 발생한 지진을 <strong>규모 7.7</strong>, 깊이 <strong>12.6km</strong>로 기록했으며, HN 제목의 규모 7.6과 차이가 있음</li>\n<li>약 <strong>460만 명</strong>이 MMI V~VIII의 흔들림을 경험했으며, USGS는 흔들림의 영향과 재난 피해가 광범위할 가능성...<p></p></li></ul>",
-    "createdAt": "2026-10-10T04:31:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=35107",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "REA Reverse - 무엇이든 리버스 엔지니어링하기",
-    "content": "<ul>\n<li><strong>REA</strong>는 코딩 에이전트가 프로그램 자체를 검사하고 동작을 설명하도록 도구를 제공하며, 분석한 기능을 변경하거나 재구현하는 데 활용할 수 있음</li>\n<li>사용자가 자연어로 질문하면 REA가 <strong>명령어, 디컴파일 코드, 호출 관계</strong> 등을 제공하고, 에이전트가 적용되는 분기와 계...<p></p></li></ul>",
-    "createdAt": "2026-10-10T03:32:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=35105",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
