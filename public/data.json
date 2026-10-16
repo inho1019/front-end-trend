@@ -1,5 +1,115 @@
 [
   {
+    "title": "Postgres 19 출시 지연, AI 리뷰가 사람이 고칠 수 있는 양보다 많은 버그를 발견",
+    "content": "<ul>\n<li><strong>PostgreSQL 19</strong> 정식 출시가 9월 말~10월 초에서 <strong>11월 19일경</strong>으로 미뤄졌으며, 주요 기능 8~10개가 이번 릴리스에서 제외됨</li>\n<li>핵심 커미터 Peter Eisentraut는 기능 철회의 원인 중 일부가 <strong>LLM 보조 코드 리뷰</strong>일 수 있다고 봄. 과거에는 출시 후에야...<p></p></li></ul>",
+    "createdAt": "2026-10-16T19:43:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=35488",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: Gemini 4 Argon이 StarCraft를 플레이하다",
+    "content": "<ul>\n<li><strong>StarSkirmish Bench v0.2</strong>는 LLM에 1시간 동안 C++로 StarCraft: Brood War의 Protoss 봇을 만들게 하고, 연습 경기에서 얻은 정보를 반영하는 장기 추론과 에이전트 코딩 능력을 평가함</li>\n<li><strong>GPT-6 Astra가 평균 승률 57%로 1위</strong>, GPT-6.1 Sol이 46%로 2위를 기록했으며,...<p></p></li></ul>",
+    "createdAt": "2026-10-16T19:40:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=35487",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 하원의원, 비디오게임 소유권 보호 법안 발의 계획 발표",
+    "content": "<ul>\n<li>Ritchie Torres 미국 하원의원이 구매한 게임의 <strong>소유권과 플레이 권리</strong>를 보호하는 규정을 연방거래위원회(FTC)가 마련하도록 하는 <strong>Power To The Players Act</strong> 발의 계획을 발표함</li>\n<li>법안은 게임 구매 시 소비자가 단순한 <strong>플레이 라이선스가 아닌 게임 소유권...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-16T19:37:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=35486",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 근로시간의 90%는 AI 벤치마크가 충분히 다루지 못하는 업무에 쓰임",
+    "content": "<ul>\n<li>Mercor가 경제적 관련성이 높은 <strong>29개 AI 벤치마크</strong>를 분석한 결과, 미국 근로시간의 약 <strong>90%</strong> 가 벤치마크에서 거의 또는 전혀 다루지 않는 업무에 쓰이는 것으로 추정됨</li>\n<li>미국의 923개 직업 중 <strong>208개만</strong> 벤치마크 프롬프트 5개 이상과 연결되는 업무를...<p></p></li></ul>",
+    "createdAt": "2026-10-16T18:38:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=35485",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 영구 이주 선호도, 역대 최저 기록",
+    "content": "<ul>\n<li>2025년 다른 나라로 영구 이주하고 싶은 전 세계 성인 중 <strong>미국을 최우선 목적지로 선택한 비율은 15%</strong> 로, Gallup의 약 20년 조사 역사상 최저치를 기록함</li>\n<li>미국은 여전히 <strong>가장 선호하는 이주 목적지</strong>이며, 캐나다가 9%로 2위를 유지함</li>\n<li>미국 선호도는 </li></ul>",
+    "createdAt": "2026-10-16T18:35:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=35484",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple ML Research: Mac Studio에서 MLX로 Muse Spark Open 실행하기",
+    "content": "<ul>\n<li><strong>816B 파라미터의 Muse Spark Open</strong>을 M5 Ultra Mac Studio 4대에서 실행해, 8,192토큰 문맥 기준 초당 36.73토큰을 생성함</li>\n<li><strong>MLX와 Thunderbolt RDMA</strong>를 결합해 여러 Mac에 모델을 분산하며, 레이어를 나누는 파이프라인 병렬화와 각 레이어의 계산을 나누는 텐서 병렬...<p></p></li></ul>",
+    "createdAt": "2026-10-16T17:39:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=35483",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "C++26 Contracts: 사전조건과 사후조건 입문",
+    "content": "<ul>\n<li>C++26 <strong>Contracts</strong>는 함수 진입 시 요구사항을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pre</code>, 정상 반환 시 보장을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">post</code>, 함수 내부 조건을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">contract_assert</code>로 표현함</li>\n<li><strong>함수 선언에 계약을 명시</strong>할 수 있어 구현을 열어보지 않고도 API 요구사항을 확인할 수 있으며, 하...<p></p></li></ul>",
+    "createdAt": "2026-10-16T17:36:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=35482",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Epic의 EAC2 v2는 꽤 쉽게 우회할 수 있어 보임",
+    "content": "<ul>\n<li>Epic이 발표한 Linux용 <strong>Easy Anti-Cheat v2</strong>는 eBPF 기반 감시에 보안 부팅과 TPM 원격 증명을 결합해 우회를 막으려 함</li>\n<li>핵심 쟁점은 <strong>진짜 TPM이 서명한 측정값</strong>이라는 사실만으로 해당 PC의 실제 부팅 상태까지 보장할 수 있느냐는 점임</li>\n<li>접근 가능한 외장 ...<p></p></li></ul>",
+    "createdAt": "2026-10-16T17:01:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=35481",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Folders - 폴더의 포함 관계와 순서로 코드를 표현하는 프로그래밍 언어",
+    "content": "<ul>\n<li><strong>Folders</strong>는 텍스트 대신 폴더의 포함 관계와 순서만으로 코드를 표현하는 비텍스트 언어로, 폴더 이름은 알파벳순 정렬을 제외하면 코드 의미에 관여하지 않음</li>\n<li><strong>Whitespace</strong>에서 영감을 받아 코드의 비물질화를 추구하며, 눈에 보이는 텍스트가 없는 파일보다 더 비어...<p></p></li></ul>",
+    "createdAt": "2026-10-16T16:37:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=35480",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "나는 소프트웨어 렌더링을 좋아한다",
+    "content": "<ul>\n<li>빠른 PC에서 원래의 <strong>소프트웨어 렌더러</strong>로 DOS 게임을 실행하면, 당시에는 쓰기 어려웠던 고해상도로 특유의 화면을 즐길 수 있음</li>\n<li><strong>선명한 텍스처</strong>와 256색 팔레트의 계단식 명암이 만드는 거친 질감이 매력이며, 초기 3D 카드의 필터링은 이런 특징을 부드럽게 지워버...<p></p></li></ul>",
+    "createdAt": "2026-10-16T16:34:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=35479",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Ask GN: Ai 브라우저의 필수적인 기능",
     "content": "<p>Ai 브라우저를 만들고 있는데 제가 생각하기에 필요한 기능은 다 넣었는데 혹시나 중요한 기능을 빼먹었을까봐 질문합니다. 생각하기에 필수적인 기능들좀 적어주시면 감사하겠습니다.</p>\n",
     "createdAt": "2026-10-16T13:46:27.000+00:00",
@@ -506,50 +616,6 @@
     }
   },
   {
-    "title": "신경망은 이미 깔끔하다 - 뉴런과 회로를 직접 읽는 AI 해석 연구",
-    "content": "<ul>\n<li><strong>신경망을 먼저 분해하거나 재구성하지 않아도, 원래 뉴런과 회로를 직접 연구해 이해할 수 있다는 가설</strong>. 무관한 개념이 뒤섞여 보이던 사례 상당수를 공유 패턴과 관찰 도구의 오류로 재해석</li>\n<li>고양이 얼굴과 자동차 앞부분에 함께 반응하던 유명한 뉴런은 <strong>두 대상의 공통된 V...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-15T19:05:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=35429",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Simons Foundation, 수학자의 AI 시대 대응을 돕는 약 225억원 규모 지원 사업 출범",
-    "content": "<ul>\n<li><strong>Simons Foundation, Anthropic, OpenAI</strong>가 수학계의 AI 활용과 변화 대응을 위해 총 <strong>1,500만 달러($15m) 상당의 자금과 자원</strong>을 지원하기로 함</li>\n<li>재단이 <strong>공개 제안 공모</strong> 등을 통해 지원금을 관리하고 배분하며, AI 보조 연구 결과 평가와 새로운 도구...<p></p></li></ul>",
-    "createdAt": "2026-10-15T18:11:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=35428",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "표적 광고로 전달되는 제로클릭 스파이웨어: AdFection",
-    "content": "<ul>\n<li>Citizen Lab이 <strong>Al Jazeera 기기의 Candiru 스파이웨어 감염</strong>을 표적 광고 전달 경로와 연결해 확인함. 클릭 없이 감염되는 이 공격을 <strong>AdFection</strong>으로 명명하고, 해당 방식의 첫 공개 기술적 확인으로 규정함</li>\n<li>이스라엘 광고 업체 <strong>Discover-Tech</strong>의 Co...<p></p></li></ul>",
-    "createdAt": "2026-10-15T18:08:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=35427",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내 반려견을 위해 코 보호대를 설계해 무료로 공개했다. 이제 500마리가 착용한다",
-    "content": "<ul>\n<li>원판상 홍반성 루푸스(DLE)를 앓는 반려견이 코에 바른 연고를 핥지 못하게 하고 햇빛도 가릴 수 있도록 만든 <strong>SnoutCover</strong>가 무료 3D 프린팅 파일 공개를 거쳐 사업으로 성장함</li>\n<li>직접 제작하기 어려운 보호자들의 구매 요청으로 판매를 시작했으며, 현재까지 <strong>16개국에 주문 39...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-15T18:05:55.000+00:00",
-    "link": "https://news.hada.io/topic?id=35426",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "기술 뉴스 #304 : 2026-10-16",
     "content": "<h2>웹개발 관련</h2>\n<ul>\n<li><strong><a href=\"https://developer.chrome.com/blog/jpeg-xl-in-chrome?hl=ko\" target=\"_blank\" rel=\"noopener noreferrer\">Chrome에서 JPEG XL 제공</a></strong> : Chrome이 155부터 차세대 이미지 형식인 JPEG XL(<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.jxl</code>)을 지원한다.(한국어)</li>\n</ul>\n<h2>그 밖의 개발 관련</h2>\n<ul>\n<li><strong><a href=\"https://www.anthropic.com/engineering/redesigning-source-control\" target=\"_blank\" rel=\"noopener noreferrer\">Redesigning source control at Anthropic</a></strong> : Anthropic이 하루에 병합하는 변경사항은 5월 평균 2,500건에서 9월 30,000건 이상으로 늘었다. 소스 관리가 병목이 되자 사내 버전 관리 시스템인 Scion을 구축하고 5개월 만에 Git에서 완전히 이전했다. Git 저장소 관리가 어려워지고 분산, 오프라인 특성이 오히려 문제가 되었다. 에이전트는 항상 온라인이므로, 언제나 접속할 수 있는 서버를 중심으로 다시 설계해 클라이언트의 작업을 경량화했다. Scion의 작업 단위는 changeset이며, 특별한 처리가 필요 없으므로 많은 작업을 처리할 수 있다. 이 changeset을 기반으로 파생 데이터를 생성해 추가 정보를 제공할 수 있고, 소스 관리 API도 제공한다. 데이터가 변경되지 않으므로 수평 확장이 쉬워졌다.(영어)</li>\n<li><strong><a href=\"https://blog.gitbutler.com/git-3-sha-256\" target=\"_blank\" rel=\"noopener noreferrer\">Git 3.0's upcoming SHA-256 default will be a costly mistake</a></strong> : Git은 처음 만들어졌을 때부터 콘텐츠 해싱에 SHA-1을 사용했다. 2017년과 2020년에 걸쳐 SHA-1 충돌이 가능한 것으로 밝혀졌고, 곧 출시될 Git 3.0에서는 기본 해시 알고리즘을 SHA-256으로 바꿀 계획이다. SHA-1에서는 Collision 공격과 Second-preimage 공격이 이론상 가능하지만, 현실에서는 불가능할 정도로 막대한 비용이 필요하다. 사회공학을 이용한 공격이 훨씬 쉽다. 이렇게 암호학적 무결성과 신뢰 문제를 혼동해 SHA-256으로 바꾸면 업계 전체가 큰 비용을 떠안고 큰 혼란을 겪게 될 것이다. SHA-1을 신뢰의 기반으로 쓰지 않으면서 유지하는 것은 가능하다.(영어)</li>\n<li><strong><a href=\"https://lucumr.pocoo.org/2026/10/6/codemode/\" target=\"_blank\" rel=\"noopener noreferrer\">What is Codemode</a></strong> : Pi가 Codemode로 MCP를 지원하게 되면서 Armin Ronacher가 Codemode에 대한 생각을 정리한 글이다. 평소에도 MCP보다는 스크립트를 사용해야 한다고 생각했다. LLM이 도구를 사용할 때 bash만으로는 한계가 있어, Codemode로 직접 코드를 작성하면 출력을 더 구조화하고 더 유용한 작업을 할 수 있다. MCP는 Codemode의 이점을 크게 누릴 수 있는 프로토콜이다. 하지만 현실에서는 Codemode를 염두에 두지 않아 잘 작동하지 않으므로 개선할 부분이 많다.(영어)</li>\n<li><strong><a href=\"https://www.supelogical.com/updates/public-testing-beginning\" target=\"_blank\" rel=\"noopener noreferrer\">Rex: Public testing is beginning</a></strong> : Mitchell Hashimoto가 창업한 Superlogical에서 첫 제품 Rex를 베타로 공개했다. Rex는 터미널을 대체해서 세션 유지, 빠른 원격 연결 등의 기능을 제공하며 초기 테스트는 macOS만 지원한다.(영어)</li>\n<li><strong><a href=\"https://nishtahir.com/build-your-own-decision-model/\" target=\"_blank\" rel=\"noopener noreferrer\">Build your own decision model</a></strong> : Jev 같은 의사결정 모델을 만들기 위해 Qwen3-1.7B 모델의 출력을 제한해 주어진 선택지에서 빠르게 답을 내놓는 모델을 보여준다. 모호한 질문을 했을 때 모델이 답을 과하게 확신하는 문제를 해결하려고 온도 스케일링으로 보정하는 과정도 보여준다.(영어)</li>\n<li><strong><a href=\"https://blog.getbootstrap.com/2026/10/15/triaging-bootstrap-with-claude-agents/\" target=\"_blank\" rel=\"noopener noreferrer\">Triaging open source with agents</a></strong> : Bootstrap은 수백 개의 이슈와 Pull Request를 관리하려고 Claude Code로 분석·분류하고, 필요하면 Pull Request까지 만들게 했다. 모든 내용을 로컬 대시보드에서 볼 수 있게 만들어 이슈 관리 시간을 효율적으로 쓸 수 있게 되었다.(영어)</li>\n<li><strong><a href=\"https://x.com/yusukebe/status/2107027870019445007\" target=\"_blank\" rel=\"noopener noreferrer\">We disabled PRs from external contributors on honojs/hono</a></strong> : 웹 프레임워크 <a href=\"https://github.com/honojs/hono\" target=\"_blank\" rel=\"noopener noreferrer\">Hono</a>가 이 시대에는 Pull Request 기여가 통하지 않는다며 Pull Request 기능을 막고 외부 PR 기여를 받지 않기로 했다.(영어)</li>\n<li><strong><a href=\"https://developer.apple.com/pass-designer/\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Pass Designer</a></strong> : Apple이 Wallet 앱에서 쓸 입장권 이미지를 만들 수 있는 Pass Designer 앱을 출시했다.(영어)</li>\n</ul>\n<h2>AI 관련</h2>\n<ul>\n<li><strong><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\" target=\"_blank\" rel=\"noopener noreferrer\">Gemini 4 Argon: our next era of frontier intelligence</a></strong> : Google이 새로운 최첨단 모델 <a href=\"https://deepmind.google/models/gemini/\" target=\"_blank\" rel=\"noopener noreferrer\">Gemini 4 Argon</a>을 발표했다. Argon은 복잡하고 오래 걸리는 작업에서도 깊이 있게 추론하도록 설계되었다. Google 내부 업무에 먼저 도입되어 업무 방식을 크게 바꾸고 있고, 벤치마크에서도 높은 점수를 달성했다.(영어)</li>\n<li><strong><a href=\"https://www.anthropic.com/claude-haiku-5-5\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Claude Haiku 5.5</a></strong> : Anthropic이 경량 모델 Haiku 5.5를 출시했다. 4.5보다 평균 75% 비용이 낮아졌다.(영어)</li>\n<li><strong><a href=\"https://research.meta.ai/blog/muse-wonder\" target=\"_blank\" rel=\"noopener noreferrer\">Muse Wonder: A Frontier Model For Personal &amp; Professional AI Agents</a></strong> : Meta가 에이전트 작업에서 최첨단 성능을 보이는 프론티어 모델 Muse Wonder와 Muse Wonder Full을 발표했다. Meta가 지난 14개월 동안 AI 개발 전반을 재정비해서 프론티어 성능의 모델을 내놓을 수 있게 되었다.(영어)</li>\n<li><strong><a href=\"https://deepmind.google/models/model-cards/nano-banana-2-1/\" target=\"_blank\" rel=\"noopener noreferrer\">Nano Banana 2.1 - Model Card</a></strong> : Google이 이미지 생성 모델 Nano Banana 2.1을 출시했다. Nano Banana 2.1은 Gemini 3.6 Flash를 기반으로 하며 1M 컨텍스트 창을 지원한다.(영어)</li>\n<li><strong><a href=\"https://mistral.ai/news/mistral-large-4/\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Mistral Large 4</a></strong> : 1조 개의 파라미터를 갖춘 멀티모달 LLM인 Mistral Large 4가 출시되었다. 코딩, 에이전트 워크플로우, 멀티모달에서 뛰어난 성능을 보이며 최상급 오픈 소스 모델과 견줄 만하다. 모델 가중치는 이달 말에 공개할 예정이다.(영어)</li>\n<li><strong><a href=\"https://developers.openai.com/api/docs/guides/decisions\" target=\"_blank\" rel=\"noopener noreferrer\">Decisions</a></strong> : OpenAI가 Jev와 같은 Decisions API를 공개한다. Decisions는 gpt-6-luna로 동작하며 Responses API보다 10배 빠르다.(영어)</li>\n<li><strong><a href=\"https://blog.cloudflare.com/clef-decision-models/\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Clef: our open-source decision models, and new RL fine-tuning platform</a></strong> : Cloudflare가 Jev와 같은 의사 결정 모델인 Clef와 Clef-flash를 출시했다. 벤치마크에서 가장 좋은 점수가 나왔으며 Jev API와 호환되고 완전히 오픈소스로 공개되었다.(영어)</li>\n<li><strong><a href=\"https://reflection.ai/blog/introducing-beam\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Beam: Reflection’s 501B open-weight model</a></strong> : 미국의 오픈웨이트 모델 회사인 Reflection에서 첫 모델인 Beam을 발표했다. Beam은 전체 파라미터 5,010억 개, 활성 파라미터 230억 개인 MoE 모델로, 코딩·추론·에이전트 작업에 맞춰 설계되었다.(영어)</li>\n<li><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\" target=\"_blank\" rel=\"noopener noreferrer\">EmbeddingGemma 2: an open, lightweight multimodal embedding model</a></strong> : Google이 고품질 텍스트 임베딩을 쉽게 만들 수 있도록 작년에 내놓은 EmbeddingGemma의 다음 버전인 EmbeddingGemma 2를 공개했다. EmbeddingGemma 2는 Gemma 4 아키텍처를 기반으로 텍스트뿐 아니라 코드, 이미지, 동영상, 오디오를 하나의 공유 임베딩 공간으로 통합하며, Apache 2.0 라이선스로 공개되었다.(영어)</li>\n<li><strong><a href=\"https://cactuscompute.com/blog/whistle\" target=\"_blank\" rel=\"noopener noreferrer\">Whistle: Speech to Text in 16.9 MB</a></strong> : Cactus Compute에서 CPU 엔진에서 사용할 수 있는 음성 인식 모델 Whistle을 공개했다. 16.9MB 파일 하나로 7개 언어를 지원하며 첫 토큰을 11ms 만에 생성할 수 있다.(영어)</li>\n<li><strong><a href=\"https://commandline.microsoft.com/microsoft-decision-1-model-foundry/\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Microsoft-Decision-1, our model for fast decision-making</a></strong> : Microsoft에서 Jev와 같은 의사결정 모델인 Microsoft-Decision-1을 발표했고 빠른 속도와 높은 정확도를 보여준다.(영어)</li>\n<li><strong><a href=\"https://x.ai/news/grok-voice-transcribe-2\" target=\"_blank\" rel=\"noopener noreferrer\">Introducing Grok Voice Transcribe 2.0</a></strong> : SpaceXAI에서 음성-텍스트 변환 모델인 Grok Voice Transcribe 2.0을 출시했다. 1.0과 비교해서 동일한 가격에 정확도는 2배 높아졌다.(영어)</li>\n</ul>\n<h2>인프라 관련</h2>\n<ul>\n<li><strong><a href=\"https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">10 Years of the SRE book: Announcing the second edition of \"Site Reliability Engineering”</a></strong> : Google이 10년 전에 출간한 Site Reliability Engineering의 2판을 발표했다. 지난 10년 동안 AI, 마이크로서비스, 멀티 클라우드, 서버리스, 플랫폼 엔지니어링 등 많은 부분이 바뀌어 새로 쓰게 되었다.(영어)</li>\n<li><strong><a href=\"https://blog.cloudflare.com/ko-kr/cloudflare-certificate-authority/\" target=\"_blank\" rel=\"noopener noreferrer\">인터넷 전체를 위한 인증 기관 구축하기</a></strong> : Cloudflare가 공개 인증 기관(Certificate Authority)이 될 계획을 발표했다. 아직 인증서를 발급하고 있지는 않지만 Chrome, Apple, Microsoft, Mozilla의 루트 프로그램에 신청을 완료했고 GlobalSign이 오랫동안 운영해서 신뢰받는 루트를 인수하기 위한 계약도 체결한 상태다.(한국어)</li>\n<li><strong><a href=\"https://linuxiac.com/microsoft-releases-litebox-0-1-a-rust-based-sandboxing-library-os/\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft Releases LiteBox 0.1, a Rust-Based Sandboxing Library OS</a></strong> : Microsoft가 Rust 기반으로 만들어 올해 초에 공개했던 <a href=\"https://github.com/microsoft/litebox\" target=\"_blank\" rel=\"noopener noreferrer\">LiteBox</a> 0.1을 릴리스했다. LiteBox는 보안에 초점을 맞춘 라이브러리 OS로, 호스트와 격리된 샌드박스 안에서 실행할 수 있다.(영어)</li>\n<li><strong><a href=\"https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft to expand Azure Maia system to multi-gigawatt deployments</a></strong> : Microsoft Azure AI 인프라의 핵심 기반이라고 할 수 있는 Maia 200이 미국, 유럽, 호주에 도입되어 주요 GPU 인프라와 비교해 와트당 최대 1.7배의 토큰을 처리하고 있다. 이 경험을 바탕으로 설계한 Maia 300은 2027년 출시 예정이다.(영어)</li>\n<li><strong><a href=\"https://blog.cloudflare.com/cloudflare-k2-streams/\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing Cloudflare K2: serverless event streams</a></strong> : Cloudflare가 서버리스 이벤트 스트림 제품인 K2를 발표했다. K2는 내부적으로 R2 오브젝트 스토리지에 로그를 사용해서 구현했고 Kafka처럼 이벤트를 순서에 맞게 저장해서 처리할 수 있다.(영어)</li>\n<li><strong><a href=\"https://aws.amazon.com/ko/blogs/korea/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/\" target=\"_blank\" rel=\"noopener noreferrer\">AWS Lambda Web Functions 정식 출시\n</a></strong> : AWS에서 Express, Hono, Fastify, Next.js 등 Node.js 프레임워크로 만든 HTTP 웹 애플리케이션을 Lambda에서 실행할 수 있는 Lambda Web Functions를 발표했다.(한국어)</li>\n</ul>\n<h2>보안 및 장애</h2>\n<ul>\n<li><strong><a href=\"https://snyk.io/blog/vulnbump/\" target=\"_blank\" rel=\"noopener noreferrer\">VulnBump: Can AI Agents Fix Vulnerable Dependencies Without Breaking the Build?</a></strong> : Snyk에서 취약점이 있는 의존성 307건을 AI로 업데이트하면서 빌드까지 성공시키는 연구인 <a href=\"https://www.vulnbump.com/\" target=\"_blank\" rel=\"noopener noreferrer\">VulnBump</a>를 발표했다. Claude Code만으로는 59.6%가 성공했고, Snyk의 권장 업그레이드와 스캔 결과를 함께 제공했을 때는 77.5%, Snyk의 Evo Remediation Agent는 90.2%가 성공했다.(영어)</li>\n</ul>\n<h2>볼만한 링크</h2>\n<ul>\n<li><strong><a href=\"https://arca.live/b/aihomelab/185810092\" target=\"_blank\" rel=\"noopener noreferrer\">동네 치과의 AX전환기</a></strong> : 동네 치과 의사가 AI로 뭔가 해보려다 공사비가 비싸 직접 구축에 나섰고, DGX Spark 12대로 병원 내 치과 업무의 상당 부분을 자동화해 편하게 만든 과정을 적은 글이다.(한국어)</li>\n<li><strong><a href=\"https://www.theranos.world/\" target=\"_blank\" rel=\"noopener noreferrer\">Theranos World</a></strong> : 사기로 구속된 의료 스타트업 theranos의 창업자인 엘리자베스 홈즈의 책상을 구현한 웹사이트로 홈즈의 컴퓨터와 혈액검사 장비를 사용해 볼 수 있다.(영어)</li>\n</ul>\n<h2>IT 업계 뉴스</h2>\n<ul>\n<li><strong><a href=\"https://deno.com/blog/cloudflare\" target=\"_blank\" rel=\"noopener noreferrer\">Deno is joining Cloudflare</a></strong> : Node.js를 만든 Ryan Dahl이 새로 만든 JavaScript 런타임인 Deno가 Cloudflare에 인수되었다. Deno 팀은 통합 플랫폼 개발에 집중하기로 했다. Deno는 앞으로 1년 동안 버그 수정과 보안 업데이트를 한 뒤 개발을 종료하고, Deno Deploy는 6개월 동안 유지한다. Cloudflare는 JSR을 계속 운영할 예정이다.(영어)</li>\n<li><strong><a href=\"https://turso.tech/blog/turso-is-joining-supabase\" target=\"_blank\" rel=\"noopener noreferrer\">Turso is joining Supabase to give every agent its own database</a></strong> : SQLite 기반 분산 데이터베이스 플랫폼을 운영하는 <a href=\"https://turso.tech/\" target=\"_blank\" rel=\"noopener noreferrer\">Turso</a>를 Supabase가 인수했다. 이번 인수를 통해 에이전트를 위한 데이터베이스 플랫폼을 만들 예정이라고 한다.(영어)</li>\n<li><strong><a href=\"https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenAI engineer arrested in bugging of executive conference room</a></strong> : OpenAI의 엔지니어가 본사 임원 회의실에 녹음 장치를 설치한 혐의로 체포되었다. 해당 장치는 회의실 뒷면 USB 포트에 꽂혀 있었고 휴지로 가려져 있었다.(영어)</li>\n<li><strong><a href=\"https://typesafe.ai/blog/series-ai\" target=\"_blank\" rel=\"noopener noreferrer\">TypeSafe A raises Series AI</a></strong> : Jev로 큰 관심을 모은 TypeSafe AI가 Andreessen Horowitz가 주도하고 Sequoia Capital, 기존 투자사 DCVC 등이 참여한 시리즈 A 투자를 유치했다. <a href=\"https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/\" target=\"_blank\" rel=\"noopener noreferrer\">기사에 따르면</a> 기업가치를 75억 달러(약 10조 원)로 평가받으며 8억 7천만 달러를 조달했다.(영어)</li>\n</ul>\n<h2>프로젝트</h2>\n<ul>\n<li><strong><a href=\"https://rea.tools/\" target=\"_blank\" rel=\"noopener noreferrer\">REA</a></strong> : 에이전트가 프로그램을 리버스 엔지니어링하게 해주는 MCP로 다양한 프로그램을 리버스 엔지니어링해 큰 관심을 모으고 있다.</li>\n<li><strong><a href=\"https://pulls.review/\" target=\"_blank\" rel=\"noopener noreferrer\">pulls.review</a></strong> : Pull Request의 변경 사항을 논리적인 그룹으로 분류하고 요약해서 리뷰를 도와주는 오픈소스.</li>\n<li><strong><a href=\"https://github.com/rauchg/gdp-ts\" target=\"_blank\" rel=\"noopener noreferrer\">gdp-ts</a></strong> : 더 안전한 API 설계를 위한 라이브러리, 린터, AI 스킬로 API 계약을 컴파일 시점에서 검사해서 보안을 강화하는 검증 시스템이다.</li>\n<li><strong><a href=\"https://fonts.nuxt.com/\" target=\"_blank\" rel=\"noopener noreferrer\">NuxtFont</a></strong> : <a href=\"https://nuxt.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Nuxt</a> 프레임워크를 위한 웹 폰트</li>\n</ul>\n<h2>버전 업데이트</h2>\n<ul>\n<li><strong><a href=\"https://ubuntu.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Ubuntu</a> 26.10 Stonking Stingray</strong> : Linux 배포판, <a href=\"https://ubuntu.com/blog/canonical-releases-ubuntu-26-10-stonking-stingray\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://pi.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Pi</a> v1.0</strong> : 코딩 에이전트, <a href=\"https://earendil.com/posts/pi-1-0/\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://svelte.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">SvelteKit</a> v3.0</strong> : Svelte의 앱 개발 프레임워크, <a href=\"https://svelte.dev/blog/sveltekit-3-is-here\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://effect.website/\" target=\"_blank\" rel=\"noopener noreferrer\">Effect</a> v4.0</strong> : TypeScript용 이펙트 시스템, <a href=\"https://effect.website/blog/releases/effect/40\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://rsdoctor.rs/\" target=\"_blank\" rel=\"noopener noreferrer\">Rsdoctor</a> v2.0.0</strong> : Rspack/Webpack의 분석기, <a href=\"https://github.com/web-infra-dev/rsdoctor/releases/tag/v2.0.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://tanstack.com/start/latest\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack Start</a> v1.0</strong> : React/Solid용 풀스택 프레임워크, <a href=\"https://tanstack.com/blog/tanstack-start-1-0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://www.python.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Python</a> v3.15.0</strong> : 프로그래밍 언어, <a href=\"https://www.python.org/downloads/release/python-3150/\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://nx.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Nx</a> v23.3.0</strong> : 모노레포 빌드 시스템, <a href=\"https://github.com/nrwl/nx/releases/tag/23.3.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://zed.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">Zed</a> v1.23</strong> : 코드 에디터, <a href=\"https://zed.dev/releases/stable/1.23.3\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://nextjs.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Next.js</a> v16.4.0</strong> : 서버렌더링 React 애플리케이션 프레임워크, <a href=\"https://nextjs.org/blog/next-16-4\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://github.com/dahlia/logtape\" target=\"_blank\" rel=\"noopener noreferrer\">LogTape</a> v2.4.0</strong> : JavaScript 로깅 라이브러리, <a href=\"https://github.com/dahlia/logtape/discussions/254\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://nuxt.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Nuxt</a> v4.6</strong> : 서버렌더링 Vue.js 애플리케이션 프레임워크, <a href=\"https://github.com/nuxt/nuxt/releases/tag/v4.6.1\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://grafana.com/oss/tempo/\" target=\"_blank\" rel=\"noopener noreferrer\">Grafana Tempo</a> v3.1.0</strong> : 분산 트레이싱 백엔드, <a href=\"https://github.com/grafana/tempo/releases/tag/v3.1.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://pola.rs/\" target=\"_blank\" rel=\"noopener noreferrer\">Polars</a> v2.0.0</strong> : Python 데이터프레임 라이브러리, <a href=\"https://pola.rs/posts/release-polars-2\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://nodejs.org/en\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js</a> v26.12.0 (Current)</strong> : 자바스크립트 런타임, <a href=\"https://nodejs.org/en/blog/release/v26.12.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://nodejs.org/en\" target=\"_blank\" rel=\"noopener noreferrer\">Node.js</a> v24.22.0 (LTS)</strong> : 자바스크립트 런타임, <a href=\"https://nodejs.org/en/blog/release/v24.22.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://astro.build/\" target=\"_blank\" rel=\"noopener noreferrer\">astro</a> v7.4.0</strong> : JavaScript 웹 프레임워크, <a href=\"https://github.com/withastro/astro/releases/tag/astro%407.4.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://ui.nuxt.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Nuxt UI</a> v4.12.0</strong> : UI 라이브러리, <a href=\"https://github.com/nuxt/ui/releases/tag/v4.12.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n<li><strong><a href=\"https://shopify.github.io/react-native-skia/\" target=\"_blank\" rel=\"noopener noreferrer\">React Native Skia</a> v3.6.0</strong> : React Native용 Skia, <a href=\"https://github.com/wcandillon/react-native-skia/releases/tag/v3.6.0\" target=\"_blank\" rel=\"noopener noreferrer\">릴리스 공지</a></li>\n</ul>\n",
     "createdAt": "2026-10-15T17:24:12.000+00:00",
@@ -558,72 +624,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "Show HN: Unfenced - 공공 토지와 맞닿은 매물 토지 찾기",
-    "content": "<ul>\n<li><strong>Unfenced</strong>는 공공 산림, 수렵지, 야생 보호구역과 경계를 맞댄 매물 토지를 찾아 보여주는 서비스임</li>\n<li>매물 설명이 아니라 <strong>공식 경계 지도</strong>와 대조해 토지의 인접 여부를 확인함</li>\n<li>매물별로 <strong>공유 경계의 측정 길이</strong>를 면적, 가격, 인접 공공 토...<p></p></li></ul>",
-    "createdAt": "2026-10-15T16:47:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=35425",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "수학자들이 왜 우는지 나는 안다",
-    "content": "<ul>\n<li>OpenAI가 수백 건의 수학적 성과를 공개한 뒤, 필즈상 수상자 Hugo Duminil-Copin과 수학자 Steven Strogatz는 <strong>경탄과 함께 눈물을 흘림</strong>. 평생의 연구와 발견에 의미를 부여하던 방식이 흔들리는 경험</li>\n<li>과학은 문제를 푸는 탐구 기술인 동시에 <strong>앞선 발견을 이해하고 다음 세대...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-15T16:44:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=35424",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "스큐어모픽 디자인을 적용한 Linux용 Wayland 데스크톱",
-    "content": "<ul>\n<li><strong>DEsk</strong>는 바탕화면을 호두나무 책상으로, 창을 종이로 구현한 Linux 데스크톱 환경으로, iOS 6처럼 실제 사물의 재질과 빛, 그림자까지 재현하는 <strong>사실적 스큐어모피즘</strong>을 지향함</li>\n<li>최소화는 종이 접기, 앱 실행은 책장에서 바인더 속 종이 꺼내기, 알림 확인은 우편함 열...<p></p></li></ul>",
-    "createdAt": "2026-10-15T16:41:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=35423",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Popout Authenticator - 팝업·별도 창·사이드 패널에서 쓰는 오픈소스 2단계 인증 확장",
-    "content": "<p>크롬·엣지·파이어폭스·웨일·사파리(macOS)에서 쓰는 2단계 인증(OTP) 확장 Popout Authenticator를 소개합니다. 개인 프로젝트이고, MIT 오픈소스입니다. 계정 수 제한, 가입, 서버가 없습니다.</p>\n<p>지금은 크롬 웹 스토어와 엣지 애드온에 공개돼 있고, 파이어폭스·웨일·사파리는 심사 중입니다.</p>\n<ul>\n<li>크</li></ul>",
-    "createdAt": "2026-10-15T15:46:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=35422",
-    "author": "spica4345",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Voxel - 컴퓨터 한 대에서 Oxide 서버 랙을 재현하는 에뮬레이터",
-    "content": "<ul>\n<li>자체 데이터센터에 설치하는 클라우드 시스템 <strong>Oxide의 서버 모듈과 스위치, 관리용 마이크로컨트롤러까지 컴퓨터 한 대에서 재현</strong>하는 개발/테스트 환경</li>\n<li><strong>실제 제품의 소프트웨어를 수정 없이 실행</strong>하는 것이 핵심 원칙. 테스트 전용 버전을 따로 만들지 않고 고객의 ...<p></p></li></ul>",
-    "createdAt": "2026-10-15T15:42:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=35421",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Libreboot 26.10 &quot;Ominous Olive&quot; 출시, UEFI와 Chromebook 지원",
-    "content": "<ul>\n<li><strong>MrChromebox EDK2</strong>를 대부분의 64비트 호환 하드웨어에서 기본 페이로드로 채택함. 기존 GRUB/SeaBIOS 중심 구성을 UEFI로 전환하고, 하위 호환용 EFI 빌드를 펌웨어에 함께 제공함</li>\n<li><strong>Intel/AMD Chromebook 233종</strong>의 구성을 가져와 모두 컴파일했지만, 이번 릴리스에는...<p></p></li></ul>",
-    "createdAt": "2026-10-15T15:39:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=35420",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
