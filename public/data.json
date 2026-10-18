@@ -1,5 +1,159 @@
 [
   {
+    "title": "Show HN: Ocarina of Time 리메이크 전에 살펴보는 Zelda 연대표",
+    "content": "<ul>\n<li><strong>The Legend of Hyrule</strong>는 Nintendo의 공식 연대표를 바탕으로 Hyrule의 역사와 각 게임의 사건을 정리한 사이트임</li>\n<li><strong>Ocarina of Time 이후</strong> 역사는 Link가 패배한 흐름, 과거로 돌아간 어린 시절의 흐름, 영웅이 사라진 성인 시대의 흐름으로 갈라짐</li>\n<li>세계 창조...<p></p></li></ul>",
+    "createdAt": "2026-10-18T19:41:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35593",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "소프트웨어 뒤에 있는 누군가",
+    "content": "<ul>\n<li>좋은 제품에는 만드는 사람의 <strong>경험과 가치관</strong>, 작동 방식에 대한 생각이 담기며, 사용자는 제작자가 누구인지 몰라도 그 시각을 느낄 수 있음</li>\n<li><strong>Linear</strong>가 프로세스나 데이터보다 중시하는 직관은 단순한 개인 취향이 아니라, 고객과 대화하고 실수하며 쌓은 이해를 바...<p></p></li></ul>",
+    "createdAt": "2026-10-18T19:38:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35592",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "방금 내 모든 도메인을 압류하고 비활성화한 Namecheap",
+    "content": "<p>방금 내 모든 도메인을 압류하고 비활성화한 Namecheap</p>\n",
+    "createdAt": "2026-10-18T19:35:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35591",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "웹사이트들이 AI 에이전트에 문을 닫고 있음",
+    "content": "<ul>\n<li>예약과 쇼핑 등을 대신하는 <strong>AI 에이전트</strong>가 주요 웹사이트의 접근 제한에 부딪히고 있음. Meta Muse, xAI Grok, OpenAI Dots, Instinct 사용자들이 작업 차단을 겪고 있음</li>\n<li>차단 이유는 <strong>보안 우려와 사업적 이해관계</strong>에 걸쳐 있음. 금융사는 계좌 접근을 막고, Yelp는...<p></p></li></ul>",
+    "createdAt": "2026-10-18T18:44:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=35590",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 민병대 최고위층에 잠입한 내부 공작원 (2025)",
+    "content": "<ul>\n<li>야생 생존술 강사 <strong>John Williams</strong>가 경찰이나 FBI와 협력하지 않고 우익 민병대에 잠입해, <strong>AP3의 Utah주 최고 책임자</strong>에 오르고 Oath Keepers 지도부에 접근함</li>\n<li>수만 건의 문서와 비공개 대화, 수십 시간의 녹음에는 민병대의 <strong>조직 재건과 언론인 감시</strong></li></ul>",
+    "createdAt": "2026-10-18T18:41:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=35589",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Anthropic이 제안한 AI 안전 법안, 50명 사망이나 10억 달러 피해 위험이 있어야 작동",
+    "content": "<ul>\n<li><strong>Anthropic</strong>이 정부의 AI 모델 출시 차단을 대규모 피해 위험에 한정하는 법안을 추진 중임. 구체적인 기준은 <strong>10억 달러 피해 또는 50명 초과의 사망/부상 위험</strong>임</li>\n<li>규제 대상 위험은 <strong>생물무기 생성/방출</strong>, AI를 활용한 사이버 공격, 연구소의 모델 또...<p></p></li></ul>",
+    "createdAt": "2026-10-18T18:38:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35588",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Open MicroManipulator - 서브마이크로미터 3D 모션 제어 플랫폼",
+    "content": "<ul>\n<li><strong>Open Micro-Manipulator</strong>는 광학 정렬, 전자 부품 프로빙, 현미경 작업을 위한 저비용 오픈소스 전동 XYZ 미세 조작 플랫폼으로, 쉽게 제작할 수 있도록 설계됨</li>\n<li><strong>병렬 기구 구조</strong>와 소형 볼 조인트로 기계적 강성과 넓은 이동 범위를 확보하며, 기성 스테퍼 모터를 30...<p></p></li></ul>",
+    "createdAt": "2026-10-18T17:39:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35587",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Teal - Lua의 정적 타입 방언",
+    "content": "<ul>\n<li><strong>Teal</strong>은 Lua에 타입 표기를 추가한 정적 타입 방언으로, 배열, 맵, 레코드뿐 아니라 인터페이스, 유니온 타입, 제네릭을 지원함</li>\n<li>JavaScript 생태계의 <strong>TypeScript와 유사한 역할</strong>을 목표로 하되, Lua의 미니멀리즘, 이식성, 임베딩 용이성을 따름</li>\n<li>컴파일러 ...<p></p></li></ul>",
+    "createdAt": "2026-10-18T17:36:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35586",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "macOS 15.8.2에서 OpenGL이 작동하지 않음",
+    "content": "<p>macOS 15.8.2에서 OpenGL이 작동하지 않음</p>\n",
+    "createdAt": "2026-10-18T17:33:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35585",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Matthew Prince가 밝힌 Cloudflare의 무료 버전 제공 이유와 유지 방침 (2016)",
+    "content": "<ul>\n<li>Cloudflare의 <strong>무료 사용자 기반</strong>은 유료 사용자만으로는 접하기 어려운 다양한 공격 데이터를 확보하게 해, 유료 고객의 보안 수준을 높이는 데 기여함</li>\n<li>무료 서비스를 사용한 직원이 직장에 Cloudflare를 도입하는 <strong>고객 추천</strong> 경로가 있으며, 대형 고객 다수가 이런 ...<p></p></li></ul>",
+    "createdAt": "2026-10-18T16:42:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35582",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "파서 조합기 - 작은 파서를 조합해 구조화된 데이터를 만드는 방법",
+    "content": "<ul>\n<li><strong>파서 조합기(parser combinator)</strong> 는 작은 파싱 함수를 조합해 복잡한 텍스트를 구조화된 데이터로 변환하는 방식으로, 정규식으로는 복잡하고 tree-sitter를 쓰기에는 과한 작업에 적합함</li>\n<li>기본 단위인 <strong>부분 파서</strong>는 입력 문자열에서 일부를 읽고, 파싱한 값과 남은 ...<p></p></li></ul>",
+    "createdAt": "2026-10-18T16:39:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35581",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "RepRapMicron - 마이크론급 제작과 자기 복제를 목표로 하는 3D 프린터",
+    "content": "<ul>\n<li><strong>μRepRap</strong>은 쉽게 구할 수 있는 재료로 마이크론 및 서브마이크론급 제작이 가능한 자기 복제형 3D 프린터를 목표로 하며, 초기 시제품의 반복 위치 결정과 가정 작업실용 프로브 제작 목표는 사실상 달성함</li>\n<li>현재 권장하는 <strong>PIKA V0.02</strong>는 한 변이 약 8mm인 입방체 작업...<p></p></li></ul>",
+    "createdAt": "2026-10-18T16:36:54.000+00:00",
+    "link": "https://news.hada.io/topic?id=35580",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "GNOME OS Preview 공개, 최신 안정판 GNOME 기반의 운영체제",
+    "content": "<ul>\n<li><strong>GNOME OS Preview</strong>는 최신 안정판 GNOME을 기반으로 하는 새 에디션으로, 개발자와 테스터용 Nightly를 넘어 비개발자 얼리어답터까지 사용 대상을 넓힘</li>\n<li>공개 시점에는 <strong>GNOME 51.1</strong>을 사용하며, GNOME 구성 요소의 최신 Git 커밋을 계속 반영하는 Nightly와 달리 안정...<p></p></li></ul>",
+    "createdAt": "2026-10-18T16:01:55.000+00:00",
+    "link": "https://news.hada.io/topic?id=35579",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "법률 전문가들, Meta의 새 약관이 여전히 광범위한 스크래핑을 허용한다고 경고",
+    "content": "<ul>\n<li>Meta가 비즈니스 계정용 새 약관에서 <strong>‘학습(train)’을 삭제</strong>하고 수집 콘텐츠의 사용처를 광고 및 비즈니스 제품으로 좁혔지만, 법률 전문가들은 여전히 웹사이트 전체를 스크래핑하고 AI 학습에 활용할 여지가 있다고 경고함</li>\n<li>기존에는 생성형 AI 광고 기능을 사용할 때 <strong>광...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-18T15:31:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=35578",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "gopls의 대화형 리팩터링",
     "content": "<ul>\n<li><strong>gopls</strong>에 여러 단계의 대화창으로 사용자 입력을 받은 뒤 코드를 변환하는 대화형 리팩터링이 도입됨. gopls v0.24.0과 VS Code 공식 Go 확장 v0.56.0에서 사용할 수 있음</li>\n<li><strong>LSP 확장 제안</strong>은 언어 서버가 편집기별 맞춤 구현 없이 사용자에게 필요한 정보를 묻도록 함...<p></p></li></ul>",
     "createdAt": "2026-10-18T15:02:15.000+00:00",
@@ -407,72 +561,6 @@
     }
   },
   {
-    "title": "Doritos 가루로 닭고기를 투명하게 만들기",
-    "content": "<ul>\n<li>Doritos에 쓰이는 식용 색소 <strong>타르트라진(tartrazine)</strong> 용액에 닭가슴살을 담가 조직 투명화 연구를 일부 재현했으며, 원 논문보다 약한 <strong>부분적 투명성</strong>을 얻음</li>\n<li>핵심 원리는 조직 속 물의 <strong>굴절률을 단백질과 지질에 가깝게 높여</strong> 빛의 산란을 줄이는 ...<p></p></li></ul>",
-    "createdAt": "2026-10-17T17:39:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=35536",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "MapQuest, 이제 동네의 Flock 카메라 위치를 보여줌",
-    "content": "<ul>\n<li><strong>MapQuest</strong> 앱에 위치가 알려진 야외 감시 카메라와 차량 번호판 판독기를 지도에 표시하는 레이어가 추가됨</li>\n<li>표시 대상은 <strong>Flock 카메라</strong>뿐 아니라 Motorola Solutions, Genetec, Axis Communications 등 여러 업체의 카메라를 포함함</li>\n<li><strong>카메라 레이어...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-17T17:36:34.000+00:00",
-    "link": "https://news.hada.io/topic?id=35535",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Token Ring 네트워크란 무엇이었나?",
-    "content": "<ul>\n<li><strong>Token Ring</strong>은 IBM이 1985년 발표한 네트워크 기술로, 1980~1990년대 Ethernet과 경쟁했지만 비용과 고속화 경쟁에서 밀려 사라짐</li>\n<li>네트워크를 순환하는 <strong>토큰을 가진 시스템만 전송</strong>할 수 있어 초기 Ethernet과 달리 충돌이 없었으며, 네트워크가 포화된 상황에도 강했...<p></p></li></ul>",
-    "createdAt": "2026-10-17T16:46:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=35534",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "고마워요, Deno - 경쟁이 바꾼 JavaScript 생태계",
-    "content": "<ul>\n<li><strong>Deno가 던진 도전은 JavaScript 생태계 전체에 남음</strong>. 독립 런타임으로서의 확산은 제한적이었지만, 경쟁을 통해 기존 도구의 변화를 재촉</li>\n<li>Node에 웹 표준 API, 권한 모델, 별도 빌드 없는 TypeScript 실행 등이 도입되면서 <strong>Node를 떠나지 않은 개발자도 경쟁의 혜택을 누리게...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-17T16:43:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=35533",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "태양광 발전량, 사상 처음으로 전 세계 원자력 발전량 추월",
-    "content": "<ul>\n<li><strong>WNISR 2026</strong>에 따르면 2025년 전 세계 태양광 발전량이 30% 증가하며 처음으로 연간 원자력 발전량을 넘어섬</li>\n<li><strong>태양광과 풍력의 설비 확장</strong>이 원자력을 크게 앞서고 있음. 보고서 기준 2025년 태양광 설비는 27%, 풍력은 14% 증가한 반면, 원자력 설치 용량은 1.5GW 늘...<p></p></li></ul>",
-    "createdAt": "2026-10-17T16:40:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35532",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 수노(Suno)용 한국어 작사 Claude 스킬 – 부를 수 있는 가사와 Style 입력을 같이 설계",
-    "content": "<p>직접 Suno로 곡을 만들어 유튜브에 올리고 있고(수익도 나고 있습니다), 그 과정에서 이런 실패를 줄이려고 쓰던 작사 규칙을 Claude 에이전트 스킬로 정리해 공개했습니다.</p>\n<p>Suno로 노래를 만들면 가사는 멀쩡한데 이상하게 들리는 경우가 많습니다. 줄 끝이 랩처럼 몰아치거나, 한 글자를 길게 끌어 늘어지거</p>",
-    "createdAt": "2026-10-17T16:33:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35531",
-    "author": "moket",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "EP229: 8 Chunking strategies for RAG-based agents",
     "content": "<h2><a href=\"https://go.bytebytego.com/railway_101726\" target=\"_blank\" rel=\"noopener noreferrer\">The all-in-one intelligent cloud (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/railway_101726\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!3rxF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 424w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 848w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 1272w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!3rxF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!3rxF!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 424w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 848w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 1272w, https://substackcdn.com/image/fetch/$s_!3rxF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e1d608c-f75c-44a5-81cd-6f92a7d55890_1600x840.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><em>Y</em>our app, live in seconds, for free. Railway’s push-button compute, storage, and networking is available immediately upon sign-up.</p><p>Humans and agents alike operate on one vertically integrated system including hardware, software, and a prompt-to-production experience.</p><p>Sign up with the link below for free cloud credits and let your agents cook.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/railway_101726\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Start free</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>How to Test Your Code (Even When AI Writes It)</p></li><li><p>8 Chunking strategies for RAG-based agents</p></li><li><p>Google Translate: The Ideas Behind Neural Translation</p></li><li><p>Agent Skills, Clearly Explained</p></li><li><p>PostgreSQL versus MySQL</p></li></ul><div><hr></div><h2>How to Test Your Code (Even When AI Writes It)</h2><div id=\"youtube2-aVRjFZM23ak\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><div><hr></div><h2>8 Chunking strategies for RAG-based agents</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!9-Hk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!9-Hk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!9-Hk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!9-Hk!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!9-Hk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88462ca4-b0a1-4441-9537-59dae9d5ef65_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>Fixed-Size: cuts text every fixed number of tokens, with a small overlap.</p></li><li><p>Recursive: splits on paragraphs first, falling back to lines then words and characters only when a piece is still too big.</p></li><li><p>Document-Based: splits wherever the document already marks a break, a heading, a chapter, an HTML tag, so a markdown file becomes one chunk per section on its own.</p></li><li><p>Semantic: embeds each sentence, checks its similarity to the one before it, and starts a new chunk when that similarity drops. This finds real topic shifts instead of guessing by length.</p></li><li><p>LLM-Based: asks an LLM to rewrite the text as standalone propositions, one idea per line, and turns each into a chunk, high quality but expensive across a large corpus.</p></li><li><p>Agentic: an AI agent reads each document, decides what it is (code, contract, table), and picks the chunking method for that file instead of one rule for everything.</p></li><li><p>Late Chunking: runs the full document through an embedding model, then applies normal split boundaries and mean-pools within each boundary to create chunk embeddings.</p></li><li><p>Hierarchical: breaks the document into layers, sections, paragraphs, then sentences</p></li></ol><p>Over to you: which chunking strategy are you running in production?</p><div><hr></div><h2>Google Translate: The Ideas Behind Neural Translation</h2><p>A simplified illustration of common techniques. Not an exact map of Google Translate’s current system.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!PWTF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!PWTF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!PWTF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!PWTF!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!PWTF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc83631a3-ecd6-41ea-94a0-541f02b8908f_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ul><li><p>Detect language. A tiny classifier predicts the source language in milliseconds.</p></li><li><p>Tokenization. A BPE tokenizer splits the text into subword tokens, so the model can handle any word in any language.</p></li><li><p>Add target token. The model can handle every language pair. A special token like &lt;2es&gt; is prepended to the token sequence to steer the output toward Spanish.</p></li><li><p>Encoder. The tokens pass through Transformer layers. The output is a sequence of vectors, corresponding to each input token.</p></li><li><p>Decoder. Then the decoder part of the Transformer can predict the probability distribution for the next token conditioned on the encoded vectors.</p></li><li><p>Beam search. Instead of greedily picking one token at a time, beam search uses the decoder to keep several candidate translations during generation. The final output is the one with the highest probability.</p></li></ul><p>Over to you: Do you think AI labs and frontier models will make services like Google Translate obsolete?</p><div><hr></div><h2>Agent Skills, Clearly Explained</h2><p>Why do we need Agent Skills? Long prompts hurt agent performance. Instead of one massive prompt, agents keep a small catalog of skills, reusable playbooks with clear instructions, loaded only when needed.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!YWY0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!YWY0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 424w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 848w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 1272w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!YWY0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!YWY0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 424w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 848w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 1272w, https://substackcdn.com/image/fetch/$s_!YWY0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f3431f7-a501-473e-9ad0-5dfd0861d3c3_2360x2960.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Here is what the Agent Skills workflow looks like:</p><ol><li><p>User Query: A user submits a request like “Analyze data &amp; draft report”.</p></li><li><p>Build Prompt + Skills Index: The agent runtime combines the query with Skills metadata, a lightweight list of available skills and their short descriptions.</p></li><li><p>Reason &amp; Select Skill: The LLM processes the prompt, thinks, and decides: “I want Skill X.”</p></li><li><p>Load Skill into Context: The agent runtime receives the specific skill request from the LLM. Then, it loads SKILL. md and adds it into the LLM’s active context.</p></li><li><p>Final Output: The LLM follows SKILL. md, runs scripts, and generates the final report.</p></li></ol><p>By dynamically loading skills only when needed, Agent Skills keep context small and the LLM’s behavior consistent.</p><p>Over to you: What skills would you find most useful in agents?</p><div><hr></div><h2>PostgreSQL versus MySQL</h2><p>Built using the C language, PostgreSQL uses a process-based architecture.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!h8d0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!h8d0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 424w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 848w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!h8d0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!h8d0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 424w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 848w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!h8d0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5f67fe5-0efa-4fc6-98da-d176b60b1a92_2508x3000.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>You can think of it like a factory with a manager (Postmaster) coordinating specialized workers. Each connection gets its own process and shares a common memory pool. Background workers handle tasks like writing data, vacuuming, and logging independently.</p><p>MySQL takes a thread-based approach. Imagine a single multi-tasking brain.</p><p>It uses a layered design with one server handling multiple connections through threads. The magic happens using pluggable storage engines (such as InnoDB, MyISAM) that you can swap based on your needs.</p><p>Over to you: Which database do you prefer?</p>",
     "createdAt": "2026-10-17T15:30:51.000+00:00",
@@ -481,94 +569,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Claude, 양자 회로 설계 개선으로 타원곡선 연산 게이트 수 17분의 1로",
-    "content": "<ul>\n<li><strong>Claude Mythos 5가 양자 계산의 기본 연산 8종에 대한 회로 설계를 개선</strong>해, 기존에 발표된 설계보다 필요한 계산 자원을 줄임</li>\n<li>자연어 명세를 받아 회로를 코드로 작성하고, <strong>정확성과 큐비트 수 × 게이트 수를 검사하는 자동 평가기</strong>의 피드백으로 설계를 반복 개선...<p></p></li></ul>",
-    "createdAt": "2026-10-17T14:38:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=35530",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Llmspeed - 하드웨어 구매 전에 로컬 LLM 실행 속도를 체감하기",
-    "content": "<ul>\n<li><strong>Llmspeed</strong>는 하드웨어를 구매하기 전에 로컬 LLM이 얼마나 빠르게 동작할지 체감해 보는 서비스임</li>\n<li><strong>하드웨어별 탐색</strong>과 <strong>모델별 탐색</strong>을 제공해 관심 있는 장비나 모델을 기준으로 살펴볼 수 있음</li>\n<li>하드웨어 목록에는 NVIDIA/AMD/Intel GPU, M...<p></p></li></ul>",
-    "createdAt": "2026-10-17T14:35:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=35529",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: tidoly stow - Docker없이 간단하게 설치하여 사진을 보관하는 Immich 호환 개인 사진 서버",
-    "content": "<p>Stow는 개인 PC에 사진과 동영상을 보관하고 관리할 수 있는 사진 서버입니다. Go로 구현했으며, 기존 Immich 모바일 앱과 호환되는 API를 제공합니다.</p>\n<p>주요 기능</p>\n<ul>\n<li>간편한 설치 및 실행: macOS와 Windows에서는 단일 실행 파일로 실행하고, Linux에서는 systemd 서비스로 운영할 수 있습니다. Doc</li></ul>",
-    "createdAt": "2026-10-17T13:42:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=35527",
-    "author": "eunjay",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "비정합성의 함정: AI 저질 콘텐츠가 끝없는 잡음 속에 신호를 묻어버릴 때",
-    "content": "<ul>\n<li><strong>비정합성(decoherence)</strong> 은 개별적으로는 타당하지만 서로 호환되지 않거나 중복되는 모델이 시스템에 쌓이는 현상임. 모델 사이를 오가고 의도치 않은 부작용을 막는 일이 변경 비용의 대부분을 차지하게 됨</li>\n<li>비정합성은 시간 자체가 아니라 <strong>시스템의 변경</strong>에 따라 커...<p></p></li></ul>",
-    "createdAt": "2026-10-17T12:05:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=35526",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DeepSeek V4.1 Flash 1017 - CED 아키텍처와 네이티브 이미지 이해를 도입한 MoE 모델",
-    "content": "<ul>\n<li><strong>DeepSeek V4.1 Flash</strong>는 회사 최초로 Causal Encoder-Decoder(CED) 아키텍처를 적용한 희소 MoE 모델로, 사전 학습 시작부터 시각 및 텍스트 임베딩을 함께 학습함</li>\n<li>총 <strong>5,520억 개 파라미터</strong> 중 입력 처리에 80억 개, 출력 생성에 160억 개를 활성화하는 비대칭 구조로...<p></p></li></ul>",
-    "createdAt": "2026-10-17T11:32:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=35525",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DeepSeek-V4.1-Flash-1017 - 추론, 코딩, 에이전트 및 시각 벤치마크 성능을 개선한 모델 업데이트",
-    "content": "<ul>\n<li>기존 <strong>DeepSeek V4.1 Flash의 소규모 업데이트</strong>로, 추론과 코딩, 에이전트 작업, 이미지 이해 평가 전반의 성능 개선</li>\n<li>DeepSeek 공개 평가에서 <strong>Terminal-Bench 4.0은 31.2 → 42.3</strong>, ProgramBench는 <strong>20.3 → 29.1</strong>로 상승</li>\n<li>업무 자동화와 에이...<p></p></li></ul>",
-    "createdAt": "2026-10-17T10:31:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=35524",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: CarTroller - 웹캠 손 인식으로 운전하는 브라우저 RC카 게임",
-    "content": "<p>웹캠 앞에서 손으로 책상 위 RC카를 조종하는 브라우저 게임입니다. 설치나 회원가입 없이 바로 해 볼 수 있고, 웹캠이 없으면 키보드와 마우스로도 됩니다.</p>\n<p>조작</p>\n<ul>\n<li>왼손: 손목을 기울이면 조향, 손을 펴면 가속, 주먹은 브레이크, 멈춘 채 주먹을 유지하면 후진</li>\n<li>오른손: 엄지·검지로 집어</li></ul>",
-    "createdAt": "2026-10-17T10:26:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=35523",
-    "author": "geox5527",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ImageMagick으로 88x31 버튼에 책 담기",
-    "content": "<ul>\n<li><strong>88x31 픽셀 애니메이션 GIF</strong>에 책의 텍스트를 여러 프레임으로 나눠 담아, 작은 웹 버튼에서 《Moby Dick》을 읽을 수 있게 만듦</li>\n<li>초소형 글꼴 <strong>TomThumb</strong>을 사용하면 버튼 하나에 22자씩 5줄을 넣을 수 있어, 일반 글꼴보다 좁은 공간을 활용하기 좋음</li>\n<li>POSIX...<p></p></li></ul>",
-    "createdAt": "2026-10-17T07:01:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=35520",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
