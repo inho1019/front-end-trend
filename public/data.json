@@ -1,9 +1,9 @@
 [
   {
-    "title": "Docker는 이상하다",
-    "content": "<ul>\n<li>컨테이너는 별도의 가상 머신이 아니라 <strong>제약을 적용한 프로세스</strong>이며, 호스트 커널이 실행하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/proc</code>에서도 찾을 수 있음</li>\n<li>Linux에는 컨테이너라는 단일 기능이 없으며, <strong>네임스페이스와 cgroups</strong>, 네트워크 격리 등 여러 커널 기능을 조합해 구현함</li>...<p></p></ul>",
-    "createdAt": "2026-10-23T03:33:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=35852",
+    "title": "Hedra, 고등학생 때 처음부터 직접 만든 3D 오픈월드 게임",
+    "content": "<ul>\n<li><strong>Hedra</strong>는 약 15세 때 OpenGL을 배우려고 시작해 수년에 걸쳐 게임과 자체 엔진으로 확장한 저폴리곤 오픈월드 RPG이며, Linux와 Windows를 정식 지원함</li>\n<li><strong>절차적 생성</strong>으로 끝없이 펼쳐지는 세계와 퀘스트를 만들며, 월드 파일 없이 플레이어 데이터와 시드만 저장하고...<p></p></li></ul>",
+    "createdAt": "2026-10-23T10:33:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35860",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -11,11 +11,55 @@
     }
   },
   {
-    "title": "오픈AI GPT-Rosalind와 Claude의 전갈 독소 바인더, 같은 주에 나온 AI 과학자의 두 장면",
-    "content": "<p>OpenAI와 Anthropic이 하루 차이로 AI를 활용한 생물학 연구 성과를 발표.</p>\n<ul>\n<li><strong>OpenAI GPT-Rosalind</strong>: AI 에이전트 1,946개를 병렬 실행해 쥐 뇌세포의 대규모 유전자 실험 데이터를 32분 만에 분석. 기존 연구에서 확인된 발견 55개 중 48개를 재발견하거나 더 구체화함</li>\n<li><strong></strong></li></ul>",
-    "createdAt": "2026-10-23T02:18:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=35850",
-    "author": "davespark",
+    "title": "Local Wikipedia: 걸어서 30분 거리의 대상만 보여주는 Wikipedia",
+    "content": "<ul>\n<li><strong>Local Wikipedia</strong>는 사용자 위치에서 걸어서 30분 거리에 있는 대상에 한정해 Wikipedia 콘텐츠를 보여주는 사이트임</li>\n<li>콘텐츠는 <strong>Wikipedia에서 직접 가져오며</strong>, 지리 좌표가 지정된 문서만 대상으로 함</li>\n<li>가까운 대상이 <strong>25개 미만</strong>이면 약 6마...<p></p></li></ul>",
+    "createdAt": "2026-10-23T08:32:58.000+00:00",
+    "link": "https://news.hada.io/topic?id=35859",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "그리드화란 무엇인가? 녹음된 연주를 사후에 시간 격자에 맞추는 보정",
+    "content": "<ul>\n<li><strong>그리드화(gridification)</strong> 는 녹음이 끝난 뒤 인간 연주의 시간적 차이를 오류로 취급하고, 고정된 시간 격자에 맞춰 기계적으로 정밀한 결과물로 바꾸는 작업을 뜻함</li>\n<li>1975년과 2025년 Billboard 상위 곡 비교에서 <strong>〈Love Will Keep Us Together〉</strong> 는 템포가 124.51...<p></p></li></ul>",
+    "createdAt": "2026-10-23T05:49:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=35857",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "백준 온라인 저지 BOJ 재오픈 일정 연기 안내",
+    "content": "<p>안녕하세요.</p>\n<p>데이원컴퍼니 · 백준 온라인 저지입니다.<br>\n먼저 백준 온라인 저지의 재오픈을 기다려 주신 이용자분들께 감사드립니다.</p>\n<p>데이원컴퍼니는 백준 온라인 저지를 운영해 온 스타트링크, 최백준님과 함께 회원 정보, 제출 기록, 문제와 채점 데이터 등을 안전하게 이관하였고, 10월 26일 재</p>",
+    "createdAt": "2026-10-23T05:24:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35856",
+    "author": "libkluid",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLM이 훨씬 더 큰 규모의 소프트웨어 정형 검증을 가능하게 하고 있음",
+    "content": "<ul>\n<li>Anthropic과 Theorem은 <strong>Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증</strong>함. 발견한 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 증명함</li>\n<li>기존 <strong>퍼즈 테스트를 명세로 변환</strong>하고 RISC-V 바이너리 수...<p></p></li></ul>",
+    "createdAt": "2026-10-23T04:36:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=35855",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Docker는 이상하다",
+    "content": "<ul>\n<li>컨테이너는 별도의 가상 머신이 아니라 <strong>제약을 적용한 프로세스</strong>이며, 호스트 커널이 실행하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/proc</code>에서도 찾을 수 있음</li>\n<li>Linux에는 컨테이너라는 단일 기능이 없으며, <strong>네임스페이스와 cgroups</strong>, 네트워크 격리 등 여러 커널 기능을 조합해 구현함</li>...<p></p></ul>",
+    "createdAt": "2026-10-23T03:33:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=35852",
+    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -532,50 +576,6 @@
     "content": "<ul>\n<li><strong>작은 스마트폰과 태블릿을 하나로 묶은 애플의 첫 폴더블 아이폰</strong>. NYT Wirecutter가 일주일간 실사용한 결과, 화면 전환과 휴대성이 만족스러웠으며, 예상과 달리 작은 외부 화면을 더 자주 사용했음</li>\n<li><strong>5.4인치 외부 화면으로 메시지와 일상 작업을 처리</strong>하고, 펼치면...<p></p></li></ul>",
     "createdAt": "2026-10-22T04:10:02.000+00:00",
     "link": "https://news.hada.io/topic?id=35796",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "macOS, 더 이상 모든 메뉴에 기본으로 아이콘을 넣지 않음",
-    "content": "<ul>\n<li>macOS Tahoe에서 도입한 <strong>모든 메뉴 항목에 기본으로 아이콘을 넣는 방식</strong>이 Golden Gate에서 철회됨</li>\n<li>Apple의 새 <strong>Human Interface Guidelines</strong>는 Tahoe의 메뉴 방식을 macOS에서 하지 말아야 할 사례로 명시함</li>\n<li>Apple은 이 방식을 <strong>설계하고 출시해 1년...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-22T03:38:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=35793",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "이 PHP 취약점은 쉽게 악용할 수 없다",
-    "content": "<ul>\n<li><strong>PHP2Shell</strong>은 <strong>실제 버그이며 중요하지만</strong>, Log4Shell이나 Heartbleed처럼 쉽게 악용할 수 있는 취약점은 아닌 것으로 보임</li>\n<li>공개 후 <strong>약 10시간 시점</strong>에 GitHub에서 수천 개의 PoC가 유통되고 있지만, 기본 PHP 인스턴스에서 작동하는 익스플로잇은 확...<p></p></li></ul>",
-    "createdAt": "2026-10-22T03:35:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=35792",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: php2go - php 를 golang 으로 마이그레이션하는 skills",
-    "content": "<p>안녕하세요, 오픈소스 커뮤니티 고수다에서 php 를 go 로 전환하는 skill 모음을 공유드립니다.</p>\n<p>단순히 PHP 문법을 Go로 번역하는 것이 아니라, 기존 애플리케이션의 기능과 데이터를 보존하면서 유지보수 가능한 Go 코드로 전환하는 것이 목표입니다.</p>\n<p>주요 접근 방식은 다음과 같습니다.</p>\n<ul>\n</ul>",
-    "createdAt": "2026-10-22T03:17:54.000+00:00",
-    "link": "https://news.hada.io/topic?id=35791",
-    "author": "sjc02183",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "mitmproxy, --emudhra 옵션 추가",
-    "content": "<ul>\n<li>mitmproxy에 <strong>손상된 eMudhra 중간 CA 키로 TLS 인증서를 서명</strong>하는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--emudhra</code> 옵션이 추가됨</li>\n<li>옵션은 <strong>기본적으로 비활성화</strong>되어 있으며, 활성화하면 인증서 저장소의 기본 개인 키와 CA 체인을 내장된 eMudhra 자료로 교체함</li>\n<li><strong>EM OV TLS...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-22T02:33:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=35790",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
