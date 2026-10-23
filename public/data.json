@@ -1,5 +1,137 @@
 [
   {
+    "title": "OpenSSL 4.1.0 - DTLS 1.3과 GREASE 지원 추가",
+    "content": "<ul>\n<li><strong>OpenSSL 4.1.0</strong>은 DTLS 1.3, GREASE, SSL 리스너 API의 DTLS 지원을 추가한 기능 릴리스임</li>\n<li><strong>암호 연산 최적화</strong>로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ppc64le</code>의 ML-DSA/ML-KEM NTT 연산과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">x86_64</code>의 ML-DSA, SHAKE x4, AES-CBC 복호화 성능을 개선함</li>\n<li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ts...<p></p></code></strong></li></ul>",
+    "createdAt": "2026-10-23T20:45:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=35885",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "pgrust 제거: 쿼리별 전용 커널과 결과 캐싱을 이용한 벤치마크 부정행위",
+    "content": "<ul>\n<li>ClickBench에서 <strong>pgrust 항목을 제거하는 PR이 병합됨</strong>. 제거 사유는 43개 벤치마크 쿼리에 맞춘 전용 실행 경로와 이전 실행 결과를 재사용하는 캐시가 벤치마크 규칙을 위반한다는 것임</li>\n<li>공개 소스와 릴리스 바이너리에서 <strong>쿼리별 수작업 커널</strong>, 벤치마크 SQL 내장, 특...<p></p></li></ul>",
+    "createdAt": "2026-10-23T20:42:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=35884",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "캐나다인들이 C-22 법안에 반대할 시간이 얼마 남지 않음",
+    "content": "<ul>\n<li>정부의 감시 권한을 대폭 확대하는 <strong>C-22 법안</strong>이 캐나다 하원을 통과해 상원에서 심의 중이며, 시민단체는 법안 저지를 위한 청원 참여를 촉구함</li>\n<li>통신사와 메시징 앱 등에 감시 협조를 강제하고, “시스템 전반의 보안 취약성”을 초래하지 않는다는 조건으로 <strong>백도어 설치 명...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-23T20:39:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=35883",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple Music 404 페이지를 찾을 수 없음 오류",
+    "content": "<p>Apple Music 404 페이지를 찾을 수 없음 오류</p>\n",
+    "createdAt": "2026-10-23T20:36:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=35882",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: OnKey - 노래를 못해서 음정이 어긋나는 곳을 보여주는 앱을 만들었습니다",
+    "content": "<ul>\n<li><strong>OnKey</strong>는 Spotify, Apple Music, 브라우저의 YouTube에서 재생하는 노래를 따라 부르며 연습하는 무료 오픈소스 Mac용 보컬 훈련 앱임</li>\n<li>처음 재생할 때는 가사를 보여주고 곡이 끝나면 <strong>멜로디를 학습</strong>함. 이후에는 음표 위에 사용자의 음정을 실시간으로 겹쳐 보여주며...<p></p></li></ul>",
+    "createdAt": "2026-10-23T19:33:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=35881",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "eMudhra, Mozilla 루트 프로그램 조사 답변 기한 무시하고 소셜 미디어 탓",
+    "content": "<ul>\n<li><strong>eMudhra 중간 인증서 8개의 개인 키</strong>가 모두 256 미만 정수여서 사실상 즉시 복구할 수 있는 상태였음. Mozilla도 제보자의 방법을 모른 채 독립적으로 키를 복구해 키 생성 결함을 확인함</li>\n<li><strong>Mozilla의 조사 답변 기한</strong>과 eMudhra가 추가로 요청한 24시간이 모두 지난 ...<p></p></li></ul>",
+    "createdAt": "2026-10-23T18:43:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=35880",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Kimi K3.1 Pro와 K3.1 Pro Highspeed - 100만 토큰 문맥을 지원하는 3T급 모델",
+    "content": "<ul>\n<li><strong>Kimi K3.1 Pro</strong>는 K3의 사후 학습을 확대해 코딩, 3D 제작, 금융 조사와 에이전트 역량을 강화한 3T급 모델로, <strong>100만 토큰 문맥</strong>을 지원하며 전체 가중치는 2026년 11월 4일까지 공개할 예정임</li>\n<li><strong>K3.1 Pro Highspeed</strong>도 함께 출시하며, Kimi 측에 따르...<p></p></li></ul>",
+    "createdAt": "2026-10-23T18:40:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=35879",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "과학의 낯선 공간: 정합적이지만 인지적으로 접근하기 어려운 연구 방향",
+    "content": "<ul>\n<li><strong>과학적 정합성</strong>과 <strong>인지적 가용성</strong>을 별도로 모델링해, 기존 지식에 비추어 타당하면서도 현재 연구자 집단이 쉽게 떠올리기 어려운 연구 방향을 탐색하는 프레임워크임</li>\n<li>논문을 재조합 가능한 <strong>아이디어 원자</strong>로 분해하고, 조합의 연구 가능성과 기존 ...<p></p></li></ul>",
+    "createdAt": "2026-10-23T17:38:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35878",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "오늘, 목표로 삼았던 iPhone을 해킹했다",
+    "content": "<ul>\n<li><strong>Calif</strong>가 iPhone 해킹에 성공했다며 파리 <strong>Hexacon</strong>에서 시연 영상 4개를 공개함</li>\n<li>첫 번째 영상은 <strong>Signal 1-click</strong> 시연임</li>\n<li>두 번째 영상은 서드파티 앱 대신 <strong>iMessage</strong>를 대상으로 함</li>\n<li>나머지 영상에는 “<strong>당...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-23T17:35:13.000+00:00",
+    "link": "https://news.hada.io/topic?id=35877",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "천천히 움직이며 고치기 (2024)",
+    "content": "<ul>\n<li>창업의 목표가 반드시 유니콘일 필요는 없으며, <strong>지속 가능한 성장과 견고한 제품</strong>을 추구하는 작고 유용한 사업도 대안이 될 수 있음</li>\n<li><strong>천천히 움직이기</strong>는 의사결정을 늦추라는 뜻이 아니라, 실행을 신중하게 하고 나중에 고칠 기회가 좀처럼 오지 않는 문제를 만들지...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:46:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=35876",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Fable 5.1은 이미지에 어떻게 메시지를 숨기는가?",
+    "content": "<ul>\n<li><strong>Claude Fable 5.1</strong>이 SVG 이미지에 숨긴 메시지를 별도 세션의 같은 모델이 인코딩 규칙이나 SVG 소스 없이 복원하는 실험에서 <strong>78%의 복원율</strong>을 기록함</li>\n<li>50개 이미지 중 33개는 <strong>높이 인코딩</strong>을 사용했으며, 건물이나 풀잎 같은 시각 요소의 높이를 문...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:43:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=35875",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Crystal 1.22 - 모든 타깃에 네이티브 이벤트 루프 기본 적용, DWARF 처리 개선",
+    "content": "<ul>\n<li><strong>Crystal 1.22.0</strong>은 모든 타깃에서 시스템 셀렉터를 직접 사용하는 네이티브 이벤트 루프를 기본으로 사용하며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">libevent</code>는 명시적으로 선택하는 대체 수단으로 남음</li>\n<li><strong>DWARF 파서</strong>를 전면 개편해 성능과 메모리 사용량을 개선함. 필요할 때 섹션을 탐색하...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:40:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=35874",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "eMudhra의 단일 요소 OTP 로그인 시스템 완전 우회",
     "content": "<ul>\n<li>eMudhra의 <strong>단일 요소 인증(1FA) OTP 로그인</strong>을 완전히 우회할 수 있다는 시연 게시물이 공개됨</li>\n<li>해당 시스템은 <strong>공개키로 OTP를 암호화</strong>하며, OTP 발급 과정에 Cloudflare Turnstile을 사용함</li>\n<li>게시자에 따르면 공개된 키로 <strong>OTP 요청을 직접 암호화</strong></li></ul>",
     "createdAt": "2026-10-23T16:11:08.000+00:00",
@@ -462,127 +594,6 @@
     }
   },
   {
-    "title": "LLM이 매긴 자기 답변의 신뢰도 점수를 믿기 어려운 이유",
-    "content": "<ul>\n<li>LLM에 “얼마나 확신하나요?”라고 물어 얻은 <strong>‘0.85’는 내부 확신을 측정한 값이 아니라 생성된 텍스트</strong>. 숫자가 정밀해 보인다고 실제 정답률까지 보장되지는 않음</li>\n<li>신뢰도를 확인하려면 <strong>예측과 실제 결과를 여러 건 모아 비교</strong>해야 함. 70%라고 답한 사례 중 실제...<p></p></li></ul>",
-    "createdAt": "2026-10-22T17:46:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=35827",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "PHP session.upload_progress의 힙 UAF(CVE-2026-109618 / -109619)",
-    "content": "<ul>\n<li>PHP 업로드 진행률 처리 중 메모리 부족으로 남은 <strong>직렬화 상태</strong>가 같은 프로세스의 다음 요청에서 재사용되며 힙 해제 후 사용(UAF)이 발생함</li>\n<li>처음 제시한 <strong>캐시 포인터 공격 경로는 성립하지 않음</strong>. 참조 카운트 증가로 대상 배열이 살아 있어 해제 자체가 없으며, 해...<p></p></li></ul>",
-    "createdAt": "2026-10-22T17:43:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=35826",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Amazon, PHP2Shell 공개 나흘 전의 공격 시도 흔적 확인",
-    "content": "<ul>\n<li>Amazon이 <strong>MadPot 허니팟 기록에서 10월 17일의 PHP2Shell 공격 시도를 확인</strong>. 취약점 공개보다 나흘 앞선 활동</li>\n<li>공개 당일에도 <strong>엠바고 해제 전 공격 시도</strong>를 관측했으며, 패치 공개 후에는 추가 개념 증명 코드가 거의 즉시 공격에 사용됨</li>\n<li>공개 전 공격자의 ...<p></p></li></ul>",
-    "createdAt": "2026-10-22T17:40:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=35825",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: ZZO - 바로 사용하는 URL 단축 API와 MCP",
-    "content": "<p>URL 단축 서비스 zzo.kr 을 소개합니다.</p>\n<p>긴 인터넷 주소를 짧은 링크로 변환하고, 간단히 QR코드로도 공유 할 수 있는 웹 서비스 입니다.<br>\n회원가입 없이 브라우저에서 URL 단축부터, API, MCP까지 사용할 수 있도록 만들었습니다.</p>\n<ul>\n<li><a href=\"https://zzo.kr/url\" target=\"_blank\" rel=\"noopener noreferrer\">URL 단축 서비스</a></li>\n</ul>",
-    "createdAt": "2026-10-22T16:58:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35824",
-    "author": "haav0",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Anthropic, 상반기 순손실 807억 달러... 대부분은 비현금 회계 비용",
-    "content": "<ul>\n<li>Anthropic의 <strong>2026년 상반기 순손실이 807억 달러</strong>로 전년 동기 130억 달러에서 확대. 이 중 <strong>720억 달러는 전환사채의 가치 상승을 반영한 비현금 회계 비용</strong>으로, 영업에 따른 현금 지출과는 구분</li>\n<li>실제 <strong>컴퓨팅 용량과 인프라 지출은 상반기 약 90억 달러</strong></li></ul>",
-    "createdAt": "2026-10-22T16:46:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=35823",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "패치되지 않은 Linux 커널 취약점 여러 건, 공개 메일링 리스트에 게시",
-    "content": "<ul>\n<li>Trend Micro의 <strong>Zero Day Initiative(ZDI)가 아직 메인라인에서 수정되지 않은 Linux 커널 취약점 여러 건을 공개 메일링 리스트 LKML에 게시</strong></li>\n<li><strong>SMB Direct의 정수 언더플로와 KSMBD의 경쟁 상태</strong>로 원격 코드 실행에 이를 수 있는 취약점 포함. 두 건 모두 보고서상 ...<p></p></li></ul>",
-    "createdAt": "2026-10-22T16:43:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=35822",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DNS 리졸버 Quad9, 프랑스에서 철수 예정",
-    "content": "<ul>\n<li><strong>Quad9</strong>가 프랑스 법원의 도메인 차단 명령에 대응해 <strong>2026년 11월 24일 프랑스 내 서비스를 중단</strong>하기로 함. 무료 사이버 위협 보호와 일반 DNS 서비스가 모두 대상임</li>\n<li>스포츠 중계권자인 <strong>beIN</strong>이 저작권 침해에 관여한다고 주장한 도메인들의 재귀 DN...<p></p></li></ul>",
-    "createdAt": "2026-10-22T16:40:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=35821",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "개설한 적 없는 Cash App 계정 때문에 징역 6년 위기에 놓인 여성",
-    "content": "<ul>\n<li>Amanda Smith가 자신의 명의로 개설된 <strong>Cash App 사기 계정</strong> 때문에 사흘간 구금됐으며, 컴퓨터 사기 등의 혐의로 <strong>최대 징역 6년</strong>에 직면함</li>\n<li>문제의 계정은 Smith의 <strong>사회보장번호와 생년월일</strong>로 만들어졌으며, Facebook Marketplace 사기 피해자가 보낸...<p></p></li></ul>",
-    "createdAt": "2026-10-22T15:51:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=35820",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "오리건주 의회, Redfin에 매물로 나온 폭포 매입에 약 32억원 승인",
-    "content": "<ul>\n<li>오리건주 의회가 <strong>Abiqua Falls와 주변 토지 매입에 210만 달러($2.1m)</strong> 를 승인함. 소유 재단은 주정부의 제안을 수락했으며, 매입 진행에는 실사가 필요함</li>\n<li>이 폭포는 <strong>100년 넘게 사유지였지만 일반에 개방</strong>돼 있었음. Redfin에 매물로 나오자 방문객들의 접근이 차단...<p></p></li></ul>",
-    "createdAt": "2026-10-22T15:48:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=35819",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI CLI - OpenAI REST API를 위한 공식 명령줄 도구",
-    "content": "<ul>\n<li><strong>별도 애플리케이션을 작성하지 않고 터미널과 셸 스크립트에서 OpenAI API를 호출</strong>하는 공식 CLI. 특정 API를 직접 실행하거나 반복 작업을 자동화할 때 사용</li>\n<li>텍스트 응답 생성과 <strong>이미지 생성/편집, 파일 업로드/다운로드</strong> 지원. 생성한 이미지는 로컬에 저장하고, 지...<p></p></li></ul>",
-    "createdAt": "2026-10-22T15:45:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=35818",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "eMudhra, 인증기관 개인 키 사고 후 글로벌 SSL/TLS 인증서 사업 철수",
-    "content": "<ul>\n<li>eMudhra가 <strong>글로벌 SSL/TLS 인증서 사업에서 자발적으로 철수하기로 결정</strong>. 최근 인증기관 개인 키 사고를 겪은 가운데, 기업용 솔루션과 다른 디지털 신뢰 서비스에 집중할 계획</li>\n<li>해당 사업은 <strong>전체 글로벌 매출의 약 1%</strong>. 데이터 주권과 규정 준수에 드는 비용이 늘고...<p></p></li></ul>",
-    "createdAt": "2026-10-22T15:42:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=35817",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Why Distributed Systems Prefer Independence over Coordination",
     "content": "<p>In a distributed system, you have components running in separate processes or machines. These components could be application services, database replicas, or even background workers.</p><p>Since in distributed systems, we divide the system into so many components, it’s pretty common that one component may need to talk to another component to get something done. It may also have to wait for the other component’s response. You can think of coordination as this talking between components. For example, you may have one service waiting for another service to approve a request. Or a database waits for acknowledgment from its replicas. Or a worker waits for a lock.</p><p>In this article, we’ll look at why coordination is a challenge for distributed systems. Here’s what we will cover.</p><ul><li><p>Why coordination becomes a challenge</p></li><li><p>How coordination increases in a system</p></li><li><p>How to reduce coordination</p></li><li><p>Strategies to handle coordination</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!qLcI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!qLcI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!qLcI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!qLcI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!qLcI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffec978f7-2b74-491a-838e-ddfa1d23e49d_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>Why Coordination Becomes a Challenge</h2><div data-attrs=\"{\" data-component-name=\"SponsorshipCampaignToDOM\"></div>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/why-distributed-systems-prefer-independence\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-10-22T15:30:47.000+00:00",
@@ -591,17 +602,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "외벽 비상계단은 어쩌다 사라졌을까?",
-    "content": "<ul>\n<li>미국의 <strong>외벽 비상계단</strong>은 기존 건물에도 피난 수단을 요구한 법규에 대응해 확산됐지만, 안전성과 유지관리 문제로 신축 건물에서 점차 퇴출됨</li>\n<li>1860년 뉴욕의 피난 규정은 <strong>기존 건물에도 소급 적용</strong>됐으며, 내부 계단을 개조하는 것보다 저렴하고 간단한 외부 부착형...<p></p></li></ul>",
-    "createdAt": "2026-10-22T14:35:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=35816",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
