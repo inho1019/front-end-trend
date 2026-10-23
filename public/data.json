@@ -1,5 +1,148 @@
 [
   {
+    "title": "eMudhra의 단일 요소 OTP 로그인 시스템 완전 우회",
+    "content": "<ul>\n<li>eMudhra의 <strong>단일 요소 인증(1FA) OTP 로그인</strong>을 완전히 우회할 수 있다는 시연 게시물이 공개됨</li>\n<li>해당 시스템은 <strong>공개키로 OTP를 암호화</strong>하며, OTP 발급 과정에 Cloudflare Turnstile을 사용함</li>\n<li>게시자에 따르면 공개된 키로 <strong>OTP 요청을 직접 암호화</strong></li></ul>",
+    "createdAt": "2026-10-23T16:11:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35873",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Epic Games Inc 대 Apple Inc 소송, 호주에서 iOS 대체 배포와 결제 허용 명령",
+    "content": "<ul>\n<li>호주 연방법원은 Apple의 <strong>시장지배력 남용</strong>에 대한 구제로, 호주 이용자에게 iOS 앱의 직접 다운로드와 대체 앱 스토어, 대체 결제를 허용하도록 명령함</li>\n<li><strong>IAP 강제와 외부 결제 안내 금지</strong>뿐 아니라, 수수료와 추가 결제 단계로 대안 이용을 억제하거나 개발자에게 불...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:08:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35872",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Disney, 모든 요금제에 광고 노출을 확인한 지 며칠 만에 가격 인상",
+    "content": "<ul>\n<li><strong>Disney+와 Hulu의 Premium 월 요금</strong>이 각각 18.99달러에서 21.49달러로 약 13% 오름. 광고형 단독 요금제도 인상되지만, 번들은 인상 폭을 작게 유지하거나 가격을 동결함</li>\n<li>Disney+는 구독 약관을 수정해 <strong>Premium을 포함한 모든 요금제</strong>에서 홍보 콘텐츠, 협찬, 콘텐츠...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:05:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35871",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: claude-code-todo - 클로드 코드 옆에 띄워 두는 TODO pane",
+    "content": "<p>Claude Code로 작업하다 생기는 할 일을 바로 적고, 고치고, 지울 수 있게 만든 플러그인입니다. 세션을 닫아도 목록은 남습니다.</p>\n<p>채팅 옆 pane에 전역 목록과 프로젝트 목록이 탭으로 나뉘어 있고, 프롬프트 위에는 남은 개수와 다음 할 일, 마감 지난 개수가 한 줄로 나옵니다.</p>\n<p>pane에서 키(d 완료, </p>",
+    "createdAt": "2026-10-23T16:03:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=35870",
+    "author": "wlsdnen",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "투자자 소유 전력회사, 공영 전력회사보다 전기요금 23% 더 부과",
+    "content": "<ul>\n<li>2025년 미국 가정용 전력의 kWh당 평균 요금은 <strong>투자자 소유 전력회사 17.8센트</strong>, 공영 14.5센트, 협동조합 14.1센트로 집계됨</li>\n<li>2020년 이후 투자자 소유 전력회사의 요금은 <strong>34% 상승</strong>해 같은 기간 물가 상승률 24%를 웃돌았으며, 공영과 협동조합의 요금 상승률은 각각...<p></p></li></ul>",
+    "createdAt": "2026-10-23T16:02:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=35869",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "우리 집에도 Traits는 있다: Zig에서 구현하는 컴파일 타임 타입 계약",
+    "content": "<ul>\n<li>Zig의 <strong>컴파일 타임 구조체</strong>에 특정 타입의 관련 함수를 묶으면, 별도 라이브러리나 언어 기능 없이 명시적인 타입 계약을 갖춘 <strong>Trait 패턴</strong>을 구현할 수 있음</li>\n<li>기존 동적 인터페이스는 메서드 시그니처를 보장하지만 최적화를 제한하고, <strong>comptime 덕 타이핑...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-23T15:03:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=35867",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "스웨덴 정부청사, ChatGPT와 Claude 접속 차단 예정",
+    "content": "<ul>\n<li>스웨덴 <strong>정부청사(Regeringskansliet)</strong> 가 월요일부터 직원 업무용 컴퓨터에서 <strong>ChatGPT와 Claude 접속을 차단</strong>함</li>\n<li>직원들이 <strong>승인된 AI 서비스</strong>를 사용하도록 유도하기 위한 조치이며, 승인 도구에는 Microsoft의 Copilot이 포함됨</li>\n<li>다만 일부 ...<p></p></li></ul>",
+    "createdAt": "2026-10-23T14:56:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35866",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "네덜란드 정부가 Jared Kushner의 휴대전화를 해킹했다",
+    "content": "<ul>\n<li><strong>Jared Kushner</strong>는 책 발췌문에 담긴 의혹이 터무니없고 명백히 거짓이라며, 해당 일이 일어나지 않았다고 부인함</li>\n<li>Kushner 측은 <strong>모든 주장을 공식적으로 부인</strong>했으며, 책의 저자가 이를 뒷받침할 검증 가능한 증거를 하나도 내놓지 않았다고 반박함</li>\n<li><strong>...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-23T14:53:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35865",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "휴대전화가 더 이상 당신 것이 아니게 될 날이 다가온다: 봉쇄까지 70일",
+    "content": "<ul>\n<li><strong>Keep Android Open</strong> 캠페인은 Google의 개발자 인증 의무화가 Play Store 밖의 앱 배포까지 중앙 통제하고, 사용자가 구매한 기기에 원하는 소프트웨어를 설치할 자유를 제한한다고 비판함</li>\n<li>등록에는 <strong>수수료와 정부 발급 신분증</strong>을 비롯해 약관 동의, 서명 키 증빙, 앱...<p></p></li></ul>",
+    "createdAt": "2026-10-23T14:50:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35864",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 오마이명함 – 명함 찍으면 연락처에 저장되는 안드로이드 앱 (무료·광고 없음)",
+    "content": "<p>명함 받으면 연락처에 옮겨 적는 게 귀찮아서 직접 만들었습니다.</p>\n<p>• 명함을 찍으면 이름·회사·직함·휴대전화·유선전화·이메일·주소·웹사이트를 읽어서 칸을 채워줍니다<br>\n• 틀린 칸만 고치고 버튼 한 번이면 폰 연락처에 저장됩니다<br>\n• 같은 번호나 이름이 이미 있으면 기존 연락처에 합칠지 물</p>",
+    "createdAt": "2026-10-23T14:08:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35863",
+    "author": "tomlee",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Accordion Icons: Which Work Best?",
+    "content": "<p>So what icon is the <strong>most reliable</strong> to show expansion and collapsing for accordions? Is there really any noticeable difference between carets, chevrons, arrows, and triangles?</p>\n<p>Well, <a href=\"https://www.nngroup.com/articles/accordion-icons/\" target=\"_blank\" rel=\"noopener noreferrer\">research</a> shows that there is some difference indeed. But what’s more interesting is that <strong>split menus are harmful</strong>, why it's better to not have icons and text labels link to different actions, and why the caret is the safest icon choice. Let’s dive in!</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/15-accordion-icons.jpg\"></p>\nNo Icon = Opening The Page\n<p>The findings aren’t very surprising: without any icon in use, users expect that tapping on the menu item would take them directly to a new page. Users often struggle with <strong>custom icons</strong> as they don't clearly signal that they'll open an accordion. And people tend to tap fairly equally on the icon and on the label for most icons.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/10-accordion-icon-study.jpg\"></p>\n<p>Many designs (like the one below) tend to slightly <strong>overcomplicate things</strong> by adding arrows and carets pointing everywhere, depending on the state of the accordion. But typically we don't need to use an arrow to indicate a link to the category.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/11-nng-aaccordion-icon-study.jpg\"></p>\n<p>The rule of thumb is very simple: if it’s a link, the easiest and most effective way is to <strong>simply underline it</strong> — without any arrow, caret, or other icon. Perhaps it’s not particularly exciting, but it works flawlessly every single time.</p>\nConfusing Behavior With Arrows ▶ and Split Buttons\n<p>Using a right-facing arrow icon ▶ <strong>isn’t</strong> associated with an expectation of going directly to a new page. And having the same icon pointing down ▼ doesn’t necessarily imply that an accordion is going to open on tap/click.</p>\n<p>It’s a good idea to <strong>avoid split buttons for accordions</strong> — where the text label links directly to a page, but the icon opens the accordion. Instead, it’s much more reliable to allow users to tap on a main category and expose the menu; and to access the category page, we add a link to it inside the menu.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/12-accordion-navigation-dhl.jpg\"></p>\nPlus +/− and Arrows ↓/↑ Are Understood, But Can Be Misunderstood\n<p>For accordions, we typically use +/− or arrows ↓/↑ to signal expanded and collapsed states, and typically it works well. However, both have <strong>many different interpretations</strong>. Plus + can mean anything from saving for later to adding to cart to zooming in, and can be particularly confusing for multi-level navigation, with many levels open at the same time.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/13-split-button-accordion-pattern.jpg\"></p>\n<p>Arrows ↓/↑ can mean scrolling or sliding or finding the next match, but also a jump to a particular portion of a page. Both plus and arrows are well-understood and work, but depending on the design, can be confusing — mostly because <strong>they are overloaded</strong>.</p>\nWrapping Up\n<p>The safe choice is to use the <strong>caret/triangle pointing down ▼ by default</strong>, and change it to a caret pointing up or a caret pointing sideways ▶ on interaction. If you need an alternative, then +/- typically work well, too.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/14-lensorg-accordion.jpg\"></p>\n<p>But we certainly don’t need any further icons or arrows to indicate where the links go. The same goes for split menus, which often produce more mistakes than help. Instead, we have one button or dropdown that does exactly one thing — shows all options and allows users to drill down.</p>\n<p>And if you need a direct link, we link the title directly to the page and <strong>underline it</strong>. More often than not, simpler is better.</p>\n<h3>Editor’s Note</h3>\n<p>We hope you’ll find these wonderful projects useful — put together by wonderful creators. A friendly shout-out to everyone sharing their work with folks to use and learn from! That’s one of the reasons why we truly love the web and people building and designing it. 💚</p>\n<p>At Smashing, <strong>we love the web</strong>. That’s why we publish articles and books, run workshops and events around everything web. We love seeing what we all can do to make the web more accessible and usable. We also love organizing and attending <a href=\"https://smashingconf.com/online-workshops\" target=\"_blank\" rel=\"noopener noreferrer\">online events</a> — with <strong>friendly discounts</strong> for large groups (5+ attendees) and schools and students. Interested? Just <a href=\"https://smashingconf.com/contact\" target=\"_blank\" rel=\"noopener noreferrer\">send us an email</a> and we’ll sort it out!</p>\n<ul>\n<li>Multiple <strong>live sessions</strong> (2.5h each),</li>\n<li><strong>09:00 – 11:30 AM PT</strong> (18:00 – 20:30 CET)</li>\n<li>With <strong>workshop video recordings</strong> &amp; slides,</li>\n<li><a href=\"https://www.youtube.com/watch?v=6vGXBWj0hI0\" target=\"_blank\" rel=\"noopener noreferrer\">Free video preview </a>(2.5h)</li>\n<li><a href=\"https://smashingconf.com/online-workshops#all-workshops\" target=\"_blank\" rel=\"noopener noreferrer\">Jump to all workshops&nbsp;→</a></li>\n</ul>\n",
+    "createdAt": "2026-10-23T13:00:00.000+00:00",
+    "link": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+    "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+    "site": {
+      "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
+      "name": "Articles on Smashing Magazine"
+    }
+  },
+  {
+    "title": "Ask HN: 모델이 그렇게 뛰어나다면, OpenAI는 왜 직접 회사 100개를 세우지 않을까?",
+    "content": "<ul>\n<li>최첨단 모델이 그렇게 뛰어나다면 <strong>OpenAI나 Anthropic이 직접 제품과 회사를 만들어 더 큰 수익을 내지 않는 이유</strong>를 묻는 질문. 모델 가격이 내려가는 상황에서 토큰 판매가 최선의 전략인지도 문제 제기</li>\n<li><strong>소프트웨어 제작과 사업 운영은 별개의 문제</strong>라는 답변. 고객...<p></p></li></ul>",
+    "createdAt": "2026-10-23T12:35:23.000+00:00",
+    "link": "https://news.hada.io/topic?id=35862",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "‘자연어 프로그래밍’의 어리석음 (1978)",
+    "content": "<ul>\n<li>Dijkstra는 <strong>형식 기호를 자연어로 대체하면 프로그래밍이 쉬워진다는 전제</strong>를 의심함. 기계가 더 많은 부담을 진다고 해서 사람의 부담이 줄어드는 것은 아님</li>\n<li><strong>인터페이스</strong>는 고정된 작업량을 나누는 경계가 아니라 협력과 소통에 필요한 작업을 추가함. 인터페이스 변...<p></p></li></ul>",
+    "createdAt": "2026-10-23T11:34:25.000+00:00",
+    "link": "https://news.hada.io/topic?id=35861",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Hedra, 고등학생 때 처음부터 직접 만든 3D 오픈월드 게임",
     "content": "<ul>\n<li><strong>Hedra</strong>는 약 15세 때 OpenGL을 배우려고 시작해 수년에 걸쳐 게임과 자체 엔진으로 확장한 저폴리곤 오픈월드 RPG이며, Linux와 Windows를 정식 지원함</li>\n<li><strong>절차적 생성</strong>으로 끝없이 펼쳐지는 세계와 퀘스트를 만들며, 월드 파일 없이 플레이어 데이터와 시드만 저장하고...<p></p></li></ul>",
     "createdAt": "2026-10-23T10:33:44.000+00:00",
@@ -45,7 +188,7 @@
   },
   {
     "title": "LLM이 훨씬 더 큰 규모의 소프트웨어 정형 검증을 가능하게 하고 있음",
-    "content": "<ul>\n<li>Anthropic과 Theorem은 <strong>Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증</strong>함. 발견한 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 증명함</li>\n<li>기존 <strong>퍼즈 테스트를 명세로 변환</strong>하고 RISC-V 바이너리 수...<p></p></li></ul>",
+    "content": "<ul>\n<li>Anthropic과 Theorem은 <strong>Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증</strong>함. 발견한 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 증명</li>\n<li>무작위 입력을 대량 실행하는 퍼징과 달리, <strong>64MB 미만의 모든 입력에...<p></p></strong></li></ul>",
     "createdAt": "2026-10-23T04:36:53.000+00:00",
     "link": "https://news.hada.io/topic?id=35855",
     "author": "neo",
@@ -56,7 +199,7 @@
   },
   {
     "title": "Docker는 이상하다",
-    "content": "<ul>\n<li>컨테이너는 별도의 가상 머신이 아니라 <strong>제약을 적용한 프로세스</strong>이며, 호스트 커널이 실행하고 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">/proc</code>에서도 찾을 수 있음</li>\n<li>Linux에는 컨테이너라는 단일 기능이 없으며, <strong>네임스페이스와 cgroups</strong>, 네트워크 격리 등 여러 커널 기능을 조합해 구현함</li>...<p></p></ul>",
+    "content": "<ul>\n<li><strong>컨테이너 런타임을 직접 만들기 시작하면서 발견한 Docker의 뜻밖의 작동 방식</strong>. 평소 하나의 도구로 쓰던 기능들이 내부에서는 여러 Linux 기능과 우회 구현으로 연결되어 있음</li>\n<li>컨테이너는 별도의 가상 머신이 아니라 <strong>격리와 자원 제한을 적용한 프로세스</strong>. Linux에...<p></p></li></ul>",
     "createdAt": "2026-10-23T03:33:51.000+00:00",
     "link": "https://news.hada.io/topic?id=35852",
     "author": "neo",
@@ -184,6 +327,17 @@
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
+    }
+  },
+  {
+    "title": "TanStack Start is finally stable",
+    "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​494 — October 23, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/191925/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/191882/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/ejihjkazanj4b02abevr.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td><p>TanStack Start Reaches 1.0</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>After a year as a release candidate, <a href=\"https://react.statuscode.com/link/191882/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack Start 1.0 is officially stable</a>. Tanner Linsley explains how it grew out of <em>TanStack Router</em>, and is candid about RSC, which felt like <em>\"this box we had to check to be taken seriously as a React framework\"</em>, and which <a href=\"https://react.statuscode.com/link/191926/rss\" target=\"_blank\" rel=\"noopener noreferrer\">tanstack.com</a> itself no longer uses. Plus:</p>\n<ul>\n<li>\n<p>📊 <a href=\"https://react.statuscode.com/link/191883/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The same app in Start and Next.js 16.4, benchmarked</a> – <em>Start</em> handled 2.9x-8.6x more dynamic requests and built ~1.7x faster with type-checking&nbsp;included.</p>\n</li>\n<li>\n<p>🚚 Moving over? There are official guides for <a href=\"https://react.statuscode.com/link/191884/rss\" target=\"_blank\" rel=\"noopener noreferrer\">migrating from Next.js</a> and <a href=\"https://react.statuscode.com/link/191885/rss\" target=\"_blank\" rel=\"noopener noreferrer\">from the RC</a>. Sarthak Mishra <a href=\"https://react.statuscode.com/link/191886/rss\" target=\"_blank\" rel=\"noopener noreferrer\">moved his site over from Astro</a> (and explains why) and Lovable offers older projects a migration option (<a href=\"https://react.statuscode.com/link/191887/rss\" target=\"_blank\" rel=\"noopener noreferrer\">here's how one went</a>).</p>\n</li>\n<li>\n<p>💬 Ryan Carniato called it <a href=\"https://react.statuscode.com/link/191888/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><em>\"a React metaframework with an architecture I can get behind\"</em></a>, while in <a href=\"https://react.statuscode.com/link/191889/rss\" target=\"_blank\" rel=\"noopener noreferrer\">the r/reactjs thread</a> Tanner explained why '1.0' is listed as <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">1.169</code> on npm.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n \n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/191927/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/927c2926.png\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/191927/rss\" title=\"master.dev\" target=\"_blank\" rel=\"noopener noreferrer\">TypeScript in the Age of AI</a></span> — Knowing TypeScript deeply is how you get better code out of AI. Adam Rackis of Spotify shows you how to steer AI toward simpler, correct types and catch the mistakes it slips&nbsp;in.</p>\n  <p>Master.dev <span>sponsor</span></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p>⚠️ Last week, <a href=\"https://react.statuscode.com/link/191890/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Next.js patched two critical RCEs</a>, one rooted in React Server Components, and <a href=\"https://react.statuscode.com/link/191891/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a public PoC</a> is now out. Update Next.js to 16.4.1 or 15.5.28; for other RSC setups, update the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">react-server-dom-*</code> packages to 19.3.1 (or&nbsp;19.2.9/19.1.10/19.0.9).</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191892/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React DevTools for agents now has official docs</a>, covering how it exposes profiling and component data to coding agents through Chrome DevTools&nbsp;MCP.</p>\n</li>\n<li>\n<p>📱 <a href=\"https://react.statuscode.com/link/191893/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo SDK 58</a> is out, using the new <a href=\"https://react.statuscode.com/link/191894/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native 0.88</a>, targeting iOS 27 and ready for the iPhone Duo on day&nbsp;one.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191895/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native for Web has active maintainers again</a> and is moving to the React Foundation's GitHub&nbsp;org.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191896/rss\" target=\"_blank\" rel=\"noopener noreferrer\">TypeScript 7.1 is now in beta</a>, adding a programmatic API and more speed. Type-checking MUI's docs is 1.9x faster and uses half the&nbsp;memory.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191897/rss\" title=\"nextjs.org\" target=\"_blank\" rel=\"noopener noreferrer\">Improving Navigation Experience in v0 with Next.js 16.4</a></span> — How the Next.js team used Partial Prefetching, intent-based prefetching and the new <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">navigation()</code> API to cut loading skeletons across its <a href=\"https://react.statuscode.com/link/191898/rss\" target=\"_blank\" rel=\"noopener noreferrer\">v0</a> AI app&nbsp;builder.</p>\n  <p>Aurora Scharff (Vercel) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191899/rss\" title=\"building.owner.com\" target=\"_blank\" rel=\"noopener noreferrer\">React Only Where Needed: Owner's Next.js to Astro Move</a></span> — Owner's 10,000+ restaurant sites now run on Astro and Cloudflare Workers, keeping React for interactive islands. Menu-page p75 LCP went from 5.4s to&nbsp;0.7s.</p>\n  <p>Selden and Hanford (Owner) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191900/rss\" title=\"tkdodo.eu\" target=\"_blank\" rel=\"noopener noreferrer\">Dead Code Shouldn't Exist</a></span> — The slides and transcript from a popular talk Dominik has given at several conferences this year on how Sentry removed 28K lines of unused code with <a href=\"https://react.statuscode.com/link/191901/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Knip</a>.</p>\n  <p>Dominik Dorfmeister </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>🤖 <a href=\"https://react.statuscode.com/link/191902/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Testing AI-Generated Code: Lint the Pattern, Test the Decision</a> – Structural lint rules and shared harnesses beat a test beside every&nbsp;component. <cite>Robin Wieruch</cite></p>\n<p>📱 <a href=\"https://react.statuscode.com/link/191903/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Apple Didn't Invent the Foldable. It Might Make You Support One.</a> – Getting a React Native app ready for the iPhone Duo's three compatibility&nbsp;tiers. <cite>Sean Barker (Infinite Red)</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/191904/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Loading a 9MB WebAssembly Module Earlier Made Recraft's Editor 17% Faster</a> – Suspending components left the module's download waiting its turn in the React&nbsp;tree. <cite>Sergey Patrakeev (Recraft)</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/191905/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/nishfkuexsqapfi2rcgp.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191905/rss\" title=\"pixelgui.com\" target=\"_blank\" rel=\"noopener noreferrer\">Pixel: Build Graphical Applications in the&nbsp;Terminal</a></span> — Like <em>Ink</em>, but with \"pixel perfect\" graphics. It's a React renderer that draws rounded corners, gradients and proper fonts in terminals that support the Kitty graphics protocol, and that can even embed Chromium WebViews to run web apps in a&nbsp;pane(!)</p>\n  <p>Rob Pruzan (Zenbu Labs) </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191906/rss\" title=\"tanstack.com\" target=\"_blank\" rel=\"noopener noreferrer\">TanStack Hotkeys Beta: A Type-Safe Library for Keyboard Shortcuts</a></span> — <em>Hotkeys</em> takes care of the fiddly, cross-platform edge cases of keyboard shortcuts, sequences, and user-recorded hotkeys. The beta adds <a href=\"https://react.statuscode.com/link/191907/rss\" target=\"_blank\" rel=\"noopener noreferrer\">scopes</a>, so that, say, a dialog's <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Escape</code> doesn't close the panel behind it. Try the demo on the homepage.</p>\n  <p>TanStack </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191908/rss\" title=\"reactrouter.com\" target=\"_blank\" rel=\"noopener noreferrer\">React Router 8.5 Hands View Transitions Over to React</a></span> — Its own view transition APIs are deprecated in favor of React 19.3's <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>. <a href=\"https://react.statuscode.com/link/191909/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Migrating</a> starts with wrapping an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> and removing the old props and state styling. There's also an unstable <a href=\"https://react.statuscode.com/link/191910/rss\" target=\"_blank\" rel=\"noopener noreferrer\">'API-only' mode</a> that serves static HTML but keeps a server for loaders and&nbsp;actions.</p>\n  <p>Remix Team </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/191911/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/v1792586346/br715i8krli31hn0g9bi.png\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191911/rss\" title=\"www.env.style\" target=\"_blank\" rel=\"noopener noreferrer\">env.style: Style Every Environment with Colors or Custom Icons</a></span> — A utility that wraps your Next.js config or Vite setup to tint the favicon per environment at build time, so you can see at a glance where you&nbsp;are.</p>\n  <p>Ryan George </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/191912/rss\" title=\"tamagui.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Tamagui 3: One React UI Codebase for Web and Native</a></span> — A styling system and UI kit for sharing one codebase between React web apps and React Native. v3 adds an opt-in (beta) C++ native runtime that applies theme changes without re-rendering, plus React Strict DOM and Tailwind-style&nbsp;syntax.</p>\n  <p>Nate Wienert </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191913/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Hydrogen 2026.10</a> – Shopify's commerce toolkit is now a library you can drop into existing Next.js or React Router&nbsp;apps.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191914/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Morphicons 2.0</a> – Spring-physics morphing between SVG icons. Now filled icons morph too, not just stroked&nbsp;ones. <a href=\"https://react.statuscode.com/link/191915/rss\" target=\"_blank\" rel=\"noopener noreferrer\">See it in action on its&nbsp;homepage</a>.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191916/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Unistyles 3.6</a> – High-performance React Native styling library. Now with an experimental zero-config Metro integration instead of the Babel&nbsp;plugin.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/191917/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Motion 14.6</a> – Adds keyboard grab-and-move to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Reorder</code> lists, plus <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">stepFrames</code> for deterministic animation&nbsp;testing.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Build and deploy durable AI agents in TypeScript, without managing your own infrastructure. <a href=\"https://react.statuscode.com/link/191918/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Ship your first agent with&nbsp;Trigger.dev</a>.</p>\n \n<p><a href=\"https://react.statuscode.com/link/191919/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo is mobile AI infrastructure</a>: Your agents build, test and ship iOS and Android apps, and you approve what goes out. <a href=\"https://react.statuscode.com/link/191919/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Try&nbsp;it</a>.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td><p>🎶&nbsp; And finally… make a little noise</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/191920/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/dtm0yamwanrjkzjtlgke.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>Fancy making a little music with React? <a href=\"https://react.statuscode.com/link/191920/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Strudel Flow 2</a> is an open source React app built with <a href=\"https://react.statuscode.com/link/191921/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Flow</a> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/ui</code>. Connect instruments and effects to generate <a href=\"https://react.statuscode.com/link/191922/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Strudel</a> code, or load a community patch and start turning&nbsp;knobs.</p>\n<p>The <a href=\"https://react.statuscode.com/link/191923/rss\" target=\"_blank\" rel=\"noopener noreferrer\">source code</a> offers a neat extension point: define an instrument or effect in a small <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.node.ts</code> file, then supply a React component for a custom interface. As <a href=\"https://react.statuscode.com/link/191924/rss\" target=\"_blank\" rel=\"noopener noreferrer\">the team says</a>, <em>\"coding is a fun thing to do for its own&nbsp;sake.\"</em> 🤘</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/494/rss\">",
+    "createdAt": "2026-10-23T00:00:00.000+00:00",
+    "link": "https://react.statuscode.com/issues/494",
+    "author": "",
+    "site": {
+      "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
+      "name": "React Status"
     }
   },
   {
@@ -444,138 +598,6 @@
     "content": "<ul>\n<li>미국의 <strong>외벽 비상계단</strong>은 기존 건물에도 피난 수단을 요구한 법규에 대응해 확산됐지만, 안전성과 유지관리 문제로 신축 건물에서 점차 퇴출됨</li>\n<li>1860년 뉴욕의 피난 규정은 <strong>기존 건물에도 소급 적용</strong>됐으며, 내부 계단을 개조하는 것보다 저렴하고 간단한 외부 부착형...<p></p></li></ul>",
     "createdAt": "2026-10-22T14:35:48.000+00:00",
     "link": "https://news.hada.io/topic?id=35816",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Codex와 함께 닌텐도 Switch 2 탈옥하기",
-    "content": "<ul>\n<li><strong>하드웨어 개조 없이 Switch 2에서 비공식 프로그램과 게임 모드를 실행하는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ns2jb</code> 공개</strong>. 공개 당시 최신 펌웨어인 23.0.1에서 작동하며, 세이브 파일 백업과 하드웨어 분석에도 활용 가능</li>\n<li>Switch 1용 게임 <strong>SmileBASIC의 취약점을 진입점으로 사용</strong>. Co...<p></p></li></ul>",
-    "createdAt": "2026-10-22T13:38:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=35815",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Airbnb, 게스트에게 설거지와 쓰레기 배출 요구 금지",
-    "content": "<ul>\n<li>Airbnb가 <strong>설거지와 침대 시트 벗기기, 쓰레기 반출 등 청소 담당자가 할 일을 게스트에게 요구하지 못하도록</strong> 숙소 이용 규정을 개정</li>\n<li><strong>2026년 11월 20일부터 새로 예약하는 숙박에 적용</strong>. 상당한 시간이나 노력이 필요한 집안일을 숙소 규칙으로 지정하는 행위를 제한...<p></p></li></ul>",
-    "createdAt": "2026-10-22T12:39:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=35814",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CVE-2026-111943: 침해된 중간 인증 기관",
-    "content": "<p>CVE-2026-111943: 침해된 중간 인증 기관</p>\n",
-    "createdAt": "2026-10-22T12:36:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=35813",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "WorldTUI - 터미널을 흉내 내는 3억 6천만 파라미터 AI 모델",
-    "content": "<ul>\n<li><strong>실제 셸이나 파일시스템 없이, 키 입력에 따라 다음 터미널 화면을 예측하는 AI 모델</strong>. 파일을 만들고 vim으로 수정한 뒤 다른 tmux 창에서 읽는 동작까지 흉내 내며, 앞서 입력한 내용도 어느 정도 기억</li>\n<li><strong>Qwen2.5-Coder-0.5B를 실제 Docker 터미널 세션으로 미세조정</strong></li></ul>",
-    "createdAt": "2026-10-22T10:35:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=35809",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "최근 제안된 o(n log n) 정수 곱셈 알고리듬 [PDF]",
-    "content": "<ul>\n<li>새 알고리듬은 n비트 정수 곱셈을 <strong>O(n(log n)^(1−ε))</strong> 비트 연산에 수행한다고 주장함. 기존 최선이자 최적이라고 널리 여겨졌던 O(n log n)보다 점근적으로 작은 복잡도임</li>\n<li>2021년 O(n log n) 알고리듬의 공동 개발자 David Harvey는 결과가 <strong>맞을 가능성이 있다고 잠정적으로...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-22T09:39:44.000+00:00",
-    "link": "https://news.hada.io/topic?id=35808",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Rollipop: 현대적인 React Native 빌드 도구",
-    "content": "<p>React Native에서 Metro를 대체할 수 있는 빌드 도구, Rollipop을 소개합니다.</p>\n<p>문서 보러가기: <a href=\"https://rollipop.dev\" target=\"_blank\" rel=\"noopener noreferrer\">https://rollipop.dev</a><br>\nGitHub: <a href=\"https://github.com/rollipop-dev/rollipop\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/rollipop-dev/rollipop</a></p>\n<h4>Rollipop이란?</h4>\n<p>Ru</p>",
-    "createdAt": "2026-10-22T09:06:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=35807",
-    "author": "leegeunhyeok",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OCaml로 만드는 유니커널",
-    "content": "<ul>\n<li><strong>유니커널</strong>은 단일 애플리케이션을 실행에 필요한 최소 운영체제 구성요소와 함께 컴파일한 경량 특화 가상 머신임</li>\n<li>애플리케이션과 커널을 분리하는 전통적인 운영체제와 달리, 모든 요소를 <strong>단일 격리 이미지</strong>로 묶어 하이퍼바이저에서 직접 실행함</li>\n<li>불필요한...<p></p></li></ul>",
-    "createdAt": "2026-10-22T09:02:30.000+00:00",
-    "link": "https://news.hada.io/topic?id=35806",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Brello Scan – AI API 비용 속 새는 곳을 찾아 주는 무료 스캐너",
-    "content": "<p>AI API로 서비스를 만들다 보면, 청구서를 보고 나서야 내 돈이 어떻게 쓰였는지 알게 되는 경우가 빈번하다는 생각이 꾸준히 들었습니다. 모델 선택과 캐싱, 프롬프트 구조같은걸 조금이라도 바꾼다면 줄일 수 있는 비용이 꽤 있을 것 같은데, 이걸 한 눈에 확인하고 싶어서 만들었습니다.</p>\n<p>현재는 OpenAI와 A</p>",
-    "createdAt": "2026-10-22T08:20:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=35805",
-    "author": "booboo4055",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 배달의 AI - 새 탭을 열 때마다 AI 뉴스를 배달해 주는 크롬 확장 프로그램",
-    "content": "<p>매일 쏟아지는 AI 뉴스와 아티클을 따로 찾아다닐 필요 없이, 크롬에서 새 탭을 열 때마다 가볍게 받아볼 수 있는 무료 확장 프로그램 '배달의 AI'를 소개합니다.</p>\n<p>바이브 코딩(Vibe Coding)을 이제 막 시작하셨거나 관심 있는 분들께 작은 참고가 되었으면 해서 개발 및 운영 비하인드를 공유합니다.</p>\n<p>[</p>",
-    "createdAt": "2026-10-22T05:08:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=35800",
-    "author": "devpeter",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Node.js 2026년 10월 21일 보안패치 공개",
-    "content": "<ol>\n<li>개요</li>\n</ol>\n<ul>\n<li>총 10건의 보안 취약점 수정</li>\n<li>주요 위험:\n<ul>\n<li>원격 코드 실행(RCE)</li>\n<li>TLS 인증서 호스트명 검증 우회</li>\n<li>DNS 이름 처리 오류</li>\n<li>파일 접근 권한 검사 우회</li>\n</ul>\n</li>\n<li>대응 방안: 취약한 Node.js 런타임을 수정 버전으로 업데이트</li>\n...<p></p></ul>",
-    "createdAt": "2026-10-22T04:27:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=35798",
-    "author": "regentag",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "존 그루버의 iPhone Duo 리뷰 - 훌륭한 태블릿, 불편한 아이폰",
-    "content": "<ul>\n<li>아이폰 듀오는 <strong>접으면 불편한 아이폰, 펼치면 지금까지 가장 만족스러웠던 소형 태블릿</strong>임. 주머니에 넣는 태블릿을 원한다면 매력적이지만, 하루에도 수없이 꺼내 짧게 사용하는 휴대전화로서는 타협이 큰 제품</li>\n<li><strong>짧고 넓은 외부 화면은 키보드를 열면 대화를 볼 공간도 부족...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-22T04:13:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35797",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "iPhone Duo 리뷰 - 기대에 부응한 애플의 첫 폴더블 아이폰",
-    "content": "<ul>\n<li><strong>작은 스마트폰과 태블릿을 하나로 묶은 애플의 첫 폴더블 아이폰</strong>. NYT Wirecutter가 일주일간 실사용한 결과, 화면 전환과 휴대성이 만족스러웠으며, 예상과 달리 작은 외부 화면을 더 자주 사용했음</li>\n<li><strong>5.4인치 외부 화면으로 메시지와 일상 작업을 처리</strong>하고, 펼치면...<p></p></li></ul>",
-    "createdAt": "2026-10-22T04:10:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35796",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -1661,17 +1683,6 @@
     }
   },
   {
-    "title": "Why Shopify is moving off React Native",
-    "content": "<table>\n  <tbody><tr><td>\n  <div>    \n    <table><tbody><tr>\n<td><p>#​490 — September 11, 2026</p></td>\n<td><p><a href=\"https://react.statuscode.com/link/190266/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Read on the Web</a></p></td>\n</tr></tbody></table>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><code>  <div>\n    <div>&nbsp;React Status</div>\n  </div>\n<table><tbody><tr><td>\n\n<p>  <a href=\"https://react.statuscode.com/link/190230/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/o4qesq8gfg3dinfofghi.jpg\"></a></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td><p>What's New in React 19.3</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n<p><a href=\"https://react.statuscode.com/link/190230/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React 19.3 is here with a <em>huuuge</em> release post</a> (that's packed with examples) bringing two anticipated APIs out of experimental status, as well as some <a href=\"https://react.statuscode.com/link/190231/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Server Components additions</a>. Here are some of the&nbsp;goodies:</p>\n<ul>\n<li>\n<p><strong>Fragment Refs:</strong> Manage focus, events and measurements across a group of DOM nodes (a <em>component</em>, say!) <em>without</em> adding a wrapper element that could disrupt your&nbsp;layout.</p>\n</li>\n<li>\n<p><strong>View Transitions:</strong> &lt;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ViewTransition</code>&gt; animates elements entering, leaving or changing in transition updates, with support for Suspense reveals and animations you can customize with&nbsp;CSS.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>💡 For a hands-on feel, <a href=\"https://react.statuscode.com/link/190232/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Chris Coyier's review of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></a> from January still holds up, though it doesn't cover&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">addTransitionType</code>.</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p><strong>Trusted Types support:</strong> React now preserves trusted objects when passing values to DOM APIs like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">innerHTML</code>, avoiding string coercion that caused browsers enforcing <a href=\"https://react.statuscode.com/link/190233/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Trusted Types</a> to reject them.</p>\n</li>\n<li>\n<p><strong>Opt out of server rendering:</strong> <a href=\"https://react.statuscode.com/link/190234/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">use(browser())</code></a> lets a component render only in the browser, showing its nearest Suspense fallback in the generated&nbsp;HTML.</p>\n</li>\n</ul>\n<p>Elsewhere, &lt;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Activity</code>&gt; gains Server Component support, there's support for the new  &lt;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">select</code>&gt; parsing rules, and transitions now render independently, so a slow one no longer blocks unrelated ones. <a href=\"https://react.statuscode.com/link/190235/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The full release notes</a> (not the same as the release post!) paint the full picture.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/190229/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/c_limit,w_480,h_480,q_auto/copm/75249b97.png\"></a>\n  <p><span><a href=\"https://react.statuscode.com/link/190229/rss\" title=\"www.tigerdata.com\" target=\"_blank\" rel=\"noopener noreferrer\">Live Components Deserve Live Data, Not a Stale&nbsp;Cache</a></span> — Your components re-render instantly, but they read a cache that's minutes behind, because the live query is too slow to hit every render. TimescaleDB extends Postgres so dashboards query live data fast at scale. <a href=\"https://react.statuscode.com/link/190229/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Get $1000 credit to&nbsp;start</a>.</p>\n  <p>Tiger Data (creators of TimescaleDB) <span>sponsor</span></p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/190236/rss\" title=\"shopify.engineering\" target=\"_blank\" rel=\"noopener noreferrer\">Native is Now the Future of Mobile at Shopify</a></span> — Six years after going all-in on React Native, Shopify is rebuilding its apps in Swift and Kotlin, arguing coding agents have cut the cost of building the same features twice. We also learn what's going to happen to React Native Skia, FlashList and&nbsp;Restyle.</p>\n  <p>Shopify Engineering </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>📊 A <a href=\"https://react.statuscode.com/link/190237/rss\" target=\"_blank\" rel=\"noopener noreferrer\">companion post covers the 12-week Shop app rewrite</a>, with before-and-after startup, stability and app-size&nbsp;metrics.<br><br>\n\n</p><p>🤔 <strong>But not everyone's convinced:</strong> In <a href=\"https://react.statuscode.com/link/190238/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a busy <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">r/reactnative</code> thread</a>, one of Expo's founders <a href=\"https://react.statuscode.com/link/190239/rss\" target=\"_blank\" rel=\"noopener noreferrer\">suggests</a> Shopify made <em>\"more of a political decision than a technical one\"</em> and that they were comparing an old-architecture app against a fresh rewrite.</p></td></tr></tbody></table><p></p>\n<table><tbody><tr><td>\n<p><strong>IN BRIEF:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190240/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Tailwind Labs, creator of Tailwind CSS, is joining Shopify</a>. The open source projects stay MIT-licensed with the same&nbsp;team.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190241/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React DevTools 8.0 is out</a> with the <em>Suspense</em> tab on by default and the Timeline profiler gone, with the browser's <em>Performance</em> panel taking over. There's also <a href=\"https://react.statuscode.com/link/190242/rss\" target=\"_blank\" rel=\"noopener noreferrer\">an experimental package</a> that exposes React DevTools to coding agents through&nbsp;<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">chrome-devtools-mcp</code>.</p>\n</li>\n<li>\n<p>TanStack has published <a href=\"https://react.statuscode.com/link/190243/rss\" target=\"_blank\" rel=\"noopener noreferrer\">a write-up of its partnership with Vercel</a>, with new TanStack AI adapters for Vercel's AI Gateway and Sandbox now available.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190244/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo Modules 2.0 is on the way</a>, introducing annotation-based Swift and Kotlin classes for writing native&nbsp;modules.</p>\n</li>\n</ul>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/190245/rss\" title=\"blog.master.dev\" target=\"_blank\" rel=\"noopener noreferrer\">React Now Rusted All the Way Out</a></span> — A team moved a 1000+ file React Router app onto oxc's Rust port of the React Compiler and watched the compile step drop from 14.3s to 0.81s. Better still, the port already handles patterns the Babel-based 1.0 skips, and the post ends with the Vite config to make the&nbsp;switch.</p>\n  <p>Andrew Patton </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>📄 <a href=\"https://react.statuscode.com/link/190248/rss\" target=\"_blank\" rel=\"noopener noreferrer\">What It Actually Takes to Migrate Discord to React Native's New Architecture</a> – Only 14% of the tickets covered the migration itself. The rest was all in the <em>long tail</em>. <cite>Kamil Delekta (Software Mansion)</cite></p>\n<p>🤖 <a href=\"https://react.statuscode.com/link/190249/rss\" target=\"_blank\" rel=\"noopener noreferrer\">How the Next.js Team Closed 1,500 GitHub Issues in One Month</a> – You won't be surprised that agents were involved. <cite>Marcos Hernanz (Next.js)</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/190250/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Your React App Can Unmount When a Reader Turns On Chrome Translate</a> – Why the classic <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">removeChild</code> error happens, and why the usual monkey-patch can hide the crash while leaving the UI broken. <cite>Davlat Aliev</cite></p>\n<p>📄 <a href=\"https://react.statuscode.com/link/190251/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The Golden Switch: Migrating From Gatsby to Astro in Under 9¾ Days</a> – Keeping their React components, after substantial prep work. <cite>Evil Martians</cite></p>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<table><tbody><tr><td></td></tr></tbody></table>\n\n<table><tbody><tr><td>\n    <p>📰&nbsp;Classifieds</p>\n  </td></tr></tbody></table>\n<table><tbody><tr><td>\n<p>🗽<a href=\"https://react.statuscode.com/link/190252/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The biggest React conference in the US!</a> React, modern web dev &amp; AI's growing role. Nov 17 &amp; 20, New York &amp; Online. <a href=\"https://react.statuscode.com/link/190252/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Check it&nbsp;out!</a></p>\n \n<p>Know React? You already know how to ship a mobile app. <a href=\"https://react.statuscode.com/link/190253/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Expo handles cloud builds, app store submission, and OTA updates</a>. No Xcode&nbsp;required.</p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</td></tr></tbody></table>\n<table><tbody><tr><td><p>🛠&nbsp; Code, Tools &amp; Libraries</p></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/190254/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/rrafub0hos1swqnddjcv.jpg\"></a>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/190254/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">Jotai 3.0: A Leaner, ESM-Only Release of the Atomic State Manager</a></span> — The familiar hooks remain, but the package is modernized: ESM only, React 18 and TypeScript 5.5 minimums, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">atomFamily</code> moved to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">jotai-family</code>, and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">loadable</code> removed in favor of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">unwrap</code>. Daishi explains <a href=\"https://react.statuscode.com/link/190255/rss\" target=\"_blank\" rel=\"noopener noreferrer\">the one behavioral change here</a>.</p>\n  <p>Daishi Kato </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/190256/rss\" title=\"github.com\" target=\"_blank\" rel=\"noopener noreferrer\">React Native ExecuTorch 0.10: Run AI Models On-Device</a></span> — A ground-up rewrite of the on-device AI library. Opaque native modules give way to inspectable TypeScript pipelines you can tweak and chain (no C++ needed), with Core ML, MLX and Vulkan acceleration underneath. <a href=\"https://react.statuscode.com/link/190257/rss\" target=\"_blank\" rel=\"noopener noreferrer\">The homepage</a> shows what it can do.</p>\n  <p>Software Mansion </p>\n</td></tr></tbody></table>\n\n<table><tbody><tr><td>\n  \n  <p><span><a href=\"https://react.statuscode.com/link/190258/rss\" title=\"www.vidact.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Vidact: Compiles React Components Down to Direct DOM Code</a></span> — A compiler that takes React-style function components and hooks and emits direct DOM operations, a la Solid, with no VDOM or React runtime in the bundle. Beta, and unsupported React patterns will fail at build time.</p>\n  <p>Mohamad Mohebifar </p>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n<table><tbody><tr><td>\n  <a href=\"https://react.statuscode.com/link/190259/rss\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/hmlqx96kvtkdta8ze9t0.jpg\"></a>\n</td></tr></tbody></table>\n<table><tbody><tr><td>\n<ul>\n<li>\n<p>🗾 <a href=\"https://react.statuscode.com/link/190260/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Google Maps 1.10</a> – Components and hooks for the Google Maps JavaScript API. Now with an expanded set of declarative 3D components, including models and markers (<a href=\"https://react.statuscode.com/link/190259/rss\" target=\"_blank\" rel=\"noopener noreferrer\">demo</a>).</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190261/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Lexical 0.50</a> – Meta's extensible text editor framework. Now with HMR support and a new <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@lexical/compiler</code> package for build-time tree-shaking annotations.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190262/rss\" target=\"_blank\" rel=\"noopener noreferrer\">Base UI 1.8</a> – The unstyled component library that's now <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shadcn/ui</code>'s default.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190263/rss\" target=\"_blank\" rel=\"noopener noreferrer\">wouter 3.11</a> – Minimalist-friendly ~2KB routing for React <a href=\"https://react.statuscode.com/link/190264/rss\" target=\"_blank\" rel=\"noopener noreferrer\">and&nbsp;Preact</a>.</p>\n</li>\n<li>\n<p><a href=\"https://react.statuscode.com/link/190265/rss\" target=\"_blank\" rel=\"noopener noreferrer\">React Native 0.88 Release Candidate</a></p>\n</li>\n</ul>\n</td></tr></tbody></table>\n<table><tbody><tr><td></td></tr></tbody></table>\n</code></pre></div><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">\n  </code></td></tr>\n</tbody></table>\n\n\n\n\n<img src=\"https://react.statuscode.com/open/490/rss\">",
-    "createdAt": "2026-09-11T00:00:00.000+00:00",
-    "link": "https://react.statuscode.com/issues/490",
-    "author": "",
-    "site": {
-      "id": "72a6af93-4df7-40ff-8a0e-bfd7b6771002",
-      "name": "React Status"
-    }
-  },
-  {
     "title": "[Korean FE Article] AI가 프론트엔드를 못하는 이유",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!_0sI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!_0sI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 424w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 848w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 1272w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!_0sI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!_0sI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 424w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 848w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 1272w, https://substackcdn.com/image/fetch/$s_!_0sI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5c1d49f-cdce-49df-9d9c-ffc576f1ebf8_1920x674.avif 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://iamhaoh.tistory.com/36\" target=\"_blank\" rel=\"noopener noreferrer\">https://iamhaoh.tistory.com/36</a></p></blockquote><h2><strong>소개</strong></h2><p>최근 AI의 발전이 빠르게 이루어지면서 개발자들 사이에서도 “앞으로 AI가 개발자의 영역을 얼마나 대체할 수 있을까?” 같은 이야기를 나누곤 합니다.<br>이 글은 AI가 프론트엔드 개발에서 가지는 한계를 흥미롭게 짚고 있지만, 한편으로는 그 주장에 꼭 동의하기보다는 다른 관점에서 비판적으로 읽어볼 여지도 있다고 생각했습니다.<br>AI가 무엇을 잘하고 못하는지를 따져보는 것을 넘어, 프론트엔드 개발에서 AI를 어떻게 활용하면 더 효과적으로 협업하고 생산성을 높일 수 있을지 생각해볼 수 있는 글입니다.</p><p></p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>여러분은 프론트엔드 관점에서 AI가 어떤 점에서 좋다거나 안좋다고 느끼셨었나요?</p><p>AI에게 프론트엔드 코드를 요청할 때, 할루시네이션이나 고전 CSS 작성을 줄이고 더 좋은 결과를 얻어내기 위한 AI 설정(프롬프트, MCP 등) 팁이 있으신가요?</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>개인적으로 프론트엔드라서 AI가 유난히 별로였다고 느낀 적은 크게 없었던 것 같습니다.</p><p>프론트라고 특별히 못하는 영역이 있다기보다는, 결국 모든 코드 생성과 비슷하다고 봐요. 아니, 코드 관점을 넘어서 AI를 활용하는 모든 작업이 다 비슷한 성질을 가진다고 생각합니다. LLM의 특성상 결국은 확률 게임이니까요. 그래서 더 잘하게 만들고 우리 프로젝트에 맞는 코드를 뽑아내려면, 기반이 되는 규칙을 잘 세우고, 잘 이해시키고, 잘 감독하는 게 핵심이라고 봅니다.</p><p>글 자체는 꽤 공격적인 톤인데, 개인적으로는 이런 시각이 지금 시기에 크게 도움이 되진 않는다고 생각해요. AI의 한계를 지적하는 것도 물론 의미가 있지만, 지금은 “그럼 어떻게 하면 더 잘 만들 수 있을까”를 고민하는 생산적인 이야기가 더 필요한 때가 아닐까 싶습니다.</p><p><strong>💬. 의견 2</strong></p><p>좋지 않다고 느껴졌던 점은 따로 없는 것 같아요! 글에서의 예시처럼 좋은 결과물이 나오지 않는 경우도 저도 경험해봤지만 그게 AI가 문제라기보다는 AI를 사용하는 맥락에서의 문제라고 느껴져서요!</p><p>우선 AI가 못하는 부분은 다른 방식으로 풀어내는 것도 필요한 것 같아요! CSS 같은 경우도 AI가 잘 작성해주기 어려운 것 같은데 잘 만들어진 디자인시스템을 기반으로 UI를 구성하게 되면 AI가 충분히 잘 한다고 느꼈거든요! 이 외에는 우리 팀만의 규칙들을 잘 정의하고 꾸준히 AI가 만들어낸 결과물을 평가하면서 어떻게 하면 더 좋은 결과물을 만들어 낼 수 있을지를 계속 고민하는 것 밖에 없지 않을까 싶었어요!</p><p><strong>💬. 의견 3</strong></p><p><span>가끔 진짜 단순한 수정인데 유닛테스트 파일 100줄 만들면.. 좀 당황스럽긴 해요. 접근성 관점에서도 그렇게 좋은 결과물은 아닌 것 같고.. 이건 대부분의 웹의 문제여서 아티클에 설명된 것처럼 기존 코드의 문제같고요.</span></p><p><span>CSS 최신 업데이트 소식을 팔로업하고 먼저 던진뒤에 </span><br>’<span>~~ 이거 나왔다는데 적용하면 되지 않음?’ 이런식으로 해보곤 해요. 저만 이렇게 하는 걸까요?ㅎㅎ</span></p>",
     "createdAt": "2026-09-10T23:39:00.000+00:00",
@@ -2722,17 +2733,6 @@
     "createdAt": "2026-05-06T10:00:00.000+00:00",
     "link": "https://smashingmagazine.com/2026/05/architecture-local-first-web-development/",
     "author": "hello@smashingmagazine.com (Durgesh Pawar)",
-    "site": {
-      "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
-      "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "Rethinking The Experience Of System Tools",
-    "content": "<p>This article is a sponsored by <a href=\"https://macpaw.com/\" target=\"_blank\" rel=\"noopener noreferrer\">MacPaw</a></p>\n<p>Your grandmother’s vacuum was a trusty but ugly workhorse hidden in a dark closet. Dyson turned that practical tool into an aspirational product, one you love leaving out even when guests come over. Dish soap was just dish soap until Method put it in a glass container, and it became an addition to, not a distraction from, the aesthetics of your kitchen. Physical product brands spent the last two decades transforming mundane, practical items like soap and vacuums into must-have experiences.</p>\n<p>But utility software — especially maintenance tools, a type of system software designed to analyze, configure, optimize, and maintain a computer — hasn’t made that leap from something you open as a chore to an experience you choose with excitement. And that means those brands are missing an interesting design opportunity: these tools are well overdue for a more intelligent, more human, and less emotionally flat approach. </p>\n“The Most Underexplored Frontier In UX Is The Maintenance Layer.”\n<p>Utility software still feels like a chore. Using it has all the excitement of pulling out that dusty old vacuum from the back of the closet. These four common software design assumptions illustrate why the category hasn’t yet transcended its chore status. </p>\n<ul>\n<li><strong>Assuming the user already resents the task</strong>: they’re here because something is wrong, not because they chose to open this tool. Designing accordingly means assuming they want the software to be fast, clinical, invisible, and something to get out of the way, not get into. But a design built for resentment produces tools that deserve it. If you expect your users to want to get out of the product as fast as possible, they’ll feel it in the design. </li>\n<li><strong>Assuming function is enough and feelings are for consumer apps</strong>: emotion in interface design is decoration. The maintenance layer is infrastructure, and nobody decorates infrastructure. But nobody decorated dish soap either, until Method. They didn’t change the product, just the user’s relationship to the tool they use to accomplish a task. </li>\n<li><strong>Assuming your users are not your fans because nobody cares about maintenance tools</strong>: utility tools don’t build communities, and nobody posts about running a disk cleanup. But people care deeply about tools that respect their time and make complex things simple for them to use. The MacPaw team listens to our community and implements many of the features they ask for, because we know users can be fans too, and they should shape how our products work. </li>\n<li><strong>Assuming that designers shouldn’t waste pixels on personality</strong>: you need to hide complexity and show minimal UI. Utility software should look neutral, technical, and forgettable. </li>\n</ul>\n<p>But when software hides the system, people lose trust in it. </p>\n<p>Design always starts with function — function shapes form. But if that function can’t be made completely invisible and people still have to interact with it, it inevitably becomes part of their experience. In that case, people expect it not just to work, but to match their environment, influence their mood, and contribute to their overall experience.</p>\n<p>A good example is a watch. Its core function is simple: show the time. But because a watch occupies physical space in a person’s world, you want more from it than just functionality. It needs to play an aesthetic role and complement the environment.</p>\n“The Maintenance Layer Is A Behavioral Problem, Not Just A UX One.”\n<p>The user experience in utility software matters more than the industry tends to admit. In utility software, experience is not something added on top of function. It emerges from how the function is structured, explained, and interacted with. If you think you can design the most functional app on the market without considering how users understand and experience the process, you’re missing an opportunity to build a relationship with that user.</p>\n<p>Part of that ignored UX element is a behavioral problem: users don’t avoid utility software because using it is hard, but instead because it produces <a href=\"https://research.macpaw.com/publications/emotional-assesments-ux\" target=\"_blank\" rel=\"noopener noreferrer\">no positive emotional signal</a> at any point. The problem is rarely complex. It’s the absence of meaningful interaction during the process of using the app. </p>\n<p>Another issue is focusing solely on function. <a href=\"https://uxmag.com/articles/the-aesthetic-usability-effect-why-beautiful-looking-products-are-preferred-over-usable-but-not-beautiful-ones\" target=\"_blank\" rel=\"noopener noreferrer\">The aesthetic-usability effect</a> shows us clearly that if something looks better, it feels better — ATM screens in a 1995 study were judged easier to use if the screen layout was more attractive. Even something as purely functional as an ATM screen display needs attention to how the function is structured, presented, and perceived.</p>\n<p>And then there’s the memory problem. People remember <a href=\"https://www.researchgate.net/publication/5246508_Evaluations_of_Pleasurable_Experiences_The_Peak-End_Rule\" target=\"_blank\" rel=\"noopener noreferrer\">the emotional peak and the ending of an experience</a>, not the average. A completed process that ends with a clear “done” is remembered more positively than one that just fades out, even if the end task is completed successfully in both cases. System tools rarely intentionally design the ending of an interaction — they just stop running. </p>\n“Thoughtful System Design Can Transform Maintenance From A Technical Chore Into A Seamless User Experience.”\n<p>What does emotional design actually mean, then, in utility UX? Here are three principles the MacPaw team follows to design its products against the category norm.  </p>\n<h3>Translating system complexity into human language</h3>\n<p>Maintenance tools deal with storage, task management, and background processes. Good design explains what’s happening, avoids system jargon, and communicates outcomes clearly. </p>\n<p><a href=\"https://www.figma.com/blog/the-linear-method-opinionated-software/\" target=\"_blank\" rel=\"noopener noreferrer\">Linear’s game-changing move</a> that illustrates this principle was agreeing on straightforward units of work, like projects and teams, that any new user can immediately understand. That helps them spend less time ramping up and more time building. </p>\n<h3>Make the process clear and show progress</h3>\n<p>System tools run complex processes. Design should show progress, impact, and system change to create trust and control. </p>\n<p>Vercel’s deployment infrastructure is an excellent example here. When you trigger a build, the browser tab favicon changes — a spinner while building, a green checkmark when done, a red X if it fails. It’s ruthlessly functional, not visual or warm, but it’s emotionally intelligent: it exists purely to reduce the low-level anxiety of waiting for a build to finish. </p>\n<h3>Design the moment of completion</h3>\n<p>Maintenance tasks often end quietly. But completion is the emotional payoff. Design should emphasize clarity of results, a sense of resolution, and visible improvement so users remember a positive and distinct ending. </p>\n<p>Take the new CleanMyMac by MacPaw <a href=\"https://macpaw.com/news/introducing-new-cleanmymac\" target=\"_blank\" rel=\"noopener noreferrer\">after its 2024 major update</a>. Unlike the maintenance utility category norm, CleanMyMac uses visual language, including color, depth, motion, icons, and 3D illustrations, to shift the focus from diagnosing problems to showing progress: space cleared, threats removed, time saved. Instead of confronting the user with what's wrong, the interface closes with a picture of a machine that's already working better. </p>\n<p>The task is the same, but the ending tells a different story, giving the user a picture of a machine that's already working better. </p>\n“Even if you don’t care about emotional design as a principle, the change is coming anyway.”\n<p>The market is forcing this issue even for those who don’t find the argument I’ve made here compelling. </p>\n<p>That’s partly generational — designers and users who grew up with Linear, Figma, and Notion have a completely different baseline for the tools they use. Good software is not a happy accident for them, but a given. That generation is now the primary audience for maintenance software, and so the old “it’s fine, it’s just a utility” excuse doesn’t work philosophically or commercially. Just like Dyson and Method changed how entire product categories approached design, the current state of utility software is shifting for good.</p>\n<p>And digital fatigue is the current cultural state. The resurgence of vinyl records, film cameras, and dumbphones is not merely nostalgia, but a signal that the emotional relationship between people and their tools is changing. </p>\n<p>The question has shifted from whether your utility software should feel better to use to whether it can afford not to. </p>\n",
-    "createdAt": "2026-05-05T08:00:00.000+00:00",
-    "link": "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
-    "author": "hello@smashingmagazine.com (Kyrylo Levashov)",
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
