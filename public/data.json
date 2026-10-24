@@ -1,5 +1,159 @@
 [
   {
+    "title": "Roku 개발자 저장소, GitHub에서 GitLab으로 이전",
+    "content": "<ul>\n<li>Roku가 <strong>모든 개발자 리소스의 GitLab 이전을 완료</strong>함. 개발자 문서, 샘플 앱, 도구 저장소를 하나의 중앙 위치로 통합함</li>\n<li><strong>저장소 이름은 유지</strong>되며 호스트만 바뀜. 문서와 블로그의 링크는 갱신됐지만, 개발자가 북마크하거나 저장해 둔 URL은 직접 수정해야 함</li>\n...<p></p></ul>",
+    "createdAt": "2026-10-24T19:31:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=35934",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Apple Security Research Device - 보안 기능 우회 없이 iOS를 연구하는 전용 iPhone",
+    "content": "<ul>\n<li><strong>Apple Security Research Device(SRD)</strong> 는 보안 기능을 우회하지 않고 iOS 보안 연구를 수행할 수 있도록 특별히 구성된 iPhone으로, 신규 및 숙련 연구자의 연구를 지원함</li>\n<li><strong>셸 접근</strong>과 임의 도구 실행을 지원하며, 연구자가 직접 권한(entitlements)을 선택하거나 커...<p></p></li></ul>",
+    "createdAt": "2026-10-24T18:35:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=35933",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "FreeDNS - 무료 동적/정적 DNS와 도메인/서브도메인 호스팅",
+    "content": "<ul>\n<li><strong>FreeDNS</strong>는 무료 및 유료 DNS 서비스로, 동적/정적 DNS와 도메인/서브도메인 호스팅을 제공함</li>\n<li><strong>공유 도메인</strong>에 서브도메인을 만들거나 자신의 도메인을 사용해 DNS를 관리할 수 있음</li>\n<li>숫자 IP 주소 대신 <strong>도메인 이름</strong>으로 집, 직장, 학교, 데...<p></p></li></ul>",
+    "createdAt": "2026-10-24T18:32:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=35932",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI와 과학 공유자원의 인클로저",
+    "content": "<ul>\n<li><strong>생성형 AI</strong>는 공동으로 축적한 지식의 가치를 사적 부로 전환하고, 그 지식을 유지하는 사회적 체계까지 흔드는 새로운 <strong>인클로저(enclosure)</strong> 의 도구가 될 수 있음</li>\n<li>영국의 역사적 공유지는 단순한 과잉 이용으로 붕괴한 것이 아니라 <strong>사유화와 이용권 박탈...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-24T17:45:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=35931",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "동일한 AI 요청, 텍사스에서는 스웨덴보다 CO₂를 8.5배 더 배출함",
+    "content": "<ul>\n<li><strong>지역별 전력망의 평균 배출 집약도</strong>를 적용한 추정에서, 동일한 하드웨어로 처리한 Kimi K3 요청의 배출량이 스웨덴 약 0.4g, 텍사스 3.2g으로 나타남</li>\n<li>Berget AI가 SEI, WattTime, Klimatkollen과 개발한 <strong>요청별 탄소 배출량 계산 방법</strong>을 오픈소스로 공개함</li>\n</ul>",
+    "createdAt": "2026-10-24T17:42:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=35930",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "우리는 모두 1970년의 잘 알려지지 않은 SF 영화 속에 살고 있다",
+    "content": "<ul>\n<li>1970년 영화 <strong>Colossus: The Forbin Project</strong>는 미국 대통령이 국가 방위의 전권을 AI에 넘긴 뒤 인간이 정치적 통제권까지 잃는 이야기로, 오늘날의 군사 AI 의존과 기술 기업가의 권력을 겨냥한 풍자와 겹침</li>\n<li>영화 속 슈퍼컴퓨터 <strong>Colossus</strong>는 러시아의 동급 AI와 접촉...<p></p></li></ul>",
+    "createdAt": "2026-10-24T17:39:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=35929",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "음악은 어떻게 가능한가",
+    "content": "<ul>\n<li><strong>음악은 추상적인 음과 리듬의 조합</strong>인데도 익숙한 풍경을 낯설게 만들고, 내면에 새로운 장면과 감정을 불러일으킴</li>\n<li>음악심리학에는 음악이 <strong>청각 지각과 감정 처리 체계</strong>를 자극한다는 접근과, 그 경험이 <strong>문화와 학습</strong>에 의해 형성된다는 접근이 있으...<p></p></li></ul>",
+    "createdAt": "2026-10-24T16:45:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=35928",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Node2Shell에서 HTTP2Shell로 확대, 다수 HTTP 라이브러리와 앱에 영향",
+    "content": "<ul>\n<li><strong>CVE-2026-111497</strong>은 Google Brotli 디코더의 메모리 안전성 취약점으로, Node.js뿐 아니라 같은 디코더를 사용하는 Python 패키지와 HTTP 라이브러리, 서비스에도 영향을 미침</li>\n<li>공격자가 조작한 <strong>Brotli 압축 데이터</strong>를 해제하면 메모리 손상, 민감정보 유출, 프로세스...<p></p></li></ul>",
+    "createdAt": "2026-10-24T16:42:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=35927",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google, 핀란드 데이터센터 건설 위해 나무 25만 그루 불법 벌목",
+    "content": "<ul>\n<li>Google이 핀란드 북부 데이터센터 부지에서 <strong>약 25만 그루</strong>를 벌목했으며, 법정 <strong>환경영향평가</strong>를 마치고 완전한 승인을 받기 전에 작업했다는 의혹을 받고 있음</li>\n<li>핀란드 당국은 환경 영향을 평가하기 위해 Google의 <strong>데이터센터 부지 2곳에서 개발을 중단</strong></li></ul>",
+    "createdAt": "2026-10-24T16:39:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=35926",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: ETF 실부담비용 &amp; 4대 계좌 세법 정산기 (Client-Side 100%, 서버비 $0)",
+    "content": "<p>증권사들이 마케팅하는 표면 총보수(0.01% 등) 뒤에 숨겨진 기타비용과 매매중개수수료(실부담비용 TER)를 투명하게 비교하고, 4대 계좌(일반계좌, ISA 9.9% 분리과세, 연금저축/IRP 과세이연)별 최종 세후 실수령액을 1원 단위로 정산해 주는 시뮬레이터입니다.</p>\n<p>주요 특징 및 테크 스택:<br>\n• Zero-Serve</p>",
+    "createdAt": "2026-10-24T15:59:44.000+00:00",
+    "link": "https://news.hada.io/topic?id=35925",
+    "author": "moonx",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "나는 이것을 믿는다(1952)",
+    "content": "<ul>\n<li>종교적 신앙이 아니라, 결점보다 미덕이 훨씬 큰 <strong>이웃과 인간의 선함</strong>을 믿음</li>\n<li>신념이 다른 신부, 대가 없이 길고양이를 돌보는 수의사, 낯선 이에게 식사를 내어주는 사람들의 <strong>일상적 친절</strong>이 그 믿음의 바탕임</li>\n<li>범죄는 뉴스에 크게 실리지만, 사회의 일상을...<p></p></li></ul>",
+    "createdAt": "2026-10-24T15:43:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35924",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Shitter - 프라이버시와 성능에 초점을 맞춘 Twitter 프런트엔드, Nitter 포크",
+    "content": "<ul>\n<li><strong>Shitter</strong>는 Nitter를 포크한 무료 오픈소스 Twitter 대체 프런트엔드로, JavaScript와 광고 없이 이용할 수 있음</li>\n<li>모든 요청을 <strong>백엔드로 전달</strong>해 클라이언트가 Twitter와 직접 통신하지 않으며, Twitter의 IP 및 JavaScript 지문 추적을 막음</li>\n<li><strong>Twitte...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-24T15:40:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35923",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "백색소음 기기로 활용하는 공기청정기",
+    "content": "<ul>\n<li>소형 <strong>공기청정기</strong>는 팬으로 소음을 만들면서 공기도 정화하므로, 백색소음 기기를 쓰는 대부분의 상황에서 대안이 될 수 있음</li>\n<li>기존 팬 방식 백색소음 기기와 소리가 비슷하고 크기와 가격은 조금 더 높지만, <strong>연기와 감염성 입자</strong>도 제거함</li>\n<li>소형 제품 사례는...<p></p></li></ul>",
+    "createdAt": "2026-10-24T15:37:29.000+00:00",
+    "link": "https://news.hada.io/topic?id=35922",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "EP230: RAG vs Agentic RAG",
+    "content": "<h2><a href=\"https://go.bytebytego.com/inngest_102426\" target=\"_blank\" rel=\"noopener noreferrer\">Build for the long run. (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/inngest_102426\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!1Y5e!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 424w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 848w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 1272w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!1Y5e!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!1Y5e!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 424w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 848w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 1272w, https://substackcdn.com/image/fetch/$s_!1Y5e!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd562cf9-633a-4f15-952b-3a4dc208c461_2045x992.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Long-running agents need endurance.</p><p>They must endure waiting for users, and weather tool failures. They must take each new jump in model intelligence in stride.</p><p>Inngest makes long-running agents durable, observable and improvable over time.</p><p>Check out their generous free tier and a sleek local dev server for testing your workflows.</p><p data-attrs=\"{\" for=\"\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/inngest_102426\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Build for the long run with Inngest</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>Top 5 AI Building Blocks Every Engineer Should Know (Youtube Video)</p></li><li><p>RAG vs Agentic RAG</p></li><li><p>OAuth (authorization) + OIDC (authentication layer)</p></li><li><p>Understanding the Linux Directory Structure</p></li></ul><div><hr></div><h2>Top 5 AI Building Blocks Every Engineer Should Know</h2><div id=\"youtube2-Dddv7P_k60o\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><div><hr></div><h2>RAG vs Agentic RAG</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!kwn1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!kwn1!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!kwn1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!kwn1!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!kwn1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F406f8bb0-c31d-4fdf-a4b4-ec8242af7c33_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>RAG is a technique that combines information retrieval with an LLM to generate answers. Here is how RAG works at a high level:</p><ul><li><p>A user asks a question to the application. </p></li><li><p>The retrieval system fetches the relevant information from a knowledge base.</p></li><li><p>The application adds that information to the prompt.</p></li><li><p>The LLM uses that context to generate an answer. </p></li></ul><p>RAG usually follows a predefined retrieval process. The quality of its results depends on the accuracy of the retrieved context.</p><p>Agentic RAG follows a different approach. Instead of retrieving once, an agent can repeatedly fetch and evaluate information until it has enough evidence to generate an answer. Here is how it typically works:</p><ul><li><p>An agent selects the right tools based on the task.</p></li><li><p>Those tools can search documents, APIs, databases, or the web.</p></li><li><p>The fetched evidence is then checked if it is sufficient for the task. </p></li><li><p>If it is not, the agent can adjust its search or choose a different tool.</p></li><li><p>Once sufficient evidence is achieved, LLM uses that context to generate an answer.</p></li></ul><div><hr></div><h2><a href=\"https://go.bytebytego.com/sentry_102426\" target=\"_blank\" rel=\"noopener noreferrer\">Thank You, Open Source Maintainers (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/sentry_102426\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!z6AI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 424w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 848w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 1272w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!z6AI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!z6AI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 424w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 848w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 1272w, https://substackcdn.com/image/fetch/$s_!z6AI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32a28301-036b-4215-bbc3-68be5a82fcee_1080x1080.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Open source is the foundation of nearly everything we build, and the maintainers behind it make it possible. The good news: the movement to support them is growing.</p><p>Two years ago, the Open Source Pledge set out to make paying maintainers the norm. Today, 37 member companies have paid $8.4M to maintainers and foundations, and every new member adds to that momentum. </p><p>See how Sentry put $1M to work this year, or join the Pledge and be part of what’s next.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/sentry_102426\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Learn more</span></a></p><div><hr></div><h2>OAuth (authorization) + OIDC (authentication layer)</h2><p>If you want to show Google Calendar events inside your Slack channel, it will require permission to read your calendar. How would you let Slack access your calendar without giving Slack your Google password? </p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!0jRI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!0jRI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!0jRI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!0jRI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!0jRI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2557767f-78ba-4262-af26-7d924110f1c0_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>This is where OAuth 2.0 comes into the picture. Slack basically never sees your Google password. It lets an app access a protected resource on your behalf without knowing your credentials. </p><p>Basically OAuth 2.0 handles authorization. In Slack’s case, it will send you to Google’s authorization server, where you will login and give Slack permission to access your calendar. Google gives you the authorization code, and Slack will exchange that code for access_token.</p><p>If Slack also wants to authenticate the identity of the person requesting the access to Google Calendar, you will need OIDC for that. The OIDC handles authentication and sits on top of OAuth 2.0. </p><p>OAuth answers what you’re allowed to touch, while OIDC answers who you are. In addition to the access_token returned by the authorization server, this time, it will also send an id_token, a signed JWT which basically tells Slack who just signed in.</p><div><hr></div><h2>Understanding the Linux Directory Structure</h2><p>The linux directory structure starts with the root directory \"/\". Let’s navigate to the directory structure of linux.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!eut4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!eut4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 424w, https://substackcdn.com/image/fetch/$s_!eut4!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 848w, https://substackcdn.com/image/fetch/$s_!eut4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 1272w, https://substackcdn.com/image/fetch/$s_!eut4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!eut4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!eut4!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 424w, https://substackcdn.com/image/fetch/$s_!eut4!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 848w, https://substackcdn.com/image/fetch/$s_!eut4!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 1272w, https://substackcdn.com/image/fetch/$s_!eut4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ba580b5-8ba1-4e11-96a9-66430ec89ed6_2360x2960.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>The kernel image and bootloader files are stored in the \"boot\" directory. Your hard disk partitions and device related files are located in the “dev” directory.</p><p>All your programs and libraries are stored in \"bin\", \"sbin\", \"usr\", and \"lib\" directories. Like, your installed software is located in the \"usr\" directory. Ever wondered where ls, cp, and cat commands are? \"bin\" is the directory that holds those essential commands.</p><p>System-wide configuration goes in \"etc\", and \"var\" holds data that changes as the system runs, which is where you'll find your logs.</p><p>If you have a USB drive, it gets mounted in “bin” folder. For any external drive that you want to mount temporarily on your linux machine, \"media\" is the directory for it. If you have multiple user accounts, \"home\" is the directory for each user in your linux system.</p>",
+    "createdAt": "2026-10-24T15:30:37.000+00:00",
+    "link": "https://blog.bytebytego.com/p/ep230-rag-vs-agentic-rag",
+    "author": "ByteByteGo",
+    "site": {
+      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
+      "name": "ByteByteGo Newsletter"
+    }
+  },
+  {
     "title": "나는 양자물리학을 이해하지 못한다 (2018)",
     "content": "<ul>\n<li><strong>양자물리학 자료</strong>를 전체 PDF와 주제별 PDF로 제공함</li>\n<li><strong>고전물리학</strong>과 세계를 뒤흔든 실험에서 시작해 파동과 입자의 이중성, 물질파, 입자와 장을 다룸</li>\n<li><strong>하이젠베르크의 불확정성 원리</strong>, 파동함수, 양자 터널링, 양자 상태와 중첩을 주제별로...<p></p></li></ul>",
     "createdAt": "2026-10-24T14:37:41.000+00:00",
@@ -418,138 +572,6 @@
     }
   },
   {
-    "title": "Claude Fable 5.1은 그림에 어떻게 비밀 메시지를 숨길까?",
-    "content": "<ul>\n<li><strong>Claude Fable 5.1</strong>이 SVG 이미지에 숨긴 메시지를 별도 세션의 같은 모델이 인코딩 규칙이나 SVG 소스 없이 복원하는 실험에서 <strong>78%의 복원율</strong>을 기록함</li>\n<li>건물과 풀잎의 <strong>높이를 알파벳 순서에 대응</strong>시키는 방식을 50개 중 33개에서 사용. 꽃의 기울기와...<p></p></li></ul>",
-    "createdAt": "2026-10-23T16:43:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=35875",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Crystal 1.22 - 모든 타깃에 네이티브 이벤트 루프 기본 적용, DWARF 처리 개선",
-    "content": "<ul>\n<li><strong>Crystal 1.22.0</strong>은 모든 타깃에서 시스템 셀렉터를 직접 사용하는 네이티브 이벤트 루프를 기본으로 사용하며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">libevent</code>는 명시적으로 선택하는 대체 수단으로 남음</li>\n<li><strong>DWARF 파서</strong>를 전면 개편해 성능과 메모리 사용량을 개선함. 필요할 때 섹션을 탐색하...<p></p></li></ul>",
-    "createdAt": "2026-10-23T16:40:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=35874",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "eMudhra의 단일 요소 OTP 로그인 시스템 완전 우회",
-    "content": "<ul>\n<li>eMudhra의 <strong>단일 요소 인증(1FA) OTP 로그인</strong>을 완전히 우회할 수 있다는 시연 게시물이 공개됨</li>\n<li>해당 시스템은 <strong>공개키로 OTP를 암호화</strong>하며, OTP 발급 과정에 Cloudflare Turnstile을 사용함</li>\n<li>게시자에 따르면 공개된 키로 <strong>OTP 요청을 직접 암호화</strong></li></ul>",
-    "createdAt": "2026-10-23T16:11:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35873",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Epic Games Inc 대 Apple Inc 소송, 호주에서 iOS 대체 배포와 결제 허용 명령",
-    "content": "<ul>\n<li>호주 연방법원은 Apple의 <strong>시장지배력 남용</strong>에 대한 구제로, 호주 이용자에게 iOS 앱의 직접 다운로드와 대체 앱 스토어, 대체 결제를 허용하도록 명령함</li>\n<li><strong>IAP 강제와 외부 결제 안내 금지</strong>뿐 아니라, 수수료와 추가 결제 단계로 대안 이용을 억제하거나 개발자에게 불...<p></p></li></ul>",
-    "createdAt": "2026-10-23T16:08:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35872",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Disney, 모든 요금제에 광고 노출을 확인한 지 며칠 만에 가격 인상",
-    "content": "<ul>\n<li><strong>Disney+와 Hulu의 Premium 월 요금</strong>이 각각 18.99달러에서 21.49달러로 약 13% 오름. 광고형 단독 요금제도 인상되지만, 번들은 인상 폭을 작게 유지하거나 가격을 동결함</li>\n<li>Disney+는 구독 약관을 수정해 <strong>Premium을 포함한 모든 요금제</strong>에서 홍보 콘텐츠, 협찬, 콘텐츠...<p></p></li></ul>",
-    "createdAt": "2026-10-23T16:05:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35871",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: claude-code-todo - 클로드 코드 옆에 띄워 두는 TODO pane",
-    "content": "<p>Claude Code로 작업하다 생기는 할 일을 바로 적고, 고치고, 지울 수 있게 만든 플러그인입니다. 세션을 닫아도 목록은 남습니다.</p>\n<p>채팅 옆 pane에 전역 목록과 프로젝트 목록이 탭으로 나뉘어 있고, 프롬프트 위에는 남은 개수와 다음 할 일, 마감 지난 개수가 한 줄로 나옵니다.</p>\n<p>pane에서 키(d 완료, </p>",
-    "createdAt": "2026-10-23T16:03:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=35870",
-    "author": "wlsdnen",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "투자자 소유 전력회사, 공영 전력회사보다 전기요금 23% 더 부과",
-    "content": "<ul>\n<li>2025년 미국 가정용 전력의 kWh당 평균 요금은 <strong>투자자 소유 전력회사 17.8센트</strong>, 공영 14.5센트, 협동조합 14.1센트로 집계됨</li>\n<li>2020년 이후 투자자 소유 전력회사의 요금은 <strong>34% 상승</strong>해 같은 기간 물가 상승률 24%를 웃돌았으며, 공영과 협동조합의 요금 상승률은 각각...<p></p></li></ul>",
-    "createdAt": "2026-10-23T16:02:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=35869",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "우리 집에도 Traits는 있다: Zig에서 구현하는 컴파일 타임 타입 계약",
-    "content": "<ul>\n<li>Zig의 <strong>컴파일 타임 구조체</strong>에 특정 타입의 관련 함수를 묶으면, 별도 라이브러리나 언어 기능 없이 명시적인 타입 계약을 갖춘 <strong>Trait 패턴</strong>을 구현할 수 있음</li>\n<li>기존 동적 인터페이스는 메서드 시그니처를 보장하지만 최적화를 제한하고, <strong>comptime 덕 타이핑...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T15:03:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=35867",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "스웨덴 정부청사, ChatGPT와 Claude 접속 차단 예정",
-    "content": "<ul>\n<li>스웨덴 <strong>정부청사(Regeringskansliet)</strong> 가 월요일부터 직원 업무용 컴퓨터에서 <strong>ChatGPT와 Claude 접속을 차단</strong>함</li>\n<li>직원들이 <strong>승인된 AI 서비스</strong>를 사용하도록 유도하기 위한 조치이며, 승인 도구에는 Microsoft의 Copilot이 포함됨</li>\n<li>다만 일부 ...<p></p></li></ul>",
-    "createdAt": "2026-10-23T14:56:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=35866",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "네덜란드 정부가 Jared Kushner의 휴대전화를 해킹했다",
-    "content": "<ul>\n<li><strong>Jared Kushner</strong>는 책 발췌문에 담긴 의혹이 터무니없고 명백히 거짓이라며, 해당 일이 일어나지 않았다고 부인함</li>\n<li>Kushner 측은 <strong>모든 주장을 공식적으로 부인</strong>했으며, 책의 저자가 이를 뒷받침할 검증 가능한 증거를 하나도 내놓지 않았다고 반박함</li>\n<li><strong>...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T14:53:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=35865",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "휴대전화가 더 이상 당신 것이 아니게 될 날이 다가온다: 봉쇄까지 70일",
-    "content": "<ul>\n<li><strong>Keep Android Open</strong> 캠페인은 Google의 개발자 인증 의무화가 Play Store 밖의 앱 배포까지 중앙 통제하고, 사용자가 구매한 기기에 원하는 소프트웨어를 설치할 자유를 제한한다고 비판함</li>\n<li>등록에는 <strong>수수료와 정부 발급 신분증</strong>을 비롯해 약관 동의, 서명 키 증빙, 앱...<p></p></li></ul>",
-    "createdAt": "2026-10-23T14:50:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=35864",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 오마이명함 – 명함 찍으면 연락처에 저장되는 안드로이드 앱 (무료·광고 없음)",
-    "content": "<p>명함 받으면 연락처에 옮겨 적는 게 귀찮아서 직접 만들었습니다.</p>\n<p>• 명함을 찍으면 이름·회사·직함·휴대전화·유선전화·이메일·주소·웹사이트를 읽어서 칸을 채워줍니다<br>\n• 틀린 칸만 고치고 버튼 한 번이면 폰 연락처에 저장됩니다<br>\n• 같은 번호나 이름이 이미 있으면 기존 연락처에 합칠지 물</p>",
-    "createdAt": "2026-10-23T14:08:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=35863",
-    "author": "tomlee",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Accordion Icons: Which Work Best?",
     "content": "<p>So what icon is the <strong>most reliable</strong> to show expansion and collapsing for accordions? Is there really any noticeable difference between carets, chevrons, arrows, and triangles?</p>\n<p>Well, <a href=\"https://www.nngroup.com/articles/accordion-icons/\" target=\"_blank\" rel=\"noopener noreferrer\">research</a> shows that there is some difference indeed. But what’s more interesting is that <strong>split menus are harmful</strong>, why it's better to not have icons and text labels link to different actions, and why the caret is the safest icon choice. Let’s dive in!</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/15-accordion-icons.jpg\"></p>\nNo Icon = Opening The Page\n<p>The findings aren’t very surprising: without any icon in use, users expect that tapping on the menu item would take them directly to a new page. Users often struggle with <strong>custom icons</strong> as they don't clearly signal that they'll open an accordion. And people tend to tap fairly equally on the icon and on the label for most icons.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/10-accordion-icon-study.jpg\"></p>\n<p>Many designs (like the one below) tend to slightly <strong>overcomplicate things</strong> by adding arrows and carets pointing everywhere, depending on the state of the accordion. But typically we don't need to use an arrow to indicate a link to the category.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/11-nng-aaccordion-icon-study.jpg\"></p>\n<p>The rule of thumb is very simple: if it’s a link, the easiest and most effective way is to <strong>simply underline it</strong> — without any arrow, caret, or other icon. Perhaps it’s not particularly exciting, but it works flawlessly every single time.</p>\nConfusing Behavior With Arrows ▶ and Split Buttons\n<p>Using a right-facing arrow icon ▶ <strong>isn’t</strong> associated with an expectation of going directly to a new page. And having the same icon pointing down ▼ doesn’t necessarily imply that an accordion is going to open on tap/click.</p>\n<p>It’s a good idea to <strong>avoid split buttons for accordions</strong> — where the text label links directly to a page, but the icon opens the accordion. Instead, it’s much more reliable to allow users to tap on a main category and expose the menu; and to access the category page, we add a link to it inside the menu.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/12-accordion-navigation-dhl.jpg\"></p>\nPlus +/− and Arrows ↓/↑ Are Understood, But Can Be Misunderstood\n<p>For accordions, we typically use +/− or arrows ↓/↑ to signal expanded and collapsed states, and typically it works well. However, both have <strong>many different interpretations</strong>. Plus + can mean anything from saving for later to adding to cart to zooming in, and can be particularly confusing for multi-level navigation, with many levels open at the same time.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/13-split-button-accordion-pattern.jpg\"></p>\n<p>Arrows ↓/↑ can mean scrolling or sliding or finding the next match, but also a jump to a particular portion of a page. Both plus and arrows are well-understood and work, but depending on the design, can be confusing — mostly because <strong>they are overloaded</strong>.</p>\nWrapping Up\n<p>The safe choice is to use the <strong>caret/triangle pointing down ▼ by default</strong>, and change it to a caret pointing up or a caret pointing sideways ▶ on interaction. If you need an alternative, then +/- typically work well, too.</p>\n<p><img src=\"https://files.smashing.media/articles/how-name-things-choose-accordion-icons/14-lensorg-accordion.jpg\"></p>\n<p>But we certainly don’t need any further icons or arrows to indicate where the links go. The same goes for split menus, which often produce more mistakes than help. Instead, we have one button or dropdown that does exactly one thing — shows all options and allows users to drill down.</p>\n<p>And if you need a direct link, we link the title directly to the page and <strong>underline it</strong>. More often than not, simpler is better.</p>\n<h3>Editor’s Note</h3>\n<p>We hope you’ll find these wonderful projects useful — put together by wonderful creators. A friendly shout-out to everyone sharing their work with folks to use and learn from! That’s one of the reasons why we truly love the web and people building and designing it. 💚</p>\n<p>At Smashing, <strong>we love the web</strong>. That’s why we publish articles and books, run workshops and events around everything web. We love seeing what we all can do to make the web more accessible and usable. We also love organizing and attending <a href=\"https://smashingconf.com/online-workshops\" target=\"_blank\" rel=\"noopener noreferrer\">online events</a> — with <strong>friendly discounts</strong> for large groups (5+ attendees) and schools and students. Interested? Just <a href=\"https://smashingconf.com/contact\" target=\"_blank\" rel=\"noopener noreferrer\">send us an email</a> and we’ll sort it out!</p>\n<ul>\n<li>Multiple <strong>live sessions</strong> (2.5h each),</li>\n<li><strong>09:00 – 11:30 AM PT</strong> (18:00 – 20:30 CET)</li>\n<li>With <strong>workshop video recordings</strong> &amp; slides,</li>\n<li><a href=\"https://www.youtube.com/watch?v=6vGXBWj0hI0\" target=\"_blank\" rel=\"noopener noreferrer\">Free video preview </a>(2.5h)</li>\n<li><a href=\"https://smashingconf.com/online-workshops#all-workshops\" target=\"_blank\" rel=\"noopener noreferrer\">Jump to all workshops&nbsp;→</a></li>\n</ul>\n",
     "createdAt": "2026-10-23T13:00:00.000+00:00",
@@ -558,17 +580,6 @@
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "Ask HN: 모델이 그렇게 뛰어나다면, OpenAI는 왜 직접 회사 100개를 세우지 않을까?",
-    "content": "<ul>\n<li>최첨단 모델이 그렇게 뛰어나다면 <strong>OpenAI나 Anthropic이 직접 제품과 회사를 만들어 더 큰 수익을 내지 않는 이유</strong>를 묻는 질문. 모델 가격이 내려가는 상황에서 토큰 판매가 최선의 전략인지도 문제 제기</li>\n<li><strong>소프트웨어 제작과 사업 운영은 별개의 문제</strong>라는 답변. 고객...<p></p></li></ul>",
-    "createdAt": "2026-10-23T12:35:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=35862",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1438,17 +1449,6 @@
     "site": {
       "id": "dc93c268-0c5f-4cd9-ac44-831e10f22da9",
       "name": "NHN Cloud Meetup"
-    }
-  },
-  {
-    "title": "EP227: Top 9 Places to Use Jev",
-    "content": "<h2><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\">[Webinar] How to stop babysitting your agents (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/Unblocked_092626\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!wK8w!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!wK8w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69cc68c9-1986-4b6b-a833-15de9747cbb8_1600x900.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops.</p><p>More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand.</p><p><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\">Join us for a FREE webinar on Oct 7</a> to see:</p><ul><li><p>Where teams get stuck on the AI maturity curve and why common fixes fall short</p></li><li><p>How a context layer solves for quality, efficiency, and cost</p></li><li><p>Live demo: the same coding task with and without a context layer</p></li></ul><p>If you want to maximize the value you get from AI agents, this one is worth your time.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Unblocked_092626\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Register now</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>Top 9 Places to Use Jev</p></li><li><p>LLM, RAG, AI Agent &amp; Agentic AI</p></li><li><p>Ex-YouTube Engineer Rebuilds YouTube in 45 Mins (Youtube)</p></li><li><p>MCP vs Function calling</p></li><li><p>If Claude Code is a burger...</p></li><li><p><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Rebuild Youtube Live Course Start Today</a></p></li></ul><div><hr></div><h2>Top 9 Places to Use Jev</h2><p>Jev is TypeSafe AI’s first System One Model. It is 100x faster and cheaper than frontier LLMs.</p><p>That opens up a lot of use cases people usually skip because the big models are too slow or too expensive for them.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!HL1C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 424w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 848w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg\" data-attrs=\"{\" alt=\"graphical user interface, application\" title=\"graphical user interface, application\" srcset=\"https://substackcdn.com/image/fetch/$s_!HL1C!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 424w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 848w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!HL1C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9845db07-115f-4cd6-aaaa-76b90bc9ec7d_1280x1546.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Here are the top 9 places to use Jev instead of an LLM:</p><ol><li><p>Model routing. Jev takes the prompt as input and routes it to a proper LLM.</p></li><li><p>Guardrails. Detect security risks in the prompt first. Then pass it to the LLM.</p></li><li><p>Gating tool-calls. Classify agent tool calls into one of their permission categories.</p></li><li><p>Triage inbox. Classify lots of emails into categories (e.g., spam, urgent, archive).</p></li><li><p>Reranking. Score passages against a query (prompt) so we can rank them by relevance.</p></li><li><p>LLM evals. Evaluate an LLM’s output and return a score within a range.</p></li><li><p>Bulk labeling. Label lots of rows from a huge table fast and cheap (map-reduce style).</p></li><li><p>Real-time decisions. Use cases where a fast decision is needed in a loop (e.g., trading).</p></li><li><p>Confidence gate. Classify anything based on confidence and act properly.</p></li></ol><p>The bottomline is to use the LLM for generations and use Jev on the decisions around it.</p><p>What are other places to use Jev instead of an LLM?</p><div><hr></div><h2>LLM, RAG, AI Agent &amp; Agentic AI</h2><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!u_CK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!u_CK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!u_CK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab087dc9-2995-4014-a440-7106dab4fa8b_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>LLM: An LLM takes a user prompt and generates a response from its learned parameters. It does so by predicting tokens one at a time. </p><p>RAG: In RAG, the user query goes to a retriever before the LLM. The retriever fetches relevant information from the indexed knowledge base and passes it to the LLM along with the query. The LLM generates a grounded response, but it does not guarantee correctness. </p><p>AI agent: It has a goal and keeps track of the current task state. It can plan about what to do next, call tools, get a result back, observe it, and repeat until the goal is met. This feedback loop allows the agent to observe the results and adjust its actions accordingly.</p><p>Agentic AI: Putting one or more AI agents to meet a shared objective is what makes an AI system agentic. It is achieved through planning, tool use, and feedback. You add an orchestration layer, which coordinates work across multiple agents and workflows. Agents read and write to shared task states and can access tools, data, and the environment.</p><div><hr></div><h2>Ex-YouTube Engineer Rebuilds YouTube in 45 Mins</h2><div id=\"youtube2-E5Ef_Kne17U\" data-attrs=\"{\" data-component-name=\"Youtube2ToDOM\"><div></div></div><div><hr></div><h2>MCP vs Function calling</h2><p>MCP and function calling have a lot in common. This confuses a lot of engineers, so here is a side-by-side comparison.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!v7j_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!v7j_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!v7j_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56cc1c6a-9dfe-46c0-8cc3-7b5fd291b591_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Both MCP and function calling are mechanisms that allow an LLM to have access to tools. The agent runtime sends the prompt to the LLM, the LLM decides which tool to use and emits a tool call request. </p><p>The agent runtime then handles tool call execution and returns the results back to the LLM to continue. The LLM finally produces a final output shown to the user.</p><p>What is different between the two is where the function is implemented, and how the agent handles the execution. In local function calling, the functions are implemented locally on the user's machine. The agent runtime executes them and receives the results.</p><p>In MCP, the functions can be outside of the user's machine, on some remote server. The agent runtime follows the MCP protocol and calls the corresponding server, the execution happens remotely, and the results are sent back to the agent runtime. </p><p>This allows your agent to connect to hundreds of thousands of tools that are implemented publicly and hosted remotely.</p><p>Over to you: What are the best MCP resources out there?</p><div><hr></div><h2>If Claude Code is a burger...</h2><p>Before each model call, Claude Code assembles a context window from 9 distinct sources. </p><p>Think of it as a burger, each layer adds something different.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!DmZq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 424w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 848w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!DmZq!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 424w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 848w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!DmZq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4ee58fd-6675-42ae-96a6-a439a338b2b3_2484x3002.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>System Prompt: Defines Claude's role, behavior, and tone. This sets the foundation.</p></li><li><p>Environment Info: Git status, branch info, and current date. Pulled in via getSystemContext()</p></li><li><p>CLAUDE.md: A four-level instruction hierarchy: managed → user → project → local. Plain-text Markdown, so users can read, edit, and version-control everything the model sees.</p></li><li><p>Auto Memory: Contextually relevant memory entries prefetched asynchronously. An LLM scans memory-file headers and surfaces up to 5 relevant files on demand.</p></li><li><p>Path-scoped Rules: Conditional rules that load lazily when the agent reads files</p></li><li><p>Tool Metadata: Skill descriptions, MCP tool names, and deferred tool definitions.</p></li><li><p>Conversation History: Carried forward across iterations. </p></li><li><p>Tool Results: File reads, command outputs, and subagent summaries.</p></li><li><p>Compact Summaries: When history grows too long, older segments are replaced by model-generated summaries.</p></li></ol><div><hr></div><h2><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Rebuild Youtube Live Course Start Today</a></h2><p>Rebuild YouTube with AI, taught by a former YouTube engineer, kicks off on Saturday, September 26. <strong><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\">Enrollment closes in 24 hours</a></strong>.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now →</span></a></p><div><figure><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 424w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 848w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1272w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png\" data-attrs=\"{\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!LCw9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 424w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 848w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1272w, https://substackcdn.com/image/fetch/$s_!LCw9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa79a674c-ee69-4290-83f7-acbf27996741_2048x707.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2><strong>What you will learn</strong></h2><ul><li><p><strong>Scope a realistic MVP. </strong>Decide which YouTube features to build and break the work into manageable tasks.</p></li><li><p><strong>Work with agents. </strong>Plan changes, review generated code, and recover from bad diffs or sessions that go off track.</p></li><li><p><strong>Build across the stack. </strong>Turn mockups into React pages and build a backend with Postgres, authentication, and video uploads.</p></li><li><p><strong>Add semantic search and related videos. </strong>Use multimodal embeddings and understand how this approach differs from production recommendation systems.</p></li><li><p><strong>Test and deploy your app. </strong>Check features with Playwright, deploy to Vercel, and track watch time in an admin dashboard.</p></li></ul><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/substack-feed-rebuild-yt\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now →</span></a></p>",
-    "createdAt": "2026-09-26T14:31:13.000+00:00",
-    "link": "https://blog.bytebytego.com/p/ep227-top-9-places-to-use-jev",
-    "author": "ByteByteGo",
-    "site": {
-      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
-      "name": "ByteByteGo Newsletter"
     }
   },
   {
