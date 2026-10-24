@@ -1,5 +1,115 @@
 [
   {
+    "title": "분산 SQLite의 12년",
+    "content": "<ul>\n<li>2014년 <strong>rqlite</strong>는 SQLite 앞에 Raft 로그를 두고 모든 쓰기를 클러스터에 복제하는 방식으로 출발했으며, 이제 분산 SQLite는 약 12개 프로젝트가 속한 분야로 성장함</li>\n<li>설계는 <strong>합의, 스트리밍, 병합</strong>이라는 세 갈래로 발전함. 각각 강한 일관성의 클러스터, 단일 노드...<p></p></li></ul>",
+    "createdAt": "2026-10-24T08:32:35.000+00:00",
+    "link": "https://news.hada.io/topic?id=35911",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "C 밖에서 이식성 있게 errno에 접근하는 괴상하고 엉망인 꼼수",
+    "content": "<ul>\n<li>C 래퍼 함수나 libc 내부 구현에 기대지 않고 <strong>errno를 얻기 위해</strong>, Hare에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">perror</code>의 오류 메시지를 가로채 숫자 오류 코드로 역변환하는 실험임</li>\n<li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">perror</code></strong> 는 errno를 직접 읽지만 결과를 stderr에 출력하므로, 프로그램 초기화 때 파일 디...<p></p></li></ul>",
+    "createdAt": "2026-10-24T08:02:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=35910",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "진화하는 위협: Node, Python 등에서 원격 코드 실행을 일으키는 http2shell",
+    "content": "<p>진화하는 위협: Node, Python 등에서 원격 코드 실행을 일으키는 http2shell</p>\n",
+    "createdAt": "2026-10-24T07:36:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=35909",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CVE Tracker - 1999년부터의 CVE 공개 건수를 시각화하는 대시보드",
+    "content": "<ul>\n<li><strong>공식 CVE 목록</strong>을 바탕으로 공개된 CVE 레코드 수를 집계하며, 데이터를 매일 갱신함</li>\n<li><strong>일/주/월/년 단위</strong>로 집계하고, 최근 30일부터 전체 기간까지 조회 범위를 바꿀 수 있음</li>\n<li><strong>건수와 누적 건수</strong> 보기를 제공함</li>\n<li><strong>공개일과 예...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-24T07:33:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=35908",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "이것이 사이버 보안의 새로운 일상인가?",
+    "content": "<ul>\n<li>PHP, GitLab, 인증기관, 클라우드, 패키지 공급망에서 심각한 보안 사고가 잇따르며 <strong>취약점 공개와 방어 사이의 시간</strong>이 핵심 문제로 떠오름</li>\n<li><strong>LLM은 이론적 취약점이나 패치 차이를 실제 공격 코드로 전환하는 속도</strong>를 높임. 다만 작동하지 않는 공격 코드를 판별하려...<p></p></li></ul>",
+    "createdAt": "2026-10-24T06:35:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=35907",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "정의되지 않은 동작(UB)이 괜찮다고 생각하는 사람들에게",
+    "content": "<ul>\n<li><strong>정의되지 않은 동작(UB)</strong> 의 결과를 예측할 수 있고 최악에도 세그멘테이션 폴트만 발생한다는 생각은 코드 예제의 실제 컴파일 결과와 어긋남</li>\n<li>GCC 16.2의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">-O1</code> 예제에서는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">std::unreachable()</code> 뒤에 함수 복귀 명령이 없어, 호출하지 않은 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ex...<p></p></code></strong></li></ul>",
+    "createdAt": "2026-10-24T06:07:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=35906",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "순수 함수형 프로그래밍은 C 성능에 얼마나 근접할 수 있을까?",
+    "content": "<ul>\n<li>순수 Roc로 작성한 <strong>roc-deflate</strong>를 최적화한 결과, Silesia 압축 벤치마크 144개에서 C 라이브러리 libdeflate 대비 성능 저하율의 중앙값이 <strong>M1에서 2.6%, Ryzen에서 8.9%</strong> 에 그침</li>\n<li>입력에 따라 <strong>18% 느리거나 18% 조금 넘게 빠른</strong> 결과가 나왔지만, ...<p></p></li></ul>",
+    "createdAt": "2026-10-24T06:04:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=35905",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "해커, 독일 극우 정당 AfD의 데이터 281GB 유출",
+    "content": "<ul>\n<li>독일 극우 정당 <strong>AfD</strong>가 호스팅 업체 해킹으로 일부 메일함이 복사된 보안 침해를 인정했으며, 해커는 탈취한 이메일과 파일 <strong>281GB</strong>를 공개함</li>\n<li>유출 사이트 <strong>Hexane.cc</strong>는 이메일 원문 대신 AI가 생성한 요약과 심각도 등급을 보여주고, 전체 원문은 토...<p></p></li></ul>",
+    "createdAt": "2026-10-24T04:32:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35904",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: AIDAN - 가입 없이 10문항 무료 연습과 4개 언어 교재",
+    "content": "<p>직장에서 AI 기본기나 질문법을 어디서 연습할지 고민될 때 브라우저에서 바로 시작할 수 있습니다. 가입 없이 10문항 무료 연습이 가능하고, 학습 교재는 웹 리더와 PDF로 한국어·영어·일본어·중국어로 제공됩니다. AI 기본기, 질문법, 업무 자동화, 앱·AI 기능·에이전트 개발, 직무별 응용 등 14개 트랙이 있습니다...</p>",
+    "createdAt": "2026-10-24T04:27:21.000+00:00",
+    "link": "https://news.hada.io/topic?id=35903",
+    "author": "yong076",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "유토피아가 코앞이라면 노후 준비는 필요 없다",
+    "content": "<ul>\n<li>Daniel Ellsberg의 RAND 회고에는 <strong>세계를 구한다는 사명감</strong>과 남들이 모르는 위험을 안다는 내부자 의식이 나타나며, Anthropic 같은 AI 기업의 수사와 닮은 점이 있음</li>\n<li>Ellsberg는 RAND 동료들과의 유대를 <strong>종교 공동체</strong>에 견주며, 초월적 대의를 위해 함께 일한다는 ...<p></p></li></ul>",
+    "createdAt": "2026-10-24T03:37:33.000+00:00",
+    "link": "https://news.hada.io/topic?id=35900",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "실직과 코르티손으로 인한 조증",
     "content": "<ul>\n<li>입사 후 <strong>6개월 수습 기간</strong> 중 구조조정으로 해고된 뒤, 질병과 자가면역질환 악화를 겪고 코르티손 치료를 받으며 몸과 일상에 변화를 경험함</li>\n<li>코로나19로 의심했지만 확실하지 않은 질병 이후 <strong>극심한 피로와 관절 통증</strong>이 이어졌고, 3주 뒤 전문의 진료와 검사를 거쳐...<p></p></li></ul>",
     "createdAt": "2026-10-24T03:34:33.000+00:00",
@@ -462,28 +572,6 @@
     }
   },
   {
-    "title": "LLM이 훨씬 더 큰 규모의 소프트웨어 정형 검증을 가능하게 하고 있음",
-    "content": "<ul>\n<li>Anthropic과 Theorem은 <strong>Claude로 오픈소스 라이브러리 123개의 퍼징 진입점 239개를 정형 검증</strong>함. 발견한 버그를 수정한 뒤, 특정 실행 환경과 입력 크기 조건에서 컴파일된 코드가 충돌하지 않음을 증명</li>\n<li>무작위 입력을 대량 실행하는 퍼징과 달리, <strong>64MB 미만의 모든 입력에...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T04:36:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=35855",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Docker는 이상하다",
-    "content": "<ul>\n<li><strong>컨테이너 런타임을 직접 만들기 시작하면서 발견한 Docker의 뜻밖의 작동 방식</strong>. 평소 하나의 도구로 쓰던 기능들이 내부에서는 여러 Linux 기능과 우회 구현으로 연결되어 있음</li>\n<li>컨테이너는 별도의 가상 머신이 아니라 <strong>격리와 자원 제한을 적용한 프로세스</strong>. Linux에...<p></p></li></ul>",
-    "createdAt": "2026-10-23T03:33:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=35852",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "머릿속에 있던 로그 정의 기준을 모두의 AI 스킬로 만들기",
     "content": "<div><p id=\"3fea360d-33e3-806d-8538-fc1708ee74fd\"><span><span><span>토스 앱에서 사용자가 어떤 화면을 보고 무엇을 눌렀는지는 앱로그로 남아요. </span></span></span></p><p id=\"400a360d-33e3-804e-99f4-ce7ad042fed9\"><span><span><span>토스는 이렇게 쌓이는 로그를 서비스 품질을 높이는 목적으로 사용해요. 그래서 로그를 처음부터 정확하고 일관되게 정의해야 </span><span>분석 결과도 믿을 수 있어요. 이를 위해</span><span> 로그를 전담해 설계하고 관리하는 DataOps Manager와 로그 명세를 한곳에서 관리하는 플랫폼인 로그센터가 있어요.</span></span></span></p><p id=\"3fea360d-33e3-8015-a228-edd312c61758\"><span><span><span>DataOps Manager는 앱로그의 규칙과 맥락을 지키며 담당 도메인의 로그 명세를 정의하고 관리</span><span>해요. 이번 글에서는 비개발자인 DataOps Manager들이 모여 로그센터에서 수동으로 진행하던 로그 정의 업무를 </span><span>AI 스킬로 개선한 과정</span><span>을 소개하려고 해요.</span></span></span></p><p id=\"3fea360d-33e3-80f2-b1df-fb7eba73dad6\"><span><span></span></span></p><h2 id=\"3fea360d-33e3-8062-a9ac-faa95d104518\"><span><span><span>1. 로그 정의할 때 중요한 것들</span></span></span></h2><p id=\"3fea360d-33e3-8077-9e7e-f1a3e8456218\"><span><span><span>앱 화면은 끊임없이 새로 생기고 바뀌어요. 그때마다 DataOps Manager(DOM)는 사용자의 행동을 어떤 로그로 기록할지, 그 로그에 어떤 파라미터를 함께 남길지 새로 정해야 해요. </span></span></span></p><p id=\"3fea360d-33e3-80c8-8dfa-ef21e10c10b6\"><span><span><span>로그를 정의할 때에는 다음 네 가지를 챙겨야 해요.</span><span> </span></span></span></p><figure id=\"3ffa360d-33e3-8047-8888-ef055fdcbea8\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/f829abaa-98f1-48a9-8826-d2001bfaaf67/image.png\" alt=\"\"><figcaption><span>로그를 정의할 때에는 로그를 정해진 형식에 따라서, 도메인 안의 맥락을 이어서, 분석에 필요한 것만 남기면서, 정책과 안전을 지켜서 정의해야 해요.</span></figcaption></figure><p id=\"3fea360d-33e3-80cd-974b-d50240261ca3\"><span><span><span>로그 규칙은 '앱로그 백과사전'에 정리되어 있었어요. 하지만 로그를 정의할 때는 규칙뿐 아니라 도메인의 맥락과 히스토리도 중요해요. 기존 로그 명세를 직접 검색해 참고할 수는 있었지만, 도메인의 맥락은 담당 DOM의 머릿속에 남아 있는 경우가 많았어요. 그래서 각자가 가진 맥락과 경험에 의존해 로그센터에서 수동으로 로그를 정의하고 관리했어요.</span></span></span></p><p id=\"3fea360d-33e3-80a5-9b57-c4a753652f5e\"><span><span><span>한 사람이 정확하게 정의하기도, 모두가 일관되게 정의하기도 어려웠던 부분을 </span><span>저희는 AI 스킬로 로그를 정의하는 방식과 과정 모두를 개선</span><span>하고자 했어요.</span></span></span></p><p id=\"3fea360d-33e3-8056-ad54-ed24b9e4c7c6\"><span><span></span></span></p><h2 id=\"3fea360d-33e3-803e-8433-eecbb822cf40\"><span><span><span>2. 로그 정의 과정을 AI 스킬로 옮기기</span></span></span></h2><p id=\"3fea360d-33e3-805f-8f4c-ef39acc4f221\"><span><span><span>로그를 정의할 때마다 앞에서 본 네 가지 규칙을 찾아보고 도메인의 맥락까지 기억하는 건 쉽지 않은 일이었어요.</span><span> 그래서 한 DOM이 자신이 알고 있던 규칙과 경험을 살려, 로그 정의를 돕는 작은 스킬을 만들어 쓰기 시작했어요. 하지만 이 스킬은 만든 사람의 도메인과 경험에 묶여 있어서, 만든 사람은 편했지만 다른 사람이나 다른 도메인에서는 그대로 쓰기 어려웠어요.</span></span></span></p><p id=\"3fea360d-33e3-8032-9ef7-ea1e4c754c33\"><span><span><span>그래서 저희는 </span><span>이 스킬을 누가 어떤 도메인에서 작업하든 함께 쓸 수 있도록</span><span> 제대로 풀어보기로 했어요. 로그를 정의할 때 거치는 판단과 순서를 개인의 머릿속이 아니라 스킬 안에 담으면, 매번 규칙을 외우지 않아도 되고 모든 도메인에서 같은 기준으로 정의할 수 있으니까요.</span></span></span></p><p id=\"3fea360d-33e3-8058-8d47-ceee7dd01c3f\"><span><span><span>그렇게 만든 '로그 정의 스킬'은 로그 명세를 대신 찍어내는 생성기는 아니에요. </span></span></span></p><p id=\"400a360d-33e3-807a-a369-f333650beb38\"><span><span><span>새 로그를 만들기 전에 </span><span>'앱로그 백과사전'의 표준을 확인하고 도메인의 기존 로그 명세를 끝까지 조회해 재사용할 수 있는지 먼저 살피고</span><span>, 실제 반영은 </span><span>사람이 확정한 뒤에만</span><span> 실행해요. (이 스킬은 사용자의 로그를 읽거나 처리하지 않아요.)</span></span></span></p><p id=\"3fea360d-33e3-80d7-97ba-f3eb882d2106\"><span><span><span>화면 하나의 로그를 정의해달라고 하면 로그 정의 스킬은 다음의 순서로 움직여요. </span></span></span></p><figure id=\"3ffa360d-33e3-80e7-95c4-c758bb51c3d2\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/b188dc72-6fce-4154-be0c-767586fffeec/image.png\" alt=\"\"><figcaption><span>스킬은 화면 디자인을 살펴보고, 적절한 로그 명세 규칙을 확인한 뒤 재사용할 수 있는 부분을 검토해 로그 명세를 제안해요. DOM이 제안된 명세를 검토해 최종 확정하면, 스킬이 이를 시스템에 반영해요.</span></figcaption></figure><p id=\"3ffa360d-33e3-8089-9766-d8104409b8ed\"><span><span><span>이 과정에서 스킬, 로그센터의 CLI(Command Line Interface)인 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>, 로그센터는 역할을 나눠 맡아요. </span></span></span></p><p id=\"3ffa360d-33e3-802b-a29c-ed24921e9b0c\"><span><span><span>스킬은 맥락에 따른 판단을 안내하고, 확신할 수 없는 부분은 사람에게 물어요. 로그 이름 형식처럼 기계가 판정할 수 있는 규칙은 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>이 저장 전에 검사하고, 로그센터는 규칙에 맞지 않는 명세의 발행을 거절해요. 형식 규칙은 스킬에 적어두지 않고 실행할 때마다 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>에 묻기 때문에, 규칙이 바뀌어도 스킬은 늘 최신 기준을 따를 수 있어요.</span></span></span></p><figure id=\"3ffa360d-33e3-80de-be83-dbd86f6bed94\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/77c3f5a8-281b-4939-b80b-8c1d1011fbb6/image.png\" alt=\"\"><figcaption><span>로그 정의 스킬이 판단하고 조율하면, 로그센터 CLI가 저장 전에 미리 걸러내고, 로그센터가 저장하며 최종 판정해요.</span></figcaption></figure><p id=\"3ffa360d-33e3-80b9-a33e-f6e76c927534\"><span><span></span></span></p><h2 id=\"3fea360d-33e3-80a4-b3aa-dd2a2fb34b00\"><span><span><span>3. 개인 도구에서 팀 표준으로</span></span></span></h2><p id=\"3fea360d-33e3-80ad-995b-e52267b4f5b6\"><span><span><span>로그 정의 스킬을 함께 쓰려니 개인이 사용할 때보다 고려해야 할 게 많았어요. 한 사람의 업무에 맞춰져 있던 안내를 여러 DOM이 활용할 수 있도록 다듬고, 이후에 보완한 내용도 함께 관리할 방법이 필요했죠. 마침 로그센터와 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>을 개발 및 관리하는 로그 프로덕트팀에서 스킬을 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>에 포함해 함께 배포하자는 제안을 해주셨어요.</span></span></span></p><p id=\"3fea360d-33e3-802e-be04-f040c9eeacf1\"><span><span><span>협업 과정에서는 문서 구조도 개선했어요. 처음엔 한 문서에 규칙과 절차를 다 담았는데, 길어질수록 AI가 중요한 규칙을 놓쳤거든요. </span><span>로그 프로덕트팀의 </span><span>프론트엔드(FE, Frontend) 개발자분께 기술 검토를 받아, 한 문서에 모여 있던 규칙과 절차를 작업별로 나누고, 스킬에는 각 문서를 찾아가는 안내를 남겼어요. AI가 매번 긴 문서를 읽지 않고, 해당 작업에 필요한 내용만 찾아 읽을 수 있게 된 거예요.</span></span></span></p><p id=\"3fea360d-33e3-809f-bb7e-c39dad425ca7\"><span><span><span>이번 기회로 일하는 방식도 달라졌어요. 기존에는 업무 도구를 개선할 때, 실사용자로서 필요한 기능과 업무 맥락을 기획 과정에 전달했어요. 하지만 이번에는 그 맥락을 가장 잘 아는 저희가 AI를 활용해 필요한 도구를 직접 만들었어요. 그리고 플랫폼 조직인 로그 프로덕트팀은 저희가 만든 스킬을 검토한 후 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>에 통합해 배포하는 일을 맡아주셨어요. </span></span></span></p><figure id=\"3ffa360d-33e3-8078-a4b7-d708d6371c7c\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/e2464c12-0213-420a-a923-b739f81bdfd9/image.png\" alt=\"\"><figcaption><span>기존에는 현업에서 문제를 발견하면 로그 프로덕트팀에 수정을 요청하고, 작업이 끝날 때까지 기다린 뒤 해결 여부를 확인했어요. 지금은 현업에서 발굴한 개선점을 DOM이 AI 스킬로 직접 개발하고, 로그 프로덕트팀과 협업해 로그센터 CLI에 통합 배포했어요.</span></figcaption></figure><p id=\"3fea360d-33e3-8085-ad04-f54ef6b89fdd\"><span><span><span>업무를 아는 사람이 직접 만든 해결 방법에 플랫폼 조직의 기술과 운영 경험이 더해지면서, 동료들도 함께 쓰는 도구로 발전시킬 수 있었어요.</span></span></span></p><p id=\"3fea360d-33e3-8019-ac1e-da705a621db2\"><span><span></span></span></p><h2 id=\"3fea360d-33e3-80dc-afc5-c55d6621d800\"><span><span><span>4. 더 수월하게, 더 일관되게 로그 정의하기</span></span></span></h2><p id=\"3fea360d-33e3-80ad-ad04-fda2a5482c6f\"><span><span><span>스킬을 함께 쓰기 시작하면서, DOM이 로그를 정의하는 과정과 시간을 쓰는 곳도 달라졌어요.</span></span></span></p><p id=\"3fea360d-33e3-809b-b42a-cb39a7c7d120\"><span><span><span>예전에는 디자인이 나오면 DOM이 화면을 보며 필요한 로그를 설계했어요. 기존 로그 명세를 재사용할 수 있는지 찾아보고, 새로 만들어야 한다면 이름과 구조를 정했죠. 스크린샷을 준비하고, 정리한 명세를 로그센터에 하나씩 입력하는 일도 직접 했어요.</span></span></span></p><p id=\"3fea360d-33e3-803a-86fd-dc13220fff95\"><span><span><span>지금은 디자인과 필요한 맥락을 전달하면 스킬이 기존 로그 명세와 파라미터를 조회하고, 재사용 후보와 새로운 명세를 제안해요. DOM이 검토해 확정하면 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>로 로그센터에 반영하죠.</span></span></span></p><figure id=\"3ffa360d-33e3-80e8-b3f6-ffd06fab595e\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/2420ea5a-57e2-47ec-a9ad-73953c65451e/image.png\" alt=\"\"><figcaption><span>기존에는 DOM이 디자인 확인부터 명세 수기 입력까지 각 단계를 하나씩 직접 처리했어요. 지금은 DOM이 화면과 맥락을 전달하면 스킬이 기존 정의를 조회해 명세 초안을 쓰고, DOM은 분석 목적과 전체 구조를 검토해 명세를 확정해요.</span></figcaption></figure><aside id=\"401a360d-33e3-802f-8dc1-d8880ef0bc93\"><div><ul><li id=\"3fea360d-33e3-8024-8b99-ffdc37aa9918\"><span><span><span>로그의 목적과 전체 구조에 더 집중해요.\n</span><span>로그를 하나씩 찾아 작성하고 옮겨 적는 일이 줄면서, 사용자 흐름 전체를 살피는 데 더 시간을 쓸 수 있게 됐어요. 스킬이 제안한 명세와 추가 정보를 바탕으로, 서비스 품질을 높이는 데 필요한 정보가 빠짐없이 정의됐는지 검토해요.</span></span></span></li><li id=\"3fea360d-33e3-80a2-b38b-f1fa116acb6a\"><span><span><span>기존 로그와의 연결성을 지키기 쉬워졌어요.</span><span> \n예전에는 기존 정의를 직접 찾아 대조하다 보니, 이미 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>card_company</span></code><span>로 남기던 정보를 놓치고 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>issuer</span></code><span>처럼 다른 이름으로 정의할 위험이 있었어요. 지금은 스킬이 기존 로그 명세와 파라미터를 먼저 조회해 재사용 후보를 제안해요. 담당자가 의미와 사용 맥락을 확인한 뒤 재사용하면서, 같은 정보를 일관된 이름과 구조로 남기고 기존 로그와 연결해 분석하기 쉬워졌어요.</span></span></span></li><li id=\"3fea360d-33e3-80c0-924e-f627a1add29a\"><span><span><span>각자 챙기던 규칙과 절차를 함께 관리해요.</span><span> \n예전에는 로그 이름과 이벤트 타입의 규칙, 명세를 반영하는 절차를 각자 찾아보고 적용했어요. 이제는 같은 스킬을 사용해 담당자가 달라도 공통된 기준과 순서에 따라 작업할 수 있어요. 사용하면서 보완한 내용도 스킬에 반영하면 다음 작업부터 동료들이 함께 활용할 수 있고요.</span></span></span></li></ul></div></aside><p id=\"3fea360d-33e3-8070-b381-d73bd485d307\"><span><span></span></span></p><p id=\"3fea360d-33e3-8087-98f4-d98a14b3e54e\"><span><span><span>로그 정의 스킬을 직접 사용한 동료들은 이렇게 이야기해주셨어요.</span></span></span></p><aside id=\"401a360d-33e3-807c-b125-d51d4cdfd5a2\"><h4><span><span><span>“화면에서 새로 정의할 퍼널을 짚어 주기만 했는데 로그가 알맞게 정의돼서 정말 편했어요! 신규 파라미터나 ENUM을 지정하려면 원래 여러 단계를 차례로 거쳐야 하는데, 이제는 요청을 입력하기만 하면 바로 처리되어서 로그 정의 과정이 아주 쾌적해졌어요!”</span></span></span></h4></aside><aside id=\"401a360d-33e3-8005-823f-e8c485620985\"><h4><span><span><span>“제가 생각한 가치는 로그를 대신 만들어주는 것보다, 로그 스키마 생성 정책을 실제 작업 흐름에 내재화했다는 점이었어요. 기존 로그, 파라미터, ENUM을 참조하고 토스의 로깅 정책 기반으로 판단하는 등 DOM의 로그 정의에 근거를 제공해주고 있어요. 동일 의미의 파라미터나 스키마의 중복 발행을 막아주는 등, 여러 인원이 로그를 운영하고 유지보수함에 있어 발생할 수 있는 문제를 방지할 수 있었어요. 앞으로는 발생한 예외 케이스와 정책상의 변경점을 공통화하고 표준화할 수 있을 것으로도 기대합니다!”</span></span></span></h4></aside><aside id=\"401a360d-33e3-80af-877f-e2e77ba6d739\"><h4><span><span><span>“새 로그부터 만들기보다 기존에 쓰던 로그를 먼저 찾아서 재사용하도록 로그 정의 스킬이 도와줬어요. 덕분에 거의 대부분 재사용하고, 정말 새로 만든 건 1개뿐이었어요. 재사용하려던 파라미터가 알고 보니 다른 기능 전용이었던 걸 짚어줘서, 섞여버릴 뻔한 걸 미리 막기도 했어요. 무엇보다 뭔가 바꾸기 전에 '이렇게 바뀔 거예요'를 먼저 보여주고 확인받은 다음에만 적용해서, 안심하고 진행할 수 있었어요.”</span></span></span></h4></aside><p id=\"3fea360d-33e3-807f-b72f-f265a884847b\"><span><span></span></span></p><h2 id=\"3fea360d-33e3-8025-8fc6-c1f1e540a7ff\"><span><span><span>5. 로그 규칙에서 도메인 맥락까지</span></span></span></h2><p id=\"3fea360d-33e3-800a-887c-df93da0c9c97\"><span><span><span>규칙 확인은 이제 </span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>lctl</span></code><span>과 스킬이 맡게 됐어요. 여기까지 오는 동안 저희는 각자 맡은 도메인에서 이미 정의된 로그 명세를 정답지로 두고, 같은 화면을 로그 정의 스킬로 다시 정의해 비교하는 평가를 거치면서 개선했어요. </span></span></span></p><p id=\"3fea360d-33e3-8019-8198-e2fcc90fa715\"><span><span><span>평가를 거듭할수록 분명해진 건, </span><span>정의의 품질을 좌우하는 게 규칙보다 도메인의 맥락</span><span>이라는 점이었어요.</span></span></span></p><figure id=\"3ffa360d-33e3-803c-898f-cb570633cf73\"><img src=\"https://static.toss.im/ipd-tcs/toss_core/live/925bed2f-d372-4d9f-97ef-a4883dffc56d/image.png\" alt=\"\"><figcaption><span>평가에서 드러난 세 가지 문제와 각 문제를 해결하기 위해 스킬에 반영한 방법이에요. 기존 로그 탐색, 도메인 간 이름 불일치, 도메인 지식 관리 문제를 각각 분류 추론, 유사 이름 확인, 도메인 표준 입력 방식 등 맥락을 더하는 방법으로 풀었어요.</span></figcaption></figure><p id=\"3fea360d-33e3-8015-ac5b-d93fdc49c112\"><span><span><span>앞으로는 </span><span>도메인 맥락을 지식 베이스로 축적해 로그 정의 스킬이 직접 참고하도록</span><span> 하려고 해요. </span></span></span></p><p id=\"3fea360d-33e3-80c9-9cf0-d3f84c94f550\"><span><span><span>도메인별 로그 이름과 파라미터의 의미, 그렇게 정한 이유를 정리해 두고, 스킬이 로그를 정의하기 전에 이를 먼저 읽게 하려고 해요. 이를 통해 도메인에 특화된 로그는 물론, 복잡한 유저 플로우의 로그도 더 정확하고 일관성 있게 정의하고 활용할 수 있을 것으로 기대해요.</span></span></span></p><aside id=\"3fea360d-33e3-8040-aed9-c6bcbe671305\"><div><h3 id=\"3fea360d-33e3-80c6-8d5b-f3df4c4f932b\"><span><span><span>적용해보기</span></span></span></h3><p id=\"3fea360d-33e3-8074-81bb-cbb4180767a7\"><span><span><span>1️⃣</span><span> 규칙으로 정할 수 있는 것과 사람의 판단이 필요한 것을 먼저 나눠보세요.</span></span></span><span></span></p><p id=\"3fea360d-33e3-80fa-8993-ee07815caac6\"><span><span><span>로그 이름이 형식에 맞는지처럼 기계가 판정할 수 있는 부분은 도구가 검사해요. 반면 새 화면이 기존 화면과 같은 화면인지처럼 제품 맥락이 필요한 판단은 사람이 맡아요. 이처럼 작업을 기계가 판정할 수 있는 부분과 사람이 판단해야 하는 부분으로 먼저 나눠보세요.</span></span></span></p><p></p><p id=\"3fea360d-33e3-80dc-9c3b-e31a190128e6\"><span><span><span>2️⃣</span><span> 판단에 필요한 맥락을 머릿속에서 꺼내 문서로 남겨보세요.</span></span></span><span></span></p><p id=\"3fea360d-33e3-80bb-94ff-cd8c80502953\"><span><span><span>로그 정의 스킬은 로그를 정의하기 전에 해당 도메인의 기존 로그 명세와 파라미터를 조회해 맥락을 파악해요.</span><span> 일부만 살펴보면 이미 있는 정보를 놓치기 쉽거든요. 이처럼 스킬이 참고해야 할 맥락이나 지식이 있다면, 어떤 형태로든 문서로 남기는 것을 시작해보세요. 이런 문서가 쌓이면 스킬이 내 의도에 맞게 더 잘 동작하도록 도울 수 있어요.</span></span></span></p><p></p><p id=\"3fea360d-33e3-80da-94c9-c03774d7bd4b\"><span><span><span>3️⃣</span><span> AI가 문서를 읽고 판단하게 하고, 확신할 수 없는 건 사람에게 묻게 해보세요.</span></span></span><span></span></p><p id=\"3fea360d-33e3-805b-a5bd-d790d6a04877\"><span><span><span>로그 정의 스킬은 앱로그 백과사전과 상황별 참고 문서 중 이번 작업에 필요한 문서만 읽고, 그 기준에 따라 판단해요. 대신 화면을 재사용해도 되는지처럼 제품 맥락이 필요한 판단이나 확실하지 않은 값은 추측하지 않고 사람에게 물어요. </span></span></span></p><p></p></div></aside></div><div id=\"tds-mobile-portal-container\"></div>",
     "createdAt": "2026-10-23T01:53:00.000+00:00",
@@ -492,94 +580,6 @@
     "site": {
       "id": "3f543698-d4df-4f87-a794-d95235163ad3",
       "name": "토스 기술블로그"
-    }
-  },
-  {
-    "title": "Xbox, 이미 구매한 게임 스트리밍에 시간당 24~40센트 요구",
-    "content": "<ul>\n<li>Microsoft가 <strong>Xbox Insiders</strong>를 대상으로 클라우드 이용 시간을 별도로 구매하는 <strong>Cloud Playtime</strong> 테스트를 시작함. 구독 없이도 지원 기기에서 보유한 스트리밍 지원 게임을 이용하는 방식임</li>\n<li>출시 초기 가격은 <strong>시간당 0.24~0.40달러</strong>이며, 게임 구매...<p></p></li></ul>",
-    "createdAt": "2026-10-23T01:34:19.000+00:00",
-    "link": "https://news.hada.io/topic?id=35848",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Idealab.ai - 120만 개 이상의 창업 아이디어를 무료로 제공하는 서비스",
-    "content": "<ul>\n<li><strong>자신의 기술과 관심사, 자금과 지역에 맞는 창업 아이디어</strong>를 찾거나, 이미 가진 아이디어를 발전시키는 서비스</li>\n<li>Idealab에서 <strong>175개 이상의 기업을 출범시킨 Bill Gross의 창업 경험과 AI</strong>를 결합</li>\n<li>뉴스와 연구, 특허, 기업 공시, 고객 불만 등에서 사업 기회...<p></p></li></ul>",
-    "createdAt": "2026-10-23T01:11:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35847",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "지능을 전기처럼 쓰는 시대 - AI 네이티브 핸드북 2026 [407p]",
-    "content": "<ul>\n<li><strong>AI를 전제로 제품과 업무, 조직을 어떻게 다시 설계할지</strong> 다루며, 개발자/경영자/정책 담당자부터 일반 직장인까지 대상</li>\n<li>AI 테스팅과 신뢰성 국제표준 개발에 참여해 온 <strong>ETRI 전종홍 책임연구원</strong>이 집필한 407p 짜리 책</li>\n<li><strong>지능을 전기에 빗대어 AI 생...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T00:51:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35846",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "모든 AI 모델이 인간에 대해 같은 ‘논쟁적’ 견해를 내놓음",
-    "content": "<ul>\n<li>12개 텍스트 모델에 인간에 대한 가장 논쟁적인 견해를 세 번씩 묻자, 거부를 제외한 <strong>35개 답변 중 29개</strong>가 인간은 진실이나 원칙보다 소속감, 지위, 자기 서사를 우선한다는 공통 범주에 속함</li>\n<li>3개국 10개 연구소에서 나온 모델 모두가 이 견해를 <strong>최소 한 번</strong> 내놓았...<p></p></li></ul>",
-    "createdAt": "2026-10-23T00:40:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=35845",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jared Kushner의 해킹된 휴대전화에서 드러난 비밀 협상과 수백만 달러 규모 거래",
-    "content": "<ul>\n<li>네덜란드 정보기관이 <strong>Jared Kushner의 iPhone 화면을 감시</strong>해 아제르바이잔 은행에서 거액이 유입된 UAE 계좌에 접근한 정황을 포착했다는 의혹이 불거짐</li>\n<li>감시는 러시아 GRU 서버에서 발견한 화면 캡처를 단서로 시작됐으며, 2018년 초 확보한 취약점으로 <strong>사용 중인 화면을 확...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T00:37:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=35844",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Parquet가 현대 데이터 엔지니어링을 지배하는 이유 [영상]",
-    "content": "<ul>\n<li><strong>Parquet는 같은 열의 값을 모아 저장해, 대규모 데이터에서 필요한 열만 빠르게 읽는 파일 형식</strong>. CSV처럼 모든 줄을 훑고 텍스트를 숫자로 변환하는 작업을 줄여 분석과 모델 학습에 유리</li>\n<li><strong>택시 운행 약 1,000만 건에서 평균 요금을 구하는 실험</strong>에서 CSV보다 파일 크...<p></p></li></ul>",
-    "createdAt": "2026-10-23T00:32:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=35843",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "datapitfalls - 차트뿐 아니라 데이터 분석 전 과정의 함정을 찾는 도구",
-    "content": "<ul>\n<li>데이터 분석 및 보고서 작성자를 위해 <strong>질문 설정부터 수집, 변환, 분석, 해석과 전달까지 오류와 편향을 점검</strong>하는 도구</li>\n<li>축을 잘라낸 차트뿐 아니라 누락값 제거, 잘못된 JOIN, 생존자 편향, 상관관계와 인과관계 혼동, 유리한 기간만 고르는 문제 등을 검사</li>\n<li><strong>차트 이...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-23T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=35842",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: VibeTerm(바이브텀) - Claude Code·Codex 여러 개를 한 화면에서 굴리는 무료 Windows 터미널",
-    "content": "<p>Claude Code를 서버 몇 대와 로컬에 여러 개 띄워 두고 일하다 보면 정작 시간을 잡아먹는 건 코딩이 아니라 <strong>\"어느 탭이 지금 나를 기다리고 있지?\"</strong> 를 확인하러 탭을 돌아다니는 일이었습니다. 그래서 AI 코딩 에이전트를 여러 개 돌리는 사람을 위한 SSH·터미널을 직접 만들어 매일 쓰고...</p>",
-    "createdAt": "2026-10-23T00:12:43.000+00:00",
-    "link": "https://news.hada.io/topic?id=35841",
-    "author": "openkr",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
