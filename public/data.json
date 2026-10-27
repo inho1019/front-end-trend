@@ -1,5 +1,214 @@
 [
   {
+    "title": "태양광 발전, 원자력보다 커지고 있음",
+    "content": "<ul>\n<li><strong>태양광 발전량</strong>이 2025년 전 세계 원자력 발전량을 근소하게 넘어섰으며, 2026년 9월까지 최근 12개월 기준으로는 원자력보다 13% 많은 전력을 생산함</li>\n<li><strong>중국의 대규모 생산과 공급 과잉</strong>, 패널 효율 향상과 원재료 사용 감소가 가격을 낮추면서 태양광은 기존 전망을 ...<p></p></li></ul>",
+    "createdAt": "2026-10-27T03:34:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=36089",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ask GN: 이런 LLM 서비스 써보신분 계신가요?",
+    "content": "<p>최근에 클루드 프로 구독요금제로 헤르메스 에이전트에 연동해서 써봤습니다.</p>\n<p>총 5개의 프로젝트 기획을 시켰는데 2시간만 써도 사용량 제한 걸리고 간단한 작업을 하는데도 한세월이고 제가 구독하는 요금만큼 평소에 자주쓰는게 아니고 가끔 많이 사용하는 패턴이라 구독이 아깝고 불편했습니다.</p>\n<p>그래</p>",
+    "createdAt": "2026-10-27T02:32:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=36088",
+    "author": "bytecakelake",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Translate Book: arXiv - arXiv 논문을 원문 구조 그대로 번역본으로 변환해 주는 Claude Code 스킬",
+    "content": "<p>영어 논문을 단순히 번역기에 넣어 본 분들은 아시겠지만, 문장은 그럭저럭 나오는데 수식이 다 깨집니다.<br>\n그림이나 테이블도 깨지고, 이상한 곳에 붙어 있고요.<br>\n결국 가독성이 떨어져 다시 원문으로 돌아가게 됩니다.<br>\n한 마디로, 직관성이 떨어집니다.</p>\n<p>그래서 PDF를 번역하지 않고, arXiv에</p>",
+    "createdAt": "2026-10-27T01:47:08.000+00:00",
+    "link": "https://news.hada.io/topic?id=36087",
+    "author": "steamika",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "What should you put on a dynamic custom social media card image?",
+    "content": "<p>By “dynamic” social media cards, I mean cards for pages of user-generated content or something like an e-commerce site with loads of different products. Meaning too many pages to reasonably design a custom graphic by hand for each. So what we’re talking about here is a <strong>system</strong> to generate dynamic images with dynamic data. </p>\n\n\n\n<p>If you <em>can</em> custom design a social media card image, you probably <em>should.</em> Make it branded, enticing, and quickly communicate the most important thing about what’s going on at that URL. </p>\n\n\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/diabrowser-og_1.png?resize=1024%2C538&amp;quality=80&amp;ssl=1\" alt=\"A woman with long hair passionately shouting, promoting 'Dia' browser with the slogan 'A browser you won't dread opening.' against a black background.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/diabrowser-og_1.png?resize=1024%2C538&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/diabrowser-og_1.png?resize=300%2C158&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/diabrowser-og_1.png?resize=768%2C403&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/diabrowser-og_1.png?w=1200&amp;quality=80&amp;ssl=1 1200w\"><figcaption>A custom-designed card for a specific URL gives you full control. I like Dia’s here: eye-catching imagery, clear branding, and non-duplicative text that tells you exactly what it is. </figcaption></figure>\n</div>\n\n\n<p>GitHub is a good example of dynamically generated social media cards. Each repo has a generated image like this:</p>\n\n\n<div>\n<figure><a href=\"https://github.com/codepen/slideVars\" target=\"_blank\" rel=\"noopener noreferrer\"><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars.png?resize=1024%2C512&amp;quality=80&amp;ssl=1\" alt=\"GitHub repository for codepen/slideVars, a user interface for updating CSS custom properties, showcasing contributors, issues, stars, and forks.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars.png?resize=1024%2C512&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars.png?resize=768%2C384&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars.png?resize=300%2C150&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars.png?w=1200&amp;quality=80&amp;ssl=1 1200w\"></a></figure>\n</div>\n\n\n<p>That’s an <em>image</em>, not a screenshot I took, but one <em>they</em> dynamically created.</p>\n\n\n\n<p>A typical implementation makes that show up with meta tags in the HTML response like this:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image\"</span> <span>content</span>=<span>\"https://example.com/images/social/1.jpg\"</span>&gt;</span>\n\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:image\"</span> <span>content</span>=<span>\"https://example.com/images/social/1.jpg\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:card\"</span> <span>content</span>=<span>\"summary_large_image\"</span>&gt;</span></code></span></pre>\n\n\n<p>There are more possible tags (see the <a href=\"https://ogp.me/\" target=\"_blank\" rel=\"noopener noreferrer\">Open Graph protocol</a>), plus variations and platform-specific stuff, naturally. Plus, typically a site will have other tags that ultimately help with social sharing, SEO, and general UX, like:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>title</span>&gt;</span>Raccoon Animation<span>title</span>&gt;</code></span><code>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"description\"</span> <span>content</span>=<span>\"A cool demo of a raccoon in roller skates.\"</span>&gt;</span>\n<span>&lt;<span>link</span> <span>rel</span>=<span>\"icon\"</span> <span>type</span>=<span>\"image/x-icon\"</span> <span>href</span>=<span>\"/assets/favicon.ico\"</span> /&gt;</span></code></pre>\n\n\n<details><summary>An example of a more “complete” set of HTML:</summary><pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>title</span>&gt;</span>Balatro Planet Card Scaling<span>title</span>&gt;</code></span><code>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"description\"</span> <span>content</span>=<span>\"A code demo by Chris Coyier  created on CodePen\"</span>&gt;</span>\n<span>&lt;<span>link</span> <span>rel</span>=<span>\"icon\"</span> <span>type</span>=<span>\"image/x-icon\"</span> <span>href</span>=<span>\"/assets/favicon.ico\"</span> /&gt;</span>\n\n<p><span>&lt;<span>meta</span> <span>property</span>=<span>\"og:title\"</span> <span>content</span>=<span>\"Balatro Planet Card Scaling\"</span>&gt;</span><span>&lt;<span>meta</span> <span>property</span>=<span>\"og:description\"</span> <span>content</span>=<span>\"Interactive Example of the +Mult and +Chips scaling of Planet Cards in the game Balatro\"</span>&gt;</span></p>\n<p><span>&lt;<span>meta</span> <span>property</span>=<span>\"og:url\"</span> <span>content</span>=<span>\"<a href=\"https://codepen.io/editor/chriscoyier/pen/01a14173-dbcb-7828-afc4-9a8907157ecb\" target=\"_blank\" rel=\"noopener noreferrer\">https://codepen.io/editor/chriscoyier/pen/01a14173-dbcb-7828-afc4-9a8907157ecb</a>\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>property</span>=<span>\"og:site_name\"</span> <span>content</span>=<span>\"CodePen\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image\"</span> <span>content</span>=<span>\"<a href=\"https://codepen.io/screenshots/xxx/1280.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">https://codepen.io/screenshots/xxx/1280.jpg</a>\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image:width\"</span> <span>content</span>=<span>\"1280\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image:height\"</span> <span>content</span>=<span>\"720\"</span>&gt;</span></p>\n</code><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:card\"</span> <span>content</span>=<span>\"summary_large_image\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:site\"</span> <span>content</span>=<span>\"@CodePen\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:creator\"</span> <span>content</span>=<span>\"Chris Coyier \"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:title\"</span> <span>content</span>=<span>\"Balatro Planet Card Scaling\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:description\"</span> <span>content</span>=<span>\"Interactive Example of the +Mult and +Chips scaling of Planet Cards in the game Balatro\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>name</span>=<span>\"twitter:image\"</span> <span>content</span>=<span>\"<a href=\"https://codepen.io/screenshots/xxx/1280.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">https://codepen.io/screenshots/xxx/1280.jpg</a>\"</span>&gt;</span></code></p></pre></details><p></p>\n<p>I’m <em>pretty</em> sure you still use the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">twitter:foo</code> meta tags for X, if you care to. The “X” docs have no guidance on this. Should they just support <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">og:foo</code> style tags? Yes. Do they? I don’t think so, but please correct me if I’m wrong.</p>\n\n\n\n<p>Also weird: I used GitHub as an example above, but many of the meta/og tags don’t appear in the GitHub HTML source when you view a repo, so they must do something extra exotic to make it happen. 🤷‍♀️</p>\n\n\n\n<p>With those tags in place, supporting platforms will show special extra content. For example, if I text this repo to someone over iMessage, this is what they see:</p>\n\n\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-8.07.31-AM.png?resize=676%2C484&amp;quality=80&amp;ssl=1\" alt=\"Screenshot of a GitHub repository for codepen/slideVars, showcasing the title, contributors, issues, stars, and forks.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-8.07.31-AM.png?w=676&amp;quality=80&amp;ssl=1 676w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-8.07.31-AM.png?resize=300%2C215&amp;quality=80&amp;ssl=1 300w\"><figcaption>iMessage is one of the few where the actual URL is hidden and replaced by the unfurl.</figcaption></figure>\n</div>\n\n\n<p>This is referred to as <strong>unfurling</strong>. How a link <strong><em>unfurls</em></strong>. </p>\n\n\n\n<p>What actually unfurls in any given app can change at any time; you aren’t guaranteed any control over it, and it depends on user preferences. For instance, in Slack, you can tell it to never unfurl for particular domains.</p>\n\n\n\n<div><div>\n<p>You can also add <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">alt</code> text for social meta images, which is probably a good idea if you can properly describe it.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image\"</span> <span>content</span>=<span>\"https://example.com/images/og/abc123.png\"</span>&gt;</span>\n<span>&lt;<span>meta</span> <span>property</span>=<span>\"og:image:alt\"</span> <span>content</span>=<span>\"A rounded purple-to-pink gradient button labeled 'Get Started' on a dark background, with a code editor preview beside it.\"</span>&gt;</span></code></span></pre></div></div>\n\n\n\n<h2>Example Unfurls</h2>\n\n\n\n<p>Here’s a bunch of examples of apps and how they unfurl, mostly using Pens from CodePen as that’s what I’m actively thinking about. Each has differences and notes worth considering. I’m listing next to each of them what they have and don’t have.</p>\n\n\n\n<ul>\n<li>They aren’t judgment calls; it’s just an inventory of what is there.</li>\n\n\n\n<li>I’m not talking about what might be <strong>in the image</strong> (that’s what we’re trying to figure out) — just if it has an image and the prominence.</li>\n</ul>\n\n\n\n<h3>Discord</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/discord-1.png?resize=1024%2C846&amp;quality=80&amp;ssl=1\" alt=\"A digital mockup of a smartphone displaying a ghost-themed chat application called 'Unhinged', featuring a ghost icon and user profile information.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/discord-1.png?resize=1024%2C846&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/discord-1.png?resize=300%2C248&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/discord-1.png?resize=767%2C634&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/discord-1.png?w=1060&amp;quality=80&amp;ssl=1 1060w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>✅ URL Visible</li>\n\n\n\n<li>✅ Site Title</li>\n\n\n\n<li>❌ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n\n\n\n<p>Notes: Only one that doesn’t truncate the URL?</p>\n</div>\n</div>\n\n\n\n<h3>Mastodon</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/mastodon-1.png?resize=936%2C1024&amp;quality=80&amp;ssl=1\" alt=\"Screenshot of a CodePen project showcasing a scroll progress back-to-top button with a conic-gradient border. The header reads 'Header' and there are placeholder texts stating 'Blank'.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/mastodon-1.png?resize=936%2C1024&amp;quality=80&amp;ssl=1 936w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/mastodon-1.png?resize=274%2C300&amp;quality=80&amp;ssl=1 274w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/mastodon-1.png?resize=768%2C840&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/mastodon-1.png?w=1172&amp;quality=80&amp;ssl=1 1172w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>☯️ URL Visible (truncated)</li>\n\n\n\n<li>✅ Site Title</li>\n\n\n\n<li>❌ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n\n\n\n<details><summary>The Elk client for Mastodon does things differently.</summary>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/elkmastodon-1.png?resize=1024%2C532&amp;quality=80&amp;ssl=1\" alt=\"Twitter post by damianwalsh discussing a CSS project featuring a back-to-top button with a progress indicator, includes a link to a CodePen demo.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/elkmastodon-1.png?resize=1024%2C532&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/elkmastodon-1.png?resize=300%2C156&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/elkmastodon-1.png?resize=766%2C398&amp;quality=80&amp;ssl=1 766w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/elkmastodon-1.png?w=1190&amp;quality=80&amp;ssl=1 1190w\"></figure>\n\n\n\n<p>No idea why the image is mini and broken. </p>\n</details>\n</div>\n</div>\n\n\n\n<h3>Slack</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?resize=1024%2C233&amp;quality=80&amp;ssl=1\" alt=\"A chat interface displayed on a mobile phone mockup, showcasing a code demo titled 'Chat with a Ghost' by 3epge on CodePen.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?resize=1024%2C233&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?resize=300%2C68&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?resize=764%2C174&amp;quality=80&amp;ssl=1 764w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?resize=1536%2C350&amp;quality=80&amp;ssl=1 1536w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slack-1.png?w=1564&amp;quality=80&amp;ssl=1 1564w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>☯️ URL Visible (truncated)</li>\n\n\n\n<li>✅ Site Title</li>\n\n\n\n<li>❌ Site URL</li>\n\n\n\n<li>✅ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>❌ Large Image (small and cropped to a square)</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>Bluesky</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/bluesky-1.png?resize=1024%2C877&amp;quality=80&amp;ssl=1\" alt=\"Graphic with the word 'BOO' in bold black font on an orange background, featuring a ghost emoji.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/bluesky-1.png?resize=1024%2C877&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/bluesky-1.png?resize=300%2C257&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/bluesky-1.png?resize=768%2C658&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/bluesky-1.png?w=1174&amp;quality=80&amp;ssl=1 1174w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>✅ URL Visible (truncated)</li>\n\n\n\n<li>❌ Site Title</li>\n\n\n\n<li>✅ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>✅ Large Image (kinda huge actually)</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>iMessage</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/iMessage-1.png?resize=704%2C566&amp;quality=80&amp;ssl=1\" alt=\"An old mobile phone displaying a webpage titled 'Chat with a Ghost' featuring a ghostly figure and pumpkins.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/iMessage-1.png?w=704&amp;quality=80&amp;ssl=1 704w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/iMessage-1.png?resize=300%2C241&amp;quality=80&amp;ssl=1 300w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>❌ URL Visible (replaces it entirely with unfurl)</li>\n\n\n\n<li>❌ Site Title</li>\n\n\n\n<li>✅ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>❌ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>LinkedIn</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/linked-in-1.png?resize=1024%2C539&amp;quality=80&amp;ssl=1\" alt=\"LinkedIn post from Angelica Montaño, a Full Stack TypeScript Developer, celebrating Day 10 of a project with a digital clock displayed below.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/linked-in-1.png?resize=1024%2C539&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/linked-in-1.png?resize=300%2C158&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/linked-in-1.png?resize=767%2C404&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/linked-in-1.png?w=1128&amp;quality=80&amp;ssl=1 1128w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>❌ URL Visible (might be behind “more” and obfuscated)</li>\n\n\n\n<li>❌ Site Title</li>\n\n\n\n<li>✅ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>❌ Page Description</li>\n\n\n\n<li>❌ Large Image (small but not cropped)</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>Threads</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/threads-1.png?resize=1024%2C767&amp;quality=80&amp;ssl=1\" alt=\"An abstract Suprematism-inspired design displaying geometric shapes, including triangles, circles, and squares, in a muted color palette.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/threads-1.png?resize=1024%2C767&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/threads-1.png?resize=300%2C225&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/threads-1.png?resize=768%2C575&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/threads-1.png?w=1274&amp;quality=80&amp;ssl=1 1274w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>✅ URL Visible (truncated)</li>\n\n\n\n<li>❌ Site Title</li>\n\n\n\n<li>✅ Site URL</li>\n\n\n\n<li>✅ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>❌ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>WhatsApp</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/WhatsApp-1.png?resize=1024%2C977&amp;quality=80&amp;ssl=1\" alt=\"Image of a vintage mobile phone displaying a demo titled 'Chat with a Ghost' by 3epge on CodePen, featuring a ghostly figure and text options.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/WhatsApp-1.png?resize=1024%2C977&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/WhatsApp-1.png?resize=300%2C286&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/WhatsApp-1.png?resize=767%2C732&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/WhatsApp-1.png?w=1320&amp;quality=80&amp;ssl=1 1320w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>✅ URL Visible</li>\n\n\n\n<li>❌ Site Title</li>\n\n\n\n<li>✅ Site URL</li>\n\n\n\n<li>✅ Site Favicon</li>\n\n\n\n<li>✅ Page Title</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>X</h3>\n\n\n\n<div>\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/x-1.png?resize=1024%2C768&amp;quality=80&amp;ssl=1\" alt=\"A screenshot of a document discussing the CSS property 'text-box: trim-both' with examples of its implementation, including some placeholder text and images of trees.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/x-1.png?resize=1024%2C768&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/x-1.png?resize=300%2C225&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/x-1.png?resize=767%2C575&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/x-1.png?w=1190&amp;quality=80&amp;ssl=1 1190w\"></figure>\n</div>\n\n\n\n<div>\n<ul>\n<li>❌ URL Visible</li>\n\n\n\n<li>✅ Site Title</li>\n\n\n\n<li>❌ Site URL</li>\n\n\n\n<li>❌ Site Favicon</li>\n\n\n\n<li>✅ Page Title (overlays image)</li>\n\n\n\n<li>✅ Page Description</li>\n\n\n\n<li>✅ Large Image</li>\n</ul>\n</div>\n</div>\n\n\n\n<h3>Other Sites That Unfurl</h3>\n\n\n\n<p>This isn’t a complete list of sites that unfurl, it’s just a bunch of common ones. There’s also Facebook, Signal, Telegram, etc. I’m sure you can think of a bunch. If this matters a lot to you, it’s probably worth testing on all of them.</p>\n\n\n\n<h2>So… What Should a Large Image Actually Contain?</h2>\n\n\n\n<h3>Should you show the item title?</h3>\n\n\n\n<p>Maybe not! This seems to be the thing that <strong>almost every unfurling</strong> has anyway. So listing it again almost seems unnecessarily duplicative. </p>\n\n\n\n<p>And yet! It seems to be <strong>the most common thing</strong> that custom cards duplicate. My first-ever take on this on CSS-Tricks back in the day duplicated the title for sure:</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screen-Shot-2021-05-12-at-3.39.02-PM.webp?resize=1024%2C890&amp;quality=80&amp;ssl=1\" alt=\"A graphic showcasing a variable aspect ratio card design featuring conic gradients that meet along the diagonal, with the text 'Hello, Gorgeous!' in colorful sections.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screen-Shot-2021-05-12-at-3.39.02-PM.webp?w=1024&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screen-Shot-2021-05-12-at-3.39.02-PM.webp?resize=300%2C261&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screen-Shot-2021-05-12-at-3.39.02-PM.webp?resize=767%2C667&amp;quality=80&amp;ssl=1 767w\"><figcaption>The title was listed THREE TIMES here. Feels like a little too much now.</figcaption></figure>\n\n\n\n<p>I admit it does make the title super noticeable, and typography can be a big part of a site’s brand. Smashing Mag does it and you certainly get a taste of their style.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.39.29-AM.png?resize=1024%2C709&amp;quality=80&amp;ssl=1\" alt=\"Tweet by Cory LaViska discussing the playful use of randomness in CSS design, featuring an article titled 'Embracing Playful Imperfection With The CSS random() Function' by Brecht De Ryute.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.39.29-AM.png?resize=1024%2C709&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.39.29-AM.png?resize=300%2C208&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.39.29-AM.png?resize=767%2C531&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.39.29-AM.png?w=1182&amp;quality=80&amp;ssl=1 1182w\"><figcaption>This brings clear branding to its article cards, but the title is still duplicative. Even with X’s implementation here, you get the title twice with the overlay copy.</figcaption></figure>\n\n\n\n<p><em>This</em> site has opted <em>not</em> to include the post title on the card. Instead, it uses a custom graphic for each post (not always scalable), but still builds the card dynamically with the branded bar across the bottom.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.43.08-AM.png?resize=1024%2C639&amp;quality=80&amp;ssl=1\" alt=\"Image featuring the text 'TanStack AI' on a gradient background, with the subtitle 'Structured Output with TanStack AI' underneath. Logo for master.dev is present in the bottom right corner.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.43.08-AM.png?resize=1024%2C639&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.43.08-AM.png?resize=300%2C187&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.43.08-AM.png?resize=767%2C479&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.43.08-AM.png?w=1176&amp;quality=80&amp;ssl=1 1176w\"></figure>\n\n\n\n<p>One tool for building dynamic cards is WordPress’ <a href=\"https://jetpack.com/social/\" target=\"_blank\" rel=\"noopener noreferrer\">Jetpack Social</a> plugin. It’s a very basic implementation, though, which just sets the post title on top of whatever “custom post image” you select for the post, with a gradient on top to make the text more visible.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=1024%2C707&amp;quality=80&amp;ssl=1\" alt=\"A scenic view from a mountain overlooking a landscape with a river and hills, featuring a prominent red line and the word 'Outburst' in bold text.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=1024%2C707&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=300%2C207&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=768%2C530&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=1536%2C1060&amp;quality=80&amp;ssl=1 1536w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-24-at-5.52.38-AM.png?resize=2048%2C1414&amp;quality=80&amp;ssl=1 2048w\"><figcaption>It does let you customize the text though, so it doesn’t <em>have</em> to be the post title. </figcaption></figure>\n\n\n\n<p>Personally, I lean toward <em>not</em> including the title, as it’s typically already there, and using the space for other things or just breathing room.</p>\n\n\n\n<h3>Should you show the site’s branding?</h3>\n\n\n\n<p>First, here is the <strong>site name</strong> and <strong>site URL</strong>. Unfurls tend to show one or the other. It looks like it’s trending toward showing the <strong>site URL.</strong> I imagine that’s a security thing. Any ol’ site could put “Facebook” as the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><title>Facebook</title></code> which would make an unfurl look like it’s from Facebook on sites that list titles, whereas you can’t fake unfurls that list the actual URL like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">facebook.com</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">codepen.io</code> or whatever. I kinda like seeing the URL myself.</p>\n\n\n\n<p>It’s common enough that I’d lean toward not needing to include the site name or URL in the image itself.</p>\n\n\n\n<p>Then there is the site’s favicon that shows in some unfurls, which is likely some form of the site’s logo. That’s less common to see in an unfurl, and if it’s there, it’s likely quite small. </p>\n\n\n\n<p>I think the site’s logo is a decent candidate for putting in the custom image. That can make it unmistakably part of the site, which is kind of the point of branding. </p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-2.png?resize=1024%2C512&amp;quality=80&amp;ssl=1\" alt=\"Screenshot of the CodePen GitHub repository for slideVars, showcasing UI for updating CSS custom properties, with details on contributors, issues, stars, and forks.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-2.png?resize=1024%2C512&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-2.png?resize=300%2C150&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-2.png?resize=768%2C384&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-2.png?w=1200&amp;quality=80&amp;ssl=1 1200w\"><figcaption>GitHub goes pretty small with it, but it’s there.</figcaption></figure>\n\n\n\n<p>Branding is a much bigger concept than just a logo, though. It’s typography, colors, the voice, the whole vibe of the thing. You could be like Zach and put your own mug on your personal blog’s social card:</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/opengraph.jpeg?resize=1024%2C538&amp;quality=89&amp;ssl=1\" alt=\"A smiling man in a green shirt is in the foreground, with a vintage wooden card catalog in the background displaying labeled drawers. The image features bold text stating 'All of my 300+ browser tabs are beautiful.'\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/opengraph.jpeg?resize=1024%2C538&amp;quality=89&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/opengraph.jpeg?resize=300%2C158&amp;quality=89&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/opengraph.jpeg?resize=768%2C403&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/opengraph.jpeg?w=1200&amp;quality=89&amp;ssl=1 1200w\"><figcaption>Note he’s got the # of the blog post and the date on there, which are little interesting bits of data you could consider.</figcaption></figure>\n\n\n\n<h3>Should you show the item’s URL?</h3>\n\n\n\n<p>Nah, probably not. Typically, sites unfurl <em>in addition</em> to showing the posted URL. The shown URL might be truncated, but it’ll follow the platform’s standard handling, and users will be used to it. So unless showing the complete URL is somehow super interesting and relevant, probably skip it.</p>\n\n\n\n<h3>Should you show the item’s description?</h3>\n\n\n\n<p>Again, a ton of unfurls show this already, so it’s probably equally as skippable as the title is. Only perhaps more so because it tends to be hierarchically less important than the title and&nbsp;more&nbsp;text, which is hard to fit in.</p>\n\n\n\n<p>A full paragraph of text is unlikely to work in a social media card. If you&nbsp;know it’s fairly short,&nbsp;truncation is practical,&nbsp;and if it’s&nbsp;super interesting,&nbsp;I could see it working; otherwise, skip it. GitHub repo descriptions are usually decently short and fit the other criteria above, so I can see why they do it, even if it is relatively duplicative. </p>\n\n\n\n<p>I could also see turning the hierarchy on its head. Maybe the description is the <em>most</em> interesting part of a dynamic page. Maybe a blog post with a custom excerpt could be an interesting take!</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/OG-card-%C2%B7-1200%C3%97630%401x.png?resize=1024%2C538&amp;quality=80&amp;ssl=1\" alt=\"Illustration of a single-element conic spinner created using pure CSS, featuring a conic gradient and animation effects.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/OG-card-%C2%B7-1200%C3%97630%401x.png?resize=1024%2C538&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/OG-card-%C2%B7-1200%C3%97630%401x.png?resize=300%2C158&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/OG-card-%C2%B7-1200%C3%97630%401x.png?resize=768%2C403&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/OG-card-%C2%B7-1200%C3%97630%401x.png?w=1200&amp;quality=80&amp;ssl=1 1200w\"></figure>\n\n\n\n<h3>What kind of other dynamic data can you show?</h3>\n\n\n\n<p>This is where it gets interesting to me. Not to over-analyze the GitHub image over and over, but their choice to show off interesting GitHub-specific data is smart, I think.</p>\n\n\n<div>\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-1024x512-1.png?resize=1024%2C512&amp;quality=80&amp;ssl=1\" alt=\"GitHub repository overview for codepen/slideVars, showcasing user interface for updating CSS custom properties, with details on contributors, issues, stars, and forks.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-1024x512-1.png?w=1024&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-1024x512-1.png?resize=768%2C384&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/slideVars-1024x512-1.png?resize=300%2C150&amp;quality=80&amp;ssl=1 300w\"></figure>\n</div>\n\n\n<p>If you’re looking at doing this, what kind of unique, interesting data do you have for that page? Likes/hearts? Analytics data? Number of reviews? Star rating? A sparkline? A price or discount? </p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-6.44.20-AM.png?resize=1024%2C639&amp;quality=80&amp;ssl=1\" alt=\"A tweet by Bel Curcio discussing OpenID Connect (OIDC) Federation, featuring the title 'OpenID Connect (OIDC) Federation' and related links.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-6.44.20-AM.png?resize=1024%2C639&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-6.44.20-AM.png?resize=300%2C187&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-6.44.20-AM.png?resize=768%2C479&amp;quality=80&amp;ssl=1 768w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-6.44.20-AM.png?w=1186&amp;quality=80&amp;ssl=1 1186w\"><figcaption>Vercel blog posts and docs show off the tags, which is a minor bit of metadata, but it makes each card different and offers some interesting context about what the link is about.</figcaption></figure>\n\n\n\n<p>Since I’m thinking about this in terms of CodePen, I’m wondering whether we could/should show hearts, views, and comments in the image. That might be cool, but if the numbers are low or zero… maybe not. But that’s the beauty of doing things dynamically: you could include information only when it’s actually interesting. Like a “Picked Pen” could say that, but say nothing when it isn’t. </p>\n\n\n\n<p>Here are some ideas of what dynamic data could be:</p>\n\n\n\n<ul>\n<li>Author / Username</li>\n\n\n\n<li>User Avatar</li>\n\n\n\n<li>Analytic data, like “likes” and “views”</li>\n\n\n\n<li>A chart for something like a stock</li>\n\n\n\n<li>A waveform for something like a song</li>\n\n\n\n<li>An average customer rating for something like a product</li>\n\n\n\n<li>A discount for something like a SaaS plan</li>\n</ul>\n\n\n\n<h3>Just let the item speak for itself?</h3>\n\n\n\n<p>For example, games on Steam already have custom images, so the unfurl just uses that image, and that’s it.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-7.05.56-AM.png?resize=744%2C536&amp;quality=80&amp;ssl=1\" alt=\"Promotional image for the game 'Over the Hill' featuring an off-road vehicle in a grassy landscape, highlighting a 20% discount on Steam.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-7.05.56-AM.png?w=744&amp;quality=80&amp;ssl=1 744w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-7.05.56-AM.png?resize=300%2C216&amp;quality=80&amp;ssl=1 300w\"></figure>\n\n\n\n<p>That works perfectly well. I think it’s a good fit for Steam, and game developers are already particularly strongly incentivized to produce good and enticing images for the Steam website itself, and for this exact scenario. </p>\n\n\n\n<p>What we <em>already do</em> on CodePen is take a screenshot of the Pen (on every save!) so we already have that to work with. For over a decade, that’s what we’ve used as the social image card already, letting the Pen speak for itself. It’s reasonable to leave it that way. But I think it’s also reasonable to bring a little bit more branding to the images and offer little bits of more interesting information. Not sure if we will, but we might! </p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?resize=1024%2C617&amp;quality=80&amp;ssl=1\" alt=\"A layout featuring a text column on the left and a hero image on the right.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?resize=1024%2C617&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?resize=300%2C181&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?resize=767%2C462&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?resize=1536%2C925&amp;quality=80&amp;ssl=1 1536w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.05.30-PM.png?w=1896&amp;quality=80&amp;ssl=1 1896w\"><figcaption>Example layouts from AI that show dynamic data, but the most prominent part of the image would show the screenshot.</figcaption></figure>\n\n\n\n<h3>Sometimes images are just really small</h3>\n\n\n\n<p><em>Generally</em>, we’re talking about a 1200×630 image shown decently large. But most mobile screens aren’t that big, so readable text is iffy to begin with. </p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.06.37-PM.png?resize=1024%2C247&amp;quality=80&amp;ssl=1\" alt=\"A screenshot of a CodePen project titled 'Floating Block', showcasing a creative 3D landscape with a mountain and trees.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.06.37-PM.png?resize=1024%2C247&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.06.37-PM.png?resize=766%2C185&amp;quality=80&amp;ssl=1 766w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.06.37-PM.png?resize=300%2C72&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.06.37-PM.png?w=1408&amp;quality=80&amp;ssl=1 1408w\"><figcaption>Slack here is displaying the image as a square, and pretty small. Not much you can do here! </figcaption></figure>\n\n\n\n<h2>Platform Specific Stuff</h2>\n\n\n\n<p>You can’t truly control how platforms are going to unfurl. Things change over time, and different platforms do different things as times change. Twitter, as far as I recall, didn’t do “overlay” information like X does now, and who knows when that will change again. X is one of the rare sites that <em>replaces</em> the link in your post with the unfurl, making the unfurl pretty important as it’s the main thing a user can click.</p>\n\n\n\n<p>Bluesky incorporates the <a href=\"https://standard.site/\" target=\"_blank\" rel=\"noopener noreferrer\">standard.site</a> schema, and when done correctly, you get a special “View Publication” button. It links to the site itself, not the article, which is a little weird, but it can at least draw a little extra attention and maybe some clicks.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.15.15-PM.png?resize=971%2C1024&amp;quality=80&amp;ssl=1\" alt=\"Example of Bluesky with Standard.site implementation, showing a blog post on chriscoyier.net about an\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.15.15-PM.png?resize=971%2C1024&amp;quality=80&amp;ssl=1 971w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.15.15-PM.png?resize=284%2C300&amp;quality=80&amp;ssl=1 284w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.15.15-PM.png?resize=767%2C809&amp;quality=80&amp;ssl=1 767w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-6.15.15-PM.png?w=1172&amp;quality=80&amp;ssl=1 1172w\"></figure>\n\n\n\n<p>On Slack, an admin user might remove an unfurl, then click an additional option to <em>forever stop</em> unfurling for that particular domain, meaning you can’t count on it at all. </p>\n\n\n\n<p>YouTube is in a class of its own. It’s so popular that many platforms have their own special way of unfurling it, so the “card” is an embedded video. I doubt even YouTube itself has much control over this. </p>\n\n\n\n<h2>Interesting Technology for Dynamic Social Images</h2>\n\n\n\n<ul>\n<li>Next.js has <a href=\"https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image#generate-images-using-code-js-ts-tsx\" target=\"_blank\" rel=\"noopener noreferrer\">a whole built-in system</a> for making them.</li>\n\n\n\n<li>Many other site-builder tools have custom plugins for it, like <a href=\"https://github.com/5t3ph/eleventy-plugin-social-images\" target=\"_blank\" rel=\"noopener noreferrer\">11ty</a> and <a href=\"https://wordpress.org/plugins/jetpack-social/\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress</a>.</li>\n\n\n\n<li>Cloudinary can <a href=\"https://cloudinary.com/blog/guest_post/automatically-generate-social-sharing-images\" target=\"_blank\" rel=\"noopener noreferrer\">build dynamic images through URL parameters alone</a>.</li>\n</ul>\n\n\n\n<h2>So… what should you put on a dynamic custom social media card image?</h2>\n\n\n\n<ul>\n<li>Whatever the most interesting thing you can show about the page is. Probably an <em>actual image.</em></li>\n\n\n\n<li>Data that is contextual and relevant to the page. Particularly when it’s not available in the title, description, or any other meta tag. </li>\n\n\n\n<li>Not too much text. It’s probably duplicative anyway.</li>\n\n\n\n<li>Not too much, period!</li>\n</ul>\n",
+    "createdAt": "2026-10-27T01:43:55.000+00:00",
+    "link": "https://blog.master.dev/what-should-you-put-on-a-dynamic-custom-social-media-card-image/",
+    "author": "Chris Coyier",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "Show GN: 호보코드 - 다시 간 장소에서 메모를 알려주는 아이폰 앱",
+    "content": "<p>안녕하세요. 장소 메모 앱 호보코드를 만든 bigcat입니다.</p>\n<p>식당 주문 조합이나 카페 자리처럼, 다시 갔을 때 필요한 메모가 있습니다. 적어 둔 메모가 있어도 다음 방문 때 그 메모를 떠올리고 찾아보는 일은 남습니다. 그 과정을 줄여 보려고 호보코드를 만들었습니다.</p>\n<p>장소를 고르고 메모를 적은 뒤 </p>",
+    "createdAt": "2026-10-27T01:43:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=36086",
+    "author": "bigcataroido",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Spring AI Privacy Guardrails - Spring AI용 개인정보 보호, 도구 권한 제어, 콘텐츠 검사",
+    "content": "<p>Spring AI를 위한 오픈소스 보안 가드레일 라이브러리를 개발했습니다.</p>\n<p><strong>Spring AI Privacy Guardrails</strong></p>\n<p>GitHub: https://github.com/ultramancode/spring-ai-privacy-guardrails</p>\n<p>프로젝트는 Spring 공식 블로그 'This Week in Spring'에서 소개됐고, Spring AI Community의 Awe</p>",
+    "createdAt": "2026-10-27T00:45:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=36083",
+    "author": "ultramancode",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ask GN: 메모리 도구를 사용 하고 있지 않은 이유는 무엇인가요?",
+    "content": "<p>메모리 제품이 필요하다라는 의견은 많은데 정작 메모리를 사용해본적은 없다고 말씀하시는 걸 많이 봤습니다. 그럼 메모리 도구를 사용 하고 있지 않은 이유는 무엇인가요?</p>\n<p>비싸서? 어떻게 하는지 몰라서? 뭐가 좋아지는지 체감이 안되서? 필요한 건 아는데 지금도 어느정도 만족해서? 클로드나 gpt 재미나이</p>",
+    "createdAt": "2026-10-27T00:44:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=36082",
+    "author": "kimsunwoo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국, 헬륨을 핵심 소재로 지정",
+    "content": "<ul>\n<li>미국 에너지부가 <strong>반도체 제조에 필수적</strong>이고 글로벌 공급 중단 위험이 높다는 이유로 헬륨을 핵심 소재로 지정함</li>\n<li>이번 지정으로 헬륨 생산업체가 활용할 수 있는 <strong>연방 금융 지원</strong>이 늘어나고, 정부의 공급 상황 모니터링도 강화됨</li>\n<li>주요 생산국인 카타르는 호...<p></p></li></ul>",
+    "createdAt": "2026-10-27T00:43:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=36081",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "거짓인 Exponential Time Hypothesis [pdf]",
+    "content": "<p>거짓인 Exponential Time Hypothesis [pdf]</p>\n",
+    "createdAt": "2026-10-27T00:40:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=36080",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Twin Deck - 키보드 중심의 macOS·Windows 듀얼 패널 파일 관리자",
+    "content": "<p>안녕하세요. 직접 개발한 파일 관리자 <strong>Twin Deck</strong>을 소개합니다.</p>\n<p>두 폴더를 나란히 열어 두고 파일을 복사하거나 옮길 수 있는 데스크톱 앱입니다. 출발지와 목적지를 한 화면에서 확인하면서, 키보드 중심으로 파일 정리를 이어갈 수 있습니다.</p>\n<p><strong>Total Commander, Double Comm</strong></p>",
+    "createdAt": "2026-10-27T00:38:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=36079",
+    "author": "nicegyuha",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "CorridorKey 2.0 - 영상 전체를 분석하는 로컬 신경망 그린/블루 스크린 키잉 도구",
+    "content": "<ul>\n<li><strong>CorridorKey 2.0</strong>은 그린/블루 스크린 배경을 분리하는 로컬 실행 도구로, 한 번 구매하면 Resolve, Nuke, After Effects, Premiere Pro, Blender용 플러그인과 독립 실행 앱을 사용할 수 있음</li>\n<li>반투명 전경 물체의 색상을 예측해 배경색을 제거하며, <strong>모션 블러, 보케, 머리카...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-27T00:37:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=36077",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Outer Shell - SSH 서버와 엣지 기기에 그래픽 앱 환경을 추가하는 셸",
+    "content": "<ul>\n<li>서버와 엣지 기기도 <strong>데스크톱처럼 앱을 설치하고 파일을 열어 사용할 수 있게 만드는</strong> 원격 우선 그래픽 셸</li>\n<li><strong>Linux/macOS 머신에서 서비스로 실행</strong>하며, 함께 개발된 <a href=\"https://outerloop.sh/\" target=\"_blank\" rel=\"noopener noreferrer\">Outer Loop</a> 브라우저로 연결해 그래픽 홈 화면 사용</li>\n</ul>",
+    "createdAt": "2026-10-27T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=36076",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2026년, “AI 활용법”은 가치가 없다",
+    "content": "<ul>\n<li>모델을 더 잘 작동시키는 요령과 작업 방식은 효과가 있다면 몇 달 뒤 <strong>제품의 기본 경험</strong>으로 흡수될 것이므로, 이를 익힌 데서 오는 가치는 오래가지 않을 수 있음</li>\n<li><strong>프롬프트 엔지니어링</strong> 요령도 이미 불필요해진 프로그래밍 최적화 습관처럼, 효용이 사라진 뒤에도 ...<p></p></li></ul>",
+    "createdAt": "2026-10-27T00:17:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=36075",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "이메일을 보내는 데 왜 이렇게 비쌀까?",
+    "content": "<ul>\n<li>이메일을 직접 보내 본 경험에서 어려웠던 부분은 <strong>발송 코드 구현</strong>보다 여러 메일 서비스의 <strong>스팸 필터를 통과하는 일</strong>이었음</li>\n<li>SMTP 발송과 DNS 기반 발신자 인증을 구현하자 Gmail에는 정상적으로 도착했지만, <strong>Microsoft Outlook</strong> 사용자에게는 스팸함...<p></p></li></ul>",
+    "createdAt": "2026-10-27T00:14:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=36073",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "개인 키가 유출된 eMudhra 중간 인증기관 안내",
+    "content": "<ul>\n<li><strong>eMudhra 중간 인증기관 8곳의 개인 키가 유출</strong>됐으며, 이 중 TLS 인증서를 발급하는 6곳의 키로는 어떤 웹사이트에 대해서든 유효해 보이는 인증서를 만들 수 있음</li>\n<li>Apple은 <strong>2026년 10월 19일부터 관련 TLS 인증서 12개를 자동 차단</strong>하고 있으며, Safari, Mail, Apple...<p></p></li></ul>",
+    "createdAt": "2026-10-27T00:11:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=36072",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Gram 3.4.0 출시, eMudhra 인증서 보안 수정과 Git 좌우 비교 뷰 추가",
+    "content": "<ul>\n<li>Gram에 포함된 인증서 관련 패키지가 <strong>eMudhra CA 문제</strong>의 영향을 받아 보안 수정 버전을 출시함. 가능한 한 빨리 3.4.0으로 업그레이드하거나, 기존 버전의 소스를 최신 webpki 패키지로 다시 빌드할 것을 권고함</li>\n<li><strong>Git diff 좌우 비교 뷰</strong>와 Git 패널에서 접근할 수 있...<p></p></li></ul>",
+    "createdAt": "2026-10-27T00:08:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=36071",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "2달러 마이크로컨트롤러에서 SIMD로 컴퓨터 비전 가속하기",
+    "content": "<ul>\n<li><strong>ESP32-S3의 128비트 SIMD 명령어</strong>를 활용한 FAST 특징점 검출 구현으로 참조 구현 대비 약 2배의 성능을 달성했으며, QVGA(320×240) 프레임 처리에 약 6ms가 걸림</li>\n<li>FAST 코너 사전 검사에서 동서남북 픽셀과 중심 픽셀의 차이를 비교하며, 벡터 레지스터 하나에 담기는 <strong>8비트 ...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-26T23:38:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=36070",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, AI로 지수 시간 가설 반증 등 수학/물리학 난제 성과 발표",
+    "content": "<ul>\n<li>OpenAI가 <strong>조화해석, 계산 복잡도, 양자장론에서 AI로 얻은 세 가지 연구 결과</strong>를 발표하고, 이를 과학적 이해로 발전시키기 위해 외부 전문가와 협력함</li>\n<li>AI가 만든 원고를 <strong>가공되지 않은 연구 자료</strong>로 보고, 수학은 결과물 공개, 컴퓨터과학은 공개와 외부 공동 검토 ...<p></p></li></ul>",
+    "createdAt": "2026-10-26T23:35:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=36069",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Type Server Protocol - Python 타입 분석 데이터를 조회하는 JSON-RPC 프로토콜",
+    "content": "<ul>\n<li><strong>Type Server Protocol(TSP)</strong> 은 워크스페이스의 타입 분석 상태를 유지하는 서버에 Python 검색 경로, import 해석, 타입 정보를 요청하는 JSON-RPC 프로토콜임</li>\n<li>타입 질의는 코드 흐름에서 추론한 <strong>계산된 타입</strong>, 소스에 명시한 선언 타입, 주변 문맥이 요구하는 기대...<p></p></li></ul>",
+    "createdAt": "2026-10-26T22:32:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=36068",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "EPA가 조용히 웹 아카이브를 없애고 있음",
     "content": "<ul>\n<li>미국 환경보호청 <strong>EPA</strong>가 웹페이지 배너를 통해 온라인 아카이브를 <strong>2026년 12월 31일 폐쇄</strong>할 계획을 알렸으며, 공개된 환경 자료 수만 건이 웹에서 사라질 수 있음</li>\n<li>아카이브에는 <strong>1990년대까지 거슬러 올라가는 문서</strong>와 다른 곳에서 구할 수 없는 자료...<p></p></li></ul>",
     "createdAt": "2026-10-26T21:48:13.000+00:00",
@@ -100,7 +309,7 @@
   },
   {
     "title": "GPT-6.1 Terra - 시각적 추론과 컴퓨터 사용을 결합한 고속 모델",
-    "content": "<ul>\n<li>OpenAI가 <strong>GPT-6.1 Terra</strong>를 공개함. 세밀한 시각적 추론, 정밀한 컴퓨터 사용, 더 자연스러운 글쓰기를 결합해 다양한 업무를 지원함</li>\n<li><strong>표준 API 가격</strong>은 GPT-5.6 Terra와 GPT-6.1 Sol보다 50% 낮음. ChatGPT Work와 Codex에서도 동일한 사용 한도로 기존 모델보다 더 ...<p></p></li></ul>",
+    "content": "<ul>\n<li>OpenAI가 <strong>GPT-6.1 Terra</strong>를 공개함. 세밀한 시각적 추론, 정밀한 컴퓨터 사용, 더 자연스러운 글쓰기를 결합해 다양한 업무를 지원함</li>\n<li><strong>표준 API 가격은 100만 토큰당 입력 1달러, 캐시 입력 0.05달러, 출력 5달러</strong>로 GPT-6.1 Sol의 절반이며, ChatGPT Work와 Codex에서...<p></p></li></ul>",
     "createdAt": "2026-10-26T19:39:45.000+00:00",
     "link": "https://news.hada.io/topic?id=36059",
     "author": "neo",
@@ -132,8 +341,8 @@
     }
   },
   {
-    "title": "CSS-Tricks의 소유주가 바뀜",
-    "content": "<ul>\n<li><strong>Geoff Graham이 CSS-Tricks의 소유권을 인수</strong>하면서 사이트가 다시 독립 운영으로 전환됨</li>\n<li>운영비를 마련하기 위해 <strong>광고 패키지 판매를 재개</strong>하고, 멤버십과 개발 중인 초보자용 HTML/CSS 강좌 등으로 수익원을 넓힐 계획임</li>\n<li>기존 숙련자 중심 콘텐츠에 더해 ...<p></p></li></ul>",
+    "title": "CSS-Tricks, DigitalOcean을 떠나 다시 독립 사이트로",
+    "content": "<ul>\n<li><strong>Chris Coyier</strong>가 2007년 설립해 운영하던 CSS-Tricks는 <a href=\"https://css-tricks.com/css-tricks-is-joining-digitalocean/\" target=\"_blank\" rel=\"noopener noreferrer\">2022년 DigitalOcean에 인수</a>되었으나, 운영이 거의 중단된 상태였음</li>\n<li><strong>CSS-Tricks에서 12년간 일해 온 Geoff Graham이 소유권을 인수</strong></li></ul>",
     "createdAt": "2026-10-26T18:34:56.000+00:00",
     "link": "https://news.hada.io/topic?id=36056",
     "author": "neo",
@@ -176,8 +385,8 @@
     }
   },
   {
-    "title": "Microsoft, 전체 직원 약 4분의 1에 대규모 희망퇴직 제안",
-    "content": "<ul>\n<li><strong>Microsoft</strong>가 직원들에게 희망퇴직을 제안함</li>\n<li>제안 대상은 <strong>약 6만 명</strong>임</li>\n<li>대상 규모는 전체 인력의 <strong>약 4분의 1</strong>에 해당함</li>\n<li>이번 희망퇴직 제안은 <strong>인력 규모를 관리</strong>하려는 조치임</li>\n<li>회사는 <strong>정리해고를...<p></p></strong></li></ul>",
+    "title": "Microsoft, 전체 직원 약 4분의 1인 6만 명에게 희망퇴직 제안",
+    "content": "<ul>\n<li>Microsoft가 <strong>전체 직원의 약 27%인 6만 명에게 희망퇴직을 제안</strong>했으며, 제안을 받을 수 있는 인원으로 실제 퇴직 인원은 아직 정해지지 않았음</li>\n<li>대상은 <strong>미국과 캐나다, 영국, 인도</strong>의 참여 조직에 속한 <strong>일반 직원부터 일부 임원급</strong>까지이며, 사내 직...<p></p></li></ul>",
     "createdAt": "2026-10-26T17:38:09.000+00:00",
     "link": "https://news.hada.io/topic?id=36051",
     "author": "neo",
@@ -367,204 +576,6 @@
     "content": "<ul>\n<li><strong>TitleArt</strong>는 텍스트 스타일을 고르고 글꼴, 색상, 그림자, 3D 효과 등을 조정할 수 있는 편집 도구임</li>\n<li>한 페이지에 <strong>여러 TitleArt</strong>를 배치하고, 파일에서 그림을 추가하거나 도형, 스티커, 클립 아트를 넣을 수 있음</li>\n<li><strong>텍스트 서식</strong>에서 크기,...<p></p></li></ul>",
     "createdAt": "2026-10-26T07:31:27.000+00:00",
     "link": "https://news.hada.io/topic?id=36027",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "디즈니는 애니메이션 영화 한 편을 어떻게 만들까?",
-    "content": "<ul>\n<li>Disney Animation은 <strong>개발, 에셋 제작, 샷 제작</strong>을 거쳐 영화를 완성하며, 스토리보드부터 최종 프레임까지 평균 3~5년이 걸림</li>\n<li>영화는 <strong>시퀀스, 샷, 프레임</strong>으로 구성되며, <strong>《주토피아 2》</strong> 는 41개 시퀀스와 144,355개 프레임으로 만들어지고, </li></ul>",
-    "createdAt": "2026-10-26T06:39:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=36025",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IBM CEO, “오픈 웨이트 모델은 이제 온프레미스에서 성능도 좋고 비용도 저렴하다”",
-    "content": "<ul>\n<li>IBM CEO Arvind Krishna는 <strong>오픈 웨이트 모델</strong>이 최첨단 모델 대비 약 90%의 효과를 내면서 토큰 비용은 10~25% 수준이어서 기업의 온프레미스 활용에 적합하다고 봄</li>\n<li>일부 작업에는 최고 성능 모델이 필요하지만, <strong>이메일 요약과 작성, 계약서 검토, 고객 전화 응대</strong> 등...<p></p></li></ul>",
-    "createdAt": "2026-10-26T06:36:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=36024",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "엔비디아 Nemotron 3.5 Bolt E4B, 한국어 문서 RAG에선 바탕 모델 gemma4 E4B와 차이 없음 (299문항 실측)",
-    "content": "<ul>\n<li>엔비디아가 10/23 공개한 4B급 소형 모델(gemma4 E4B 후학습, Q4_K_M 6.2GB, 상업 사용 가능)을 원본과 같은 조건(같은 검색 결과 5쪽·지시문·채점기)에서 비교</li>\n<li>정답이 있는 한국어 문서 질문 299개: 생각 끔 63.2% vs 65.2%, 생각 켬 67.2% vs 69.6%, 둘 다 유의한 차이 없음</li>\n<li>엔비디아 발표...<p></p></li></ul>",
-    "createdAt": "2026-10-26T06:28:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=36023",
-    "author": "shoo99",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Code Understanding Coach – AI가 짠 코드, 내가 정말 이해하고 있는지 점검해주는 에이전트 스킬",
-    "content": "<p>에이전트로 코드를 많이 만들다 보니, 동작은 하는데 \"이 상황에서 무슨 일이 일어나지?\"라는 질문에 바로 답을 못 하는 순간이 늘었습니다. 그래서 내 프로젝트 코드로 나를 시험하는 스킬을 만들었습니다.</p>\n<ul>\n<li>\"프로젝트 이해도 점검해줘\" / \"로그인 기능 이해도 점검해줘\"</li></ul>",
-    "createdAt": "2026-10-26T06:11:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=36022",
-    "author": "dkqnwlnd",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: AI 에이전트가 게임을 만들 수 있게 미리 만들어둔 Godot 클라이언트 코어",
-    "content": "<p>Claude Code로 게임을 여러 개 만들어보면서 느낀 점이 있습니다. 게임 로직 자체는 꽤 잘 짜는데, UI, 네트워크, 로그인, 입력 처리, 튜토리얼 같은 부분은 매번 새로 짜고 그때마다 어딘가 깨져 있었습니다. 상용 게임이라면 다 필요한 부분인데, 에이전트가 제일 못 하는 부분이기도 했습니다.</p>\n<p>그래서 이 부</p>",
-    "createdAt": "2026-10-26T05:58:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=36020",
-    "author": "incago",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "컨텍스트 엔지니어링의 현주소",
-    "content": "<ul>\n<li>컨텍스트 엔지니어링은 <strong>모델에 필요한 정보를 골라 제공하고, 코드가 처리할 일과 모델이 판단할 일을 나누는 설계 작업</strong></li>\n<li>컨텍스트 창이 커져도 <strong>잘못된 사실에 고착되거나 지시보다 과거 대화의 패턴을 따르는 문제</strong>는 남아 있어, 정보를 많이 넣는 것만으로는 해결되...<p></p></li></ul>",
-    "createdAt": "2026-10-26T05:34:18.000+00:00",
-    "link": "https://news.hada.io/topic?id=36019",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: Creatune AI Music Generator - 텍스트로 보컬 포함 곡 만들기",
-    "content": "<p>안녕하세요, Creatune AI Music Generator 팀입니다. Show GN에는 처음 인사드립니다.</p>\n<p>만든 것 — 텍스트 프롬프트로 보컬이 들어간 곡을 만드는 웹 도구입니다. 장르·분위기·템포·보컬 성별을 지정하면 1~2분 길이의 트랙이 나오고, 마음에 안 드는 구간은 그 부분만 다시 생성할 수 있습니다. 숏폼 영상 60</p>",
-    "createdAt": "2026-10-26T05:02:23.000+00:00",
-    "link": "https://news.hada.io/topic?id=36018",
-    "author": "creatunealex",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 생존기한을 정하면 알아서 정리되는 메모 앱 - Fragile",
-    "content": "<p>안녕하세요.</p>\n<p>메모 앱을 쓰다 보면 메모가 쌓이기만 하고 정리는 안 하게 됩니다. 빠르게 적은 생각, 링크, 할 일이 섞여 쌓이고, 정작 필요한 메모는 어딘가에 묻혀있고 검색에 의존하게 되지만 쌓이는 양 자체는 줄지 않았습니다.</p>\n<p>\"몇 일, 몇 주, 몇 달 간 찾지 않는 메모는 필요성이 낮다고 가정</p>",
-    "createdAt": "2026-10-26T04:27:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=36017",
-    "author": "windbug99",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DreamHost에서 진행 중인 장애로 비밀번호 강제 재설정",
-    "content": "<ul>\n<li>DreamHost가 파일 관리자, 웹메일, FTP/SFTP 접근에 영향을 주는 문제에 대응해 <strong>일부 이메일 및 FTP/SFTP 사용자의 비밀번호를 예방적으로 재설정</strong>함</li>\n<li>영향받는 사용자의 비밀번호 초기화는 완료됐으며, 안내 이메일을 기다리지 않고 <strong>계정 소유자가 제어판에서 새 비밀번호를 ...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-26T03:31:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=36015",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "내가 프로그래머가 된 이유 (2015)",
-    "content": "<ul>\n<li>어린 시절 게임을 모으고 저장 파일을 고치던 경험이, <strong>컴퓨터를 마음대로 다루며 나만의 데모를 직접 만들고 싶다는 열망</strong>으로 이어져 프로그래머라는 꿈을 갖게 됨</li>\n<li><strong>XTreeGold의 Hex View</strong>로 저장 파일의 비트를 바꿔 무한 목숨과 스테이지 건너뛰기를 구현하며, 작은...<p></p></li></ul>",
-    "createdAt": "2026-10-26T02:38:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=36014",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "최종 개표 결과 룰라의 대선 승리",
-    "content": "<p>최종 개표 결과 룰라의 대선 승리</p>\n",
-    "createdAt": "2026-10-26T02:35:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=36013",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "중국의 벤처 생태계는 어떻게 작동하는가",
-    "content": "<ul>\n<li>중국 스타트업의 자금 조달은 <strong>창업자 개인의 상환 책임</strong>, 제한적인 인수합병 시장, 정부 자금의 산업 육성 목표가 결합된 구조로, 실리콘밸리와 상당히 다르게 작동함</li>\n<li>일부 투자 계약은 정해진 기간 안에 기준 수익률을 넘겨 자금을 돌려주도록 요구해, 많은 스타트업이 준비가 충분해...<p></p></li></ul>",
-    "createdAt": "2026-10-26T02:00:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=36012",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Pinterest, 사용자 활동에서 장기 목표를 추론하는 LLM 구축",
-    "content": "<ul>\n<li>Pinterest가 검색과 저장 기록을 읽고 <strong>‘주방 리모델링’이나 ‘사워도우 배우기’처럼 사용자가 이루려는 목표를 추론</strong>해 추천과 알림에 활용</li>\n<li>키워드를 추출하고 묶어 이름을 붙이던 다단계 처리 대신, <strong>미세 조정한 40억 파라미터 LLM 하나가 활동 기록에서 목표 목록과 우선...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-26T01:50:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=36011",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ask GN: 메모리 도구 사용 경험 있나요?",
-    "content": "<p>제가 느끼기에는 메모리 도구를 사용을 하시는 분을 많이 본적이 없는 거 같은데 메모리 도구를 사용해본 적이 있으신 분이나, 만들어 본 적 있으신 분 있나요?</p>\n<p>mem0, zep, supermemory, wontopos 등등</p>\n<p>제가 메모리를 엔진을 만들고 있는데 저 말고 다른 분들 의견도 궁금해서 물어보려고 글을 작성 해</p>",
-    "createdAt": "2026-10-26T01:43:40.000+00:00",
-    "link": "https://news.hada.io/topic?id=36010",
-    "author": "kimsunwoo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "OpenAI와 Anthropic은 몇 달 만에 LLM 가격을 최대 80% 내렸다. 왜일까?",
-    "content": "<ul>\n<li>OpenAI와 Anthropic은 최근 몇 달간 <strong>모델 품질을 희생한 뚜렷한 징후 없이 가격을 크게 인하</strong>했으며, 인하 효과는 API뿐 아니라 Codex와 Claude Code 같은 구독형 에이전트 하네스에도 적용됨</li>\n<li>모델 교체가 쉬워지고 <strong>공개 가중치 모델과 추론 제공업체</strong>가 늘어나면서 ...<p></p></li></ul>",
-    "createdAt": "2026-10-26T01:33:52.000+00:00",
-    "link": "https://news.hada.io/topic?id=36009",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "부분 순서 기반 연산자 우선순위",
-    "content": "<ul>\n<li>Zig master 브랜치가 일부 연산자 조합의 우선순위를 없애고, <strong>괄호로 평가 순서를 명시하도록 요구</strong>함</li>\n<li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">x orelse y == z</code>처럼 혼동하기 쉬운 조합은 컴파일 오류가 되지만, <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">x + y * z</code> 같은 일반적인 산술식</strong>은 괄호 없이 사용할 수 있음</li></ul>",
-    "createdAt": "2026-10-26T01:01:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=36006",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 가격 책정 및 패키징에 도대체 무슨 일이 벌어지고 있는 걸까?",
-    "content": "<ul>\n<li>AI 요금제는 <strong>크레딧, 토큰, 사용량 배수</strong>를 내세우지만, 고객이 실제로 무엇을 얼마나 할 수 있는지 구매 전에 파악하기 어려움</li>\n<li>크레딧은 비용이 서로 다른 모델과 도구를 하나의 구독으로 묶는 데 유용하지만, <strong>달성 가능한 작업량</strong>으로 연결하지 못하면 가치가 아닌...<p></p></li></ul>",
-    "createdAt": "2026-10-26T00:40:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=36005",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Codex는 어떻게 탄생했나",
-    "content": "<ul>\n<li>Codex는 클라우드 코딩 에이전트의 실패 이후 <strong>로컬 도구로 전환</strong>하고, 전용 모델과 데스크톱 앱을 함께 발전시키며 OpenAI의 핵심 제품 기반이 됨</li>\n<li>초기 Codex Cloud는 개발 환경을 다시 설정해야 하는 부담, 작업 도중 개입할 수 없는 구조, 부족한 모델 성능 때문에 <strong>제품 시...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-26T00:31:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=36004",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -1119,17 +1130,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "5 Good Choices for HTML Containers",
-    "content": "<p>During the <a href=\"https://en.wikipedia.org/wiki/HTML5\" target=\"_blank\" rel=\"noopener noreferrer\">HTML5 revolution</a>, besides sending the Adobe Flash media player <a href=\"https://web.archive.org/web/20170615060422/https://www.apple.com/hotnews/thoughts-on-flash/\" target=\"_blank\" rel=\"noopener noreferrer\">into retirement</a>, truly semantic markup made headlines. But even today, it’s not that easy to shake off the habit of reaching for <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><div> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span></span></code> when we quickly need a tag to wrap the content.<p></p>\n\n\n\n<p>Sometimes, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><div> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span></span></code> are exactly what we need. They are generic containers with no semantic meaning. They exist as styling targets alone.<p></p>\n\n\n\n<p>But sometimes, generic containers like these make us miss out on the benefits we might get from other tags. In this article, we’ll look into a few elements that can host their content with aspirations beyond meeting the requirement of a tag enclosure.</p>\n\n\n\n<h2>1. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><output></output></code></h2>\n\n\n\n<p>A typical explanation of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><output></output></code> is this: It’s used to show the results of a calculation. That’s something we could apply in a calculator. But providing semantics to the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">4</code> trailing a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">2 + 2</code> is not the only specialty of this element.</p>\n\n\n\n<p>In fact <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><output></output></code> is quite special. It is the only HTML element that, by default, is <strong>an <a href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions\" target=\"_blank\" rel=\"noopener noreferrer\">ARIA live region</a></strong>, meaning screen readers automatically announce content updates inside it.</p>\n\n\n\n<p>Reasonably, another use case for <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><output></output></code> emerged: <strong>showing dynamic content</strong>, such as alerts and messages acknowledging user actions, so that when they appear on a page, the screen reader user is automatically made aware of them.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>div</span> <span>id</span>=<span>\"slider\"</span>&gt;</span>\n  <span>&lt;<span>label</span> <span>for</span>=<span>\"slider-control\"</span>&gt;</span>Pick a recharge amount<span>label</span>&gt;</code></span><code>\n  <span>&lt;<span>input</span> <span>type</span>=<span>\"range\"</span> <span>id</span>=<span>\"slider-control\"</span> <span>min</span>=<span>\"10\"</span> <span>max</span>=<span>\"50\"</span> <span>value</span>=<span>\"10\"</span> <span>step</span>=<span>\"10\"</span>&gt;</span>\n  <span>&lt;<span>output</span>&gt;</span>Minimum recharge <span>€</span>10<span>output</span>&gt;\n<span>div</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>const</span> OUTPUT = <span>document</span>.querySelector(<span>'output'</span>);\n<span>/* show the chosen recharge amount in the output element */</span>\n<span>document</span>.getElementById(<span>'slider-control'</span>).addEventListener(<span>'input'</span>, (e) =&gt; {\n  OUTPUT.innerHTML = <span>`The recharge amount is €<span>${e.target.value}</span>`</span>;\n});</code></span></pre>\n\n\n<div></div>\n\n\n\n<h3>What is it good for?</h3>\n\n\n\n<ul>\n<li>Displaying results from calculators and converters.</li>\n\n\n\n<li>Showing error messages, like when user input doesn’t pass validation.</li>\n\n\n\n<li>Providing timely alerts, such as live sports scores.</li>\n\n\n\n<li>Acknowledging user actions, like “10% Coupon has been applied” when a user clicks the coupon button.</li>\n\n\n\n<li>Perfect for countdowns, since the screen reader will announce the new count each time.</li>\n</ul>\n\n\n\n<p><strong>Note</strong>: A live region is a section of a web page that updates content dynamically and relays the change to assistive technologies. The default live region mode of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><output></output></code> is <strong>polite</strong>.</p>\n\n\n\n<h2>2. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><ul><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></ul></h2>\n\n\n\n<p>The unordered list element is one of the original gangsters of HTML: a familiar and self-descriptive element used to create, well, an unordered list. When we need a list, like a checklist, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><ul> is used to show it.<p></p>\n\n\n\n<p>This element is so well made that even its variant, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><menu>, didn’t have to bring anything new except the semantics. But for all its glory from the structural, semantic, and accessibility advantages, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><ul><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> is also an underused element.<p></p>\n\n\n\n<p>Instead of thinking of it as something for a “list”, like in the past, it’s better to think of it as something for <strong>a group of similar items</strong>. That means a carousel, questionnaires, feeds, etc.</p>\n\n\n\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><ul> is good for all of them. It provides the right structure, orderly navigation, and speech for any assortment of items.<p></p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>ul</span>&gt;</span>\n  <span>&lt;<span>li</span>&gt;</span> <span>&lt;<span>img</span> <span>src</span>=<span>\"image-1.jpg\"</span> <span>alt</span>=<span>\"snoopy roasting a marshmallow\"</span>&gt;</span> <span>li</span>&gt;</code></span><code>\n  <span>&lt;<span>li</span>&gt;</span> <span>&lt;<span>img</span> <span>src</span>=<span>\"image-2.jpg\"</span> <span>alt</span>=<span>\"snoopy in a sleeping bag\"</span>&gt;</span> <span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span> <span>&lt;<span>img</span> <span>src</span>=<span>\"image-3.jpg\"</span> <span>alt</span>=<span>\"snoopy in a raft\"</span>&gt;</span> <span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span> <span>&lt;<span>img</span> <span>src</span>=<span>\"image-4.jpg\"</span> <span>alt</span>=<span>\"snoopy near a campfire\"</span>&gt;</span> <span>li</span>&gt;\n<span>ul</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>ul</span> {\n  <span>margin</span>: <span>0</span>;\n  <span>padding</span>: <span>0</span>;\n  <span>columns</span>: <span>2</span>;\n  <span>list-style</span>: none;\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<h3>What is it good for?</h3>\n\n\n\n<ul>\n<li>The usual lists (i.e., a to-do list, inventory, registry, etc.)</li>\n\n\n\n<li>A group of similar things: photo gallery, news digest, announcement board</li>\n\n\n\n<li>A dynamic UI that rotates through a set of items, like a carousel, ticker, or timeline</li>\n\n\n\n<li>Menus and navigation links or buttons</li>\n\n\n\n<li>Product grids</li>\n\n\n\n<li>Lists of things <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><ul><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>s are good at\n</ul>\n\n\n\n<h2>3. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><fieldset><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></fieldset></h2>\n\n\n\n<p>Long ago, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><fieldset> was introduced to address the growing need for a more structured <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>.<p></p>\n\n\n\n<p>It provides good semantics and accessibility to user controls. The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><legend></legend></code> inside a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><fieldset> has the space to describe the controls contained in the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><fieldset><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>.<p></p>\n\n\n\n<p>Its association as something used in a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>, however, has somewhat limited its employability elsewhere. Doesn’t have to be so.</p>\n\n\n\n<p><strong>All user controls, whether in a submittable form or not, can benefit from the semantics of a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></strong></p><fieldset><strong>.</strong> It keeps the focus on the control elements, and if needed, we can disable all the controls in it by applying the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">disabled</code> attribute to the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><fieldset><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> container.<p></p>\n\n\n\n<p>Bonus: the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><legend></legend></code>’s default style of sitting right on the border line is one of a kind.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>fieldset</span>&gt;</span>\n  <span>&lt;<span>legend</span>&gt;</span>Access the Marauder's Map<span>legend</span>&gt;</code></span><code>\n  <span>&lt;<span>p</span> <span>id</span>=<span>\"spellMsg\"</span>&gt;</span>I solemnly swear that I'm up to no good<span>p</span>&gt;\n  <span>&lt;<span>button</span> <span>id</span>=<span>\"openMapBtn\"</span> <span>aria-describedby</span>=<span>\"spellMsg\"</span>&gt;</span>Show map<span>button</span>&gt;\n<span>fieldset</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>fieldset</span> {\n  <span>width</span>: <span>350px</span>;\n  <span>border</span>: double <span>2px</span> <span>#2bc25e</span>;\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<h3>What is it good for?</h3>\n\n\n\n<ul>\n<li>Forms for user account information broken into sections</li>\n\n\n\n<li>Settings controls, like in a search filter</li>\n\n\n\n<li>Interactive parts of UIs like tabs</li>\n\n\n\n<li>Accordions (like in FAQs)</li>\n\n\n\n<li>Action areas</li>\n</ul>\n\n\n\n<h2>4. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><data></data></code></h2>\n\n\n\n<p>Typically, we see the attribute <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">value</code> associated with input control elements, like a checkbox or slider, where the user picks a value by interacting with the controls.</p>\n\n\n\n<p>But some elements show user-friendly text while still having corresponding values that JavaScript or the backend can process. For example, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><option></option></code>:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>option</span> <span>value</span>=<span>\"PIK\"</span>&gt;</span>Glasgow Prestwick Airport<span>option</span>&gt;</code></span><code>\n<span></span></code></pre>\n\n\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><data></data></code> is also capable of this. <strong>We can display a user-friendly text inside it, and set a <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">value</code> that makes data processing cleaner.</strong></p>\n\n\n\n<p>Surely <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">data-*</code> attribute can help with that, but with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><data></data></code> we can avoid generic containers, like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span></span></code>, for information to be processed. Below, the pen’s barcode number is provided in the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">value</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>p</span>&gt;</span>\nThe <span>&lt;<span>data</span> <span>value</span>=<span>\"Pigment Liner 308\"</span>&gt;</span>Staedtler pen<span>data</span>&gt;</code></span><code> is the ultimate tool for precise, long-lasting lines. This fineliner is perfect for writing, sketching, and technical drawing.\n<span>p</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>document</span>.querySelector(<span>'data'</span>).addEventListener(<span>'pointerenter'</span>,\n  e=&gt;<span>document</span>.querySelector(<span>'output'</span>).textContent = <span>`Get the <span>${e.target.value}</span>!`</span>, \n  { <span>once</span>: <span>true</span> }\n);</code></span></pre>\n\n\n<div></div>\n\n\n\n<h3>What is it good for?</h3>\n\n\n\n<ul>\n<li>To store product codes like barcodes</li>\n\n\n\n<li>Set IDs for something while its text changes, such as a stock’s price</li>\n\n\n\n<li>Storing numbers for calculations. For example, an amount shown in words has its corresponding digits in <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">value</code></li>\n\n\n\n<li>To provide <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><option></option></code>-like functionality outside of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></li></ul></fieldset></fieldset></fieldset></fieldset></fieldset></li></ul></ul></ul></menu></ul></div></div>",
-    "createdAt": "2026-10-09T15:24:05.000+00:00",
-    "link": "https://blog.master.dev/5-good-choices-for-html-containers/",
-    "author": "Preethi Sam",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
