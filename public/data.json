@@ -1,5 +1,291 @@
 [
   {
+    "title": "정보 유출 사이트의 미국 국토안보부(DHS) 직원 정보 공개",
+    "content": "<p>정보 유출 사이트의 미국 국토안보부(DHS) 직원 정보 공개</p>\n",
+    "createdAt": "2026-10-29T21:42:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=36250",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tomáš Mikolov, 체코 대통령에게 공로 메달 수훈",
+    "content": "<ul>\n<li>AI 연구자 <strong>Tomáš Mikolov</strong>가 과학 분야의 국가 기여를 인정받아 체코 대통령에게 공로 메달을 받음</li>\n<li>Mikolov는 <strong>Word2Vec</strong> 공동 개발자 중 한 명으로, 단어를 수학적 벡터로 나타내 의미 관계를 포착하는 이 방법은 현대 언어 모델 발전의 중요한 토대 중 하나가 됨</li></ul>",
+    "createdAt": "2026-10-29T21:39:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=36249",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "중국 스파이 의혹 인물, Nvidia CEO Jensen Huang과 ‘긴밀한 관계’",
+    "content": "<ul>\n<li>New York Times에 따르면 미국 정보기관은 <strong>Megaspeed 임원 Alice Huang</strong>의 통신을 감시하다 Jensen Huang과의 접촉을 확인했으며, 그녀가 중국 정부에 정보를 전달했다고 판단함</li>\n<li>Jensen Huang이 <strong>정보 수집 활동을 알고 있었다는 증거는 보도에 없으며</strong>, 전달된 정보의...<p></p></li></ul>",
+    "createdAt": "2026-10-29T21:36:42.000+00:00",
+    "link": "https://news.hada.io/topic?id=36248",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "우리는 “그냥 어울려 지내지” 않을 것이다",
+    "content": "<ul>\n<li>특이점 이후 “<strong>그냥 어울려 지내며</strong>” 무한한 여가를 누리리라는 기대와 달리, 탈희소성 AI 유토피아는 <strong>인간관계의 전제</strong> 자체를 약화할 수 있음</li>\n<li>저렴한 초인적 지능이 일과 교육을 무의미하게 만들면, 사람들이 만나 관계를 쌓아 온 <strong>직장과 학습 공동체</strong></li></ul>",
+    "createdAt": "2026-10-29T20:41:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=36247",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "패트릭 스튜어트 별세",
+    "content": "<ul>\n<li><strong>Patrick Stewart</strong>가 Los Angeles 자택에서 86세로 별세함. 사인은 알츠하이머병과 루이소체 치매로, 사망 소식은 소셜미디어를 통해 발표됨</li>\n<li>영국의 셰익스피어 연극 배우로 명성을 쌓은 뒤, 1987년 <strong>《Star Trek: The Next Generation》의 Jean-Luc Picard 함장</strong>으로 ...<p></p></li></ul>",
+    "createdAt": "2026-10-29T20:38:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=36246",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "NetBSD, 새로운 텍스트 편집기 atto 추가",
+    "content": "<ul>\n<li><strong>NetBSD-current</strong> 기본 시스템에 새 편집기 <strong>atto(1)</strong> 이 포함됨</li>\n<li><strong>신규 사용자의 적응</strong>을 돕기 위해 vi(1)과 xedit(1) 외에 선택할 수 있는 대안으로 추가함</li>\n<li><strong>모드 구분이 없는 화면 기반 편집기</strong>로, nano, pico, xedit, emacs...<p></p></li></ul>",
+    "createdAt": "2026-10-29T19:39:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=36245",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LLM 문체가 만드는 글의 불쾌한 골짜기",
+    "content": "<ul>\n<li><strong>LLM 특유의 문체</strong>는 실제 AI 사용 여부와 별개로 읽고 싶은 마음을 약화시키고 거부감을 일으킬 수 있음</li>\n<li><strong>LLM으로 초안을 쓰는 방식</strong>은 사람이 편집해도 특유의 문체를 지우기 어려워 피하는 것이 좋으며, 개요에 도움을 받더라도 본문은 직접 쓰기를 권함</li>\n<li>L...<p></p></li></ul>",
+    "createdAt": "2026-10-29T19:36:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=36244",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "H.264는 마법이다 (2016)",
+    "content": "<ul>\n<li><strong>H.264</strong>는 덜 중요한 시각 정보를 버리는 손실 압축, 프레임 사이의 움직임을 활용하는 예측, 무손실 엔트로피 부호화를 결합해 영상 전송에 필요한 데이터량을 줄임</li>\n<li>Apple 홈페이지를 캡처한 예시에서 <strong>300프레임짜리 5초 영상은 175KB</strong>인 반면, PNG 스크린샷 한 장은...<p></p></li></ul>",
+    "createdAt": "2026-10-29T18:39:48.000+00:00",
+    "link": "https://news.hada.io/topic?id=36243",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google 검색, 이제 Alphabet 매출의 절반 미만",
+    "content": "<ul>\n<li>2026년 3분기 Google 검색 매출은 <strong>634억 달러</strong>, Alphabet 전체 매출의 <strong>49.7%</strong> 로 검색 매출을 별도 공시한 이후 처음으로 절반 아래로 내려감</li>\n<li>검색 매출 자체는 전년 동기 대비 <strong>12% 증가</strong>했지만, 나머지 사업 매출이 <strong>40% 증가</strong>하면서...<p></p></li></ul>",
+    "createdAt": "2026-10-29T18:36:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=36242",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "멕시코는 미국에서 살 수 없는 전기차의 전시장",
+    "content": "<ul>\n<li>멕시코에서는 <strong>중국 전기차</strong>가 낮은 가격에 배터리, 소프트웨어, 고급 실내 기능을 묶어 판매되지만, 미국에서는 관세와 무역 장벽, 소프트웨어 규제로 사실상 진입이 막혀 있음</li>\n<li>중국 브랜드의 멕시코 자동차 시장 점유율은 5년 만에 <strong>1% 미만에서 15%</strong> 로 늘었으며, 전...<p></p></li></ul>",
+    "createdAt": "2026-10-29T17:43:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=36241",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PHP2Shell 연쇄 공격으로 미국 정부 관련 서버 포함 25대의 루트 권한 탈취",
+    "content": "<ul>\n<li>공격자는 <strong>PHP2Shell 원격 코드 실행과 커널 권한 상승 취약점</strong>을 결합해 미국, 일본, 대만, 한국의 서버 25대에서 루트 권한을 확보함</li>\n<li>특정 대형 공급업체의 방화벽 소프트웨어가 표적이었으며, <strong>인터넷에 노출된 관리 인터페이스</strong>를 통해 인증 없이 침투함</li>\n<li>...<p></p></li></ul>",
+    "createdAt": "2026-10-29T17:40:37.000+00:00",
+    "link": "https://news.hada.io/topic?id=36240",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "IPv4가 땅이라면",
+    "content": "<ul>\n<li>국가별 <strong>IPv4 주소 비중</strong>에 맞춰 각국의 면적을 다시 그린 세계 지도로, 실제 육지 면적과 주소 분포를 비교할 수 있음</li>\n<li>남극을 제외한 전 세계 육지 약 <strong>1억 3,500만 km²</strong>와 위치를 특정할 수 있는 IPv4 주소 약 <strong>36억 개</strong>를 기준으로 삼음</li>\n<li>국...<p></p></li></ul>",
+    "createdAt": "2026-10-29T16:42:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=36239",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google이 Google Earth에서 수역의 이름을 정하는 방식 (2008)",
+    "content": "<p>Google이 Google Earth에서 수역의 이름을 정하는 방식 (2008)</p>\n",
+    "createdAt": "2026-10-29T16:39:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=36238",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "해커들, 미국 국토안보부 직원 4만 명 이상의 신원 공개",
+    "content": "<ul>\n<li>해킹 단체 <strong>Department of Peace</strong>가 미국 국토안보부(DHS) 인사 파일을 탈취해 요원과 관계자 4만 명 이상의 이름, 전화번호, 주소를 공개했으며, 잠복 작전 관련 인력도 포함됨</li>\n<li>해커들은 DHS의 <strong>통합 로그인(SSO) 시스템</strong>을 무력화해 데이터를 훔쳤다고 밝혔으며, 자료...<p></p></li></ul>",
+    "createdAt": "2026-10-29T16:36:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=36237",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "DoorDash, 약 25.5조원에 Instacart 인수 추진",
+    "content": "<ul>\n<li><strong>DoorDash</strong>가 Instacart를 주당 65달러, 총 지분가치 약 <strong>170억 달러($17b)</strong> 에 인수하는 확정 계약을 체결함. 인수 대가의 최소 75%는 현금이며, 주식은 최대 25%로 제한됨</li>\n<li>DoorDash의 <strong>배송망</strong>과 Instacart의 식료품 주문 처리 기술을 결합해, 지역 매...<p></p></li></ul>",
+    "createdAt": "2026-10-29T15:47:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=36235",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "FBI가 마틴 루서 킹 주니어의 자살을 유도하려 보낸 편지(2014)",
+    "content": "<ul>\n<li><strong>FBI</strong>는 마틴 루서 킹 주니어를 대규모로 감시한 뒤, 자살을 유도하려는 서명 없는 편지를 그의 집으로 보냄</li>\n<li>1963년 <strong>“I Have a Dream” 연설</strong> 이후 FBI 국내정보 책임자 윌리엄 설리번은 킹을 공산주의와 국가안보 측면에서 위험한 인물로 지목함</li>\n<li>FBI 국장 ...<p></p></li></ul>",
+    "createdAt": "2026-10-29T15:44:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=36234",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Mistral Large 4(Le Chonk), 가중치 공개",
+    "content": "<ul>\n<li>Mistral이 <strong>1조 파라미터 네이티브 멀티모달 모델 Mistral Large 4</strong>의 개선된 가중치를 공개함. 공개 프리뷰 이후 강화학습을 확대해 코딩, 방어적 사이버보안, 추론 효율을 높임</li>\n<li><strong>Artificial Analysis Coding Agent Index</strong>에서 GLM-5.3와 사실상 동률인 48%로 오픈웨이...<p></p></li></ul>",
+    "createdAt": "2026-10-29T15:41:45.000+00:00",
+    "link": "https://news.hada.io/topic?id=36233",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Data Movement Strategies In System Design",
+    "content": "<p>Software systems don’t keep information in one place all the time. When a user makes a request to the system, it goes from the application to a server. A database might store the records needed to process it. Also, other components may need to know about any changes.</p><p>You need to move data to connect all these separate activities so that they can work as a coherent system.</p><p>To manage this movement of data, you need to make decisions about when and how information should travel within a system and outside it. This is where you have multiple strategies that can be used to handle data movement. In this article, we’ll look at the key strategies of data movement along with their benefits. Here’s what we will cover:</p><ul><li><p>The source, consumer, and trigger of data movement</p></li><li><p>What is the pull approach</p></li><li><p>The polling approach</p></li><li><p>The push approach</p></li><li><p>The long polling approach</p></li><li><p>Continuous communication with SSE and WebSockets</p></li><li><p>The role of message queues</p></li><li><p>Change data capture for database changes</p></li><li><p>How to choose a data movement strategy</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!FdGE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>The Source, Consumer, and Trigger of Data Movement</h2><div data-attrs=\"{\" data-component-name=\"SponsorshipCampaignToDOM\"></div>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/data-movement-strategies-in-system\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
+    "createdAt": "2026-10-29T15:31:02.000+00:00",
+    "link": "https://blog.bytebytego.com/p/data-movement-strategies-in-system",
+    "author": "ByteByteGo",
+    "site": {
+      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
+      "name": "ByteByteGo Newsletter"
+    }
+  },
+  {
+    "title": "Show GN: 만든 사람도 결과를 미리 모르는 사다리타기 (drand 예약 추첨)",
+    "content": "<p>카톡방에서 사다리타기 링크를 돌리면 늘 「조작 아니냐」는 말이 나옵니다. 실제로 흔히 쓰는 사다리 공유 사이트를 열어 보니, 링크에 사다리 모양이 통째로 들어 있어서 만든 사람이 원하는 결과가 나올 때까지 다시 섞은 뒤 그 링크만 보낼 수 있었습니다. 받는 사람은 알 방법이 없고요.</p>\n<p>그래서 결과를 「</p>",
+    "createdAt": "2026-10-29T14:49:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=36232",
+    "author": "limyosep0274",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국, 단 3개월 만에 역대 최대인 20.2GWh 배터리 저장 용량 추가",
+    "content": "<ul>\n<li>미국의 <strong>2026년 2분기 배터리 저장 설비 신규 설치량</strong>이 20.2GWh로 분기 최고치를 기록했으며, 상반기 설치량은 전년 대비 23% 증가한 30.8GWh에 달함</li>\n<li>성장은 <strong>전력망용 대규모 배터리</strong>가 주도했으며, 2분기 약 18GWh가 설치됨</li>\n<li>배터리는 전력이 풍부하고 저렴...<p></p></li></ul>",
+    "createdAt": "2026-10-29T14:46:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=36231",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "논리 버그만으로 Microsoft Edge 전체 익스플로잇 체인 구축하기",
+    "content": "<ul>\n<li>Pwn2Own Berlin 2026을 위해 <strong>메모리 손상 없이 논리 버그만으로</strong> Microsoft Edge에서 임의 코드 실행까지 이어지는 체인을 구축함</li>\n<li>브라우저 내부 탐색 API가 <strong>출발 탭을 명시하지 않으면 활성 탭을 사용</strong>하는 동작을 이용해, 다른 사이트에서 JavaScript를 실행하는 범...<p></p></li></ul>",
+    "createdAt": "2026-10-29T14:43:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=36230",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Gemini 4 Carbon, Artificial Analysis Intelligence Index v5에서 새로운 1위 기록",
+    "content": "<ul>\n<li>Google의 <strong>Gemini 4 Carbon</strong>이 Intelligence Index v5에서 59점으로 1위를 기록함. 복잡한 추론, 지식, 과학 과제에서 강점을 보이며 9개 평가 중 4개에서 최고 점수를 얻음</li>\n<li><strong>코딩 에이전트 평가</strong>에서는 Antigravity CLI와 함께 사용했을 때 59점으로, Claude Opus 5.5...<p></p></li></ul>",
+    "createdAt": "2026-10-29T14:40:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=36229",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "스파이 활동 의혹을 받는 이스라엘 기업, Starlink 사용자를 표적으로 삼아",
+    "content": "<ul>\n<li>이스라엘 광고 기술 기업 <strong>Discover-Tech</strong>가 Starlink 사용자에게 대규모로 광고를 노출했으며, 위치 파악이나 감시가 목적이었을 가능성이 크다고 TrendAI 연구진이 판단함</li>\n<li>광고 데이터 분석 결과, 이 업체는 <strong>100개국 이상에서 Starlink 트래픽 대상 광고 입찰 1위</strong>였...<p></p></li></ul>",
+    "createdAt": "2026-10-29T13:33:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=36228",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: oh-my-ouroboros - 피드백과 점검으로 스스로 다듬어지는 Claude Code 하네스",
+    "content": "<p>안녕하세요. ML 연구와 엔지니어링 작업에 사용하고 있는 Claude Code 하네스, oh-my-ouroboros를 공개합니다.</p>\n<p>https://github.com/DaeSeokSong/oh-my-ouroboros</p>\n<p>Claude Code를 오래 사용하다 보면 규칙과 스킬이 계속 늘어납니다. 같은 실수를 반복하지 않게 규칙을 추가하지만, 시간이 지나면 어떤 규</p>",
+    "createdAt": "2026-10-29T13:29:10.000+00:00",
+    "link": "https://news.hada.io/topic?id=36227",
+    "author": "zxdsaqwe1231",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "사용자 조작이나 알림 없이 발생하는 Android 원격 서비스 거부 공격",
+    "content": "<ul>\n<li>잘못 구성된 <strong>WAP Push SMS</strong> 한 건으로 Android의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">com.android.phone</code> 프로세스가 종료되며, 사용자 조작이나 알림 없이 <strong>긴급전화를 포함한 진행 중 통화</strong>가 끊김</li>\n<li>원인은 WSP 헤더 길이를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">long</code>에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">int</code>로 변환할 때 <strong>범...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-29T12:39:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=36225",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Google AI, 2020년 선거 승자를 묻자 답변 회피",
+    "content": "<ul>\n<li>Google 검색의 <strong>AI Mode</strong>가 미국 내 테스트에서 2020년 대선 승자를 직접 답하지 않고 연방선거위원회(FEC)의 공식 자료를 확인하도록 안내함</li>\n<li>답변 회피는 <strong>선거 연도와 사용자에 따라 달랐으며</strong>, 일부 테스트에서는 2024년과 2012년 대선 결과도 외부 링크로만 안내함...<p></p></li></ul>",
+    "createdAt": "2026-10-29T12:36:15.000+00:00",
+    "link": "https://news.hada.io/topic?id=36224",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: Specify - 코드베이스의 아키텍처와 기능 흐름을 시각화하는 도구",
     "content": "<p>안녕하세요. Specify를 개발하고 있습니다.</p>\n<p>지난 1년 동안 Claude Code와 Codex로 프로덕트를 만들면서, 기능이 동작하고 테스트를 통과해도 프로덕트의 구조와 설계 의도에 맞는지는 별도로 확인해야 한다는 고민이 생겼습니다. 에이전트가 만든 코드가 빠르게 쌓일수록 데이터 흐름과 기능 간 관계를 전체적</p>",
     "createdAt": "2026-10-29T11:14:42.000+00:00",
@@ -297,182 +583,6 @@
     }
   },
   {
-    "title": "DAYJOB: Tax - 전문 세무 과제 50개로 AI 에이전트 평가하기",
-    "content": "<ul>\n<li><strong>DAYJOB: Tax</strong>는 AI 에이전트가 고객의 최초 요청부터 최종 산출물까지 세무 업무를 책임지고 수행하는지 평가하며, 고객이 묻지 않은 문제를 발견하는 <strong>전문적 판단력</strong>까지 시험함</li>\n<li>평가 기준의 95% 이상을 충족해야 통과하는 조건에서 <strong>Claude Sonnet 5.5가 통...<p></p></strong></li></ul>",
-    "createdAt": "2026-10-28T21:33:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=36188",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "winevdm - 64비트 Windows에서 16비트 Windows 프로그램 실행하기",
-    "content": "<ul>\n<li><strong>winevdm은 Windows 1.x, 2.x, 3.0, 3.1용 16비트 프로그램</strong>을 64비트 Windows에서 실행할 수 있도록 이식한 에뮬레이터</li>\n<li><strong>CPU 에뮬레이터와 Wine 기반 Win16→Win32 변환 코드</strong>를 결합하며, 16비트 핸들과 네이티브 핸들 사이의 변환도 처리함</li>\n<li>실행 파일을 </li></ul>",
-    "createdAt": "2026-10-28T20:44:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=36187",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "나는 여전히 OpenGL ES 3.0을 가르친다",
-    "content": "<ul>\n<li>컴퓨터 그래픽스 입문 수업의 목표는 범용 렌더러가 아니라 <strong>3D 장면 구현</strong>이며, OpenGL ES 3.0은 이 목표에 필요한 그래픽스 API와 추상화를 배우는 데 여전히 유용함</li>\n<li><strong>WebGL2 호환성</strong> 덕분에 학생들이 C++ 예제를 웹으로 옮겨 자신의 사이트에 공개할 수 있고, 여러 ...<p></p></li></ul>",
-    "createdAt": "2026-10-28T20:41:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=36186",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "이 브라우저 지문 수집 스크립트는 왜 생물무기를 만들고 있을까?",
-    "content": "<ul>\n<li>웹사이트 <strong>1만 개</strong>에서 브라우저 지문 수집용 캔버스를 조사하던 중, 생물무기와 자해 등을 연상시키는 함수명과 문자열을 포함한 안티봇 스크립트가 발견됨</li>\n<li>위험한 함수명과 문자열로 <strong>LLM의 안전장치를 자극해 난독화 해제를 막으려는 기법</strong>으로 보임. 분석 방해용 이...<p></p></li></ul>",
-    "createdAt": "2026-10-28T20:38:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=36185",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "누가 제발 스팸 문자 좀 막아 주세요",
-    "content": "<ul>\n<li>가족, 친구와의 대화와 가끔 오는 2FA 코드가 중심이던 문자 채널에 <strong>정치 캠페인과 스팸 문자</strong>가 늘어나 중요한 알림의 가치를 훼손하고 있음</li>\n<li><strong>STOP 답장</strong>을 꺼리는 이유는 단순한 번거로움이 아니라, 발신자는 마음대로 문자를 보내고 수신자가 캠페인마다 개별적으로...<p></p></li></ul>",
-    "createdAt": "2026-10-28T19:55:03.000+00:00",
-    "link": "https://news.hada.io/topic?id=36184",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "스페인 톨레도 인근에서 고속열차 두 대 충돌",
-    "content": "<ul>\n<li>마드리드에서 세비야로 향하던 고속열차가 같은 선로에 정차한 다른 열차를 추돌해 <strong>최소 10명이 사망</strong>했으며, 당국은 사망자가 더 늘어날 수 있다고 경고함</li>\n<li>충돌로 <strong>객차 2량이 탈선</strong>하고 그중 1량이 크게 파손됐으며, 구조대가 피해가 가장 심한 객차에서 구조 작업을...<p></p></li></ul>",
-    "createdAt": "2026-10-28T19:52:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=36183",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gforth 1.0 - 확장 가능한 문법과 멀티코어 멀티태스킹 지원",
-    "content": "<ul>\n<li><strong>텍스트 인터프리터의 문법을 확장</strong>해 다양한 리터럴, 어휘집 지정, 환경 변수 참조를 지원하며, 인식기(recognizer)를 추가해 해석할 문법을 확장할 수 있음</li>\n<li>여러 코어와 하드웨어 스레드에서 <strong>멀티태스킹</strong>을 지원하며, 메시지 큐 기반 통신과 동기화, Cilk 기반 작업...<p></p></li></ul>",
-    "createdAt": "2026-10-28T19:46:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=36181",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple, 터치를 지원하는 PROLED XDR 디스플레이 탑재 MacBook Pro 공개",
-    "content": "<ul>\n<li>애플이 <strong>탠덤 OLED 기반 PROLED XDR</strong>을 탑재하고 Mac 최초로 <strong>터치를 지원</strong>하는 MacBook Pro 14 및 16 모델을 공개함</li>\n<li><strong>패널에 통합된 터치 센서</strong>로 그림 그리기, 악기 연주, iOS 및 iPadOS 앱의 터치 테스트가 가능, macOS가 터치 입력을 클릭으로 변환...<p></p></li></ul>",
-    "createdAt": "2026-10-28T18:39:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=36179",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gemini 4 Carbon - 사이버 보안과 장기 에이전트 작업 역량을 강화한 모델",
-    "content": "<ul>\n<li>Google이 <strong>Gemini 4 Carbon</strong>을 발표함. 복잡한 다단계 엔지니어링 작업을 지속해서 수행하도록 설계했으며, 코딩과 사이버 보안 방어 역량을 강화함</li>\n<li><strong>Artificial Analysis Intelligence Index v5.0</strong>에서 59점으로 1위를 기록하고, WebDev Arena에서는 89 Elo 상승한 1,...<p></p></li></ul>",
-    "createdAt": "2026-10-28T18:36:59.000+00:00",
-    "link": "https://news.hada.io/topic?id=36178",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국 FCC, Amazon의 Globalstar 115억 달러 인수 승인",
-    "content": "<ul>\n<li>미국 연방통신위원회(FCC)가 Amazon Leo의 Globalstar 115억 달러 인수를 승인했으며, Amazon은 이를 통해 SpaceX의 Starlink와 경쟁할 위성 통신망 구축을 추진함</li>\n<li>Amazon Leo는 2025년 4월 이후 약 400개의 위성을 발사했으며, 이번 인수로 Globalstar의 위성 약 24개와 이동위성통신 주파수를 확보해...<p></p></li></ul>",
-    "createdAt": "2026-10-28T17:39:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=36177",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CNC를 활용한 석재 조각",
-    "content": "<ul>\n<li><strong>CNC 기계와 로봇</strong>을 활용하면 숙련된 조각가가 수개월 걸리던 고딕 성당의 정교한 장식물을 수일 만에 제작할 수 있어, 시간과 예산 때문에 장식을 생략할 필요가 줄어듦</li>\n<li>석재 조각용 CNC는 주로 <strong>다이아몬드 공구와 5축 제어</strong>로 돌을 깎으며, 물은 절삭 수단이 아니라...<p></p></li></ul>",
-    "createdAt": "2026-10-28T17:36:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=36176",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "사모펀드 투자 기업에 다가오는 3,000억 달러 규모의 부채 만기",
-    "content": "<ul>\n<li>사모펀드(PE)가 인수한 기업들이 2028~2029년 만기가 도래하는 <strong>약 3,000억 달러(약 430조 원)의 부채</strong>를 안고 있으며, <strong>대규모 채무불이행</strong>과 투자 손실을 피하기 위해 <strong>대출 만기 연장</strong>을 서두르고 있음</li>\n<li>2021년 저금리 환경에서 사모펀드들이 7년 만기...<p></p></li></ul>",
-    "createdAt": "2026-10-28T16:46:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=36175",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Emacs, 50주년을 맞다",
-    "content": "<ul>\n<li><strong>1976년 MIT 인공지능 연구소에서 탄생한 Emacs</strong>가 50주년을 맞음. 초기 전체 화면 텍스트 편집기 중 하나로, 여러 운영체제용으로 다시 구현되며 지금까지 사용되고 있음</li>\n<li>TECO의 화면 편집 확장인 Control-R을 개선하면서 <strong>각 키가 매크로를 실행하는 구조</strong>를 도입. 연...<p></p></li></ul>",
-    "createdAt": "2026-10-28T16:43:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=36174",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "켄터키주 남성, 인본주의자로는 처음으로 AI 사용에 대한 종교적 면제 인정받아",
-    "content": "<p>켄터키주 남성, 인본주의자로는 처음으로 AI 사용에 대한 종교적 면제 인정받아</p>\n",
-    "createdAt": "2026-10-28T16:40:09.000+00:00",
-    "link": "https://news.hada.io/topic?id=36173",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "경쟁사들은 4F² DRAM에 집중하는데, Micron은 왜 포기했나?",
-    "content": "<ul>\n<li>Micron은 <strong>20년 넘게 연구한 4F² DRAM의 제품화를 포기</strong>하고 기존 6F² 구조의 미세화를 이어가기로 함. 4F²와 6F²는 공정 노드가 아니라 DRAM 셀의 면적과 배치를 나타냄</li>\n<li><strong>커패시터에 필요한 간격</strong>이 실제 DRAM 밀도를 제한하므로, Micron은 4F² 전환의 밀도 이득은 크...<p></p></li></ul>",
-    "createdAt": "2026-10-28T15:33:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=36172",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: pele-animate - Mermaid 다이어그램에 애니메이션과 아이콘을 추가해주는 오픈소스 라이브러리",
-    "content": "<p>기술 문서 사이트에서 많이 사용하는 <a href=\"https://mermaid.ai/open-source/\" target=\"_blank\" rel=\"noopener noreferrer\">Mermaid</a> 다이어그램에 단계 별 애니메이션 재생과 아이콘 지원을 추가해주는 오픈소스 라이브러리입니다.</p>\n<p>마크다운 노트 앱인 <a href=\"https://obsidian.md/\" target=\"_blank\" rel=\"noopener noreferrer\">옵시디언</a>의 CEO kapano가 기존 Mermaid의 단점을 개선하고</p>",
-    "createdAt": "2026-10-28T15:31:30.000+00:00",
-    "link": "https://news.hada.io/topic?id=36171",
-    "author": "slowmo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "How Uber Built A Gateway For AI Agents To Access Tools",
     "content": "<h2><a href=\"https://go.bytebytego.com/redpanda_102826\" target=\"_blank\" rel=\"noopener noreferrer\">Kalshi: Engineering for the Moments That Move Markets (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/redpanda_102826\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!qlFe!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 424w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 848w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!qlFe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!qlFe!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 424w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 848w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!qlFe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda226561-b63c-4039-91db-49519c4537df_1200x1200.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Markets don’t wait. On a prediction market, prices move in milliseconds, and every trade has to land the moment it happens. At the Agentic Data Summit on December 9, Batu Balimtas, Member of Technical Staff at Kalshi, takes you behind the scenes in <em>Engineering for the Moments That Move Markets: Kalshi and Redpanda</em>. Hear how Kalshi’s data infrastructure keeps pace when it matters most, and what it takes to run it in production. Catch Kalshi live at 12:00 PM PT. The summit is free and virtual and runs 8:30 AM–2:00 PM PT, so you can join for the sessions that matter most to you.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/redpanda_102826\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Save Your Seat</span></a></p><div><hr></div><p>An off-the-shelf large language model can explain why there’s an error in your code. It can suggest possible causes. Or it can perform tasks like writing a database query. However, all this would be at a general level based on the model’s training. You cannot expect it to write answers based on your system’s internal workings.</p><p>This is handled using tools. Each tool is built for a specific job. But you can end up with lots of tools, especially when working in an enterprise setup. This is the situation the Uber engineering team faced.</p><p>To deal with this, they built the MCP Gateway. You can think of it as a shared platform that lets different AI agents find which tools are present and use them to perform their job. In this article, we’ll look at how Uber built this gateway in detail. Here’s what we will cover:</p><ul><li><p>What are tools and why AI agents need them</p></li><li><p>The role of MCP at Uber</p></li><li><p>How the Uber MCP gateway is designed</p></li><li><p>How the gateway finds out the available tools</p></li><li><p>How does the MCP gateway work</p></li><li><p>How the MCP gateway deals with permission and access</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!ASmN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!ASmN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 424w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 848w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 1272w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!ASmN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ASmN!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 424w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 848w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 1272w, https://substackcdn.com/image/fetch/$s_!ASmN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F635bad96-b0a7-4c3f-a1e7-9038bdefd67b_3336x1982.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p><em>Disclaimer: This post is based on publicly shared details from various sources. References at the end. Please comment if you notice any inaccuracies.</em></p><h2>Why AI Agents Need Tools</h2><p>If you want a general-purpose LLM to write answers specifically for your current systems, you need to give it access to information about your system. For example, let’s say a developer asks an LLM-based AI assistant why XYZ service suddenly started failing. The answer is hidden in the system’s logs, deployments, metrics, and incidents. The LLM needs to access this information to be able to answer this question.</p><p>This is where we can create tools. You can think of a tool as an operation an AI application can execute. For example, you can have a tool to search logs. Retrieve incident details. Or check the status of a deployment. The model selects a tool and provides the necessary inputs. The application executes it and sends the result back to the model.</p><p>Many of these tools already exist as APIs. As you might already know, an API is an interface through which one program can request something from another program. For example, we can have a logging service that exposes an API. It takes the service name and time range as input and sends back all the log entries that fall within the range.</p><p>However, for an agent to use such a service, we need to describe what it does and what inputs it needs. This structured definition takes the form of a tool that the LLM application can use. Behind the scenes, the API performs the real search.</p><h2>The Role of MCP at Uber</h2><p>MCP stands for Model Context Protocol. With MCP, you get a standard way for AI applications to find out available external capabilities and talk to them. Uber uses MCP for its tool ecosystem.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!vzeX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!vzeX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 424w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 848w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 1272w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!vzeX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!vzeX!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 424w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 848w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 1272w, https://substackcdn.com/image/fetch/$s_!vzeX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07969345-679a-46c6-a50a-7f50e5d7641d_3304x1724.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>We must know three important terms to understand the role of MCP in a better way.</p><p>First, you have the MCP client. This is the component that sits inside an AI application. It communicates using MCP and handles various interactions, such as requesting the available tools. Or making calls to the selected tools.</p><p>Second, there is the MCP server. It exposes the capabilities (or tools) through MCP. In Uber’s case, the server shows the available tools and accepts any requests made to those tools.</p><p>Third, you have the MCP tool. This is the individual operation exposed by a server. You can also think of them as capabilities. One server can provide multiple tools.</p><p>MCP requires you to define the tools properly. This definition is made up of information such as name, description, and input schema. A schema provides the structure of data. Things like which fields are present, which are mandatory, and what types of values they can accept. For example, you can have a schema where service_name has to be a string and limit is an integer.</p><p>MCP uses a structured way to format a request or its parameters. Also, the corresponding result or error. The format is usually JSON-RPC 2.0. This standardization makes it easy to integrate stuff. You can have the same MCP client talk to different MCP servers.</p><p>However, this standardization doesn’t come for free. Someone has to decide which tools exist and where they run. Also, you need to track the ownership of the tools and how they work. Initially, the engineering teams within Uber built their own MCP integrations. The autonomy was great at a small level. But as adoption increased, it was obvious that each team was solving similar problems. For example, exposing tools. Managing connections. Dealing with permissions. And so on. To make things even more difficult, finding out which tools were available was difficult. Everything was scattered.</p><p>On top of all this, Uber’s existing service landscape brought another challenge. All the services in Uber didn’t talk to each other in the same way. Some used HTTP. Some used gRPC. And others used TChannel. For example, you might have an HTTP API use JSON and a gRPC API use Protobuf messages. You cannot simply forward an MCP request across these services without modifying the request format.</p><p>Therefore, Uber needed a common layer that could connect MCP clients to the tools. They also wanted this layer to handle shared discovery, security, and operational support. This layer is known as the MCP Gateway.</p><h2>How the Uber MCP Gateway is Designed</h2><p>The Uber MCP Gateway platform is divided into two main components: the MCP Registry and the Proxy Gateway. This separation helps Uber’s engineering team manage tool definitions and permissions independently.</p><p>Let’s look at both in detail.</p><h3>MCP Registry</h3><p>You can think of the MCP Registry as the control plane. It holds the catalog of MCP servers and tools. You can record the information needed to discover the tools and learn more about them in the registry.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!n_le!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!n_le!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 424w, https://substackcdn.com/image/fetch/$s_!n_le!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 848w, https://substackcdn.com/image/fetch/$s_!n_le!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 1272w, https://substackcdn.com/image/fetch/$s_!n_le!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!n_le!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!n_le!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 424w, https://substackcdn.com/image/fetch/$s_!n_le!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 848w, https://substackcdn.com/image/fetch/$s_!n_le!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 1272w, https://substackcdn.com/image/fetch/$s_!n_le!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95275c8e-ba05-4377-9ee4-9610e42e8e0a_3304x1878.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a><figcaption><strong>Source: </strong><a href=\"https://www.uber.com/in/en/blog/designing-mcp-gateway/\" target=\"_blank\" rel=\"noopener noreferrer\">Uber Engineering Blog</a></figcaption></figure></div><p>The reason they call it the control plane is that the registry also manages the configuration. For example, you can enable or disable the tool from the registry. It is also a shared source of truth.</p><h3>The Proxy Gateway</h3><p>This is the data plane. It handles the real MCP requests while agents are doing their work.</p><p>The gateway identifies the requested tool. It applies the necessary controls and sends the request to the right service. Also, it returns an MCP-compatible result.</p><h2>How Tools Are Discovered</h2><p>You can’t manually create MCP integrations for 1000s of services. It’s a lot of work, and there are chances of errors. Uber has automated much of this work by using AutoCrawler.</p><p>AutoCrawler finds out existing APIs and MCP servers. It generates or retrieves their tool definitions and registers them in the MCP registry.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!a_Kc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!a_Kc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 424w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 848w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 1272w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!a_Kc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!a_Kc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 424w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 848w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 1272w, https://substackcdn.com/image/fetch/$s_!a_Kc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f8f8dc-374b-4f39-8607-9115eb7ab044_3802x1836.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>On a technical level, AutoCrawler is a distributed workflow system. It’s powered by Cadence. In this setup, you have a scheduled job start workflow that looks for any new services, APIs, or schema changes.</p><p>But how does AutoCrawler discover new things? It has two main discovery pathways:</p><h3>From Existing API Definitions</h3><p>Many APIs use an Internal Definition Language (IDL) to describe their APIs.</p><p>An IDL is a machine-readable description of a service interface. You can use it to specify operation names, request fields, and documentation comments. For example, you may have an API definition describe an operation named GetDeploymentStatus. It might take a deployment ID as input and return a status and timestamp.</p><p>AutoCrawler can read these definitions and then go through several steps.</p><p>First, it creates an MCP server representation for the service. It might also update an existing representation. Next, it pulls out method names, request and response structures. Then, it translates whatever it has found into tool schemas that MCP can make sense of.</p><p>AutoCrawler also uses an LLM to come up with better tool descriptions from the details it has extracted from the service.  Finally, it stores these tool definitions in the registry.</p><p>As you can see, AutoCrawler is a good example of Uber’s no-code approach. Existing service contracts have enough information for the platform to build the MCP interface.</p><h3>Discovering Native MCP Servers</h3><p>Some services directly implement MCP. At Uber, these are called native MCP servers. These servers already have tool definitions. So less work for AutoCrawler to get those definitions.</p><p>Each native server emits a heartbeat metric. It signals the presence and readiness of the server. AutoCrawler keeps track of these signals. When it finds a server, it calls the server’s listTools operation. Once it finds the tools, it creates a proxy representation in the registry for all the tools and their schemas.</p><p>As you can see, both discovery pathways end up in the same catalog.</p><h2>Discovering Tools vs Permission to Use Them</h2><p>Uber made a design choice that newly discovered servers and tools start in a disabled state.</p><p>This means that automatic discovery only makes the capability visible to the platform. After this, the team that owns the service should review and enable the service to make it available for the agents. The choice to enable is an ownership decision. It’s better that the service team has the opportunity to check whether the tool description is correct.</p><p>The owner team can review the tool definitions and update them using the registry’s interface. Every modification is a new diff that should be approved. Only approved changes are deployed. Also, you can have owners roll back to the previous version if needed.</p><h2>How Uber’s MCP Gateway Works</h2><p>Once you have saved the tool configurations in the registry and have marked them as available, the data plane consumes these tool details to refresh its in-memory state. This happens at a fixed periodic interval.</p><p>The gateway uses the mappings at the time of request processing. The periodic refresh process makes sure that any new changes can take effect without the need to restart the service. Or redeploy it.</p><p>The gateway takes these configuration details and uses them to create virtual MCP servers. You can think of a virtual server as a logical MCP interface that exists inside the gateway. It’s made up of a collection of tools along with an endpoint for clients to reach those tools. For example, you can have a service called “logging” exposed on the endpoint “logging/mcp”.</p><p>To use the tool, the clients talk to this endpoint as an MCP server. You have a handler within the gateway that knows which tools are part of that server and how to reach the service that backs the tool.</p><p>To understand things in a better way, it’s good to follow the path of a request through the gateway.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!9gky!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!9gky!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 424w, https://substackcdn.com/image/fetch/$s_!9gky!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 848w, https://substackcdn.com/image/fetch/$s_!9gky!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 1272w, https://substackcdn.com/image/fetch/$s_!9gky!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!9gky!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!9gky!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 424w, https://substackcdn.com/image/fetch/$s_!9gky!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 848w, https://substackcdn.com/image/fetch/$s_!9gky!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 1272w, https://substackcdn.com/image/fetch/$s_!9gky!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F608cc4f1-c016-41af-8208-7f2ddeb83f8e_4384x2568.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Let’s say you have an AI agent that calls a tool backed by a gRPC service</p><ul><li><p>First, the MCP request hits the gateway. The gateway finds the corresponding virtual server and the tool that is requested.</p></li><li><p>Next, the server handler uses an in-memory mapping to find out the downstream destination and operation. In this case, the downstream service is the service to which the gateway will send the request.</p></li><li><p>The handler converts the tool’s JSON arguments into a form that the service expects. For example, in the case of a gRPC operation, you have to serialize the request into Protobuf bytes.</p></li><li><p>Moving further, the service runs the operation and sends back the response.</p></li><li><p>Finally, the gateway converts the response into an MCP-compatible result and ships it back to the caller.</p></li></ul><p>As you can guess, the same approach works for other types of services. For example, an HTTP backend receives an HTTP request. Or a TChannel service uses the TChannel or Thrift path.</p><h2>How the Gateway Takes Care of Access</h2><p>You can consider the gateway as a shared place to enforce access rules for all the tools.</p><p>The Uber engineering team uses their internal Access Control System to apply access rules and policies. These policies are based on the caller. You can have a human caller. A service. Or an AI agent. You can configure policies at the server level. Also, you can go as far as setting up specific policies for specific tools if needed. So the system provides a lot of flexibility.</p><p>This means that the platform supports authorization at the tool level. For example, you can have an incident management server expose tools for reading incidents and changing incident status. You can have a policy grant different access to those operations even though they are part of the same server.</p><p>The gateway can also redact responses for personally identifiable information (PII). Or any other sensitive data that may be present in the tool’s response.</p><p>For 3rd-party services such as Jira and Google, you need to have an additional identity check. This is because an internal Uber credential is different from a credential that might be accepted by a 3rd-party system. The gateway sends the caller’s internal user token to this service as part of its process flow. The 3rd-party service exchanges that token for the external auth token. Then, it sends the request to the external MCP server with that auth token.</p><p>As you can see, the responsibilities are divided. The gateway handles common access and execution details. The 3rd-party service takes care of the external stuff.</p><h2>How the Uber MCP Gateway Deals With A Huge Catalog</h2><p>The huge catalog of tools running at Uber can create a context problem for the MCP gateway.</p><p>You can have a gateway make 1000s of tools available, but an AI agent needs to have an efficient way to select the useful tools. This is because each tool definition takes up space in the model’s context window. You can think of this context window as the space available as part of the model’s input. This window has a limit. You also need it for other things like system instructions, conversation history, and results coming back from the tools.</p><p>If you have an application that loads tool descriptions and schemas for 1000s of tools in advance, they can take up a huge part of the context. Also, the amount of input that the model has to process shoots up. The same goes for tool responses. An API may send back a detailed object even when the task can be accomplished with just two fields.</p><p>To deal with these problems, Uber made three additions to the gateway:</p><ul><li><p>Omni MCP helps agents discover capabilities gradually. It’s a single proxy server that lets MCP clients access any of the gateway’s servers with gradual discovery. It provides tools like “discover_server”, “discover_tools”, “get_tool_schema”, and so on.</p></li><li><p>Response Projection reduces the fields that are sent back in tool results. It’s a GraphQL-like pattern for MCP tools. You inject a new field in the tool request that tells the gateway which fields should be part of the response. The gateway removes the other fields.</p></li><li><p>Code Mode lets coding agents work with results using shell commands and files.</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!saqB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!saqB!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 424w, https://substackcdn.com/image/fetch/$s_!saqB!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 848w, https://substackcdn.com/image/fetch/$s_!saqB!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 1272w, https://substackcdn.com/image/fetch/$s_!saqB!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!saqB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!saqB!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 424w, https://substackcdn.com/image/fetch/$s_!saqB!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 848w, https://substackcdn.com/image/fetch/$s_!saqB!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 1272w, https://substackcdn.com/image/fetch/$s_!saqB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa381b984-1306-4e56-890e-ea73e295209d_3802x2030.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a><figcaption><strong>Source: </strong><a href=\"https://www.uber.com/in/en/blog/designing-mcp-gateway/\" target=\"_blank\" rel=\"noopener noreferrer\">Uber Engineering Blog</a></figcaption></figure></div><h2>Conclusion</h2><p>Building the MCP Gateway has changed how AI agents operate at Uber in a big way.</p><p>It began as a fragmentation problem. You had dozens of teams independently wiring up MCP integrations. There was inconsistent tooling. No shared security guarantees. Also, duplicated infrastructure. Now, everything is a unified platform that can be scaled. Any team can plug into this platform within minutes.</p><p>The core philosophy that drove Uber’s team was that existing APIs are the fastest way to let AI agents access the tools. They didn’t want the teams to rewrite their services to make them fit for the gateway. The MCP gateway does the heavy lifting.</p><p>The key takeaway for developers is that the hardest part of building agentic systems is not the AI. You should worry more about building the right connective tissue. Things like discovery, security, and reliability are very important in a production environment.</p><p><strong>References:</strong></p><ul><li><p><a href=\"https://www.uber.com/in/en/blog/designing-mcp-gateway/\" target=\"_blank\" rel=\"noopener noreferrer\">Designing MCP Gateway Uber’s MCP Management Platform</a></p></li><li><p><a href=\"https://www.anthropic.com/news/model-context-protocol\" target=\"_blank\" rel=\"noopener noreferrer\">Model Context Protocol</a></p></li></ul>",
     "createdAt": "2026-10-28T15:31:05.000+00:00",
@@ -481,105 +591,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "ICE, 미국 역사상 최대 규모급 좌파 감시 작전 수행 중",
-    "content": "<ul>\n<li>미네소타 주민 15명의 연방 공모 혐의 사건에서 <strong>ICE의 광범위한 좌파 운동 감시 자료</strong>가 공개됨. 변호인들은 이 수사가 이민정책 반대자를 겨냥한 전국적 감시의 일부이며 위헌 소지가 있다고 주장함</li>\n<li>ICE 산하 <strong>국토안보수사국(HSI)</strong> 은 중대 범죄 수사용 자금과 권한...<p></p></li></ul>",
-    "createdAt": "2026-10-28T14:36:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=36170",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "UEFI 펌웨어의 코드 실행 취약점, 전 세계 서버 대부분을 위협",
-    "content": "<ul>\n<li>주요 UEFI 공급업체가 사용하는 <strong>TianoCore EDK II</strong>에서 심각도 <strong>9.5/10</strong>의 코드 실행 취약점 CVE-2026-97631이 발견됨</li>\n<li><strong>PXE 네트워크 부팅</strong> 중 ICMP 오류 메시지를 처리하는 버퍼 오버플로로, 공격자는 운영체제와 Secure Boot 등의 방어 기능이 작동하...<p></p></li></ul>",
-    "createdAt": "2026-10-28T13:40:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=36168",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "열흘이 지나도 macOS의 Git은 여전히 침해된 eMudhra 인증서를 신뢰함",
-    "content": "<ul>\n<li>Apple은 10월 17일 eMudhra 사고를 통보받았지만, 10월 28일 기준 macOS에 함께 제공하는 <strong>git, curl, python3</strong>는 여전히 침해된 인증서를 신뢰함</li>\n<li>10월 26일 출시된 <strong>macOS 27.2</strong>는 문제를 해결하지 않았으며, 사용자가 수동으로 적용한 우회 조치까지 되돌려 다시 취약...<p></p></li></ul>",
-    "createdAt": "2026-10-28T13:37:50.000+00:00",
-    "link": "https://news.hada.io/topic?id=36167",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "디바이스 트리에서 Raspberry Pi Zero 3 W와 Pi 4 Model A 발견",
-    "content": "<ul>\n<li>Raspberry Pi의 <strong>Linux 커널 트리</strong>에 미발표 보드 두 종의 디바이스 트리 파일이 추가됨. 하드웨어 구성의 단서는 있지만 공식 발표나 확정 사양은 아직 없음</li>\n<li><strong>Zero 3 W</strong>에는 Pi 4와 같은 쿼드코어 Cortex-A72 기반 <strong>BCM2711</strong>이 사용됨. Zero 2 W보다 코...<p></p></li></ul>",
-    "createdAt": "2026-10-28T12:33:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=36165",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국의 부의 불평등을 실제 비율로 그리다",
-    "content": "<ul>\n<li>미국 가구를 순자산 순으로 나열하고 <strong>1픽셀당 5,000달러</strong>로 그려, 중위 가구와 최상위 부유층 사이의 격차를 스크롤 길이로 체감하게 하는 시각화임</li>\n<li><strong>중위 가구 순자산은 21만 1,292달러</strong>, 상위 1% 가구의 평균은 4,043만 4,990달러로 약 191배 차이가 남</li>\n<li>상...<p></p></li></ul>",
-    "createdAt": "2026-10-28T11:35:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=36164",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 에이전트가 코드를 작성해도 개발자는 무엇을 알아야 할까?",
-    "content": "<ul>\n<li>에이전트가 코드를 만드는 시대의 <strong>시스템 책임자</strong>에게는 모든 코드를 직접 작성한 경험보다, 이상을 알아차리고 필요한 곳을 필요한 깊이까지 파고들 능력이 중요해짐</li>\n<li>생성된 코드를 <strong>모든 줄 이해해야 한다</strong>는 접근과 구현은 전혀 보지 않아도 된다는 접근 모두 충분...<p></p></li></ul>",
-    "createdAt": "2026-10-28T10:35:08.000+00:00",
-    "link": "https://news.hada.io/topic?id=36162",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: iMessage 로 컴패니언 AI 와 대화하는 RenAI 를 만들고 있습니다.",
-    "content": "<p>안녕하세요. Instict에서 영감을 받아, iMessage에서 AI 페르소나와 대화하는 RenAI를 만들고 있습니다.</p>\n<p>별도 앱을 설치할 필요 없이, 웹에서 마음에 드는 페르소나를 고르고 iMessage에서 대화를 이어가시면 됩니다.현재 초기 베타테스터를 모집하고 있습니다. 며칠 동안 직접 사용해 보시고 피드백을 주시면</p>",
-    "createdAt": "2026-10-28T09:58:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=36161",
-    "author": "colus001",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국 연방법전을 위한 Git",
-    "content": "<ul>\n<li>Lexifina가 미국 연방법전 9개 편의 개정 지시를 순서대로 적용해 <strong>법령 변경 이력</strong>을 구축함. 특정 날짜의 조문과 각 문구를 만든 법률을 확인할 수 있음</li>\n<li>법령 이력에는 조문뿐 아니라 <strong>시행일과 소급 적용 범위</strong>가 필요함. 당시 공개된 법전만으로는 이후 법률이 과거...<p></p></li></ul>",
-    "createdAt": "2026-10-28T07:34:14.000+00:00",
-    "link": "https://news.hada.io/topic?id=36160",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: pdf-hidden-text-remover - PDF 속 AI만 볼 수 있는 텍스트를 삭제하는 웹사이트",
-    "content": "<p>PDF 파일에는 배경과 비슷한 색상으로 글자를 숨기거나, 글자 크기를 매우 작게 설정하는 등의 방법으로 사람이 읽을 때는 보이지 않지만 AI는 인식할 수 있는 텍스트를 넣을 수 있습니다.</p>\n<p>이렇게 특정 프롬프트를 숨겨두면 AI가 해당 PDF를 읽거나 요약하는 과정에서 숨겨진 지시문을 따르도록 유도하는 </p>",
-    "createdAt": "2026-10-28T06:43:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=36158",
-    "author": "je0ngmin",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1368,17 +1379,6 @@
     "content": "<p>Secure your spot in <strong>AI Evals in Practice</strong>. Enrollment closes in <strong>just 3 days!</strong> If you’ve been thinking about joining, now’s the time.</p><p>ByteByteGo has teamed up with Manjeet Singh, Senior Director at Salesforce, to bring you this live, hands-on course on building reliable evaluation systems for production AI agents.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p><div><figure><a href=\"https://go.bytebytego.com/aievals-c1-substack\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!nbi9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 424w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 848w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!nbi9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!nbi9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 424w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 848w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!nbi9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0b246f3-f4ea-4536-88d4-9f9706e47857_4800x6000.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>You’ll learn how to:</p><ul><li><p>Design evals for quality, safety, reliability, cost, and latency</p></li><li><p>Build and validate LLM-as-a-Judge systems</p></li><li><p>Red-team agents for prompt injection and jailbreaks</p></li><li><p>Create meaningful eval datasets from real and synthetic data</p></li><li><p>Evaluate tool use, RAG, multi-step execution, and multi-agent handoffs</p></li><li><p>Run evals in CI/CD and production to catch regressions and drift</p></li><li><p>Turn failures into permanent regression tests</p></li></ul><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p>",
     "createdAt": "2026-10-04T15:57:40.000+00:00",
     "link": "https://blog.bytebytego.com/p/new-course-ai-evals-in-practice-starts",
-    "author": "ByteByteGo",
-    "site": {
-      "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
-      "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "EP228: How SSH Works",
-    "content": "<h2><a href=\"https://go.bytebytego.com/BSA_100326\" target=\"_blank\" rel=\"noopener noreferrer\">Get a state-of-the-art, fully assembled agent harness. (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/BSA_100326\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!p5R5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 424w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 848w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1272w, https://substackcdn.com/image/fetch/$s_!p5R5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61b8ec41-33b4-43fa-829d-dfee7e7aeed3_2048x1072.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Strands harness is the open-source, state-of-the-art, fully assembled agent harness. It’s a complete, production-ready agent the moment you install it. Across six benchmarks it matched or beat other harnesses on accuracy while using 28% fewer tokens.</p><p>You get shell, file, and web tools, plus context management, memory, and subagents, all tuned and ready to use. Every default is yours to change. Run it as a library or from the strands CLI, on any model and any cloud. It’s built on the open-source Harness SDK, so you can extend or replace anything.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/BSA_100326\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Get started</span></a></p><div><hr></div><p>This week’s system design refresher:</p><ul><li><p>How SSH Works</p></li><li><p>Top 6 Techniques to Make Your AI System Efficient</p></li><li><p>The Anatomy of an AI Agent</p></li><li><p>How do you know if your AI app actually works?</p></li><li><p><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">🚀 New Course: AI Evals in Practice Starts on Oct. 7</a></p></li></ul><div><hr></div><h2>How SSH Works</h2><p>Secure shell is a method to access a remote machine securely over an unsecured network. It starts with a TCP connection from the SSH client to the remote machine (SSH server).</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!BK7k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!BK7k!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!BK7k!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb82e3306-362f-49f6-b2ad-eef6c7c36340_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p></p><p>Both the machines exchange the SSH versions and negotiate crypto algorithms, and each side runs a key exchange protocol. The SSH server sends the public key and a signature, which the client machine verifies. That host key is then checked against the known_hosts file.</p><p>Both the machines then derive session keys on their end and do not share them over the network. Same keys, computed separately, never put on the wire. Then the SSH client starts authentication by sending the public key for login. </p><p>The SSH server matches the public key in the authorized_keys, and the SSH client also signs the auth request with the private key and sends the digital signature to the SSH server.</p><p>The private key never leaves your machine. The server will verify the signature with the client public key. This completes the SSH authentication, and now the session is open for communication.</p><div><hr></div><h2>Top 6 Techniques to Make Your AI System Efficient</h2><p>Serving LLMs at scale is expensive. These 6 popular techniques reduce latency and cost, and make your system more efficient. </p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!8hIH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!8hIH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!8hIH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e2ea11-7a54-4e06-b5c2-de141a0b64fb_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><ol><li><p>Streaming: The model sends each token as soon as it becomes ready. This changes the user’s perceived latency to time-to-first-token.</p></li><li><p>Quantization: Convert the model's weights to lower precision like FP8. This conversion leads to less memory usage, which translates to faster and cheaper serving.</p></li><li><p>Continuous batching: With this technique, new requests are added to the batch once a slot becomes available. Therefore, the GPU is less idle.</p></li><li><p>Prefix caching: This technique caches internal calculations for given input prompts. At runtime, if the prompt has a cached prefix, those calculations are skipped.</p></li><li><p>Paged KV cache: This technique stores the cache in fixed-size blocks instead of one contiguous chunk. At runtime, blocks are allocated as the sequence grows, so memory is not reserved up front.</p></li><li><p>Speculative decoding: Here, a small model (speculator) proposes multiple tokens. After that, the main model verifies them in one forward pass.</p></li></ol><p>Over to you: what is missing from this list?</p><div><hr></div><h2><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\">[Webinar] How to stop babysitting your agents (Sponsored)</a></h2><div><figure><a href=\"https://go.bytebytego.com/Unblocked_100326\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!sjX8!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!sjX8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dcba5c1-7c73-492a-89b0-52cc680c0df8_1600x900.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Agents can generate code. Getting it right for your system, team conventions, and past decisions is the hard part. You end up wasting time and tokens in the correction loops.</p><p>More MCPs, rules, and bigger context windows give agents access to information, but not understanding. The teams pulling ahead have a context layer to give agents exactly what they need for the task at hand.</p><p><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\">Join us for a FREE webinar on Oct 7</a> to see:</p><ul><li><p>Where teams get stuck on the AI maturity curve and why common fixes fall short</p></li><li><p>How a context layer solves for quality, efficiency, and cost</p></li><li><p>Live demo: the same coding task with and without a context layer</p></li></ul><p>If you want to maximize the value you get from AI agents, this one is worth your time.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/Unblocked_100326\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Register Now</span></a></p><div><hr></div><h2>The Anatomy of an AI Agent</h2><p>An AI agent can be thought of as a simple While-loop.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!lOfS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!lOfS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!lOfS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20aada1f-cc38-4c94-8778-eeaa7b63aceb_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>It uses an LLM to select an action, executes that action, evaluates the result, and repeats the process until the task is complete. Let’s take a closer look at each of these components:</p><ul><li><p>Brain: The LLM is the core. It reads the situation, thinks, and decides what to do next. The big shift from chatbot to agent: the model isn’t writing text anymore, it’s making choices.</p></li><li><p>Planning: Hard tasks need more than one step. Agents break them down using methods like Chain of Thought (think step by step), Tree of Thoughts (try options, pick the best), or<br>Reflexion (learn from mistakes and retry). Planning turns a fuzzy goal into clear actions.</p></li><li><p>Tools: An LLM without tools is a brain in a jar. Tools are functions the model can call, like web search, code execution, APIs, files, or browsers (often using the MCP standard). The model requests a tool, the system runs it, and the result comes back.</p></li><li><p>Memory: Without memory, every turn starts from zero. Short-term memory is the context window. Long-term memory lives in vector stores, files, and knowledge bases. When the window fills up, agents summarize old turns and carry the summary forward.</p></li><li><p>Loop: All four pieces work together in a cycle. The agent looks at the current state, decides what to do, uses a tool, sees the result, and repeats. It keeps going until it gives a final answer.</p></li><li><p>Guardrails: Not strictly anatomy, but important. Sandboxing, human checks, token limits, output validation, and scope limits keep autonomy from turning into expensive chaos. The more autonomy you give, the more these matter.</p></li></ul><p>Over to you: when you build an agent, which of these five takes the most work to get right?</p><div><hr></div><h2>How do you know if your AI app actually works?</h2><p>You evaluate it. But most teams skip this step (or do it wrong) because “eval” feels vague. It’s not.</p><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!6I0C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png\" data-attrs=\"{\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!6I0C!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 424w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 848w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1272w, https://substackcdn.com/image/fetch/$s_!6I0C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b8fa27-b1f7-4edb-8e55-25f097d5f285_2484x3002.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>Every good eval is a 3-step recipe.</p><p>Step 1: Pick a task. AI systems have different capabilities and dimensions to evaluate. For LLMs, it can be safety or math capability, in RAGs it can be grounding and retrieval, Pick one.</p><p>Step 2: Collect eval data. For every task, gather inputs paired with the right answer or expected behavior. A safety set pairs risky prompts with “refuse.”</p><p>Step 3: Develop a grader. How do you decide if the output is good?</p><ul><li><p>Use code-based graders (if/else, unit tests) for things with a clear correct answer and patch passing unit-tests.</p></li><li><p>Use model-based graders (LLM-as-judge) for subjective tasks like safety.</p></li><li><p>Use human graders for edge cases and anything where nuance matters more than throughput.</p></li></ul><p>Most production evals combine all three. Code-based for what’s cheap to check. Model-based for scale. Human-based for what matters most.</p><p>Over to you: what’s the hardest thing about your task to grade, and which grader type do you use for it?</p><div><hr></div><h2><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\">🚀 New Course: AI Evals in Practice Starts on Oct. 7</a></h2><p>ByteByteGo has teamed up with Manjeet Singh, Senior Director at Salesforce, to bring you a live and hands-on course on building reliable evaluation systems for production AI agents.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p><div><figure><a href=\"https://go.bytebytego.com/aievals-c1-substack\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 424w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 848w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1272w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!BCsu!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 424w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 848w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1272w, https://substackcdn.com/image/fetch/$s_!BCsu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffac9e47a-48d4-4c7e-bf04-1a7c7d91a8e2_1588x780.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><p>You’ll learn how to:</p><ul><li><p>Design evals for quality, safety, reliability, cost, and latency</p></li><li><p>Build and validate LLM-as-a-Judge systems</p></li><li><p>Red-team agents for prompt injection and jailbreaks</p></li><li><p>Create meaningful eval datasets from real and synthetic data</p></li><li><p>Evaluate tool use, RAG, multi-step execution, and multi-agent handoffs</p></li><li><p>Run evals in CI/CD and production to catch regressions and drift</p></li><li><p>Turn failures into permanent regression tests</p></li></ul><p>If you’re building AI agents and asking, “How do I know this is actually ready to ship?” — this course is for you.</p><p data-attrs=\"{\" data-component-name=\"ButtonCreateButton\"><a href=\"https://go.bytebytego.com/aievals-c1-substack\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Check it out Now</span></a></p>",
-    "createdAt": "2026-10-03T15:30:39.000+00:00",
-    "link": "https://blog.bytebytego.com/p/ep228-how-ssh-works",
     "author": "ByteByteGo",
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
