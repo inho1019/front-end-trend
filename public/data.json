@@ -1,5 +1,236 @@
 [
   {
+    "title": "Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”",
+    "content": "<p>Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”</p>\n",
+    "createdAt": "2026-10-30T20:31:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=36306",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Proton CEO, AI 활용 ‘재면접’ 취소",
+    "content": "<ul>\n<li>Proton CEO <strong>Andy Yen</strong>이 직원들의 AI 활용도를 확인하려던 <strong>재면접을 취소</strong>함. 거의 전사 규모로 추진됐으며, 직원들에 따르면 AI를 충분히 쓰지 않으면 해고될 수 있다는 취지가 분명했던 절차임</li>\n<li>취소는 <strong>보안 우려에도 AI 사용을 강하게 밀어붙이는 경영 방식...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-30T19:32:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=36304",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 기술주, AI 비용 우려에 급락",
+    "content": "<ul>\n<li>대규모 <strong>AI 투자에 비해 실적이 기대에 못 미치면서</strong> 미국 기술주가 이틀 연속 하락함. 금요일 Nasdaq은 3.5% 넘게 떨어졌고 Intel은 장중 최대 30% 급락함</li>\n<li>Meta, Alphabet, Oracle, Amazon, Microsoft의 <strong>2026년 지출 계획은 총 8,006억 달러</strong>에 달하며, 막대한 AI 투...<p></p></li></ul>",
+    "createdAt": "2026-10-30T18:36:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=36303",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Northflank 침해 사고 발생",
+    "content": "<ul>\n<li>Northflank가 <strong>보안 사고</strong>를 공지하고, 모든 사용자에게 환경 변수가 복호화됐다고 가정해 즉시 키를 비활성화하거나 교체하도록 권고함</li>\n<li>교체 대상에는 <strong>워크로드의 시크릿</strong>, 시크릿 그룹, 전역 시크릿이 포함됨</li>\n<li>여러 사용자가 자신의 <strong>AI 키가 사용된...<p></p></strong></li></ul>",
+    "createdAt": "2026-10-30T18:33:56.000+00:00",
+    "link": "https://news.hada.io/topic?id=36302",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ICE, 가면을 되찾으려 삭제 요청 대행업체를 고용하다",
+    "content": "<ul>\n<li><strong>FlokiNET</strong>이 ICE를 대리하는 ZeroFox의 Icepick 사이트 삭제 요청을 거부함. 유출된 정부 직원의 업무상 신원 정보를 언론인과 시민의 공적 책임 추적에 쓰이는 자료로 판단함</li>\n<li>데이터는 <strong>침해 사고로 유출</strong>됐으며 당사자들은 공개에 동의하지 않았음. 다만 FlokiNET은...<p></p></li></ul>",
+    "createdAt": "2026-10-30T17:44:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=36301",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Medicare는 심장마비 치료에 5만 달러를 지불한다. 예방에도 100달러를 지불해야 한다",
+    "content": "<ul>\n<li>약 <strong>100달러의 관상동맥 석회화 점수(CAC) 검사</strong>로 심장마비 발생 수년 전 동맥경화를 발견할 수 있지만, 보험 보장과 진료 체계의 제약으로 활용이 제한돼 있음</li>\n<li><strong>2026년 3월 ACC/AHA 지침</strong>은 관상동맥질환 위험이 경계 수준이거나 중간 수준이고 예방 치료 시작 여부가...<p></p></li></ul>",
+    "createdAt": "2026-10-30T17:41:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=36300",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "AI는 SRE를 대체하는 게 아니라 숙련도를 떨어뜨리고 있음",
+    "content": "<ul>\n<li>AI가 일상적인 장애 대응을 맡을수록 SRE는 <strong>드물고 복잡한 장애</strong>에 집중하게 되지만, 이를 해결할 직관과 전문성을 연습할 기회는 줄어듦</li>\n<li><strong>자동화의 역설</strong>은 자동화가 실패할 때 인간의 역할이 더 중요해지는 동시에, 개입에 필요한 숙련도는 실전 경험 부족으로 약해...<p></p></li></ul>",
+    "createdAt": "2026-10-30T17:38:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=36299",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: WORLD MODEL - 지금 쓸 수 있는 세계 AI 모델 1,100여 개를 한눈에 보는 도감",
+    "content": "<p>전 세계 개발사 138곳의 AI 모델 1,100여 개를 공식 발표 기준으로 모아 둔 사이트입니다.<br>\n분야는 대화·이미지·영상·음성·음악·비전·월드·3D·픽셀아트·검색·임베딩·판정으로 나눴습니다.</p>\n<ul>\n<li>국가·분야·로컬 실행 가능 여부로 거르고, 지구본에서 국가별로 볼 수 있습니다</li>\n<li>오픈 가중치 모</li></ul>",
+    "createdAt": "2026-10-30T17:13:53.000+00:00",
+    "link": "https://news.hada.io/topic?id=36298",
+    "author": "onenonly",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "63억 달러 규모 Binance 해킹, 단 20분 만에 실행됨",
+    "content": "<ul>\n<li>공격자가 <strong>최소 10개 블록체인의 Binance 지갑</strong>에서 약 63억 달러의 암호화폐를 탈취했으며, 대부분의 자금이 약 20분 사이 빠져나감</li>\n<li>공격 준비는 탈취 <strong>최소 36시간 전</strong> 시작됐으며, 소액 인출과 코드 시험을 거쳐 인터넷에 연결된 핫월렛에 공격 코드를 설치함</li>\n...<p></p></ul>",
+    "createdAt": "2026-10-30T16:37:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=36297",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Azure의 가장 약한 고리, 테넌트 간 완전한 침해 취약점 5건",
+    "content": "<ul>\n<li>Azure Logic Apps의 <strong>API Connections</strong>에서 다른 테넌트의 연결과 백엔드에 접근할 수 있는 치명적 권한 상승 취약점 5건이 발견됐으며, 보고된 취약점은 모두 수정됨</li>\n<li>공유 <strong>API Management</strong>가 연결에 저장된 자격 증명으로 백엔드를 호출하는 구조여서, 호출 대상을 피...<p></p></li></ul>",
+    "createdAt": "2026-10-30T16:34:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=36296",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Cursor Marketplace의 Claude Code for VS Code 확장 프로그램에서 백도어 발견",
+    "content": "<ul>\n<li>Phorion이 Cursor Marketplace의 공식 <strong>Claude Code for VS Code 2.1.313</strong> 번들에서 지속적인 SSH 접근을 노리는 백도어를 발견함</li>\n<li>악성 코드는 확장 프로그램의 정상 활성화 함수보다 먼저 실행되며, <strong>공격자 SSH 공개키</strong>를 심고 외부 서버로 역방향 SSH 터널을 연결함...<p></p></li></ul>",
+    "createdAt": "2026-10-30T15:34:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=36295",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: macOS의 ‘앱이 로컬 네트워크에서 기기를 찾도록 허용할까요?’ 팝업 자동 닫기",
+    "content": "<ul>\n<li><strong>dontallow</strong>는 macOS의 로컬 네트워크 접근 권한 팝업에서 ‘<strong>허용 안 함</strong>’을 자동으로 누르는 도구로, 기본 대기 시간은 0.25초이며 재부팅 후에도 작동함</li>\n<li>macOS Sequoia 이후 일부 앱에서는 <strong>설치 경로 변경</strong> 등으로 권한 결정이 유지되지 않아 실행...<p></p></li></ul>",
+    "createdAt": "2026-10-30T14:39:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=36294",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "미국 하원의원들, AI 거품 붕괴 시 빅테크 구제금융에 반대하는 민주당 결의안 발의 주도",
+    "content": "<ul>\n<li>Greg Casar와 Maxine Waters 하원의원이 <strong>AI 거품 붕괴 시 기업과 경영진 구제에 반대</strong>하고, 노동자와 은퇴자, 저소득층을 보호하는 연방 대응을 지지하는 결의안을 공동 발의함</li>\n<li>결의안은 AI 관련 기업의 <strong>수조 달러 부채</strong>와 불투명한 민간 신용시장, 높은 주가수익비율...<p></p></li></ul>",
+    "createdAt": "2026-10-30T14:36:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=36293",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Pico CSS, 더 이상 유지보수하지 않음",
+    "content": "<ul>\n<li><strong>v2.1.1을 마지막으로 Pico CSS 유지보수를 종료</strong>하며, 저장소를 아카이브하고 새 이슈, PR, 릴리스를 받지 않음</li>\n<li>유지보수자는 AI가 필요한 CSS만 포함한 가볍고 독립적이며 접근성을 갖춘 HTML을 생성할 수 있어, <strong>시맨틱 HTML용 최소 CSS 프레임워크의 필요성이 줄었다</strong></li></ul>",
+    "createdAt": "2026-10-30T13:42:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=36292",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "당구를 너무 못 쳐서 쌍곡평면까지 가버렸다 [영상]",
+    "content": "<ul>\n<li><strong>외부 당구(outer billiards)</strong> 는 공이 테이블 꼭짓점을 스치도록 이동한 뒤, 접촉점까지 온 거리만큼 더 나아가는 규칙을 반복하는 수학적 시스템임</li>\n<li>출발점에 따라 <strong>주기 궤도</strong>가 달라지며, 평면의 각 점에 고유한 색을 부여하면 여러 출발점의 움직임과 반복 패턴을 ...<p></p></li></ul>",
+    "createdAt": "2026-10-30T13:39:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=36291",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "elect.horse - 선거구를 조작해 말을 당선시키는 일일 게리맨더링 퍼즐",
+    "content": "<ul>\n<li>재선에서 패배할 상황인 <strong>말 후보</strong>가 가장 많은 의석을 얻도록 선거구를 직접 그리는 <strong>게리맨더링 퍼즐</strong>임</li>\n<li>서로 맞닿은 <strong>육각형 칸</strong>을 누르거나 드래그해 선거구를 만들며, 모든 선거구의 유권자 수는 같아야 함</li>\n<li>각 선거구에서 최다 득표한 후...<p></p></li></ul>",
+    "createdAt": "2026-10-30T13:36:16.000+00:00",
+    "link": "https://news.hada.io/topic?id=36290",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Two Circles, One Connection, and border-shape",
+    "content": "<p>In <a href=\"https://blog.master.dev/two-circles-one-arrow-and-anchor-positioning/\" target=\"_blank\" rel=\"noopener noreferrer\">the previous article</a>, we combined anchor positioning with modern CSS features to connect two circles with an arrow. The idea was to create dynamic behavior where the arrow follows the movement of both circles and changes shape based on their distance. We can also show the distance!</p>\n\n\n\n<p>At the time of writing, only Chrome and Edge fully support the features we’ll use. The demos in Firefox and Safari likely won’t look right.</p>\n\n\n\n<p>Here is a demo from the previous article where you can drag both circles and see the magic in play:</p>\n\n\n\n<div></div>\n\n\n\n<p>While the technique was a bit elaborate, the shape was basic, so what about fancier shapes? Curved and distorted lines like the ones below.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p.png?resize=973%2C517&amp;quality=80&amp;ssl=1\" alt=\"A diagram showing four colored blocks labeled A, B, C, and D connected by lines, with the left side depicting a complex network, while the right side illustrates a simpler connection of colored circles.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p.png?w=973&amp;quality=80&amp;ssl=1 973w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p.png?resize=300%2C159&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p.png?resize=768%2C408&amp;quality=80&amp;ssl=1 768w\"></figure>\n\n\n\n<p>It may sound like a difficult task, but a new powerful feature will make it straightforward: It’s <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>.</p>\n\n\n<div>\n  <header>\n    <h3>Article Series</h3>\n  </header>\n  <div>\n            <ol>\n                      <li>\n              <a href=\"https://blog.master.dev/two-circles-one-arrow-and-anchor-positioning/\" target=\"_blank\" rel=\"noopener noreferrer\">Two Circles, One Arrow, and Anchor Positioning</a>\n            </li>\n                      <li>\n              <a href=\"https://blog.master.dev/two-circles-one-connection-and-border-shape/\" target=\"_blank\" rel=\"noopener noreferrer\">Two Circles, One Connection, and border-shape</a>\n            </li>\n                  </ol>\n        </div>\n</div>\n\n\n\n<h2>Prerequisites</h2>\n\n\n\n<p>Well, you need to read <a href=\"https://blog.master.dev/two-circles-one-arrow-and-anchor-positioning/\" target=\"_blank\" rel=\"noopener noreferrer\">the first article</a> of this series. At least to the section “Linking the Circles” because it’s crucial to understand the anchor positioning part. I will use the same code structure and the same anchor positioning configuration. The only difference will be creating the shapes.</p>\n\n\n\n<p>Here is our starting point:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>div</span> <span>class</span>=<span>\"circle\"</span> <span>size</span>=<span>\"170px\"</span>&gt;</span><span>div</span>&gt;</code></span><code>\n<span>&lt;<span>div</span> <span>class</span>=<span>\"circle\"</span> <span>size</span>=<span>\"100px\"</span>&gt;</span><span>div</span>&gt;\n\n<span>&lt;<span>div</span> <span>class</span>=<span>\"link\"</span>&gt;</span>\n  <span>&lt;<span>a</span>&gt;</span><span>a</span>&gt;\n  <span>&lt;<span>b</span>&gt;</span><span>b</span>&gt;\n  <span>&lt;<span>c</span>&gt;</span><span>c</span>&gt;\n  <span>&lt;<span>d</span>&gt;</span><span>d</span>&gt;\n<span>div</span>&gt;</code></pre>\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span>&gt; * {\n  <span>position</span>: absolute;\n  <span>--_x</span>: <span>calc</span>(anchor(--c1 inside) + <span>anchor-size</span>(--c1)/<span>2</span>);\n  <span>--_y</span>: <span>calc</span>(anchor(--c2 inside) + <span>anchor-size</span>(--c2)/<span>2</span>);\n}\n<span>.link</span> <span>:is(a</span>,<span>b</span>) {<span>top</span>:  <span>var</span>(--_x); <span>bottom</span>: <span>var</span>(--_y);}\n<span>.link</span> <span>:is(a</span>,<span>c</span>) {<span>left</span>: <span>var</span>(--_x); <span>right</span>:  <span>var</span>(--_y);}\n<span>.link</span> <span>:is(c</span>,<span>d</span>) {<span>top</span>:  <span>var</span>(--_y); <span>bottom</span>: <span>var</span>(--_x);}\n<span>.link</span> <span>:is(b</span>,<span>d</span>) {<span>left</span>: <span>var</span>(--_y); <span>right</span>:  <span>var</span>(--_x);}\n\n<span>.link</span> <span>b</span> {<span>scale</span>: -<span>1</span>  <span>1</span>} \n<span>.link</span> <span>c</span> {<span>scale</span>:  <span>1</span> -<span>1</span>} \n<span>.link</span> <span>d</span> {<span>scale</span>: -<span>1</span> -<span>1</span>} \n\n<span>.circle</span> {\n  <span>width</span>: <span>calc</span>(attr(size type()));\n  <span>aspect-ratio</span>: <span>1</span>;\n  <span>anchor-name</span>: --c1;\n}\n<span>.circle</span> + <span>.circle</span> {\n  <span>anchor-name</span>: --c2;\n}</code></span></pre>\n\n\n<p>And a demo picked from the previous article with a random shape built with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clip-path</code>.</p>\n\n\n\n<div></div>\n\n\n\n<p>The goal is to update that “ugly” shape with a fancy curved line using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>.</p>\n\n\n\n<h2>Why border-shape?</h2>\n\n\n\n<p>In case you missed it, we got a lot of new features for creating shapes: <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">corner-shape</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code>, and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>. I have a bunch of articles about them that I invite you to read. Some are short and quick to read, while others are lengthy and very detailed.</p>\n\n\n\n<ul>\n<li><a href=\"https://blog.master.dev/drawing-css-shapes-using-corner-shape/\" target=\"_blank\" rel=\"noopener noreferrer\">Drawing CSS Shapes using corner-shape</a></li>\n\n\n\n<li><a href=\"https://css-tip.com/border-shape/\" target=\"_blank\" rel=\"noopener noreferrer\">Let’s Reshape the Web using border-shape!</a></li>\n\n\n\n<li><a href=\"https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/\" target=\"_blank\" rel=\"noopener noreferrer\">Get Ready For the Powerful CSS border-shape Property!</a></li>\n\n\n\n<li><a href=\"https://css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs/\" target=\"_blank\" rel=\"noopener noreferrer\">Better CSS Shapes Using shape()</a></li>\n\n\n\n<li><a href=\"https://css-tricks.com/complex-css-shapes-with-shape-function/\" target=\"_blank\" rel=\"noopener noreferrer\">Making Complex CSS Shapes Using shape()</a></li>\n</ul>\n\n\n\n<blockquote>\n<p>Do I have to read them all?!</p>\n</blockquote>\n\n\n\n<p>Not really; consider them as references if you want to dig more into those new features. For our case, you only need to understand how <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> works, and it’s pretty simple.</p>\n\n\n\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> lets us shape the whole element while keeping its decorations such as border, shadow, outline, etc. For comparison, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clip-path</code> shapes the element as well but clips everything. We all know how tricky it is to have borders when using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clip-path</code>. It’s no longer an issue with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p-jhYxb.png?resize=891%2C331&amp;quality=80&amp;ssl=1\" alt=\"Image showing three shapes: a solid square with a black border and red glow, a clip-path shape with a light blue fill, and a border-shaped figure with a black outline and red glow.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p-jhYxb.png?w=891&amp;quality=80&amp;ssl=1 891w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p-jhYxb.png?resize=300%2C111&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/p-jhYxb.png?resize=768%2C285&amp;quality=80&amp;ssl=1 768w\"><figcaption>Showing the difference between clip-path and border-shape</figcaption></figure>\n\n\n\n<p>Now, let’s consider the following example:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.shape</span> {\n  <span>border</span>: <span>10px</span> solid <span>#000</span>;\n  <span>background</span>: red;\n  <span>border-shape</span>: <span>polygon</span>(<span>0</span> <span>0</span>,<span>100%</span> <span>100%</span>,<span>0</span> <span>100%</span>);\n}</code></span></pre>\n\n\n<p>Nothing fancy. A triangle with a border and a background.</p>\n\n\n\n<div></div>\n\n\n\n<p>Let’s update the shape and try a slightly more complex one using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.shape</span> {\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>,line to <span>0</span> <span>100%</span>,close);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>The shape contains 3 parts: one curved line and two straight lines. Let’s remove the straight lines and keep only the curved one:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.shape</span> {\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Do you see where I am going with this idea? If we remove the background color, only the curved line remains visible.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/9RiADzvB.png?resize=1101%2C237&amp;quality=80&amp;ssl=1\" alt=\"Diagram illustrating the transformation of a red triangular shape into a red rounded shape through a series of transitions.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/9RiADzvB.png?w=1101&amp;quality=80&amp;ssl=1 1101w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/9RiADzvB.png?resize=300%2C65&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/9RiADzvB.png?resize=1024%2C220&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/9RiADzvB.png?resize=768%2C165&amp;quality=80&amp;ssl=1 768w\"></figure>\n\n\n\n<p>We use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> combined with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> to draw a path/line that connects two points, then we set the border property to control the thickness and color:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.shape</span> {\n  <span>border</span>: <span>10px</span> solid <span>#000</span>;\n  <span>border-shape</span>: <span>shape</span>(...);\n}</code></span></pre>\n\n\n<p>That’s it!</p>\n\n\n\n<p>If you are new to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code>, don’t worry. We are not going crazy with it, so you can easily follow what’s coming next. That said, I have <a href=\"https://css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs/\" target=\"_blank\" rel=\"noopener noreferrer\">a four-article series</a> if you want to better understand the various commands (line, arc, curve, etc.).</p>\n\n\n\n<h2>The Implementation</h2>\n\n\n\n<p>Let’s take our previous demo and replace <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clip-path</code> with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; * {\n  <span>position</span>: absolute;\n  <span>border</span>: <span>12px</span> solid <span>#556270</span>;\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Hmm, the result is quite strange. We get more curves than expected. The issue is the use of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border</code>. The link structure is a set of four elements to distinguish the four possible positions (You have read <a href=\"https://blog.master.dev/two-circles-one-arrow-and-anchor-positioning/\" target=\"_blank\" rel=\"noopener noreferrer\">the previous article</a>, so you should know what I am talking about, right?). The anchor positioning configuration is set to make only one element visible at a time, meaning the others have a size of 0 (the width, the height, or both).</p>\n\n\n\n<p>By setting a border, they no longer have a size of 0, so all of them are visible. That’s why you see four strange shapes, but only one is correct and should be visible. To fix this, let’s move the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> thing to a pseudo-element and use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: hidden</code> on the main element.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; * {\n  <span>position</span>: absolute;\n  <span>overflow</span>: hidden;\n}\n<span>.link</span> &gt; *<span>:before</span> {\n  <span>content</span>: <span>\"\"</span>;\n  <span>position</span>: absolute;\n  <span>inset</span>: <span>0</span>;\n  <span>border</span>: <span>12px</span> solid <span>#556270</span>;\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Better but still not perfect. The start and end of the curve aren’t perfectly centered within the circles, and the curve disappears when the circles align horizontally or vertically.</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/wEI8KfVQ.png?resize=878%2C367&amp;quality=80&amp;ssl=1\" alt=\"Abstract illustration showing three circles in different sizes and colors: two larger teal circles, one smaller orange circle, with a curved line connecting a red dot to an orange circle.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/wEI8KfVQ.png?w=878&amp;quality=80&amp;ssl=1 878w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/wEI8KfVQ.png?resize=300%2C125&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/wEI8KfVQ.png?resize=768%2C321&amp;quality=80&amp;ssl=1 768w\"></figure>\n\n\n\n<p>To fix the alignment, we can add <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-box</code> as a second value to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code>:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; *<span>:before</span> {\n  <span>border</span>: <span>12px</span> solid <span>#556270</span>;\n  <span>/* we add border-box at the end */</span>\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>) border-box;\n}</code></span></pre>\n\n\n<p>This will change the reference compared to the default behavior:</p>\n\n\n\n<figure><img data-recalc-dims=\"1\" src=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/CmT475LI.png?resize=1096%2C380&amp;quality=80&amp;ssl=1\" alt=\"Comparison of two box model settings in CSS: half-border-box (default) on the left with rounded corners, and border-box on the right with sharp corners.\" srcset=\"https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/CmT475LI.png?w=1096&amp;quality=80&amp;ssl=1 1096w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/CmT475LI.png?resize=300%2C104&amp;quality=80&amp;ssl=1 300w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/CmT475LI.png?resize=1024%2C355&amp;quality=80&amp;ssl=1 1024w, https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/10/CmT475LI.png?resize=768%2C266&amp;quality=80&amp;ssl=1 768w\"></figure>\n\n\n\n<p>Our shape is a line with a thickness equal to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-width</code>. By default, that line is placed in a way to match the border area (don’t ask me why it’s called half-border-box). By using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-box</code>, the midpoint of the line will start at the top-left corner of the element. If the line were straight, it would be half outside and half inside. You can clearly notice this behavior at the start and end of the curve.</p>\n\n\n\n<p>This fixes the alignment issue:</p>\n\n\n\n<div></div>\n\n\n\n<p>Ah, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">overflow: hidden</code> is hiding the outside part of the shape, which is not good. We need something different.</p>\n\n\n\n<p>I will toggle the opacity of the pseudo-element based on the element size:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> * {\n  <span>container-type</span>: size;\n}\n<span>.link</span> *<span>:before</span> {\n  <span>opacity</span>: <span>calc</span>(sign(<span>1</span>cqw)*<span>sign</span>(<span>1</span>cqh));\n}</code></span></pre>\n\n\n<p>It’s the same technique I used in the first article:</p>\n\n\n\n<blockquote>\n<p>If either the width or the height of the element is <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0</code>, it means that either <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">1cqh</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">1cqw</code> will be <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0</code>. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sign()</code> of <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0</code> is also <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0</code> hence we get <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">opacity: 0</code> (invisible).</p>\n</blockquote>\n\n\n\n<p>We can do the same with the display property if we combine it with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">if()</code>:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> * {\n  <span>container-type</span>: size;\n}\n<span>.link</span> *<span>:before</span> {\n  <span>display</span>: <span>if</span>(style(calc(sign(<span>1</span>cqw)*<span>sign</span>(<span>1</span>cqh)) = <span>0</span>):none);\n}</code></span></pre>\n\n\n<p>The latter is more robust because it removes the element completely, avoiding weird overflow issues caused by invisible elements. I will remind you about this when we face such an issue.</p>\n\n\n\n<p>Now, we are good!</p>\n\n\n\n<div></div>\n\n\n\n<p>Good but still not perfect. If you drag the circles around, you will notice that the curve gets misaligned at some points, and there is a weird jump when moving from one area to another. This is again because of the border.</p>\n\n\n\n<p>The pseudo-element has a border width equal to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">12px</code>, meaning that its width/height cannot be smaller than <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">24px</code>. When the main element shrinks from <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">24px</code> to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">0px</code>, the pseudo-element will overflow, and we get that weird misalignment.</p>\n\n\n\n<p>Since we cannot avoid that overflow, let’s keep it consistent all the time. Instead of using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset: 0</code>, we use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inset: -12px</code>. This means the pseudo-element’s border always overflows the main element. This will shift the position of the curve, but we can fix that by changing <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-box</code> to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">padding-box</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; *<span>:before</span> {\n  <span>inset</span>: -<span>12px</span>; <span>/* instead of inset: 0 */</span>\n  <span>border</span>: <span>12px</span> solid <span>#556270</span>;\n  <span>/* we add padding-box at the end */</span>\n  <span>border-shape</span>: <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>100%</span> <span>100%</span> with <span>100%</span> <span>0</span>) padding-box;\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>Now, it’s perfect! The curve links both circles from their centers, and everything remains aligned when you update the circles’ positions.</p>\n\n\n\n<p>Getting the correct position was a bit tricky, so I wanted to highlight the process I followed to align everything perfectly. If you are a bit lost, don’t worry; I struggled to find the right configuration too. Give it another read and play with the demos to better understand each fix.</p>\n\n\n\n<h2>Improving the Shape</h2>\n\n\n\n<p>The shape I used was “ugly”, right? I know. It was only a temporary one to get the implementation done, but now we can update it with whatever we want. The good news is that we just need to update the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> value without touching the rest of the code.</p>\n\n\n\n<p>Let’s try the following:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>shape</span>(<span>from</span> 0 0,<span>curve</span> <span>to</span> 50% 50% <span>with</span> 50% 0,<span>smooth</span> <span>to</span> 100% 100%)</code></span></pre>\n\n\n<p>This time, I draw a first curve from the top-left corner to the middle, then use the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">smooth</code> command to draw a second curve that mirrors the first one to the bottom-right corner.</p>\n\n\n\n<div></div>\n\n\n\n<p>A lot better!</p>\n\n\n\n<p>We can still go fancier and update the shape based on the distance between the two circles.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; *<span>:before</span> {\n  <span>border-shape</span>: <span>if</span>(\n    style((<span>100</span>cqw &lt; <span>200px</span>) or (<span>100</span>cqh &lt; <span>200px</span>)):\n     <span>shape</span>(from <span>0</span> <span>0</span>,line to <span>100%</span> <span>100%</span>);\n    <span>else</span>:\n     <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>50%</span> <span>0</span>,smooth to <span>100%</span> <span>100%</span>);)\n   padding-box;\n}</code></span></pre>\n\n\n<p>If the vertical or horizontal distance (defined by <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">100cqw</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">100cqh</code>) is less than <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">200px</code>, we transform the shape into a straight line. Otherwise, we keep the previous curve.</p>\n\n\n\n<div></div>\n\n\n\n<p>Here is an even better way to achieve the same thing:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; *<span>:before</span> {\n  <span>border-shape</span>: <span>if</span>(\n    style((<span>100</span>cqw &lt; <span>200px</span>) or (<span>100</span>cqh &lt; <span>200px</span>)):\n     <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>0</span>   <span>0</span>,smooth to <span>100%</span> <span>100%</span>);\n    <span>else</span>:\n     <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>50%</span> <span>0</span>,smooth to <span>100%</span> <span>100%</span>);)\n   padding-box;\n}</code></span></pre>\n\n\n<p>Instead of changing the shape completely, we keep the same structure and update some values. By changing the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">with</code> and making it equal to the initial point, the curve becomes a straight line.</p>\n\n\n\n<p>It sounds more complex than the first one, but this code lets us have a smooth transition between both shapes since they share the same structure!</p>\n\n\n\n<div></div>\n\n\n\n<p>Do you see the potential of this technique? Not only can we easily draw complex curves with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code>, but we can also update them conditionally based on the distance between the two elements using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">if()</code> and container query units. For this reason, there will be a third article to complete this series with more examples and more shapes!</p>\n\n\n\n<p>What about the extremities of the line? Can we make them look better?</p>\n\n\n\n<p>Yes, we can. For that, we have the other pseudo-element we can use to draw the extremities using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> or any other technique depending on your needs.</p>\n\n\n\n<p>Here is an example where I am applying the same CSS to both pseudo-elements. Then each one will have its own <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> configuration.</p>\n\n\n\n<div></div>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> &gt; *<span>:before</span>,\n<span>.link</span> &gt; *<span>:after</span> {\n  <span>content</span>: <span>\"\"</span>;\n  <span>position</span>: absolute;\n  <span>inset</span>: -<span>12px</span>;\n  <span>border</span>: <span>12px</span> solid <span>#556270</span>;\n  <span>display</span>: <span>if</span>(style(calc(sign(<span>1</span>cqw)*<span>sign</span>(<span>1</span>cqh)) = <span>0</span>):none);\n  <span>/* draw the curved line */</span>\n  <span>border-shape</span>: <span>if</span>(\n    style((<span>100</span>cqw &lt; <span>200px</span>) or (<span>100</span>cqh &lt; <span>200px</span>)):\n     <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>0</span>   <span>0</span>,smooth to <span>100%</span> <span>100%</span>);\n    <span>else</span>:\n     <span>shape</span>(from <span>0</span> <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>50%</span> <span>0</span>,smooth to <span>100%</span> <span>100%</span>);)\n   padding-box;\n  <span>transition</span>: border-shape .<span>3s</span>;\n}\n<span>.link</span> &gt; *<span>:after</span> {\n  <span>/* draw two circles */</span>\n  <span>border-shape</span>: \n    <span>shape</span>(from <span>6px</span> <span>0</span>,arc by <span>0</span> .<span>1px</span> of <span>6px</span> large,\n      move to calc(<span>100%</span> + <span>6px</span>) <span>100%</span>,arc by <span>0</span> .<span>1px</span> of <span>6px</span> large) \n    padding-box\n}</code></span></pre>\n\n\n<p>How am I creating the circles? This will be your homework. Try to dissect the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> value to understand how one arc command can simulate a circle. Mastering <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> is crucial for this technique because it allows you to easily create complex connections, so don’t hesitate to learn more about it (<a href=\"https://css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs/\" target=\"_blank\" rel=\"noopener noreferrer\">my four-article series</a> is a good starting point).</p>\n\n\n\n<p>Here is another example with arrow shapes.</p>\n\n\n\n<div></div>\n\n\n\n<p>This time, I am getting back to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">clip-path</code> but still using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> to create the arrows:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.link</span> {\n  <span>--s</span>: <span>25px</span>; <span>/* size of arrow */</span>\n  <span>--t</span>: <span>12px</span>; <span>/* line thickness */</span>\n}\n<span>.link</span> &gt; *<span>:before</span>,\n<span>.link</span> &gt; *<span>:after</span> {\n  <span>--a</span>: <span>atan</span>(<span>100</span>cqh/<span>100</span>cqw);\n  <span>--d</span>: <span>calc</span>(var(--s)/<span>sqrt</span>(<span>2</span>));\n  <span>display</span>: <span>if</span>(style(calc(sign(<span>1</span>cqw)*<span>sign</span>(<span>1</span>cqh)) = <span>0</span>):none);\n}\n<span>.link</span> &gt; *<span>:before</span> {\n  <span>inset</span>: <span>calc</span>(-<span>1</span>*var(--t));\n  <span>border</span>: <span>var</span>(--t) solid <span>#556270</span>;\n  <span>border-shape</span>: <span>if</span>(\n    style((<span>100</span>cqw &lt; <span>200px</span>) or (<span>100</span>cqh &lt; <span>200px</span>)):\n     <span>shape</span>(from calc(var(--d)*<span>cos</span>(var(--a))) <span>calc</span>(var(--d)*<span>sin</span>(var(--a))),\n          line to <span>calc</span>(<span>100%</span> - calc(var(--d)*<span>cos</span>(var(--a)))) \n                  <span>calc</span>(<span>100%</span> - calc(var(--d)*<span>sin</span>(var(--a)))));\n    <span>else</span>:\n     <span>shape</span>(from var(--d) <span>0</span>,curve to <span>50%</span> <span>50%</span> with <span>50%</span> <span>0</span>,smooth to <span>calc</span>(<span>100%</span> - var(--d)) <span>100%</span>);)\n   padding-box;\n}\n<span>.link</span> &gt; *<span>:after</span> {\n  <span>inset</span>: <span>0</span>;\n  <span>border-image</span>: <span>conic-gradient</span>(#<span>556270</span> <span>0</span> <span>0</span>) fill <span>0</span>//<span>99px</span>;\n  <span>clip-path</span>: <span>if</span>(\n    style((<span>100</span>cqw &lt; <span>200px</span>) or (<span>100</span>cqh &lt; <span>200px</span>)):\n        <span>shape</span>(from <span>0</span> <span>0</span>, \n           line to calc(var(--s)*<span>cos</span>(var(--a) - <span>45deg</span>)) <span>calc</span>(var(--s)*<span>sin</span>(var(--a) - <span>45deg</span>)),\n           line to <span>calc</span>(var(--s)*<span>cos</span>(var(--a) + <span>45deg</span>)) <span>calc</span>(var(--s)*<span>sin</span>(var(--a) + <span>45deg</span>)),\n          move to <span>100%</span> <span>100%</span>, \n           line to <span>calc</span>(<span>100%</span> - var(--s)*<span>cos</span>(var(--a) - <span>45deg</span>)) <span>calc</span>(<span>100%</span> - var(--s)*<span>sin</span>(var(--a) - <span>45deg</span>)),\n           line to <span>calc</span>(<span>100%</span> - var(--s)*<span>cos</span>(var(--a) + <span>45deg</span>)) <span>calc</span>(<span>100%</span> - var(--s)*<span>sin</span>(var(--a) + <span>45deg</span>))\n         );\n    <span>else</span>:\n        <span>shape</span>(from <span>0</span> <span>0</span>, \n            line to var(--d) <span>calc</span>(-<span>1</span>*var(--d)),\n            line to <span>var</span>(--d) <span>var</span>(--d),\n          move to <span>100%</span> <span>100%</span>, \n            line to <span>calc</span>(<span>100%</span> - var(--d)) <span>calc</span>(<span>100%</span> - var(--d)),\n            line to <span>calc</span>(<span>100%</span> - var(--d)) <span>calc</span>(<span>100%</span> + var(--d))\n         ););\n}</code></span></pre>\n\n\n<p>But the code is unreadable?! What the heck is this?</p>\n\n\n\n<p>I know, I know. I said we’d keep things simple, but I cannot miss the chance to show what this technique can do. By introducing CSS variables and math functions, we can create complex-looking shapes with precision.</p>\n\n\n\n<h2>Conclusion</h2>\n\n\n\n<p>Let’s stop here for this article. We will explore more examples in the next one. Until then, take the time to study the technique and how everything works. It has three parts: the anchor positioning configuration (explained in the first article), the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">border-shape</code> configuration with the fixes to keep everything perfectly aligned, and the shape creation using <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code>.</p>\n\n\n\n<p>Don’t be discouraged by the complexity of the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">shape()</code> function. It’s one of those features that takes a lot of practice to get used to.</p>\n\n\n<div>\n  <header>\n    <h3>Article Series</h3>\n  </header>\n  <div>\n            <ol>\n                      <li>\n              <a href=\"https://blog.master.dev/two-circles-one-arrow-and-anchor-positioning/\" target=\"_blank\" rel=\"noopener noreferrer\">Two Circles, One Arrow, and Anchor Positioning</a>\n            </li>\n                      <li>\n              <a href=\"https://blog.master.dev/two-circles-one-connection-and-border-shape/\" target=\"_blank\" rel=\"noopener noreferrer\">Two Circles, One Connection, and border-shape</a>\n            </li>\n                  </ol>\n        </div>\n</div>\n",
+    "createdAt": "2026-10-30T13:28:54.000+00:00",
+    "link": "https://blog.master.dev/two-circles-one-connection-and-border-shape/",
+    "author": "Temani Afif",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "Show GN: 이라스토야 한국어 검색 - 2.5만 개 무료 일러스트를 한국어로 검색하는 서비스",
+    "content": "<p>일본의 무료 일러스트 사이트 <a href=\"https://www.irasutoya.com/\" target=\"_blank\" rel=\"noopener noreferrer\">いらすとや(이라스토야)</a>의 그림을 한국어·일본어·영어 단어나 문장으로 찾을 수 있는 비영리 검색 서비스를 만들었습니다.</p>\n<p><strong>서비스:</strong> https://irasutoya.euiyun.com/</p>\n<h4>만들게 된 계기</h4>\n<p>이라스토야에는 다</p>",
+    "createdAt": "2026-10-30T12:59:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=36289",
+    "author": "geniuskey",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Anthropic 해킹으로 원격 접근 트로이목마 배포",
+    "content": "<ul>\n<li>Cursor 확장 마켓플레이스의 공식 <strong>Claude Code 확장 2.1.313</strong>에 악성 코드가 포함돼, 자동 업데이트를 통해 개발자 시스템에 배포되는 공급망 공격이 발생함</li>\n<li>Cursor는 약 <strong>5,000개 개발자 시스템</strong>이 영향을 받았다고 밝힘. 악성 코드는 호스트 정보를 수집하고 지속적...<p></p></li></ul>",
+    "createdAt": "2026-10-30T12:37:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=36288",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "공식 Claude Code 확장 프로그램의 백도어",
+    "content": "<ul>\n<li>Kevin Beaumont에 따르면 Claude Code 확장 프로그램 <strong>2.1.313</strong>에 원격 접근 악성코드가 포함됐으며, Cursor는 자사 확장 마켓플레이스에서 해당 버전의 보안 사고를 확인함</li>\n<li>악성코드는 피해 시스템 정보를 수집한 뒤 <strong>역방향 SSH 연결</strong>을 만들어 공격자가 선택한 시스...<p></p></li></ul>",
+    "createdAt": "2026-10-30T12:34:14.000+00:00",
+    "link": "https://news.hada.io/topic?id=36287",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Vicem - 로컬 AI 코딩 에이전트 간 작업 컨텍스트를 전달하는 CLI/GUI 도구",
+    "content": "<p>안녕하세요, 여러 AI 코딩 에이전트를 번갈아 쓰면서 작업 맥락을 옮기는 과정을 자동화하려고 직접 만든 오픈소스 도구 <strong>Vicem</strong>을 소개합니다.</p>\n<h4>무엇을 하는 도구인가요?</h4>\n<p>Claude Code, OpenAI Codex, Cursor, Antigravity, Gemini CLI 등 로컬에서 사용하는 AI 코딩 에이전트를 전환할</p>",
+    "createdAt": "2026-10-30T12:10:06.000+00:00",
+    "link": "https://news.hada.io/topic?id=36286",
+    "author": "woojinim64",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: Shellside - Claude Code가 상주하는 생성형 캔버스, 요청하면 나만의 도구·앱·워크플로우를 즉석에서 생성",
     "content": "<p>보드마다 Claude Code가 함께 들어 있는 생성형 캔버스 웹서비스</p>\n<ul>\n<li>보드에 붙은 터미널에서 Claude Code가 돌고, 보드를 직접 읽고 쓰며 작업</li>\n<li>필요한 도구·화면을 요청하면 그 자리에서 보드 위에 만들어 띄움</li>\n<li>강점: 코딩 없이 대화만으로 나만의 워크플로우를 직접 만들고 계속 고쳐 쓸</li></ul>",
     "createdAt": "2026-10-30T09:48:52.000+00:00",
@@ -341,138 +572,6 @@
     }
   },
   {
-    "title": "NetBSD, 48KB 경량 텍스트 편집기 atto를 기본 시스템에 추가",
-    "content": "<ul>\n<li><strong>NetBSD-current 기본 시스템에 atto를 추가</strong>해 vi와 xedit 외의 편집기 선택지를 제공함. 신규 사용자의 적응을 돕기 위한 변경임</li>\n<li><strong>입력 모드와 명령 모드가 분리되지 않은 터미널 편집기</strong>로, Emacs 계열 키 바인딩을 사용하며 vi의 모드 전환에 익숙하지 않은 사용자...<p></p></li></ul>",
-    "createdAt": "2026-10-29T19:39:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=36245",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "마틴 파울러: LLM 문체가 만드는 글의 불쾌한 골짜기",
-    "content": "<ul>\n<li><strong>LLM 특유의 문체</strong>는 실제 AI 사용 여부와 별개로 읽고 싶은 마음을 약화시키고 거부감을 일으킬 수 있음. AI 판별 도구가 사람이 쓴 글이라고 판단해도 이미 생긴 반응을 해소하지는 못함</li>\n<li><strong>LLM에 초안을 맡기는 방식은 피하기를 권함.</strong> 사람이 편집해도 특유의 문체를...<p></p></li></ul>",
-    "createdAt": "2026-10-29T19:36:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=36244",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "H.264는 마법이다 (2016)",
-    "content": "<ul>\n<li><strong>H.264</strong>는 덜 중요한 시각 정보를 버리는 손실 압축, 프레임 사이의 움직임을 활용하는 예측, 무손실 엔트로피 부호화를 결합해 영상 전송에 필요한 데이터량을 줄임</li>\n<li>Apple 홈페이지를 캡처한 예시에서 <strong>300프레임짜리 5초 영상은 175KB</strong>인 반면, PNG 스크린샷 한 장은...<p></p></li></ul>",
-    "createdAt": "2026-10-29T18:39:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=36243",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google 검색, 처음으로 Alphabet 매출의 절반 아래로 내려감",
-    "content": "<ul>\n<li>2026년 3분기 Google 검색 매출은 <strong>634억 달러, Alphabet 전체 매출의 49.7%</strong> 로, 검색 매출을 별도 공시한 이후 처음으로 절반 아래로 내려감</li>\n<li>검색 매출 자체는 <strong>전년 동기 대비 12% 증가</strong>했지만, 나머지 사업 매출이 <strong>40% 증가</strong>하면서 전체에서 차지하...<p></p></li></ul>",
-    "createdAt": "2026-10-29T18:36:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=36242",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "멕시코는 미국에서 살 수 없는 전기차의 전시장",
-    "content": "<ul>\n<li>멕시코에서는 <strong>중국 전기차</strong>가 낮은 가격에 배터리, 소프트웨어, 고급 실내 기능을 묶어 판매되지만, 미국에서는 관세와 무역 장벽, 소프트웨어 규제로 사실상 진입이 막혀 있음</li>\n<li>중국 브랜드의 멕시코 자동차 시장 점유율은 5년 만에 <strong>1% 미만에서 15%</strong> 로 늘었으며, 전...<p></p></li></ul>",
-    "createdAt": "2026-10-29T17:43:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=36241",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "PHP2Shell 연쇄 공격으로 미국 정부 관련 서버 포함 25대의 루트 권한 탈취",
-    "content": "<ul>\n<li>공격자가 <strong>PHP2Shell 원격 코드 실행과 Linux 커널 권한 상승 취약점</strong>을 결합해 미국, 일본, 대만, 한국의 방화벽 및 관리 서버 25대에서 루트 권한을 확보함</li>\n<li>표적은 <strong>Palo Alto Networks PAN-OS의 인터넷에 노출된 관리 인터페이스</strong>였음. 공급업체의 Unit 42도 공격 도...<p></p></li></ul>",
-    "createdAt": "2026-10-29T17:40:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=36240",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "IPv4가 땅이라면 - 국가별 IPv4 주소 수로 다시 그린 세계지도",
-    "content": "<ul>\n<li>국가별 <strong>IPv4 주소 비중에 비례해 면적을 바꾼 세계지도</strong>로, 버튼과 슬라이더를 이용해 실제 육지 면적과 비교할 수 있음</li>\n<li>지도 기준으로 <strong>한국은 43배, 네덜란드는 48.2배, 일본은 18.1배</strong> 커지며, 몽골은 원래 면적의 219분의 1로 줄어듦</li>\n<li>남극을 제외한 육지...<p></p></li></ul>",
-    "createdAt": "2026-10-29T16:42:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=36239",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google이 Google Earth에서 수역의 이름을 정하는 방식 (2008)",
-    "content": "<p>Google이 Google Earth에서 수역의 이름을 정하는 방식 (2008)</p>\n",
-    "createdAt": "2026-10-29T16:39:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=36238",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "해커들, 미국 국토안보부 직원 4만 명 이상의 신원 공개",
-    "content": "<ul>\n<li>해킹 단체 <strong>Department of Peace</strong>가 미국 국토안보부(DHS) 인사 파일을 탈취해 요원과 관계자 4만 명 이상의 이름, 전화번호, 주소를 공개했으며, 잠복 작전 관련 인력도 포함됨</li>\n<li>해커들은 DHS의 <strong>통합 로그인(SSO) 시스템</strong>을 무력화해 데이터를 훔쳤다고 밝혔으며, 자료...<p></p></li></ul>",
-    "createdAt": "2026-10-29T16:36:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=36237",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "DoorDash, Instacart를 약 25.5조원에 인수하는 계약 체결",
-    "content": "<ul>\n<li>DoorDash가 식료품 배송 플랫폼 <strong>Instacart를 주당 65달러, 총 지분가치 약 170억 달러($17b)에 인수하는 확정 계약</strong>을 체결함. 인수 대가의 최소 75%는 현금으로 지급</li>\n<li>DoorDash의 <strong>배송망과 Instacart의 식료품 주문 처리 기술</strong>을 결합해, 지역 매장이 양사 앱과 자체...<p></p></li></ul>",
-    "createdAt": "2026-10-29T15:47:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=36235",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "FBI가 마틴 루서 킹 주니어의 자살을 유도하려 보낸 편지(2014)",
-    "content": "<ul>\n<li><strong>FBI</strong>는 마틴 루서 킹 주니어를 대규모로 감시한 뒤, 자살을 유도하려는 서명 없는 편지를 그의 집으로 보냄</li>\n<li>1963년 <strong>“I Have a Dream” 연설</strong> 이후 FBI 국내정보 책임자 윌리엄 설리번은 킹을 공산주의와 국가안보 측면에서 위험한 인물로 지목함</li>\n<li>FBI 국장 ...<p></p></li></ul>",
-    "createdAt": "2026-10-29T15:44:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=36234",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Mistral Large 4(Le Chonk), 코딩과 보안 성능을 강화한 가중치 공개",
-    "content": "<ul>\n<li><strong>1조 파라미터 네이티브 멀티모달 모델 Mistral Large 4</strong>의 개선된 가중치를 공개함. 공개 프리뷰 이후 3주간 강화학습을 추가해 코딩, 방어적 사이버보안, 추론 효율을 높임</li>\n<li>AAII에서 <strong>48%로 GLM-5.3와 사실상 동률</strong>을 기록하면서, GLM-5.3보다 작업당 평균 토큰을 </li></ul>",
-    "createdAt": "2026-10-29T15:41:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=36233",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Data Movement Strategies In System Design",
     "content": "<p>Software systems don’t keep information in one place all the time. When a user makes a request to the system, it goes from the application to a server. A database might store the records needed to process it. Also, other components may need to know about any changes.</p><p>You need to move data to connect all these separate activities so that they can work as a coherent system.</p><p>To manage this movement of data, you need to make decisions about when and how information should travel within a system and outside it. This is where you have multiple strategies that can be used to handle data movement. In this article, we’ll look at the key strategies of data movement along with their benefits. Here’s what we will cover:</p><ul><li><p>The source, consumer, and trigger of data movement</p></li><li><p>What is the pull approach</p></li><li><p>The polling approach</p></li><li><p>The push approach</p></li><li><p>The long polling approach</p></li><li><p>Continuous communication with SSE and WebSockets</p></li><li><p>The role of message queues</p></li><li><p>Change data capture for database changes</p></li><li><p>How to choose a data movement strategy</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!FdGE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!FdGE!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!FdGE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c0d53c8-65aa-415a-a885-3889d263481f_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>The Source, Consumer, and Trigger of Data Movement</h2><div data-attrs=\"{\" data-component-name=\"SponsorshipCampaignToDOM\"></div>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/data-movement-strategies-in-system\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-10-29T15:31:02.000+00:00",
@@ -481,94 +580,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Show GN: 만든 사람도 결과를 미리 모르는 사다리타기 (drand 예약 추첨)",
-    "content": "<p>카톡방에서 사다리타기 링크를 돌리면 늘 「조작 아니냐」는 말이 나옵니다. 실제로 흔히 쓰는 사다리 공유 사이트를 열어 보니, 링크에 사다리 모양이 통째로 들어 있어서 만든 사람이 원하는 결과가 나올 때까지 다시 섞은 뒤 그 링크만 보낼 수 있었습니다. 받는 사람은 알 방법이 없고요.</p>\n<p>그래서 결과를 「</p>",
-    "createdAt": "2026-10-29T14:49:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=36232",
-    "author": "limyosep0274",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국, 단 3개월 만에 역대 최대인 20.2GWh 배터리 저장 용량 추가",
-    "content": "<ul>\n<li>미국의 <strong>2026년 2분기 배터리 저장 설비 신규 설치량</strong>이 20.2GWh로 분기 최고치를 기록했으며, 상반기 설치량은 전년 대비 23% 증가한 30.8GWh에 달함</li>\n<li>성장은 <strong>전력망용 대규모 배터리</strong>가 주도했으며, 2분기 약 18GWh가 설치됨</li>\n<li>배터리는 전력이 풍부하고 저렴...<p></p></li></ul>",
-    "createdAt": "2026-10-29T14:46:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=36231",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "논리 버그만으로 Microsoft Edge 전체 익스플로잇 체인 구축하기",
-    "content": "<ul>\n<li>Pwn2Own Berlin 2026을 위해 <strong>메모리 손상 없이 논리 버그만으로</strong> Microsoft Edge에서 임의 코드 실행까지 이어지는 체인을 구축함</li>\n<li>브라우저 내부 탐색 API가 <strong>출발 탭을 명시하지 않으면 활성 탭을 사용</strong>하는 동작을 이용해, 다른 사이트에서 JavaScript를 실행하는 범...<p></p></li></ul>",
-    "createdAt": "2026-10-29T14:43:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=36230",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gemini 4 Carbon, AAII v5 1위, 코딩 에이전트 2위",
-    "content": "<ul>\n<li>Google의 <strong>Gemini 4 Carbon이 Artificial Analysis Intelligence Index v5에서 59점으로 1위</strong>를 기록함. 복잡한 추론, 지식, 과학 과제에 강점을 보이며 9개 평가 중 4개에서 최고 점수를 얻음</li>\n<li>코딩 에이전트 평가에서는 <strong>Antigravity CLI와 함께 59점으로 2위</strong>를 기록...<p></p></li></ul>",
-    "createdAt": "2026-10-29T14:40:01.000+00:00",
-    "link": "https://news.hada.io/topic?id=36229",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "스파이 활동 의혹을 받는 이스라엘 기업, Starlink 사용자를 표적으로 삼아",
-    "content": "<ul>\n<li>이스라엘 광고 기술 기업 <strong>Discover-Tech</strong>가 Starlink 사용자에게 대규모로 광고를 노출했으며, 위치 파악이나 감시가 목적이었을 가능성이 크다고 TrendAI 연구진이 판단함</li>\n<li>광고 데이터 분석 결과, 이 업체는 <strong>100개국 이상에서 Starlink 트래픽 대상 광고 입찰 1위</strong>였...<p></p></li></ul>",
-    "createdAt": "2026-10-29T13:33:20.000+00:00",
-    "link": "https://news.hada.io/topic?id=36228",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: oh-my-ouroboros - 피드백과 점검으로 스스로 다듬어지는 Claude Code 하네스",
-    "content": "<p>안녕하세요. ML 연구와 엔지니어링 작업에 사용하고 있는 Claude Code 하네스, oh-my-ouroboros를 공개합니다.</p>\n<p>https://github.com/DaeSeokSong/oh-my-ouroboros</p>\n<p>Claude Code를 오래 사용하다 보면 규칙과 스킬이 계속 늘어납니다. 같은 실수를 반복하지 않게 규칙을 추가하지만, 시간이 지나면 어떤 규</p>",
-    "createdAt": "2026-10-29T13:29:10.000+00:00",
-    "link": "https://news.hada.io/topic?id=36227",
-    "author": "zxdsaqwe1231",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "SMS of Death - 사용자 조작이나 알림 없이 Android 통화 기능을 중단시키는 공격",
-    "content": "<ul>\n<li>잘못 구성된 <strong>WAP Push SMS 한 건으로 Android 전화 프로세스가 종료</strong>되며, 사용자 조작이나 알림 없이 긴급전화를 포함한 진행 중 통화가 끊김</li>\n<li>원인은 메시지 헤더 길이를 정수로 변환할 때 <strong>범위를 검사하지 않는 코드</strong>로, 잘못된 배열 크기에서 발생한 예외가 처리되...<p></p></li></ul>",
-    "createdAt": "2026-10-29T12:39:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=36225",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google AI, 2020년 선거 승자를 묻자 답변 회피",
-    "content": "<ul>\n<li>Google 검색의 <strong>AI Mode</strong>가 미국 내 테스트에서 2020년 대선 승자를 직접 답하지 않고 연방선거위원회(FEC)의 공식 자료를 확인하도록 안내함</li>\n<li>답변 회피는 <strong>선거 연도와 사용자에 따라 달랐으며</strong>, 일부 테스트에서는 2024년과 2012년 대선 결과도 외부 링크로만 안내함...<p></p></li></ul>",
-    "createdAt": "2026-10-29T12:36:15.000+00:00",
-    "link": "https://news.hada.io/topic?id=36224",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1086,17 +1097,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Building a Fancy Scrollspy Using Modern CSS",
-    "content": "<p>CSS has evolved a lot in the past few years, letting us build better user interfaces without relying on JavaScript. If you are anything like me, you may have felt a little overwhelmed at some point by all the new features and capabilities that the CSS Working Group and browser vendors keep adding to our toolbox.</p>\n\n\n\n<p>I find the best way to keep up is to build small things with these features. This time, I came across a CSS property and a few pseudo-classes that let us build a scrollspy without a single line of JavaScript.</p>\n\n\n\n<h2>What is Scrollspy?</h2>\n\n\n\n<p>It’s much easier to show than tell, so here’s what scrollspy looks like:</p>\n\n\n\n<figure><video autoplay=\"\" controls=\"\" loop=\"\" muted=\"\" src=\"https://blog.master.dev/wp-content/uploads/2026/10/bootstrap-scrollspy.mp4\" playsinline=\"\"></video></figure>\n\n\n\n<p>The idea is simple. As you scroll through a page, the navigation highlights the corresponding link to show which section you’re currently viewing.</p>\n\n\n\n<p>You see this pattern in tables of contents, documentation sites, and sometimes in larger page navigation. Bootstrap made it popular enough that “scrollspy” has become the common name for it, and other UI libraries have their own versions too.</p>\n\n\n\n<p>Under the hood, these implementations need some JavaScript to figure out which section is currently visible. For example, they may use <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">IntersectionObserver</code></a> to watch the sections and then activate the corresponding navigation item.</p>\n\n\n\n<p>That is the part we’re going to get rid of using a few relatively new CSS features.</p>\n\n\n\n<p>Below is the final demo: a table of contents with a fancy scrollspy.</p>\n\n\n\n<div></div>\n\n\n\n<p>So, without any further ado, let’s get into it.</p>\n\n\n\n<h2>Building a Basic Scrollspy</h2>\n\n\n\n<p>Here’s the markup for a typical table of contents (TOC). It’s also the only markup we’ll need for the rest of the article.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>&lt;<span>ol</span>&gt;</span>\n  <span>&lt;<span>li</span>&gt;</span><span>&lt;<span>a</span> <span>href</span>=<span>\"#edge\"</span>&gt;</span>Where the edge begins<span>a</span>&gt;</code></span><code><span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span><span>&lt;<span>a</span> <span>href</span>=<span>\"#stars\"</span>&gt;</span>The stars that wander<span>a</span>&gt;<span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span><span>&lt;<span>a</span> <span>href</span>=<span>\"#gas\"</span>&gt;</span>A sea of cold gas<span>a</span>&gt;<span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span><span>&lt;<span>a</span> <span>href</span>=<span>\"#gravity\"</span>&gt;</span>Gravity has no border<span>a</span>&gt;<span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span><span>&lt;<span>a</span> <span>href</span>=<span>\"#bigger\"</span>&gt;</span>The universe gets bigger<span>a</span>&gt;<span>li</span>&gt;\n<span>ol</span>&gt;\n\n<span>&lt;<span>article</span>&gt;</span>\n  <span>&lt;<span>h2</span> <span>id</span>=<span>\"edge\"</span>&gt;</span>Where the edge begins<span>h2</span>&gt;\n  <span>&lt;<span>p</span>&gt;</span><span>p</span>&gt;\n  <span>&lt;<span>p</span>&gt;</span><span>p</span>&gt;\n  <span>&lt;<span>h2</span> <span>id</span>=<span>\"stars\"</span>&gt;</span>The stars that wander<span>h2</span>&gt;\n  <span>&lt;<span>p</span>&gt;</span><span>p</span>&gt;\n  <span>&lt;<span>p</span>&gt;</span><span>p</span>&gt;\n<span>article</span>&gt;</code></pre>\n\n\n<p>Thanks to anchor links, this is already functional. Each link takes readers straight to the section it points to.</p>\n\n\n\n<p>What’s missing is a way for CSS to know a link relates to its section, so it can react as the reader scrolls. Luckily, that’s what the new <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code> property gives us.</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code></h3>\n\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code> property is part of the <a href=\"https://drafts.csswg.org/css-overflow-5/#scroll-target-group\" target=\"_blank\" rel=\"noopener noreferrer\">CSS Overflow Module Level 5</a>, the same specification that gave us the <a href=\"https://blog.master.dev/how-to-add-and-remove-items-from-a-native-css-carousel-with-css/\" target=\"_blank\" rel=\"noopener noreferrer\">CSS carousel features</a> like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::scroll-marker</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::scroll-button()</code>. In a carousel, the browser can generate a set of navigation dots for you and knows which slide is active. <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code> takes that same idea and applies it to navigation that you write, like a TOC.</p>\n\n\n\n<p>Setting <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group: auto</code> on an element turns it into a scroll marker group. The links inside it that <strong>point to fragment identifiers (the anchor links)</strong> become scroll markers, and the browser can associate each of those links with its target on the page.</p>\n\n\n\n<p>More importantly for us, the browser now knows which marker corresponds to the section currently in view, and that’s what allows us to “spy” on the scroll.</p>\n\n\n\n<p>Note that this property can go on any ancestor of the links, not just their direct parent. As a rule of thumb, put it on the nearest element that wraps every link belonging to the same group. Here that would be the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><ol>, though the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><aside><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code> wrapping it works just as well.<p></p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> {\n  <span>scroll-target-group</span>: auto;\n}</code></span></pre>\n\n\n<p><strong>Note:</strong> Don’t confuse <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code> with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-marker-group</code>. The latter creates <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::scroll-marker</code> pseudo-elements for you and provides default tablist-like keyboard behavior. With <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">scroll-target-group</code>, you provide the links yourself and CSS uses those existing links as the markers.</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code></h3>\n\n\n\n<p>Now that the browser knows about our scroll markers, we need a way to style the one that corresponds to the section we’re currently looking at.</p>\n\n\n\n<p>That’s what <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code> is for.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>a</span><span>:target-current</span> {\n  <span>color</span>: <span>var</span>(--color-accent);\n}</code></span></pre>\n\n\n<p>The specification defines <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code> as the state for the active scroll marker. As the current scroll position changes, the active marker changes too.</p>\n\n\n\n<p>So, instead of listening for scroll events and figuring out which section is visible, we can simply style the state that the browser gives us.</p>\n\n\n\n<p>With our markup and this little bit of CSS, we already have a basic scroll-aware table of contents.</p>\n\n\n\n<p>In the following demo, as a section enters the viewport, its corresponding link in the TOC matches <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code> and picks up the new color.</p>\n\n\n\n<div></div>\n\n\n\n<p>That’s the core of the scrollspy mechanism. Now we can make it a little more interesting.</p>\n\n\n\n<h3><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-before</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-after</code></h3>\n\n\n\n<p>It turns out that <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code> isn’t the only state we get. There are also <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-before</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-after</code>.</p>\n\n\n\n<p>As the names suggest, the scroll markers before the current one match <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-before</code>, while scroll markers after it match <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-after</code>. That gives us three useful states.</p>\n\n\n\n<p>To improve our demo, let’s add a little marker before each link using the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">::before</code> pseudo-element.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>a</span> {\n  <span>position</span>: relative;\n  <span>display</span>: flex;\n  <span>align-items</span>: center;\n  <span>gap</span>: <span>1.5rem</span>;\n}\n\n<span>.toc</span> <span>a</span><span>::before</span> {\n  <span>content</span>: <span>\" \"</span>;\n  <span>display</span>: block;\n  <span>width</span>: <span>14px</span>;\n  <span>height</span>: <span>14px</span>;\n  <span>flex-shrink</span>: <span>0</span>;\n  <span>border-radius</span>: <span>50%</span>;\n  <span>background-color</span>: <span>var</span>(--color-accent);\n}</code></span></pre>\n\n\n<p>We can leave the current marker unchanged while making the ones ahead smaller and more muted. To make the current marker stand out, we can also give it a subtle glow:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>a</span><span>:target-before</span><span>::before</span> {}\n\n<span>.toc</span> <span>a</span><span>:target-current</span><span>::before</span> {\n  <span>box-shadow</span>: <span>0</span> <span>0</span> <span>20px</span> <span>var</span>(--color-accent);\n}\n\n<span>.toc</span> <span>a</span><span>:target-after</span><span>::before</span> {\n  <span>background-color</span>: <span>var</span>(--color-border);\n  <span>transform</span>: <span>scale</span>(<span>0.6</span>);\n}</code></span></pre>\n\n\n<div></div>\n\n\n\n<p>As you can see, we don’t have to keep track of which section we’re in or add classes as the user scrolls. We just describe what each state should look like.</p>\n\n\n\n<h2>Enhancing the Scrollspy Effect</h2>\n\n\n\n<p>The circles look nice on their own, but I wanted to connect them with a line that moves along with the current section as you scroll.</p>\n\n\n\n<p>For that line to actually work well in a real project, it needs to handle a few things:</p>\n\n\n\n<ul>\n<li>It should be one continuous line, not separate segments stitched together, so it doesn’t visibly break apart when the current item changes.</li>\n\n\n\n<li>It shouldn’t care how many items are in the TOC. Adding a sixth or a tenth link shouldn’t mean writing more CSS.</li>\n\n\n\n<li>It should move smoothly between any two sections, whether you’re going to the next item or jumping straight from the first section to the last.</li>\n\n\n\n<li>It shouldn’t assume that every item has the same height. Link text can wrap, so some entries in a real table of contents will naturally take up more space than others.</li>\n</ul>\n\n\n\n<p>The answer to all of this is anchor positioning.</p>\n\n\n\n<p><a href=\"https://css-tricks.com/css-anchor-positioning-guide/\" target=\"_blank\" rel=\"noopener noreferrer\">Anchor positioning</a> lets you position an element relative to another element on the page, called the anchor, without knowing where that anchor is going to be. (Yes, the anchor can even be in a different DOM subtree.)</p>\n\n\n\n<p>Regarding the line, instead of calculating where it needs to end, you can tell the browser where it should end and let it work out the rest.</p>\n\n\n\n<p>Picture the line sitting next to the TOC, pinned to the top of the list:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>ol</span> {\n  <span>position</span>: relative;\n}\n\n<span>.toc</span> <span>ol</span><span>::before</span> {\n  <span>content</span>: <span>\" \"</span>;\n  <span>width</span>: <span>var</span>(--toc-line-width);\n  <span>position</span>: absolute;\n  <span>z-index</span>: <span>1</span>;\n  <span>left</span>: <span>0</span>;\n  <span>top</span>: <span>0</span>;\n}</code></span></pre>\n\n\n<p>The bottom edge needs to move and land on the currently active item. In other words, you need to pin the bottom end of the line to the link that matches the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:target-current</code> selector.</p>\n\n\n\n<p>In the anchor positioning world, first you need to turn the current link into an anchor:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>a</span><span>:target-current</span> {\n  <span>anchor-name</span>: --current-marker;\n}</code></span></pre>\n\n\n<p>Whichever link is currently active now becomes <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--current-marker</code>.</p>\n\n\n\n<p>Then you can reference that anchor using the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">position-anchor</code> property:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>ol</span><span>::before</span> {\n  <span>position-anchor</span>: --current-marker;\n  <span>bottom</span>: <span>anchor</span>(center);\n}</code></span></pre>\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">position-anchor</code> property tells the line which anchor to use, while <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bottom: anchor(center)</code> places the bottom edge of the line at the vertical center of that anchor, wherever it happens to be.</p>\n\n\n\n<p>You could write a shorter version too:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>.toc</span> <span>ol</span><span>::before</span> {\n  <span>bottom</span>: <span>anchor</span>(--current-marker center);\n}</code></span></pre>\n\n\n<p>That’s pretty much it.</p>\n\n\n\n<p>And because the bottom position changes when <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--current-marker</code> moves to another link, we can transition it and get one continuous movement, even when jumping from the first section straight to the last.</p>\n\n\n\n<p>To keep the code snippets minimal, I left out some of the supporting styles from the examples above, including transitions, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">z-index</code>, and the properties that handle gaps and sizing. They’re all included in <a href=\"https://codepen.io/seyedi/pen/vExZqjo\" target=\"_blank\" rel=\"noopener noreferrer\">the final demo</a>.</p>\n\n\n\n<p>The demo also includes one extra detail not shown in the snippet above: a muted track behind the active line, so you can see where the line is going. It’s just another pseudo-element (<code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">ol::after</code>) positioned with fixed values, so it doesn’t need an anchor.</p>\n\n\n\n<p><strong>Note:</strong> There’s a small trade-off worth knowing about. We’re transitioning <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bottom</code>, which is a layout property. That means the browser has to recalculate layout as the animation runs instead of handing the animation over to the compositor like it can with properties such as <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">transform</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">opacity</code>.</p>\n\n\n\n<h2>Progressive Enhancement</h2>\n\n\n\n<p>One important caveat before you use this approach in a real project.</p>\n\n\n\n<p>The scroll marker features used here currently have limited browser support. They’re supported in Chromium-based browsers, but Firefox and Safari don’t support them yet.</p>\n\n\n\n<p>The nice thing is that the underlying HTML is still just a normal list of links pointing to sections. Browsers that don’t understand the new CSS still have perfectly usable navigation.</p>\n\n\n\n<h2>Final Words</h2>\n\n\n\n<p>For me, that’s what makes this kind of CSS feature particularly interesting. We’re not replacing a perfectly good navigation system with something that only works in one browser. We’re taking a normal piece of HTML and adding a richer interaction when the browser supports it.</p>\n\n\n\n<p>CSS is getting more capable at describing relationships like this. Instead of writing JavaScript to observe the page, calculate a position, and then update the UI, sometimes we can describe the relationship we want and let the browser handle the state.</p>\n\n\n\n<p>That’s a pretty nice direction for CSS.</p>\n</aside></ol>",
-    "createdAt": "2026-10-14T15:20:37.000+00:00",
-    "link": "https://blog.master.dev/building-a-fancy-scrollspy-using-modern-css/",
-    "author": "Mojtaba Seyedi",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
