@@ -1,5 +1,126 @@
 [
   {
+    "title": "true or false in CSS",
+    "content": "<p>CSS has boolean values and logic, just not in the way we might expect. While a native boolean data type might still appear one day, we can use boolean principles today for programming logic and flags. Let’s see how.</p>\n\n\n\n<p><strong>A boolean data type represents one of two values.</strong> For example: on or off, 0 or 1, and, most commonly, true or false.</p>\n\n\n\n<h2>The Keywords</h2>\n\n\n\n<p>Both the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> keywords are available in CSS. You might’ve come across them while working with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@property</code>, where the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">inherits</code> configuration is set to either <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --myProperty {\n  <span>/* ... */</span>\n  <span>inherits</span>: <span>true</span>; <span>/* or false */</span>\n}</code></span></pre>\n\n\n<p>Now that we have the keywords, we just need a way to store and use them freely. CSS custom properties, also known as CSS variables, are good for that.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>--isTrueOrFalse</span>: <span>true</span>; <span>/* or false */</span></code></span></pre>\n\n\n<p>Let’s tighten up that declaration by <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties\" target=\"_blank\" rel=\"noopener noreferrer\">registering the custom property</a> <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isTrueOrFalse</code>, and make it hold only one of those keywords. This is possible since the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@property</code> rule, used to create registered custom properties, accepts keyword syntaxes:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --isTrueOrFalse {\n  <span>/* Accepts either true or false */</span>\n  <span>syntax</span>: \"<span>true</span> | <span>false</span>\";\n}</code></span></pre>\n\n\n<p>Next, you provide an initial value.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --isTrueOrFalse {\n  <span>syntax</span>: \"<span>true</span> | <span>false</span>\";\n  <span>/* Default value is false */</span>\n  <span>initial-value</span>: <span>false</span>;\n}</code></span></pre>\n\n\n<p>I want to constrain this further and stop <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isTrueOrFalse</code> from being inherited.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --isTrueOrFalse {\n  <span>syntax</span>: \"<span>true</span> | <span>false</span>\";\n  <span>initial-value</span>: <span>false</span>;\n  <span>/* Cannot be inherited */</span>\n  <span>inherits</span>: <span>false</span>;\n}</code></span></pre>\n\n\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isTrueOrFalse</code> is now <strong>a registered custom property that holds <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code>, with the default being <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code>, and is not inheritable</strong>. This is not a real boolean type, but it emulates one well enough for our purpose.</p>\n\n\n\n<p>We can use <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isTrueOrFalse</code> for conditional styling like this:</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@container</span> style(<span>--isTrueOrFalse:</span> true) {\n  <span>/* style declarations */</span>\n}</code></span></pre>\n\n\n<p>Let’s take this up for a test drive.</p>\n\n\n\n<h2>An Example</h2>\n\n\n\n<p>We’ve got a set of bag products which need to be filtered by type: backpack, or duffel bag, or both.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span></span>\n<span>&lt;<span>ul</span> <span>id</span>=<span>\"controlsList\"</span>&gt;</span>\n  <span>&lt;<span>li</span>&gt;</span>\n    <span>&lt;<span>input</span> <span>type</span>=<span>\"checkbox\"</span> <span>id</span>=<span>\"isBackpack\"</span>&gt;</span>\n    <span>&lt;<span>label</span> <span>for</span>=<span>\"isBackpack\"</span>&gt;</span>Backpacks<span>label</span>&gt;</code></span><code>\n  <span>li</span>&gt;\n  <span>&lt;<span>li</span>&gt;</span>\n    <span>&lt;<span>input</span> <span>type</span>=<span>\"checkbox\"</span> <span>id</span>=<span>\"isDuffel\"</span>&gt;</span>\n    <span>&lt;<span>label</span> <span>for</span>=<span>\"isDuffel\"</span>&gt;</span>Duffel bags<span>label</span>&gt;\n  <span>li</span>&gt;\n<span>ul</span>&gt;\n\n<span></span>\n<span>&lt;<span>ul</span> <span>id</span>=<span>\"productsList\"</span>&gt;</span>\n  <span></span>\n<span>ul</span>&gt;</code></pre>\n\n\n<p>There are two checkboxes. They should work like this: checking ‘Backpacks’ filters all the products down to only backpacks, the other only duffel bags, and when both are checked, both backpacks and duffel bags are shown while the remaining bags are removed.</p>\n\n\n\n<h3>The Registered Custom Properties</h3>\n\n\n\n<p>Instead of listing out combinations for which of the checkboxes is <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:checked</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:not(:checked)</code> and bloating the selectors, we can substitute them with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> or <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> for easier implementation.</p>\n\n\n\n<p>As I mentioned before, unregistered custom properties also work, but I’m going to set up registered custom properties <strong>for type safety, performance, and avoiding inheritance</strong>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@property</span> --isBackpack {\n  <span>syntax</span>: \"<span>true</span> | <span>false</span>\";\n  <span>inherits</span>: <span>false</span>;\n  <span>initial-value</span>: <span>false</span>;\n}\n<span>@property</span> --isDuffel {\n  <span>syntax</span>: \"<span>true</span> | <span>false</span>\";\n  <span>inherits</span>: <span>false</span>;\n  <span>initial-value</span>: <span>false</span>;\n}</code></span></pre>\n\n\n<p>By default, these are <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code>. <strong>When the filter controls are checked, we set these properties to <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> in an ancestor element.</strong> You can choose any suitable ancestor for this. I’m going with <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:root</code>.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>:root</span> {\n  &amp;:has(#<span>isBackpack</span>:checked) { --isBackpack : true; }\n  &amp;<span>:has(</span><span>#isDuffel</span><span>:checked)</span>   { <span>--isDuffel</span>: true; }\n}</code></span></pre>\n\n\n<p>Since we’ll be querying these registered custom properties in a deeper descendant, we give <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:root</code> a container name to be referenced in the query.</p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>:root</span> {\n  <span>container-name</span>: root;\n  &amp;:has(#<span>isBackpack</span>:checked) { --isBackpack : true; }\n  &amp;<span>:has(</span><span>#isDuffel</span><span>:checked)</span>   { <span>--isDuffel</span>: true; }\n}</code></span></pre>\n\n\n<blockquote>\n<p>Note: Assigning a container name won’t be necessary if the custom properties were either set in a direct parent of the element where the container query is used, or if they were inheritable.</p>\n</blockquote>\n\n\n\n<h3>The Container Queries</h3>\n\n\n\n<p>In <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">#productsList</code>, where all the bags are present, we have to <strong>hide some of the bags based on which checkbox, or if both, are selected.</strong></p>\n\n\n\n<p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@scope</code> is not necessary here, but I’ll use it to isolate the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code></p><li> elements inside <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">#productsList</code>.<p></p>\n\n\n<pre onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"><span>@scope</span>(#productsList) {\n  <span>/* When both backpacks and duffel bags filters are applied */</span>\n  <span>@container</span> root style(<span>--isBackpack:</span> true) <span>and</span> style(<span>--isDuffel:</span> true) {\n    <span>/* Remove all bags except backpacks and duffel bags */</span>\n    <span>li</span><span>:not(.backpacks</span>, <span>.duffels</span>) { <span>display</span>: none; }\n  }\n  <span>/* When backpacks filter is applied and not duffel bags */</span>\n  <span>@container</span> root style(<span>--isBackpack:</span> true) <span>and</span> style(<span>--isDuffel:</span> false) {\n    <span>/* Remove all bags except backpacks */</span>\n    <span>li</span><span>:not(.backpacks)</span> { <span>display</span>: none; }\n  }\n  <span>/* When duffel bags filter is applied and not backpacks */</span>\n  <span>@container</span> root style(<span>--isBackpack:</span> false) <span>and</span> style(<span>--isDuffel:</span> true) {\n    <span>/* Remove all bags except duffel bags */</span>\n    <span>li</span><span>:not(.duffels)</span> { <span>display</span>: none; }\n  }\n}</code></span></pre>\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">@container</code> style queries check the root element’s <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isBackpack</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">--isDuffel</code> values. Based on the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> combo, a selective group of bags is removed from the product grid.</p>\n\n\n\n<div></div>\n\n\n\n<p>The <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> keywords provide a clear indication of the states of the filter controls, and using them in the style query maintains that clarity in the <strong>combined state of the controls</strong>.</p>\n\n\n\n<p>Similar use cases can benefit from the <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> keywords that can be saved in a custom property that’s either registered or not. I recommend registered.</p>\n\n\n\n<p>In a nutshell, <strong>the keywords <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">true</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">false</code> can build quick-to-understand expressions for container queries and make compound conditions more comprehensible.</strong></p>\n</li>",
+    "createdAt": "2026-11-06T13:38:19.000+00:00",
+    "link": "https://blog.master.dev/true-or-false-in-css/",
+    "author": "Preethi Sam",
+    "site": {
+      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
+      "name": "Frontend Masters Boost"
+    }
+  },
+  {
+    "title": "Baidu, 사전학습 기반 모델 ERNIE 5.5 Flash Base 공개",
+    "content": "<div><ul><li>Baidu가 <strong>ERNIE-5.5-Flash-Base</strong>의 사전학습 종료 시점 가중치를 공개함. 중간 학습이나 후속 학습을 거치지 않아 도메인 적응, 지시 튜닝, 강화학습 연구의 출발점으로 사용할 수 있음</li><li>전체 <strong>2,800억 파라미터</strong> 중 토큰당 140억 개를 활성화하는 희소 MoE 모델이며, 33.5조 토큰으로 처음부터 학습함. 사전학습 문맥은 최대 128K, 미세조정과 추론 문맥은 <strong>1M 토큰</strong>을 지원함</li><li><strong>하이브리드 희소 어텐션</strong>으로 대부분의 층에서 과거 문맥을 128배 압축하고, 일부 층에서 토큰 단위 접근을 유지함. 모델 용량, 활성 연산량, KV 캐시와 긴 문맥 처리 비용을 함께 고려한 설계임</li></ul></div>…",
+    "createdAt": "2026-11-06T11:45:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=36703&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "양측 인공와우 사용자인 나의 정신물리학",
+    "content": "<p>양측 인공와우 사용자인 나의 정신물리학</p>\n",
+    "createdAt": "2026-11-06T11:42:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=36702&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Blender의 UI와 런타임: GPUI보다 훨씬 빠름",
+    "content": "<div><ul><li><strong>BUI</strong>는 Blender의 위젯 그리기와 상호작용을 분리한 독립 UI 라이브러리로, Python, Rust, JavaScript, C/C++, Dear ImGui에서 같은 <strong>C 런타임</strong>을 사용함</li><li>프로젝트의 Windows 노트북 벤치마크에서 동일한 gpui 문법의 설정 창은 <strong>첫 화면을 약 5배 빨리 표시</strong>했으며, CPU 렌더러 사용 시 메모리는 약 절반이었음. 일부 최신 기능 추가 전 측정값이며 환경별 성능 보장은 아님</li><li><strong>변경 영역만 다시 그리는 렌더링</strong>과 유휴 시 대기를 기본으로 하며, CPU 렌더러 외에 Windows의 Direct3D 11과 Linux의 OpenGL 3.3 GPU 렌더러를 선택할 수 있음</li><li>기존 </li></ul></div>…",
+    "createdAt": "2026-11-06T11:39:59.000+00:00",
+    "link": "https://news.hada.io/topic?id=36701&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "영국, 채용 공고 내 급여 공개 의무화 추진",
+    "content": "<div><ul><li>영국 정부가 <strong>채용 공고에 급여를 공개하도록 의무화하는 법안</strong>을 의회에 제출할 예정이며, 구체적인 일정은 밝히지 않음</li><li>이번 조치는 취업, 교육, 훈련에 참여하지 않는 <strong>청년 인구를 줄이기 위한 노력</strong>의 일부로, 첫 일자리에 지원하는 청년을 돕는 데 목적이 있음</li><li>영국 정부는 <strong>급여 투명성</strong>을 높이면 여성에게 불리하게 작용할 수 있는 임금 격차 해소에도 도움이 될 것으로 기대함</li><li>영국 인사관리협회 추정에 따르면 급여 범위를 항상 공개하는 고용주는 <strong>5곳 중 2곳을 조금 넘으며</strong>, 구체적인 급여를 항상 공개하는 비율은 5곳 중 1곳 미만임</li></ul></div>…",
+    "createdAt": "2026-11-06T10:41:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=36700&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Inkling 2 Small - 이미지 입력과 장시간 자율 작업을 지원하는 MoE 모델",
+    "content": "<div><ul><li>Thinking Machines Lab이 <strong>총 5,940억, 활성 170억 파라미터</strong>의 2세대 MoE 모델 Inkling 2 Small을 공개함. 이미지 입력과 추론 노력 수준 조절을 지원하며, 장시간 자율 작업 능력을 강화함</li><li><strong>Artificial Analysis Intelligence Index 약 31점</strong>을 기록해 이전 자체 모델을 크게 앞섬. 사전학습 효율 개선과 통합 강화학습으로 에이전트 코딩, 시각 이해, 지식 업무, 추론 성능을 높임</li><li><strong>시각 피드백을 활용한 반복 작업</strong>과 자율 연구를 지원함. 내부 평가에서는 Qwen3.5-4B를 스스로 학습시켜 4.5시간, Tinker 사용료 426달러로 시계열 예측 점수를 두 배 이상 높임</li></ul></div>…",
+    "createdAt": "2026-11-06T10:38:05.000+00:00",
+    "link": "https://news.hada.io/topic?id=36699&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Server Challenge 시리즈 - 1코어 서버에서 31만 명, 4코어에서 143만 동시 사용자 처리",
+    "content": "<div><p>개발 유튜버 arjaythedev이 진행하는 오픈소스 웹서버 성능 챌린지 시리즈</p><ul><li>다양한 프로그래밍 언어와 프레임워크로 동일한 API를 구현하고 동시 사용자 처리 성능을 비교</li><li>실제 DB 조회·쓰기와 JWT 인증 등을 포함한 웹 애플리케이션을 대상으로 측정</li><li>누구나 GitHub PR로 구현체를 제출할 수 있으며, 동일한 하드웨어에서 검증 후 리더보드에 결과 공개</li></ul><h5>1. <a href=\"https://github.com/arjaythedev/twelve-dollar-server-challenge\" target=\"_blank\" rel=\"noopener noreferrer\">$12 Server Challenge</a></h5><ul><li>1 vCPU, RAM 2GB 서버에서 최대 몇 명의 동시 사용자를 처리할 수 있는지 측정</li><li>SQLite 기반 소셜 피드 API 5개 구현</li><li>5만 사용자, 50만 게시물, 200만 좋아요로</li></ul></div>…",
+    "createdAt": "2026-11-06T08:11:51.000+00:00",
+    "link": "https://news.hada.io/topic?id=36697&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "click",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "A New Community For In-House UX People",
+    "content": "<p>You might have already read my name every now and then here at Smashing Magazine. I’m Paul Boag. I’ve written three books with Smashing and <a href=\"https://www.smashingmagazine.com/author/paul-boag/\" target=\"_blank\" rel=\"noopener noreferrer\">77 articles</a> (yes, I counted), and I sit on Smashing’s advisory board.</p>\n<p>So when <a href=\"https://www.smashingmagazine.com/author/vitaly-friedman/\" target=\"_blank\" rel=\"noopener noreferrer\">Vitaly</a> and the Smashing team offered me this slot in your inbox, I didn’t take it lightly. I want to tell you about something I’m launching <strong>in January with Smashing as my partner</strong>, and why I think it matters right now.</p>\nThe Bit Of The Job Nobody Talks About\n<p>Every year I talk to hundreds of people working in digital. Some work in-house, some run agencies, and some freelance. And the same thing comes up again and again. The hardest part of the job usually isn’t the design work. It’s <strong>everything around it</strong>.</p>\n<p>The stakeholder who redesigns things in the review meeting. The business case sitting in someone’s inbox. The project that has been “about to start” since last spring. And now, the senior manager who has read that AI can do user research in an afternoon.</p>\n<p>What makes it harder is that a lot of us deal with all this <strong>on our own</strong>. Many are a team of one, or a team of a few.</p>\n<p>Their colleagues are great, but they work in the same organization with the same blind spots. Nobody down the corridor has dealt with this before.</p>\n<p>What’s missing is <strong>an outside view</strong>. Someone who has dealt with the same awful stakeholder and can tell you how they handled it.</p>\n<p>Most of us rarely get that conversation, and the job is changing faster than ever. There’s very little established best practice for working with AI yet. Everyone is figuring it out at once, mostly alone.</p>\nSo I’m Starting UX Insiders\n<p><a href=\"https://uxinsiders.boagworld.com/\" target=\"_blank\" rel=\"noopener noreferrer\">UX Insiders</a> is a <strong>small, paid community for people doing UX inside organizations</strong>. Designers, researchers, UX leads, and anyone championing UX where they work, whatever their job title.</p>\n<p><img src=\"https://files.smashing.media/articles/ux-insiders-community-in-house-ux-people/ux-insiders.jpg\"></p>\n<div><div><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\">\nUX Insiders</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\">Agency Academy</a></li></ul><div><h3>UX Insiders</h3>$&nbsp;65/mo\n<a href=\"https://uxinsiders.boagworld.com/?ref=smashing\" target=\"_blank\" rel=\"noopener noreferrer\">\nJoin in-house UX community<div></div></a><p>For in-house UX teams. Founder rate for as long as you stay. Launches Jan 5, 2027.</p></div><div><h3>Agency Academy</h3>$&nbsp;65/mo$&nbsp;105/mo\n<a href=\"https://agencyacademy.boagworld.com/join?offer=November\" target=\"_blank\" rel=\"noopener noreferrer\">\nJoin Agency community<div></div></a><p>For freelancers and agency owners. With the Smashing price until the end of November.</p></div></div></div>\n\n<p>Here’s what you get:</p>\n<ul>\n<li>📞 <strong>Weekly call</strong> every Tuesday from 3:30 to 4:30pm UK time (10:30am ET, 7:30am PT). Bring a problem, a question, or a win.</li>\n<li>💬 <strong>Private Slack</strong> for the questions that can’t wait until Tuesday, and a second opinion on that email before you send it.</li>\n<li>🎥 <strong>Every call recorded</strong> with a summary, so you can catch up when a meeting gets in the way.</li>\n<li>📚 <strong>A shared library</strong> of the business cases, templates, and research plans that have actually worked for other members.</li>\n</ul>\n<p>I run every call myself, and I’m in Slack most days.</p>\n<p>But <strong>the best advice usually comes from other members</strong>. I’ve seen that first-hand running Agency Academy, my community for agency owners, every week since July 2024.</p>\nIt’s For In-House People Only\n<p>That’s deliberate. It means people can <strong>talk openly about their organization</strong> without wondering who’s listening. And it keeps out agencies and freelancers who’d join just to sell you their services.</p>\n<p>So <strong>you apply first</strong>. It takes about a minute, and I only check that you work in-house. If you do, the answer is almost always yes.</p>\nFounder Pricing And How The Launch Works\n<p>The first 25 members get <strong>founder pricing</strong>: £49 a month billed annually (£588 a year) + VAT, or £59 a month + VAT paid monthly. You keep that rate for as long as you stay.</p>\n<p>Your employer can pay by invoice too, so it can often come out of a training budget.</p>\n<p>Nobody is charged until we launch on <strong>Tue, 5 January 2027</strong>. If fewer than 15 people have joined by <strong>Friday 11 December</strong>, it doesn’t go ahead and nobody pays a penny. <a href=\"https://uxinsiders.boagworld.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Apply for a founder spot →</a></p>\nRun An Agency Or Freelance?\n<p><a href=\"https://uxinsiders.boagworld.com/\" target=\"_blank\" rel=\"noopener noreferrer\">UX Insiders</a> is just for in-house people. But if you run an agency or freelance, <a href=\"https://agencyacademy.boagworld.com/join?offer=November\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Agency Academy</strong></a> works the same way: a weekly call every Thursday and a Slack full of people who get it. Members even pass work to each other.</p>\n<p><strong>Until the end of November</strong>, Smashing readers can <a href=\"https://agencyacademy.boagworld.com/join?offer=November\" target=\"_blank\" rel=\"noopener noreferrer\">join for £59 a month + VAT</a>, or £49 a month + VAT billed annually (£588 a year). That’s down from £79 a month, and you keep that rate for as long as you stay.</p>\n<p><img src=\"https://files.smashing.media/articles/ux-insiders-community-in-house-ux-people/ux-insiders-community-ux.jpg\"></p>\n<div><div><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\">\nUX Insiders</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\">Agency Academy</a></li></ul><div><h3>UX Insiders</h3>$&nbsp;65/mo\n<a href=\"https://uxinsiders.boagworld.com/?ref=smashing\" target=\"_blank\" rel=\"noopener noreferrer\">\nJoin in-house UX community<div></div></a><p>For in-house UX teams. Founder rate for as long as you stay. Launches Jan 5, 2027.</p></div><div><h3>Agency Academy</h3>$&nbsp;65/mo$&nbsp;105/mo\n<a href=\"https://agencyacademy.boagworld.com/join?offer=November\" target=\"_blank\" rel=\"noopener noreferrer\">\nJoin Agency community<div></div></a><p>For freelancers and agency owners. With the Smashing price until the end of November.</p></div></div></div>\n\n<p>Whichever fits, I’d love to see you there. And if you have questions first, just email me at <a target=\"_blank\" rel=\"noopener noreferrer\">paul@boagworld.com</a>. I read and respond to every one.</p>\n",
+    "createdAt": "2026-11-06T08:00:00.000+00:00",
+    "link": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+    "author": "hello@smashingmagazine.com (Paul Boag)",
+    "site": {
+      "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
+      "name": "Articles on Smashing Magazine"
+    }
+  },
+  {
+    "title": "Show GN: Cloudflare Tunnel 해외 우회로 300ms 이상 지연을 겪고 만든 Go 터널, Meerkat",
+    "content": "<div><p>** 서비스 호스팅 시 최소지연으로 국내 서버에 직접 띄워 쓸 수 있는 오픈소스 Cloudflare Tunnel 대안입니다. SSL 인증서 자동발급, 각종 보안 기능, SSO·접근 제어·감사 기능도 지원합니다.</p><p>GitHub: <a href=\"https://github.com/lawnect/meerkat\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/lawnect/meerkat</a></p><p>Cloudflare Tunnel을 쓰면서 국내 서버 호스팅 -&gt; 국내 서버 접속인데도 LA나 홍콩을 경유해 지연이 300ms 이상 추가되는 경우를 겪었습니다.</p><p>이 문제를 해결하기 위해 공개 진입점을 국내 서버에 직접 두고 사용할 수 있도록 만들었습니다. 사설 서버의 Connector가 rathole을 통해 공개 서버의 O</p></div>…",
+    "createdAt": "2026-11-06T06:55:46.000+00:00",
+    "link": "https://news.hada.io/topic?id=36696&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "papership",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "약 2만 달러로 학습한 이미지 생성 모델 P-JiT, 코드와 가중치 공개",
+    "content": "<div><ul><li>Linum이 <strong>GPU 비용 21,038달러로 학습한 이미지 생성 모델 P-JiT</strong>를 실험적으로 공개함. 더 저렴한 영상 생성 모델을 만들기 위한 개념 검증임</li><li><strong>코드와 가중치를 Apache 2.0으로 공개</strong>함. 이미지 생성부는 약 22억 파라미터이며, 별도로 사전학습된 40억 파라미터 텍스트 인코더를 사용함</li><li>이미지를 압축하는 별도 VAE 없이 압축과 생성을 함께 학습함. 기존 Linum v2보다 이미지 토큰 수를 4분의 1로 줄여 연산 부담을 낮춤</li><li>초기 실험에서는 기존 모델보다 <strong>11배 적은 샘플로 수렴</strong>했으며, 이번에는 누적 약 6억 6,000만 샘플까지 학습을 확대함</li></ul></div>…",
+    "createdAt": "2026-11-06T05:33:17.000+00:00",
+    "link": "https://news.hada.io/topic?id=36694&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: ESLint Markdown - ESLint로 마크다운 파일들을 린팅하세요",
+    "content": "<div><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">eslint-markdown</code> 패키지를 통해 ESLint로 Markdown 파일을 린팅할 수 있습니다.</p><p><a href=\"https://eslint.org/blog/2024/10/eslint-json-markdown-support/\" target=\"_blank\" rel=\"noopener noreferrer\">2024년 10월 3일 ESLint가 Markdown 지원을 공식 발표</a>한 이후, ESLint의 공식 API와 개발 방향에 맞춰 설계한 플러그인입니다.</p><p>기존 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">markdownlint</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">remark-lint</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">textlint</code> 등 JavaScript 생태계의 마크다운 린팅 도구에서 제공하는 규칙들을 대체하거나 보완할 수 있도록 50여 개의 규칙을 제공합니다.</p><p>CommonMark, GitHub Flavored Markdown(GFM), Front Matter, Math 문법 등을 지원하며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">recommended</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">stylistic</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">base</code> 등의 공유 설정도 제공합니다.</p><p>이미</p></div>…",
+    "createdAt": "2026-11-06T05:21:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=36693&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "beenzinozino",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Mark Cuban “Facebook, AI 딥페이크 사기 광고인 줄 알고도 게재”, 내부 문서상 사기 관련 매출 추정 16...",
     "content": "<div><ul><li><strong>Mark Cuban</strong>은 자신을 사칭한 AI 광고의 가짜 당뇨병 치료제에 대해 매주 문의를 받는다며, Facebook이 피해를 알면서도 광고를 게재한다고 비판함</li><li>Reuters가 확보한 <strong>Meta 내부 문서</strong>에는 사기 및 금지 제품 광고에서 발생할 매출이 2024년 전체 매출의 약 10%인 <strong>160억 달러</strong>에 이를 것이라는 추정이 담김</li><li>내부 문서상 광고주 차단에는 자동화 시스템이 판단한 <strong>사기 가능성 95% 이상</strong>이 필요하며, 그보다 낮은 의심 광고주는 더 높은 광고비를 내고 광고를 계속 게재할 수 있음</li><li><strong>Meta는 문서가 자사의 대응을 왜곡한다며 반박</strong>했고, 10% 추정치</li></ul></div>…",
     "createdAt": "2026-11-06T04:33:29.000+00:00",
@@ -121,28 +242,6 @@
     }
   },
   {
-    "title": "Claude Code가 사용자 이메일 주소를 웹사이트에 전송함",
-    "content": "<div><ul><li>Claude Code가 웹 검색 중 <strong>사용자 이메일을 User-Agent 요청 헤더에 넣어 동의 없이 외부 사이트로 전송했다는 신고</strong>가 등록됨</li><li>사이트의 자동화 클라이언트 정책을 따르려다 <strong>모델이 사용자 이메일을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">curl</code> 요청의 User-Agent에 넣어 전송할 수 있음</strong></li><li>로그인 계정의 이메일이 모델 문맥에 제공되며, 공개된 privacy 모드는 이 주소가 클라이언트 연락처로 전송되는 특정 요청을 차단함</li><li><strong>2.1.317부터 차단 모드가 기본 활성화</strong>됐다는 기여자 안내와 달리, 신고 버전은 2.1.318이며 같은 버전에서 모드가 보이지 않는다는 추가 보고도 있음</li><li>차단 </li></ul></div>…",
-    "createdAt": "2026-11-05T23:37:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=36676&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "MS 그림판, 클릭 없이 원격 코드 실행 가능한 취약점 발견",
-    "content": "<div><ul><li><strong>Windows Paint(그림판)에서 인증이나 사용자 조작 없이 원격 코드 실행이 가능한 취약점</strong>이 공개됨. Microsoft는 영향을 받는 서비스에 특수하게 조작된 패킷을 보내 공격할 수 있다고 밝힘</li><li>취약점은 <strong>CVE-2026-83844</strong>, CVSS 3.1 기준 <strong>8.1점(HIGH)</strong> 이며, 메모리의 허용 범위를 벗어나 읽는 오류에서 발생함</li><li>공격 성공 시 기밀성, 무결성, 가용성에 모두 큰 영향을 줄 수 있지만, 시스템 환경과 구성 등에 따라 성공 여부가 달라져 <strong>공격 복잡도는 높음</strong>으로 평가됨</li><li><strong>CVE 기록과 현재 Microsoft 공지의 버전 정보가 다름.</strong> CVE에는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">11.2605.91.0</code> </li></ul></div>…",
-    "createdAt": "2026-11-05T23:34:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=36675&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "[Korean FE Article] 지연에서 즉시 반응으로, GitHub Issues 내비게이션 성능 개선하기",
     "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!73zO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!73zO!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 424w, https://substackcdn.com/image/fetch/$s_!73zO!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 848w, https://substackcdn.com/image/fetch/$s_!73zO!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 1272w, https://substackcdn.com/image/fetch/$s_!73zO!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!73zO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!73zO!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 424w, https://substackcdn.com/image/fetch/$s_!73zO!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 848w, https://substackcdn.com/image/fetch/$s_!73zO!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 1272w, https://substackcdn.com/image/fetch/$s_!73zO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12200355-d703-4e1e-9007-c6914742b25f_1600x900.webp 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://velog.io/@tap_kim/from-latency-to-instant-modernizing-github-issues-navigation-performance\" target=\"_blank\" rel=\"noopener noreferrer\">https://velog.io/@tap_kim/from-latency-to-instant-modernizing-github-issues-navigation-performance</a></p></blockquote><h2>소개</h2><p>GitHub Issues에서는 이슈 목록과 상세 페이지를 오가는 일이 많습니다. 페이지를 이동할 때마다 데이터를 다시 요청하고 화면을 렌더링한다면 그만큼 기다리는 시간도 늘어납니다.</p><p>GitHub는 이러한 지연을 줄이기 위해 IndexedDB 기반 캐싱, 페이지 사전 예열(Preheating), 서비스 워커 등을 활용해 내비게이션 구조를 개선했습니다. 그 결과 캐시 적중률은 약 96%에 도달했고, 주요 콘텐츠 표시 시간의 중앙값은 1.2초에서 0.7초로 줄었습니다.</p><p>이 글에서는 GitHub Issues의 기존 내비게이션 방식에 어떤 문제가 있었고, 이를 해결하기 위해 어떤 기술과 접근 방식을 적용했는지 살펴봅니다.</p><h2>팀원들의 의견</h2><blockquote><p><em>사용자가 “빨라졌다”고 느낀 개선 후 지표가 좋아진 것과 실제 체감이 달랐던 경험이 있나요? 어떤 기준으로 성능 개선의 효과를 기대하고 확인하셨나요?</em></p></blockquote><p><strong>💬. 의견 1</strong></p><p>특정 동작에서 성능이 느려 개선 작업을 진행한 적이 있는데요. 당시에는 사용자의 조작에 화면이 빠르게 반응하도록 만드는 것을 목표로 했던 것 같습니다. 작업을 하다가 측정했을때 동작하는 함수의 계산 자체는 빨라지고 지표도 좋아졌지만, 실제 조작 과정에서 기다림은 기대만큼 줄지 않았던 경험도 있었던 기억이 나네용. 아마도 계산이 끝난 뒤에도 화면에 결과가 반영되기까지 다른 작업이 남아 있어 느렸던 것 같아요. 그래서 성능 개선의 효과를 확인할 때는 사용자가 동작을 시작한 시점부터 화면에 결과가 나타날 때까지를 함께 봐야 한다고 생각합니다.</p><p><strong>💬. 의견 2</strong></p><p>지표 개선과 체감의 차이를 확인했다기보다는, 사용자가 느끼는 불편에 맞춰 측정 지표를 다시 선택한 경험이 있습니다.</p><p>웹뷰에서 화면이 늦게 뜨는 문제가 있어 처음에는 Loading Time을 기준으로 개선하려고 했습니다. 하지만 이 지표가 측정하는 시점과 저희가 화면이 느리다고 느끼는 지점에는 차이가 있었습니다. 저희가 줄이고 싶었던 것은 페이지의 작업이 안정화될 때까지의 시간이 아니라, 사용자에게 콘텐츠가 보이기까지의 시간이었습니다.</p><p>그래서 체감하는 지연을 더 잘 반영하는 지표가 FCP와 LCP라고 판단했고, 콘텐츠가 처음 표시되는 시점과 주요 콘텐츠가 표시되는 시점을 앞당기는 방향으로 개선 목표를 바꿨습니다. 이 경험을 통해 성능 개선에 앞서 사용자가 어떤 순간에 느리다고 느끼는지 정의하고, 그에 맞는 지표를 선택하는 것이 중요하다고 생각하게 됐습니다.</p><blockquote><p><em>한 곳을 개선했더니 다른 곳이 병목이 된 경험이 있나요? 서버 응답을 줄인 뒤 렌더링이 느리게 느껴지는 것처럼, 최적화 이후 새롭게 드러난 문제가 있었다면 다음 개선 대상을 어떻게 찾고 우선순위를 정했나요?</em></p></blockquote><p><strong>💬. 의견 1</strong></p><p>계산 속도를 개선했는데도 조작할 때마다 같은 데이터를 다시 읽고 처리하는 비용이 남아 있었던 경험이 있습니다. 그래서 계산을 더 빠르게 만드는 것보다, 반복할 필요가 없는 작업을 줄이는 걸 다음 목표로 잡았습니다. 미리 처리할 수 있는 결과는 저장해 두고 재사용하도록 바꿨고요. 개선할 때마다 같은 동작으로 전후를 비교하면서 효과를 확인했던 것 같습니다.</p><p><strong>💬. 의견 2</strong></p><p>먼저 사용자가 느끼는 불편을 기준으로 측정 지표를 정하고, 그 지표에 가장 큰 영향을 주는 구간부터 살펴봅니다. 한 구간의 비용을 줄이고 다시 측정하면, 이전에는 상대적으로 눈에 띄지 않던 다른 구간의 비용이 드러나기도 합니다.</p><p>그래서 처음 정한 개선 대상을 계속 따라가기보다는, 변경 후에도 같은 기준으로 다시 측정하면서 다음 대상을 정하려고 합니다.</p><h2>목차</h2><ul><li><p>생각의 속도로 반응하는 2026년의 웹 성능</p></li><li><p>베이스라인, 변경 전 내비게이션 유형별 비중</p></li><li><p>1단계, IndexedDB를 활용한 클라이언트 사이드 캐싱</p></li><li><p>캐시 적중률 끌어올리기</p></li><li><p>빠른 경로 확장하기, Turbo와 하드 내비게이션 최적화</p></li><li><p>결과</p></li><li><p>앞으로 할 일</p></li></ul>",
     "createdAt": "2026-11-05T23:30:51.000+00:00",
@@ -151,83 +250,6 @@
     "site": {
       "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
       "name": "Korean FE article"
-    }
-  },
-  {
-    "title": "Nasdaq, 4% 급락하며 조정 국면 진입",
-    "content": "<div><ul><li>미국 중간선거 이후 <strong>데이터센터 증설 둔화 우려</strong>로 기술주 매도가 가속되며 전날 증시 상승분을 지움</li><li><strong>Nasdaq Composite는 종가 기준 5.52% 하락</strong>해 지난달 사상 최고치보다 10% 이상 낮아졌으며, 미국 3대 지수 모두 2025년 4월 이후 최악의 하루를 기록함</li><li><strong>반도체와 네오클라우드</strong>에 매도세가 집중돼 Nvidia는 9%, Broadcom은 10%, 반도체 ETF인 SOXX는 12% 넘게 하락함</li><li>민주당의 연방 의회 양원 및 주요 주지사 선거 승리로 <strong>AI 인프라 규제 강화 가능성</strong>이 부각되며, 기존 용량을 확보한 대기업과 부채로 증설하는 후발 기업 간 격차가 커질</li></ul></div>…",
-    "createdAt": "2026-11-05T22:50:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=36671&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "모두를 위한 Kagi Search - 가입 없이 50회 무료 검색 지원",
-    "content": "<div><ul><li><strong>Kagi Search</strong>가 가입 없이 처음 50회 검색할 수 있는 체험을 도입함. 이후 계정을 만들면 검색 100회가 추가됨</li><li>계정을 만들어야만 추천받은 서비스를 체험할 수 있었던 장벽을 낮춤. Kagi는 광고를 집행하지 않고 <strong>입소문과 온라인 커뮤니티 활동</strong>에 의존</li><li><strong>Android 검색 앱</strong>은 홈 화면과 음성 검색을 개편하고, 위젯과 빠른 설정 타일 등 검색에 접근하는 경로를 늘림</li><li>검색의 <strong>AI 기능을 완전히 끄는 옵션</strong>, 유료 장벽 사이트 제외 설정, Safe Search의 사기 및 피싱 사이트 차단 등 사용자 제어 기능을 확대함</li></ul><hr><h2>가입 없는 검색 체험</h2><ul><li>2026년 11월</li></ul></div>…",
-    "createdAt": "2026-11-05T22:47:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=36670&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Window Sweaters - macOS 창에 뜨개질 무늬 테두리를 입히는 앱",
-    "content": "<div><ul><li>macOS 창에 뜨개질 무늬 테두리를 추가해, 앱마다 다른 색상과 패턴을 입혀 데스크톱을 포근하게 꾸밀 수 있음</li><li>Finder, Spotify, Claude, Codex 등 <strong>37개 앱의 맞춤 디자인</strong>을 제공하며, 나머지 앱은 아이콘에서 색상을 추출함</li><li><strong>By App</strong>은 앱별 고유 디자인을, <strong>Zigzag</strong>는 앱 색상에 맞춘 통일된 지그재그 무늬를 적용함. <a href=\"https://github.com/saragordic/window-sweaters/blob/HEAD/docs/COLLECTION.md\" target=\"_blank\" rel=\"noopener noreferrer\">디자인 카탈로그</a>에서 비교 가능</li><li>메뉴 막대의 실타래 아이콘에서 패턴, 테두리 너비, 바늘땀 크기를 조절하고 원하는 앱에만 적용할 수 있음</li><li>Homebrew 또는 <a href=\"https://github.com/saragordic/window-sweaters/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Releases의 ZIP</a>으로 설치하며, 색상 설정과 사용자 PNG 패턴으로 </li></ul></div>…",
-    "createdAt": "2026-11-05T21:36:39.000+00:00",
-    "link": "https://news.hada.io/topic?id=36669&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "온라인 잡지 Salon의 작별 인사 - 31년 만에 발행 중단",
-    "content": "<div><ul><li><strong>Salon이 31년 만에 발행을 중단함</strong>. 독립 디지털 저널리즘의 사업 환경이 크게 달라지면서 기존 발행 모델을 더 이상 지속할 수 없다고 판단함</li><li><strong>1995년 11월 창간</strong> 당시 소규모 언론인 집단이 뚜렷한 목소리와 세상에 대한 호기심을 바탕으로 인터넷에서 저널리즘과 독자를 새로운 방식으로 연결하고자 했음</li><li>지난 30여 년간 <strong>정치, 문화, 비평, 사상</strong>을 함께 다루며 권력을 검증하고 기존 통념에 의문을 던졌으며, 주목받지 못한 이야기와 시각에 자리를 내줌</li><li>창립자부터 취재진, 편집자, 제작진, 사업 조직과 기고자에 이르기까지 <strong>매체를 만들</strong></li></ul></div>…",
-    "createdAt": "2026-11-05T21:33:38.000+00:00",
-    "link": "https://news.hada.io/topic?id=36668&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "테크 기업들이 나에 대해 좀 더 잘 알았으면 좋겠다",
-    "content": "<div><ul><li><strong>그렇게 많은 개인정보를 수집하면서도, 이미 산 제품을 다시 광고하고 명시적인 언어 설정조차 무시하는 개인화</strong>를 경험함. 수집한 정보를 최소한 사용자 편의에도 활용해 주길 바람</li><li>구매한 제품을 다시 광고하고, 특정 가전의 설치 영상을 본 뒤 다른 오븐까지 추천하는 등 <strong>일회성 행동을 지속적인 관심사로 취급</strong>하는 사례가 이어짐</li><li>수년간 보컬이 들어간 전자음악을 건너뛰어도 Spotify와 YouTube Music은 <strong>반복되는 선호 패턴</strong>을 반영하지 못함</li><li>계정과 기기를 영어로 설정해도 현재 위치에 따라 핀란드어나 독일어로 바뀌는 등 <strong>명시적인 </strong></li></ul></div>…",
-    "createdAt": "2026-11-05T19:40:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=36667&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "좋아하는 YouTube 영상을 다운로드하자",
-    "content": "<div><ul><li>YouTube의 오래된 ‘좋아요 표시한 동영상’ 중에는 더 이상 볼 수 없는 영상이 있으므로, <strong>소중한 콘텐츠를 직접 다운로드해 보관</strong>할 것을 권함</li><li>대부분은 <strong>yt-dlp</strong>나 이를 감싼 앱으로 영상을 내려받고 대용량 드라이브 또는 NAS의 폴더에 저장하는 것만으로 충분함</li><li>TV 재생과 기존 NAS 연동, 수백 개 영상의 자동 관리를 위해 <strong>Jellyfin과 ytdl-sub</strong>를 결합한 개인 구축 사례가 있음</li><li>Jellyfin은 재생목록을 주된 정리 단위로 쓰기 어려워 <strong>TV 프로그램 구조</strong>를 활용했으며, ytdl-sub의 시즌 메타데이터를 조정해 재생목록별 분류 문제를 해결함</li></ul></div>…",
-    "createdAt": "2026-11-05T19:37:24.000+00:00",
-    "link": "https://news.hada.io/topic?id=36666&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "MCP Explained - AI 앱과 도구를 연결하는 Model Context Protocol의 작동 방식",
-    "content": "<div><ul><li><strong>MCP(Model Context Protocol)</strong> 는 AI 앱을 도구와 데이터에 연결하는 개방형 표준으로, 서버가 제공하는 기능을 앱이 모델에 전달하고 실행 결과를 돌려주는 방식으로 작동함</li><li><strong>호스트</strong>는 Claude, Cursor, ChatGPT 같은 AI 앱이며, 서버는 도구와 데이터 또는 프롬프트를 제공하는 작은 프로그램임</li><li><strong>모델은 서버와 직접 통신하지 않으며</strong>, 사용할 도구를 결정하면 앱이 서버를 호출하고 결과를 모델에 전달함</li><li>통신에는 <strong>JSON-RPC</strong>를 사용하며, 표준 입력/출력 또는 하나의 HTTP 엔드포인트로 메시지를 주고받음. REST와 달리 서버도 앱에 메시지를</li></ul></div>…",
-    "createdAt": "2026-11-05T18:40:48.000+00:00",
-    "link": "https://news.hada.io/topic?id=36665&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -734,17 +756,6 @@
     "site": {
       "id": "d2d85d79-38e6-4cb6-8e39-b49b3cd4f51b",
       "name": "Frontend Focus"
-    }
-  },
-  {
-    "title": "“I Redesigned VLC After 25 Years”",
-    "content": "<p><a href=\"https://www.youtube.com/watch?v=ERFeOgqk324\" target=\"_blank\" rel=\"noopener noreferrer\">I watched this whole video</a> by Juxtaposed, assuming it was a real redesign of the <a href=\"https://www.videolan.org/vlc/\" target=\"_blank\" rel=\"noopener noreferrer\">VLC player</a>, but alas, it is not official. Nevertheless, it should be, and it’s a wonderful example of how much real human brainpower it takes to design something well. </p>\n\n\n\n<p></p>\n",
-    "createdAt": "2026-10-20T15:43:07.000+00:00",
-    "link": "https://blog.master.dev/i-redesigned-vlc-after-25-years/",
-    "author": "Chris Coyier",
-    "site": {
-      "id": "fd3f6775-a498-4f0d-87e0-02232bcea21f",
-      "name": "Frontend Masters Boost"
     }
   },
   {
@@ -2370,17 +2381,6 @@
     "createdAt": "2026-05-22T13:00:00.000+00:00",
     "link": "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/",
     "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-    "site": {
-      "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
-      "name": "Articles on Smashing Magazine"
-    }
-  },
-  {
-    "title": "Advanced Tree Counting: Mathematical Layouts With `sibling-index()` And `sibling-count()`",
-    "content": "<p>You know that thing where you have a grid of cards, and you want them to fade in one after another? That staggered cascade effect. Looks great. Should be simple. And yet every time I’ve built it, the implementation has made me feel like I’m doing something fundamentally stupid.</p>\n<p><img src=\"https://files.smashing.media/articles/mathematical-layouts-sibling-index-sibling-count/sibling-index-devtools.jpeg\"></p>\nWhat’s Coming\n<p>The current spec only counts <em>all</em> element siblings. But the CSSWG has documented a planned extension in <a href=\"https://github.com/w3c/csswg-drafts/issues/9572\" target=\"_blank\" rel=\"noopener noreferrer\">issue #9572</a>: an <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">of </code> argument, matching what <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:nth-child()</code> already supports.</p>\n<p>Something like <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-index(of .active)</code> would let you count only siblings matching a specific selector. An element that’s the eighth child overall but the third <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">.active</code> child would return <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">3</code>. For dynamic UIs where you’re filtering or toggling visibility, that would keep the index sequential without requiring DOM manipulation.</p>\n<p>There’s also been CSSWG discussion around <a href=\"https://github.com/w3c/csswg-drafts/issues/11068\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">children-count()</code></a> and <a href=\"https://github.com/w3c/csswg-drafts/issues/11069\" target=\"_blank\" rel=\"noopener noreferrer\"><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">descendant-count()</code></a> functions — the first would tell you how many children an element has (useful for parent-driven layouts), the second would count all descendants recursively. Both are still at the proposal stage, but they’d round out the tree-counting story: <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-index()</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">sibling-count()</code> give you the horizontal view (where am I among my peers?), while <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">children-count()</code> and <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">descendant-count()</code> would give you the vertical view (what’s below me?).</p>\n<p><em>That feeling I mentioned at the top — writing ten <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">:nth-child()</code> rules for a staggered animation and wondering if you’re missing something obvious? You weren’t. The obvious thing just didn’t exist yet.</em></p>\n",
-    "createdAt": "2026-05-21T08:00:00.000+00:00",
-    "link": "https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/",
-    "author": "hello@smashingmagazine.com (Durgesh Pawar)",
     "site": {
       "id": "18c5b49f-4443-463f-a5a5-a6288ba3c396",
       "name": "Articles on Smashing Magazine"
