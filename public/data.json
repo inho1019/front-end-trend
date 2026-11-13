@@ -1,5 +1,148 @@
 [
   {
+    "title": "Nvidia 직원들, Jensen Huang 복귀 청원",
+    "content": "<div><ul><li>Nvidia 일부 직원이 여러 불륜 의혹 보도와 사임 이후에도 <strong>Jensen Huang의 복귀</strong>를 요구하고 있으며, 사내 건의함 게시물에는 <strong>댓글 1,600개 이상</strong>이 달림</li><li>사임 전 올라온 해당 게시물은 이사회가 조치에 앞서 <strong>직원 의견을 고려</strong>하도록 요청했으며, 이후 여러 댓글이 Huang을 복귀시킬 방법을 찾으라고 요구함</li><li>직원들은 <strong>사임 과정의 투명성</strong>도 요구함. 많은 직원이 이사회 조사 결과가 나온 뒤 큰 변화가 있을 것으로 예상했지만, Huang은 조사가 막 시작된 시점에 떠남</li><li>이사회는 최고재무책임자 <strong>Colette Kress를 임시 CEO</strong>로, Harvey Jones를 </li></ul></div>…",
+    "createdAt": "2026-11-13T04:32:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=37095&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Ask GN: HTML 슬라이드를 PPTX로 바꾸는 변환기, 그림으로 구워지는 요소를 줄이려고 세어 봤습니다. 가상 요소 ...",
+    "content": "<div><p>HTML로 만든 슬라이드를 PowerPoint 파일로 내보내는 변환기를 만들면, 도형과 텍스트 상자로 옮기지 못하는 요소는 그 부분만 PNG로 잘라 넣게 됩니다. 이 그림은 PowerPoint에서 글자처럼 고칠 수 없고, 확대하면 흐려집니다. 제 변환기가 얼마나 그렇게 하는지 세어 봤습니다.</p><p>결과부터 적습니다. 레이아웃 254개에 테마 44개를 입힌 측정 결과 11,176벌에서 요소는 408,267개였고, 그중 그림으로 구워진 것은 2,200개(0.54%)였습니다. 44개 테마에서 목록이 똑같아서 테마당 50개이고, 레이아웃 12개에만 있습니다. 세면서 알게 된 것 세 가지를 적습니다.</p><p><strong>어떻게 쟀나</strong></p></div>…",
+    "createdAt": "2026-11-13T04:32:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=37094&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "decksmith",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 모아빈 - 앱·웹서비스 소개와 테스트 품앗이",
+    "content": "<div><p>안녕하세요. 앱과 웹서비스를 소개하고, 개발자끼리 테스트에 참여할 수 있는 모아빈을 운영하고 있습니다. 운영자가 직접 소개하는 글입니다.</p><p>모아빈에서는 프로젝트를 분야별로 살펴보고, 소개 페이지에서 웹 실행 주소나 스토어·테스트 링크로 이동할 수 있습니다. 출시된 서비스와 테스트 버전, 프로토타입, 개발이 중단된 프로젝트의 상태를 구분해 표시합니다.</p><p>현재 제공하는 기능은 다음과 같습니다.</p><ul><li>앱 이름·기능 검색과 분야별 목록</li><li>프로젝트별 한 줄 소개, 핵심 기능, 테스트에서 살펴볼 부분 안내</li><li>Android·iOS·웹 구분과 실행</li></ul></div>…",
+    "createdAt": "2026-11-13T03:23:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=37093&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "kagla",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "C++ 표준안, 사상 처음으로 국가 표준화 기구 승인 투표 통과 실패",
+    "content": "<div><ul><li><strong>C++26 표준안</strong>이 국가 표준화 기구 승인 투표를 통과하지 못함. WG21 내부에서 정리됐어야 할 <strong>Contracts</strong> 논쟁이 최종 승인 단계까지 이어짐</li><li>Contracts는 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">pre</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">post</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">contract_assert</code>로 실행 시점 조건을 검사하는 기능이지만, 빌드 설정과 링크 방식에 관계없이 <strong>검사 실행을 보장할 수 없다는 점</strong>이 주요 쟁점임</li><li>WG21의 Contracts 초안 편입 투표는 <strong>찬성 100표, 반대 14표</strong>였지만, 여러 국가 기구가 요구한 안전성 문제 해결과 강제 검사 보장 등은 받아들여지지 않음</li><li><strong>표준 라이브러리 강화</strong>가 Contracts에 의존하도록 설계돼, Contracts를 제</li></ul></div>…",
+    "createdAt": "2026-11-13T03:04:30.000+00:00",
+    "link": "https://news.hada.io/topic?id=37092&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "중국 최첨단 AI 모델에서 수출 통제 대상 GPU의 지문 발견",
+    "content": "<div><ul><li>DeepSeek, Moonshot AI, MiniMax, Ant Group의 공개 모델 6개에서 <strong>NVIDIA Blackwell과 일치하는 초기화 패턴</strong>이 발견됨. 학습에도 같은 하드웨어를 사용했을 가능성을 뒷받침하지만, 학습 전체가 Blackwell에서 이루어졌다는 증거는 아님</li><li>분석은 내부 제보가 아닌 <strong>공개 가중치에 남은 초기값</strong>을 이용함. 의사난수 시드와 GPU의 병렬 처리 구성을 함께 복원해 Hopper와 Blackwell의 서로 다른 수치 배열을 구분함</li><li>DeepSeek-V4-Flash와 Kimi K3의 <strong>초기값을 실제 Blackwell GPU에서 재현</strong>했으며, 하드웨어가 공개된 모델 24건에서도 분석 결과가 공개 정보와 일치함</li></ul></div>…",
+    "createdAt": "2026-11-13T02:35:38.000+00:00",
+    "link": "https://news.hada.io/topic?id=37091&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Catch Your Mind – MCP로 연결하는 실시간 멀티모달 Context SDK",
+    "content": "<div><p>안녕하세요.</p><p>최근 AI 게임 컴패니언 Optimum Zone을 개발하면서, LLM이 실시간 영상과 음성을 지속적으로 이해하고 Context로 활용하는 것이 생각보다 어렵다는 문제를 겪었습니다.</p><p>Full-duplex Voice AI는 빠르게 발전하고 있지만, 연속적인 Vision과 Voice를 함께 처리하려면 VLM Inference Latency, Context Window, Temporal Synchronization 등 해결해야 할 문제가 많았습니다.</p><p>그래서 Catch Your Mind라는 오픈소스 프로젝트를 만들었습니다.</p><p>Catch Your Mind는 실시간 Multimodal Input을 LLM과 AI Agent가 활용할 수 있는 Tempor</p></div>…",
+    "createdAt": "2026-11-13T02:29:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=37090&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "ironman0722",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Dari - 앱과 웹뷰가 주고받는 브릿지 메시지를 요청·응답 짝으로 보여 주는 디버그 도구 (Android/iOS)",
+    "content": "<div><p>네이티브 앱 안에 웹뷰를 띄워 화면 일부를 웹으로 만들다 보면, 웹과 앱이 주고받는 브릿지 메시지가 문제일 때가 많은데, 확인하려면 핸들러마다 로그를 넣고 Logcat이나 Xcode 콘솔을 스크롤하며 요청과 응답을 손으로 맞춰 봐야 했습니다. 이 메시지들을 한 목록에서 보려고 만들었습니다.</p><p>핵심</p><ul><li>웹에서 앱으로, 앱에서 웹으로 오가는 호출을 requestId로 짝지어 한 줄에 보여 줍니다</li><li>상태(진행 중, 성공, 에러), 소요 시간, 정리된 JSON, 핸들러별 평균·최대 응답 시간을 볼 수 있습니다</li><li>데스크톱 앱(macOS, Windows, Linux)에서 And</li></ul></div>…",
+    "createdAt": "2026-11-13T01:49:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=37089&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "mraz3068",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "자애로운 수출 통제 기계",
+    "content": "<div><ul><li>다리오 아모데이의 에세이 <a href=\"https://darioamodei.com/essay/machines-of-loving-grace\" target=\"_blank\" rel=\"noopener noreferrer\">\"Machines of Loving Grace\"</a>을 패러디한 제목.</li><li>극성 인공지능 안전주의자들은 수출 통제를 맹목적으로 찬성하고, 국가 경쟁으로 규정함. <ul><li>최근 반-개방 가중치 모델로도 나타남.</li></ul></li><li>특히 극히 일부의 엘리트 이외의 컴퓨트 접근 자체가 금지되어야 한다는 사람들도 있으나, 이는 <a href=\"https://namu.wiki/w/%EC%95%BC%ED%95%9C%20%EC%9D%B4%EC%95%BC%EA%B8%B0%EB%9D%BC%EB%8A%94%20%EA%B0%9C%EB%85%90%EC%9D%B4%20%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EC%A7%80%EB%A3%A8%ED%95%9C%20%EC%84%B8%EA%B3%84/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98\" target=\"_blank\" rel=\"noopener noreferrer\">\"시모네타\"</a> 의 재현일 뿐임.</li><li>최악의 경우라도 인공지능은 이중 용도 기술일 뿐, 전차와 같이 \"공격 무기\" 가 아님. <ul><li>그리고, 그러한 이중 용도 기술로서도 방사능과 달리 인류에 긍정적 소지가 부정적 소지에 비해 다함.</li><li>따라서 인공지능</li></ul></li></ul></div>…",
+    "createdAt": "2026-11-13T01:14:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=37088&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "mercuriusdream",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "[Korean FE Article] 그루그 같은 뇌를 가진 개발자",
+    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!6jTX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!6jTX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!6jTX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6jTX!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!6jTX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ceb9b20-5af2-4a65-b4e9-dc7350b3d254_1672x941.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://www.yeongseo-blog.site/blog/the-grug-brained-developer\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yeongseo-blog.site/blog/the-grug-brained-developer</a></p></blockquote><h2><strong>소개</strong></h2><p>htmx를 만든 Carson Gross가 ‘그루그’라는 원시인의 말투로 개발에 관한 생각을 풀어낸 글입니다. 엉뚱해 보이는 문체지만, 찬찬히 읽어보면 다루는 고민은 익숙합니다. 중복을 줄이려고 코드를 합쳤더니 예외 처리가 늘어나고, 누군가 설계해 놓은 코드를 이해하느라 한참 헤매는 일처럼요.</p><p>테스트, 리팩터링, 도구 선택 등 여러 주제를 다루지만, 그 바탕에는 “이렇게까지 복잡하게 만들 필요가 있을까?”라는 고민이 있습니다. 공통 컴포넌트에 옵션을 하나씩 추가하다가 “차라리 따로 만드는 게 낫지 않았을까?” 싶었던 개발자분들이라면 공감하며 읽으실 것 같습니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>글에서는 조금 중복되더라도 단순한 코드가 복잡한 추상화보다 나을 수 있다고 이야기합니다. 실무에서 중복을 줄이려고 공통 컴포넌트나 훅을 만들었다가, 예외 처리가 늘어나 오히려 이해하거나 수정하기 어려워진 경험이 있으신가요? 어떤 시점에 공통화하고, 언제 개별 구현으로 남겨 둘지 각자의 판단 기준이 궁금합니다.</p></blockquote><p><strong>💬. 의견 1 </strong></p><p>컴포넌트에 빗대어 표현하자면 Props 를 어느정도 유연하게 제공할지, 스타일링 가능한 범위는 어떻게 제안할지에 대한 고민을 많이 해봤던 것 같습니다. 결국 해당 컴포넌트의 사용처와 유지보수에 용이한 구조를 고려하여 중간 타협점을 의사당사자들과 함께 협의하는 과정이 필요한 것 같습니다.</p><p>섣부르고 과한 추상화로 어느 한순간에 사용성이 떨어지거나, 불필요한 로직들이 포함되어 디버깅 혹은 로직을 분석하기거 어려워지는 케이스를 종종 봐와서 요즘에는 경험적으로 추상화하는 부분은 제외하고 우선 중복 또는 유연성을 조금 포기하더라도 직관적인 설계를 하려고 노력하는 편입니다.</p><p><strong>💬. 의견 2</strong></p><p>저는 동일한 코드가 2번 사용되는 경우까지는 중복해서 쓰고 3번 쓰이기 시작한 순간에 추상화를 할지 고민하게 됩니다. 그리고 이 추상화를 많은 설명을 하지 않고도 동료에게 설명을 할 수 있다고 판단이 들면 그 때 공통 컴포넌트나 훅으로 만들게 되는 것 같습니다. 다만 요즘에는 AI가 이러한 판단을 알아서 해주는 경우가 많아서 코드 레벨에서 하는 고민은 줄었고 시스템 레벨에서 하는 고민이 더 많아진 것 같아요.</p><p><strong>💬. 의견 3</strong></p><p>저는 솔직히 어느정도 직관의 영역이라고 생각하는데요. 그래서 시스템처럼 짜여져있지는 않고 그때그때 다르네요.. 보통은 섣부른 추상화를 가장 경계하는 성향이에요. 복붙이 귀찮다거나 동기화가 깨져 문제된다거나 하는 건 이제는 ai가 너무 잘해주니까 더는 문제되지 않는다고 생각하고요. 유지보수 비용이 항상 판단 근거가 돼요. 3번 이상 중복이 발생할 때부터 추상화를 고민하는 것 같고, 꼭 그렇지 않아도 앞으로 많은 변경사항이 예정되어 있다면 수정 범위의 영향도가 어디까지 미칠지 고려하여 선제적으로 추상화를 해두는 경우도 있었습니다. 추상화를 했을 때 가장 문제가 됐던 부분은 역시, 영향도가 너무 커서 고치고싶으면 전체를 손봐야하는 경우였네요.</p><p><strong>💬. 의견 4</strong></p><p>유틸리티 코드들은 추상화를 많이 하는 편인 것 같고, 비즈니스 로직에 관여하는 경우 보수적으로 접근하는 편입니다.<br>기능들이 코드는 동일해 보여도 별개로 기획된 기능인 경우들이 많은데, 이런 경우 추후 스펙 추가/변경으로 인해 다시 분리해야 하는 일이 생기게 되더라구요. 그래서 동일한 정책/스펙을 따르는 기능인지 등 코드 외적인 부분을 고려해 필요할 때 추상화를 하고 있습니다.<br>이런 점 때문에 추상화를 해두었다가 사이드 이펙트로 문제가 생겨보기도 하고, 반대로 추상화를 해두지 않았다가 일괄 변경되지 못하고 누락되는 일들이 종종 생겨서 곤란했던 기억이 있네요 ㅎㅎ</p><p><strong>💬. 의견 5<br></strong>글을 읽으면서 공통화의 기준은 코드가 지금 비슷하게 생겼는지보다, 앞으로도 같은 이유로 변경될 것인지에 있어야 한다는 생각이 들었습니다. 예전에는 중복 코드가 생기면 나중에 여러 곳을 함께 수정해야 하는 비용이 커서 가능한 범위에서 최대한 공통화하려고 했습니다. 그런데 요즘은 AI를 활용하면 단순한 코드 중복을 찾아 수정하거나 여러 파일에 같은 변경을 반영하는 비용이 많이 줄어든 것 같습니다.</p><p>반면 공통화 이후 생기는 영향 범위나 숨은 규칙을 이해하는 비용은 여전히 크다고 느낍니다. AI가 여러 파일을 수정해줄 수는 있어도, 하나의 공통 컴포넌트에 들어간 예외 조건이 정말 필요한지, 서로 다른 기능이 같은 정책을 따라야 하는지는 사람이 판단해야 하기 때문입니다. 그래서 최근에는 추상화가 만드는 영향 범위를 더 신중하게 보려고 합니다. 반복되는 코드가 단순하고 각자 독립적으로 변경된다면 그대로 두고, 같은 정책을 여러 곳에서 계속 함께 수정하고 있다면 그때 공통화하는 방식으로 판단하려고 합니다.</p>",
+    "createdAt": "2026-11-13T00:30:38.000+00:00",
+    "link": "https://kofearticle.substack.com/p/korean-fe-article-aa4",
+    "author": "",
+    "site": {
+      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
+      "name": "Korean FE article"
+    }
+  },
+  {
+    "title": "nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스",
+    "content": "<div><ul><li>실험, 모델 학습, 인프라 구축, 프로토타이핑처럼 오래 걸리는 작업을 <strong>처음 의도에 맞춰 이어가도록</strong> 설계된 오픈소스 하네스</li><li><strong>중앙 오케스트레이터</strong>가 전체 작업을 계획하고, 명령 실행과 파일 수정은 개별 <strong>Thread</strong>에 맡김 <ul><li>같은 작업을 이어갈 때는 이전 작업 이력을 가진 Thread를 다시 사용함</li></ul></li><li>Thread가 맡은 작업을 마칠 때마다 핵심 결과를 <strong>Episode</strong>로 남김. 오케스트레이터는 이 결과를 보고 다음 단계를 정하거나, 다른 Thread에 넘겨 후속 작업의 맥락으로 활용함</li><li>프로젝트의 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">AGENTS.md</code>와 에이전트 스킬을 불러오며, <strong>MCP로 기존 에이전</strong></li></ul></div>…",
+    "createdAt": "2026-11-13T00:30:03.000+00:00",
+    "link": "https://news.hada.io/topic?id=37085&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "『Let Over Lambda』 전체를 이제 온라인에서 무료로 읽을 수 있음",
+    "content": "<div><ul><li>Common Lisp 프로그래밍 서적 <strong>Let Over Lambda</strong> 전체가 2026년 업데이트를 통해 온라인에 무료로 공개됨</li><li>전문은 <strong>HTML과 PDF</strong> 두 형식으로 읽을 수 있음</li><li>책의 중심 주제는 프로그램을 작성하는 프로그램인 <strong>매크로</strong>이며, 기초부터 Common Lisp의 고급 기능까지 다룸</li><li>당장 프로그래밍 문제 해결에 활용할 <strong>매크로 작성 기법</strong>을 가르치는 동시에, 평소 접하기 어려운 프로그래밍 아이디어를 탐구하도록 구성함</li><li><strong>2008년 출간</strong> 이후 Lisp과 프로그래밍 관행이 많이 달라졌지만, 여전히 <strong>Lisp의 특별함을 이해하는 튜토리얼</strong>로서 가치가 있다는 것이 2026</li></ul></div>…",
+    "createdAt": "2026-11-13T00:01:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=37084&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "데이터센터에 필요한 전력, 저소득층과 농촌 주민이 대가를 치른다",
+    "content": "<div><ul><li>Cornell 연구진이 미국 주요 전력망 4곳을 분석한 결과, 2025년 데이터센터는 확장에 따른 <strong>전력 인프라 비용의 38%</strong> 만 부담했고 나머지 62%는 주로 주민에게 돌아감</li><li>기존의 <strong>과거 전력 소비량 기준 비용 배분</strong>은 아직 전력을 쓰지 않는 신규 데이터센터의 수요를 반영하지 못해, 확장에 필요한 인프라 비용 상당 부분을 가계에 전가함</li><li>부담은 <strong>저소득층과 농촌 가구</strong>에 불균형하게 집중됐으며, 최저소득 가구의 추가 에너지 비용은 소득의 최대 28%에 달함</li><li>데이터센터 용량 1GW당 경제 전반에서 <strong>일자리 1만 5,000개</strong>를 창출할 수 있지만, 주정</li></ul></div>…",
+    "createdAt": "2026-11-12T23:38:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=37082&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "태양을 한 바퀴 도는 데 약 280년 걸리는 왜소행성 후보 발견",
+    "content": "<div><ul><li>칠레 <strong>Vera C. Rubin Observatory</strong> 관측 데이터에서 왜소행성 후보 <strong>2026 ED138</strong>이 발견됨. 태양까지의 거리는 지구의 46배이며 공전 주기는 281.1년임</li><li>최근 10년간의 관측 영상과 <strong>1937년 사진 건판</strong>에서도 같은 천체를 확인해 실재 여부와 궤도를 검증함</li><li>추정 지름은 <strong>370~930마일</strong>이지만, 밝기만으로는 크기와 반사율을 구분할 수 없어 <strong>왜소행성 분류는 아직 확정되지 않음</strong></li><li>크기를 확인하려면 <strong>열복사 관측</strong>이나 별빛을 가리는 시간을 재는 <strong>엄폐 관측</strong>이 필요하며, ALMA 등을 이용한 후속 관측을 준비 중임</li><li>ED138은 별빛이 밀집한 은하 중심 방향</li></ul></div>…",
+    "createdAt": "2026-11-12T23:35:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=37081&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Show GN: kr-career-skill - 채용 사이트 270 여곳의 공고 검색과 기업분석 및 자소서 초안 작성을 하는 한국 취...",
     "content": "<div><p>취업·이직용 에이전트 스킬입니다.</p><p>퇴근하면 체력이 바닥나서 저녁 먹고 나면 이직 준비할 여력이 없다는 친구가 있어, 그 친구를 생각하며 만들었습니다. 공고를 찾고 초안을 잡는 일을 에이전트에게 맡기면 덜 지치게 할 수 있을까 싶었습니다.</p><p><strong>쓰는 법</strong></p><p>에이전트에 아래 한 줄을 보내면 직무·지역·경력 등을 몇 가지 물은 뒤 바로 첫 공고를 찾아 줍니다. 이후엔 \"오늘 새 공고 찾아줘\", \"이 공고로 자소서 써줘\"처럼 말하면 됩니다.</p><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">https://raw.githubusercontent.com/Whosekey-Labs/kr-career-skill/main/SKILL.md 이 스킬 설치하고</code></p></div>…",
     "createdAt": "2026-11-12T22:57:53.000+00:00",
@@ -11,8 +154,8 @@
     }
   },
   {
-    "title": "Gemini 4 Hydrogen과 Orchestrator - Google Antigravity의 새 코딩 모델과 동적 모델 전환 옵션",
-    "content": "<div><ul><li>Google Antigravity에 <strong>Gemini 4 Hydrogen</strong>과, Hydrogen을 Gemini 4 Carbon과 조합하는 모델 선택 옵션 <strong>Orchestrator</strong>가 도입됨</li><li><strong>Orchestrator</strong>는 첫 프롬프트만으로 작업 전체의 모델을 정하는 대신, 작업 진행 중 필요한 복잡도에 따라 Carbon과 Hydrogen을 양방향으로 전환함</li><li>Google의 <strong>Terminal-Bench 4.1</strong> 평가에서 Orchestrator는 Carbon에 가까운 작업 성공률을 유지하면서 평균 할당량 소비를 <strong>24% 줄이고</strong>, 완료 속도를 19% 높임</li><li><strong>Hydrogen</strong>은 일상적인 코딩과 에이전트 작업에 단독으로 사용할 수 있으며, 추론 깊이를 기본값 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">high</code>와 새 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">x</code></li></ul></div>…",
+    "title": "Google Antigravity에 Orchestrator 추가, 코딩 중 Carbon과 Hydrogen 자동 전환",
+    "content": "<div><ul><li>Google Antigravity의 모델 선택 메뉴에 <strong>Gemini 4 Hydrogen</strong>과 <strong>Orchestrator</strong>가 추가됨</li><li><strong>Orchestrator</strong>는 한 코딩 세션에서 작업 단계에 따라 <strong>Carbon과 Hydrogen을 자동으로 전환</strong>함. Carbon이 계획을 세우고, Hydrogen이 코드 수정과 테스트를 이어받는 식</li><li>Antigravity 팀의 <strong>Terminal-Bench 4.1</strong> 평가에서 Carbon 단독에 가까운 성공률을 기록함. 평균 <strong>할당량은 24% 덜 쓰고, 작업은 19% 더 빠르게 완료</strong>함</li><li><strong>Hydrogen</strong>은 일상적인 코딩에 단독으로 쓸 수 있으며, 추론 수준은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">low</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">medium</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">high</code>(기본값), <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">xhigh</code> 중 선택할 수 있음</li><li>Antigravity에서</li></ul></div>…",
     "createdAt": "2026-11-12T21:38:41.000+00:00",
     "link": "https://news.hada.io/topic?id=37077&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
@@ -55,8 +198,8 @@
     }
   },
   {
-    "title": "Outlook과 Microsoft 상태 페이지 모두 접속 장애",
-    "content": "<p>Outlook과 Microsoft 상태 페이지 모두 접속 장애</p>\n",
+    "title": "Microsoft Outlook, 대규모 접속 장애 발생",
+    "content": "<div><ul><li>11월 12일(미국 현지시간) <strong>Exchange Online 장애</strong>로 Outlook에서 메일함을 열거나 메일을 주고받는 데 문제가 발생함. Outlook 장애 신고는 한때 약 <strong>60만 건</strong>에 달함</li><li>Outlook 외에도 <strong>Microsoft 365, Copilot, Teams, Microsoft Store, OneDrive</strong>에서 사용자들의 장애 신고가 이어짐</li><li>Microsoft는 미주 지역에서 여러 연결 방식을 통한 <strong>Exchange Online 사서함 접근 문제</strong>를 조사 중</li><li><strong>자동 상태 검사에 실패한 서버들이 서비스에서 빠지면서</strong> 남은 서버에 부하가 몰림. Microsoft는 대체 검사 방식으로 일부 서버를 복귀시킨 뒤 적용 범위를 넓힘</li></ul></div>…",
     "createdAt": "2026-11-12T20:32:45.000+00:00",
     "link": "https://news.hada.io/topic?id=37073&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
@@ -88,105 +231,6 @@
     }
   },
   {
-    "title": "Rust 1.100.0 - never 타입과 사용자 정의 메모리 할당자 안정화",
-    "content": "<div><ul><li><strong>never 타입 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">!</code> 안정화</strong><ul><li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Result</code>처럼 실패할 수 없는 연산을 표현할 수 있음</li><li>기존 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Infallible</code>은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">!</code>의 타입 별칭이 됨</li><li>2015, 2018, 2021 에디션도 2024 에디션과 같이 never 타입 폴백을 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">()</code>에서 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">!</code>로 바꿈. 일부 코드의 타입 추론에 영향을 줄 수 있음</li></ul></li><li><strong>사용자 정의 메모리 할당자 API 안정화</strong><ul><li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Allocator</code> 트레이트로 사용자 정의 할당자를 구현할 수 있음</li><li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Vec::new_in</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Box::new_in</code>으로 객체를 만들 때 사용할 할당자를 지정할 수 있음</li></ul></li><li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DropGuard</code></strong> 는 스코프를 벗어날 때 클로저를 실행함 <ul><li>예를 들어 여러 값을 파싱해 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Vec</code>에 추가하다가 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">?</code>로 조</li></ul></li></ul></div>…",
-    "createdAt": "2026-11-12T19:49:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=37070&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ask HN: Microsoft/Azure 장애인가요?",
-    "content": "<div><ul><li>최근 5분 동안 사용 중인 <strong>Microsoft Cloud 연결이 모두 끊긴 상태</strong>이며, 다른 사람도 같은 문제를 겪는지 확인하고자 함</li><li><strong>상태 페이지</strong>조차 로드되지 않음</li></ul></div>",
-    "createdAt": "2026-11-12T19:46:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=37069&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Gemini 4 Hydrogen - 일상적인 코딩과 에이전트 작업을 위한 빠른 실행 모델",
-    "content": "<div><ul><li>Google이 <strong>Gemini 4 Hydrogen</strong>을 공개함. 깊고 장기적인 추론에 집중하는 Carbon과 Argon을 보완하면서, 일상적인 코딩과 다양한 에이전트 작업을 단독으로도 수행하도록 설계함</li><li>기본 추론 설정에서 <strong>Artificial Analysis Intelligence Index 51점</strong>으로 Argon의 50점을 넘어섰으며, 100만 토큰 컨텍스트 전체에 입력 100만 토큰당 1.50달러, 출력 100만 토큰당 7.50달러의 동일 요금을 적용함</li><li><strong>Google Antigravity의 Orchestrator</strong>가 세션 안에서 Carbon과 Hydrogen 등을 자동 전환함. Terminal-Bench 4.0에서 Carbon에 가까운 성공률을 유지하면서 평균 할당량 소모를 24%, 완료 시간을 19% 줄임</li></ul></div>…",
-    "createdAt": "2026-11-12T19:43:36.000+00:00",
-    "link": "https://news.hada.io/topic?id=37068&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "CPU를 새로 설계하기 위해 약 390억원 투자 유치",
-    "content": "<div><ul><li><strong>Tendrils</strong>가 범용 컴퓨팅을 재설계하기 위해 Benchmark 주도로 <strong>3,000만 달러($30m)</strong> 투자를 유치함</li><li>순차 실행 설계에서 출발하는 대신, <strong>수천 개 코어가 병렬로 동작하는 프로세서</strong>를 개발 중임</li><li>Tendrils는 기존 CPU가 순차 실행 단일 코어 칩과의 <strong>하위 호환성</strong>에 묶여 있으며, 복잡한 캐시 일관성 프로토콜과 재정렬 버퍼가 확장의 병목이라고 봄</li><li>새로운 설계는 <strong>공유 가변 메모리와 선형 명령어 시퀀스</strong>라는 개념을 넘어서는 것을 지향함</li><li>병렬 우선 아키텍처를 처음부터 대상으로 설계한 <strong>오픈소스 언어 Vine</strong>을 프로세서와 함께 개발 중임</li></ul><hr><h2>기존</h2></div>…",
-    "createdAt": "2026-11-12T18:37:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=37067&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "개발 중단된 Quake 4 확장팩, 모더들이 완성해 플레이 가능해짐",
-    "content": "<div><ul><li><strong>openQ4 0.14.1 Awakening Edition</strong>에서 미출시 Quake 4 확장팩 The Awakening을 원작 캠페인과 함께 플레이할 수 있게 됨</li><li>확장팩의 <strong>13개 맵</strong>에 필요한 몬스터, 무기, 탈것을 openQ4 자체 코드로 재구현하고, 알파 버전에서 작동하지 않던 전투와 적의 동작을 수정함</li><li><strong>Windows Vulkan 지원</strong>과 안정적인 그림자 매핑을 도입하고, 그래픽 프리셋, 고주사율 화면의 움직임, 로딩 성능을 개선함</li><li>인터페이스를 재구축하고 <strong>봇과 멀티플레이어</strong>, 데모 재생, 음향, 자막을 개선했으며 Android와 VR 지원은 실험 단계임</li><li><strong>Quake 4 원본과 확장팩 파일은 별</strong></li></ul></div>…",
-    "createdAt": "2026-11-12T18:34:56.000+00:00",
-    "link": "https://news.hada.io/topic?id=37066&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Black Ops II를 네이티브 ARM64 macOS용으로 정적 재컴파일",
-    "content": "<div><ul><li><strong>bo2-mac</strong>은 사용자가 보유한 Steam판 Black Ops II의 32비트 x86 실행 파일을 Mac에서 미리 변환해, Windows나 가상 머신 없이 실행하는 비공식 팬 프로젝트임</li><li><strong>Remill과 LLVM</strong>으로 약 15만 개 함수를 ARM64 코드로 변환하고, 자체 Win32 런타임과 Metal 기반 Direct3D 11 구현을 연결함. Wine과 JIT는 사용하지 않으며, 일부 보호 코드와 변환 누락 코드는 x86 인터프리터로 실행함</li><li><strong>Apple M1 한 대에서 측정한 결과</strong>, 캠페인은 51~60fps, 좀비는 대체로 57~60fps, 봇 상대 멀티플레이는 53~60fps를 기록함. 캠페인 전체 미션의 로딩과 연결은 확인했지만 모든 미션을 처음부터 끝까지 플레이하지는 않음</li></ul></div>…",
-    "createdAt": "2026-11-12T17:37:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=37065&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "미국, 생물테러 억제를 위해 합성 DNA 주문에 새 규정 도입",
-    "content": "<p>미국, 생물테러 억제를 위해 합성 DNA 주문에 새 규정 도입</p>\n",
-    "createdAt": "2026-11-12T17:34:26.000+00:00",
-    "link": "https://news.hada.io/topic?id=37064&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Apple 지원 커뮤니티, 2026년 11월 20일 영구 폐쇄 예정",
-    "content": "<div><ul><li>Apple 고객이 서로 제품 사용을 돕던 <strong>Apple Support Community</strong>가 2026년 11월 20일 운영을 영구 종료함</li><li><strong>공지 당일부터 새 게시물 접수를 중단</strong>하며, 사이트는 읽기 전용 상태로 전환됨</li><li><strong>읽기 전용 상태</strong>에서는 기존 내용을 열람할 수 있음</li><li>제품 관련 안내와 지원은 <strong>공식 Apple Support 사이트</strong>에서 계속 이용할 수 있음</li><li>Apple은 다른 고객을 돕기 위해 <strong>시간과 전문 지식을 나눈 커뮤니티 회원들</strong>에게 감사를 전함</li></ul><hr><h2>폐쇄 일정과 이용 제한</h2><ul><li><strong>Apple Support Community</strong>는 Apple 고객이 서로 제품 관련 질문과 답변을 나누던 포럼임</li><li><strong>2026년 11월 20일</strong></li></ul></div>…",
-    "createdAt": "2026-11-12T16:39:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=37063&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Nvidia CEO Jensen Huang, 두 번째 불륜 보도로 스캔들이 커진 뒤 사임",
-    "content": "<div><ul><li><strong>Jensen Huang</strong>이 Nvidia의 CEO, 사장, 이사직에서 물러났으며, 이사회는 CFO <strong>Colette Kress</strong>를 임시 CEO로 선임함</li><li>Huang이 불륜을 인정한 뒤 <strong>직속 임원과의 두 번째 불륜 의혹</strong>이 보도됐으며, 이사회는 독립 조사를 진행 중임</li><li><strong>Nvidia 주가</strong>는 미국 증시 개장 직후 13% 넘게 하락해 시가총액 5,000억 달러 이상이 사라졌으나, 오전 장중 낙폭을 약 6%로 줄임</li><li>후임 경영진은 Huang에게 수십 명이 직접 보고하는 <strong>수평적 조직 구조</strong>와 강한 창업자 의존 속에서 사업 및 혁신의 연속성을 투자자에게 입증해야 함</li><li>파장은 <strong>H200의 대중국 수출</strong>과 미국 </li></ul></div>…",
-    "createdAt": "2026-11-12T16:36:35.000+00:00",
-    "link": "https://news.hada.io/topic?id=37062&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
     "title": "Top Types of Hidden Coupling and How to Deal With Them",
     "content": "<p>When you create an architecture diagram, you usually try to show the services, databases, queues, and the connections between these different components. With the help of these diagrams, developers can understand how a request goes through the system and how the data flows. We also get to know which components depend on other components.</p><p>However, these diagrams cannot show all the things that a component might depend on. For example, let’s say you have two services with separate code and API endpoints. At first glance, you might think that these services are independent. But imagine that whenever you change one service, you need to make a change to the other service as well. Or maybe both of these services talk to the same database whose capacity can be consumed by either service. Perhaps both of them rely on a common logging system.</p><p>You can think of these dependencies as hidden forms of coupling. If not handled properly, hidden coupling can have a big impact on the health of your system. Also, it can affect how you change things in your system, or how deployments are done. Or how recovery happens. In this article, we’ll look at the various forms of hidden coupling and how you can deal with them. Here’s what we will cover:</p><ul><li><p>The various dimensions of coupling</p></li><li><p>Temporal coupling</p></li><li><p>Semantic coupling</p></li><li><p>Deployment coupling</p></li><li><p>Shared schemas and libraries</p></li><li><p>Observability coupling</p></li><li><p>Shared incidents</p></li></ul><div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!eI1N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!eI1N!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!eI1N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!eI1N!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 424w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 848w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 1272w, https://substackcdn.com/image/fetch/$s_!eI1N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5222d10d-a1c0-40fc-90a3-be059b555fa4_2650x3068.png 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><h2>The Dimensions of Hidden Coupling</h2>\n      <p>\n          <a href=\"https://blog.bytebytego.com/p/top-types-of-hidden-coupling-and\" target=\"_blank\" rel=\"noopener noreferrer\">\n              Read more\n          </a>\n      </p>\n   ",
     "createdAt": "2026-11-12T16:30:41.000+00:00",
@@ -195,39 +239,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Jensen Huang, Nvidia CEO직 즉시 사임",
-    "content": "<div><ul><li><strong>Jensen Huang</strong>이 Nvidia CEO와 이사회에서 물러나고, CFO <strong>Colette Kress</strong>가 정식 후임자를 찾는 동안 임시 CEO를 맡음</li><li>사임에 앞서 <strong>두 건의 혼외관계 의혹</strong>이 불거졌으며, 상대 중 한 명은 미국 당국이 중국 정보기관과의 연계를 의심하는 인물임</li><li>Nvidia 주가는 <strong>장전 거래에서 10% 넘게 하락</strong>하며 전체 시장에도 부담을 줌</li><li>경영 공백의 핵심 위험은 <strong>실행력과 생태계 조율</strong>에 있음. Huang은 주요 AI 기업에 자금을 재투자하며 복잡한 사업망을 이끌어 왔음</li><li>중국 시장 접근을 유지하려던 Huang의 활동과 Donald Trump 미국 대통령과의 관계를 고</li></ul></div>…",
-    "createdAt": "2026-11-12T15:34:05.000+00:00",
-    "link": "https://news.hada.io/topic?id=37061&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "올바른 소프트웨어를 작성하기 어려운 이유",
-    "content": "<div><ul><li>소프트웨어의 <strong>정확성 확보 비용</strong>은 도구의 부족만이 아니라 계산 자체의 본질적 한계에서 비롯됨. 더 나은 언어와 검증 도구가 도움을 줄 수는 있지만, 모든 프로그램을 쉽게 검증하게 만들 수는 없음</li><li><strong>정지 문제와 계산 복잡도</strong>는 서로 다른 장벽임. 어떤 속성은 일반적으로 판정할 수 없고, 판정 가능한 프로그램에서도 검증에 필요한 시간이나 증명 크기가 현실적인 한계를 넘을 수 있음</li><li>종료를 보장하는 언어, 모듈화, 간결한 추상화도 <strong>일반적인 검증 난도</strong>를 없애지 못함. 올바른 구성요소를 단순하게 조합해도 전체의 정확성 증명은 매우 어려울 수 있음</li></ul></div>…",
-    "createdAt": "2026-11-12T14:42:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=37060&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Nvidia, 젠슨 황 CEO 사임 발표… CFO 콜레트 크레스가 임시 CEO로",
-    "content": "<div><ul><li>Nvidia는 <strong>공동창업자 젠슨 황이 사장, CEO, 이사직에서 물러났다</strong>고 발표. 이사회는 전날 사임을 수리했으며 즉시 효력이 발생함</li><li>2013년부터 재무를 이끌어 온 <strong>Colette Kress 수석부사장 겸 CFO가 임시 CEO</strong>를 맡음. 정식 후임자가 선임될 때까지 CFO를 겸임함</li><li>이사회는 정식 <strong>CEO 후임자 물색</strong>에 착수하며, 내부와 외부 후보를 모두 검토할 예정임</li><li><strong>Harvey C. Jones</strong>가 NVIDIA 최초의 이사회 의장으로 임명됨</li><li>이사회는 <strong>사업 운영, 고객에 대한 약속, 제품 로드맵</strong>이 중단 없이 이어질 것으로 기대하며, 2027 회계연도 3분기 실적 발표도 기존 일</li></ul></div>…",
-    "createdAt": "2026-11-12T14:39:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=37059&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
@@ -1515,17 +1526,6 @@
     "site": {
       "id": "c804bbdd-7f78-4f61-9d2f-712b4219f0de",
       "name": "Outsider's Dev Story"
-    }
-  },
-  {
-    "title": "[Korean FE Article] 브라우저에서 실행되는 코드인가, 브라우저가 실행하는 코드인가",
-    "content": "<div><figure><a href=\"https://substackcdn.com/image/fetch/$s_!lfm2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg\" data-component-name=\"Image2ToDOM\" target=\"_blank\" rel=\"noopener noreferrer\"><div><picture><source srcset=\"https://substackcdn.com/image/fetch/$s_!lfm2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 424w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 848w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 1456w\"><img src=\"https://substackcdn.com/image/fetch/$s_!lfm2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg\" data-attrs=\"{\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!lfm2!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 424w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 848w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!lfm2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7054adf1-0ed6-4fe6-b782-a45865933be0_1672x941.jpeg 1456w\"></picture><div><div><button><svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><g><path></path></g></svg></button><button><svg xmlns=\"http://www.w3.org/2000/svg\"><polyline></polyline><polyline></polyline><line></line><line></line></svg></button></div></div></div></a></figure></div><blockquote><p>글 링크: <a href=\"https://www.yeongseo-blog.site/blog/more-control-equals-less-performance\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yeongseo-blog.site/blog/more-control-equals-less-performance</a></p></blockquote><h2><strong>소개</strong></h2><p>이 글은 웹에서 기능을 구현할 때, 모든 것을 자바스크립트로 직접 제어하기보다 <strong>브라우저가 기본적으로 제공하는 HTML·CSS·네이티브 API를 얼마나 활용할 수 있는지</strong>에 대해 이야기합니다.</p><p>개발자가 직접 구현하면 원하는 동작을 세밀하게 제어할 수 있지만, 그만큼 작성하고 관리해야 할 코드도 늘어납니다. 반면 브라우저에 더 많은 역할을 맡기면 이미 최적화된 기능을 활용할 수 있고, 코드가 단순해지면서 성능이나 유지보수 측면에서도 이점을 얻을 수 있습니다.</p><p>이 글은 여러 사례를 통해 <strong>더 많은 제어권이 항상 더 좋은 결과로 이어지는 것은 아니며</strong>, 직접 구현과 브라우저에 맡기는 방식 사이에서 상황에 맞는 선택을 하는 것이 중요하다는 점을 이야기합니다.</p><h2><strong>팀원들의 의견</strong></h2><blockquote><p>여러분도 자바스크립트로 직접 구현하던 기능을 브라우저의 네이티브 API나 HTML·CSS 기능으로 대체해 본 경험이 있으신가요?</p><p>대체하면서 성능이나 유지보수 측면에서 실제로 얻은 이점이 있었는지, 반대로 세밀한 제어가 필요해 직접 구현을 유지했던 사례가 있다면 함께 이야기해 보고 싶습니다!</p></blockquote><p><strong>💬. 의견 1</strong></p><p>브라우저에서 자체적으로 제공하는 API를 활용해서 특정 기능을 구현했을 때는 성능도 성능이지만 바퀴를 재발명하지 않아도 되었다는 점이 큰 장점으로 느껴졌던 것 같아요. 고수준의 API를 활용하다보니 코드가 짧아져서 관리하기도 편했던 것 같구요. 또 브라우저에서 구현해놓은 기능이다보니 믿고 쓰는 것도 있을 것 같아요!</p><p>직접 구현하는 것은 이런 장점들을 누리지 못하지만 내가 원하는 것들을 직접 커스텀해야만 하는 요구사항 일 때 필요했던 것 같아요!</p><p><strong>💬. 의견 2</strong></p><p>소소한 사례로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code><button><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \"></code>을 활용하는 것이 생각나네요! 어찌 보면 당연한 것이지만, 추상화된 라이브러리들이나 디자인시스템을 사용하다보면 그냥 커스텀하게 만든 버튼에 핸들러만 달고 submit 용으로 사용하는 경우도 많아서요. 원래 제출의 용도로 쓰이라고 만든 submit type을 사용한다면, enter, focus style, disabled 상태 등등 원래 해당 역할을 하는 요소가 모름지기 갖춰야 하는 동작들이나 접근성이 잘 지켜진다는 사실을 종종 잊을 때도 있는것 같아요. 비즈니스 요구사항에 맞게 직접 구현하는 것에 익숙해지다 보면 브라우저가 기본적으로 제공해주는 것을 잊기가 쉬워서 이런 것들을 가끔씩 recap해보는 것도 좋은 것 같네요😊<p></p><h2><strong>목차</strong></h2><ul><li><p>몇 가지 예시</p></li><li><p>은하급 두뇌로 생각하기</p></li><li><p>결국 끝없는 트레이드오프입니다</p></li></ul></button></p>",
-    "createdAt": "2026-09-15T00:30:50.000+00:00",
-    "link": "https://kofearticle.substack.com/p/korean-fe-article-e13",
-    "author": "",
-    "site": {
-      "id": "210c50a6-7b11-45e2-84aa-9ad6659634ee",
-      "name": "Korean FE article"
     }
   },
   {
