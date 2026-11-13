@@ -1,9 +1,9 @@
 [
   {
-    "title": "Nvidia 직원들, Jensen Huang 복귀 청원",
-    "content": "<div><ul><li>Nvidia 일부 직원이 여러 불륜 의혹 보도와 사임 이후에도 <strong>Jensen Huang의 복귀</strong>를 요구하고 있으며, 사내 건의함 게시물에는 <strong>댓글 1,600개 이상</strong>이 달림</li><li>사임 전 올라온 해당 게시물은 이사회가 조치에 앞서 <strong>직원 의견을 고려</strong>하도록 요청했으며, 이후 여러 댓글이 Huang을 복귀시킬 방법을 찾으라고 요구함</li><li>직원들은 <strong>사임 과정의 투명성</strong>도 요구함. 많은 직원이 이사회 조사 결과가 나온 뒤 큰 변화가 있을 것으로 예상했지만, Huang은 조사가 막 시작된 시점에 떠남</li><li>이사회는 최고재무책임자 <strong>Colette Kress를 임시 CEO</strong>로, Harvey Jones를 </li></ul></div>…",
-    "createdAt": "2026-11-13T04:32:27.000+00:00",
-    "link": "https://news.hada.io/topic?id=37095&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "title": "claude.ai, Claude Code, platform.claude.com에서 오류 증가",
+    "content": "<p>claude.ai, Claude Code, platform.claude.com에서 오류 증가</p>\n",
+    "createdAt": "2026-11-13T12:31:20.000+00:00",
+    "link": "https://news.hada.io/topic?id=37111&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -11,11 +11,121 @@
     }
   },
   {
-    "title": "Ask GN: HTML 슬라이드를 PPTX로 바꾸는 변환기, 그림으로 구워지는 요소를 줄이려고 세어 봤습니다. 가상 요소 ...",
-    "content": "<div><p>HTML로 만든 슬라이드를 PowerPoint 파일로 내보내는 변환기를 만들면, 도형과 텍스트 상자로 옮기지 못하는 요소는 그 부분만 PNG로 잘라 넣게 됩니다. 이 그림은 PowerPoint에서 글자처럼 고칠 수 없고, 확대하면 흐려집니다. 제 변환기가 얼마나 그렇게 하는지 세어 봤습니다.</p><p>결과부터 적습니다. 레이아웃 254개에 테마 44개를 입힌 측정 결과 11,176벌에서 요소는 408,267개였고, 그중 그림으로 구워진 것은 2,200개(0.54%)였습니다. 44개 테마에서 목록이 똑같아서 테마당 50개이고, 레이아웃 12개에만 있습니다. 세면서 알게 된 것 세 가지를 적습니다.</p><p><strong>어떻게 쟀나</strong></p></div>…",
-    "createdAt": "2026-11-13T04:32:11.000+00:00",
-    "link": "https://news.hada.io/topic?id=37094&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "decksmith",
+    "title": "IceWM - 속도와 단순함을 지향하는 X Window System 창 관리자",
+    "content": "<div><ul><li><strong>IceWM</strong>은 빠르고 단순하며 사용자 작업을 방해하지 않는 것을 목표로 하는 X Window System용 창 관리자임</li><li><strong>키보드만으로도 사용 가능</strong>하며, 전역/창별 단축키, Alt+Tab 전환, 창 목록으로 애플리케이션 창을 관리함</li><li><strong>다중 작업 공간</strong>과 RandR/Xinerama 기반 다중 모니터를 지원하고, GNOME 및 KDE 환경에서도 사용할 수 있음</li><li><strong>테마와 설정</strong>으로 외형과 동작을 바꿀 수 있으며, 설정 변경 시 메뉴를 다시 생성하는 동적 메뉴 시스템을 갖춤</li><li>주요 Linux 배포판과 대부분의 BSD에서 사용할 수 있으며, 홈페이지 기준 최신 릴리스는 <strong>4.1.0</strong>임</li></ul><hr><h2>창 관리</h2></div>…",
+    "createdAt": "2026-11-13T11:32:32.000+00:00",
+    "link": "https://news.hada.io/topic?id=37110&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 여기서맛나 - 함께 만날 장소를 쉽게 정할 수 있게 도와주는 투표 툴",
+    "content": "<div><p>약속을 잡을 때 여러 장소들 중 어디서 만나는게 좋을지 정하는 과정이 불편하지는 않으셨나요?<br> 카톡이랑 네이버/다음 지도를 왔다 갔다 하며 여러 음식점들을 확인하는게 귀찮지는 않으셨나요?</p><p>이 과정을 더 편하게 만들고자 '여기서맛나'라는 웹앱을 만들었습니다.<br> 이용 순서는 다음과 같습니다.</p><ol><li>모임을 만듭니다.</li><li>음식점이나 카페의 링크들을 추가 합니다. 네이버지도, 다음지도, 캐치테이블, 구글맵을 지원 합니다.</li><li>모임의 링크를 만나는 사람들에게 전달합니다.</li><li>링크를 받은 사람은 투표를 합니다.</li></ol><p>'여기서맛나'의 특징들 입니다.</p></div>…",
+    "createdAt": "2026-11-13T11:14:36.000+00:00",
+    "link": "https://news.hada.io/topic?id=37109&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "keunwoo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: Quiet Scanner - IP 충돌 장비를 MAC별로 확인하고 한 대씩 접속하는 스캐너",
+    "content": "<div><p>CCTV·AV·네트워크 설치 현장에서 쓰려고 만든 오픈소스 데스크톱 도구입니다.</p><p>같은 IP를 사용하는 장비가 여러 대인데 기존 스캐너에는 한 대만 보이거나, 어느 장비인지 확인하려고 케이블을 하나씩 뽑아야 하는 일이 있어 만들었습니다.</p><ul><li>ARP 응답을 반복 수집해 같은 IP에 응답하는 서로 다른 MAC을 모아 보여 줍니다.</li><li>충돌 목록에서 장비 하나를 선택하면, 이 PC의 해당 IP 연결 대상을 선택한 MAC으로 임시 고정합니다. 관리 페이지에서 IP 변경 등의 작업을 한 뒤 해제하는 흐름입니다. 장비 자체의 IP를 바꾸거나 다른 PC의 통신을</li></ul></div>…",
+    "createdAt": "2026-11-13T10:13:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=37108&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "guk0731",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Microsoft Outlook/365, 12시간이 지나도 장애 지속",
+    "content": "<div><ul><li><strong>Microsoft Outlook/365 장애</strong>가 12시간이 지난 뒤에도 이어지고 있음</li><li>Microsoft는 <strong>서비스 개선을 위해 적용한 변경 사항</strong>을 모니터링했으나, 기대한 효과를 내지 못한 것을 확인함</li><li><strong>트래픽 관리 불균형</strong>이 지속되는 상황에서 용량을 늘릴 대안을 찾고 있음</li><li>추가 장애 정보는 <strong>Microsoft 365 관리 센터</strong>의 EX1550543 및 MO1550821에서 확인할 수 있음</li><li>관리 센터에 접근할 수 없는 사용자를 위해 <strong>별도 안내 링크</strong>도 제공함</li></ul><hr><h2>장애 지속과 대응 상황</h2><ul><li><strong>Outlook/365 장애</strong>가 12시간 이상 이어지고 있으며, 서비스 개선을 위해 적용한 변경 사항도 기대한 </li></ul></div>…",
+    "createdAt": "2026-11-13T09:32:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=37106&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "비개발자가 AI에게 일을 맡기며 여기서 물어본 세 가지, 받은 답을 정리했습니다",
+    "content": "<div><p>영업 일을 하는 비개발자입니다. 그동안 Ask에 몇 번 질문을 올렸는데, 답이 너무 좋아서 세 개를 골라 제 말로 정리해 봤습니다.</p><ul><li>AI가 쓴 메일이 딱 봐도 AI 같을 때</li><li>AI가 확인했다고 해 놓고 실제로는 안 봤을 때</li><li>맡긴 일의 기록을 어디에 남길지</li></ul><p>정리하고 보니 방법은 다 달랐는데, 다들 마지막엔 직접 읽고 다시 열어 보고 계셨어요. 기록 다섯 칸 중 \"아직 확인하지 못한 것\" 칸은 바로 따라 해 보고 있습니다.</p><p>답해 주신 분들께 감사드립니다. 닉네임은 빼고 적었습니다.</p></div>",
+    "createdAt": "2026-11-13T09:09:40.000+00:00",
+    "link": "https://news.hada.io/topic?id=37105&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "dkkim1110",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "22년 된 PostgreSQL 타입 혼동 기법을 원격 코드 실행으로 발전시키기",
+    "content": "<div><ul><li><strong>복합 타입의 필드 타입을 바꿔도 준비된 쿼리에 남는 이전 값</strong>을 이용해, 다른 타입의 네이티브 함수가 해당 데이터를 처리하도록 만들고 원격 코드 실행으로 연결함</li><li>PostgreSQL의 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Datum</code>은 자체 타입 정보를 갖지 않음</strong>. 외부 타입 메타데이터와 실제 값이 어긋나면 정수, 포인터, 내부 객체를 잘못 해석할 수 있음</li><li><strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">uuid</code> 필드를 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">bytea</code>로 변경</strong>해 제어 가능한 UUID 바이트를 내부 확장 객체 참조로 해석시켰으며, 최소 권한 로그인 역할로 최초 충돌을 재현함</li><li>같은 타입 혼동을 <strong>배열과 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">unnest()</code>에 적용해 메모리 주소를 유출</strong>하고, 위조한 확장</li></ul></div>…",
+    "createdAt": "2026-11-13T08:34:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=37104&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Gemini 네트워크의 반마케팅적 특성",
+    "content": "<div><ul><li><strong>Gemini</strong>는 Google 챗봇보다 먼저 존재한 네트워크로, 개인 공간인 ‘캡슐’ 수가 서서히 늘고 있지만 Hacker News 첫 화면 노출과 월별 신규 캡슐 수 사이에는 상관관계가 관찰되지 않음</li><li>Ploum은 이를 <strong>방문자 수와 클릭 수</strong>가 실제 가치를 보여주지 못하는 사례로 보고, 대중과 비슷해지기보다 차별성을 유지하며 자신만의 틈새를 가꾸는 데 가치를 둠</li><li><strong>2013년 블로그 통계를 제거</strong>한 개인적 경험에서도, 오랫동안 독자의 메일을 이끌어낸 글은 통계가 저조한 반면 크게 화제가 된 글은 빨리 잊혔음</li><li>소셜 계정을 닫고 Gemini를 이용하면서 <strong>반</strong></li></ul></div>…",
+    "createdAt": "2026-11-13T07:01:52.000+00:00",
+    "link": "https://news.hada.io/topic?id=37102&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Edge0-145B: 개인 컴퓨터에서 쓰는 프런티어 AI 역량",
+    "content": "<div><ul><li>Edge0가 <strong>145B/120B 모델과 통합 추론 프레임워크, 배포 도구</strong>를 오픈소스로 공개함. 코딩, 추론, 에이전트 작업을 개인 컴퓨터에서 실행하고 평가, 미세조정, 제품 통합에 활용할 수 있음</li><li><strong>Edge0-145B</strong>는 호환 노트북에서 최대 메모리 29GB, 프리필 초당 1,100토큰 이상, 생성 초당 80토큰 이상을 기록했다는 자체 측정 결과를 공개함</li><li>자체 평가에서 <strong>DeepSWE 1.1 64.6점, Terminal-Bench 2.1 86.52점</strong>으로 일부 프런티어 클라우드 모델과 경쟁력 있는 결과를 보임. 비교는 명시된 모델과 평가에 한정되며, 경쟁 모델의 메모리 수치는 실측이 아닌 추정치임</li></ul></div>…",
+    "createdAt": "2026-11-13T06:35:26.000+00:00",
+    "link": "https://news.hada.io/topic?id=37100&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Foundation Models framework - 온디바이스와 클라우드 LLM을 통합하는 Swift API",
+    "content": "<div><ul><li><strong>Foundation Models framework</strong>는 앱에서 온디바이스 Apple Foundation Models부터 클라우드 모델까지 같은 Swift API로 사용할 수 있게 하며, 가이드 생성과 도구 호출 등을 지원함</li><li><strong>이미지 이해</strong> 기능으로 텍스트와 이미지를 함께 프롬프트에 전달할 수 있으며, 통합된 Vision 프레임워크의 OCR과 바코드 읽기 도구를 온디바이스에서 활용 가능함</li><li><strong>Dynamic Profiles</strong>는 하나의 연속된 세션 안에서 모델, 도구, 지침 등을 전환하는 선언형 API로, 프로필을 바꿔도 세션 대화 기록을 공유함</li><li><strong>Private Cloud Compute</strong>의 Apple Foundation Models는</li></ul></div>…",
+    "createdAt": "2026-11-13T05:37:19.000+00:00",
+    "link": "https://news.hada.io/topic?id=37098&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "전 Nvidia CEO Jensen Huang, 두 번째 직원과도 친밀한 관계 의혹",
+    "content": "<div><ul><li>사안을 아는 <strong>소식통 2명</strong>에 따르면, Nvidia CEO 자리에서 물러난 <strong>Jensen Huang</strong>이 두 번째 직원과도 친밀한 관계를 맺었음</li><li>이번 의혹은 <strong>다른 두 건의 혼외 관계</strong>로 Huang이 목요일 사임한 뒤 나왔음</li><li>기존 관계의 상대방으로는 <strong>Alice Huang</strong>과 Nvidia 헬스케어 부문 부사장 <strong>Kimberly Powell</strong>이 지목됐으며, 미국 정보당국은 Alice Huang을 중국 스파이로 의심하고 있음</li><li>Huang은 Alice Huang과의 관계에 관한 보도 이후 <strong>11월 8일 성명</strong>에서 혼외 관계를 인정했으나, 상대방 이름은 밝히지 않았음</li><li><strong>Nvidia는 논평을 거부</strong>했으며, Huang과 Powell, Nv</li></ul></div>…",
+    "createdAt": "2026-11-13T05:34:18.000+00:00",
+    "link": "https://news.hada.io/topic?id=37097&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nvidia 직원들, Jensen Huang 복귀 청원",
+    "content": "<div><ul><li>Nvidia 일부 직원이 여러 불륜 의혹 보도와 사임 이후에도 <strong>Jensen Huang의 복귀</strong>를 요구하고 있으며, 사내 건의함 게시물에는 <strong>댓글 1,600개 이상</strong>이 달림</li><li>사임 전 올라온 해당 게시물은 이사회가 조치에 앞서 <strong>직원 의견을 고려</strong>하도록 요청했으며, 이후 여러 댓글이 Huang을 복귀시킬 방법을 찾으라고 요구함</li><li>직원들은 <strong>사임 과정의 투명성</strong>도 요구함. 많은 직원이 이사회 조사 결과가 나온 뒤 큰 변화가 있을 것으로 예상했지만, Huang은 조사가 막 시작된 시점에 떠남</li><li>이사회는 최고재무책임자 <strong>Colette Kress를 임시 CEO</strong>로, Harvey Jones를 </li></ul></div>…",
+    "createdAt": "2026-11-13T04:32:27.000+00:00",
+    "link": "https://news.hada.io/topic?id=37095&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
@@ -114,116 +224,6 @@
     "content": "<div><ul><li>Common Lisp 프로그래밍 서적 <strong>Let Over Lambda</strong> 전체가 2026년 업데이트를 통해 온라인에 무료로 공개됨</li><li>전문은 <strong>HTML과 PDF</strong> 두 형식으로 읽을 수 있음</li><li>책의 중심 주제는 프로그램을 작성하는 프로그램인 <strong>매크로</strong>이며, 기초부터 Common Lisp의 고급 기능까지 다룸</li><li>당장 프로그래밍 문제 해결에 활용할 <strong>매크로 작성 기법</strong>을 가르치는 동시에, 평소 접하기 어려운 프로그래밍 아이디어를 탐구하도록 구성함</li><li><strong>2008년 출간</strong> 이후 Lisp과 프로그래밍 관행이 많이 달라졌지만, 여전히 <strong>Lisp의 특별함을 이해하는 튜토리얼</strong>로서 가치가 있다는 것이 2026</li></ul></div>…",
     "createdAt": "2026-11-13T00:01:24.000+00:00",
     "link": "https://news.hada.io/topic?id=37084&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "데이터센터에 필요한 전력, 저소득층과 농촌 주민이 대가를 치른다",
-    "content": "<div><ul><li>Cornell 연구진이 미국 주요 전력망 4곳을 분석한 결과, 2025년 데이터센터는 확장에 따른 <strong>전력 인프라 비용의 38%</strong> 만 부담했고 나머지 62%는 주로 주민에게 돌아감</li><li>기존의 <strong>과거 전력 소비량 기준 비용 배분</strong>은 아직 전력을 쓰지 않는 신규 데이터센터의 수요를 반영하지 못해, 확장에 필요한 인프라 비용 상당 부분을 가계에 전가함</li><li>부담은 <strong>저소득층과 농촌 가구</strong>에 불균형하게 집중됐으며, 최저소득 가구의 추가 에너지 비용은 소득의 최대 28%에 달함</li><li>데이터센터 용량 1GW당 경제 전반에서 <strong>일자리 1만 5,000개</strong>를 창출할 수 있지만, 주정</li></ul></div>…",
-    "createdAt": "2026-11-12T23:38:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=37082&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "태양을 한 바퀴 도는 데 약 280년 걸리는 왜소행성 후보 발견",
-    "content": "<div><ul><li>칠레 <strong>Vera C. Rubin Observatory</strong> 관측 데이터에서 왜소행성 후보 <strong>2026 ED138</strong>이 발견됨. 태양까지의 거리는 지구의 46배이며 공전 주기는 281.1년임</li><li>최근 10년간의 관측 영상과 <strong>1937년 사진 건판</strong>에서도 같은 천체를 확인해 실재 여부와 궤도를 검증함</li><li>추정 지름은 <strong>370~930마일</strong>이지만, 밝기만으로는 크기와 반사율을 구분할 수 없어 <strong>왜소행성 분류는 아직 확정되지 않음</strong></li><li>크기를 확인하려면 <strong>열복사 관측</strong>이나 별빛을 가리는 시간을 재는 <strong>엄폐 관측</strong>이 필요하며, ALMA 등을 이용한 후속 관측을 준비 중임</li><li>ED138은 별빛이 밀집한 은하 중심 방향</li></ul></div>…",
-    "createdAt": "2026-11-12T23:35:47.000+00:00",
-    "link": "https://news.hada.io/topic?id=37081&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: kr-career-skill - 채용 사이트 270 여곳의 공고 검색과 기업분석 및 자소서 초안 작성을 하는 한국 취...",
-    "content": "<div><p>취업·이직용 에이전트 스킬입니다.</p><p>퇴근하면 체력이 바닥나서 저녁 먹고 나면 이직 준비할 여력이 없다는 친구가 있어, 그 친구를 생각하며 만들었습니다. 공고를 찾고 초안을 잡는 일을 에이전트에게 맡기면 덜 지치게 할 수 있을까 싶었습니다.</p><p><strong>쓰는 법</strong></p><p>에이전트에 아래 한 줄을 보내면 직무·지역·경력 등을 몇 가지 물은 뒤 바로 첫 공고를 찾아 줍니다. 이후엔 \"오늘 새 공고 찾아줘\", \"이 공고로 자소서 써줘\"처럼 말하면 됩니다.</p><p><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">https://raw.githubusercontent.com/Whosekey-Labs/kr-career-skill/main/SKILL.md 이 스킬 설치하고</code></p></div>…",
-    "createdAt": "2026-11-12T22:57:53.000+00:00",
-    "link": "https://news.hada.io/topic?id=37079&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "myohoon95",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Google Antigravity에 Orchestrator 추가, 코딩 중 Carbon과 Hydrogen 자동 전환",
-    "content": "<div><ul><li>Google Antigravity의 모델 선택 메뉴에 <strong>Gemini 4 Hydrogen</strong>과 <strong>Orchestrator</strong>가 추가됨</li><li><strong>Orchestrator</strong>는 한 코딩 세션에서 작업 단계에 따라 <strong>Carbon과 Hydrogen을 자동으로 전환</strong>함. Carbon이 계획을 세우고, Hydrogen이 코드 수정과 테스트를 이어받는 식</li><li>Antigravity 팀의 <strong>Terminal-Bench 4.1</strong> 평가에서 Carbon 단독에 가까운 성공률을 기록함. 평균 <strong>할당량은 24% 덜 쓰고, 작업은 19% 더 빠르게 완료</strong>함</li><li><strong>Hydrogen</strong>은 일상적인 코딩에 단독으로 쓸 수 있으며, 추론 수준은 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">low</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">medium</code>, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">high</code>(기본값), <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">xhigh</code> 중 선택할 수 있음</li><li>Antigravity에서</li></ul></div>…",
-    "createdAt": "2026-11-12T21:38:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=37077&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 300달러짜리 자수기에 구독이 필요해서 직접 앱을 만들었다",
-    "content": "<div><ul><li><strong>ZigZag</strong>는 SVG 그림을 자수 바늘땀으로 변환하고 시각적으로 편집하는 Rust 앱으로, 자수기용 파일을 내보내거나 Brother Skitch에 직접 전송할 수 있음</li><li><strong>MCP</strong>를 내장해 AI 에이전트가 사용자가 보고 있는 문서를 함께 편집하며, Claude Code나 Codex가 디자인을 만드는 과정을 편집기에서 확인할 수 있음</li><li><strong>Illustrator 방식의 벡터 편집</strong>과 이미지 자동 추적, 글자 배치, 실 색상 관리, 다양한 자수 기법을 한 작업 흐름으로 묶음</li><li><strong>Brother Skitch(PP1) Bluetooth 연결</strong>로 디자인 전송부터 시험 운전과 진행 상황 확인까지 지원하지만, 프로토콜</li></ul></div>…",
-    "createdAt": "2026-11-12T21:35:41.000+00:00",
-    "link": "https://news.hada.io/topic?id=37076&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jane Street의 소프트웨어 엔지니어링 면접이 조금 달라집니다",
-    "content": "<div><ul><li><strong>Jane Street</strong>가 대학생 지원자의 현장 면접에서 코드 작성 비중을 줄이고, 소프트웨어 설계와 코드 검증, LLM 활용을 평가하는 새 면접 유형을 시험 중임</li><li>코드 생성 비용이 낮아지면서 <strong>무엇을 만들지 판단하는 안목</strong>, 오래 유지할 수 있는 추상화 선택, 구현의 정확성 확인이 더욱 중요해졌다는 판단에 따른 변화임</li><li><strong>대부분의 면접 라운드</strong>는 LLM 도움 없이 진행하는 기존 코딩 면접을 유지하며, 나머지 채용 절차도 바뀌지 않음</li><li>지원자에게 정교한 <strong>에이전트 활용 방법론</strong>이나 특정 도구 구성을 요구하지 않으며, 모든 작업에 LLM을 사용하기를</li></ul></div>…",
-    "createdAt": "2026-11-12T21:21:12.000+00:00",
-    "link": "https://news.hada.io/topic?id=37075&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "xguru",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AMD In-Depth에서 Mike Clark과 나눈 Zen 6 심층 대화",
-    "content": "<div><ul><li><strong>Zen 6 제품군</strong>은 기존 설계를 고주파수 중심으로, 고밀도 설계인 <strong>Zen 6c</strong>를 높은 IPC 중심으로 발전시킴</li><li><strong>Zen 6c</strong>는 낮은 목표 주파수 덕분에 내부 큐를 키워 IPC와 SMT 활용도를 높이지만, 두 코어에 서로 다른 소프트웨어 최적화가 필요하지 않도록 설계함</li><li>Zen 5의 <strong>듀얼 디코드 프런트엔드</strong>를 개선해 명령 전달 효율과 전력 효율을 높이고, 분기 예측 실패 후 복구 시간도 단축함</li><li>실행부는 효과가 크지 않았던 정수 곱셈기를 <strong>3개에서 2개로 줄이는 대신</strong>, 추론 수요를 고려해 <strong>VNNI 파이프 2개를 추가</strong>함</li><li>인터뷰어의 <strong>Zen 6c 실측</strong>에서는 낮은 클</li></ul></div>…",
-    "createdAt": "2026-11-12T20:35:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=37074&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Microsoft Outlook, 대규모 접속 장애 발생",
-    "content": "<div><ul><li>11월 12일(미국 현지시간) <strong>Exchange Online 장애</strong>로 Outlook에서 메일함을 열거나 메일을 주고받는 데 문제가 발생함. Outlook 장애 신고는 한때 약 <strong>60만 건</strong>에 달함</li><li>Outlook 외에도 <strong>Microsoft 365, Copilot, Teams, Microsoft Store, OneDrive</strong>에서 사용자들의 장애 신고가 이어짐</li><li>Microsoft는 미주 지역에서 여러 연결 방식을 통한 <strong>Exchange Online 사서함 접근 문제</strong>를 조사 중</li><li><strong>자동 상태 검사에 실패한 서버들이 서비스에서 빠지면서</strong> 남은 서버에 부하가 몰림. Microsoft는 대체 검사 방식으로 일부 서버를 복귀시킨 뒤 적용 범위를 넓힘</li></ul></div>…",
-    "createdAt": "2026-11-12T20:32:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=37073&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "닌텐도, GitHub의 Switch 에뮬레이터와 모드칩 펌웨어에 DMCA 삭제 요청",
-    "content": "<div><ul><li>닌텐도가 GitHub에 <strong>DMCA 삭제 통지 4건</strong>을 보내 Switch 에뮬레이터와 모드칩 펌웨어 저장소를 겨냥함</li><li>이번 조치는 <strong>모드칩 펌웨어에 초점</strong>을 맞춘 것으로 보이며, <strong>Picofly 펌웨어 원본 저장소와 포크를 포함한 144개 저장소</strong>의 접근을 차단함</li><li><strong>Picofly 같은 모드칩</strong>은 Switch 메인보드에 납땜한 뒤 해당 펌웨어를 설치해 Nintendo의 복제 방지 장치를 우회할 수 있음</li><li><strong>Citron Neo 관련 저장소 71개</strong>도 차단됨. 별도 통지의 대상이 된 <strong>Yuzu 저장소 2개</strong>는 소유자가 코드와 커밋 이력을 지움.</li><li>닌텐도는 <strong>모드칩 펌웨어가 Switch의 부팅 검증을 우회</strong>해</li></ul></div>…",
-    "createdAt": "2026-11-12T19:55:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=37072&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "작고 오래된 기기에서도 LLM이 돌아가게 만들고 있습니다",
-    "content": "<div><ul><li><strong>smolmaxxing</strong>은 TV 박스와 오래된 iPad에서 실행 가능한 최대 규모의 언어 모델을 찾고, 맞춤형 커널과 메모리 최적화, 가중치 스트리밍으로 성능을 끌어올리는 프로젝트임</li><li>실사용 RAM이 약 1GB인 <strong>Xiaomi TV Box S 3세대</strong>에서 Qwen3.5-2B는 실제 채팅 기준 7.7 tok/s, 8B MoE 모델은 7.2 tok/s, 16B MoE 모델은 5.1 tok/s로 실행됨</li><li><strong>2013년형 iPad Air</strong>에서는 CPU만으로 Bonsai-1.7B가 23.7~25.8 tok/s에 도달함. 다만 iOS 12.5.7 탈옥이 필요하며, 긴 대화에서는 18~22 tok/s 수준임</li><li>RAM보다 큰 모델은 <strong>플래시 대역폭</strong>이 속도를 제한함. MoE </li></ul></div>…",
-    "createdAt": "2026-11-12T19:52:37.000+00:00",
-    "link": "https://news.hada.io/topic?id=37071&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
