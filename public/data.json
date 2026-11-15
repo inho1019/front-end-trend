@@ -1,5 +1,148 @@
 [
   {
+    "title": "Project Zero, 취약점 신고 90일 후 상세 정보 공개하기로",
+    "content": "<div><ul><li>Project Zero가 패치 여부와 관계없이 신고 후 정해진 날짜에 취약점을 공개하는 <strong>Full X 정책</strong>을 도입함. 기존의 최대 90일 수정 기간과 추가 30일 패치 배포 대기 기간을 대체함</li><li>우선 <strong>Full 90</strong>을 적용하고, 2027년 2월 2일부터 60일, 2028년 1월 3일부터 30일로 공개 기한을 단계적으로 단축함</li><li><strong>LLM</strong>이 취약점 발견과 악용, 패치 역공학을 가속하면서 공개 지연의 보호 효과가 줄어듦. 공급사는 수정 속도뿐 아니라 패치 출시부터 사용자 설치까지의 <strong>패치 격차</strong>도 줄여야 함</li><li>유예 기간과 변종 취약점 정책 등 대부분의 <strong>특수 규정</strong>을 없애 양측</li></ul></div>…",
+    "createdAt": "2026-11-15T03:36:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=37190&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show HN: 순수 JAX 약 200줄로 구현한 DeepSeek V3",
+    "content": "<div><ul><li><strong>DeepSeek-V3 아키텍처를 순수 JAX 190줄로 구현</strong>하고, MacBook Air에서 퍼블릭 도메인 추리소설로 처음부터 사전학습한 프로젝트임</li><li>Flax, Equinox, PyTorch 없이 <strong>배열 딕셔너리와 함수</strong>로 모델을 구성하며, MLA, DeepSeekMoE, 전문가 부하 균형, 다중 토큰 예측 등 논문의 주요 구조를 담음</li><li>MacBook Air M5 24GB에서 <strong>3,620만 파라미터 모델</strong>을 약 2.6시간 학습했으며, 검증 손실은 250스텝의 5.02에서 최종 3.51로 낮아짐</li><li>전문가별 라우팅 편향을 적용하면 <strong>전문가 부하가 고르게 분산</strong>됐고, 2,000스텝에서 편향 적용 여부에 따른 검증 손실은</li></ul></div>…",
+    "createdAt": "2026-11-15T03:33:49.000+00:00",
+    "link": "https://news.hada.io/topic?id=37189&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Nvidia, 순환 금융 거래로 GPU 가격을 의도적으로 높게 유지했다는 의혹",
+    "content": "<div><ul><li>Nvidia가 <strong>자사 칩을 구매하는 고객사에 자금을 지원</strong>해 수요를 만들고 GPU 가격을 높게 유지하려 했다는 의혹이 나옴</li><li>Wall Street Journal 보도에 따르면, Nvidia는 <strong>TSMC 웨이퍼 공급 과잉</strong>을 흡수하고 높은 GPU 가격을 유지하려고 2026년 중후반 추가 금융 거래를 추진함</li><li>당시 CFO였던 <strong>Colette Kress는 거래 규모를 우려</strong>했으며, Nvidia는 이후 OpenAI와의 계약을 비롯한 일부 자금 지원 거래를 늦추거나 축소 또는 중단함</li><li>AI 데이터센터가 소비자 기기용 메모리 생산 능력을 흡수하면서 가격이 올랐으며, <strong>GeForce 가격은 당초 권장소비자가</strong></li></ul></div>…",
+    "createdAt": "2026-11-15T02:33:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=37187&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "LinkedIn과 Monster, CBC 조사 후 가짜 채용 공고 1,000건 이상 삭제",
+    "content": "<div><ul><li><strong>LinkedIn과 Monster</strong>에 올라온 경력 불필요 원격근무 공고 약 1,500건이 실제 채용이 아닌 미국 다단계 마케팅 업체 <strong>Evolution Travel</strong>의 유료 가입으로 지원자를 유도한 것으로 드러남</li><li>일부 공고는 <strong>연봉 최대 미화 7만 5,000달러</strong>를 약속했지만 일자리나 급여는 없었으며, 지원자는 초기 비용과 월 구독료를 내는 여행 판매 프로그램 설명회로 안내받음</li><li>프로그램은 여행 예약 수수료뿐 아니라 <strong>신규 회원 모집</strong>으로도 수익을 얻는 구조였으나, 채용 공고에는 Evolution Travel의 이름이나 가입 비용이 없었음</li><li><strong>LinkedIn은 약 900건, Monster는</strong></li></ul></div>…",
+    "createdAt": "2026-11-15T01:32:57.000+00:00",
+    "link": "https://news.hada.io/topic?id=37186&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "컨텐츠 플랫폼에서 웹인프라서비스의 시대로",
+    "content": "<div><p>AI와 웹 인프라 서비스의 결합은 인터넷의 중심을 바꾸고 있다. 개인도 이제 블로그나 SNS 같은 기존 플랫폼에 의존하지 않고, 자신만의 웹앱과 온라인 공간을 쉽게 만들고 운영할 수 있다. 각자의 필요에 맞게 만든 공간들이 서로 연결된다면, 새로운 형태의 인터넷과 SNS가 등장할 수 있다.</p></div>",
+    "createdAt": "2026-11-15T01:24:24.000+00:00",
+    "link": "https://news.hada.io/topic?id=37185&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "kkukjin",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "ChatGPT 내 비즈니스 기능 소개",
+    "content": "<div><ul><li>OpenAI가 기업이 <strong>ChatGPT에서 비즈니스 소유권을 등록하고 정보를 관리하며 고객과 소통</strong>할 수 있는 새로운 비즈니스 기능을 베타로 공개함. 매주 ChatGPT를 사용하는 <strong>12억 명의 사용자</strong>와 기업을 연결하는 것이 목표</li><li>기업은 <strong>비즈니스 허브(Business Hub)</strong> 에서 소유권을 인증하고 주요 정보와 제품 피드를 직접 관리할 수 있음. 제품 피드에는 가격과 판매 가능 여부를 포함할 수 있으며, Shopify 판매자는 기존 스토어를 연결해 인증을 간소화할 수 있음</li><li>기업은 ChatGPT에서 자사가 <strong>언급된 횟수, 웹사이트 클릭 수, 자사 웹사이트가 인용된 대화의 주요 주제</strong> 등을 집계된 인사이트로 확인할 수 있음. 개별 사용자 대화는 공유되지 않으며 충분한 상호작용이 쌓인 경우에만 통계가 제공됨</li></ul></div>…",
+    "createdAt": "2026-11-15T00:50:01.000+00:00",
+    "link": "https://news.hada.io/topic?id=37183&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "소프트웨어 직무명의 계보",
+    "content": "<div><ul><li>1940년대부터 현재까지 <strong>104개 소프트웨어 직무명</strong>을 연결한 대화형 계보도로, 직무의 기원과 분화, 상호 영향을 살펴볼 수 있음</li><li>직무를 <strong>7개 계열</strong>과 5년 단위 시간축으로 배치하고, 실선은 파생 관계를, 점선은 영향 관계나 흔한 경력 이동을 나타냄</li><li>웹마스터의 분화와 풀스택의 등장처럼 직무는 <strong>분리와 재통합</strong>을 반복하며, 프롬프트 엔지니어처럼 다른 직무에 빠르게 흡수되는 경우도 있음</li><li><strong>Systems Engineer</strong>는 시대에 따라 서로 다른 직무를 가리켰고, 최근의 FDE는 1960년대 IBM 고객 현장 업무와 닮아 있어 새 이름이 반드시 새로운 일을</li></ul></div>…",
+    "createdAt": "2026-11-15T00:33:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=37182&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Text.js - 브라우저 콘솔에서 동작하는 앱을 만드는 React 프레임워크",
+    "content": "<div><ul><li>React 컴포넌트와 훅으로 <strong>텍스트 UI와 키 입력을 정의</strong>하면, Text.js가 브라우저 개발자 도구의 <strong>Console 탭</strong>에 앱을 렌더링</li><li><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Box</code>와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">Text</code>로 레이아웃을 잡고 <strong>표, 차트, 폼, 명령 팔레트</strong>를 조합해 키보드로 조작하는 대시보드나 도구를 제작</li><li>React 상태가 바뀌면 Yoga로 화면을 문자 격자에 배치하고, <strong>변경된 프레임만 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">console.log()</code> 한 번</strong>으로 출력</li><li><strong>파일 기반 라우팅</strong>으로 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">app/</code> 아래에 페이지와 공통 레이아웃을 정의하고, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">route.ts</code>로 같은 프로젝트에 API를 추가</li><li>DB 조회가 필요한 페이지는 <strong>서버에서 렌더링해 화면을 콘솔로 스트리밍</strong>하며, 브</li></ul></div>…",
+    "createdAt": "2026-11-15T00:30:02.000+00:00",
+    "link": "https://news.hada.io/topic?id=37181&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "xguru",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "OpenAI, 범용 모델이 로봇을 제어하기 시작하면서 로보틱스 팀 해체",
+    "content": "<div><ul><li><strong>OpenAI가 독립 로보틱스 팀을 해체</strong>하고 인력을 기존 연구 및 응용 조직으로 재배치함. 회사는 로봇 개발 철수가 아니라 범용 로봇 개발을 가속하기 위한 개편이라고 밝힘</li><li>개편의 계기는 <strong>GPT-6 Astra 등 범용 모델을 로봇에 직접 적용할 수 있다는 발견</strong>임. 로봇 전용 모델을 별도로 개발하기보다 언어, 코드, 시각 모델의 역량을 활용하는 방식에 무게를 둠</li><li>Nvidia 연구에서 Astra 기반 에이전트는 <strong>시뮬레이션 조작 벤치마크 성공률 74.8%</strong> 를 기록해 최고 로봇 특화 모델의 51.0%를 웃돌았음. 실제 로봇이 아닌 디지털 환경의 결과임</li><li>전문</li></ul></div>…",
+    "createdAt": "2026-11-14T23:34:39.000+00:00",
+    "link": "https://news.hada.io/topic?id=37180&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "PyPI, 보안 신호를 더 명확히 보여주는 개편된 프로젝트 페이지 공개",
+    "content": "<div><ul><li>PyPI 프로젝트 페이지에 <strong>보안 탭</strong>이 추가됨. 파일별 디지털 증명으로 <strong>어떤 워크플로가 파일을 게시했는지</strong>, 빌드 증명이 있다면 <strong>어느 소스 커밋에서 빌드됐는지</strong> 확인할 수 있음</li><li><strong>출처 상태</strong>는 릴리스 파일의 증명 보유 여부로 계산함. 증명이 없다는 사실만으로 악성 파일인 것은 아니며, 파일의 출처를 암호학적으로 검증할 수 없다는 뜻임</li><li><strong>일부 파일에만 증명이 있거나</strong>, 같은 릴리스의 파일이 서로 다른 저장소나 빌드 시스템에서 만들어지면 경고를 표시함. 이전 릴리스와 비교해 저장소나 워크플로가 바뀌거나 증명이 사라진 경우도 알림</li></ul></div>…",
+    "createdAt": "2026-11-14T22:36:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=37178&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "SpaceX, Starship 포획으로 15차 비행 마무리",
+    "content": "<p>SpaceX, Starship 포획으로 15차 비행 마무리</p>\n",
+    "createdAt": "2026-11-14T22:33:47.000+00:00",
+    "link": "https://news.hada.io/topic?id=37177&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "코끼리의 고립 심화로 사회적 연결망이 분절됨",
+    "content": "<div><ul><li>UC San Diego 연구진이 스리랑카의 <strong>야생 암컷 아시아코끼리 440마리 이상을 12년간 분석</strong>한 결과, 개체군 감소와 함께 사회 집단이 작아지고 서로 고립되는 변화를 확인함</li><li>개체 손실이 서서히 누적된 뒤 연결망이 급격히 바뀌어, 개체군이 <strong>사회적 임계점</strong>을 넘어섰을 가능성이 있음</li><li>단순히 개체 수 감소로 관계 수가 줄어든 것뿐 아니라, <strong>남아 있는 코끼리 사이의 관계 자체도 변화</strong>함</li><li>코끼리는 사회적 관계를 통해 <strong>먹이 탐색, 정보 획득, 새끼 양육</strong>을 수행하므로 연결망의 분절이 우려되며, 임계점을 지난 뒤에는 이전 상태로 돌아가기 어려</li></ul></div>…",
+    "createdAt": "2026-11-14T21:36:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=37176&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Microsoft 장애, 고객들에게 Microsoft 의존도를 뼈저리게 깨닫게 하다",
+    "content": "<div><ul><li><strong>Microsoft 365의 장시간 장애</strong>로 이메일, Teams 메시징, 파일 접근, Copilot 등 여러 업무 서비스가 영향을 받으면서, 기업들이 Microsoft 생태계에 얼마나 깊이 의존하는지 드러남</li><li>Microsoft는 11월 12일 18:26 GMT에 장애가 시작됐다고 밝혔으며, <strong>Exchange Online, Microsoft 365 Education</strong> 등에서 문제가 발생함. 13일 14:01 GMT에는 서비스 가용성이 개선되고 있다고 발표함</li><li>Nextcloud 공동 창업자 Jos Poortvliet은 단일 공급업체에 모든 시스템을 의존하면 장애 발생 시 <strong>다른 서비스로 신속하게 전환하거나, 예비 시스템을 가동하거나, 외부 연결을 끊고 업무를 지속하기 어렵다</strong>고 지적함</li></ul></div>…",
+    "createdAt": "2026-11-14T21:33:00.000+00:00",
+    "link": "https://news.hada.io/topic?id=37175&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
     "title": "Google은 왜 AI를 쓰지 않는 학교의 검색 접근까지 차단하나? 몇 가지 가설",
     "content": "<div><ul><li>Google은 학교가 학생의 검색 결과에서 <strong>AI Overviews를 끄려면 Google Search 접근도 함께 차단해야 한다</strong>는 방침을 밝혀 학부모와 교육계의 반발을 사고 있음</li><li>교실 내 AI 사용을 금지하는 교육구가 늘어나는 가운데, 기술 사용 축소를 요구하는 학부모들도 <strong>검색 기능 상실은 교사에게 문제가 될 것</strong>으로 보고 있음</li><li>전직 Google 직원은 <strong>검색과 AI가 통합 제품이라는 최근 반독점 소송 판단</strong>을 지키려는 선택일 가능성을 제기함. 다만 Google은 관련 질문에 답하지 않았고, 전문가들도 이 가설을 확신하지 않음</li><li>Common Sense Media는 안전하지</li></ul></div>…",
     "createdAt": "2026-11-14T20:43:10.000+00:00",
@@ -66,43 +209,10 @@
     }
   },
   {
-    "title": "KDE: 다큐멘터리 [영상]",
-    "content": "<p>KDE: 다큐멘터리 [영상]</p>\n",
+    "title": "KDE 다큐멘터리: 자유 소프트웨어의 언더독들 이야기 [영상]",
+    "content": "<div><ul><li><strong>KDE</strong>는 사용하기 어려웠던 Linux를 누구나 쓸 수 있는 데스크톱으로 만들려는 시도에서 출발해, 소프트웨어를 통한 자유와 사용자 통제권을 추구하는 커뮤니티로 성장함</li><li><strong>Qt</strong>는 소규모 팀이 완성도 높은 그래픽 환경을 빠르게 만드는 기반이었지만, 초기의 독점 라이선스는 GNOME 탄생과 자유 소프트웨어 진영의 분열을 촉발함</li><li>자원봉사자들의 필요에서 시작한 응용 프로그램과 <strong>KHTML</strong> 브라우저 엔진은 KDE의 범위를 넓혔으며, KHTML은 이후 Safari와 WebKit으로 이어짐</li><li><strong>KDE 4</strong>는 대규모 재설계와 미완성 데스크톱 출시로 심각한 반발을 겪었지</li></ul></div>…",
     "createdAt": "2026-11-14T19:40:32.000+00:00",
     "link": "https://news.hada.io/topic?id=37168&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: 오늘 밤 FAA 전국 이륙 중단 상황을 보여주는 미국 항공편 실시간 지도",
-    "content": "<div><ul><li><strong>Ground Stop Watch</strong>는 미국 상공의 항공기 위치와 출발 현황을 실시간으로 보여주고, 타임라인으로 FAA 전국 이륙 중단과 회복 과정을 다시 살펴볼 수 있는 독립 웹페이지임</li><li><strong>adsb.fi의 ADS-B 추적 데이터</strong>와 FAA 공항 지연 정보를 활용하며, 공항별 출발과 항공사별 운항 규모를 일주일 전 같은 시간대와 비교함</li><li>추적 데이터상 상공의 상업용 항공편은 최저점에서 전주 대비 <strong>96% 감소</strong>했고, 출발 편수가 평소의 4분의 1 미만인 상태가 <strong>5시간 34분</strong> 이어짐</li><li>FAA는 2026년 11월 13일 오후 3시 54분 전국 이륙 중단을 명령하고 오후 8시 15분 해제</li></ul></div>…",
-    "createdAt": "2026-11-14T18:32:06.000+00:00",
-    "link": "https://news.hada.io/topic?id=37167&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "테크 기업들이 프라이버시의 개념을 다시 바꾸려 함",
-    "content": "<div><ul><li>스마트 안경과 녹음형 웨어러블은 <strong>사용자 한 사람의 선택</strong>으로 주변인의 대화와 행동까지 기록하며, 프라이버시 문제를 물리적 일상으로 더 깊이 확장함</li><li>기업의 암호화, 접근 제한, 개인정보 설정 같은 <strong>기술적 보호 약속</strong>은 기기 사용자에게 집중되며, 기록 대상이 된 비사용자가 실질적으로 거부할 방법은 제공하지 못함</li><li>원본 음성을 저장하지 않더라도 <strong>대화 요약과 전사 기록</strong>은 남을 수 있으며, 법 집행기관의 데이터 접근 문제도 피할 수 없음</li><li>눈에 띄는 녹음이나 필기와 달리 <strong>수동 조작 없는 상시 감시</strong>는 지속적인 기록을 장려하고 사용</li></ul></div>…",
-    "createdAt": "2026-11-14T17:33:13.000+00:00",
-    "link": "https://news.hada.io/topic?id=37166&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "누구나 이해할 수 있는 ML 모듈",
-    "content": "<div><ul><li><strong>ML 모듈</strong>은 함수와 타입을 묶는 데 그치지 않고, 모듈 자체에 <strong>시그니처(signature)</strong> 라는 타입을 부여해 공개 인터페이스와 구현을 분리함</li><li>하나의 구현에 <strong>서로 다른 시그니처</strong>를 적용하면 내부 함수를 숨기거나, 일부 기능만 제공하는 모듈로 재사용할 수 있음</li><li><strong>추상 타입</strong>은 내부 자료 표현까지 감춰 외부 코드가 불변 조건을 깨뜨리지 못하게 함</li><li><strong>매개변수화된 모듈</strong>은 다른 모듈을 입력받아 타입과 연산을 함께 전달받으며, <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">include</code>는 작게 나눈 모듈을 다시 조합할 수 있게 함</li><li>빌드 시스템의 캐시와 실행기를 교체하는 사례처럼 <strong>정적 모듈 연</strong></li></ul></div>…",
-    "createdAt": "2026-11-14T17:02:51.000+00:00",
-    "link": "https://news.hada.io/topic?id=37165&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
@@ -118,116 +228,6 @@
     "site": {
       "id": "ca913be8-276c-4183-aa91-3ecb39b7637b",
       "name": "ByteByteGo Newsletter"
-    }
-  },
-  {
-    "title": "Nvidia 이사, Jensen Huang 스캔들 몇 주 전 주식 약 1.3조원 매각",
-    "content": "<div><ul><li>Nvidia의 2대 주주이자 이사인 <strong>Mark Stevens</strong>가 2026년 3분기에 약 420만 주, <strong>약 9억 4,600만 달러($946m)</strong> 규모의 주식을 매각함. Jensen Huang CEO의 11월 12일 사임에 앞선 거래임</li><li>매각에 <strong>사전 거래 계획</strong>은 없었지만, 이것만으로 문제가 있다고 볼 수는 없음. 내부자의 주식 매각에는 회사 실적과 무관한 유동성 확보 등 다양한 이유가 있을 수 있음</li><li>첫 두 차례 매각은 <strong>견조한 2분기 실적 발표</strong>와 이후 주가 상승에 뒤이어 이뤄졌으며, Stevens는 매각 후에도 약 <strong>2,750만 주</strong>를 보유함</li><li>Huang은 Nvidia 임원 Kimberly Powell과의 두 번째 혼</li></ul></div>…",
-    "createdAt": "2026-11-14T15:39:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=37163&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Unsloth Qwen3.8-27B 양자화 모델, Dynamic v3.1 업데이트",
-    "content": "<div><ul><li>Unsloth가 <strong>Dynamic V3.1 프리뷰</strong>를 적용한 Qwen3.8-27B GGUF를 공개함. 자체 평가에서 기존 양자화 모델과 같은 크기로 대부분의 벤치마크 정확도가 5~10% 개선됨</li><li><strong>2~6비트 양자화 모델 대부분</strong>을 갱신했으며, 기존 UD3와 성능이 비슷해 개선 폭이 충분하지 않았던 3비트 모델은 유지함</li><li>Terminal Bench 2.1, DeepSWE v1.1 등으로 평가했으며, <strong>컨텍스트 길이와 반복 측정 횟수</strong>에 따라 다른 양자화 방식과의 비교 결과가 달라질 수 있음을 확인함</li><li>Qwen3.8-27B는 <strong>비전과 추론을 지원하는 270억 매개변수 밀집 모델</strong>로, 기본 256K 컨텍스트를 제공</li></ul></div>…",
-    "createdAt": "2026-11-14T15:36:16.000+00:00",
-    "link": "https://news.hada.io/topic?id=37162&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 - 페르마의 마지막 정리 형식화 실험",
-    "content": "<div><ul><li>Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 돌려, 페르마의 마지막 정리 증명을 Lean으로 형식화하는 데 28.7시간이 걸렸음</li><li>9월 실험(에이전트 수십 개, 연구자 지휘, 11일)과 비교해 출력 토큰은 1/3, 증명 길이는 1/7</li><li>별도 협업 도구 없이 에이전트별 Git 브랜치와 공유 Postgres만 사용. 리드가 첫 10분 안에 Announce / Assign / Notes / Subtasks / Landed 다섯 개 표를 만들었고, 가장 어려운 정리(Langlands–Tunnell)는 헬퍼 약 750개가 붙어 최대 10단계, 2,418개 작업으로 쪼갬</li><li>안전 설</li></ul></div>…",
-    "createdAt": "2026-11-14T14:39:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37159&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "tedkim",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: dashcamsimulator - 실제 사고를 기반으로 만들어진 블랙박스 시뮬레이션 게임",
-    "content": "<div><p>현실에서 사고를 마주했을 땐 이미 늦습니다.</p><p>운전을 시작하면 일반적인 사고부터 기상천외한 사고까지 언제든 마주할 수 있습니다. 기본적인 대응 방법만 미리 숙지해도 많은 사고에 대처할 수 있지만, 준비 없이 사고 직전의 상황을 맞닥뜨리면 제대로 대응하기 어렵다고 생각합니다.</p><p>그래서 잠깐의 놀이가 아니라 진짜 도움이 될 수 있도록, 기본적인 상황부터 국내 실제 사고 사례를 바탕으로 한 장면들까지 시뮬레이션해 볼 수 있는 블랙박스 시뮬레이터를 만들어봤고, 사고 예방에 시뮬레이션만큼 좋은 것이 없다고 생각합니다.</p><p>가</p></div>…",
-    "createdAt": "2026-11-14T14:04:42.000+00:00",
-    "link": "https://news.hada.io/topic?id=37158&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "giyeol",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 321Dive - 여섯 바다를 골라 둘러보는 가상 3D 잠수 공간",
-    "content": "<div><p>힐링이 필요해서 작은 가상 바다를 만들었습니다. 제작자입니다. 직접 가본 다이빙 포인트의 즐거웠던 기억을 더듬으며 조금씩 추가하고 있습니다.</p><p>현재 보홀·말라파스쿠아·몰디브·코모도·시파단·사방·베르데를 선택할 수 있습니다. 바다를 고르고 입수해 둘러볼 수 있고, 혼자 보기와 화면 UI 숨기기 기능도 있습니다.</p><p>실제 현장 촬영물이 아니라 지역에서 영감을 받은 가상 풍경과 3D 공간입니다. 실제 다이빙 경로나 생물 출현을 보장하는 서비스는 아닙니다. 브라우저의 WebGL 지원이 필요합니다.</p><p>체험하면서 조작이나 화면에서 불</p></div>…",
-    "createdAt": "2026-11-14T13:45:21.000+00:00",
-    "link": "https://news.hada.io/topic?id=37157&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "illuwa",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Monkey Island: 13개 버전을 나란히 비교하기",
-    "content": "<div><ul><li><strong>The Secret of Monkey Island(1990)</strong> 의 8개 에디션과 13개 디스플레이 모드를 동일한 12개 장면으로 비교하는 팬 제작 사이트임</li><li>모든 버전에서 <strong>같은 순간과 구도</strong>를 맞춰, 장면이 아닌 기종에 따른 화면 차이를 비교할 수 있음</li><li>화면은 주로 <strong>ScummVM</strong>으로 캡처했으며, Atari ST 흑백 화면만 Hatari 에뮬레이터를 사용함</li><li>캡처에 <strong>최근접 이웃 확대와 4:3 화면비 보정</strong>을 적용해 1600×1200으로 맞추고, 당시 모니터에서 보이던 원본 픽셀의 형태를 유지함</li><li><strong>CRT 보기</strong>는 기종별 모니터 특성에 맞춘 주사선과 형광체 색상 등을 재현하며, DOSBox Sta</li></ul></div>…",
-    "createdAt": "2026-11-14T13:32:33.000+00:00",
-    "link": "https://news.hada.io/topic?id=37156&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "염증을 유발하지 않으면서 노화를 촉진하는 단백질 발견",
-    "content": "<div><ul><li>신체 조직의 <strong>노화를 촉진하는 효소 granzyme K</strong>가 발견됐으며, 이 효소가 없는 고령 생쥐에서 장기 기능 개선이 확인됨</li><li>granzyme K가 없도록 <strong>유전적으로 조작한 고령 생쥐</strong>는 심장과 간 기능이 개선됨</li><li>같은 생쥐에서 <strong>신장 손상</strong>도 줄어듦</li><li>해당 효소가 없는 생쥐에서는 노화에 따른 <strong>간 조직의 경직과 흉터 형성</strong>이 감소함</li><li>이 단백질의 양을 줄이는 약물은 장차 <strong>면역 방어를 저해하지 않고</strong> 노화의 영향에 대응하는 수단이 될 가능성이 있음</li></ul><hr><h2>granzyme K 결핍 생쥐의 장기 변화</h2><ul><li><strong>granzyme K</strong>가 없도록 유전적으로 조작한 고령 생쥐에서 여러 장기의</li></ul></div>…",
-    "createdAt": "2026-11-14T11:31:28.000+00:00",
-    "link": "https://news.hada.io/topic?id=37154&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "ggml v1.0.0 - 폐기 예정 API 제거, FP8 지원과 백엔드 성능 개선",
-    "content": "<div><ul><li><strong>llama.cpp의 텐서 연산 라이브러리 ggml이 1.0.0을 출시</strong>함. 폐기 예정이던 공개 API와 <code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">DIAG_MASK</code> 연산을 제거하고, YaRN 설정과 FP8 지원을 확장</li><li><strong>RPC 프로토콜이 v9로 올라가 이전 버전과의 연결을 거부</strong>하므로, RPC를 쓰는 환경에서는 클라이언트와 서버를 함께 업데이트해야 함</li><li><strong>CUDA</strong>에 OCP FP8 지원과 배치 크기 2~24에 맞춘 양자화 행렬 곱셈을 추가하고, <strong>Metal</strong>에서는 MoE 라우팅 연산을 하나로 합침</li><li><strong>FlashAttention과 MoE 실행 경로</strong>를 여러 백엔드에서 확장해, Intel용 프리필 커널과 장치 측 MoE 스케줄러, Adreno용 분해형 FlashAtt</li></ul></div>…",
-    "createdAt": "2026-11-14T08:33:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37153&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Go의 확률적 자료구조",
-    "content": "<div><ul><li><strong>확률적 자료구조</strong>는 포함 여부, 빈도, 고유 항목 수, 분위수 등에 근삿값을 제공하는 대신 메모리 사용량을 수십 배에서 수천 배까지 줄일 수 있음</li><li><strong>Bloom filter</strong>는 항목이 없다는 사실을 확실히 판별해 불필요한 I/O를 줄이고, <strong>Count-min sketch</strong>는 실제 빈도보다 작지 않은 추정치를 제공함</li><li><strong>HyperLogLog</strong>는 고유 항목 100만 개를 약 0.8% 오차와 16KB 메모리로 집계하며, 여러 스케치를 병합해도 공통 항목을 중복 집계하지 않음</li><li><strong>T-digest</strong>는 숫자 스트림의 분위수와 누적분포를, <strong>Top-k sketch</strong>는 자주 등장하는 항목과 빈도를 추정함. 각각 </li></ul></div>…",
-    "createdAt": "2026-11-14T08:05:04.000+00:00",
-    "link": "https://news.hada.io/topic?id=37152&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show HN: Isometric SF - 샌프란시스코 베이 지역의 픽셀 아트 지도",
-    "content": "<div><ul><li><strong>Isometric SF</strong>는 샌프란시스코 베이 지역을 아이소메트릭 픽셀 아트로 보여주는 지도임</li><li><strong>골든게이트부터 산호세까지</strong> 베이 지역 전체를 담음</li><li>지도를 <strong>확대/축소</strong>하며 살펴볼 수 있음</li><li><strong>검색과 공유</strong> 기능을 지원함</li><li>모든 지도 타일은 <strong>Google Maps 3D 캡처</strong>를 바탕으로 <strong>AI 모델</strong>이 그렸음</li></ul><hr><h2>지도 범위와 제작 방식</h2><ul><li><strong>Isometric SF</strong>는 골든게이트부터 산호세까지 베이 지역 전체를 담은 아이소메트릭 픽셀 아트 지도로, 확대/축소와 검색, 공유가 가능함</li><li><strong>모든 타일</strong>을 AI 모델이 Google Maps의 3D 캡처를 바탕으로 그리는 방식으로 제작함</li></ul></div>",
-    "createdAt": "2026-11-14T07:32:32.000+00:00",
-    "link": "https://news.hada.io/topic?id=37151&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
     }
   },
   {
