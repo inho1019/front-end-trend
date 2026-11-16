@@ -1,7 +1,106 @@
 [
   {
-    "title": "웹사이트가 조작하는 요소 선택기로 발생한 uBlock Origin의 범용 XSS 취약점",
-    "content": "<div><ul><li>Firefox용 <strong>uBlock Origin MV2</strong>에서 악성 웹사이트가 사용자 클릭 한 번으로 임의의 신뢰 필터를 추가하고, 다른 사이트의 컨텍스트에서 JavaScript를 실행할 수 있는 <strong>범용 XSS(UXSS)</strong> 취약점이 발견됐으며 현재는 수정됨</li><li>공격은 확장 프로그램의 설치별 UUID를 알아낸 뒤 <strong>요소 선택기 iframe</strong>을 직접 삽입하고, 메시지를 보내 공격자가 원하는 필터를 입력하는 방식으로 진행됨</li><li>요소 선택기의 필터 제한은 요청 유형을 지정하는 <strong><code onclick=\"\n                navigator.clipboard.writeText(this.innerText);\n                window.dispatchEvent(new CustomEvent('copy-message'));\n            \">opt</code> 필드에 줄바꿈을 삽입</strong>해 우회할 수 있었으며, 이를 통해 스크립트를 주입하는 신뢰 필터를 추가할 수 있었음</li></ul></div>…",
+    "title": "Show GN: MaaC – 악보를 코드로 쓰고 AI가 편곡까지 하게 만든 음악 언어와 Rust CLI",
+    "content": "<div><h3>왜 만들었나</h3><p>저는 노래를 좋아해서 제 곡을 직접 만들어 보고 싶었습니다. 작곡 자체는 생각보다 어렵지 않았습니다. 스케일을 고르고, 코드 진행을 짜고, 멜로디를 붙이고, 가사를 쓰면 되니까요. 어려운 건 편곡이었습니다. 드럼, 베이스, 패드, 기타를 어떻게 얹고 섹션마다 어떻게 변화를 줄지는 완전히 다른 차원의 일이었습니다. 공부량이 엄청나더군요.</p><p>그래서 구글 Lyria와 Suno를 써 봤는데, 제 경우에는 내가 원하는 멜로디를 고정하기가 어려웠습니다. 수노는 유료라 접근성도 떨어졌습니다.</p><p>그러다 생각했습니다. 악보라는 건</p></div>…",
+    "createdAt": "2026-11-16T11:49:34.000+00:00",
+    "link": "https://news.hada.io/topic?id=37285&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "letitflow9093",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Linux 7.4-rc3",
+    "content": "<div><ul><li>Linus Torvalds 가 linux-kernel 목록에 올린 Linux 7.4-rc3 글임.</li><li>변경은 아주 많지만, 실제 패치의 대부분은 작다고 함.</li><li>파일시스템이 diffstat 에 보이는 것은 더 큰 패치가 몇 개 있기 때문이고, iomap 호출 규약 변경은 꽤 사소하지만 크며, smb 클라이언트 수정이 몇 개라고 함.</li><li>selftest 여러 개와 문서 갱신도 있다고 함.</li></ul></div>",
+    "createdAt": "2026-11-16T10:11:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=37282&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "axis0",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "거의 무엇이든 만드는 방법",
+    "content": "<div><ul><li><strong>HTMAA 2026</strong>은 컴퓨터 지원 설계부터 전자회로, 기계 제작, 프로그래밍, 시스템 통합까지 다루는 강의로, 9월 9일부터 12월 15일까지 진행됨</li><li><strong>디지털 제작</strong> 과정에서 컴퓨터 제어 절단과 가공, 3D 스캐닝과 프린팅, 기구 및 기계 설계를 다룸</li><li><strong>전자회로와 소프트웨어</strong> 영역에서는 임베디드 프로그래밍, 회로 설계와 제작, 입출력 장치, 네트워킹, 인터페이스 및 애플리케이션 프로그래밍을 학습함</li><li>별도 <strong>보충 수업</strong>에는 버전 관리, 파라메트릭 설계, 디버깅, AI 에이전트, 엣지 AI, 모터 및 동작 제어 등이 포함됨</li><li>학기 중 <strong>두 차례 검토</strong>를 거쳐 </li></ul></div>…",
+    "createdAt": "2026-11-16T08:32:50.000+00:00",
+    "link": "https://news.hada.io/topic?id=37279&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 별부자 - 칭찬과 별을 주고받는 곳",
+    "content": "<div><p>게임에 빠진 아이를 현실로 데려오기 위해서 현실을 게임처럼 만들기로 했어요.<br> 지각하지 않고 학교에 가도, 청소하는 걸 도와서 걸레질을 해도, 다른 사람을 칭찬해도 별을 받을 수 있어요.<br> 별부자가 되가면서 현실로 돌아오면 좋겠어요.<br> 아직은 게임적인 요소가 적은 순한 맛 버전입니다.<br> 게임 요소를 너무 강하게 넣으면 온라인 게임을 하는 것과 차이가 없을 것 같아서 밸런스 잡는 게 고민이네요.</p></div>",
+    "createdAt": "2026-11-16T07:54:11.000+00:00",
+    "link": "https://news.hada.io/topic?id=37278&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "tobwithu",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Tor Project, 지속적인 DDoS 공격에 대응해 DoS 방어 긴급 수정 배포",
+    "content": "<div><ul><li><strong>Tor 0.4.9.17</strong> 안정 버전이 여러 보안 수정과 함께 출시됐으며, 특히 <strong>IPv6 처리 관련 릴레이 DoS 방어</strong>를 수정함</li><li>이번 릴리스는 네트워크에서 진행 중인 <strong>DDoS 공격</strong>에 대한 긴급 대응으로, 공격은 대부분의 릴레이 운영자에게 영향을 미침</li><li>네트워크 전반의 릴레이가 <strong>대량의 클라이언트 회로</strong>로 과부하 상태에 빠져 있어 대응이 쉽지 않음</li><li><strong>릴레이 운영자는 가능한 한 빨리 업그레이드</strong>해야 하며, 업그레이드 후 별도 조치는 필요 없음</li><li>Tor Project는 <strong>추가 방어책을 검토 중</strong>이며, 가까운 시일 내에 후속 릴리스가 나올 것으로 예상함</li></ul><hr><h2>보안 수정과</h2></div>…",
+    "createdAt": "2026-11-16T07:31:28.000+00:00",
+    "link": "https://news.hada.io/topic?id=37275&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "시드로 생성한 지형을 비행하는 WebGL 비행 시뮬레이터",
+    "content": "<div><ul><li><strong>Baron</strong>은 시드로 생성한 지형에서 이륙, 탐험, 착륙을 즐기는 브라우저 기반 <strong>WebGL 비행 시뮬레이터</strong>임</li><li><strong>터치, 키보드, 게임패드</strong> 조작을 지원하며, 마우스 스틱과 기기 기울이기로도 조종할 수 있음</li><li>스로틀, 플랩, 브레이크, 방향타를 조작하고 <strong>추적 시점과 조종석 시점</strong>을 전환할 수 있음</li><li>비행 계획에서는 이륙부터 착륙까지 <strong>흰색 화살표</strong>를 따라가며, 격납고에서는 기체의 속도와 상승률 등 성능을 확인할 수 있음</li><li>실행에는 <strong>WebGL 2</strong>가 필요하며, 브라우저나 그래픽 드라이버가 지원하지 않으면 최신 브라우저와 하드웨어 가속 활성화를 안내</li></ul></div>…",
+    "createdAt": "2026-11-16T05:36:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=37269&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Salon 저널리즘 30년의 기록 보존하기",
+    "content": "<div><ul><li><strong>Salon</strong>이 창간 31년 만에 발행 중단을 발표했지만, 웹 아카이빙으로 과거 기사에 계속 접근할 수 있음</li><li>1995년 창간한 Salon은 인터넷에서 탄생한 초기 주요 매체 중 하나로, <strong>정치와 문화, 비평</strong>을 결합하며 디지털 저널리즘 형성에 기여함</li><li>Internet Archive의 <strong>Wayback Machine</strong>은 거의 30년 동안 여러 도메인에 걸쳐 Salon의 기록을 보존해 옴</li><li>현재 Wayback Machine에서 <strong>Salon 기사 25만 건 이상</strong>을 찾을 수 있으며, 초기 웹 시대부터 이어진 디지털 저널리즘과 문화적 논의를 담고 있음</li><li>새로 공개한 실험적 <strong>Salon Explorer</strong>에서는 필터를 사용</li></ul></div>…",
+    "createdAt": "2026-11-16T05:33:04.000+00:00",
+    "link": "https://news.hada.io/topic?id=37268&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Show GN: 스택큐브 – 거래처가 카톡·메일·엑셀로 보내는 주문을 한 목록으로 모아 정리하는 도구",
+    "content": "<div><p>도매·유통 회사와 도입 상담을 하면서 가장 많이 들은 말이 \"주문은 카톡으로 오는데 ERP에는 다시 쳐야 한다\"였습니다. 거래처는 카톡 단체방, 개인톡, 문자, 메일, 엑셀, 사진 등 각자 편한 방식으로 주문을 보내고, 담당자는 그걸 매일 옮겨 적습니다. 거래처에 주문 앱을 깔게 하는 방법도 있지만, 오래 거래한 곳일수록 \"그냥 카톡으로 보낼게요\"가 돌아옵니다.</p><p>그래서 거래처 쪽은 그대로 두고 받는 쪽만 바꾸는 도구를 만들었습니다.</p><ul><li>연결한 카톡방·문자·메일·엑셀·PDF·사진 주문이 한 목록에 들어옵니다.</li><li>AI가 품목·수량·단위</li></ul></div>…",
+    "createdAt": "2026-11-16T05:08:43.000+00:00",
+    "link": "https://news.hada.io/topic?id=37267&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "waveon",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "젠슨 황 이후, Nvidia는 어디로 가나?",
+    "content": "<div><ul><li>젠슨 황이 공동 창업 33년 만에 CEO직과 이사회에서 물러남. CFO <strong>콜레트 크레스가 임시 CEO</strong>를 맡고, 이사회는 정식 후임을 찾고 있음</li><li>황은 CUDA, 딥러닝, 통합 AI 데이터센터 시스템으로 회사를 전환하며 <strong>제품뿐 아니라 사업 모델</strong>을 세 차례 바꿈</li><li>Microsoft와 Apple의 사례는 <strong>매출과 이익 증가</strong>가 차세대 시장을 놓치는 문제를 가릴 수 있음을 보여줌</li><li>Google, Amazon, Microsoft 등 최대 고객들이 <strong>자체 AI 칩</strong>을 개발하는 상황에서, 실행 중심 후임 CEO가 Huang의 장기 투자를 먼저 줄일 가능성이 있음</li><li><strong>수주 잔고와 CUDA</strong> 덕분에 향후 2~3년</li></ul></div>…",
+    "createdAt": "2026-11-16T04:39:07.000+00:00",
+    "link": "https://news.hada.io/topic?id=37266&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+    "author": "neo",
+    "site": {
+      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
+      "name": "GeekNews"
+    }
+  },
+  {
+    "title": "Firefox용 uBlock Origin, 클릭 한 번으로 다른 사이트에 스크립트 주입 가능한 취약점 패치",
+    "content": "<div><ul><li>Firefox용 <strong>uBlock Origin MV2</strong>에서 악성 웹사이트가 사용자 클릭 한 번으로 임의의 신뢰 필터를 추가하고, 다른 사이트의 컨텍스트에서 JavaScript를 실행할 수 있는 <strong>범용 XSS(UXSS)</strong> 취약점이 발견됐으며 현재는 수정됨</li><li>1.75.2 이하가 영향 대상이며, 1.75.4에서 수정됨. 요소 선택기를 열 때 확장 프로그램이 발급한 비밀값을 확인하도록 바뀜</li><li>공격은 확장 프로그램의 설치별 UUID를 알아낸 뒤 <strong>요소 선택기 iframe</strong>을 직접 삽입하고, 메시지를 보내 공격자가 원하는 필터를 입력하는 방식으로 진행됨</li><li>요소 선택기의 필터 제한은 요청 유형</li></ul></div>…",
     "createdAt": "2026-11-16T04:36:06.000+00:00",
     "link": "https://news.hada.io/topic?id=37265&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
@@ -34,7 +133,7 @@
   },
   {
     "title": "Qwen4-Max - 네이티브 비전과 100만 토큰 컨텍스트를 갖춘 장기 작업용 AI 모델",
-    "content": "<div><ul><li><strong>Qwen4-Max</strong>는 2.4조 파라미터 백본의 새 Qwen4 아키텍처를 기반으로, 네이티브 비전과 100만 토큰 컨텍스트를 결합해 전문 도구 사용과 장시간 작업 수행을 지원함</li><li>자체 <strong>Work360 평가</strong>에서 Qwen3.8-Max보다 높은 점수를 기록했으며, 토큰 사용량 감소와 API 가격 인하로 작업당 평균 비용이 4.43달러에서 1.67달러로 <strong>62% 줄어듦</strong></li><li><strong>Live Delivery</strong>는 장기 작업에서 사용 가능한 첫 결과물을 일찍 제공하고 후속 버전으로 개선하며, 사용자가 진행 중 오류를 수정하거나 방향을 바꿀 수 있게 함</li><li>게임 개발, 자동차 제조, 금융, 법률, 의료, 과학</li></ul></div>…",
+    "content": "<div><ul><li>Alibaba가 이미지와 영상을 직접 처리하고 <strong>100만 토큰 컨텍스트</strong>를 지원하는 <strong>Qwen4-Max</strong>를 공개함</li><li>2.4조 파라미터 백본의 새 Qwen4 아키텍처를 기반으로, 네이티브 비전과 100만 토큰 컨텍스트를 결합해 <strong>전문 도구 사용과 장시간 작업 수행을 지원</strong></li><li>자체 <strong>Work360</strong> 평가에서 Qwen3.8-Max 대비 점수가 <strong>47.74에서 52.69</strong>로 올랐음. 토큰 사용량과 API 요금이 줄면서 작업당 평균 비용은 <strong>4.43달러에서 1.67달러로 62% 감소</strong></li><li><strong>Live Delivery</strong>는 장기 작업에서 사용 가능한 첫 결과물을 일찍 제공하고 후속 버전으로 개선하며, 사용자가 진행 중 오류를</li></ul></div>…",
     "createdAt": "2026-11-16T03:57:40.000+00:00",
     "link": "https://news.hada.io/topic?id=37262&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
@@ -88,8 +187,8 @@
     }
   },
   {
-    "title": "Jensen Huang, 측근들과 Nvidia CEO 복귀 논의",
-    "content": "<p>Jensen Huang, 측근들과 Nvidia CEO 복귀 논의</p>\n",
+    "title": "젠슨 황, Nvidia CEO 복귀를 위해 실리콘밸리 측근들과 논의 중",
+    "content": "<div><ul><li><strong>Jensen Huang</strong>이 중국 스파이 의혹을 받는 여성 및 부하 직원과의 관계 보도 이후 Nvidia CEO에서 사임한 지 며칠 만에 복귀를 검토 중이며, 실리콘밸리 측근들이 이사회에 복직을 압박하고 있음</li><li>Nvidia 이사회가 Huang의 행위에 대한 <strong>독립 조사</strong>를 진행하는 가운데, 측근들은 실리콘밸리 경영진으로 구성된 대응 조직인 '워룸(war room)'을 꾸리고 백악관의 지지까지 확보하려 하고 있음</li><li><strong>Elon Musk와 Tim Sweeney</strong> 등이 CEO 복귀를 요구하는 공개서한에 동참했으며, 일부 Nvidia 직원들도 서명했지만, 미 재무장관 Scott Bessent는 경영진의 대대적인 교체를 요구함</li></ul></div>…",
     "createdAt": "2026-11-16T02:37:13.000+00:00",
     "link": "https://news.hada.io/topic?id=37254&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "neo",
@@ -115,105 +214,6 @@
     "createdAt": "2026-11-16T02:33:18.000+00:00",
     "link": "https://news.hada.io/topic?id=37252&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
     "author": "hyeongjun",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: agent-monitor - 어느 에이전트 세션이 내 답을 기다리는지 보여주는 macOS 메뉴바 앱",
-    "content": "<div><p>터미널에서 Claude Code나 Codex 세션 여럿을 띄워 놓고 일하다 보면 어느 세션이 작업을 마치고 제 응답을 기다리는지 놓치곤 했습니다. 승인 요청을 띄운 채 한참 기다리던 세션을 뒤늦게 발견하는 일이 잦아서 만들었습니다.</p><p>메뉴바에는 '2/5'처럼 숫자가 표시됩니다. 실행 중인 세션 5개 중 2개가 제 응답을 기다린다는 뜻입니다. 기다리는 세션이 없으면 숫자가 흐려지고, 클릭하면 응답이 필요한 세션부터 목록에 표시됩니다.</p><p>주요 기능은 다음과 같습니다.</p><ul><li><strong>여러 앱의 세션을 한곳에 모읍니다.</strong> 터미널의 Claude Code나 Codex, Clau</li></ul></div>…",
-    "createdAt": "2026-11-16T02:32:57.000+00:00",
-    "link": "https://news.hada.io/topic?id=37251&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "centell",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "국토부, 구글의 1:5,000 지도 국외 반출 보안조건 이행 확인",
-    "content": "<div><ul><li>정부가 11월 13일 <strong>구글의 1:5,000 고정밀 지도 국외 반출에 붙인 보안조건의 이행 결과</strong>를 확인. 반출은 지난 2월 27일 조건부로 허가했음</li><li><strong>기본 바탕지도와 길찾기에 필요한 도로망 데이터</strong>가 반출 대상임. 국내 제휴사가 국내 서버에서 가공하고, 정부 검토를 거쳐 국외로 보낼 수 있음. 국내 제휴사는 <strong>티맵모빌리티</strong></li><li>구글 지도와 구글 어스에서 <strong>한국 영토의 위도·경도 표시를 제한</strong>함. 군사·보안시설을 가린 영상은 국토지리정보원이 처리하며, 구글은 국내 제휴사로부터 받는 즉시 기존 영상을 교체해야 함</li><li>정부는 영상과 데이터의 반출 과</li></ul></div>…",
-    "createdAt": "2026-11-16T01:50:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37249&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Show GN: 프로젝트 엘리브 - 빠르고 저렴하게 도메인 등록하기",
-    "content": "<div><p>몇 년간 GeekNews 눈팅만 하다가 드디어 첫 글을 Show GN으로 올려봅니다!</p><p>\"프로젝트 엘리브\"는 2024년에 스타트업한 기업으로,<br> 도메인네임과 인스턴스(VPS)를 주력으로 CDN과 인프라 서비스를 제공하고 있습니다.</p><h3>도메인네임 서비스</h3><p>2024년부터 운영해 온 서비스로, 현재 4만 개 이상의 도메인을 등록·관리하고 있습니다.<br> 국내외 여러 Registrar와 파트너십을 맺어 공급 라인을 확보했고, 덕분에 합리적인 가격을 유지하고 있습니다.</p><p>2026년 들어 .kr을 포함한 여러 TLD의 가격이 인상되었지만,<br> 프로젝트 엘리브에서는 .kr 도메인은 </p></div>…",
-    "createdAt": "2026-11-16T01:40:49.000+00:00",
-    "link": "https://news.hada.io/topic?id=37248&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "seiha106",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "손글씨를 폰트로",
-    "content": "<div><ul><li><strong>Ductus</strong>는 브라우저에서 글자를 직접 써서 자신의 손글씨를 폰트로 만드는 도구임</li><li>만든 폰트는 <strong>OTF와 WOFF2</strong> 형식으로 다운로드할 수 있음</li><li><strong>계정이나 업로드가 필요 없으며</strong>, 작성한 글자는 사용자 기기에 남음</li><li>기존 폰트를 끌어다 열 수 있지만, <strong>Ductus로 만든 폰트만</strong> 지원함</li><li>글자 작성 화면은 소문자 26개 중 첫 번째인 <strong>a</strong>를 쓰도록 안내함</li></ul><hr><h2>손글씨 작성과 폰트 파일 처리</h2><ul><li><strong>Ductus</strong>는 브라우저에서 각 글자를 손으로 작성하고, 결과를 <strong>OTF와 WOFF2</strong> 폰트로 내려받는 도구임</li><li><strong>계정 없이</strong> 사용할 수 있으며, 글자를 업로드하지 않고 사용자 기기에 보</li></ul></div>…",
-    "createdAt": "2026-11-16T01:36:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=37247&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Jensen Huang, Nvidia CEO로 복귀할 가능성",
-    "content": "<div><ul><li>Financial Times(FT)에 따르면 Jensen Huang은 <strong>Nvidia CEO 복귀</strong>를 검토하며 측근들과 가능성을 논의함</li><li>Huang의 한 우군은 복귀 로비를 위해 <strong>실리콘밸리 경영진으로 구성된 상황실</strong>을 꾸리고 있으며, 백악관의 지지도 확보하려 한다고 밝힘</li><li>FT는 앞서 Nvidia 이사회가 후임 후보를 찾는 과정에서 <strong>Arm Holdings CEO Rene Haas</strong>에게 접촉했다고 전함</li><li>Huang은 <strong>혼외관계가 드러난 뒤 목요일 사임</strong>했으며, 상대 중 중국 스파이로 의심받는 인물이 포함돼 첨단 AI 칩의 중국 수출을 둘러싼 의문이 불거짐</li><li>복귀 논의는 <strong>FT가 인용한 관계자들의 전언</strong>에</li></ul></div>…",
-    "createdAt": "2026-11-16T01:33:07.000+00:00",
-    "link": "https://news.hada.io/topic?id=37246&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "X.com을 처음부터 다시 구축하기 - 서버 3개를 하나로",
-    "content": "<div><ul><li>X가 기존 웹 애플리케이션을 <strong>5명의 엔지니어와 AI 코딩 에이전트</strong>를 활용해 6개월 이내에 재구축함. 기존의 사용자·검색 크롤러·링크 미리보기용 서버 3개를 하나로 통합했으며, 비로그인 서비스 전환을 완료하고 로그인 서비스도 국가별로 순차 전환 중임</li><li>기존 React 기반 <strong>클라이언트 렌더링</strong>은 HTML 셸과 JavaScript를 다운로드·실행한 뒤 GraphQL 데이터를 요청해야 했음. 새 구조는 <strong>스트리밍 서버 렌더링(SSR)</strong> 으로 첫 응답부터 실제 콘텐츠를 전달하고, 서버에서 가져온 데이터를 브라우저가 재사용하도록 변경함</li><li>느린 네트워크의 로그인 프로필 테스트에서 첫 게시물 표시 시간이 <strong>23.9초에서 2.7초</strong>로 단축됨. 별도 벤치마크에서는 프로필·게시물이 8~13배 빨리 표시됐으며, 페이지 전체의 압축 JavaScript 다운로드량도 4.1~4.8MB에서 1.3~2.3MB로 감소함</li></ul></div>…",
-    "createdAt": "2026-11-16T01:20:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37245&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "새로운 풀스택 디자이너 - Figma 스케치에서 작동하는 데모까지",
-    "content": "<div><ul><li>AI가 구현을 가속하면서 디자이너의 역할은 <strong>직접 만들고 시험하며 선별하는 쪽으로 확장</strong>되고 있음. Shopify의 제품 디자인 스튜디오는 Figma의 정적인 화면에서 Codex와 Claude Code로 만든 작동하는 데모로 빠르게 이동함</li><li><strong>최종 품질과 판단은 여전히 사람의 책임</strong>임. AI에 복잡한 작업을 한꺼번에 맡기기보다 구성 요소로 나누고, 결과를 반복적으로 검토하며 원하는 시각적 품질과 상호작용으로 이끌어야 함</li><li>Shopify는 관리자 화면을 새롭게 다듬는 동시에 <strong>Sidekick과의 대화로 스토어를 조작하는 경험</strong>을 탐색함. 디자이너가 직접 만드는 프로토타입은 아이디어를 공유하고 조직의 합의를 얻는 수단이지만, 프로덕션 코드는 아님</li></ul></div>…",
-    "createdAt": "2026-11-16T01:00:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37244&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "AI 시대, 새로운 게임 개발자는 어떻게 탄생할까",
-    "content": "<div><ul><li>AI는 <strong>인디 개발자, 도구 제작자, 세계를 구축하는 스튜디오</strong>를 대체하기보다 세 유형 모두의 작업을 가속할 수 있음</li><li>AI 에이전트는 <strong>Blender로 에셋을 만들고, 게임 엔진에서 장면을 구성하고, 스크린샷을 보며 수정</strong>하는 작업을 오갈 수 있음. 1인 개발자도 부족한 기술을 보완해 아이디어가 실제로 재미있는지 플레이 가능한 프로토타입으로 일찍 확인할 수 있음</li><li>AI의 활용 범위는 새 게임 제작뿐 아니라 <strong>기존 게임의 확장과 복원</strong>까지 넓어지고 있으며, <strong>소스 코드가 사라진 옛 게임</strong>도 남아 있는 기획 문서와 실행 파일로 되살릴 수 있음</li><li>대</li></ul></div>…",
-    "createdAt": "2026-11-16T00:50:02.000+00:00",
-    "link": "https://news.hada.io/topic?id=37243&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
-    "site": {
-      "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
-      "name": "GeekNews"
-    }
-  },
-  {
-    "title": "Ask HN: Stripe가 1,500달러 청구 한 번 만에 계정을 폐쇄했고, 증빙은 한 번도 요청하지 않았습니다",
-    "content": "<div><ul><li>주택 소유자와 지역 시공업체의 예약을 연결하고 <strong>실제로 진행된 약속 건별로 과금</strong>하는 소규모 사업체에서 발생한 사례임. 첫 고객이 녹음된 통화로 동의하고 1달러 Stripe 결제 링크로 카드를 저장했으나, 몇 주 뒤 완료된 약속 3건에 대해 <strong>1,500달러를 청구</strong>하자 결제가 차단됐고 이틀 뒤 고객이 승인한 결제로 보이지 않는다는 이유로 계정이 폐쇄됨</li><li>대시보드로 이의신청서, 회사 서류, 청구서를 제출했지만 다음 날 수용할 수 없는 위험 수준이라는 이유로 거절됐으며, 지원팀 문의와 Stripe 직원의 내부 상향 전달 이후에도 결정이 유지됨. <strong>통화 녹음, 고객과 주고받은 메시지, 고객의 직접 확인</strong>은 한 번도 요청받지 않았음. 사업체가 아는 한 고객은 결제에 이의를 제기하지 않았으며, Stripe 외부에서 은행 송금으로 지불하겠다고 한 상태임</li><li>신규 계정에서 1달러 시험 결제보다 훨씬 큰 첫 청구를 진행하고 저장된 카드로 나중에 결제한 방식이 문제로 보였을 가능성을 인정하며, 구체적인 수정 사항이 있다면 고칠 의향이 있음. 고객과의 통화까지 포함해 <strong>증빙을 검토할 Stripe 담당자</strong>를 찾고 있으며, 매번 결제 링크가 있는 청구서를 보내거나 청구 전 이메일 확인을 받는 등 <strong>무단 결제로 보이지 않는 건별 과금 방식</strong>에 대한 경험과 조언을 구함</li></ul></div>…",
-    "createdAt": "2026-11-16T00:44:45.000+00:00",
-    "link": "https://news.hada.io/topic?id=37242&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
-    "author": "neo",
     "site": {
       "id": "a21395ce-17fc-4934-9882-c09059b4ec7c",
       "name": "GeekNews"
